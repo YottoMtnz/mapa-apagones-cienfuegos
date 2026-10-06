@@ -11,14 +11,17 @@ def _limpiar(s):
 
 def parse_cienfuegos(texto):
     circuitos = {}
-    # Dividir por marcadores de circuito (👉C-31, C-31, etc.)
-    partes = re.split(r'[👉📌⚡]*\s*\bC[-_ ]?(\d{1,4})\b', texto, flags=re.IGNORECASE)
+    # Robusto: busca C-XXX en cualquier parte, sin importar emojis o formato previo.
+    # Divide el texto por cada identificador de circuito.
+    partes = re.split(r'\bC[-_ ]?(\d{1,4})\b', texto, flags=re.IGNORECASE)
     # partes[0] es el encabezado, luego alternan: numero, lugares, numero, lugares...
     for i in range(1, len(partes), 2):
         num = partes[i]
         lugares_txt = partes[i+1] if i+1 < len(partes) else ""
-        # Cortar en el siguiente marcador o fin de línea doble
+        # Solo la primera línea (los lugares van en la misma línea del circuito)
         lugares_txt = lugares_txt.split("\n")[0]
+        # Quitar emojis y símbolos del inicio
+        lugares_txt = re.sub(r'^[^\wáéíóúñÁÉÍÓÚÑ]+', '', lugares_txt)
         lugares = [_limpiar(l) for l in lugares_txt.split(",")]
         lugares = [l for l in lugares if l and len(l) < 60 and not re.search(r'(afectaci|deficit|capacidad|generaci|MW|restablec|disculp|ofrecemos|se comunica)', l, re.I)]
         if lugares:
@@ -29,12 +32,15 @@ def parse_artemisa(texto):
     circuitos = {}
     if "afectados por d" not in texto.lower() and "ficit de generaci" not in texto.lower():
         return circuitos
-    for m in re.finditer(r'➡️\s*(\d{2,5})\s*([^\n➡️]*)', texto):
+    # Robusto: número de circuito tras cualquier prefijo (emoji, viñeta, etc.)
+    for m in re.finditer(r'[^\d\w](\d{2,5})\s*([^\n]{0,80})', texto):
         lugar = _limpiar(m.group(2))
         # Filtrar notas como "(manipulado)" que no son lugares
         if re.fullmatch(r'\(?[^a-zA-Záéíóúñ]*\)?', lugar) or "manipulado" in lugar.lower():
             lugar = ""
-        circuitos[m.group(1)] = [lugar] if lugar else []
+        # No duplicar si ya existe
+        if m.group(1) not in circuitos:
+            circuitos[m.group(1)] = [lugar] if lugar else []
     return circuitos
 
 def parse_camaguey(texto):
@@ -91,10 +97,10 @@ def parse_mayabeque(texto):
     circuitos = {}
     if "se afecta el servicio en" not in texto.lower():
         return circuitos
-    # Líneas que empiezan con * después del keyword
+    # Líneas con viñetas (*, -, •, 👉, etc.) después del keyword
     idx = texto.lower().find("se afecta el servicio en")
     seccion = texto[idx:]
-    for m in re.finditer(r'^\s*\*\s*([^\n*]+)', seccion, re.M):
+    for m in re.finditer(r'^[^a-zA-Záéíóúñ\d]*([A-ZÁÉÍÓÚÑ][^\n]{2,58})', seccion, re.M):
         nombre = _limpiar(m.group(1))
         if nombre and len(nombre) < 60 and not re.search(r'(afectaci|deficit|capacidad|MW)', nombre, re.I):
             circuitos[nombre] = []
