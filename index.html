@@ -209,8 +209,8 @@ async function cargar(prov, mover=true){
   layerGroup.clearLayers();
   try{
     const [circ, est] = await Promise.all([
-      fetch(`data/circuitos_${prov}.json`).then(r=>r.json()),
-      fetch(`data/estado_${prov}.json`).then(r=>r.json()).catch(()=>({afectados:{},programados:{}}))
+      fetch(`data/circuitos_${prov}.json?v=${Date.now()}`).then(r=>r.json()),
+      fetch(`data/estado_${prov}.json?v=${Date.now()}`).then(r=>r.json()).catch(()=>({afectados:{},programados:{}}))
     ]);
     datosCache = {circ, est};
     renderizar();
