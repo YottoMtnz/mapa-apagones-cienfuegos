@@ -228,10 +228,15 @@ function renderizar(){
   let n={afect:0,prog:0,ok:0,desc:0}, pines=0; const sinUbicar=[]; const jobs=[];
   for(const id of ids){
     const c=circ[id], st=estadoDe(id,est,datosOk);
-    n[st]++;
     if(filtroActual==='ahora' && st!=='afect') continue;
     if(filtroActual==='programados' && st!=='prog') continue;
-    if(!c.ubicado || !(c.puntos||[]).length){ sinUbicar.push({id,st,zonas:(est.afectados&&est.afectados[id])||(est.programados&&est.programados[id])||[]}); continue; }
+    if(!c.ubicado || !(c.puntos||[]).length){
+      sinUbicar.push({id,st,zonas:(est.afectados&&est.afectados[id])||(est.programados&&est.programados[id])||[]});
+      n[st]++;  // Contar como 1 aunque no tenga pin
+      continue;
+    }
+    // Contar PUNTOS (localidades), no circuitos — es lo que ve el usuario
+    n[st] += c.puntos.length;
     for(const pt of c.puntos){ jobs.push({id,c,st,pt}); }
   }
   const parpadeo = jobs.length<=MAX_PINES_PARPADEO;
