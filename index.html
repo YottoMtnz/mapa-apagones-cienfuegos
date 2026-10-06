@@ -298,9 +298,11 @@ function renderizar(){
     const nota = corr ? '<br><i style="color:#38bdf8">✏️ Corregido por ti</i>'
       : dudoso ? '<br><i style="color:#f59e0b">⚠️ Ubicación por confirmar</i>'
       : pt.precision==='ciudad' ? '<br><i style="color:#9aa4b8">📍 Ubicación a nivel de pueblo/ciudad</i>' : '';
+    const repBadge = badgeReporte(id, st);
     mk.bindPopup(
       `${BADGE[st]}<br><b style="font-size:15px">${esc(pt.lugar || `Circuito ${id}`)}</b>` +
-      nota + extra);
+      nota + extra + repBadge +
+      `<br><button class="pbtn" data-reportar="${esc(id)}" data-lugar="${esc(pt.lugar||'')}" style="margin-top:8px">📢 Reportar</button>`);
     mk.on('dragend',()=>onDragEnd(mk));
     pines++;
   }
@@ -389,6 +391,93 @@ if(navigator.geolocation){
     if(id && d<250){ sel.value=id; cargar(id,true); } else volar([lat,lng],10);
   },()=>{},{timeout:10000});
 }
+
+
+// === Sistema de reportes via Telegram ===
+const TG_BOT = '8844656307:AAHUxPb7LnDz2vPef57uwZ8lmeKs8vyimAc';
+const TG_CHAT = '6161812537';
+const REP_VIGENCIA = 2*60*60*1000;
+let reportesCache = [];
+
+function hashUser(){
+  let h = localStorage.getItem('mu_hash');
+  if(!h){ h = Math.random().toString(36).slice(2,10); localStorage.setItem('mu_hash', h); }
+  return h;
+}
+
+async function cargarReportes(){
+  try{
+    const r = await fetch(`https://api.telegram.org/bot${TG_BOT}/getUpdates`, {cache:'no-store'});
+    const d = await r.json();
+    if(!d.ok) return;
+    const ahora = Date.now();
+    reportesCache = [];
+    for(const u of (d.result||[])){
+      const m = u.message || u.channel_post || {};
+      const txt = m.text || '';
+      if(!txt.startsWith('📢 REPORTE')) continue;
+      try{
+        const lines = txt.split('\n');
+        const rep = {};
+        for(const l of lines.slice(1)){
+          const [k,v] = l.split('=');
+          if(k && v) rep[k.trim()] = v.trim();
+        }
+        const ts = parseInt(rep.ts||'0')*1000;
+        if(ahora - ts < REP_VIGENCIA && rep.circuito){
+          reportesCache.push({circuito_id:rep.circuito, lugar:rep.lugar||'', tipo:rep.tipo, timestamp:ts});
+        }
+      }catch(e){}
+    }
+    renderizar();
+  }catch(e){}
+}
+
+function badgeReporte(id, canalSt){
+  const ahora = Date.now();
+  const reps = reportesCache.filter(r => r.circuito_id===id && ahora - r.timestamp < REP_VIGENCIA);
+  if(!reps.length) return '';
+  // Regla 30 min: si el canal tiene evento fresco, no contradecir
+  // (simplificado: si hay reporte del canal reciente, no mostrar)
+  const on = reps.filter(r=>r.tipo==='on').length;
+  const off = reps.filter(r=>r.tipo==='off').length;
+  const canalOff = (canalSt==='sin' || canalSt==='prog');
+  // Solo mostrar si contradice
+  if(canalOff && off>0) return ''; // ambos dicen no hay
+  if(!canalOff && on>0) return ''; // ambos dicen hay
+  if(canalOff && on>0) return `<br><span style="background:#fef3c7;color:#92400e;padding:2px 8px;border-radius:10px;font-size:12px">⚡ ${on} usuario${on>1?'s':''} dice${on>1?'n':''} que SÍ hay</span>`;
+  if(!canalOff && off>0) return `<br><span style="background:#fee2e2;color:#991b1b;padding:2px 8px;border-radius:10px;font-size:12px">⚠️ ${off} usuario${off>1?'s':''} dice${off>1?'n':''} que NO hay</span>`;
+  return '';
+}
+
+async function enviarReporte(circuitoId, lugar, tipo){
+  const ts = Math.floor(Date.now()/1000);
+  const txt = `📢 REPORTE\ncircuito=${circuitoId}\nlugar=${lugar}\ntipo=${tipo}\nts=${ts}\nuser=${hashUser()}`;
+  try{
+    await fetch(`https://api.telegram.org/bot${TG_BOT}/sendMessage`, {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({chat_id: TG_CHAT, text: txt})
+    });
+    alert(tipo==='on' ? '✅ Gracias por reportar que SÍ hay corriente' : '✅ Gracias por reportar que NO hay corriente');
+    setTimeout(cargarReportes, 2000);
+  }catch(e){ alert('Error al enviar'); }
+}
+
+// Diálogo de reporte
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-reportar]');
+  if(!b) return;
+  const cid = b.dataset.reportar, lug = b.dataset.lugar;
+  if(confirm(`¿Hay corriente en ${lug||cid}?\n\nOK = ✅ Sí hay\nCancelar = ❌ No hay`)){
+    enviarReporte(cid, lug, 'on');
+  } else {
+    enviarReporte(cid, lug, 'off');
+  }
+});
+
+// Recargar reportes cada 2 min
+setInterval(cargarReportes, 120000);
 
 </script>
 </body>
