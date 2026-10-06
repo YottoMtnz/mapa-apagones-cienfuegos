@@ -134,9 +134,11 @@ def analizar_mensajes(prov, mensajes, ahora):
                 continue
             if not est["reporte_vencido"]:
                 # Distinguir: "Actualización" (lista completa, reemplaza)
-                # vs "avería/continúan" (adicional, se suma)
+                # vs "continúan en avería" (lista completa de fallas, reemplaza)
+                # vs "avería" nueva (adicional, se suma)
                 t_lower = texto.lower()
                 es_actualizacion = "actualizaci" in t_lower
+                es_lista_averias = "continuan en averia" in t_lower or "continúan en avería" in t_lower
                 # Inicializar sets de seguimiento
                 if "_deficit_ids" not in est:
                     est["_deficit_ids"] = set()
@@ -149,9 +151,11 @@ def analizar_mensajes(prov, mensajes, ahora):
                         est["_visto_actualizacion"] = True
                         est["_actualizacion_fecha"] = fecha
                         # Nueva actualización: los no listados se restablecieron
+                        # PERO solo si no tienen avería activa
                         for cid in list(est["_deficit_ids"]):
                             if cid not in r and cid in est["afectados"]:
-                                del est["afectados"][cid]
+                                if cid not in est["_averia_ids"]:
+                                    del est["afectados"][cid]
                         est["_deficit_ids"] = set(r.keys())
                     else:
                         # ¿Es parte de la misma ráfaga? (menos de 3 min de diferencia)
@@ -166,8 +170,16 @@ def analizar_mensajes(prov, mensajes, ahora):
                             # Actualización vieja separada: ignorar
                             continue
                 else:
-                    # Avería: se suma
-                    est["_averia_ids"].update(r.keys())
+                    if es_lista_averias:
+                        # "continúan en avería" = lista completa: las que no están se resolvieron
+                        for cid in list(est["_averia_ids"]):
+                            if cid not in r and cid in est["afectados"]:
+                                if cid not in est["_deficit_ids"]:
+                                    del est["afectados"][cid]
+                        est["_averia_ids"] = set(r.keys())
+                    else:
+                        # Avería nueva: se suma
+                        est["_averia_ids"].update(r.keys())
                 # Merge (sin duplicar)
                 for cid, zonas in r.items():
                     if cid not in est["afectados"]:
