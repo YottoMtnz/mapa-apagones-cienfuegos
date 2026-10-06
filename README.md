@@ -13,4 +13,4 @@ Mapa interactivo en vivo de los apagones en la provincia de Cienfuegos, Cuba.
 
 ## Créditos
 
-Desarrollado por [Fraudy Martinez (YottoMtnz)](https://github.com/YottoMtnz)
+Desarrollado por [Fraudy Martinez Madruga (YottoMtnz)](https://github.com/YottoMtnz)
