@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa de Apagones — Cienfuegos</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,'Segoe UI',Roboto,sans-serif;background:#0b0f1a;color:#e8ecf4}
+  #map{height:100vh;width:100%}
+  .panel{position:fixed;top:12px;left:12px;z-index:1000;background:rgba(10,14,26,.92);border:1px solid #2dd4bf33;border-radius:14px;padding:14px 16px;max-width:320px;backdrop-filter:blur(8px)}
+  .panel h1{font-size:18px;color:#5eead4;margin-bottom:4px}
+  .panel .sub{font-size:12px;color:#9aa4b8;margin-bottom:10px}
+  .stats{display:flex;gap:10px;margin-bottom:8px}
+  .stat{flex:1;background:#141b2e;border-radius:10px;padding:8px;text-align:center}
+  .stat b{font-size:20px;display:block}
+  .stat span{font-size:11px;color:#9aa4b8}
+  .stat.red b{color:#f87171}.stat.green b{color:#4ade80}
+  .updated{font-size:11px;color:#6b7280}
+  .credits{font-size:11px;color:#6b7280;margin-top:8px;line-height:1.5}
+  .credits a{color:#5eead4;text-decoration:none}
+  .dot{border-radius:50%;border:2px solid #fff3}
+  .dot.red{background:#ef4444;animation:blink 1.2s infinite}
+  .dot.green{background:#22c55e}
+  @keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.8)}}
+  .leaflet-popup-content{font-size:13px;line-height:1.5}
+  .leaflet-popup-content b{color:#0b0f1a}
+  @media(max-width:600px){.panel{max-width:250px;padding:10px 12px}.panel h1{font-size:15px}}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="panel">
+  <h1>⚡ Mapa de Apagones</h1>
+  <div class="sub">Provincia de Cienfuegos, Cuba — en vivo</div>
+  <div class="stats">
+    <div class="stat red"><b id="cAfect">–</b><span>Sin servicio</span></div>
+    <div class="stat green"><b id="cOk">–</b><span>Con servicio</span></div>
+  </div>
+  <div class="updated" id="upd">Cargando…</div>
+  <div class="credits">
+    Datos: <a href="https://t.me/empresaelectricacienfuegos1" target="_blank">Empresa Eléctrica Cienfuegos</a> (Telegram)<br>
+    Desarrollado por <a href="https://github.com/YottoMtnz" target="_blank">Fraudy Martinez</a>
+  </div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const map = L.map('map').setView([22.15, -80.45], 10);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap'}).addTo(map);
+
+async function cargar(){
+  const [circ, est] = await Promise.all([
+    fetch('data/circuitos.json').then(r=>r.json()),
+    fetch('data/estado.json').then(r=>r.json()).catch(()=>({afectados:{}}))
+  ]);
+  const afectados = est.afectados || {};
+  let nAfect = 0, nOk = 0;
+  const porMun = {};
+  for(const [id, c] of Object.entries(circ)){
+    const esAfect = !!afectados[id];
+    if(esAfect){ nAfect++; porMun[c.municipio]=(porMun[c.municipio]||0)+1; }
+    else nOk++;
+    const color = esAfect ? 'red' : 'green';
+    const icon = L.divIcon({className:'', html:`<div class="dot ${color}" style="width:18px;height:18px"></div>`, iconSize:[18,18]});
+    const lugares = c.lugares.join(', ');
+    const estadoTxt = esAfect ? '🔴 <b>SIN SERVICIO</b>' : '🟢 <b>Con servicio</b>';
+    let detalleAfect = '';
+    if(esAfect && afectados[id].length) detalleAfect = `<br>Zonas reportadas: ${afectados[id].join(', ')}`;
+    L.marker([c.lat, c.lng], {icon}).addTo(map)
+      .bindPopup(`${estadoTxt}<br><b>Circuito ${id}</b><br>${lugares}<br><i>${c.municipio}</i>${detalleAfect}`);
+  }
+  document.getElementById('cAfect').textContent = nAfect;
+  document.getElementById('cOk').textContent = nOk;
+  const f = est.actualizado ? new Date(est.actualizado).toLocaleString('es') : '—';
+  let munTxt = Object.entries(porMun).map(([m,n])=>`${m}: ${n}`).join(' · ');
+  document.getElementById('upd').textContent = `Actualizado: ${f}` + (munTxt ? ` | ${munTxt}` : '');
+}
+cargar();
+setInterval(cargar, 5*60*1000);
+</script>
+</body>
+</html>
