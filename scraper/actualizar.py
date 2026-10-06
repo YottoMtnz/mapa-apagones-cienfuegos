@@ -86,11 +86,39 @@ def analizar_mensajes(prov, mensajes, ahora):
             # El mensaje más reciente relevante dice que no hay afectaciones
             afectados_visto = True
             est["sin_afectaciones"] = True
+            est["afectados"] = {}
             est["reporte_fecha"] = fecha.isoformat()
             continue
         r = parser(texto)
         if not r:
             continue
+        # Expandir marcadores MUN:xxx a circuitos reales (inferencia lógica)
+        # Ej: "MUN:vertientes" -> circuitos cuyos lugares mencionan Vertientes
+        r_exp = {}
+        for cid, zonas in r.items():
+            if cid.startswith("MUN:"):
+                mun = cid[4:].lower()
+                # Buscar en catálogo circuitos con lugares que coincidan
+                try:
+                    cat = json.load(open(os.path.join(BASE, "data", f"circuitos_{prov}.json")))
+                    for rcid, rc in cat.get("circuitos", {}).items():
+                        for lug in rc.get("lugares", []):
+                            # Normalizar: sin acentos, minúsculas
+                            import unicodedata
+                            nl = unicodedata.normalize('NFD', lug.lower()).encode('ascii', 'ignore').decode()
+                            nm = unicodedata.normalize('NFD', mun).encode('ascii', 'ignore').decode()
+                            if nm in nl or nl in nm:
+                                if rcid not in r_exp:
+                                    r_exp[rcid] = rc.get("lugares", [])
+                                break
+                except:
+                    pass
+                # Si no hay match, usar el municipio como zona genérica
+                if not any(k for k in r_exp if k != cid):
+                    r_exp[cid] = zonas
+            else:
+                r_exp[cid] = zonas
+        r = r_exp
         tipo = detectar_tipo(texto)
         if tipo == "programado" and not est["programados"]:
             est["programados"] = r
@@ -101,6 +129,9 @@ def analizar_mensajes(prov, mensajes, ahora):
                 est["reporte_fecha"] = fecha.isoformat()
                 if ahora - fecha > timedelta(hours=MAX_EDAD_H):
                     est["reporte_vencido"] = True      # demasiado viejo: no se muestra como actual
+            # Si ya se declaró "sin afectaciones", no mezclar mensajes viejos
+            if est.get("sin_afectaciones"):
+                continue
             if not est["reporte_vencido"]:
                 # MERGE: combinar con mensajes anteriores (avería + déficit)
                 # en vez de reemplazar
