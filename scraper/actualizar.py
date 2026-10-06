@@ -1,17 +1,27 @@
 """
-Scraper multi-provincia de apagones en Cuba.
-Lee los últimos mensajes de cada canal, extrae circuitos afectados
-y actualiza data/estado_<prov>.json
+Scraper multi-provincia de apagones en Cuba (capa DINÁMICA).
+Lee los últimos mensajes de cada canal de Telegram, extrae circuitos afectados y
+escribe data/estado_<prov>.json.
 
-Variables de entorno:
-  TG_SESSION  - session string de Telethon
-  TG_API_ID   - api_id de my.telegram.org
-  TG_API_HASH - api_hash de my.telegram.org
+Variables de entorno: TG_SESSION, TG_API_ID, TG_API_HASH (GitHub Secrets).
+Opcionales: MAX_EDAD_HORAS (def. 12), HEARTBEAT_MIN (def. 60).
+
+Garantías (lo que antes fallaba):
+  * Si falla la lectura de una provincia se CONSERVA su estado anterior (antes se
+    sobrescribía con afectados vacíos => todo "con servicio" por un fallo de red).
+  * Una lista de afectados más vieja que MAX_EDAD_HORAS se descarta (antes un reporte
+    de hace días seguía en rojo). Se marca reporte_vencido=true.
+  * Un mensaje posterior que dice "sin afectaciones" cierra la lista anterior.
+  * estado_datos = "ok" | "sin_reporte_reciente" | "sin_fuente" | "error": el mapa solo
+    pinta VERDE con "ok". Matanzas/Pinar/Guantánamo no tienen parser => "sin_fuente".
+  * Solo se reescribe el archivo si cambia el contenido, o si la última marca de
+    tiempo supera HEARTBEAT_MIN. Evita ~288 commits diarios sin cambios.
 """
-import os, json, sys
+import os, json, sys, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from parsers import PARSERS, parse_matanzas_restaurados, detectar_tipo, extraer_info_extra, _norm_id
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+from parsers import PARSERS, SIN_AFECTADOS, SIN_AFECTACION, detectar_tipo, extraer_info_extra, _norm_id
+from provincias import PROVINCIAS
 
 CANALES = {
     "pinar-del-rio": "elecpinar",
@@ -31,6 +41,127 @@ CANALES = {
     "guantanamo": "elecguantanamo",
 }
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MAX_EDAD_H = float(os.environ.get("MAX_EDAD_HORAS", "12"))
+HEARTBEAT_MIN = float(os.environ.get("HEARTBEAT_MIN", "60"))
+
+
+def _ruta(prov):
+    return os.path.join(BASE, "data", f"estado_{prov}.json")
+
+
+def leer_previo(prov):
+    try:
+        with open(_ruta(prov), encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return None
+
+
+def analizar_mensajes(prov, mensajes, ahora):
+    """
+    mensajes: iterable de (texto, fecha_utc) de MÁS NUEVO a MÁS VIEJO.
+    Devuelve el dict de estado (sin 'actualizado'). Función pura => testeable.
+    """
+    parser = PARSERS.get(prov)
+    est = {
+        "schema": 2, "estado_datos": "sin_reporte_reciente",
+        "fuente_afectados": parser is not None,
+        "reporte_fecha": None, "reporte_vencido": False, "sin_afectaciones": False,
+        "programado_fecha": None, "mensajes_leidos": 0,
+        "afectados": {}, "programados": {},
+        "total_circuitos_afectados": 0, "total_circuitos_programados": 0,
+        "mw": None, "hora_inicio": None, "cierre": None, "tiempos": {}, "causas": {},
+        "error": None,
+    }
+    if parser is None:
+        est["estado_datos"] = "sin_fuente"
+        return est
+
+    afectados_visto = False
+    for texto, fecha in mensajes:
+        est["mensajes_leidos"] += 1
+        if not texto:
+            continue
+        if not afectados_visto and SIN_AFECTACION.search(texto) and not parser(texto):
+            # El mensaje más reciente relevante dice que no hay afectaciones
+            afectados_visto = True
+            est["sin_afectaciones"] = True
+            est["reporte_fecha"] = fecha.isoformat()
+            continue
+        r = parser(texto)
+        if not r:
+            continue
+        tipo = detectar_tipo(texto)
+        if tipo == "programado" and not est["programados"]:
+            est["programados"] = r
+            est["programado_fecha"] = fecha.isoformat()
+        elif tipo == "actual" and not afectados_visto:
+            afectados_visto = True
+            est["reporte_fecha"] = fecha.isoformat()
+            if ahora - fecha > timedelta(hours=MAX_EDAD_H):
+                est["reporte_vencido"] = True      # demasiado viejo: no se muestra como actual
+            else:
+                est["afectados"] = r
+                extra = extraer_info_extra(texto, prov)
+                est["mw"], est["hora_inicio"], est["cierre"] = extra["mw"], extra["hora_inicio"], extra["cierre"]
+                for cid in r:
+                    nk = _norm_id(cid)
+                    if nk in extra["tiempos"]:
+                        est["tiempos"][cid] = extra["tiempos"][nk]
+                    if nk in extra["causas"]:
+                        est["causas"][cid] = extra["causas"][nk]
+        if afectados_visto and est["programados"]:
+            break
+
+    # Programados viejos (>MAX_EDAD_H) tampoco valen
+    if est["programado_fecha"]:
+        f = datetime.fromisoformat(est["programado_fecha"])
+        if ahora - f > timedelta(hours=MAX_EDAD_H):
+            est["programados"] = {}
+
+    est["total_circuitos_afectados"] = len(est["afectados"])
+    est["total_circuitos_programados"] = len(est["programados"])
+    if est["reporte_fecha"] and not est["reporte_vencido"]:
+        f = datetime.fromisoformat(est["reporte_fecha"])
+        if ahora - f < timedelta(hours=24):
+            est["estado_datos"] = "ok"
+    return est
+
+
+def _igual(a, b):
+    ign = {"actualizado"}
+    return {k: v for k, v in a.items() if k not in ign} == {k: v for k, v in b.items() if k not in ign}
+
+
+def guardar(prov, est, ahora):
+    previo = leer_previo(prov)
+    if previo and _igual(previo, est):
+        try:
+            edad = ahora - datetime.fromisoformat(previo["actualizado"])
+            if edad < timedelta(minutes=HEARTBEAT_MIN):
+                return False                      # sin cambios y marca reciente: no tocar
+        except (KeyError, ValueError):
+            pass
+    est["actualizado"] = ahora.isoformat()
+    with open(_ruta(prov), "w", encoding="utf-8") as f:
+        json.dump(est, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    return True
+
+
+def registrar_error(prov, ahora, motivo):
+    """Conserva el estado anterior y anota el error. Sin previo, estado 'error' vacío."""
+    est = leer_previo(prov) or {
+        "schema": 2, "afectados": {}, "programados": {}, "tiempos": {}, "causas": {},
+        "fuente_afectados": prov in PARSERS, "reporte_fecha": None,
+    }
+    est["error"] = motivo
+    est["estado_datos"] = "error"
+    est["actualizado"] = ahora.isoformat()
+    with open(_ruta(prov), "w", encoding="utf-8") as f:
+        json.dump(est, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
 
 def main():
     sesion = os.environ.get("TG_SESSION", "").strip()
@@ -42,82 +173,42 @@ def main():
 
     from telethon.sync import TelegramClient
     from telethon.sessions import StringSession
+    from telethon.errors import FloodWaitError
 
-    ahora = datetime.now(timezone.utc).isoformat()
+    ahora = datetime.now(timezone.utc)
     os.makedirs(os.path.join(BASE, "data"), exist_ok=True)
+    fallos = 0
 
     with TelegramClient(StringSession(sesion), int(api_id), api_hash) as client:
-        for prov, canal in CANALES.items():
-            afectados = {}
-            programados = {}
-            fecha_reporte = None
-            fecha_programado = None
-            total_leidos = 0
-            # Info extra del reporte actual
-            mw = None; hora_inicio = None; cierre = None
-            tiempos = {}; causas = {}
-            debug_msgs = []
-            try:
-                for msg in client.iter_messages(canal, limit=50):
-                    total_leidos += 1
-                    if not msg.text:
-                        continue
-                    if prov in PARSERS:
-                        r = PARSERS[prov](msg.text)
-                    elif prov == "matanzas":
-                        # Matanzas no publica afectados por nombre; se omite
-                        r = {}
-                    else:
-                        r = {}
-                    if r:
-                        tipo = detectar_tipo(msg.text)
-                        if tipo == "programado" and not programados:
-                            programados = r
-                            fecha_programado = msg.date.astimezone(timezone.utc).isoformat()
-                        elif tipo == "actual" and not afectados:
-                            afectados = r
-                            fecha_reporte = msg.date.astimezone(timezone.utc).isoformat()
-                            # Extraer MW, tiempos, causas, horarios del reporte
-                            extra = extraer_info_extra(msg.text)
-                            mw = extra["mw"]; hora_inicio = extra["hora_inicio"]; cierre = extra["cierre"]
-                            # Mapear tiempos/causas a los IDs reales del parser
-                            for cid in r:
-                                nk = _norm_id(cid)
-                                if nk in extra["tiempos"]:
-                                    tiempos[cid] = extra["tiempos"][nk]
-                                if nk in extra["causas"]:
-                                    causas[cid] = extra["causas"][nk]
-                    if afectados and programados:
-                        break
-            except Exception as e:
-                print(f"ERROR {prov}: {type(e).__name__}")
-            estado = {
-                "actualizado": ahora,
-                "reporte_fecha": fecha_reporte,
-                "programado_fecha": fecha_programado,
-                "mensajes_leidos": total_leidos,
-                "afectados": afectados,
-                "programados": programados,
-                "total_circuitos_afectados": len(afectados),
-                "total_circuitos_programados": len(programados),
-                "mw": mw,
-                "hora_inicio": hora_inicio,
-                "cierre": cierre,
-                "tiempos": tiempos,
-                "causas": causas,
-            }
-            path = os.path.join(BASE, "data", f"estado_{prov}.json")
-            with open(path, "w", encoding="utf-8") as f:
-                json.dump(estado, f, ensure_ascii=False, indent=2)
-            print(f"{prov}: {len(afectados)} afectados, {len(programados)} programados")
-
-    # Compatibilidad: estado.json = Cienfuegos
-    import shutil
-    shutil.copy(
-        os.path.join(BASE, "data", "estado_cienfuegos.json"),
-        os.path.join(BASE, "data", "estado.json"),
-    )
+        for prov in PROVINCIAS:
+            canal = CANALES.get(prov)
+            if prov in SIN_AFECTADOS or prov not in PARSERS:
+                est = analizar_mensajes(prov, [], ahora)
+                print(f"{prov}: sin fuente de afectados ({guardar(prov, est, ahora) and 'escrito' or 'igual'})")
+                continue
+            for intento in (1, 2):
+                try:
+                    msgs = [(m.text, m.date.astimezone(timezone.utc))
+                            for m in client.iter_messages(canal, limit=50)]
+                    est = analizar_mensajes(prov, msgs, ahora)
+                    cambio = guardar(prov, est, ahora)
+                    print(f"{prov}: {len(est['afectados'])} afectados, {len(est['programados'])} programados "
+                          f"[{est['estado_datos']}] {'escrito' if cambio else 'sin cambios'}")
+                    break
+                except FloodWaitError as e:
+                    espera = min(int(e.seconds), 60)
+                    print(f"{prov}: FloodWait {e.seconds}s; espero {espera}s")
+                    time.sleep(espera)
+                except Exception as e:
+                    if intento == 2:
+                        fallos += 1
+                        registrar_error(prov, ahora, type(e).__name__)
+                        print(f"{prov}: ERROR {type(e).__name__} (se conserva el estado anterior)")
+    # Falla el job solo si TODO falló (credenciales caducadas): así se nota en Actions
+    if fallos >= len([p for p in PROVINCIAS if p in PARSERS]):
+        sys.exit(2)
     print("OK")
+
 
 if __name__ == "__main__":
     main()
