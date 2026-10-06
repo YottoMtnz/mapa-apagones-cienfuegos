@@ -1,235 +1,215 @@
 {
-  "2410": {
-    "lugares": [
-      "Batralla",
-      "La Sacra",
-      "Santa Teresa"
-    ],
-    "municipio": "La Sacra",
-    "lat": 20.92414,
-    "lng": -77.77719,
-    "puntos": [
-      {
-        "lugar": "Batralla",
-        "lat": 21.38,
-        "lng": -77.91,
-        "aproximado": true
-      },
-      {
-        "lugar": "La Sacra",
-        "lat": 20.92414,
-        "lng": -77.77719,
-        "aproximado": false
-      },
-      {
-        "lugar": "Santa Teresa",
-        "lat": 21.38791,
-        "lng": -77.99153,
-        "aproximado": false
-      }
-    ]
-  },
-  "Y103": {
-    "lugares": [
-      "Lenin Albaiza"
-    ],
-    "municipio": "Lenin Albaiza",
-    "lat": 21.41044,
-    "lng": -77.87456,
-    "puntos": [
-      {
-        "lugar": "Lenin Albaiza",
-        "lat": 21.41044,
-        "lng": -77.87456,
-        "aproximado": false
-      }
-    ]
-  },
-  "Y460": {
-    "lugares": [
-      "La Vigía",
-      "Buenos Aires",
-      "Caridad del Este",
-      "La Tínima"
-    ],
-    "municipio": "La Vigía",
-    "lat": 21.39474,
-    "lng": -77.91673,
-    "puntos": [
-      {
-        "lugar": "La Vigía",
-        "lat": 21.39474,
-        "lng": -77.91673,
-        "aproximado": false
-      },
-      {
-        "lugar": "Buenos Aires",
-        "lat": 21.41229,
-        "lng": -77.9099,
-        "aproximado": false
-      },
-      {
-        "lugar": "Caridad del Este",
-        "lat": 21.38,
-        "lng": -77.91,
-        "aproximado": true
-      },
-      {
-        "lugar": "La Tínima",
-        "lat": 21.41954,
-        "lng": -77.9072,
-        "aproximado": false
-      }
-    ]
-  },
-  "Y042": {
-    "lugares": [
-      "San Fernando"
-    ],
-    "municipio": "San Fernando",
-    "lat": 21.38368,
-    "lng": -77.91544,
-    "puntos": [
-      {
-        "lugar": "San Fernando",
-        "lat": 21.38368,
-        "lng": -77.91544,
-        "aproximado": false
-      }
-    ]
-  },
-  "Y112": {
-    "lugares": [
-      "Camagüey"
-    ],
-    "municipio": "Camagüey",
-    "lat": 21.37918,
-    "lng": -77.91837,
-    "puntos": [
-      {
-        "lugar": "Camagüey",
-        "lat": 21.37918,
-        "lng": -77.91837,
-        "aproximado": false
-      }
-    ]
-  },
-  "Y420": {
-    "lugares": [
-      "Camagüey"
-    ],
-    "municipio": "Camagüey",
-    "lat": 21.37918,
-    "lng": -77.91837,
-    "puntos": [
-      {
-        "lugar": "Camagüey",
-        "lat": 21.37918,
-        "lng": -77.91837,
-        "aproximado": false
-      }
-    ]
-  },
-  "Y450": {
-    "lugares": [
-      "Camagüey"
-    ],
-    "municipio": "Camagüey",
-    "lat": 21.37918,
-    "lng": -77.91837,
-    "puntos": [
-      {
-        "lugar": "Camagüey",
-        "lat": 21.37918,
-        "lng": -77.91837,
-        "aproximado": false
-      }
-    ]
-  },
-  "2250": {
-    "lugares": [
-      "Jaronu",
-      "Esmeralda y Manga Larga"
-    ],
-    "municipio": "Jaronu",
-    "lat": 21.82348,
-    "lng": -77.95649,
-    "puntos": [
-      {
-        "lugar": "Jaronu",
-        "lat": 21.82348,
-        "lng": -77.95649,
-        "aproximado": false
-      },
-      {
-        "lugar": "Esmeralda y Manga Larga",
-        "lat": 21.38,
-        "lng": -77.91,
-        "aproximado": true
-      }
-    ]
-  },
-  "3255": {
-    "lugares": [
-      "Parque Solar Fotovoltaico La Cívica",
-      "Jimaguayú",
-      "quedando afectada el Y268 afectando solamente la Sub Najasa"
-    ],
-    "municipio": "Jimaguayú",
-    "lat": 21.24241,
-    "lng": -77.82663,
-    "puntos": [
-      {
-        "lugar": "Parque Solar Fotovoltaico La Cívica",
-        "lat": 21.38,
-        "lng": -77.91,
-        "aproximado": true
-      },
-      {
-        "lugar": "Jimaguayú",
-        "lat": 21.24241,
-        "lng": -77.82663,
-        "aproximado": false
-      },
-      {
-        "lugar": "quedando afectada el Y268 afectando solamente la Sub Najasa",
-        "lat": 21.38,
-        "lng": -77.91,
-        "aproximado": true
-      }
-    ]
-  },
-  "Y268": {
-    "lugares": [
-      "Sub Najasa"
-    ],
-    "municipio": "Camagüey",
-    "lat": 21.38,
-    "lng": -77.91,
-    "aproximado": true,
-    "puntos": [
-      {
-        "lugar": "Sub Najasa",
-        "lat": 21.38,
-        "lng": -77.91,
-        "aproximado": true
-      }
-    ]
-  },
-  "Y105": {
-    "lugares": [
-      "Jayamá"
-    ],
-    "municipio": "Jayamá",
-    "lat": 21.36655,
-    "lng": -77.88593,
-    "puntos": [
-      {
-        "lugar": "Jayamá",
-        "lat": 21.36655,
-        "lng": -77.88593,
-        "aproximado": false
-      }
-    ]
+  "schema": 2,
+  "provincia": "camaguey",
+  "circuitos": {
+    "2410": {
+      "lugares": [
+        "Batralla",
+        "La Sacra",
+        "Santa Teresa"
+      ],
+      "puntos": [
+        {
+          "lugar": "La Sacra",
+          "lat": 20.92414,
+          "lng": -77.77719,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "Santa Teresa",
+          "lat": 21.38791,
+          "lng": -77.99153,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        }
+      ],
+      "ubicado": true,
+      "revisar": true
+    },
+    "Y103": {
+      "lugares": [
+        "Lenin Albaiza"
+      ],
+      "puntos": [
+        {
+          "lugar": "Lenin Albaiza",
+          "lat": 21.41044,
+          "lng": -77.87456,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "Y460": {
+      "lugares": [
+        "La Vigía",
+        "Buenos Aires",
+        "Caridad del Este",
+        "La Tínima"
+      ],
+      "puntos": [
+        {
+          "lugar": "La Vigía",
+          "lat": 21.39474,
+          "lng": -77.91673,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": false
+        },
+        {
+          "lugar": "Buenos Aires",
+          "lat": 21.41229,
+          "lng": -77.9099,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "La Tínima",
+          "lat": 21.41954,
+          "lng": -77.9072,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": true
+    },
+    "Y042": {
+      "lugares": [
+        "San Fernando"
+      ],
+      "puntos": [
+        {
+          "lugar": "San Fernando",
+          "lat": 21.38368,
+          "lng": -77.91544,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        }
+      ],
+      "ubicado": true,
+      "revisar": true
+    },
+    "Y112": {
+      "lugares": [
+        "Camagüey"
+      ],
+      "puntos": [
+        {
+          "lugar": "Camagüey",
+          "lat": 21.37918,
+          "lng": -77.91837,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "Y420": {
+      "lugares": [
+        "Camagüey"
+      ],
+      "puntos": [
+        {
+          "lugar": "Camagüey",
+          "lat": 21.37918,
+          "lng": -77.91837,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "Y450": {
+      "lugares": [
+        "Camagüey"
+      ],
+      "puntos": [
+        {
+          "lugar": "Camagüey",
+          "lat": 21.37918,
+          "lng": -77.91837,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "2250": {
+      "lugares": [
+        "Jaronu",
+        "Esmeralda y Manga Larga"
+      ],
+      "puntos": [
+        {
+          "lugar": "Jaronu",
+          "lat": 21.82348,
+          "lng": -77.95649,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "3255": {
+      "lugares": [
+        "Parque Solar Fotovoltaico La Cívica",
+        "Jimaguayú"
+      ],
+      "puntos": [
+        {
+          "lugar": "Jimaguayú",
+          "lat": 21.24241,
+          "lng": -77.82663,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "Y268": {
+      "lugares": [
+        "Sub Najasa"
+      ],
+      "puntos": [],
+      "ubicado": false,
+      "revisar": false
+    },
+    "Y105": {
+      "lugares": [
+        "Jayamá"
+      ],
+      "puntos": [
+        {
+          "lugar": "Jayamá",
+          "lat": 21.36655,
+          "lng": -77.88593,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    }
   }
 }
