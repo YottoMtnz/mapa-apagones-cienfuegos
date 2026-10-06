@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — Mapa de Apagones</title>
+<style>
+  body{background:#0b0f1a;color:#e2e8f0;font-family:system-ui;margin:0;padding:20px}
+  .box{max-width:600px;margin:40px auto;background:#1e293b;border-radius:12px;padding:24px}
+  h2{color:#5eead4;margin-top:0}
+  input{width:100%;padding:10px;margin:8px 0;border-radius:8px;border:1px solid #334155;background:#0b0f1a;color:#fff;box-sizing:border-box}
+  button{background:#5eead4;color:#0b0f1a;border:none;border-radius:8px;padding:10px 20px;font-weight:bold;cursor:pointer;margin:4px}
+  button.rechazar{background:#ef4444;color:#fff}
+  .corr{background:#0b0f1a;border:1px solid #334155;border-radius:8px;padding:12px;margin:10px 0}
+  .corr b{color:#5eead4}
+  #login{display:block}
+  #panel{display:none}
+</style>
+</head>
+<body>
+<div class="box" id="login">
+  <h2>🔐 Admin</h2>
+  <input type="password" id="pass" placeholder="Contraseña" onkeydown="if(event.key==='Enter')entrar()">
+  <button onclick="entrar()">Entrar</button>
+  <p id="err" style="color:#ef4444"></p>
+</div>
+<div class="box" id="panel">
+  <h2>📍 Correcciones pendientes</h2>
+  <button onclick="cargar()">🔄 Recargar</button>
+  <div id="lista"></div>
+</div>
+<script>
+// CONFIGURACIÓN — Fraudy: pon aquí la URL del Apps Script desplegado
+const SCRIPT_URL = "PON_AQUI_LA_URL_DEL_SCRIPT";
+// Hash SHA-256 de la contraseña (no guardar en texto plano)
+const PASS_HASH = "997999e1cb0a2b78204af1619f5da90908e4ccf4d7cb54e1fd1a5dada28e57cc";
+
+async function sha256(t){
+  const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(t));
+  return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");
+}
+async function entrar(){
+  const h = await sha256(document.getElementById("pass").value);
+  if(h === PASS_HASH){
+    document.getElementById("login").style.display = "none";
+    document.getElementById("panel").style.display = "block";
+    cargar();
+  } else {
+    document.getElementById("err").textContent = "Contraseña incorrecta";
+  }
+}
+async function cargar(){
+  const r = await fetch(`${SCRIPT_URL}?action=pendientes`).then(r=>r.json());
+  const lista = document.getElementById("lista");
+  if(!r.length){ lista.innerHTML = "<p>No hay correcciones pendientes.</p>"; return; }
+  lista.innerHTML = r.map(c=>`
+    <div class="corr">
+      <b>${c.lugar}</b> (${c.prov})<br>
+      Circuito: ${c.circuito}<br>
+      📍 ${c.lat}, ${c.lng}<br>
+      <small>${c.fecha}</small><br><br>
+      <button onclick="decidir(${c.fila},'aprobar')">✅ Aprobar</button>
+      <button class="rechazar" onclick="decidir(${c.fila},'rechazar')">❌ Rechazar</button>
+    </div>`).join("");
+}
+async function decidir(fila, accion){
+  if(!confirm(`¿${accion==="aprobar"?"Aprobar":"Rechazar"} esta corrección?`)) return;
+  await fetch(`${SCRIPT_URL}?action=${accion}&fila=${fila}`);
+  cargar();
+}
+</script>
+</body>
+</html>
