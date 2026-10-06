@@ -249,7 +249,7 @@ def main():
         # Se activa creando el archivo data/MODO_ESTUDIO (luego se borra)
         if os.path.exists(os.path.join(BASE, "data", "MODO_ESTUDIO")) or os.environ.get("MODO_ESTUDIO") == "1":
             muestras = {}
-            for prov in PROVINCIAS:
+            for prov in ["cienfuegos"]:
                 canal = CANALES.get(prov)
                 if not canal:
                     continue
@@ -271,7 +271,8 @@ def main():
             print("Muestras guardadas en data/estudio_canales.json")
             return
 
-        for prov in PROVINCIAS:
+        # Solo Cienfuegos (decisión de Fraudy 2026-10-06: pulir una provincia)
+        for prov in ["cienfuegos"]:
             canal = CANALES.get(prov)
             if prov in SIN_AFECTADOS or prov not in PARSERS:
                 est = analizar_mensajes(prov, [], ahora)
