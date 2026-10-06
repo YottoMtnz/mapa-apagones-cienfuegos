@@ -82,9 +82,33 @@ def parse_artemisa(texto):
 # ---------------------------------------------------------------------- Camagüey
 def parse_camaguey(texto):
     circuitos = {}
+    # Formato 1: "El Circuito: XXXX - ..." (explícito)
     for m in re.finditer(r'[Ee]l [Cc]ircuito:\s*([A-Z0-9]+)\s*[-–]\s*([^\n]+)', texto):
         resto = re.split(r'\.\s*(?:Se trabaja|Ofrecemos)', m.group(2))[0]
         circuitos[m.group(1)] = _lugares(resto.split(","))
+    # Formato 2: inferencia lógica por transformadores disparados y quejas
+    # "Transformadores disparados: 🔶Vertientes 8" => Vertientes sin corriente
+    # "Quejas sin servicio: 🔹Camagüey 165" => Camagüey sin corriente
+    municipios_afectados = set()
+    # Transformadores disparados (cualquier cantidad > 0 = sin servicio)
+    sec = re.search(r'[Tt]ransformadores disparados:(.*?)(?:🏠|Quejas|$)', texto, re.S)
+    if sec:
+        for m in re.finditer(r'🔶\s*([A-Za-záéíóúñÁÉÍÓÚÑ\s]+?)\s+(\d+)', sec.group(1)):
+            mun, cnt = m.group(1).strip(), int(m.group(2))
+            if cnt > 0:
+                municipios_afectados.add(mun.lower())
+    # Quejas sin servicio (umbral: 5+ quejas = afectación real)
+    sec = re.search(r'[Qq]uejas sin servicio:(.*?)$', texto, re.S)
+    if sec:
+        for m in re.finditer(r'🔹\s*([A-Za-záéíóúñÁÉÍÓÚÑ\s]+?)\s+(\d+)', sec.group(1)):
+            mun, cnt = m.group(1).strip(), int(m.group(2))
+            if cnt >= 5:
+                municipios_afectados.add(mun.lower())
+    if municipios_afectados:
+        # Retornar marcador especial MUN:xxx que actualizar.py expandirá
+        # a circuitos reales buscando por nombre de lugar
+        for mun in municipios_afectados:
+            circuitos[f"MUN:{mun}"] = [mun.title()]
     return circuitos
 
 
