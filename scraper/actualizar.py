@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 CANALES = {
     "pinar-del-rio": "elecpinar",
     "artemisa": "EEArtemisa",
-    "la-habana": "ceelh",
+    "la-habana": "EmpresaElectricaDeLaHabana",
     "mayabeque": "electricamayabeque",
     "matanzas": "EmpresaElectricaMatanzas",
     "cienfuegos": "empresaelectricacienfuegos1",
