@@ -297,9 +297,7 @@ function renderizar(){
       : pt.precision==='ciudad' ? '<br><i style="color:#9aa4b8">📍 Ubicación a nivel de pueblo/ciudad</i>' : '';
     mk.bindPopup(
       `${BADGE[st]}<br><b style="font-size:15px">${esc(pt.lugar || `Circuito ${id}`)}</b>` +
-      nota + extra +
-      `<br><button class="pbtn" data-act="mover" data-ck="${esc(ck)}">✏️ Mover punto</button>` +
-      `<button class="pbtn ok" data-act="reportar" data-ck="${esc(ck)}">📤 Reportar</button>`);
+      nota + extra);
     mk.on('dragend',()=>onDragEnd(mk));
     pines++;
   }
