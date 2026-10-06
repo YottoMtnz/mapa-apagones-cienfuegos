@@ -1,258 +1,133 @@
+#!/usr/bin/env python3
 """
-Geocodifica circuitos por provincia usando Nominatim (OpenStreetMap).
-Lee data/inventario.json, genera data/circuitos_<prov>.json
+Geocodifica los circuitos SIN UBICAR usando Nominatim (OpenStreetMap). Requiere red.
 
-Uso: python3 scraper/geocodificar.py [provincia] [--solo-malos]
-  --solo-malos: solo re-geocodifica puntos inventados o fuera de provincia.
+Uso:
+  python3 scraper/geocodificar.py                # todas las provincias
+  python3 scraper/geocodificar.py holguin        # una provincia
+  python3 scraper/geocodificar.py --reintentar   # ignora los 'no encontrado' del caché
 
-Reglas:
-- Nominatim con viewbox limitado a la provincia (bounded=1): nunca devuelve
-  un lugar de otra provincia aunque el nombre coincida.
-- Se prueban todos los lugares del circuito, no solo el primero.
-- Si no se encuentra: se marca aproximado=True con la capital como referencia,
-  NUNCA se inventan coordenadas falsas.
+Garantías (lo que antes fallaba):
+  * Un resultado de Nominatim solo se acepta si address.state corresponde a la
+    provincia pedida (las cajas de provincias vecinas se solapan). Si Nominatim no
+    devuelve state, se exige además que la provincia más cercana por centro coincida.
+  * Si hay varios candidatos se prefieren lugares (class place/boundary) sobre
+    comercios, calles u otros POI homónimos.
+  * Lo que no se encuentra queda SIN PIN (ubicado=false). Nunca se usa la capital
+    como relleno.
+  * Todo resultado (positivo o negativo) se guarda en data/geocache.json: no se repiten
+    peticiones. Los negativos caducan a los 30 días.
+  * 1 petición/segundo máx. (política de Nominatim). Define NOMINATIM_EMAIL con un
+    contacto real para el User-Agent.
 """
-import json, os, re, sys, time, urllib.request, urllib.parse
+import json, os, sys, time, datetime, urllib.request, urllib.parse
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from normalizar import fold, candidatos
+from provincias import PROVINCIAS, info, provincia_mas_cercana, en_caja
+import catalogo as cat
 
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PAUSA_S = 1.1
+CADUCA_NEGATIVO_DIAS = 30
+CLASES_PREFERIDAS = {"place": 0, "boundary": 1, "landuse": 2, "natural": 2, "highway": 4}
 
-# (lat_centro, lng_centro, capital, min_lat, max_lat, min_lng, max_lng)
-PROVINCIAS = {
-    "pinar-del-rio":   (22.42, -83.70, "Pinar del Río",      21.70, 23.05, -84.95, -82.95),
-    "artemisa":        (22.82, -82.76, "Artemisa",           22.30, 23.20, -83.25, -82.25),
-    "la-habana":       (23.14, -82.37, "La Habana",          22.90, 23.30, -82.65, -82.05),
-    "mayabeque":       (22.97, -82.15, "San José de las Lajas", 22.65, 23.30, -82.45, -81.65),
-    "matanzas":        (23.05, -81.58, "Matanzas",           22.25, 23.30, -81.95, -80.85),
-    "cienfuegos":      (22.15, -80.45, "Cienfuegos",         21.75, 22.55, -80.95, -79.95),
-    "villa-clara":     (22.42, -79.90, "Santa Clara",        21.95, 23.05, -80.45, -79.35),
-    "sancti-spiritus": (21.93, -79.44, "Sancti Spíritus",    21.50, 22.40, -80.15, -78.85),
-    "ciego-de-avila":  (21.85, -78.76, "Ciego de Ávila",     21.45, 22.35, -79.25, -78.25),
-    "camaguey":        (21.38, -77.91, "Camagüey",           20.75, 22.05, -78.55, -76.95),
-    "las-tunas":       (20.96, -76.95, "Las Tunas",          20.55, 21.45, -77.45, -76.55),
-    "holguin":         (20.89, -76.26, "Holguín",            20.35, 21.45, -76.85, -75.75),
-    "granma":          (20.38, -76.64, "Bayamo",             19.85, 20.95, -77.35, -75.95),
-    "santiago-de-cuba":(20.02, -75.83, "Santiago de Cuba",   19.75, 20.55, -76.35, -75.35),
-    "guantanamo":      (20.14, -75.21, "Guantánamo",         19.85, 20.55, -75.45, -74.05),
-}
 
-def geocode(query, min_lat, max_lat, min_lng, max_lng):
-    """Devuelve (lat, lng) dentro del bbox o None. Usa viewbox bounded."""
-    params = {
-        "q": query, "format": "json", "limit": 5, "countrycodes": "cu",
-        "viewbox": f"{min_lng},{max_lat},{max_lng},{min_lat}",
-        "bounded": 1,
-    }
+def _ua():
+    mail = os.environ.get("NOMINATIM_EMAIL", "").strip()
+    return "MapaApagonesCuba/2.0 (" + (mail or "sin-contacto: define NOMINATIM_EMAIL") + ")"
+
+
+def nominatim(query, prov):
+    """Mejor resultado válido para la provincia o None."""
+    inf = info(prov)
+    a, b, c, d = inf["bbox"]
+    params = {"q": query, "format": "jsonv2", "limit": 8, "countrycodes": "cu",
+              "addressdetails": 1, "viewbox": f"{c},{b},{d},{a}", "bounded": 1}
     url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers={"User-Agent": "MapaApagonesCuba/1.0"})
+    req = urllib.request.Request(url, headers={"User-Agent": _ua()})
     try:
-        with urllib.request.urlopen(req, timeout=15) as r:
+        with urllib.request.urlopen(req, timeout=20) as r:
             data = json.load(r)
-            for item in data:
-                lat, lng = float(item["lat"]), float(item["lon"])
-                if min_lat <= lat <= max_lat and min_lng <= lng <= max_lng:
-                    return lat, lng, item.get("display_name", "")
-    except Exception as e:
-        print(f"    geocode error: {e}")
+    except Exception as e:                         # red caída, 429, etc.: NO cachear
+        print(f"    error de red: {type(e).__name__}")
+        raise
+    validos = []
+    for it in data:
+        lat, lng = float(it["lat"]), float(it["lon"])
+        if not en_caja(prov, lat, lng):
+            continue
+        state = fold((it.get("address") or {}).get("state", ""))
+        if state:
+            if inf["estado_osm"] not in state:
+                continue                           # homónimo de otra provincia
+        elif provincia_mas_cercana(lat, lng) != prov:
+            continue
+        rank = CLASES_PREFERIDAS.get(it.get("category", it.get("class", "")), 3)
+        validos.append((rank, -float(it.get("importance", 0)), lat, lng, it.get("display_name", "")))
+    if not validos:
+        return None
+    validos.sort()
+    _, _, lat, lng, nombre = validos[0]
+    return lat, lng, nombre
+
+
+def buscar_lugar(prov, lugar, cache, reintentar=False):
+    """(lat,lng,precision,fuente) o None. Usa y alimenta el caché."""
+    k = cat.clave_cache(prov, lugar)
+    e = cache.get(k)
+    if e:
+        if "lat" in e:
+            return e["lat"], e["lng"], "localidad", e.get("fuente", "cache")
+        if not reintentar and "no_encontrado" in e:
+            f = datetime.date.fromisoformat(e["no_encontrado"])
+            if (datetime.date.today() - f).days < CADUCA_NEGATIVO_DIAS:
+                return None
+    capital = info(prov)["capital"]
+    for q in (f"{lugar}, {capital}, Cuba", f"{lugar}, Cuba"):
+        r = nominatim(q, prov)
+        time.sleep(PAUSA_S)
+        if r:
+            cache[k] = {"lat": round(r[0], 5), "lng": round(r[1], 5),
+                        "fuente": "nominatim", "display": r[2][:120],
+                        "fecha": datetime.date.today().isoformat()}
+            return r[0], r[1], "localidad", "nominatim"
+    cache[k] = {"no_encontrado": datetime.date.today().isoformat()}
     return None
 
-def es_fallback(lat, lng, clat, clng):
-    """Detecta si las coords vienen del fallback inventado (múltiplos de 0.002)."""
-    dla = round((lat - clat) / 0.002)
-    dlo = round((lng - clng) / 0.002)
-    return (abs((lat - clat) - dla * 0.002) < 0.00001
-            and abs((lng - clng) - dlo * 0.002) < 0.00001
-            and abs(dla) <= 50 and abs(dlo) <= 50)
 
 def main():
     args = sys.argv[1:]
-    # Modo: agregar puntos por lugar a archivos existentes
-    if "--puntos" in args:
-        idx = args.index("--puntos")
-        archivos = args[idx+1:] or []
-        if not archivos:
-            import glob
-            archivos = sorted(glob.glob(os.path.join(BASE, "data", "circuitos_*.json")))
-        agregar_puntos(archivos)
-        return
-    # Modo: reintentar solo los puntos aproximados (con query mejorada)
-    if "--reintentar" in args:
-        import glob
-        for path in sorted(glob.glob(os.path.join(BASE, "data", "circuitos_*.json"))):
-            prov = os.path.basename(path).replace("circuitos_", "").replace(".json", "")
-            if prov not in PROVINCIAS:
-                continue
-            clat, clng, capital, minla, maxla, minlo, maxlo = PROVINCIAS[prov]
-            d = json.load(open(path))
-            cambios = 0
-            for cid, info in d.items():
-                if not isinstance(info, dict):
-                    continue
-                for pt in (info.get("puntos") or []):
-                    if not pt.get("aproximado"):
-                        continue
-                    lugar = pt.get("lugar", "")
-                    base = re.sub(r"\s*\(.*?\)\s*", "", lugar).strip() or lugar
-                    queries = []
-                    for ql in ([base, lugar] if base != lugar else [lugar]):
-                        queries += [f"{ql}, {capital}, Cuba", f"{ql}, Cuba"]
-                    for q in queries:
-                        r = geocode(q, minla, maxla, minlo, maxlo)
-                        time.sleep(1.1)
-                        if r:
-                            pt["lat"], pt["lng"] = round(r[0], 5), round(r[1], 5)
-                            pt["aproximado"] = False
-                            cambios += 1
-                            print(f"  [FIX] {prov}/{cid}/{lugar}: ({r[0]:.3f},{r[1]:.3f})")
-                            break
-            if cambios:
-                with open(path, "w", encoding="utf-8") as f:
-                    json.dump(d, f, ensure_ascii=False, indent=2)
-                print(f"  -> {path}: {cambios} corregidos")
-        return
-    solo = args[0] if args and not args[0].startswith("--") else None
-    solo_malos = "--solo-malos" in args
+    reintentar = "--reintentar" in args
+    solo = next((a for a in args if not a.startswith("--")), None)
+    inv = cat.cargar_json("inventario.json", {})
+    cache = cat.cargar_json("geocache.json", {})
+    res = cat.Resolvedor(cache=cache)
+    informe = cat.cargar_json("informe_ubicacion.json", {})
 
-    with open(os.path.join(BASE, "data", "inventario.json")) as f:
-        inventario = json.load(f)
+    def resolver(prov, lugar):
+        r = res.offline(prov, lugar)                # gazetteer manual y caché positivo
+        return r or buscar_lugar(prov, lugar, cache, reintentar)
 
-    for prov, circuitos in inventario.items():
+    for prov in PROVINCIAS:
         if solo and prov != solo:
             continue
-        if prov not in PROVINCIAS:
+        circuitos = inv.get(prov, {})
+        if not circuitos:
             continue
-        clat, clng, capital, minla, maxla, minlo, maxlo = PROVINCIAS[prov]
-        out = os.path.join(BASE, "data", f"circuitos_{prov}.json")
-        # Cargar existentes para preservar los buenos
-        existentes = {}
-        if os.path.exists(out):
-            try:
-                existentes = json.load(open(out))
-            except Exception:
-                pass
-        resultado = {}
         print(f"\n=== {prov}: {len(circuitos)} circuitos ===")
-        for cid, lugares in circuitos.items():
-            # ¿reusar punto existente?
-            ex = existentes.get(cid)
-            if solo_malos and isinstance(ex, dict) and ex.get("lat") is not None:
-                lat0, lng0 = ex["lat"], ex["lng"]
-                dentro = minla <= lat0 <= maxla and minlo <= lng0 <= maxlo
-                if dentro and not es_fallback(lat0, lng0, clat, clng) and not ex.get("aproximado"):
-                    resultado[cid] = ex
-                    continue
-            elif not solo_malos and isinstance(ex, dict) and ex.get("lat") is not None:
-                lat0, lng0 = ex["lat"], ex["lng"]
-                dentro = minla <= lat0 <= maxla and minlo <= lng0 <= maxlo
-                if dentro and not es_fallback(lat0, lng0, clat, clng) and not ex.get("aproximado"):
-                    resultado[cid] = ex
-                    continue
+        salida = {}
+        try:
+            for cid, lugares in circuitos.items():
+                salida[cid] = cat.construir_circuito(prov, cid, lugares, resolver)
+        except Exception:
+            print("  interrumpido por error de red; se guarda lo avanzado (reanudable)")
+        finally:
+            cat.guardar_json("geocache.json", cache)
+        if len(salida) == len(circuitos):
+            cat.escribir_provincia(prov, salida)
+            informe[prov] = cat.informe_provincia(salida)
+            print(f"  -> {informe[prov]}")
+    cat.escribir_informe(informe)
 
-            lat, lng, municipio, aproximado = None, None, "", False
-            # Probar cada lugar con viewbox de la provincia
-            for lugar in (lugares or []):
-                if not lugar or len(lugar) > 60:
-                    continue
-                for q in (f"{lugar}, {capital}, Cuba", f"{lugar}, Cuba"):
-                    r = geocode(q, minla, maxla, minlo, maxlo)
-                    time.sleep(1.1)
-                    if r:
-                        lat, lng = r[0], r[1]
-                        municipio = lugar
-                        break
-                if lat is not None:
-                    break
-            if lat is None:
-                # Sin resultado: capital como referencia HONESTA
-                lat, lng, municipio, aproximado = clat, clng, capital, True
-            # Puntos por lugar (uno por cada lugar del circuito)
-            puntos = []
-            for lugar in (lugares or []):
-                if not lugar or len(lugar) > 60:
-                    continue
-                plat = plng = None
-                for q in (f"{lugar}, {capital}, Cuba", f"{lugar}, Cuba"):
-                    r = geocode(q, minla, maxla, minlo, maxlo)
-                    time.sleep(1.1)
-                    if r:
-                        plat, plng = r[0], r[1]
-                        break
-                if plat is None:
-                    plat, plng, paprox = clat, clng, True
-                else:
-                    paprox = False
-                puntos.append({"lugar": lugar, "lat": round(plat, 5),
-                               "lng": round(plng, 5), "aproximado": paprox})
-            if not puntos:
-                puntos = [{"lugar": municipio, "lat": round(lat, 5),
-                           "lng": round(lng, 5), "aproximado": aproximado}]
-            resultado[cid] = {
-                "lugares": lugares or [],
-                "municipio": municipio,
-                "lat": round(lat, 5),
-                "lng": round(lng, 5),
-                "aproximado": aproximado,
-                "puntos": puntos,
-            }
-            tag = "APROX" if aproximado else "ok"
-            print(f"  [{tag}] {cid}: {municipio} ({lat:.3f},{lng:.3f})")
-        with open(out, "w", encoding="utf-8") as f:
-            json.dump(resultado, f, ensure_ascii=False, indent=2)
-        print(f"  -> {out}")
-
-def agregar_puntos(archivos):
-    """Lee circuitos_*.json existentes y agrega 'puntos' (uno por lugar)."""
-    for path in archivos:
-        prov = os.path.basename(path).replace("circuitos_", "").replace(".json", "")
-        if prov not in PROVINCIAS:
-            continue
-        clat, clng, capital, minla, maxla, minlo, maxlo = PROVINCIAS[prov]
-        d = json.load(open(path))
-        print(f"\n=== {prov}: {len(d)} circuitos ===")
-        for cid, info in d.items():
-            if not isinstance(info, dict):
-                continue
-            if info.get("puntos"):
-                continue  # ya tiene puntos
-            lugares = info.get("lugares") or []
-            puntos = []
-            for lugar in lugares:
-                if not lugar or len(lugar) > 60:
-                    continue
-                lat = lng = None
-                # Quitar calificadores entre paréntesis para buscar
-                # ("Cumanayagua (Centro)" -> "Cumanayagua")
-                base = re.sub(r"\s*\(.*?\)\s*", "", lugar).strip() or lugar
-                queries = []
-                for ql in ([base, lugar] if base != lugar else [lugar]):
-                    queries += [f"{ql}, {capital}, Cuba", f"{ql}, Cuba"]
-                for q in queries:
-                    r = geocode(q, minla, maxla, minlo, maxlo)
-                    time.sleep(1.1)
-                    if r:
-                        lat, lng = r[0], r[1]
-                        break
-                if lat is None:
-                    lat, lng = clat, clng
-                    aproximado = True
-                else:
-                    aproximado = False
-                puntos.append({
-                    "lugar": lugar,
-                    "lat": round(lat, 5),
-                    "lng": round(lng, 5),
-                    "aproximado": aproximado,
-                })
-                tag = "APROX" if aproximado else "ok"
-                print(f"  [{tag}] {cid}/{lugar}: ({lat:.3f},{lng:.3f})")
-            # Si no hay lugares, un punto en la capital como aproximado
-            if not puntos and info.get("lat") is not None:
-                puntos = [{"lugar": info.get("municipio", ""),
-                           "lat": info["lat"], "lng": info["lng"],
-                           "aproximado": info.get("aproximado", False)}]
-            info["puntos"] = puntos
-        with open(path, "w", encoding="utf-8") as f:
-            json.dump(d, f, ensure_ascii=False, indent=2)
-        print(f"  -> {path}")
 
 if __name__ == "__main__":
     main()
