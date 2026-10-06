@@ -10,7 +10,7 @@ Variables de entorno:
 """
 import os, json, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from parsers import PARSERS, parse_matanzas_restaurados
+from parsers import PARSERS, parse_matanzas_restaurados, detectar_tipo
 from datetime import datetime, timezone
 
 CANALES = {
@@ -49,12 +49,14 @@ def main():
     with TelegramClient(StringSession(sesion), int(api_id), api_hash) as client:
         for prov, canal in CANALES.items():
             afectados = {}
+            programados = {}
             fecha_reporte = None
+            fecha_programado = None
             total_leidos = 0
             try:
                 for msg in client.iter_messages(canal, limit=30):
                     total_leidos += 1
-                    if not msg.text or afectados:
+                    if not msg.text:
                         continue
                     if prov in PARSERS:
                         r = PARSERS[prov](msg.text)
@@ -64,21 +66,31 @@ def main():
                     else:
                         r = {}
                     if r:
-                        afectados = r
-                        fecha_reporte = msg.date.astimezone(timezone.utc).isoformat()
+                        tipo = detectar_tipo(msg.text)
+                        if tipo == "programado" and not programados:
+                            programados = r
+                            fecha_programado = msg.date.astimezone(timezone.utc).isoformat()
+                        elif tipo == "actual" and not afectados:
+                            afectados = r
+                            fecha_reporte = msg.date.astimezone(timezone.utc).isoformat()
+                    if afectados and programados:
+                        break
             except Exception as e:
                 print(f"ERROR {prov}: {type(e).__name__}")
             estado = {
                 "actualizado": ahora,
                 "reporte_fecha": fecha_reporte,
+                "programado_fecha": fecha_programado,
                 "mensajes_leidos": total_leidos,
                 "afectados": afectados,
+                "programados": programados,
                 "total_circuitos_afectados": len(afectados),
+                "total_circuitos_programados": len(programados),
             }
             path = os.path.join(BASE, "data", f"estado_{prov}.json")
             with open(path, "w", encoding="utf-8") as f:
                 json.dump(estado, f, ensure_ascii=False, indent=2)
-            print(f"{prov}: {len(afectados)} afectados")
+            print(f"{prov}: {len(afectados)} afectados, {len(programados)} programados")
 
     # Compatibilidad: estado.json = Cienfuegos
     import shutil
