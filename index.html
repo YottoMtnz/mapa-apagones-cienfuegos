@@ -206,15 +206,16 @@ function renderizar(){
     if(filtroActual==='programados' && !esProg) continue;
     if(esAfect) porMun[c.municipio]=(porMun[c.municipio]||0)+1;
     const color = esAfect ? 'red' : (esProg ? 'orange' : 'green');
-    const icon = L.divIcon({className:'', html:`<div class="dot ${color}" style="width:18px;height:18px"></div>`, iconSize:[18,18]});
+    const icon = L.divIcon({className:'', html:`<div class="dot ${color}" style="width:18px;height:18px${c.aproximado?';opacity:.45':''}"></div>`, iconSize:[18,18]});
     const lugares = (c.lugares||[]).join(', ');
     const badge = esAfect ? '<span class="badge red">SIN SERVICIO</span>'
                 : esProg ? '<span class="badge orange">PROGRAMADO</span>'
                 : '<span class="badge green">CON SERVICIO</span>';
+    const aprox = c.aproximado ? '<br><i style="color:#f59e0b">📍 Ubicación aproximada</i>' : '';
     const zonas = esAfect ? afectados[id] : (esProg ? programados[id] : null);
     const detalle = (zonas && zonas.length) ? `<br><b>Zonas:</b> ${zonas.join(', ')}` : '';
     L.marker([c.lat, c.lng], {icon}).addTo(layerGroup)
-      .bindPopup(`${badge}<br><b>Circuito ${id}</b><br>${lugares}${c.municipio?`<br><i>${c.municipio}</i>`:''}${detalle}`);
+      .bindPopup(`${badge}<br><b>Circuito ${id}</b><br>${lugares}${c.municipio?`<br><i>${c.municipio}</i>`:''}${aprox}${detalle}`);
   }
   document.getElementById('cAfect').textContent = nAfect;
   document.getElementById('cProg').textContent = nProg;
