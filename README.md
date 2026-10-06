@@ -16,7 +16,7 @@ Mapa interactivo en vivo de los apagones en Cuba, por provincias.
 
 ## Provincias activas
 
-Artemisa, Camagüey, Ciego de Ávila, Cienfuegos, Granma, Holguín, Las Tunas, Matanzas, Mayabeque, Sancti Spíritus, Santiago de Cuba, Villa Clara.
+Artemisa, Camagüey, Ciego de Ávila, Cienfuegos, Granma, Holguín, Las Tunas, La Habana, Matanzas, Mayabeque, Sancti Spíritus, Santiago de Cuba, Villa Clara.
 
 ## Créditos
 
