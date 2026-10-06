@@ -151,8 +151,6 @@ function reportarCorreccion(prov, circuito, lugar){
     window.open(url, '_blank');
   }
 }
-let datosCache = {};
-
 const sel = document.getElementById('provSel');
 for(const [id,p] of Object.entries(PROVINCIAS)){
   const o = document.createElement('option');
