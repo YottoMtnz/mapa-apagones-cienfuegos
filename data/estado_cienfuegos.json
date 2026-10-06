@@ -2,42 +2,12 @@
   "schema": 2,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-06T22:16:12+00:00",
+  "reporte_fecha": "2026-10-06T22:48:12+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-06T21:00:21+00:00",
   "mensajes_leidos": 50,
   "afectados": {
-    "C-30": [
-      "14 de Julio",
-      "Batey 2 Hermanos"
-    ],
-    "C-90": [
-      "La Pollera"
-    ],
-    "S-9092": [
-      "Antiguo Pree Dimas Martínez"
-    ],
-    "C-48": [
-      "San Blas",
-      "La Vega",
-      "Sabanita",
-      "Pico San Juan",
-      "Gaviña",
-      "El Naranjo",
-      "Sopapo",
-      "Mayarí"
-    ],
-    "C-1770": [
-      "Guanayara",
-      "4 Vientos",
-      "Cien Rosas",
-      "Charco Azul",
-      "Aguacate",
-      "Grones",
-      "EL Nacimiento",
-      "Centro Cubano"
-    ],
     "C-11": [
       "Ariza",
       "Silverita",
@@ -179,24 +149,6 @@
       "Real Campiña",
       "Guanito"
     ],
-    "C-19": [
-      "Tulipán"
-    ],
-    "C-80": [
-      "Punta Cotica",
-      "Parque José Martí"
-    ],
-    "C-70": [
-      "Aguada",
-      "Federal"
-    ],
-    "C-66": [
-      "Reina"
-    ],
-    "C-65": [
-      "Centro histórico",
-      "Reina"
-    ],
     "C-21": [
       "Santa Elena",
       "La Candita",
@@ -242,14 +194,6 @@
       "Punta Gorda",
       "[Hospital Provincial 0-24]"
     ],
-    "C-31": [
-      "Horquita",
-      "Vista Hermosa",
-      "Micropresa",
-      "El Manguito",
-      "Mercedes",
-      "Guanal"
-    ],
     "C-88": [
       "San Ignacio",
       "Babiney",
@@ -258,6 +202,14 @@
       "La Leona",
       "Mijalito",
       "Matún"
+    ],
+    "C-31": [
+      "Horquita",
+      "Vista Hermosa",
+      "Micropresa",
+      "El Manguito",
+      "Mercedes",
+      "Guanal"
     ],
     "C-58": [
       "Antonio Sánchez",
@@ -272,7 +224,8 @@
     ],
     "C-18": [
       "Arizona",
-      "La Juanita"
+      "La Juanita",
+      "[Hospital de Especialidades 0-24]"
     ],
     "C-82": [
       "Balboa",
@@ -283,8 +236,104 @@
       "Cocaleca",
       "Poligráfico",
       "Pastorita",
-      "Termoeléctrica",
       "O'bourke"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
+    ],
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
+    ],
+    "C-33": [
+      "Arimao",
+      "Las Moscas",
+      "Vegas Viejas",
+      "Santa Martina",
+      "San Antón",
+      "Quesada",
+      "Callejón del Palmar"
+    ],
+    "C-75": [
+      "La Legua",
+      "Gavilán",
+      "Boca Ambuila"
+    ],
+    "C-39": [
+      "La Sierrita",
+      "El Brazo",
+      "Cafetal",
+      "Faisanera"
+    ],
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
+    ],
+    "C-26": [
+      "Caonao",
+      "Los Tanques",
+      "La Ceiba",
+      "El Paisíto"
+    ],
+    "C-90": [
+      "La Josefa",
+      "La Colmena",
+      "Arroyo Arenas",
+      "Lagunilla",
+      "Loma Abreus",
+      "Lajitas",
+      "Loma del Rosario",
+      "La Sabana",
+      "Pueblo Nuevo",
+      "Ciego Alonso"
+    ],
+    "C-43": [
+      "Aguada",
+      "Autopista",
+      "Batey María Victoria"
+    ],
+    "C-6": [
+      "Rancho Luna",
+      "Pasacaballo",
+      "La Milpa"
+    ],
+    "C-3": [
+      "Reparto Eléctrico"
+    ],
+    "C-5": [
+      "Boulevard",
+      "Parque Martí"
+    ],
+    "C-30": [
+      "14 de Julio",
+      "Batey 2 Hermanos"
+    ],
+    "S-9092": [
+      "Antiguo Pree Dimas Martínez"
+    ],
+    "C-48": [
+      "San Blas",
+      "La Vega",
+      "Sabanita",
+      "Pico San Juan",
+      "Gaviña",
+      "El Naranjo",
+      "Sopapo",
+      "Mayarí"
+    ],
+    "C-1770": [
+      "Guanayara",
+      "4 Vientos",
+      "Cien Rosas",
+      "Charco Azul",
+      "Aguacate",
+      "Grones",
+      "EL Nacimiento",
+      "Centro Cubano"
     ],
     "C-92": [
       "Calzada Dolores",
@@ -297,6 +346,10 @@
     ],
     "C-405": [
       "Pueblo Griffo Nuevo"
+    ],
+    "C-70": [
+      "Aguada",
+      "Federal"
     ]
   },
   "programados": {
@@ -343,13 +396,13 @@
       "Manaquita"
     ]
   },
-  "total_circuitos_afectados": 55,
+  "total_circuitos_afectados": 62,
   "total_circuitos_programados": 8,
-  "mw": 60,
+  "mw": 80,
   "hora_inicio": null,
   "cierre": null,
   "tiempos": {},
   "causas": {},
   "error": null,
-  "actualizado": "2026-10-06T22:36:47.652229+00:00"
+  "actualizado": "2026-10-06T22:49:03.664270+00:00"
 }
