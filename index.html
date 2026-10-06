@@ -43,6 +43,7 @@
   .dot.red{background:#ef4444;animation:blink 1.2s infinite}
   .dot.orange{background:#f59e0b;animation:blink 2.2s infinite}
   .dot.green{background:#22c55e}
+  .dot.gray{background:#6b7280;opacity:.5}
   @keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.8)}}
   .leaflet-popup-content{font-size:13px;line-height:1.6;min-width:180px}
   .leaflet-popup-content b{color:#0b0f1a}
@@ -201,25 +202,31 @@ function renderizar(){
   if(!Object.keys(circ).length) return;
   const afectados = est.afectados || {};
   const programados = est.programados || {};
-  let nAfect=0, nProg=0, nOk=0;
+  // ¿Datos desactualizados? (sin reporte en 24h) → gris en vez de verde engañoso
+  let desactualizado = true;
+  if(est.reporte_fecha){
+    const edadH = (Date.now() - new Date(est.reporte_fecha).getTime()) / 36e5;
+    if(edadH < 24) desactualizado = false;
+  }
+  let nAfect=0, nProg=0, nOk=0, nDesc=0;
   const porMun = {};
   for(const [id, c] of Object.entries(circ)){
     const esAfect = !!afectados[id];
     const esProg = !esAfect && !!programados[id];
+    const esDesc = !esAfect && !esProg && desactualizado;
     if(esAfect) nAfect++;
     else if(esProg) nProg++;
+    else if(esDesc) nDesc++;
     else nOk++;
     // Filtro por pestaña
     if(filtroActual==='ahora' && !esAfect) continue;
     if(filtroActual==='programados' && !esProg) continue;
     if(esAfect) porMun[c.municipio]=(porMun[c.municipio]||0)+1;
-    const color = esAfect ? 'red' : (esProg ? 'orange' : 'green');
-    const icon = L.divIcon({className:'', html:`<div class="dot ${color}" style="width:18px;height:18px${c.aproximado?';opacity:.45':''}"></div>`, iconSize:[18,18]});
-    const lugares = (c.lugares||[]).join(', ');
+    const color = esAfect ? 'red' : (esProg ? 'orange' : (esDesc ? 'gray' : 'green'));
     const badge = esAfect ? '<span class="badge red">SIN SERVICIO</span>'
                 : esProg ? '<span class="badge orange">PROGRAMADO</span>'
+                : esDesc ? '<span class="badge" style="background:#6b7280">SIN DATOS</span>'
                 : '<span class="badge green">CON SERVICIO</span>';
-    const aprox = c.aproximado ? '<br><i style="color:#f59e0b">📍 Ubicación aproximada</i>' : '';
     const zonas = esAfect ? afectados[id] : (esProg ? programados[id] : null);
     const detalle = (zonas && zonas.length) ? `<br><b>Zonas:</b> ${zonas.join(', ')}` : '';
     let extraInfo = '';
@@ -229,12 +236,20 @@ function renderizar(){
       if(t) extraInfo += `<br>⏱️ <b>${t}</b> sin servicio`;
       if(causa) extraInfo += `<br>🔧 Causa: ${causa}`;
     }
-    L.marker([c.lat, c.lng], {icon}).addTo(layerGroup)
-      .bindPopup(`${badge}<br><b>Circuito ${id}</b><br>${lugares}${c.municipio?`<br><i>${c.municipio}</i>`:''}${aprox}${extraInfo}${detalle}`);
+    // Un punto por lugar (no uno por circuito)
+    const puntos = (c.puntos && c.puntos.length) ? c.puntos : [{lugar: c.municipio||'', lat: c.lat, lng: c.lng, aproximado: !!c.aproximado}];
+    for(const pt of puntos){
+      if(pt.lat==null || pt.lng==null) continue;
+      const icon = L.divIcon({className:'', html:`<div class="dot ${color}" style="width:18px;height:18px${pt.aproximado?';opacity:.45':''}"></div>`, iconSize:[18,18]});
+      const aprox = pt.aproximado ? '<br><i style="color:#f59e0b">📍 Ubicación aproximada</i>' : '';
+      const lugarTxt = pt.lugar ? `<br><b>${pt.lugar}</b>` : '';
+      L.marker([pt.lat, pt.lng], {icon}).addTo(layerGroup)
+        .bindPopup(`${badge}<br><b>Circuito ${id}</b>${lugarTxt}${aprox}${extraInfo}${detalle}`);
+    }
   }
   document.getElementById('cAfect').textContent = nAfect;
   document.getElementById('cProg').textContent = nProg;
-  document.getElementById('cOk').textContent = nOk;
+  document.getElementById('cOk').textContent = nDesc > 0 ? `${nOk} (${nDesc} s/datos)` : nOk;
   actualizarTexto(porMun);
 }
 
