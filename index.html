@@ -119,6 +119,23 @@ for(const [id,p] of Object.entries(PROVINCIAS)){
 }
 sel.addEventListener('change', ()=>cargar(sel.value, true));
 
+// Botón "mi ubicación" debajo del zoom
+const btnUbic = L.control({position:'bottomright'});
+btnUbic.onAdd = ()=>{
+  const d = L.DomUtil.create('div','leaflet-bar leaflet-control');
+  d.innerHTML = '<a href="#" title="Mi ubicación" style="font-size:18px;line-height:30px">◎</a>';
+  d.style.marginTop = '8px'; d.style.cursor = 'pointer';
+  d.onclick = (e)=>{
+    e.preventDefault();
+    if(miPos){ moviendoPorCodigo=true; map.flyTo(miPos, 12, {duration:1}); setTimeout(()=>moviendoPorCodigo=false, 1100); }
+    else if(navigator.geolocation){ navigator.geolocation.getCurrentPosition(p=>{ map.flyTo([p.coords.latitude,p.coords.longitude], 12, {duration:1}); }); }
+    return false;
+  };
+  return d;
+};
+btnUbic.addTo(map);
+let miPos = null;
+
 let moviendoPorCodigo = false;
 // Si el usuario mueve el mapa manual, detectar la provincia del centro
 map.on('moveend', ()=>{
@@ -224,6 +241,7 @@ const userIcon = L.divIcon({className:'', html:'<div style="width:20px;height:20
 if(navigator.geolocation){
   navigator.geolocation.getCurrentPosition(pos=>{
     const lat=pos.coords.latitude, lng=pos.coords.longitude;
+    miPos = [lat, lng];
     L.marker([lat,lng],{icon:userIcon}).addTo(map).bindPopup("📍 Estás aquí").openPopup();
     let mejor=null, mejorD=1e9;
     for(const [id,p] of Object.entries(PROVINCIAS)){
