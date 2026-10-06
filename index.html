@@ -139,17 +139,19 @@ function activarDrag(mk){
   alert('Arrastra el punto a la ubicación correcta y suéltalo.');
 }
 
-// Envía la corrección del usuario a revisión (abre formulario pre-llenado)
+// Envía la corrección del usuario al servidor para revisión
+const CORRECCIONES_URL = "PON_AQUI_LA_URL_DEL_SCRIPT";
 function reportarCorreccion(prov, circuito, lugar){
   const ck = `corr_${prov}_${circuito}_${lugar}`;
   let coords = null;
   try { coords = JSON.parse(localStorage.getItem(ck)); } catch(e){}
-  if(!coords){ alert('Primero mantén presionado el punto y muévelo a la ubicación correcta.'); return; }
-  // TODO Fraudy: reemplazar FORM_ID por el ID real del Google Form
-  const url = `https://docs.google.com/forms/d/e/FORM_ID/viewform?usp=pp_url&entry.prov=${prov}&entry.circ=${circuito}&entry.lugar=${encodeURIComponent(lugar)}&entry.lat=${coords.lat}&entry.lng=${coords.lng}`;
-  if(confirm('Se abrirá un formulario para enviar tu corrección a revisión. ¿Continuar?')){
-    window.open(url, '_blank');
-  }
+  if(!coords){ alert('Primero usa "✏️ Mover punto" para ubicarlo correctamente.'); return; }
+  if(!confirm(`¿Enviar esta corrección para revisión?\n\n${lugar}: ${coords.lat}, ${coords.lng}`)) return;
+  fetch(CORRECCIONES_URL, {
+    method: "POST",
+    body: JSON.stringify({ prov, circuito, lugar, lat: coords.lat, lng: coords.lng })
+  }).then(()=>alert("Corrección enviada. ¡Gracias!"))
+    .catch(()=>alert("Error al enviar. Inténtalo de nuevo."));
 }
 const sel = document.getElementById('provSel');
 for(const [id,p] of Object.entries(PROVINCIAS)){
