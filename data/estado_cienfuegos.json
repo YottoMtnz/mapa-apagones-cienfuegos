@@ -2,12 +2,42 @@
   "schema": 2,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-06T21:34:19+00:00",
+  "reporte_fecha": "2026-10-06T22:16:12+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-06T21:00:21+00:00",
   "mensajes_leidos": 50,
   "afectados": {
+    "C-30": [
+      "14 de Julio",
+      "Batey 2 Hermanos"
+    ],
+    "C-90": [
+      "La Pollera"
+    ],
+    "S-9092": [
+      "Antiguo Pree Dimas Martínez"
+    ],
+    "C-48": [
+      "San Blas",
+      "La Vega",
+      "Sabanita",
+      "Pico San Juan",
+      "Gaviña",
+      "El Naranjo",
+      "Sopapo",
+      "Mayarí"
+    ],
+    "C-1770": [
+      "Guanayara",
+      "4 Vientos",
+      "Cien Rosas",
+      "Charco Azul",
+      "Aguacate",
+      "Grones",
+      "EL Nacimiento",
+      "Centro Cubano"
+    ],
     "C-11": [
       "Ariza",
       "Silverita",
@@ -256,12 +286,17 @@
       "Termoeléctrica",
       "O'bourke"
     ],
-    "C-90": [
-      "La Pollera"
+    "C-92": [
+      "Calzada Dolores",
+      "San Lázaro"
     ],
-    "C-30": [
-      "14 de Julio",
-      "Batey 2 Hermanos"
+    "C-401": [
+      "Zona Industrial 1",
+      "Almacenes Cimex",
+      "El Miedo"
+    ],
+    "C-405": [
+      "Pueblo Griffo Nuevo"
     ]
   },
   "programados": {
@@ -308,7 +343,7 @@
       "Manaquita"
     ]
   },
-  "total_circuitos_afectados": 49,
+  "total_circuitos_afectados": 55,
   "total_circuitos_programados": 8,
   "mw": 60,
   "hora_inicio": null,
@@ -316,5 +351,5 @@
   "tiempos": {},
   "causas": {},
   "error": null,
-  "actualizado": "2026-10-06T22:04:01.092604+00:00"
+  "actualizado": "2026-10-06T22:19:13.568988+00:00"
 }
