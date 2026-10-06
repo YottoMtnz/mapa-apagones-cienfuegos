@@ -60,7 +60,10 @@
 <div class="panel">
   <h1>⚡ Mapa de Apagones</h1>
   <div class="sub">Cuba — monitoreo en vivo</div>
-  <select class="provsel" id="provSel"></select>
+  <div style="display:flex;gap:8px;margin-bottom:12px">
+    <select class="provsel" id="provSel" style="flex:1;margin-bottom:0"></select>
+    <button id="btnUbic" title="Mi ubicación" style="padding:0 14px;border-radius:12px;border:1px solid #2dd4bf;background:#141b2e;color:#5eead4;font-size:20px;cursor:pointer">◎</button>
+  </div>
   <div class="tabs">
     <div class="tab activo" data-tab="todos">Todos</div>
     <div class="tab" data-tab="ahora">Sin servicio</div>
@@ -120,13 +123,8 @@ for(const [id,p] of Object.entries(PROVINCIAS)){
 sel.addEventListener('change', ()=>cargar(sel.value, true));
 
 let miPos = null;
-// Botón "mi ubicación" como HTML normal (táctil confiable)
-const btnU = document.createElement('button');
-btnU.id = 'btnUbic';
-btnU.title = 'Mi ubicación';
-btnU.innerHTML = '◎';
-btnU.style.cssText = 'position:fixed;right:12px;bottom:86px;z-index:500;width:44px;height:44px;border-radius:8px;border:1px solid #334155;background:#0f172a;color:#5eead4;font-size:22px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.5)';
-document.body.appendChild(btnU);
+// Botón "mi ubicación" en el panel
+const btnU = document.getElementById('btnUbic');
 function irAMiPos(){
   const ir = (lat,lng)=>{ miPos=[lat,lng]; moviendoPorCodigo=true; map.flyTo(miPos,12,{duration:1}); setTimeout(()=>moviendoPorCodigo=false,1100); };
   if(miPos) ir(miPos[0], miPos[1]);
