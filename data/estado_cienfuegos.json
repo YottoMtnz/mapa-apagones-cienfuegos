@@ -2,12 +2,15 @@
   "schema": 2,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-06T12:49:36+00:00",
+  "reporte_fecha": "2026-10-06T13:59:09+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-06T12:26:29+00:00",
   "mensajes_leidos": 50,
   "afectados": {
+    "S-9092": [
+      "afectando la zona"
+    ],
     "C-82": [
       "Balboa",
       "La Pedrera",
@@ -19,7 +22,7 @@
       "La Milpa"
     ],
     "C-84": [
-      "Espartaco (Este",
+      "Espartaco",
       "Maleza",
       "Dagame",
       "Paso del Medio",
@@ -28,7 +31,7 @@
       "Manaquita"
     ],
     "C-56": [
-      "Cruces (Norte"
+      "Cruces"
     ],
     "C-11": [
       "Ariza",
@@ -60,7 +63,7 @@
       "emisora de radio"
     ],
     "C-63": [
-      "Juraguá (Oeste",
+      "Juraguá",
       "Las 500",
       "Calicito",
       "Bolivia",
@@ -72,7 +75,7 @@
     "C-72": [
       "Porcino",
       "La Caridad",
-      "Palmira (Sur"
+      "Palmira"
     ],
     "C-7": [
       "Lajas",
@@ -89,7 +92,7 @@
       "San Isidro"
     ],
     "C-57": [
-      "Lajas (Pueblo"
+      "Lajas"
     ],
     "C-53": [
       "Potrerillo",
@@ -97,7 +100,7 @@
       "Lomitas"
     ],
     "C-55": [
-      "Cruces (Sur"
+      "Cruces"
     ],
     "C-54": [
       "Batey Mal Tiempo",
@@ -107,7 +110,8 @@
     "C-32": [
       "Yaguaramas",
       "Guayabales",
-      "Batey Diego. ( PSFV 0-24"
+      "Batey Diego",
+      "[PSFV 0-24]"
     ],
     "C-49": [
       "Arriete",
@@ -150,10 +154,10 @@
       "Guasimal"
     ],
     "C-25": [
-      "Abreus (Pueblo"
+      "Abreus"
     ],
     "C-85": [
-      "Cumanayagua (Centro"
+      "Cumanayagua"
     ],
     "C-8": [
       "Congojas",
@@ -167,7 +171,7 @@
       "Cherepa"
     ],
     "C-50": [
-      "Palmira (Norte"
+      "Palmira"
     ],
     "C-35": [
       "Terraza",
@@ -202,7 +206,7 @@
       "Galeón",
       "Batey Santana",
       "Guevara",
-      "Aguada (Oeste"
+      "Aguada"
     ],
     "C-26": [
       "Caonao",
@@ -244,11 +248,11 @@
       "Federal"
     ],
     "C-66": [
-      "Reina (Parque"
+      "Reina"
     ],
     "C-65": [
       "Centro histórico",
-      "Reina (Aduana"
+      "Reina"
     ],
     "C-21": [
       "Santa Elena",
@@ -258,10 +262,11 @@
       "Las Medidas"
     ],
     "C-22": [
-      "Rodas (Bombeo Agua Rodas 0-12"
+      "Rodas",
+      "[Bombeo Agua Rodas 0-12]"
     ],
     "C-36": [
-      "Cumanayagua (Sur",
+      "Cumanayagua",
       "La Guasasa",
       "Ceibabo",
       "La Furnia",
@@ -275,7 +280,7 @@
       "Calle 47 de Ave 54 hasta Ave 58"
     ],
     "C-90": [
-      "FW1558) La Pollera"
+      "La Pollera"
     ],
     "C-30": [
       "14 de Julio",
@@ -293,7 +298,7 @@
       "La Loma"
     ]
   },
-  "total_circuitos_afectados": 53,
+  "total_circuitos_afectados": 54,
   "total_circuitos_programados": 2,
   "mw": 53,
   "hora_inicio": null,
@@ -301,5 +306,5 @@
   "tiempos": {},
   "causas": {},
   "error": null,
-  "actualizado": "2026-10-06T13:24:07.753543+00:00"
+  "actualizado": "2026-10-06T13:59:09.904366+00:00"
 }
