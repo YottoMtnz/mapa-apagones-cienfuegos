@@ -65,6 +65,15 @@ def es_fallback(lat, lng, clat, clng):
 
 def main():
     args = sys.argv[1:]
+    # Modo: agregar puntos por lugar a archivos existentes
+    if "--puntos" in args:
+        idx = args.index("--puntos")
+        archivos = args[idx+1:] or []
+        if not archivos:
+            import glob
+            archivos = sorted(glob.glob(os.path.join(BASE, "data", "circuitos_*.json")))
+        agregar_puntos(archivos)
+        return
     solo = args[0] if args and not args[0].startswith("--") else None
     solo_malos = "--solo-malos" in args
 
@@ -120,18 +129,89 @@ def main():
             if lat is None:
                 # Sin resultado: capital como referencia HONESTA
                 lat, lng, municipio, aproximado = clat, clng, capital, True
+            # Puntos por lugar (uno por cada lugar del circuito)
+            puntos = []
+            for lugar in (lugares or []):
+                if not lugar or len(lugar) > 60:
+                    continue
+                plat = plng = None
+                for q in (f"{lugar}, {capital}, Cuba", f"{lugar}, Cuba"):
+                    r = geocode(q, minla, maxla, minlo, maxlo)
+                    time.sleep(1.1)
+                    if r:
+                        plat, plng = r[0], r[1]
+                        break
+                if plat is None:
+                    plat, plng, paprox = clat, clng, True
+                else:
+                    paprox = False
+                puntos.append({"lugar": lugar, "lat": round(plat, 5),
+                               "lng": round(plng, 5), "aproximado": paprox})
+            if not puntos:
+                puntos = [{"lugar": municipio, "lat": round(lat, 5),
+                           "lng": round(lng, 5), "aproximado": aproximado}]
             resultado[cid] = {
                 "lugares": lugares or [],
                 "municipio": municipio,
                 "lat": round(lat, 5),
                 "lng": round(lng, 5),
                 "aproximado": aproximado,
+                "puntos": puntos,
             }
             tag = "APROX" if aproximado else "ok"
             print(f"  [{tag}] {cid}: {municipio} ({lat:.3f},{lng:.3f})")
         with open(out, "w", encoding="utf-8") as f:
             json.dump(resultado, f, ensure_ascii=False, indent=2)
         print(f"  -> {out}")
+
+def agregar_puntos(archivos):
+    """Lee circuitos_*.json existentes y agrega 'puntos' (uno por lugar)."""
+    for path in archivos:
+        prov = os.path.basename(path).replace("circuitos_", "").replace(".json", "")
+        if prov not in PROVINCIAS:
+            continue
+        clat, clng, capital, minla, maxla, minlo, maxlo = PROVINCIAS[prov]
+        d = json.load(open(path))
+        print(f"\n=== {prov}: {len(d)} circuitos ===")
+        for cid, info in d.items():
+            if not isinstance(info, dict):
+                continue
+            if info.get("puntos"):
+                continue  # ya tiene puntos
+            lugares = info.get("lugares") or []
+            puntos = []
+            for lugar in lugares:
+                if not lugar or len(lugar) > 60:
+                    continue
+                lat = lng = None
+                for q in (f"{lugar}, {capital}, Cuba", f"{lugar}, Cuba"):
+                    r = geocode(q, minla, maxla, minlo, maxlo)
+                    time.sleep(1.1)
+                    if r:
+                        lat, lng = r[0], r[1]
+                        break
+                if lat is None:
+                    lat, lng = clat, clng
+                    aproximado = True
+                else:
+                    aproximado = False
+                puntos.append({
+                    "lugar": lugar,
+                    "lat": round(lat, 5),
+                    "lng": round(lng, 5),
+                    "aproximado": aproximado,
+                })
+                tag = "APROX" if aproximado else "ok"
+                print(f"  [{tag}] {cid}/{lugar}: ({lat:.3f},{lng:.3f})")
+            # Si no hay lugares, un punto en la capital como aproximado
+            if not puntos and info.get("lat") is not None:
+                puntos = [{"lugar": info.get("municipio", ""),
+                           "lat": info["lat"], "lng": info["lng"],
+                           "aproximado": info.get("aproximado", False)}]
+            info["puntos"] = puntos
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(d, f, ensure_ascii=False, indent=2)
+        print(f"  -> {path}")
 
 if __name__ == "__main__":
     main()
