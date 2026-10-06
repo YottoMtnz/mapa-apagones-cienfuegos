@@ -23,7 +23,12 @@
   .tab[data-tab="programados"].activo{background:var(--naranja)}
   .tab[data-tab="todos"].activo{background:var(--teal)}
   .stats{display:flex;gap:8px;margin-bottom:10px}
-  .stat{flex:1;background:#141b2e;border-radius:12px;padding:10px 6px;text-align:center;border:1px solid #ffffff08}
+  .stat{flex:1;background:#141b2e;border-radius:12px;padding:10px 6px;text-align:center;border:1px solid #ffffff08;cursor:pointer;user-select:none}
+  .stat:active{background:#1e293b}
+  #tourBar{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);z-index:1001;background:#0f172a;border:1px solid #2dd4bf;border-radius:12px;padding:8px 12px;display:none;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(0,0,0,.5)}
+  #tourBar button{background:#2dd4bf;color:#0b0f1a;border:none;border-radius:8px;width:36px;height:36px;font-size:18px;font-weight:bold;cursor:pointer}
+  #tourBar button.salir{background:#ef4444;color:#fff}
+  #tourInfo{color:#e2e8f0;font-size:14px;white-space:nowrap}
   .stat b{font-size:22px;display:block;line-height:1.2}
   .stat span{font-size:10px;color:var(--gris);text-transform:uppercase;letter-spacing:.5px}
   .stat.red b{color:var(--rojo)}.stat.orange b{color:var(--naranja)}.stat.green b{color:var(--verde)}.stat.gray b{color:var(--gris)}
@@ -88,6 +93,12 @@
   <div class="credits">Desarrollado por <a href="https://github.com/YottoMtnz" target="_blank" rel="noopener">Fraudy Martinez Madruga</a></div>
 </div>
 <button id="btnUbic" title="Mi ubicación" aria-label="Mi ubicación">◎</button>
+<div id="tourBar">
+  <button id="tourPrev" title="Anterior">‹</button>
+  <span id="tourInfo">1 de 18</span>
+  <button id="tourNext" title="Siguiente">›</button>
+  <button id="tourSalir" class="salir" title="Salir">✕</button>
+</div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
@@ -112,6 +123,34 @@ const PROVINCIAS = {
 };
 const MAX_MONITOR_ATRASADO_H = 3;      // si 'actualizado' es más viejo, avisar
 const MAX_PINES_PARPADEO = 120;        // por encima, sin animación (batería en móvil)
+
+// Modo recorrido: tocar un contador para ver los puntos uno por uno
+let tour = {activo:false, lista:[], idx:0, categoria:''};
+const TOUR_COLOR = {afect:'red', prog:'orange', ok:'green', desc:'gray'};
+function iniciarTour(cat){
+  // Recolectar marcadores de esa categoría
+  const lista = [];
+  for(const ck in marcadores){
+    const mk = marcadores[ck];
+    if(mk._m && mk._m.color === TOUR_COLOR[cat]) lista.push(mk);
+  }
+  if(!lista.length){ alert('No hay puntos en esta categoría'); return; }
+  tour = {activo:true, lista, idx:0, categoria:cat};
+  $('tourBar').style.display = 'flex';
+  mostrarTour();
+}
+function mostrarTour(){
+  const mk = tour.lista[tour.idx];
+  if(!mk) return;
+  const {lat, lng} = mk._m;
+  map.setView([lat, lng], 13, {animate:true});
+  setTimeout(()=>mk.openPopup(), 400);
+  const nombres = {afect:'sin servicio', prog:'programados', ok:'con servicio', desc:'sin datos'};
+  $('tourInfo').textContent = `${tour.idx+1} de ${tour.lista.length} ${nombres[tour.categoria]||''}`;
+}
+function tourSiguiente(){ if(!tour.activo) return; tour.idx = (tour.idx+1) % tour.lista.length; mostrarTour(); }
+function tourAnterior(){ if(!tour.activo) return; tour.idx = (tour.idx-1+tour.lista.length) % tour.lista.length; mostrarTour(); }
+function tourSalir(){ tour.activo = false; $('tourBar').style.display = 'none'; map.closePopup(); }
 
 // Escapa HTML: TODO texto que venga de datos/Telegram pasa por aquí antes de ir a innerHTML.
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -333,6 +372,15 @@ function irAMiPos(){
   else if(navigator.geolocation) navigator.geolocation.getCurrentPosition(p=>{miPos=[p.coords.latitude,p.coords.longitude];volar(miPos,12)},()=>{},{timeout:10000});
 }
 $('btnUbic').addEventListener('click',irAMiPos);
+
+// Recorrido: tocar un contador para ver los puntos uno por uno
+document.querySelector('.stat.red').addEventListener('click',()=>iniciarTour('afect'));
+document.querySelector('.stat.orange').addEventListener('click',()=>iniciarTour('prog'));
+document.querySelector('.stat.green').addEventListener('click',()=>iniciarTour('ok'));
+document.querySelector('.stat.gray').addEventListener('click',()=>iniciarTour('desc'));
+$('tourNext').addEventListener('click',tourSiguiente);
+$('tourPrev').addEventListener('click',tourAnterior);
+$('tourSalir').addEventListener('click',tourSalir);
 
 cargar('cienfuegos',false);
 volar([22.15,-80.45],10);
