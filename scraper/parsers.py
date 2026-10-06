@@ -228,12 +228,31 @@ def parse_matanzas_restaurados(texto):
 # ---------------------------------------------------------------------- La Habana
 def parse_la_habana(texto):
     circuitos = {}
+    # Excluir la sección "🟢Con servicio:" — esos NO están afectados
+    con_servicio = set()
+    sec = re.search(r'🟢\s*[Cc]on servicio:(.*?)(?=🚨|📣|⚡|$)', texto, re.S)
+    if sec:
+        for m in re.finditer(r'👉\s*([A-Z0-9]+)', sec.group(1)):
+            con_servicio.add(m.group(1))
+    # También formato "**👉A465**:" con negritas
+    for m in re.finditer(r'\*\*👉([A-Z0-9]+)\*\*', texto):
+        # Verificar si está en sección de con servicio
+        pos = m.start()
+        sec_match = re.search(r'🟢\s*[Cc]on servicio:', texto[:pos])
+        if sec_match:
+            # Verificar que no haya una sección de afectados entre medio
+            entre = texto[sec_match.end():pos]
+            if not re.search(r'afectad|sin servicio|🚨', entre, re.I):
+                con_servicio.add(m.group(1))
     for m in re.finditer(r'👉\s*([A-Z0-9]+)\s*:\s*([^\n👉✅]+)', texto):
+        cid = m.group(1)
+        if cid in con_servicio:
+            continue  # Tiene servicio, no está afectado
         desc = _limpiar(m.group(2))
         mun = re.search(r'\(([^)]+)\)', desc)
         lugar = limpiar_lugar(mun.group(1).strip() if mun else desc[:50])
         if lugar:
-            circuitos[m.group(1)] = [lugar]
+            circuitos[cid] = [lugar]
     for m in re.finditer(r'✅\s*([A-Z0-9]+)\s*\(([^)]+)\)', texto):
         lugar = limpiar_lugar(_limpiar(m.group(2)))
         if lugar:
