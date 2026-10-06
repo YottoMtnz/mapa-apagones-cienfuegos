@@ -1,0 +1,42 @@
+{
+  "_nota": "Coordenadas de cabeceras municipales y localidades conocidas, escritas a mano (precision ~2-5 km). Formato: nombre_sin_acentos_minusculas: [lat, lng, precision, nota]. 'ciudad' = cabecera/pueblo (un pin representa todo el pueblo). Tienen PRIORIDAD sobre Nominatim. Verificar/ampliar con cualquier fuente fiable; NO anadir coordenadas de memoria si no se esta seguro: un circuito sin ubicar es mejor que uno mal ubicado.",
+  "holguin": {
+    "holguin":        [20.887, -76.263, "ciudad", "capital provincial"],
+    "moa":            [20.657, -74.951, "ciudad", "cabecera municipal"],
+    "banes":          [20.962, -75.719, "ciudad", "cabecera municipal"],
+    "mayari":         [20.659, -75.686, "ciudad", "cabecera municipal"],
+    "gibara":         [21.108, -76.133, "ciudad", "cabecera municipal"],
+    "antilla":        [20.840, -75.738, "ciudad", "cabecera municipal"],
+    "sagua de tanamo":[20.585, -75.241, "ciudad", "cabecera municipal"],
+    "cueto":          [20.717, -75.930, "ciudad", "cabecera municipal"],
+    "nicaro":         [20.684, -75.557, "localidad", "Levisa/Nicaro, aprox."],
+    "guardalavaca":   [21.130, -75.720, "localidad", "playa, aprox."]
+  },
+  "granma": {
+    "bayamo":         [20.379, -76.643, "ciudad", "capital provincial"],
+    "manzanillo":     [20.343, -77.117, "ciudad", "cabecera municipal"],
+    "niquero":        [20.040, -77.583, "ciudad", "cabecera municipal"],
+    "pilon":          [19.903, -77.316, "ciudad", "cabecera municipal"],
+    "yara":           [20.272, -76.955, "ciudad", "cabecera municipal"],
+    "jiguani":        [20.373, -76.432, "ciudad", "cabecera municipal"],
+    "guisa":          [20.256, -76.552, "ciudad", "cabecera municipal"],
+    "campechuela":    [20.239, -77.265, "ciudad", "cabecera municipal"],
+    "media luna":     [20.147, -77.433, "ciudad", "cabecera municipal"],
+    "cauto cristo":   [20.555, -76.479, "ciudad", "cabecera de Rio Cauto"],
+    "bueycito":       [20.333, -76.783, "localidad", "aprox."],
+    "bartolome maso": [20.167, -76.983, "ciudad", "cabecera municipal, aprox."]
+  },
+  "ciego-de-avila": {
+    "ciego de avila": [21.840, -78.762, "ciudad", "capital provincial"],
+    "moron":          [22.109, -78.627, "ciudad", "cabecera municipal"]
+  },
+  "mayabeque": {
+    "san jose":              [22.967, -82.150, "ciudad", "San Jose de las Lajas (en Mayabeque 'San Jose' es esta ciudad)"],
+    "san jose de las lajas": [22.967, -82.150, "ciudad", "capital provincial"]
+  },
+  "artemisa": {
+    "artemisa":                 [22.813, -82.763, "ciudad", "capital provincial"],
+    "san antonio de los banos": [22.891, -82.503, "ciudad", "S.A.B."],
+    "bahia honda":              [22.904, -83.166, "ciudad", "cabecera municipal"]
+  }
+}
