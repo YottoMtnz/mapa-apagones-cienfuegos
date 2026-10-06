@@ -181,7 +181,8 @@ def main():
 
     with TelegramClient(StringSession(sesion), int(api_id), api_hash) as client:
         # MODO ESTUDIO: guardar muestras de mensajes por provincia
-        if os.environ.get("MODO_ESTUDIO") == "1":
+        # Se activa creando el archivo data/MODO_ESTUDIO (luego se borra)
+        if os.path.exists(os.path.join(BASE, "data", "MODO_ESTUDIO")) or os.environ.get("MODO_ESTUDIO") == "1":
             muestras = {}
             for prov in PROVINCIAS:
                 canal = CANALES.get(prov)
