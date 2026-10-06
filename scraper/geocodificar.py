@@ -12,7 +12,7 @@ Reglas:
 - Si no se encuentra: se marca aproximado=True con la capital como referencia,
   NUNCA se inventan coordenadas falsas.
 """
-import json, os, sys, time, urllib.request, urllib.parse
+import json, os, re, sys, time, urllib.request, urllib.parse
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -73,6 +73,41 @@ def main():
             import glob
             archivos = sorted(glob.glob(os.path.join(BASE, "data", "circuitos_*.json")))
         agregar_puntos(archivos)
+        return
+    # Modo: reintentar solo los puntos aproximados (con query mejorada)
+    if "--reintentar" in args:
+        import glob
+        for path in sorted(glob.glob(os.path.join(BASE, "data", "circuitos_*.json"))):
+            prov = os.path.basename(path).replace("circuitos_", "").replace(".json", "")
+            if prov not in PROVINCIAS:
+                continue
+            clat, clng, capital, minla, maxla, minlo, maxlo = PROVINCIAS[prov]
+            d = json.load(open(path))
+            cambios = 0
+            for cid, info in d.items():
+                if not isinstance(info, dict):
+                    continue
+                for pt in (info.get("puntos") or []):
+                    if not pt.get("aproximado"):
+                        continue
+                    lugar = pt.get("lugar", "")
+                    base = re.sub(r"\s*\(.*?\)\s*", "", lugar).strip() or lugar
+                    queries = []
+                    for ql in ([base, lugar] if base != lugar else [lugar]):
+                        queries += [f"{ql}, {capital}, Cuba", f"{ql}, Cuba"]
+                    for q in queries:
+                        r = geocode(q, minla, maxla, minlo, maxlo)
+                        time.sleep(1.1)
+                        if r:
+                            pt["lat"], pt["lng"] = round(r[0], 5), round(r[1], 5)
+                            pt["aproximado"] = False
+                            cambios += 1
+                            print(f"  [FIX] {prov}/{cid}/{lugar}: ({r[0]:.3f},{r[1]:.3f})")
+                            break
+            if cambios:
+                with open(path, "w", encoding="utf-8") as f:
+                    json.dump(d, f, ensure_ascii=False, indent=2)
+                print(f"  -> {path}: {cambios} corregidos")
         return
     solo = args[0] if args and not args[0].startswith("--") else None
     solo_malos = "--solo-malos" in args
@@ -184,7 +219,13 @@ def agregar_puntos(archivos):
                 if not lugar or len(lugar) > 60:
                     continue
                 lat = lng = None
-                for q in (f"{lugar}, {capital}, Cuba", f"{lugar}, Cuba"):
+                # Quitar calificadores entre paréntesis para buscar
+                # ("Cumanayagua (Centro)" -> "Cumanayagua")
+                base = re.sub(r"\s*\(.*?\)\s*", "", lugar).strip() or lugar
+                queries = []
+                for ql in ([base, lugar] if base != lugar else [lugar]):
+                    queries += [f"{ql}, {capital}, Cuba", f"{ql}, Cuba"]
+                for q in queries:
                     r = geocode(q, minla, maxla, minlo, maxlo)
                     time.sleep(1.1)
                     if r:
