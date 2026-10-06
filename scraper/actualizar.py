@@ -255,11 +255,11 @@ def main():
                     continue
                 try:
                     msgs = []
-                    for m in client.iter_messages(canal, limit=5):
+                    for m in client.iter_messages(canal, limit=20):
                         if m.text:
                             msgs.append({
                                 "fecha": m.date.astimezone(timezone.utc).isoformat(),
-                                "texto": m.text[:800]
+                                "texto": m.text[:1500]
                             })
                     muestras[prov] = msgs
                     print(f"ESTUDIO {prov}: {len(msgs)} mensajes")
