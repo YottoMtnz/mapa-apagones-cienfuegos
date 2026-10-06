@@ -284,6 +284,13 @@ function renderizar(){
       const t=(est.tiempos||{})[id], causa=(est.causas||{})[id];
       if(t) extra+=`<br>⏱️ <b>${esc(t)}</b> sin servicio`;
       if(causa) extra+=`<br>🔧 Causa: ${esc(causa)}`;
+      // Servicios críticos en [corchetes]: 💧 bombeo, 🏨 hoteles, etc.
+      const servicios = (Array.isArray(zonas)?zonas:[]).filter(z=>z.startsWith('[')&&z.endsWith(']'));
+      for(const s of servicios){
+        const txt = esc(s.slice(1,-1));
+        const icono = /bombeo|agua/i.test(txt) ? '💧' : /hotel/i.test(txt) ? '🏨' : /hospital/i.test(txt) ? '🏥' : '⚠️';
+        extra += `<br>${icono} <b>${txt}</b>`;
+      }
     }
     const nota = corr ? '<br><i style="color:#38bdf8">✏️ Corregido por ti</i>'
       : dudoso ? '<br><i style="color:#f59e0b">⚠️ Ubicación por confirmar</i>'
