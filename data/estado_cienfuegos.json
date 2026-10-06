@@ -2,36 +2,16 @@
   "schema": 2,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-06T13:59:09+00:00",
+  "reporte_fecha": "2026-10-06T14:10:05+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-06T12:26:29+00:00",
   "mensajes_leidos": 50,
   "afectados": {
-    "S-9092": [
-      "afectando la zona"
-    ],
     "C-82": [
       "Balboa",
       "La Pedrera",
       "El Tropezón"
-    ],
-    "C-6": [
-      "Rancho Luna",
-      "Pasacaballo",
-      "La Milpa"
-    ],
-    "C-84": [
-      "Espartaco",
-      "Maleza",
-      "Dagame",
-      "Paso del Medio",
-      "San Fernando de Camarones",
-      "Jurisdicción",
-      "Manaquita"
-    ],
-    "C-56": [
-      "Cruces"
     ],
     "C-11": [
       "Ariza",
@@ -279,6 +259,40 @@
       "Ave 58 de Calle 47 hasta Calle 49",
       "Calle 47 de Ave 54 hasta Ave 58"
     ],
+    "C-27": [
+      "Barrio Matadero",
+      "Juraguá",
+      "[Bombeo Agua CEN 0-12]"
+    ],
+    "C-28": [
+      "CEN",
+      "Castillo de Jagua",
+      "La Loma",
+      "[Bombeo Agua CEN 0-12]"
+    ],
+    "C-59": [
+      "Marta Abreus",
+      "Jova",
+      "Tumba Saco"
+    ],
+    "C-401": [
+      "Zona Industrial 1",
+      "Almacenes Cimex",
+      "El Miedo"
+    ],
+    "C-405": [
+      "Pueblo Griffo Nuevo"
+    ],
+    "C-407": [
+      "Cocaleca",
+      "Poligráfico",
+      "Pastorita",
+      "Termoeléctrica",
+      "O'bourke"
+    ],
+    "S-9092": [
+      "afectando la zona"
+    ],
     "C-90": [
       "La Pollera"
     ],
@@ -298,13 +312,13 @@
       "La Loma"
     ]
   },
-  "total_circuitos_afectados": 54,
+  "total_circuitos_afectados": 57,
   "total_circuitos_programados": 2,
-  "mw": 53,
+  "mw": 60,
   "hora_inicio": null,
   "cierre": null,
   "tiempos": {},
   "causas": {},
   "error": null,
-  "actualizado": "2026-10-06T13:59:09.904366+00:00"
+  "actualizado": "2026-10-06T14:14:22.932325+00:00"
 }
