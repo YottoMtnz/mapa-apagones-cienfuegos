@@ -1,197 +1,165 @@
 {
-  "3220": {
-    "lugares": [
-      "de S.A.B"
-    ],
-    "municipio": "de S.A.B",
-    "lat": 23.14342,
-    "lng": -82.35422,
-    "aproximado": false,
-    "puntos": [
-      {
-        "lugar": "de S.A.B",
-        "lat": 23.14342,
-        "lng": -82.35422,
-        "aproximado": false
-      }
-    ]
-  },
-  "342": {
-    "lugares": [
-      "Provicional de Bahía Honda"
-    ],
-    "municipio": "Artemisa",
-    "lat": 22.82,
-    "lng": -82.76,
-    "aproximado": true,
-    "puntos": [
-      {
-        "lugar": "Provicional de Bahía Honda",
-        "lat": 22.82,
-        "lng": -82.76,
-        "aproximado": true
-      }
-    ]
-  },
-  "5040": {
-    "lugares": [
-      "Nos encontramos con una afectación en estos momentos se 144 MW"
-    ],
-    "municipio": "Artemisa",
-    "lat": 22.82,
-    "lng": -82.76,
-    "aproximado": true,
-    "puntos": [
-      {
-        "lugar": "Artemisa",
-        "lat": 22.82,
-        "lng": -82.76,
-        "aproximado": true
-      }
-    ]
-  },
-  "341": {
-    "lugares": [
-      "de San Cristóbal"
-    ],
-    "municipio": "de San Cristóbal",
-    "lat": 22.70011,
-    "lng": -83.06478,
-    "puntos": [
-      {
-        "lugar": "de San Cristóbal",
-        "lat": 22.70011,
-        "lng": -83.06478,
-        "aproximado": false
-      }
-    ]
-  },
-  "1940": {
-    "lugares": [
-      "de San Antonio"
-    ],
-    "municipio": "de San Antonio",
-    "lat": 22.88894,
-    "lng": -82.5045,
-    "puntos": [
-      {
-        "lugar": "de San Antonio",
-        "lat": 22.88894,
-        "lng": -82.5045,
-        "aproximado": false
-      }
-    ]
-  },
-  "246": {
-    "lugares": [],
-    "municipio": "Artemisa",
-    "lat": 22.82,
-    "lng": -82.76,
-    "aproximado": true,
-    "puntos": [
-      {
-        "lugar": "Artemisa",
-        "lat": 22.82,
-        "lng": -82.76,
-        "aproximado": true
-      }
-    ]
-  },
-  "236": {
-    "lugares": [
-      "BH"
-    ],
-    "municipio": "BH",
-    "lat": 22.81277,
-    "lng": -82.76306,
-    "puntos": [
-      {
-        "lugar": "BH",
-        "lat": 22.81277,
-        "lng": -82.76306,
-        "aproximado": false
-      }
-    ]
-  },
-  "1570": {
-    "lugares": [
-      "de Artemisa"
-    ],
-    "municipio": "de Artemisa",
-    "lat": 22.76241,
-    "lng": -82.49328,
-    "puntos": [
-      {
-        "lugar": "de Artemisa",
-        "lat": 22.76241,
-        "lng": -82.49328,
-        "aproximado": false
-      }
-    ]
-  },
-  "1580": {
-    "lugares": [
-      "Alquízar"
-    ],
-    "municipio": "Alquízar",
-    "lat": 22.80481,
-    "lng": -82.58368,
-    "puntos": [
-      {
-        "lugar": "Alquízar",
-        "lat": 22.80481,
-        "lng": -82.58368,
-        "aproximado": false
-      }
-    ]
-  },
-  "4000": {
-    "lugares": [
-      "Guanajay"
-    ],
-    "municipio": "Guanajay",
-    "lat": 22.92663,
-    "lng": -82.68875,
-    "puntos": [
-      {
-        "lugar": "Guanajay",
-        "lat": 22.92663,
-        "lng": -82.68875,
-        "aproximado": false
-      }
-    ]
-  },
-  "1270": {
-    "lugares": [
-      "de Artemisa"
-    ],
-    "municipio": "de Artemisa",
-    "lat": 22.76241,
-    "lng": -82.49328,
-    "puntos": [
-      {
-        "lugar": "de Artemisa",
-        "lat": 22.76241,
-        "lng": -82.49328,
-        "aproximado": false
-      }
-    ]
-  },
-  "13": {
-    "lugares": [
-      "mil y 4mil de Güira de Melena"
-    ],
-    "municipio": "Artemisa",
-    "lat": 22.82,
-    "lng": -82.76,
-    "aproximado": true,
-    "puntos": [
-      {
-        "lugar": "mil y 4mil de Güira de Melena",
-        "lat": 22.82,
-        "lng": -82.76,
-        "aproximado": true
-      }
-    ]
+  "schema": 2,
+  "provincia": "artemisa",
+  "circuitos": {
+    "3220": {
+      "lugares": [
+        "San Antonio de los Baños"
+      ],
+      "puntos": [
+        {
+          "lugar": "San Antonio de los Baños",
+          "lat": 22.891,
+          "lng": -82.503,
+          "precision": "ciudad",
+          "fuente": "gazetteer",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "342": {
+      "lugares": [
+        "Bahía Honda"
+      ],
+      "puntos": [
+        {
+          "lugar": "Bahía Honda",
+          "lat": 22.904,
+          "lng": -83.166,
+          "precision": "ciudad",
+          "fuente": "gazetteer",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "341": {
+      "lugares": [
+        "San Cristóbal"
+      ],
+      "puntos": [
+        {
+          "lugar": "San Cristóbal",
+          "lat": 22.70011,
+          "lng": -83.06478,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "1940": {
+      "lugares": [
+        "San Antonio"
+      ],
+      "puntos": [
+        {
+          "lugar": "San Antonio",
+          "lat": 22.88894,
+          "lng": -82.5045,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "246": {
+      "lugares": [],
+      "puntos": [],
+      "ubicado": false,
+      "revisar": false
+    },
+    "236": {
+      "lugares": [
+        "Bahía Honda"
+      ],
+      "puntos": [
+        {
+          "lugar": "Bahía Honda",
+          "lat": 22.904,
+          "lng": -83.166,
+          "precision": "ciudad",
+          "fuente": "gazetteer",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "1570": {
+      "lugares": [
+        "Artemisa"
+      ],
+      "puntos": [
+        {
+          "lugar": "Artemisa",
+          "lat": 22.813,
+          "lng": -82.763,
+          "precision": "ciudad",
+          "fuente": "gazetteer",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "1580": {
+      "lugares": [
+        "Alquízar"
+      ],
+      "puntos": [
+        {
+          "lugar": "Alquízar",
+          "lat": 22.80481,
+          "lng": -82.58368,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "4000": {
+      "lugares": [
+        "Guanajay"
+      ],
+      "puntos": [
+        {
+          "lugar": "Guanajay",
+          "lat": 22.92663,
+          "lng": -82.68875,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "1270": {
+      "lugares": [
+        "Artemisa"
+      ],
+      "puntos": [
+        {
+          "lugar": "Artemisa",
+          "lat": 22.813,
+          "lng": -82.763,
+          "precision": "ciudad",
+          "fuente": "gazetteer",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    }
   }
 }
