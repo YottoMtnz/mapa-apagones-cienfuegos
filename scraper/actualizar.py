@@ -4,7 +4,7 @@ Lee los últimos mensajes de cada canal de Telegram, extrae circuitos afectados 
 escribe data/estado_<prov>.json.
 
 Variables de entorno: TG_SESSION, TG_API_ID, TG_API_HASH (GitHub Secrets).
-Opcionales: MAX_EDAD_HORAS (def. 12), HEARTBEAT_MIN (def. 60).
+Opcionales: MAX_EDAD_HORAS (def. 12), HEARTBEAT_MIN (def. 10).
 
 Garantías (lo que antes fallaba):
   * Si falla la lectura de una provincia se CONSERVA su estado anterior (antes se
@@ -171,12 +171,30 @@ def analizar_mensajes(prov, mensajes, ahora):
                             continue
                 else:
                     if es_lista_averias:
-                        # "continúan en avería" = lista completa: las que no están se resolvieron
-                        for cid in list(est["_averia_ids"]):
-                            if cid not in r and cid in est["afectados"]:
-                                if cid not in est["_deficit_ids"]:
-                                    del est["afectados"][cid]
-                        est["_averia_ids"] = set(r.keys())
+                        # "continúan en avería" = lista completa de fallas.
+                        # Igual que "actualización": la más nueva manda; las de la
+                        # misma ráfaga (<3 min) se unen; las viejas separadas se
+                        # ignoran (antes una lista vieja re-agregaba circuitos ya
+                        # resueltos: el bug "las averías nunca se quitan").
+                        if "_visto_averias" not in est:
+                            est["_visto_averias"] = True
+                            est["_averias_fecha"] = fecha
+                            # Las que no están se resolvieron, SALVO déficit activo
+                            for cid in list(est["_averia_ids"]):
+                                if cid not in r and cid in est["afectados"]:
+                                    if cid not in est["_deficit_ids"]:
+                                        del est["afectados"][cid]
+                            est["_averia_ids"] = set(r.keys())
+                        else:
+                            try:
+                                diff = abs((est["_averias_fecha"] - fecha).total_seconds())
+                            except:
+                                diff = 9999
+                            if diff < 180:  # misma lista dividida en varios mensajes
+                                est["_averia_ids"].update(r.keys())
+                            else:
+                                # Lista de averías vieja y separada: ignorar
+                                continue
                     else:
                         # Avería nueva: se suma
                         est["_averia_ids"].update(r.keys())
@@ -222,6 +240,8 @@ def guardar(prov, est, ahora):
     est.pop("_averia_ids", None)
     est.pop("_visto_actualizacion", None)
     est.pop("_actualizacion_fecha", None)
+    est.pop("_visto_averias", None)
+    est.pop("_averias_fecha", None)
     previo = leer_previo(prov)
     if previo and _igual(previo, est):
         try:
