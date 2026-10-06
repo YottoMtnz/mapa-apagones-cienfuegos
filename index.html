@@ -119,22 +119,21 @@ for(const [id,p] of Object.entries(PROVINCIAS)){
 }
 sel.addEventListener('change', ()=>cargar(sel.value, true));
 
-// Botón "mi ubicación" debajo del zoom
-const btnUbic = L.control({position:'bottomright'});
-btnUbic.onAdd = ()=>{
-  const d = L.DomUtil.create('div','leaflet-bar leaflet-control');
-  d.innerHTML = '<a href="#" title="Mi ubicación" style="font-size:18px;line-height:30px">◎</a>';
-  d.style.marginTop = '8px'; d.style.cursor = 'pointer';
-  d.onclick = (e)=>{
-    e.preventDefault();
-    if(miPos){ moviendoPorCodigo=true; map.flyTo(miPos, 12, {duration:1}); setTimeout(()=>moviendoPorCodigo=false, 1100); }
-    else if(navigator.geolocation){ navigator.geolocation.getCurrentPosition(p=>{ map.flyTo([p.coords.latitude,p.coords.longitude], 12, {duration:1}); }); }
-    return false;
-  };
-  return d;
-};
-btnUbic.addTo(map);
 let miPos = null;
+// Botón "mi ubicación" como HTML normal (táctil confiable)
+const btnU = document.createElement('button');
+btnU.id = 'btnUbic';
+btnU.title = 'Mi ubicación';
+btnU.innerHTML = '◎';
+btnU.style.cssText = 'position:fixed;right:12px;bottom:86px;z-index:500;width:44px;height:44px;border-radius:8px;border:1px solid #334155;background:#0f172a;color:#5eead4;font-size:22px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.5)';
+document.body.appendChild(btnU);
+function irAMiPos(){
+  const ir = (lat,lng)=>{ miPos=[lat,lng]; moviendoPorCodigo=true; map.flyTo(miPos,12,{duration:1}); setTimeout(()=>moviendoPorCodigo=false,1100); };
+  if(miPos) ir(miPos[0], miPos[1]);
+  else if(navigator.geolocation) navigator.geolocation.getCurrentPosition(p=>ir(p.coords.latitude,p.coords.longitude), ()=>{}, {timeout:10000});
+}
+btnU.addEventListener('click', irAMiPos);
+btnU.addEventListener('touchstart', (e)=>{ e.preventDefault(); irAMiPos(); }, {passive:false});
 
 let moviendoPorCodigo = false;
 // Si el usuario mueve el mapa manual, detectar la provincia del centro
