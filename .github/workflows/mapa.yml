@@ -1,0 +1,102 @@
+name: Mapa Apagones Cienfuegos
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'Modo: "sesion-paso1", "sesion-paso2" o "actualizar"'
+        required: true
+        default: 'actualizar'
+      telefono:
+        description: 'Tu numero con codigo de pais (solo sesion-paso1)'
+        required: false
+      codigo:
+        description: 'Codigo de Telegram (solo sesion-paso2)'
+        required: false
+      api_id:
+        description: 'Tu api_id (solo sesion)'
+        required: false
+      api_hash:
+        description: 'Tu api_hash (solo sesion)'
+        required: false
+
+jobs:
+  sesion-paso1:
+    if: inputs.modo == 'sesion-paso1'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install telethon
+      - run: |
+          python3 - <<'EOF'
+          from telethon.sync import TelegramClient
+          import os
+          client = TelegramClient("tmp", int(os.environ["API_ID"]), os.environ["API_HASH"])
+          client.connect()
+          sent = client.send_code_request(os.environ["PHONE"])
+          open("code_hash.txt","w").write(sent.phone_code_hash)
+          open("phone.txt","w").write(os.environ["PHONE"])
+          print("CODIGO ENVIADO. Corre de nuevo con modo=sesion-paso2 y el codigo.")
+          client.disconnect()
+          EOF
+        env:
+          API_ID: ${{ inputs.api_id }}
+          API_HASH: ${{ inputs.api_hash }}
+          PHONE: ${{ inputs.telefono }}
+      - uses: actions/upload-artifact@v4
+        with: { name: tg-estado, path: "code_hash.txt\nphone.txt" }
+
+  sesion-paso2:
+    if: inputs.modo == 'sesion-paso2'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install telethon
+      - uses: actions/download-artifact@v4
+        with: { name: tg-estado }
+      - run: |
+          python3 - <<'EOF'
+          from telethon.sync import TelegramClient
+          from telethon.sessions import StringSession
+          import os
+          pch = open("code_hash.txt").read().strip()
+          phone = open("phone.txt").read().strip()
+          client = TelegramClient(StringSession(), int(os.environ["API_ID"]), os.environ["API_HASH"])
+          client.connect()
+          client.sign_in(phone=phone, code=os.environ["CODE"].strip(), phone_code_hash=pch)
+          open("SESSION.txt","w").write(client.session.save())
+          print("OK. Descarga SESSION.txt y guardalo como secreto TG_SESSION.")
+          client.disconnect()
+          EOF
+        env:
+          API_ID: ${{ inputs.api_id }}
+          API_HASH: ${{ inputs.api_hash }}
+          CODE: ${{ inputs.codigo }}
+      - uses: actions/upload-artifact@v4
+        with: { name: tg-session, path: SESSION.txt }
+
+  actualizar:
+    if: inputs.modo == 'actualizar' || github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install telethon
+      - run: python3 scraper/actualizar.py
+        env:
+          TG_SESSION: ${{ secrets.TG_SESSION }}
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+      - name: Commit si hay cambios
+        run: |
+          git config user.name "MapaBot"
+          git config user.email "mapabot@users.noreply.github.com"
+          git add data/estado.json
+          git diff --staged --quiet || (git commit -m "Actualizar estado apagones" && git push)
