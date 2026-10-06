@@ -142,19 +142,29 @@ def analizar_mensajes(prov, mensajes, ahora):
                     est["_deficit_ids"] = set()
                     est["_averia_ids"] = set()
                 if es_actualizacion:
-                    # Solo la actualización MÁS RECIENTE reemplaza.
-                    # Las más viejas se ignoran (datos obsoletos).
+                    # Si hay múltiples "actualización" juntas (menos de 3 min entre sí),
+                    # son partes de la MISMA lista dividida -> UNIRLAS.
+                    # Si están separadas en el tiempo, la más nueva reemplaza.
                     if "_visto_actualizacion" not in est:
                         est["_visto_actualizacion"] = True
+                        est["_actualizacion_fecha"] = fecha
                         # Nueva actualización: los no listados se restablecieron
-                        # Eliminar del afectados los que eran de déficit pero ya no están
                         for cid in list(est["_deficit_ids"]):
                             if cid not in r and cid in est["afectados"]:
                                 del est["afectados"][cid]
                         est["_deficit_ids"] = set(r.keys())
-                    # Si ya vimos una actualización más nueva, ignorar esta
                     else:
-                        continue
+                        # ¿Es parte de la misma ráfaga? (menos de 3 min de diferencia)
+                        try:
+                            diff = abs((est["_actualizacion_fecha"] - fecha).total_seconds())
+                        except:
+                            diff = 9999
+                        if diff < 180:  # 3 minutos: misma actualización dividida
+                            # UNIR, no reemplazar
+                            est["_deficit_ids"].update(r.keys())
+                        else:
+                            # Actualización vieja separada: ignorar
+                            continue
                 else:
                     # Avería: se suma
                     est["_averia_ids"].update(r.keys())
@@ -199,6 +209,7 @@ def guardar(prov, est, ahora):
     est.pop("_deficit_ids", None)
     est.pop("_averia_ids", None)
     est.pop("_visto_actualizacion", None)
+    est.pop("_actualizacion_fecha", None)
     previo = leer_previo(prov)
     if previo and _igual(previo, est):
         try:
