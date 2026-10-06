@@ -197,6 +197,32 @@ function actualizarTexto(porMun){
 cargar('cienfuegos', false);
 map.flyTo([22.15,-80.45], 10, {duration:1.5});
 setInterval(()=>cargar(sel.value, false), 5*60*1000);
+
+// Geolocalización: marca al usuario y auto-selecciona su provincia
+function distancia(lat1,lon1,lat2,lon2){
+  const R=6371, dLa=(lat2-lat1)*Math.PI/180, dLo=(lon2-lon1)*Math.PI/180;
+  const a=Math.sin(dLa/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLo/2)**2;
+  return 2*R*Math.asin(Math.sqrt(a));
+}
+const userIcon = L.divIcon({className:'', html:'<div style="width:20px;height:20px;border-radius:50%;background:#3b82f6;border:3px solid #fff;box-shadow:0 0 10px #3b82f6"></div>', iconSize:[20,20]});
+if(navigator.geolocation){
+  navigator.geolocation.getCurrentPosition(pos=>{
+    const lat=pos.coords.latitude, lng=pos.coords.longitude;
+    L.marker([lat,lng],{icon:userIcon}).addTo(map).bindPopup("📍 Estás aquí").openPopup();
+    let mejor=null, mejorD=1e9;
+    for(const [id,p] of Object.entries(PROVINCIAS)){
+      const d=distancia(lat,lng,p.centro[0],p.centro[1]);
+      if(d<mejorD){ mejorD=d; mejor=id; }
+    }
+    // Solo auto-selecciona si está razonablemente cerca (250 km) y la provincia está activa
+    if(mejor && mejorD<250 && PROVINCIAS[mejor].activa){
+      sel.value=mejor;
+      cargar(mejor, true);
+    } else {
+      map.flyTo([lat,lng], 10, {duration:1.5});
+    }
+  }, ()=>{}, {timeout:10000});
+}
 </script>
 </body>
 </html>
