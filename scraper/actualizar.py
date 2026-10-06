@@ -182,6 +182,19 @@ def main():
     with TelegramClient(StringSession(sesion), int(api_id), api_hash) as client:
         for prov in PROVINCIAS:
             canal = CANALES.get(prov)
+            if prov == "matanzas-debug":
+                # TEMPORAL: ver mensajes reales de Matanzas
+                for intento in (1, 2):
+                    try:
+                        for m in client.iter_messages(canal, limit=10):
+                            if m.text and ("4940" in m.text or "sin servicio" in m.text.lower() or "afectad" in m.text.lower()):
+                                print(f"MATANZAS MSG [{m.date}]: {m.text[:400]}")
+                                print("---")
+                        break
+                    except Exception as e:
+                        print(f"Error: {e}")
+                        break
+                continue
             if prov in SIN_AFECTADOS or prov not in PARSERS:
                 est = analizar_mensajes(prov, [], ahora)
                 print(f"{prov}: sin fuente de afectados ({guardar(prov, est, ahora) and 'escrito' or 'igual'})")
