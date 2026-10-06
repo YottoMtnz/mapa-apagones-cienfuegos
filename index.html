@@ -119,6 +119,22 @@ for(const [id,p] of Object.entries(PROVINCIAS)){
 }
 sel.addEventListener('change', ()=>cargar(sel.value, true));
 
+let moviendoPorCodigo = false;
+// Si el usuario mueve el mapa manual, detectar la provincia del centro
+map.on('moveend', ()=>{
+  if(moviendoPorCodigo) return;
+  const c = map.getCenter();
+  let mejor=null, mejorD=1e9;
+  for(const [id,p] of Object.entries(PROVINCIAS)){
+    const d=distancia(c.lat,c.lng,p.centro[0],p.centro[1]);
+    if(d<mejorD){ mejorD=d; mejor=id; }
+  }
+  if(mejor && mejor!==sel.value && mejorD<250){
+    sel.value=mejor;
+    cargar(mejor, false);
+  }
+});
+
 document.querySelectorAll('.tab').forEach(t=>{
   t.addEventListener('click', ()=>{
     document.querySelectorAll('.tab').forEach(x=>x.classList.remove('activo'));
@@ -142,14 +158,14 @@ async function cargar(prov, mover=true){
     const f = est.actualizado ? new Date(est.actualizado).toLocaleString('es') : '—';
     document.getElementById('upd').dataset.full = `Actualizado: ${f}`;
     actualizarTexto();
-    if(mover) map.flyTo(p.centro, p.zoom, {duration:1});
+    if(mover){ moviendoPorCodigo=true; map.flyTo(p.centro, p.zoom, {duration:1}); setTimeout(()=>moviendoPorCodigo=false, 1100); }
   }catch(e){
     document.getElementById('upd').textContent = 'Datos de ' + p.nombre + ' próximamente.';
     document.getElementById('cAfect').textContent = '–';
     document.getElementById('cProg').textContent = '–';
     document.getElementById('cOk').textContent = '–';
     datosCache = {};
-    if(mover) map.flyTo(p.centro, p.zoom, {duration:1});
+    if(mover){ moviendoPorCodigo=true; map.flyTo(p.centro, p.zoom, {duration:1}); setTimeout(()=>moviendoPorCodigo=false, 1100); }
   }
 }
 
