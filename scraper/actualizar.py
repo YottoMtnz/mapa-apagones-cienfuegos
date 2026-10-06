@@ -57,7 +57,7 @@ def main():
             mw = None; hora_inicio = None; cierre = None
             tiempos = {}; causas = {}
             try:
-                for msg in client.iter_messages(canal, limit=30):
+                for msg in client.iter_messages(canal, limit=50):
                     total_leidos += 1
                     if not msg.text:
                         continue
