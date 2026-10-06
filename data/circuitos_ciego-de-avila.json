@@ -1,47 +1,37 @@
 {
-  "Morón Sur": {
-    "lugares": [],
-    "municipio": "Ciego de Ávila",
-    "lat": 21.85,
-    "lng": -78.76,
-    "aproximado": true,
-    "puntos": [
-      {
-        "lugar": "Ciego de Ávila",
-        "lat": 21.85,
-        "lng": -78.76,
-        "aproximado": true
-      }
-    ]
-  },
-  "de Gaspar": {
-    "lugares": [],
-    "municipio": "Ciego de Ávila",
-    "lat": 21.85,
-    "lng": -78.76,
-    "aproximado": true,
-    "puntos": [
-      {
-        "lugar": "Ciego de Ávila",
-        "lat": 21.85,
-        "lng": -78.76,
-        "aproximado": true
-      }
-    ]
-  },
-  "A110": {
-    "lugares": [],
-    "municipio": "Ciego de Ávila",
-    "lat": 21.85,
-    "lng": -78.76,
-    "aproximado": true,
-    "puntos": [
-      {
-        "lugar": "Ciego de Ávila",
-        "lat": 21.85,
-        "lng": -78.76,
-        "aproximado": true
-      }
-    ]
+  "schema": 2,
+  "provincia": "ciego-de-avila",
+  "circuitos": {
+    "Morón Sur": {
+      "lugares": [
+        "Morón Sur"
+      ],
+      "puntos": [
+        {
+          "lugar": "Morón Sur",
+          "lat": 22.109,
+          "lng": -78.627,
+          "precision": "ciudad",
+          "fuente": "gazetteer",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false
+    },
+    "Gaspar": {
+      "lugares": [
+        "Gaspar"
+      ],
+      "puntos": [],
+      "ubicado": false,
+      "revisar": false
+    },
+    "A 110": {
+      "lugares": [],
+      "puntos": [],
+      "ubicado": false,
+      "revisar": false
+    }
   }
 }
