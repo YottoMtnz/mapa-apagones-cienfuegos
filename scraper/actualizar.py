@@ -62,12 +62,6 @@ def main():
                     total_leidos += 1
                     if not msg.text:
                         continue
-                    # DEBUG: guardar preview de los últimos 5 mensajes
-                    if len(debug_msgs) < 5:
-                        debug_msgs.append({
-                            "fecha": msg.date.astimezone(timezone.utc).isoformat(),
-                            "preview": msg.text[:200].replace("\n", " | ")
-                        })
                     if prov in PARSERS:
                         r = PARSERS[prov](msg.text)
                     elif prov == "matanzas":
@@ -111,7 +105,6 @@ def main():
                 "cierre": cierre,
                 "tiempos": tiempos,
                 "causas": causas,
-                "debug_ultimos": debug_msgs,
             }
             path = os.path.join(BASE, "data", f"estado_{prov}.json")
             with open(path, "w", encoding="utf-8") as f:
