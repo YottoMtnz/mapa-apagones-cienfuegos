@@ -2,57 +2,16 @@
   "schema": 2,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-06T12:01:16+00:00",
+  "reporte_fecha": "2026-10-06T12:49:36+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-06T12:26:29+00:00",
   "mensajes_leidos": 50,
   "afectados": {
-    "C-25": [
-      "Abreus (Pueblo"
-    ],
-    "C-29": [
-      "Moncada",
-      "Constancia",
-      "Rosalía",
-      "Loma del Chivo",
-      "Simpatía",
-      "Charcas",
-      "Guasimal"
-    ],
-    "C-70": [
-      "Aguada",
-      "Federal"
-    ],
-    "C-31": [
-      "Horquita",
-      "Vista Hermosa",
-      "Micropresa",
-      "El Manguito",
-      "Mercedes",
-      "Guanal"
-    ],
-    "C-88": [
-      "San Ignacio",
-      "Babiney",
-      "Carmelina",
-      "San Rafael",
-      "La Leona",
-      "Mijalito",
-      "Matún"
-    ],
     "C-82": [
       "Balboa",
       "La Pedrera",
       "El Tropezón"
-    ],
-    "C-58": [
-      "Antonio Sánchez",
-      "Cocodrilo",
-      "Pinalito",
-      "Las Guásimas",
-      "Pozo Cercado",
-      "Magdalena"
     ],
     "C-6": [
       "Rancho Luna",
@@ -76,17 +35,6 @@
       "Silverita",
       "Nuevo México"
     ],
-    "C-39": [
-      "La Sierrita",
-      "El Brazo",
-      "Cafetal",
-      "Faisanera"
-    ],
-    "C-75": [
-      "La Legua",
-      "Gavilán",
-      "Boca Ambuila"
-    ],
     "C-33": [
       "Arimao",
       "Las Moscas",
@@ -95,6 +43,17 @@
       "San Antón",
       "Quesada",
       "Callejón del Palmar"
+    ],
+    "C-75": [
+      "La Legua",
+      "Gavilán",
+      "Boca Ambuila"
+    ],
+    "C-39": [
+      "La Sierrita",
+      "El Brazo",
+      "Cafetal",
+      "Faisanera"
     ],
     "C-86": [
       "Cumanayagua",
@@ -156,18 +115,6 @@
       "La Amalia",
       "Ceiba Hueca"
     ],
-    "C-23": [
-      "Turquino",
-      "5 de Septiembre",
-      "Guayabito"
-    ],
-    "C-103": [
-      "Santiago de Cartagena",
-      "Lequeito"
-    ],
-    "C-102": [
-      "La Ciruela"
-    ],
     "C-101": [
       "Cartagena",
       "La Modelo",
@@ -177,9 +124,33 @@
       "California",
       "El Salado"
     ],
+    "C-102": [
+      "La Ciruela"
+    ],
+    "C-103": [
+      "Santiago de Cartagena",
+      "Lequeito"
+    ],
+    "C-23": [
+      "Turquino",
+      "5 de Septiembre",
+      "Guayabito"
+    ],
     "C-91": [
       "Buena Vista",
       "La Esperanza"
+    ],
+    "C-29": [
+      "Moncada",
+      "Constancia",
+      "Rosalía",
+      "Loma del Chivo",
+      "Simpatía",
+      "Charcas",
+      "Guasimal"
+    ],
+    "C-25": [
+      "Abreus (Pueblo"
     ],
     "C-85": [
       "Cumanayagua (Centro"
@@ -210,11 +181,6 @@
       "La Redonda",
       "El Limpio"
     ],
-    "C-43": [
-      "Aguada (Pueblo",
-      "Autopista",
-      "Batey María Victoria"
-    ],
     "C-67": [
       "El Crucero",
       "Guaos",
@@ -237,12 +203,6 @@
       "Batey Santana",
       "Guevara",
       "Aguada (Oeste"
-    ],
-    "C-407": [
-      "Cocaleca",
-      "Poligráfico",
-      "Pastorita",
-      "O'bourke"
     ],
     "C-26": [
       "Caonao",
@@ -275,6 +235,81 @@
     "C-19": [
       "Tulipán"
     ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
+    ],
+    "C-70": [
+      "Aguada",
+      "Federal"
+    ],
+    "C-66": [
+      "Reina (Parque"
+    ],
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
+    ],
+    "C-21": [
+      "Santa Elena",
+      "La Candita",
+      "Jabacoa",
+      "Batey Nuevo",
+      "Las Medidas"
+    ],
+    "C-22": [
+      "Rodas (Bombeo Agua Rodas 0-12"
+    ],
+    "C-36": [
+      "Cumanayagua (Sur",
+      "La Guasasa",
+      "Ceibabo",
+      "La Furnia",
+      "Monasterio",
+      "El Concuní"
+    ],
+    "C-406": [
+      "San Lázaro",
+      "Calle 35 de Ave 58 hasta Ave 64",
+      "Ave 58 de Calle 47 hasta Calle 49",
+      "Calle 47 de Ave 54 hasta Ave 58"
+    ],
+    "C-31": [
+      "Horquita",
+      "Vista Hermosa",
+      "Micropresa",
+      "El Manguito",
+      "Mercedes",
+      "Guanal"
+    ],
+    "C-88": [
+      "San Ignacio",
+      "Babiney",
+      "Carmelina",
+      "San Rafael",
+      "La Leona",
+      "Mijalito",
+      "Matún"
+    ],
+    "C-58": [
+      "Antonio Sánchez",
+      "Cocodrilo",
+      "Pinalito",
+      "Las Guásimas",
+      "Pozo Cercado",
+      "Magdalena"
+    ],
+    "C-43": [
+      "Aguada (Pueblo",
+      "Autopista",
+      "Batey María Victoria"
+    ],
+    "C-407": [
+      "Cocaleca",
+      "Poligráfico",
+      "Pastorita",
+      "O'bourke"
+    ],
     "C-90": [
       "FW1558) La Pollera"
     ],
@@ -288,41 +323,6 @@
     "C-18": [
       "Arizona",
       "La Juanita (Hospital de Especialidades 0-24"
-    ],
-    "C-22": [
-      "Rodas (Bombeo Agua Rodas 0-12"
-    ],
-    "C-21": [
-      "Santa Elena",
-      "La Candita",
-      "Jabacoa",
-      "Batey Nuevo",
-      "Las Medidas"
-    ],
-    "C-406": [
-      "San Lázaro",
-      "Calle 35 de Ave 58 hasta Ave 64",
-      "Ave 58 de Calle 47 hasta Calle 49",
-      "Calle 47 de Ave 54 hasta Ave 58"
-    ],
-    "C-36": [
-      "Cumanayagua (Sur",
-      "La Guasasa",
-      "Ceibabo",
-      "La Furnia",
-      "Monasterio",
-      "El Concuní"
-    ],
-    "C-80": [
-      "Punta Cotica",
-      "Parque José Martí"
-    ],
-    "C-65": [
-      "Centro histórico",
-      "Reina (Aduana"
-    ],
-    "C-66": [
-      "Reina (Parque"
     ],
     "C-94": [
       "Petrocasas",
@@ -371,11 +371,6 @@
       "Cantarrana",
       "La Julia",
       "Pepe Rivas"
-    ],
-    "C-17": [
-      "Ave 5 de septiembre",
-      "Distrito Petrolero",
-      "Hermanas Giralt"
     ]
   },
   "programados": {
@@ -389,13 +384,13 @@
       "La Loma"
     ]
   },
-  "total_circuitos_afectados": 69,
+  "total_circuitos_afectados": 68,
   "total_circuitos_programados": 2,
-  "mw": 70,
+  "mw": 53,
   "hora_inicio": null,
   "cierre": null,
   "tiempos": {},
   "causas": {},
   "error": null,
-  "actualizado": "2026-10-06T12:38:59.272987+00:00"
+  "actualizado": "2026-10-06T12:54:03.130357+00:00"
 }
