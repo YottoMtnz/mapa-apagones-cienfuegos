@@ -150,7 +150,7 @@ function mostrarTour(){
 }
 function tourSiguiente(){ if(!tour.activo) return; tour.idx = (tour.idx+1) % tour.lista.length; mostrarTour(); }
 function tourAnterior(){ if(!tour.activo) return; tour.idx = (tour.idx-1+tour.lista.length) % tour.lista.length; mostrarTour(); }
-function tourSalir(){ tour.activo = false; $('tourBar').style.display = 'none'; map.closePopup(); }
+function tourSalir(){ tour.activo = false; const b=$('tourBar'); if(b) b.style.display = 'none'; try{ map.closePopup(); }catch(e){} }
 
 // Escapa HTML: TODO texto que venga de datos/Telegram pasa por aquí antes de ir a innerHTML.
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -208,6 +208,7 @@ async function getJSON(url){ const r=await fetch(url+'?v='+Date.now()); if(!r.ok
 async function cargar(prov,mover=true){
   const mi=++reqId;                 // descarta respuestas viejas si el usuario cambió de provincia
   provActual=prov; marcadores={};
+  tourSalir();  // Salir del modo recorrido al cambiar de provincia
   const p=PROVINCIAS[prov];
   $('upd').textContent='Cargando…';
   try{
