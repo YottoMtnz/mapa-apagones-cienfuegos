@@ -142,12 +142,19 @@ def analizar_mensajes(prov, mensajes, ahora):
                     est["_deficit_ids"] = set()
                     est["_averia_ids"] = set()
                 if es_actualizacion:
-                    # Nueva actualización: los no listados se restablecieron
-                    # Eliminar del afectados los que eran de déficit pero ya no están
-                    for cid in list(est["_deficit_ids"]):
-                        if cid not in r and cid in est["afectados"]:
-                            del est["afectados"][cid]
-                    est["_deficit_ids"] = set(r.keys())
+                    # Solo la actualización MÁS RECIENTE reemplaza.
+                    # Las más viejas se ignoran (datos obsoletos).
+                    if "_visto_actualizacion" not in est:
+                        est["_visto_actualizacion"] = True
+                        # Nueva actualización: los no listados se restablecieron
+                        # Eliminar del afectados los que eran de déficit pero ya no están
+                        for cid in list(est["_deficit_ids"]):
+                            if cid not in r and cid in est["afectados"]:
+                                del est["afectados"][cid]
+                        est["_deficit_ids"] = set(r.keys())
+                    # Si ya vimos una actualización más nueva, ignorar esta
+                    else:
+                        continue
                 else:
                     # Avería: se suma
                     est["_averia_ids"].update(r.keys())
@@ -191,6 +198,7 @@ def guardar(prov, est, ahora):
     # Limpiar campos internos ANTES de comparar (no van al JSON)
     est.pop("_deficit_ids", None)
     est.pop("_averia_ids", None)
+    est.pop("_visto_actualizacion", None)
     previo = leer_previo(prov)
     if previo and _igual(previo, est):
         try:
