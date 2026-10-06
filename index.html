@@ -289,9 +289,10 @@ function renderizar(){
       const icon = L.divIcon({className:'', html:`<div class="dot ${color}" style="width:18px;height:18px${pt.aproximado&&!corregido?';opacity:.45':''}${corregido?';outline:2px solid #38bdf8':''}"></div>`, iconSize:[18,18]});
       const aprox = pt.aproximado && !corregido ? '<br><i style="color:#f59e0b">📍 Ubicación aproximada</i>' : '';
       const corrTxt = corregido ? '<br><i style="color:#38bdf8">✏️ Corregido por ti</i>' : '';
-      const lugarTxt = pt.lugar ? `<br><b>${pt.lugar}</b>` : '';
       const mk = L.marker([plat, plng], {icon}).addTo(layerGroup);
-      mk.bindPopup(`${badge}<br><b>Circuito ${id}</b>${lugarTxt}${aprox}${corrTxt}${extraInfo}${detalle}<br><br><button onclick="moverPunto('${provActual}','${id}','${(pt.lugar||'').replace(/'/g,"")}')" style="background:#1e293b;color:#fff;border:1px solid #38bdf8;border-radius:8px;padding:6px 12px;font-size:12px;margin-right:6px">✏️ Mover punto</button><button onclick="reportarCorreccion('${provActual}','${id}','${(pt.lugar||'').replace(/'/g,"")}')" style="background:#1e293b;color:#fff;border:1px solid #22c55e;border-radius:8px;padding:6px 12px;font-size:12px">📤 Reportar</button>`);
+      // Popup centrado en el LUGAR, no en el circuito (el ID es interno)
+      const tituloLugar = pt.lugar ? `<b style="font-size:15px">${pt.lugar}</b>` : `<b style="font-size:15px">Circuito ${id}</b>`;
+      mk.bindPopup(`${badge}<br>${tituloLugar}${aprox}${corrTxt}${extraInfo}<br><br><button onclick="moverPunto('${provActual}','${id}','${(pt.lugar||'').replace(/'/g,"")}')" style="background:#1e293b;color:#fff;border:1px solid #38bdf8;border-radius:8px;padding:6px 12px;font-size:12px;margin-right:6px">✏️ Mover punto</button><button onclick="reportarCorreccion('${provActual}','${id}','${(pt.lugar||'').replace(/'/g,"")}')" style="background:#1e293b;color:#fff;border:1px solid #22c55e;border-radius:8px;padding:6px 12px;font-size:12px">📤 Reportar</button>`);
       // Guardar referencia para el modo mover
       mk._corrKey = ck; mk._circId = id; mk._lugar = pt.lugar||''; mk._prov = provActual;
       mk._origLat = plat; mk._origLng = plng; mk._color = color;
