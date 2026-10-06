@@ -136,6 +136,23 @@ def parse_matanzas_restaurados(texto):
         circuitos[m.group(1)] = lugares
     return circuitos
 
+def parse_la_habana(texto):
+    circuitos = {}
+    # Formato 1: 👉AL52: Zonas: 6; 7; 8... / 👉2073: Calle 256...
+    for m in re.finditer(r'👉\s*([A-Z0-9]+)\s*:\s*([^\n👉✅]+)', texto):
+        desc = _limpiar(m.group(2))
+        # Extraer municipio entre paréntesis si existe
+        mun = re.search(r'\(([^)]+)\)', desc)
+        lugar = mun.group(1).strip() if mun else desc[:50]
+        if lugar and len(lugar) < 60:
+            circuitos[m.group(1)] = [lugar]
+    # Formato 2: ✅D740 (Lisa) 13 horas...
+    for m in re.finditer(r'✅\s*([A-Z0-9]+)\s*\(([^)]+)\)', texto):
+        lugar = _limpiar(m.group(2))
+        if lugar and len(lugar) < 50:
+            circuitos.setdefault(m.group(1), [lugar])
+    return circuitos
+
 PARSERS = {
     "cienfuegos": parse_cienfuegos,
     "artemisa": parse_artemisa,
@@ -148,10 +165,11 @@ PARSERS = {
     "sancti-spiritus": parse_sancti_spiritus,
     "santiago-de-cuba": parse_santiago_de_cuba,
     "villa-clara": parse_villa_clara,
+    "la-habana": parse_la_habana,
 }
 
 # Provincias sin parser de afectados (inactivas o sin formato)
-SIN_AFECTADOS = {"matanzas", "pinar-del-rio", "guantanamo", "la-habana"}
+SIN_AFECTADOS = {"matanzas", "pinar-del-rio", "guantanamo"}
 
 def detectar_tipo(texto):
     """
