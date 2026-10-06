@@ -10,7 +10,7 @@ Variables de entorno:
 """
 import os, json, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from parsers import PARSERS, parse_matanzas_restaurados, detectar_tipo
+from parsers import PARSERS, parse_matanzas_restaurados, detectar_tipo, extraer_info_extra, _norm_id
 from datetime import datetime, timezone
 
 CANALES = {
@@ -53,6 +53,9 @@ def main():
             fecha_reporte = None
             fecha_programado = None
             total_leidos = 0
+            # Info extra del reporte actual
+            mw = None; hora_inicio = None; cierre = None
+            tiempos = {}; causas = {}
             try:
                 for msg in client.iter_messages(canal, limit=30):
                     total_leidos += 1
@@ -73,6 +76,16 @@ def main():
                         elif tipo == "actual" and not afectados:
                             afectados = r
                             fecha_reporte = msg.date.astimezone(timezone.utc).isoformat()
+                            # Extraer MW, tiempos, causas, horarios del reporte
+                            extra = extraer_info_extra(msg.text)
+                            mw = extra["mw"]; hora_inicio = extra["hora_inicio"]; cierre = extra["cierre"]
+                            # Mapear tiempos/causas a los IDs reales del parser
+                            for cid in r:
+                                nk = _norm_id(cid)
+                                if nk in extra["tiempos"]:
+                                    tiempos[cid] = extra["tiempos"][nk]
+                                if nk in extra["causas"]:
+                                    causas[cid] = extra["causas"][nk]
                     if afectados and programados:
                         break
             except Exception as e:
@@ -86,6 +99,11 @@ def main():
                 "programados": programados,
                 "total_circuitos_afectados": len(afectados),
                 "total_circuitos_programados": len(programados),
+                "mw": mw,
+                "hora_inicio": hora_inicio,
+                "cierre": cierre,
+                "tiempos": tiempos,
+                "causas": causas,
             }
             path = os.path.join(BASE, "data", f"estado_{prov}.json")
             with open(path, "w", encoding="utf-8") as f:
