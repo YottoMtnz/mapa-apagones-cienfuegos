@@ -11,12 +11,18 @@ def _limpiar(s):
 
 def parse_cienfuegos(texto):
     circuitos = {}
-    patron = re.compile(r'[?¿]?\s*\bC[-_ ]?(\d{1,4})\b\s*([^C\n]{0,250}?)(?=[?¿]?\s*\bC[-_ ]?\d{1,4}\b|$)', re.IGNORECASE)
-    for m in patron.finditer(texto):
-        lugares = [_limpiar(l) for l in m.group(2).split(",")]
-        lugares = [l for l in lugares if l and len(l) < 60 and not re.search(r'(afectaci|deficit|capacidad|generaci|MW|restablec|disculp)', l, re.I)]
+    # Dividir por marcadores de circuito (👉C-31, C-31, etc.)
+    partes = re.split(r'[👉📌⚡]*\s*\bC[-_ ]?(\d{1,4})\b', texto, flags=re.IGNORECASE)
+    # partes[0] es el encabezado, luego alternan: numero, lugares, numero, lugares...
+    for i in range(1, len(partes), 2):
+        num = partes[i]
+        lugares_txt = partes[i+1] if i+1 < len(partes) else ""
+        # Cortar en el siguiente marcador o fin de línea doble
+        lugares_txt = lugares_txt.split("\n")[0]
+        lugares = [_limpiar(l) for l in lugares_txt.split(",")]
+        lugares = [l for l in lugares if l and len(l) < 60 and not re.search(r'(afectaci|deficit|capacidad|generaci|MW|restablec|disculp|ofrecemos|se comunica)', l, re.I)]
         if lugares:
-            circuitos[f"C-{m.group(1)}"] = lugares
+            circuitos[f"C-{num}"] = lugares
     return circuitos
 
 def parse_artemisa(texto):
