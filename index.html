@@ -3,15 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mapa de Apagones — Cienfuegos</title>
+<title>Mapa de Apagones — Cuba</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
   *{margin:0;padding:0;box-sizing:border-box}
   body{font-family:-apple-system,'Segoe UI',Roboto,sans-serif;background:#0b0f1a;color:#e8ecf4}
   #map{height:100vh;width:100%}
-  .panel{position:fixed;top:12px;left:12px;z-index:1000;background:rgba(10,14,26,.92);border:1px solid #2dd4bf33;border-radius:14px;padding:14px 16px;max-width:320px;backdrop-filter:blur(8px)}
+  .panel{position:fixed;top:12px;left:12px;z-index:1000;background:rgba(10,14,26,.92);border:1px solid #2dd4bf33;border-radius:14px;padding:14px 16px;max-width:330px;backdrop-filter:blur(8px)}
   .panel h1{font-size:18px;color:#5eead4;margin-bottom:4px}
   .panel .sub{font-size:12px;color:#9aa4b8;margin-bottom:10px}
+  .provsel{width:100%;margin-bottom:10px;background:#141b2e;color:#e8ecf4;border:1px solid #2dd4bf44;border-radius:8px;padding:8px;font-size:14px}
   .stats{display:flex;gap:10px;margin-bottom:8px}
   .stat{flex:1;background:#141b2e;border-radius:10px;padding:8px;text-align:center}
   .stat b{font-size:20px;display:block}
@@ -33,7 +34,8 @@
 <div id="map"></div>
 <div class="panel">
   <h1>⚡ Mapa de Apagones</h1>
-  <div class="sub">Provincia de Cienfuegos, Cuba — en vivo</div>
+  <div class="sub">Cuba — en vivo</div>
+  <select class="provsel" id="provSel"></select>
   <div class="stats">
     <div class="stat red"><b id="cAfect">–</b><span>Sin servicio</span></div>
     <div class="stat green"><b id="cOk">–</b><span>Con servicio</span></div>
@@ -45,38 +47,77 @@
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-const map = L.map('map').setView([22.15, -80.45], 10);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap'}).addTo(map);
+const PROVINCIAS = {
+  "cienfuegos":      {nombre:"Cienfuegos",       centro:[22.15,-80.45], zoom:10, activa:true},
+  "matanzas":        {nombre:"Matanzas",         centro:[23.05,-81.58], zoom:10, activa:true},
+  "villa-clara":     {nombre:"Villa Clara",      centro:[22.42,-79.90], zoom:10, activa:true},
+  "sancti-spiritus": {nombre:"Sancti Spíritus",  centro:[21.93,-79.44], zoom:10, activa:true},
+  "ciego-de-avila":  {nombre:"Ciego de Ávila",   centro:[21.85,-78.76], zoom:10, activa:true},
+  "camaguey":        {nombre:"Camagüey",         centro:[21.38,-77.91], zoom:10, activa:true},
+  "las-tunas":       {nombre:"Las Tunas",        centro:[20.96,-76.95], zoom:10, activa:true},
+  "holguin":         {nombre:"Holguín",          centro:[20.89,-76.26], zoom:10, activa:true},
+  "granma":          {nombre:"Granma",           centro:[20.38,-76.64], zoom:10, activa:true},
+  "santiago-de-cuba":{nombre:"Santiago de Cuba", centro:[20.02,-75.83], zoom:10, activa:true},
+  "artemisa":        {nombre:"Artemisa",         centro:[22.82,-82.76], zoom:10, activa:true},
+  "mayabeque":       {nombre:"Mayabeque",        centro:[22.97,-82.15], zoom:10, activa:true},
+  "pinar-del-rio":   {nombre:"Pinar del Río",    centro:[22.42,-83.70], zoom:10, activa:false},
+  "la-habana":       {nombre:"La Habana",        centro:[23.14,-82.37], zoom:10, activa:false},
+  "guantanamo":      {nombre:"Guantánamo",       centro:[20.14,-75.21], zoom:10, activa:false},
+};
 
-async function cargar(){
-  const [circ, est] = await Promise.all([
-    fetch('data/circuitos.json').then(r=>r.json()),
-    fetch('data/estado.json').then(r=>r.json()).catch(()=>({afectados:{}}))
-  ]);
-  const afectados = est.afectados || {};
-  let nAfect = 0, nOk = 0;
-  const porMun = {};
-  for(const [id, c] of Object.entries(circ)){
-    const esAfect = !!afectados[id];
-    if(esAfect){ nAfect++; porMun[c.municipio]=(porMun[c.municipio]||0)+1; }
-    else nOk++;
-    const color = esAfect ? 'red' : 'green';
-    const icon = L.divIcon({className:'', html:`<div class="dot ${color}" style="width:18px;height:18px"></div>`, iconSize:[18,18]});
-    const lugares = c.lugares.join(', ');
-    const estadoTxt = esAfect ? '🔴 <b>SIN SERVICIO</b>' : '🟢 <b>Con servicio</b>';
-    let detalleAfect = '';
-    if(esAfect && afectados[id].length) detalleAfect = `<br>Zonas reportadas: ${afectados[id].join(', ')}`;
-    L.marker([c.lat, c.lng], {icon}).addTo(map)
-      .bindPopup(`${estadoTxt}<br><b>Circuito ${id}</b><br>${lugares}<br><i>${c.municipio}</i>${detalleAfect}`);
-  }
-  document.getElementById('cAfect').textContent = nAfect;
-  document.getElementById('cOk').textContent = nOk;
-  const f = est.actualizado ? new Date(est.actualizado).toLocaleString('es') : '—';
-  let munTxt = Object.entries(porMun).map(([m,n])=>`${m}: ${n}`).join(' · ');
-  document.getElementById('upd').textContent = `Actualizado: ${f}` + (munTxt ? ` | ${munTxt}` : '');
+const map = L.map('map').setView([21.5,-79.0], 6);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap'}).addTo(map);
+let layerGroup = L.layerGroup().addTo(map);
+
+const sel = document.getElementById('provSel');
+for(const [id,p] of Object.entries(PROVINCIAS)){
+  const o = document.createElement('option');
+  o.value = id; o.textContent = p.nombre + (p.activa ? '' : ' (próximamente)');
+  if(id==='cienfuegos') o.selected = true;
+  sel.appendChild(o);
 }
-cargar();
-setInterval(cargar, 5*60*1000);
+sel.addEventListener('change', ()=>cargar(sel.value));
+
+async function cargar(prov){
+  const p = PROVINCIAS[prov];
+  document.getElementById('upd').textContent = 'Cargando…';
+  layerGroup.clearLayers();
+  try{
+    const [circ, est] = await Promise.all([
+      fetch(`data/circuitos_${prov}.json`).then(r=>r.json()),
+      fetch(`data/estado_${prov}.json`).then(r=>r.json()).catch(()=>({afectados:{}}))
+    ]);
+    const afectados = est.afectados || {};
+    let nAfect = 0, nOk = 0;
+    const porMun = {};
+    for(const [id, c] of Object.entries(circ)){
+      const esAfect = !!afectados[id];
+      if(esAfect){ nAfect++; porMun[c.municipio]=(porMun[c.municipio]||0)+1; }
+      else nOk++;
+      const color = esAfect ? 'red' : 'green';
+      const icon = L.divIcon({className:'', html:`<div class="dot ${color}" style="width:18px;height:18px"></div>`, iconSize:[18,18]});
+      const lugares = (c.lugares||[]).join(', ');
+      const estadoTxt = esAfect ? '🔴 <b>SIN SERVICIO</b>' : '🟢 <b>Con servicio</b>';
+      let detalleAfect = '';
+      if(esAfect && afectados[id] && afectados[id].length) detalleAfect = `<br>Zonas: ${afectados[id].join(', ')}`;
+      L.marker([c.lat, c.lng], {icon}).addTo(layerGroup)
+        .bindPopup(`${estadoTxt}<br><b>Circuito ${id}</b><br>${lugares}<br><i>${c.municipio||''}</i>${detalleAfect}`);
+    }
+    document.getElementById('cAfect').textContent = nAfect;
+    document.getElementById('cOk').textContent = nOk;
+    const f = est.actualizado ? new Date(est.actualizado).toLocaleString('es') : '—';
+    let munTxt = Object.entries(porMun).map(([m,n])=>`${m}: ${n}`).join(' · ');
+    document.getElementById('upd').textContent = `Actualizado: ${f}` + (munTxt ? ` | ${munTxt}` : '');
+    map.flyTo(p.centro, p.zoom, {duration:1});
+  }catch(e){
+    document.getElementById('upd').textContent = 'Datos de ' + p.nombre + ' próximamente.';
+    document.getElementById('cAfect').textContent = '–';
+    document.getElementById('cOk').textContent = '–';
+    map.flyTo(p.centro, p.zoom, {duration:1});
+  }
+}
+cargar('cienfuegos');
+setInterval(()=>cargar(sel.value), 5*60*1000);
 </script>
 </body>
 </html>
