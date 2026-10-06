@@ -115,6 +115,42 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
 }).addTo(map);
 let layerGroup = L.markerClusterGroup({maxClusterRadius: 40, spiderfyOnMaxZoom: true}).addTo(map);
 let filtroActual = 'todos';
+let provActual = 'cienfuegos';
+let datosCache = {};
+let marcadores = {}; // registro para modo mover: clave -> marker
+
+// Activa el modo mover para un punto (desde el popup)
+function moverPunto(prov, circuito, lugar){
+  const ck = `corr_${prov}_${circuito}_${lugar}`;
+  const mk = marcadores[ck];
+  if(!mk){ alert('No se encontró el punto.'); return; }
+  map.closePopup();
+  // Si está en un cluster, hacer zoom hasta verlo
+  if(layerGroup.getVisibleParent && !layerGroup.getVisibleParent(mk)){
+    map.setView(mk.getLatLng(), 15);
+    setTimeout(() => activarDrag(mk), 800);
+  } else {
+    activarDrag(mk);
+  }
+}
+function activarDrag(mk){
+  mk.dragging.enable();
+  mk.setOpacity(0.6);
+  alert('Arrastra el punto a la ubicación correcta y suéltalo.');
+}
+
+// Envía la corrección del usuario a revisión (abre formulario pre-llenado)
+function reportarCorreccion(prov, circuito, lugar){
+  const ck = `corr_${prov}_${circuito}_${lugar}`;
+  let coords = null;
+  try { coords = JSON.parse(localStorage.getItem(ck)); } catch(e){}
+  if(!coords){ alert('Primero mantén presionado el punto y muévelo a la ubicación correcta.'); return; }
+  // TODO Fraudy: reemplazar FORM_ID por el ID real del Google Form
+  const url = `https://docs.google.com/forms/d/e/FORM_ID/viewform?usp=pp_url&entry.prov=${prov}&entry.circ=${circuito}&entry.lugar=${encodeURIComponent(lugar)}&entry.lat=${coords.lat}&entry.lng=${coords.lng}`;
+  if(confirm('Se abrirá un formulario para enviar tu corrección a revisión. ¿Continuar?')){
+    window.open(url, '_blank');
+  }
+}
 let datosCache = {};
 
 const sel = document.getElementById('provSel');
@@ -168,6 +204,8 @@ document.querySelectorAll('.tab').forEach(t=>{
 });
 
 async function cargar(prov, mover=true){
+  provActual = prov;
+  marcadores = {};
   const p = PROVINCIAS[prov];
   document.getElementById('upd').textContent = 'Cargando…';
   layerGroup.clearLayers();
@@ -243,11 +281,34 @@ function renderizar(){
     const puntos = (c.puntos && c.puntos.length) ? c.puntos : [{lugar: c.municipio||'', lat: c.lat, lng: c.lng, aproximado: !!c.aproximado}];
     for(const pt of puntos){
       if(pt.lat==null || pt.lng==null) continue;
-      const icon = L.divIcon({className:'', html:`<div class="dot ${color}" style="width:18px;height:18px${pt.aproximado?';opacity:.45':''}"></div>`, iconSize:[18,18]});
-      const aprox = pt.aproximado ? '<br><i style="color:#f59e0b">📍 Ubicación aproximada</i>' : '';
+      // Aplicar corrección local del usuario si existe
+      const ck = `corr_${provActual}_${id}_${pt.lugar}`;
+      let plat = pt.lat, plng = pt.lng, corregido = false;
+      try {
+        const saved = localStorage.getItem(ck);
+        if(saved){ const o = JSON.parse(saved); plat = o.lat; plng = o.lng; corregido = true; }
+      } catch(e){}
+      const icon = L.divIcon({className:'', html:`<div class="dot ${color}" style="width:18px;height:18px${pt.aproximado&&!corregido?';opacity:.45':''}${corregido?';outline:2px solid #38bdf8':''}"></div>`, iconSize:[18,18]});
+      const aprox = pt.aproximado && !corregido ? '<br><i style="color:#f59e0b">📍 Ubicación aproximada</i>' : '';
+      const corrTxt = corregido ? '<br><i style="color:#38bdf8">✏️ Corregido por ti</i>' : '';
       const lugarTxt = pt.lugar ? `<br><b>${pt.lugar}</b>` : '';
-      L.marker([pt.lat, pt.lng], {icon}).addTo(layerGroup)
-        .bindPopup(`${badge}<br><b>Circuito ${id}</b>${lugarTxt}${aprox}${extraInfo}${detalle}`);
+      const mk = L.marker([plat, plng], {icon}).addTo(layerGroup);
+      mk.bindPopup(`${badge}<br><b>Circuito ${id}</b>${lugarTxt}${aprox}${corrTxt}${extraInfo}${detalle}<br><br><button onclick="moverPunto('${provActual}','${id}','${(pt.lugar||'').replace(/'/g,"")}')" style="background:#1e293b;color:#fff;border:1px solid #38bdf8;border-radius:8px;padding:6px 12px;font-size:12px;margin-right:6px">✏️ Mover punto</button><button onclick="reportarCorreccion('${provActual}','${id}','${(pt.lugar||'').replace(/'/g,"")}')" style="background:#1e293b;color:#fff;border:1px solid #22c55e;border-radius:8px;padding:6px 12px;font-size:12px">📤 Reportar</button>`);
+      // Guardar referencia para el modo mover
+      mk._corrKey = ck; mk._circId = id; mk._lugar = pt.lugar||''; mk._prov = provActual;
+      mk._origLat = plat; mk._origLng = plng; mk._color = color;
+      marcadores[ck] = mk;
+      mk.on('dragend', () => {
+        mk.dragging.disable(); mk.setOpacity(1);
+        const ll = mk.getLatLng();
+        if(confirm(`¿Seguro que "${mk._lugar||mk._circId}" está aquí?\n\nSe guardará solo en tu teléfono.`)){
+          try { localStorage.setItem(mk._corrKey, JSON.stringify({lat: +ll.lat.toFixed(5), lng: +ll.lng.toFixed(5)})); } catch(e){}
+          mk.setIcon(L.divIcon({className:'', html:`<div class="dot ${mk._color}" style="width:18px;height:18px;outline:2px solid #38bdf8"></div>`, iconSize:[18,18]}));
+          alert('Guardado en tu teléfono. Usa "📤 Reportar" para enviarlo a revisión.');
+        } else {
+          mk.setLatLng([mk._origLat, mk._origLng]);
+        }
+      });
     }
   }
   document.getElementById('cAfect').textContent = nAfect;
