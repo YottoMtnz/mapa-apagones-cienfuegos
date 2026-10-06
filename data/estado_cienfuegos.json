@@ -2,7 +2,7 @@
   "schema": 2,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-06T16:37:05+00:00",
+  "reporte_fecha": "2026-10-06T17:35:51+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-06T15:08:29+00:00",
@@ -12,26 +12,6 @@
       "Ariza",
       "Silverita",
       "Nuevo México"
-    ],
-    "C-33": [
-      "Arimao",
-      "Las Moscas",
-      "Vegas Viejas",
-      "Santa Martina",
-      "San Antón",
-      "Quesada",
-      "Callejón del Palmar"
-    ],
-    "C-75": [
-      "La Legua",
-      "Gavilán",
-      "Boca Ambuila"
-    ],
-    "C-39": [
-      "La Sierrita",
-      "El Brazo",
-      "Cafetal",
-      "Faisanera"
     ],
     "C-86": [
       "Cumanayagua",
@@ -160,15 +140,6 @@
       "La Redonda",
       "El Limpio"
     ],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
-    ],
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
-    ],
     "C-44": [
       "Los Burros",
       "El Conejito",
@@ -183,18 +154,6 @@
       "Guevara",
       "Aguada"
     ],
-    "C-26": [
-      "Caonao",
-      "Los Tanques",
-      "La Ceiba",
-      "El Paisíto"
-    ],
-    "C-69": [
-      "Junco Sur",
-      "Reparto de los médicos",
-      "Las Minas",
-      "Playa Alegre"
-    ],
     "C-73": [
       "Perseverancia",
       "1ro de Mayo"
@@ -203,9 +162,6 @@
       "Viet Nam",
       "Real Campiña",
       "Guanito"
-    ],
-    "C-3": [
-      "Reparto Eléctrico"
     ],
     "C-5": [
       "Boulevard",
@@ -254,15 +210,15 @@
       "Ave 58 de Calle 47 hasta Calle 49",
       "Calle 47 de Ave 54 hasta Ave 58"
     ],
-    "C-27": [
-      "Barrio Matadero",
-      "Juraguá",
-      "[Bombeo Agua CEN 0-12]"
-    ],
     "C-28": [
       "CEN",
       "Castillo de Jagua",
       "La Loma",
+      "[Bombeo Agua CEN 0-12]"
+    ],
+    "C-27": [
+      "Barrio Matadero",
+      "Juraguá",
       "[Bombeo Agua CEN 0-12]"
     ],
     "C-59": [
@@ -270,12 +226,25 @@
       "Jova",
       "Tumba Saco"
     ],
+    "C-20": [
+      "Punta Gorda",
+      "[Hospital Provincial 0-24]"
+    ],
     "C-90": [
       "La Pollera"
     ],
     "C-30": [
       "14 de Julio",
       "Batey 2 Hermanos"
+    ],
+    "C-33": [
+      "Arimao",
+      "Las Moscas",
+      "Vegas Viejas",
+      "Santa Martina",
+      "San Antón",
+      "Quesada",
+      "Callejón del Palmar"
     ]
   },
   "programados": {
@@ -287,7 +256,7 @@
       "Punta Gorda"
     ]
   },
-  "total_circuitos_afectados": 52,
+  "total_circuitos_afectados": 46,
   "total_circuitos_programados": 2,
   "mw": 60,
   "hora_inicio": null,
@@ -295,5 +264,5 @@
   "tiempos": {},
   "causas": {},
   "error": null,
-  "actualizado": "2026-10-06T17:28:16.262597+00:00"
+  "actualizado": "2026-10-06T17:44:20.888659+00:00"
 }
