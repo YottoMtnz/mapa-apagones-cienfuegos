@@ -1,25 +1,15 @@
 {
   "schema": 2,
-  "estado_datos": "ok",
+  "estado_datos": "sin_reporte_reciente",
   "fuente_afectados": true,
   "reporte_fecha": "2026-10-06T01:38:08+00:00",
-  "reporte_vencido": false,
+  "reporte_vencido": true,
   "sin_afectaciones": false,
   "programado_fecha": null,
   "mensajes_leidos": 50,
-  "afectados": {
-    "TK10": [
-      "El Cornito"
-    ],
-    "TK47": [
-      "La Micro Puerto Padre"
-    ],
-    "TK25": [
-      "Cuatro Caminos, Dormitorio"
-    ]
-  },
+  "afectados": {},
   "programados": {},
-  "total_circuitos_afectados": 3,
+  "total_circuitos_afectados": 0,
   "total_circuitos_programados": 0,
   "mw": null,
   "hora_inicio": null,
@@ -27,5 +17,5 @@
   "tiempos": {},
   "causas": {},
   "error": null,
-  "actualizado": "2026-10-06T12:54:03.130357+00:00"
+  "actualizado": "2026-10-06T13:39:03.962916+00:00"
 }
