@@ -133,8 +133,25 @@ def analizar_mensajes(prov, mensajes, ahora):
             if est.get("sin_afectaciones"):
                 continue
             if not est["reporte_vencido"]:
-                # MERGE: combinar con mensajes anteriores (avería + déficit)
-                # en vez de reemplazar
+                # Distinguir: "Actualización" (lista completa, reemplaza)
+                # vs "avería/continúan" (adicional, se suma)
+                t_lower = texto.lower()
+                es_actualizacion = "actualizaci" in t_lower
+                # Inicializar sets de seguimiento
+                if "_deficit_ids" not in est:
+                    est["_deficit_ids"] = set()
+                    est["_averia_ids"] = set()
+                if es_actualizacion:
+                    # Nueva actualización: los no listados se restablecieron
+                    # Eliminar del afectados los que eran de déficit pero ya no están
+                    for cid in list(est["_deficit_ids"]):
+                        if cid not in r and cid in est["afectados"]:
+                            del est["afectados"][cid]
+                    est["_deficit_ids"] = set(r.keys())
+                else:
+                    # Avería: se suma
+                    est["_averia_ids"].update(r.keys())
+                # Merge (sin duplicar)
                 for cid, zonas in r.items():
                     if cid not in est["afectados"]:
                         est["afectados"][cid] = zonas
@@ -171,6 +188,9 @@ def _igual(a, b):
 
 
 def guardar(prov, est, ahora):
+    # Limpiar campos internos ANTES de comparar (no van al JSON)
+    est.pop("_deficit_ids", None)
+    est.pop("_averia_ids", None)
     previo = leer_previo(prov)
     if previo and _igual(previo, est):
         try:
