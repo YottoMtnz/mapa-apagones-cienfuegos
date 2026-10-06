@@ -395,7 +395,7 @@ if(navigator.geolocation){
 
 // === Sistema de reportes via Telegram ===
 const TG_BOT = '8844656307:AAHUxPb7LnDz2vPef57uwZ8lmeKs8vyimAc';
-const TG_CHAT = '6161812537';
+const TG_CHAT = '@apagones_cuba';
 const REP_VIGENCIA = 2*60*60*1000;
 let reportesCache = [];
 
@@ -407,21 +407,25 @@ function hashUser(){
 
 async function cargarReportes(){
   try{
-    const r = await fetch(`https://api.telegram.org/bot${TG_BOT}/getUpdates`, {cache:'no-store'});
-    const d = await r.json();
-    if(!d.ok) return;
+    // Leer reportes del canal público via t.me/s/
+    const r = await fetch('https://t.me/s/apagones_cuba', {cache:'no-store'});
+    const htmlTxt = await r.text();
     const ahora = Date.now();
     reportesCache = [];
-    for(const u of (d.result||[])){
-      const m = u.message || u.channel_post || {};
-      const txt = m.text || '';
+    // Extraer mensajes del HTML: buscar divs con clase tgme_widget_message_text
+    const re = /<div class="tgme_widget_message_text[^"]*"[^>]*>([\s\S]*?)<\/div>/g;
+    let m;
+    while((m = re.exec(htmlTxt)) !== null){
+      let txt = m[1].replace(/<br\s*\/?>/gi, '\n').replace(/<[^>]+>/g, '').trim();
+      // Decodificar entidades HTML básicas
+      txt = txt.replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#39;/g,"'").replace(/&quot;/g,'"');
       if(!txt.startsWith('📢 REPORTE')) continue;
       try{
         const lines = txt.split('\n');
         const rep = {};
         for(const l of lines.slice(1)){
-          const [k,v] = l.split('=');
-          if(k && v) rep[k.trim()] = v.trim();
+          const idx = l.indexOf('=');
+          if(idx>0) rep[l.slice(0,idx).trim()] = l.slice(idx+1).trim();
         }
         const ts = parseInt(rep.ts||'0')*1000;
         if(ahora - ts < REP_VIGENCIA && rep.circuito){
