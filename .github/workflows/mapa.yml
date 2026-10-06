@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       modo:
-        description: 'Modo: "sesion-paso1", "sesion-paso2" o "actualizar"'
+        description: 'Modo: "sesion-paso1", "sesion-paso2", "actualizar" o "inventario"'
         required: true
         default: 'actualizar'
       telefono:
@@ -82,14 +82,19 @@ jobs:
         with: { name: tg-session, path: SESSION.txt }
 
   actualizar:
-    if: inputs.modo == 'actualizar' || github.event_name == 'schedule'
+    if: inputs.modo == 'actualizar' || inputs.modo == 'inventario' || github.event_name == 'schedule'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
       - run: pip install telethon
-      - run: python3 scraper/actualizar.py
+      - run: |
+          if [ "${{ inputs.modo }}" = "inventario" ]; then
+            python3 scraper/inventario.py
+          else
+            python3 scraper/actualizar.py
+          fi
         env:
           TG_SESSION: ${{ secrets.TG_SESSION }}
           TG_API_ID: ${{ secrets.TG_API_ID }}
