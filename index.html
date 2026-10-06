@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mapa de Apagones — Cuba</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
 <style>
   *{margin:0;padding:0;box-sizing:border-box}
   :root{
@@ -86,6 +88,7 @@
   </div>
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script>
 const PROVINCIAS = {
   "cienfuegos":      {nombre:"Cienfuegos",       centro:[22.15,-80.45], zoom:10, activa:true},
@@ -110,7 +113,7 @@ L.control.zoom({position:'bottomright'}).addTo(map);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
   attribution:'© OpenStreetMap', maxZoom:19
 }).addTo(map);
-let layerGroup = L.layerGroup().addTo(map);
+let layerGroup = L.markerClusterGroup({maxClusterRadius: 40, spiderfyOnMaxZoom: true}).addTo(map);
 let filtroActual = 'todos';
 let datosCache = {};
 
