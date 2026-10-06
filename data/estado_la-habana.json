@@ -2,12 +2,15 @@
   "schema": 2,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-06T12:36:22+00:00",
+  "reporte_fecha": "2026-10-06T13:22:08+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-06T10:07:04+00:00",
   "mensajes_leidos": 50,
   "afectados": {
+    "MB960": [
+      "Repartos La Conchita, Veneciana, Centro de Guanabo"
+    ],
     "2075": [
       "San Agustín, Barbosa"
     ],
@@ -55,9 +58,6 @@
     ],
     "GC19": [
       "Repartos Roble, Militar, Fuentes Bancas, La Hata,"
-    ],
-    "MB960": [
-      "Repartos La Conchita, Veneciana, Centro de Guanabo"
     ],
     "1175": [
       "Reparto Santa Felicia"
@@ -133,18 +133,6 @@
     ],
     "1160": [
       "Kohly"
-    ],
-    "PZ9": [
-      "La Timba, calle 4 desde 37 a Hidalgo, avenida Coló"
-    ],
-    "OP319": [
-      "Alrededores de calles del cuadrante desde Pocito h"
-    ],
-    "H442": [
-      "Reparto Barrio Obrero, Guardiola, Jacomino, Califo"
-    ],
-    "GC18": [
-      "Zona Franca de Berroa.📣"
     ]
   },
   "programados": {
@@ -209,13 +197,13 @@
       "Boyeros"
     ]
   },
-  "total_circuitos_afectados": 46,
+  "total_circuitos_afectados": 42,
   "total_circuitos_programados": 20,
   "mw": null,
-  "hora_inicio": "3:24 AM",
+  "hora_inicio": null,
   "cierre": null,
   "tiempos": {},
   "causas": {},
   "error": null,
-  "actualizado": "2026-10-06T12:54:03.130357+00:00"
+  "actualizado": "2026-10-06T13:24:07.753543+00:00"
 }
