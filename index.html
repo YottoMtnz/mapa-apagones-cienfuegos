@@ -207,7 +207,9 @@ async function cargar(prov,mover=true){
     ]);
     if(mi!==reqId) return;
     datosCache={circ:(circ.circuitos||{}), est:est||{afectados:{},programados:{},estado_datos:'sin_reporte_reciente'}};
+    window._estadoActual = datosCache.est;
     renderizar();
+    cargarReportes();
   }catch(e){
     if(mi!==reqId) return;
     datosCache={}; layerGroup.clearLayers();
@@ -298,9 +300,11 @@ function renderizar(){
     const nota = corr ? '<br><i style="color:#38bdf8">✏️ Corregido por ti</i>'
       : dudoso ? '<br><i style="color:#f59e0b">⚠️ Ubicación por confirmar</i>'
       : pt.precision==='ciudad' ? '<br><i style="color:#9aa4b8">📍 Ubicación a nivel de pueblo/ciudad</i>' : '';
+    const repBadge = badgeReporte(id, st);
     mk.bindPopup(
       `${BADGE[st]}<br><b style="font-size:15px">${esc(pt.lugar || `Circuito ${id}`)}</b>` +
-      nota + extra);
+      nota + extra + repBadge +
+      `<br><button class="pbtn" data-reportar="${esc(id)}" data-lugar="${esc(pt.lugar||'')}" style="margin-top:8px">📢 Reportar</button>`);
     mk.on('dragend',()=>onDragEnd(mk));
     pines++;
   }
@@ -389,6 +393,155 @@ if(navigator.geolocation){
     if(id && d<250){ sel.value=id; cargar(id,true); } else volar([lat,lng],10);
   },()=>{},{timeout:10000});
 }
+
+// === Sistema de reportes de usuarios ===
+const WORKER_URL = 'https://reportes.mapa-apagones.workers.dev'; // Fraudy: cambiar por tu URL
+let reportesCache = [];
+
+function getUserHash(){
+  let h = localStorage.getItem('rep_hash');
+  if(!h){ h = Math.random().toString(36).slice(2) + Date.now().toString(36); localStorage.setItem('rep_hash', h); }
+  return h;
+}
+
+async function cargarReportes(){
+  try {
+    const r = await fetch(WORKER_URL + '/reportes', {cache:'no-store'});
+    if(r.ok){
+      const d = await r.json();
+      const nuevos = d.reportes || [];
+      // Solo re-renderizar si hay cambios
+      const antes = JSON.stringify(reportesCache);
+      reportesCache = nuevos;
+      if(JSON.stringify(nuevos) !== antes && window._reportesPorCircuito){
+        // Agrupar para badgeReporte
+        const porCircuito = {};
+        for(const rep of nuevos){
+          if(!porCircuito[rep.circuito_id]) porCircuito[rep.circuito_id] = [];
+          porCircuito[rep.circuito_id].push(rep);
+        }
+        window._reportesPorCircuito = porCircuito;
+      }
+    }
+  } catch(e){ /* sin backend, sin reportes */ }
+  // Agrupar siempre para badgeReporte
+  const porCircuito = {};
+  for(const rep of reportesCache){
+    if(!porCircuito[rep.circuito_id]) porCircuito[rep.circuito_id] = [];
+    porCircuito[rep.circuito_id].push(rep);
+  }
+  window._reportesPorCircuito = porCircuito;
+}
+
+function actualizarBadges(){
+  // Por cada circuito con reportes vigentes, verificar si contradicen al canal
+  const ahora = Date.now();
+  const porCircuito = {};
+  for(const rep of reportesCache){
+    if(!porCircuito[rep.circuito_id]) porCircuito[rep.circuito_id] = [];
+    porCircuito[rep.circuito_id].push(rep);
+  }
+  document.querySelectorAll('[data-repbadge]').forEach(el => {
+    const cid = el.dataset.repbadge;
+    const reps = porCircuito[cid] || [];
+    if(!reps.length){ el.style.display='none'; return; }
+    // Contar por tipo, tomar el más reciente como referencia
+    const ons = reps.filter(r=>r.tipo==='on').length;
+    const offs = reps.filter(r=>r.tipo==='off').length;
+    const tipoMayor = ons >= offs ? 'on' : 'off';
+    const n = Math.max(ons, offs);
+    const masReciente = Math.max(...reps.map(r=>r.timestamp));
+    const haceMin = Math.round((ahora - masReciente)/60000);
+    // ¿Contradice al canal? (se verifica al mostrar el popup)
+    el.dataset.tipo = tipoMayor; el.dataset.n = n; el.dataset.hace = haceMin;
+    // El badge se muestra/oculta en el popup según el estado del canal
+    el.style.display='none'; // se activa en bindPopup si contradice
+  });
+  window._reportesPorCircuito = porCircuito;
+}
+
+function badgeReporte(cid, estadoCanal){
+  const reps = (window._reportesPorCircuito||{})[cid] || [];
+  if(!reps.length) return '';
+  const ons = reps.filter(r=>r.tipo==='on').length;
+  const offs = reps.filter(r=>r.tipo==='off').length;
+  const tipoMayor = ons >= offs ? 'on' : 'off';
+  const n = Math.max(ons, offs);
+  const masReciente = Math.max(...reps.map(r=>r.timestamp));
+  const haceMin = Math.round((Date.now() - masReciente)/60000);
+  // Solo mostrar si contradice al canal (decisión Fraudy #1)
+  const canalOff = (estadoCanal==='off');
+  const repOn = (tipoMayor==='on');
+  if(canalOff === repOn) return ''; // están de acuerdo → nada (decisión #4)
+  // Regla 30min: si el canal publicó hace <30min, el canal manda
+  try {
+    const repFecha = window._estadoActual && window._estadoActual.reporte_fecha;
+    if(repFecha){
+      const canalHaceMin = (Date.now() - new Date(repFecha).getTime())/60000;
+      if(canalHaceMin < 30) return '';
+    }
+  } catch(e){}
+  const txt = repOn ? `SÍ hay luz` : `NO hay luz`;
+  return `<div style="margin-top:6px;padding:6px 8px;background:#422006;border:1px solid #f59e0b;border-radius:8px;font-size:12px">` +
+    `👥 ${n} usuario${n>1?'s':''} dice${n>1?'n':''} que ${txt} <span style="color:#9aa4b8">(hace ${haceMin} min)</span></div>`;
+}
+
+// Diálogo de reporte
+let repCtx = null;
+function abrirDialogoReporte(cid, lugar){
+  repCtx = {cid, lugar};
+  $('repLugar').textContent = lugar || cid;
+  $('repDialog').style.display = 'flex';
+}
+function cerrarDialogoReporte(){ $('repDialog').style.display='none'; repCtx=null; }
+
+async function enviarReporte(tipo){
+  if(!repCtx) return;
+  const btn = tipo==='on' ? $('repSi') : $('repNo');
+  btn.disabled = true; btn.textContent = 'Enviando...';
+  try {
+    let lat=null, lng=null;
+    try {
+      const pos = await new Promise((res,rej)=>{
+        navigator.geolocation.getCurrentPosition(res, rej, {timeout:5000});
+      });
+      lat = Math.round(pos.coords.latitude*100)/100;
+      lng = Math.round(pos.coords.longitude*100)/100;
+    } catch(e){ /* sin ubicación, se envía igual */ }
+    const r = await fetch(WORKER_URL + '/reporte', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({
+        circuito_id: repCtx.cid, lugar: repCtx.lugar, tipo,
+        hash_usuario: getUserHash(), lat, lng
+      })
+    });
+    const d = await r.json();
+    if(d.ok){ alert('✅ Gracias por tu reporte'); }
+    else { alert('⚠️ ' + (d.error || 'No se pudo enviar')); }
+  } catch(e){ alert('⚠️ Sin conexión al servidor de reportes'); }
+  btn.disabled = false; btn.textContent = tipo==='on' ? '✅ Sí hay' : '❌ No hay';
+  cerrarDialogoReporte();
+  cargarReportes(); // refrescar
+}
+
+// Click en botón Reportar (delegación)
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-reportar]');
+  if(b){ abrirDialogoReporte(b.dataset.reportar, b.dataset.lugar); }
+});
 </script>
+
+<!-- Diálogo de reporte -->
+<div id="repDialog" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:2000;align-items:center;justify-content:center">
+  <div style="background:#0f172a;border:1px solid #2dd4bf;border-radius:16px;padding:24px;max-width:320px;text-align:center">
+    <h3 style="margin:0 0 8px;color:#5eead4">📢 Reportar</h3>
+    <p style="margin:0 0 16px;color:#cbd5e1">¿Hay electricidad en<br><b id="repLugar"></b>?</p>
+    <div style="display:flex;gap:12px;justify-content:center">
+      <button id="repSi" onclick="enviarReporte('on')" style="flex:1;padding:12px;border:none;border-radius:10px;background:#16a34a;color:#fff;font-size:15px;font-weight:700">✅ Sí hay</button>
+      <button id="repNo" onclick="enviarReporte('off')" style="flex:1;padding:12px;border:none;border-radius:10px;background:#dc2626;color:#fff;font-size:15px;font-weight:700">❌ No hay</button>
+    </div>
+    <button onclick="cerrarDialogoReporte()" style="margin-top:12px;background:none;border:none;color:#64748b;font-size:13px">Cancelar</button>
+  </div>
+</div>
 </body>
 </html>
