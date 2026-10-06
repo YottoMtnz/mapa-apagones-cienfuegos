@@ -152,3 +152,22 @@ PARSERS = {
 
 # Provincias sin parser de afectados (inactivas o sin formato)
 SIN_AFECTADOS = {"matanzas", "pinar-del-rio", "guantanamo", "la-habana"}
+
+def detectar_tipo(texto):
+    """
+    Detecta si el reporte es de apagones ACTUALES o PROGRAMADOS (futuros).
+    Devuelve "programado" o "actual".
+    """
+    t = texto.lower()
+    # Futuro / programado
+    futuros = [
+        "serán afectados", "seran afectados",
+        "será afectado", "sera afectado",
+        "se afectará", "se afectara",
+        "próxim", "proxim",
+        "programa", "planifica",
+        "a continuación", "a continuacion",
+    ]
+    if any(k in t for k in futuros):
+        return "programado"
+    return "actual"
