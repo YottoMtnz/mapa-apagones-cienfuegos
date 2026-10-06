@@ -1,14 +1,16 @@
 """
-Scraper de canales Empresa Eléctrica (Cienfuegos y Matanzas).
-Lee los últimos mensajes, extrae circuitos afectados y actualiza data/estado.json.
+Scraper multi-provincia de apagones en Cuba.
+Lee los últimos mensajes de cada canal, extrae circuitos afectados
+y actualiza data/estado_<prov>.json
 
 Variables de entorno:
   TG_SESSION  - session string de Telethon
   TG_API_ID   - api_id de my.telegram.org
   TG_API_HASH - api_hash de my.telegram.org
-  MODO_MUESTRAS - si es "1", solo guarda muestras crudas de Matanzas
 """
-import os, re, json, sys
+import os, json, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from parsers import PARSERS, parse_matanzas_restaurados
 from datetime import datetime, timezone
 
 CANALES = {
@@ -30,24 +32,6 @@ CANALES = {
 }
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-def parsear_circuitos_cf(texto):
-    """Cienfuegos: C-47 Elpidio Gómez, Altamira..."""
-    circuitos = {}
-    patron = re.compile(r'[?¿]?\s*\bC[-_ ]?(\d{1,4})\b\s*([^C\n]{0,250}?)(?=[?¿]?\s*\bC[-_ ]?\d{1,4}\b|$)', re.IGNORECASE)
-    for m in patron.finditer(texto):
-        num = m.group(1)
-        resto = m.group(2).strip(" .:;-\n")
-        resto = re.sub(r'[⚡⚠❓🔴🟢▶️*_\-]', '', resto).strip()
-        lugares = [l.strip(" .") for l in resto.split(",") if l.strip(" .")]
-        lugares = [l for l in lugares if len(l) < 60 and not re.search(r'(afectaci|deficit|capacidad|generaci|MW|restablec|disculp)', l, re.I)]
-        if lugares:
-            circuitos[f"C-{num}"] = lugares
-    return circuitos
-
-def es_reporte_afectados(texto):
-    t = texto.lower()
-    return any(k in t for k in ["afectados por d", "circuitos afectados", "actualizaci", "deficit de capacidad", "se afecta", "avería", "averia"])
-
 def main():
     sesion = os.environ.get("TG_SESSION", "").strip()
     api_id = os.environ.get("TG_API_ID", "").strip()
@@ -59,70 +43,50 @@ def main():
     from telethon.sync import TelegramClient
     from telethon.sessions import StringSession
 
-    modo_muestras = True  # siempre guardar muestras de Matanzas por ahora
-    resultado = {
-        "actualizado": datetime.now(timezone.utc).isoformat(),
-        "provincias": {},
-    }
+    ahora = datetime.now(timezone.utc).isoformat()
+    os.makedirs(os.path.join(BASE, "data"), exist_ok=True)
 
     with TelegramClient(StringSession(sesion), int(api_id), api_hash) as client:
         for prov, canal in CANALES.items():
             afectados = {}
             fecha_reporte = None
             total_leidos = 0
-            muestras = []
-            error_canal = None
             try:
                 for msg in client.iter_messages(canal, limit=30):
                     total_leidos += 1
-                    if not msg.text:
+                    if not msg.text or afectados:
                         continue
-                    if modo_muestras and len(muestras) < 6:
-                        muestras.append({
-                            "fecha": msg.date.astimezone(timezone.utc).isoformat(),
-                            "texto": msg.text[:1200],
-                        })
-                    if not afectados and es_reporte_afectados(msg.text):
-                        if prov == "cienfuegos":
-                            circuitos = parsear_circuitos_cf(msg.text)
-                        else:
-                            circuitos = {}  # parser por provincia pendiente
-                        if circuitos:
-                            afectados = circuitos
-                            fecha_reporte = msg.date.astimezone(timezone.utc).isoformat()
+                    if prov in PARSERS:
+                        r = PARSERS[prov](msg.text)
+                    elif prov == "matanzas":
+                        # Matanzas no publica afectados por nombre; se omite
+                        r = {}
+                    else:
+                        r = {}
+                    if r:
+                        afectados = r
+                        fecha_reporte = msg.date.astimezone(timezone.utc).isoformat()
             except Exception as e:
-                error_canal = f"{type(e).__name__}: {str(e)[:100]}"
-                print(f"ERROR canal {prov} ({canal}): {error_canal}")
-            resultado["provincias"][prov] = {
-                "fuente": f"https://t.me/{canal}",
+                print(f"ERROR {prov}: {type(e).__name__}")
+            estado = {
+                "actualizado": ahora,
                 "reporte_fecha": fecha_reporte,
                 "mensajes_leidos": total_leidos,
                 "afectados": afectados,
                 "total_circuitos_afectados": len(afectados),
             }
-            if error_canal:
-                resultado["provincias"][prov]["error"] = error_canal
-            if muestras:
-                with open(os.path.join(BASE, "data", f"muestras_{prov}.json"), "w", encoding="utf-8") as f:
-                    json.dump(muestras, f, ensure_ascii=False, indent=2)
-                print(f"Muestras {prov} guardadas: {len(muestras)}")
+            path = os.path.join(BASE, "data", f"estado_{prov}.json")
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(estado, f, ensure_ascii=False, indent=2)
+            print(f"{prov}: {len(afectados)} afectados")
 
-    # Compatibilidad: estado.json mantiene formato anterior para Cienfuegos
-    cf = resultado["provincias"]["cienfuegos"]
-    estado_cf = {
-        "actualizado": resultado["actualizado"],
-        "fuente": cf["fuente"],
-        "reporte_fecha": cf["reporte_fecha"],
-        "mensajes_leidos": cf["mensajes_leidos"],
-        "afectados": cf["afectados"],
-        "total_circuitos_afectados": cf["total_circuitos_afectados"],
-    }
-    os.makedirs(os.path.join(BASE, "data"), exist_ok=True)
-    with open(os.path.join(BASE, "data", "estado.json"), "w", encoding="utf-8") as f:
-        json.dump(estado_cf, f, ensure_ascii=False, indent=2)
-    with open(os.path.join(BASE, "data", "estado_provincias.json"), "w", encoding="utf-8") as f:
-        json.dump(resultado, f, ensure_ascii=False, indent=2)
-    print(f"OK: CF={len(cf['afectados'])} circuitos")
+    # Compatibilidad: estado.json = Cienfuegos
+    import shutil
+    shutil.copy(
+        os.path.join(BASE, "data", "estado_cienfuegos.json"),
+        os.path.join(BASE, "data", "estado.json"),
+    )
+    print("OK")
 
 if __name__ == "__main__":
     main()
