@@ -1,6 +1,10 @@
 {
-  "actualizado": "2026-10-06T10:28:58.911531+00:00",
+  "schema": 2,
+  "estado_datos": "ok",
+  "fuente_afectados": true,
   "reporte_fecha": "2026-10-06T01:29:15+00:00",
+  "reporte_vencido": false,
+  "sin_afectaciones": false,
   "programado_fecha": null,
   "mensajes_leidos": 50,
   "afectados": {
@@ -17,5 +21,7 @@
   "hora_inicio": null,
   "cierre": null,
   "tiempos": {},
-  "causas": {}
+  "causas": {},
+  "error": null,
+  "actualizado": "2026-10-06T10:38:26.325688+00:00"
 }

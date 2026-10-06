@@ -1,6 +1,10 @@
 {
-  "actualizado": "2026-10-06T10:28:58.911531+00:00",
+  "schema": 2,
+  "estado_datos": "ok",
+  "fuente_afectados": true,
   "reporte_fecha": "2026-10-06T09:34:35+00:00",
+  "reporte_vencido": false,
+  "sin_afectaciones": false,
   "programado_fecha": "2026-10-06T03:33:40+00:00",
   "mensajes_leidos": 3,
   "afectados": {
@@ -40,7 +44,7 @@
       "La Milpa"
     ],
     "C-84": [
-      "Espartaco (Este)",
+      "Espartaco (Este",
       "Maleza",
       "Dagame",
       "Paso del Medio",
@@ -49,7 +53,7 @@
       "Manaquita"
     ],
     "C-56": [
-      "Cruces (Norte)"
+      "Cruces (Norte"
     ],
     "C-11": [
       "Ariza",
@@ -81,7 +85,7 @@
       "emisora de radio"
     ],
     "C-63": [
-      "Juraguá (Oeste)",
+      "Juraguá (Oeste",
       "Las 500",
       "Calicito",
       "Bolivia",
@@ -93,10 +97,10 @@
     "C-72": [
       "Porcino",
       "La Caridad",
-      "Palmira (Sur)"
+      "Palmira (Sur"
     ],
     "C-20": [
-      "Punta Gorda (Hospital Provincial 024)"
+      "Punta Gorda (Hospital Provincial 0-24"
     ],
     "C-7": [
       "Lajas",
@@ -113,16 +117,15 @@
       "San Isidro"
     ],
     "C-57": [
-      "Lajas (Pueblo)"
+      "Lajas (Pueblo"
     ],
     "C-53": [
       "Potrerillo",
-      "El No",
       "Peñasco",
       "Lomitas"
     ],
     "C-55": [
-      "Cruces (Sur)"
+      "Cruces (Sur"
     ],
     "C-54": [
       "Batey Mal Tiempo",
@@ -132,7 +135,7 @@
     "C-32": [
       "Yaguaramas",
       "Guayabales",
-      "Batey Diego. ( PSFV 024)"
+      "Batey Diego. ( PSFV 0-24"
     ],
     "C-70": [
       "Aguada",
@@ -179,10 +182,10 @@
       "Guasimal"
     ],
     "C-25": [
-      "Abreus (Pueblo)"
+      "Abreus (Pueblo"
     ],
     "C-85": [
-      "Cumanayagua (Centro)"
+      "Cumanayagua (Centro"
     ],
     "C-8": [
       "Congojas",
@@ -196,7 +199,7 @@
       "Cherepa"
     ],
     "C-50": [
-      "Palmira (Norte)"
+      "Palmira (Norte"
     ],
     "C-35": [
       "Terraza",
@@ -212,10 +215,10 @@
     ],
     "C-18": [
       "Arizona",
-      "La Juanita (Hospital de Especialidades 024)"
+      "La Juanita (Hospital de Especialidades 0-24"
     ],
     "C-43": [
-      "Aguada (Pueblo)",
+      "Aguada (Pueblo",
       "Autopista",
       "Batey María Victoria"
     ],
@@ -240,7 +243,7 @@
       "Galeón",
       "Batey Santana",
       "Guevara",
-      "Aguada (Oeste)"
+      "Aguada (Oeste"
     ],
     "C-407": [
       "Cocaleca",
@@ -291,5 +294,7 @@
   "hora_inicio": null,
   "cierre": null,
   "tiempos": {},
-  "causas": {}
+  "causas": {},
+  "error": null,
+  "actualizado": "2026-10-06T10:38:26.325688+00:00"
 }

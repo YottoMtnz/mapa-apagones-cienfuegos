@@ -1,17 +1,18 @@
 {
-  "actualizado": "2026-10-06T10:28:58.911531+00:00",
-  "reporte_fecha": "2026-10-06T09:50:10+00:00",
+  "schema": 2,
+  "estado_datos": "ok",
+  "fuente_afectados": true,
+  "reporte_fecha": "2026-10-06T10:33:55+00:00",
+  "reporte_vencido": false,
+  "sin_afectaciones": false,
   "programado_fecha": "2026-10-06T10:07:04+00:00",
-  "mensajes_leidos": 3,
+  "mensajes_leidos": 4,
   "afectados": {
-    "1175": [
-      "Reparto Santa Felicia"
+    "GC19": [
+      "Repartos Roble, Militar, Fuentes Bancas, La Hata,"
     ],
-    "1246": [
-      "Altura del Bosque"
-    ],
-    "L325": [
-      "Hotel Muthú📣"
+    "MB960": [
+      "Repartos La Conchita, Veneciana, Centro de Guanabo"
     ]
   },
   "programados": {
@@ -76,11 +77,13 @@
       "Boyeros"
     ]
   },
-  "total_circuitos_afectados": 3,
+  "total_circuitos_afectados": 2,
   "total_circuitos_programados": 20,
   "mw": null,
-  "hora_inicio": "5:47AM",
+  "hora_inicio": "6:32 AM",
   "cierre": null,
   "tiempos": {},
-  "causas": {}
+  "causas": {},
+  "error": null,
+  "actualizado": "2026-10-06T10:38:26.325688+00:00"
 }
