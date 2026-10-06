@@ -2,26 +2,23 @@
   "pinar-del-rio": {},
   "artemisa": {
     "3220": [
-      "de S.A.B"
+      "San Antonio de los Baños"
     ],
     "342": [
-      "Provicional de Bahía Honda"
-    ],
-    "5040": [
-      "Nos encontramos con una afectación en estos momentos se 144 MW"
+      "Bahía Honda"
     ],
     "341": [
-      "de San Cristóbal"
+      "San Cristóbal"
     ],
     "1940": [
-      "de San Antonio"
+      "San Antonio"
     ],
     "246": [],
     "236": [
-      "BH"
+      "Bahía Honda"
     ],
     "1570": [
-      "de Artemisa"
+      "Artemisa"
     ],
     "1580": [
       "Alquízar"
@@ -30,10 +27,7 @@
       "Guanajay"
     ],
     "1270": [
-      "de Artemisa"
-    ],
-    "13": [
-      "mil y 4mil de Güira de Melena"
+      "Artemisa"
     ]
   },
   "la-habana": {},
@@ -48,9 +42,10 @@
     "CENSA": [],
     "Jamaica": [],
     "Somorrostro": [],
-    "Catalina 1 y 2": [],
-    "Salud 2": [],
-    "Bio 2": [],
+    "Catalina 1": [],
+    "Catalina 2": [],
+    "La Salud 2": [],
+    "Bío 2": [],
     "6 de San José": [],
     "Río Seco": [],
     "Caamaño": [],
@@ -61,16 +56,19 @@
     "Quivicán": [],
     "2420": [],
     "Jaruco 2": [],
-    "Sopapo 1 y 2": [],
+    "Sopapo 1": [],
+    "Sopapo 2": [],
     "Camilo": [],
     "Héctor Molina": [],
-    "Nueva Paz 1 y 2": [],
+    "Nueva Paz 1": [],
+    "Nueva Paz 2": [],
     "Magela": [],
     "2 de San José": [],
     "8 de San José": [],
     "La Salud 1": [],
     "Güines 4": [],
-    "Melena 1 y 2": [],
+    "Melena 1": [],
+    "Melena 2": [],
     "San Felipe": [],
     "Bío 1": [],
     "Los Palos 1": [],
@@ -78,9 +76,7 @@
     "Santa Cruz": [],
     "El Camilo": [],
     "Los Palos 2": [],
-    "Vegas": [],
-    "La Salud 2": [],
-    "Bío 2": []
+    "Vegas": []
   },
   "matanzas": {
     "5670": [
@@ -100,7 +96,6 @@
     ],
     "4427": [
       "Reparto 13 de marzo",
-      "circuitos 2 y 3 desde Salud hasta Obispo y desde García hasta Génes",
       "Playa Larga",
       "Smith Comas"
     ],
@@ -121,7 +116,7 @@
       "Casco Histórico de la ciudad"
     ],
     "MI1410": [
-      "Circuito 6 Casco Histórico"
+      "Casco Histórico"
     ],
     "4945": [
       "Cidra",
@@ -168,14 +163,146 @@
       "Calle Plácido y La Juguera",
       "Versalles"
     ],
-    "MI1406": [
-      "Circuito 2 y 3"
-    ],
+    "MI1406": [],
     "GI41": [
       "Australia"
     ]
   },
-  "cienfuegos": {},
+  "cienfuegos": {
+    "C-101": [
+      "Cartagena",
+      "La Modelo",
+      "Santa Rosa",
+      "La Piragua",
+      "El Bajío",
+      "California",
+      "El Salado"
+    ],
+    "C-102": [
+      "La Ciruela"
+    ],
+    "C-103": [
+      "Santiago de Cartagena",
+      "Lequeito"
+    ],
+    "C-19": [
+      "Tulipán"
+    ],
+    "C-24": [
+      "Pérez Leyva",
+      "La Redonda",
+      "El Limpio"
+    ],
+    "C-27": [
+      "Barrio Matadero",
+      "Juraguá"
+    ],
+    "C-28": [
+      "CEN",
+      "Castillo de Jagua",
+      "La Loma"
+    ],
+    "C-37": [
+      "El Tablón",
+      "Los Coquitos",
+      "El Túnel",
+      "Jovero",
+      "El Mamey",
+      "Crucesitas",
+      "El Nicho",
+      "Vegueta"
+    ],
+    "C-38": [
+      "El Abra",
+      "Crespo",
+      "Quiñones",
+      "La Parra",
+      "El Granizo",
+      "El Jíbaro",
+      "La Jutía",
+      "Hervidero"
+    ],
+    "C-405": [
+      "Pueblo Griffo Nuevo"
+    ],
+    "C-41": [
+      "Caracas",
+      "Mora",
+      "San Isidro"
+    ],
+    "C-42": [
+      "Viet Nam",
+      "Real Campiña",
+      "Guanito"
+    ],
+    "C-44": [
+      "Los Burros",
+      "El Conejito",
+      "El Desquite",
+      "Venero"
+    ],
+    "C-47": [
+      "Elpidio Gómez",
+      "Altamira",
+      "La Peseta"
+    ],
+    "C-49": [
+      "Arriete",
+      "Ciego Montero",
+      "La Amalia",
+      "Ceiba Hueca"
+    ],
+    "C-5": [
+      "Boulevard",
+      "Parque Martí"
+    ],
+    "C-53": [
+      "Potrerillo",
+      "Peñasco",
+      "Lomitas"
+    ],
+    "C-56": [
+      "Cruces (Norte"
+    ],
+    "C-57": [
+      "Lajas (Pueblo"
+    ],
+    "C-7": [
+      "Lajas",
+      "Las Nuevas",
+      "El Salto",
+      "Ajuria",
+      "Santa Susana",
+      "San Marcos",
+      "Chucho Rosa"
+    ],
+    "C-8": [
+      "El Pino",
+      "Congojas",
+      "La Lolita"
+    ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
+    ],
+    "C-82": [
+      "Balboa",
+      "La Pedrera",
+      "El Tropezón"
+    ],
+    "C-85": [
+      "Cumanayagua (Centro"
+    ],
+    "C-88": [
+      "San Ignacio",
+      "Babiney",
+      "Carmelina",
+      "San Rafael",
+      "La Leona",
+      "Mijalito",
+      "Matún"
+    ]
+  },
   "villa-clara": {
     "144": [
       "Camacho"
@@ -222,9 +349,7 @@
     "90": [
       "Vega Alta"
     ],
-    "43": [
-      "y 51"
-    ],
+    "43": [],
     "69": [
       "Zuluetas"
     ],
@@ -243,21 +368,13 @@
     "66": [
       "Las Torres"
     ],
-    "6": [
-      "Vigía (Déficit)"
-    ],
-    "39": [
-      "Sandino (Déficit)"
-    ],
+    "6": [],
+    "39": [],
     "34": [
       "Sabana Rebacadero"
     ],
-    "32": [
-      "(RF33Kv)"
-    ],
-    "33": [
-      "(RF33Kv)"
-    ],
+    "32": [],
+    "33": [],
     "40": [
       "Hospital Militar"
     ],
@@ -273,9 +390,7 @@
     "182": [
       "Almest Van Troi"
     ],
-    "63": [
-      "y 64"
-    ],
+    "63": [],
     "1": [
       "ConsejoCentro"
     ],
@@ -283,10 +398,10 @@
       "Santo Domingo"
     ],
     "81": [
-      "de Julio"
+      "Julio"
     ],
     "26": [
-      "de Julio"
+      "Julio"
     ],
     "163": [
       "Batey 26 de Julio"
@@ -301,11 +416,9 @@
       "Jicotea"
     ],
     "93": [
-      "Esperanza (Campo)"
+      "Esperanza (Campo"
     ],
-    "72": [
-      "y 129"
-    ],
+    "72": [],
     "131": [
       "Las Antillas"
     ],
@@ -345,9 +458,7 @@
     "166": [
       "Condado"
     ],
-    "73": [
-      "y 156"
-    ],
+    "73": [],
     "169": [
       "Condado"
     ],
@@ -381,9 +492,7 @@
     "84": [
       "Rodrigo"
     ],
-    "97": [
-      "y 189"
-    ],
+    "97": [],
     "148": [
       "San Juan"
     ],
@@ -423,14 +532,12 @@
     "147": [
       "Villa Alegre"
     ],
-    "109": [
-      "y 150"
-    ],
+    "109": [],
     "111": [
       "Mataguá"
     ],
     "92": [
-      "Esperanza (Pueblo)"
+      "Esperanza (Pueblo"
     ],
     "77": [
       "Vueltas"
@@ -498,9 +605,7 @@
     "153": [
       "EIDE"
     ],
-    "134": [
-      "(Déficit)"
-    ],
+    "134": [],
     "108": [
       "La Piedra"
     ],
@@ -540,9 +645,7 @@
     "162": [
       "Santa Clara Industrial"
     ],
-    "114": [
-      "y 117"
-    ],
+    "114": [],
     "116": [
       "Mata"
     ],
@@ -555,9 +658,7 @@
     "184": [
       "Sitio Grande"
     ],
-    "89": [
-      "y 188"
-    ],
+    "89": [],
     "31": [
       "Sakenaf"
     ],
@@ -809,8 +910,8 @@
   },
   "ciego-de-avila": {
     "Morón Sur": [],
-    "de Gaspar": [],
-    "A110": []
+    "Gaspar": [],
+    "A 110": []
   },
   "camaguey": {
     "2410": [
@@ -845,8 +946,7 @@
     ],
     "3255": [
       "Parque Solar Fotovoltaico La Cívica",
-      "Jimaguayú",
-      "quedando afectada el Y268 afectando solamente la Sub Najasa"
+      "Jimaguayú"
     ],
     "Y268": [
       "Sub Najasa"
@@ -864,150 +964,91 @@
     ],
     "TK25": [
       "Cuatro Caminos, Dormitorio"
-    ],
-    "Circuito": [
-      "33 Kv: 6305"
     ]
   },
   "holguin": {
-    "Cto Uñas 1": [],
-    "Cto Fray Benito": [],
-    "Cto Báguano 2": [],
-    "Cto Báguano 3": [],
+    "Uñas 1": [],
+    "Fray Benito": [],
+    "Báguano 2": [],
+    "Báguano 3": [],
     "Nicaro Cabonico": [],
-    "NipeCueto": [],
-    "Cto Tacámara": [],
-    "Cto Palmarito": [],
-    "Cto La Sirena": [],
-    "Cto Velasco 2": [],
-    "Cto Uñas 2": [],
+    "Nipe Cueto": [],
+    "Tacámara": [],
+    "Palmarito": [],
+    "La Sirena": [],
+    "Velasco 2": [],
+    "Uñas 2": [],
     "Cto 15": [],
     "Cto 16": [],
-    "BanesBanes": [],
-    "Cto Banes 2": [],
-    "Cto Mayarí 2": [],
+    "Banes Banes": [],
+    "Banes 2": [],
+    "Mayarí 2": [],
     "Holguín Mir": [],
-    "BanesAntilla": [],
-    "MoaSagua": [],
-    "Cto Mayarí 1": [],
-    "Cto Revolución": [],
+    "Banes Antilla": [],
+    "Moa Sagua": [],
+    "Mayarí 1": [],
+    "Revolución": [],
     "Cto 19": [],
     "Cto 22": [],
-    "Cto Velasco 1": [],
+    "Velasco 1": [],
     "Holguín Maceo": [],
     "Cto 21": [],
     "Cto 11": [],
-    "Cto Lote Seco": [],
+    "Lote Seco": [],
     "Canela Pesquero 1": [],
-    "Cto 5 de Moa": [],
-    "Cto 9 de Moa": [],
-    "Cto Freyre 1": [],
-    "Cto Freyre 2": [],
-    "Cto Freyre 3": [],
+    "Moa 5": [],
+    "Moa 9": [],
+    "Freyre 1": [],
+    "Freyre 2": [],
+    "Freyre 3": [],
     "Puerto Punta Gorda": [],
-    "Cto 1 de Moa": [],
-    "Cto Banes 4": [],
-    "Cto Banes 5": [],
-    "Cto Banes 1": [],
-    "Cto Sao Arriba": [],
-    "Cto Arroyo del Medio": [],
-    "Cto Guerrita": [],
-    "Cto 6 de Moa": [],
+    "Moa 1": [],
+    "Banes 4": [],
+    "Banes 5": [],
+    "Banes 1": [],
+    "Sao Arriba": [],
+    "Arroyo del Medio": [],
+    "Guerrita": [],
+    "Moa 6": [],
     "Cto 2": [],
-    "Cto Zarzal 1 y 2": [],
-    "Cto Iberia 1": [],
-    "Cto Iberia 2": [],
-    "Cto La Naza": [],
-    "Cto La Caridad": [],
-    "Cto Ocujal": [],
-    "Cto Guaro": [],
-    "CanelaGuardalavaca 1": [],
-    "Cto Gibara 1": [],
-    "Cto Gibara 2": [],
-    "Cto Piedra Blanca": [],
-    "Cto Urbano Noris 1": [],
-    "Cto Urbano Noris 2": [],
-    "Cto Juan Vicente": [],
-    "Cto Alcides Pino": [],
-    "Zarzal 1 y 2": [],
-    "Cto Guatemala": [],
+    "Zarzal 1": [],
+    "Zarzal 2": [],
+    "Iberia 1": [],
+    "Iberia 2": [],
+    "La Naza": [],
+    "La Caridad": [],
+    "Ocujal": [],
+    "Guaro": [],
+    "Canela Guardalavaca 1": [],
+    "Gibara 1": [],
+    "Gibara 2": [],
+    "Piedra Blanca": [],
+    "Urbano Noris 1": [],
+    "Urbano Noris 2": [],
+    "Juan Vicente": [],
+    "Alcides Pino": [],
+    "Guatemala": [],
     "Cto 3": [],
     "Cto 14": [],
-    "Cto Tacajó 1": [],
-    "Cto Tacajó 2": [],
-    "Cto Nipe": [],
-    "17": [],
-    "Aeropuerto 1": [],
-    "Cto Aeropuerto 1": [],
+    "Tacajó 1": [],
+    "Tacajó 2": [],
+    "Nipe": [],
     "Cto 17": [],
-    "Cto Aguas Claras": [],
+    "Aeropuerto 1": [],
+    "Aguas Claras": [],
     "Cto 13": [],
-    "Cto 4 de Moa": [],
-    "Cto Santa María": [],
-    "Fray Benito": [],
-    "Guaro": [],
-    "Cto Cto Gibara 1": [],
-    "22": [],
-    "Mir 2 que se encontraba en Avería": [],
-    "Cto Moa 8 Quemado del Negro": [],
+    "Moa 4": [],
+    "Santa María": [],
+    "Mir 2": [],
+    "Moa 8 Quemado del Negro": [],
     "Cto 1": [],
     "Cto 20": [],
     "Nicaro Fábrica 2": [],
-    "Cto Pdo Nicaragua": [],
-    "Mir 2": [],
-    "Cto Tacamara": [],
-    "Tacajó 1": [],
-    "Tacajó 2": [],
-    "Cto Baguanos 2": [],
-    "Cto Baguanos 3": [],
-    "Velasco 2": [],
-    "La Sirena": [],
-    "Revolución": [],
-    "Mayarí 1": [],
-    "Mayarí 2": [],
-    "Velasco 1": [],
-    "Freyre 3": [],
-    "Freyre 2": [],
-    "Freyre 1": [],
-    "Sao Arriba": [],
-    "Banes 1": [],
-    "Banes 5": [],
-    "Banes 4": [],
-    "La Caridad": [],
-    "Iberia 1 y 2": [],
-    "La Naza": [],
-    "Ocujal": [],
-    "Urbano Noris 1 y 2": [],
-    "Gibara 1 y 2": [],
-    "Piedra Blanca": [],
-    "Juan Vicente": [],
-    "Alcides Pino": [],
-    "Santa María": [],
-    "Aguas Claras": [],
-    "Moa 4": [],
-    "Moa 1": [],
-    "Urbano Noris 1": [],
-    "Urbano Noris 2": [],
-    "Iberia 1": [],
-    "Iberia 2": [],
-    "Guatemala": [],
-    "Aereopuerto 1": [],
-    "Guerrita": [],
-    "Arroyo del Medio": [],
-    "C1": [],
-    "A. Pino": [],
-    "CanelaGuadalavaca 1": [],
+    "Pdo Nicaragua": [],
+    "C 1": [],
     "Guardalavaca 2": [],
-    "Nipe": [],
-    "Uñas 1": [],
-    "Cto Báguanos 3": [],
-    "Cto Báguanos 2": [],
-    "Cto Aeropuerto1": [],
     "Nipe Tacajó": [],
-    "Nipe Cueto": [],
-    "Nipe Báguanos": [],
-    "CanelaGvaca 1": [],
-    "Nicaro Caboníco": []
+    "Nipe Báguano": []
   },
   "granma": {
     "Bueycito": [],
@@ -1025,7 +1066,7 @@
     "Las Novillas": [],
     "Cayama": [],
     "Montes Verdes": [],
-    "Cerámica Roja o275": [],
+    "Cerámica Roja": [],
     "Rosa la Bayamesa": [],
     "Palmarón": [],
     "El ISCAB": [],
@@ -1048,11 +1089,10 @@
     "Santa Isabel": [],
     "Nuevo Yao": [],
     "Saco Centro del Pueblo": [],
-    "Cauto Cristo ( completo )": [],
+    "Cauto Cristo": [],
     "Jimmy Hirzel": [],
     "Las Mercedes": [],
     "Bartolomé Masó": [],
-    "Cerámica Roja, el ramal de la potabilizadora": [],
     "Ceiba Hueca": [],
     "La Sal": [],
     "Sofia": []
@@ -1080,13 +1120,13 @@
       "Santiago"
     ],
     "8": [
-      "Santiago y la línea 5380 Mella"
+      "Santiago"
     ],
     "20": [
       "Santiago"
     ],
     "7": [
-      "seccionalizado de Santiago"
+      "Santiago"
     ],
     "17": [
       "Santiago"
@@ -1100,21 +1140,17 @@
     "25": [
       "Santiago"
     ],
-    "11": [
-      "seccionalizado"
-    ],
+    "11": [],
     "24": [
-      "Santiago se encuentra disparado"
+      "Santiago"
     ],
     "14": [
-      "Santiago y la línea 4385 Contramaestre"
+      "Santiago"
     ],
     "10": [
       "Santiago"
     ],
-    "9": [
-      "seccionalizado"
-    ],
+    "9": [],
     "16": [
       "Santiago"
     ],
