@@ -171,6 +171,56 @@ PARSERS = {
 # Provincias sin parser de afectados (inactivas o sin formato)
 SIN_AFECTADOS = {"matanzas", "pinar-del-rio", "guantanamo"}
 
+def _norm_id(s):
+    """Normaliza un ID de circuito para comparar (minúsculas, sin prefijos)."""
+    s = s.lower().strip()
+    s = re.sub(r'^(cto\.?|circuito)\s+', '', s)
+    s = re.sub(r'\s+', ' ', s)
+    return s
+
+def extraer_info_extra(texto):
+    """
+    Extrae información adicional del mensaje:
+    - mw: MW afectados/servidos (int)
+    - hora_inicio: "a partir de las 3:07 AM"
+    - cierre: "con cierre a las 4:11 PM"
+    - tiempos: {id_normalizado: "48:39" o "10h 25min"}
+    - causas: {id_normalizado: "avería"}
+    """
+    info = {"mw": None, "hora_inicio": None, "cierre": None, "tiempos": {}, "causas": {}}
+
+    m = re.search(r'(\d+)\s*MW', texto)
+    if m:
+        info["mw"] = int(m.group(1))
+
+    m = re.search(r'a partir de las\s*([\d:]+\s*[AP]\.?M\.?)', texto, re.I)
+    if m:
+        info["hora_inicio"] = m.group(1).strip().rstrip('.')
+
+    m = re.search(r'con cierre(?:\s*a las)?\s*([\d:]+\s*(?:[AP]\.?M\.?|[PpAa][Mm])?)', texto, re.I)
+    if m:
+        info["cierre"] = m.group(1).strip().rstrip('.')
+
+    # Patrón "📌Cto Uñas 1- 48:39 Horas(Avería)" (Holguín y similares)
+    for m in re.finditer(r'[📌✅]\s*(?:Cto\.?\s+)?(.+?)\s*[-–]\s*(\d+):(\d+)\s*horas?', texto, re.I):
+        nombre = _limpiar(m.group(1))
+        nombre = re.sub(r'\(.*?\)', '', nombre).strip()
+        if not nombre or len(nombre) > 60:
+            continue
+        key = _norm_id(nombre)
+        info["tiempos"][key] = f"{m.group(2)}:{m.group(3)}"
+        # ¿(Avería) después?
+        resto = texto[m.end():m.end()+20]
+        if re.match(r'\s*\(aver[ií]a\)', resto, re.I):
+            info["causas"][key] = "avería"
+
+    # Patrón "✅R454 (Guanabacoa) 10horas y 25minutos" (La Habana)
+    for m in re.finditer(r'[✅📌]\s*([A-Z]{1,4}\d{1,4})\s*(?:\([^)]*\))?\s*(\d+)\s*horas?\s*y\s*(\d+)\s*min', texto, re.I):
+        key = _norm_id(m.group(1))
+        info["tiempos"][key] = f"{m.group(2)}h {m.group(3)}min"
+
+    return info
+
 def detectar_tipo(texto):
     """
     Detecta si el reporte es de apagones ACTUALES o PROGRAMADOS (futuros).
