@@ -1,5 +1,513 @@
 {
-  "schema": 2,
-  "provincia": "la-habana",
-  "circuitos": {}
+ "schema": 2,
+ "provincia": "la-habana",
+ "circuitos": {
+  "GC19": {
+   "lugares": [
+    "Repartos Roble, Militar, Fuentes Bancas, La Hata,"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "MB960": {
+   "lugares": [
+    "Repartos La Conchita, Veneciana, Centro de Guanabo"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "1175": {
+   "lugares": [
+    "Reparto Santa Felicia"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "1246": {
+   "lugares": [
+    "Altura del Bosque"
+   ],
+   "puntos": [
+    {
+     "lugar": "Altura del Bosque",
+     "lat": 23.1074706,
+     "lng": -82.4114014,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "L325": {
+   "lugares": [
+    "Hotel Muthú📣"
+   ],
+   "puntos": [
+    {
+     "lugar": "Hotel Muthú📣",
+     "lat": 23.1133803,
+     "lng": -82.4380884,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "A960": {
+   "lugares": [
+    "reparto Embil"
+   ],
+   "puntos": [
+    {
+     "lugar": "reparto Embil",
+     "lat": 23.0702555,
+     "lng": -82.3907019,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "A1202": {
+   "lugares": [
+    "Coco Solo"
+   ],
+   "puntos": [
+    {
+     "lugar": "Coco Solo",
+     "lat": 23.0784211,
+     "lng": -82.4374378,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "A500": {
+   "lugares": [
+    "Zamora"
+   ],
+   "puntos": [
+    {
+     "lugar": "Zamora",
+     "lat": 23.0802809,
+     "lng": -82.4371615,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "A1565": {
+   "lugares": [
+    "Tarará y Mégano"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "A1570": {
+   "lugares": [
+    "Tarará"
+   ],
+   "puntos": [
+    {
+     "lugar": "Tarará",
+     "lat": 23.1742417,
+     "lng": -82.2047034,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "D1050": {
+   "lugares": [
+    "Barreras"
+   ],
+   "puntos": [
+    {
+     "lugar": "Barreras",
+     "lat": 23.1455372,
+     "lng": -82.2142436,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "D1055": {
+   "lugares": [
+    "Las Minas, Gallega, Arango.📣"
+   ],
+   "puntos": [
+    {
+     "lugar": "Las Minas",
+     "lat": 23.1258646,
+     "lng": -82.196399,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "1247": {
+   "lugares": [
+    "Kohly"
+   ],
+   "puntos": [
+    {
+     "lugar": "Kohly",
+     "lat": 23.1136948,
+     "lng": -82.4116899,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "A1218": {
+   "lugares": [
+    "Atabey"
+   ],
+   "puntos": [
+    {
+     "lugar": "Atabey",
+     "lat": 23.0738902,
+     "lng": -82.4641194,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "1851": {
+   "lugares": [
+    "Reparto Zamora"
+   ],
+   "puntos": [
+    {
+     "lugar": "Reparto Zamora",
+     "lat": 23.0857755,
+     "lng": -82.4370587,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "1856": {
+   "lugares": [
+    "Coco Solo"
+   ],
+   "puntos": [
+    {
+     "lugar": "Coco Solo",
+     "lat": 23.0784211,
+     "lng": -82.4374378,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "D1280": {
+   "lugares": [
+    "Repartos Coco Solo, Los Pocitos, Los Ángeles, El P"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "L316": {
+   "lugares": [
+    "Reparto Buenavista"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "A1223": {
+   "lugares": [
+    "La Coronela"
+   ],
+   "puntos": [
+    {
+     "lugar": "La Coronela",
+     "lat": 23.0655965,
+     "lng": -82.4677883,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "A1042": {
+   "lugares": [
+    "Alturas de Lotería y Alberro"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "GC12": {
+   "lugares": [
+    "Centro de Cojimar.📣"
+   ],
+   "puntos": [
+    {
+     "lugar": "Centro de Cojimar.📣",
+     "lat": 23.1628943,
+     "lng": -82.299689,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "D740": {
+   "lugares": [
+    "Repartos Punta Brava, El Guatao, Estrella Roja"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "R461": {
+   "lugares": [
+    "Calle Maceo desde 10 de Octubre a La Piedra, calle"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "D640": {
+   "lugares": [
+    "Arroyo Arenas"
+   ],
+   "puntos": [
+    {
+     "lugar": "Arroyo Arenas",
+     "lat": 23.0450568,
+     "lng": -82.4654216,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "A219": {
+   "lugares": [
+    "reparto El Chico"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "A223": {
+   "lugares": [
+    "reparto El Chico"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "2075": {
+   "lugares": [
+    "San Agustín, Barbosa"
+   ],
+   "puntos": [
+    {
+     "lugar": "San Agustín",
+     "lat": 23.0577074,
+     "lng": -82.4694797,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "1160": {
+   "lugares": [
+    "Kohly"
+   ],
+   "puntos": [
+    {
+     "lugar": "Kohly",
+     "lat": 23.1136948,
+     "lng": -82.4116899,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "PZ9": {
+   "lugares": [
+    "La Timba, calle 4 desde 37 a Hidalgo, avenida Coló"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "OP319": {
+   "lugares": [
+    "Alrededores de calles del cuadrante desde Pocito h"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "H442": {
+   "lugares": [
+    "Reparto Barrio Obrero, Guardiola, Jacomino, Califo"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "GC18": {
+   "lugares": [
+    "Zona Franca de Berroa.📣"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "SR850": {
+   "lugares": [
+    "Repartos La Torre, Paraíso, Las Granjas, Amor, San"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "R451": {
+   "lugares": [
+    "Calles Perdomo y Simpatía.📣"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "2202": {
+   "lugares": [
+    "Alrededores de calles Callejón de Los Perros desde"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "SR830": {
+   "lugares": [
+    "Reparto Delicias.📣"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "2076": {
+   "lugares": [
+    "Alturas de La Lisa"
+   ],
+   "puntos": [
+    {
+     "lugar": "Alturas de La Lisa",
+     "lat": 23.0613989,
+     "lng": -82.4411384,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  },
+  "MB930": {
+   "lugares": [
+    "Mirador de Marbella, Santa María Loma, Santa María"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "R454": {
+   "lugares": [
+    "Repartos Mañana, Valero, Vía Blanca, Azotea, Vista"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "SR840": {
+   "lugares": [
+    "Centro del Cotorro y Las Brisas.📣"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "R464": {
+   "lugares": [
+    "Reparto Modelo. Alturas de Vía Blanca, Habana Nuev"
+   ],
+   "puntos": [],
+   "ubicado": false,
+   "revisar": true
+  },
+  "GC14": {
+   "lugares": [
+    "Guiteras, Bahía.📣"
+   ],
+   "puntos": [
+    {
+     "lugar": "Guiteras",
+     "lat": 23.1280677,
+     "lng": -82.3295343,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": true
+    }
+   ],
+   "ubicado": true,
+   "revisar": true
+  }
+ }
 }
