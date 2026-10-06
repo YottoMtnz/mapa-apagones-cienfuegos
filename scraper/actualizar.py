@@ -180,21 +180,33 @@ def main():
     fallos = 0
 
     with TelegramClient(StringSession(sesion), int(api_id), api_hash) as client:
+        # MODO ESTUDIO: guardar muestras de mensajes por provincia
+        if os.environ.get("MODO_ESTUDIO") == "1":
+            muestras = {}
+            for prov in PROVINCIAS:
+                canal = CANALES.get(prov)
+                if not canal:
+                    continue
+                try:
+                    msgs = []
+                    for m in client.iter_messages(canal, limit=5):
+                        if m.text:
+                            msgs.append({
+                                "fecha": m.date.astimezone(timezone.utc).isoformat(),
+                                "texto": m.text[:800]
+                            })
+                    muestras[prov] = msgs
+                    print(f"ESTUDIO {prov}: {len(msgs)} mensajes")
+                except Exception as e:
+                    muestras[prov] = [{"error": str(e)}]
+                    print(f"ESTUDIO {prov}: ERROR {e}")
+            with open(os.path.join(BASE, "data", "estudio_canales.json"), "w") as f:
+                json.dump(muestras, f, ensure_ascii=False, indent=1)
+            print("Muestras guardadas en data/estudio_canales.json")
+            return
+
         for prov in PROVINCIAS:
             canal = CANALES.get(prov)
-            if prov == "matanzas-debug":
-                # TEMPORAL: ver mensajes reales de Matanzas
-                for intento in (1, 2):
-                    try:
-                        for m in client.iter_messages(canal, limit=10):
-                            if m.text and ("4940" in m.text or "sin servicio" in m.text.lower() or "afectad" in m.text.lower()):
-                                print(f"MATANZAS MSG [{m.date}]: {m.text[:400]}")
-                                print("---")
-                        break
-                    except Exception as e:
-                        print(f"Error: {e}")
-                        break
-                continue
             if prov in SIN_AFECTADOS or prov not in PARSERS:
                 est = analizar_mensajes(prov, [], ahora)
                 print(f"{prov}: sin fuente de afectados ({guardar(prov, est, ahora) and 'escrito' or 'igual'})")
