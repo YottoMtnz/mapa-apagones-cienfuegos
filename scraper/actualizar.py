@@ -95,23 +95,29 @@ def analizar_mensajes(prov, mensajes, ahora):
         if tipo == "programado" and not est["programados"]:
             est["programados"] = r
             est["programado_fecha"] = fecha.isoformat()
-        elif tipo == "actual" and not afectados_visto:
-            afectados_visto = True
-            est["reporte_fecha"] = fecha.isoformat()
-            if ahora - fecha > timedelta(hours=MAX_EDAD_H):
-                est["reporte_vencido"] = True      # demasiado viejo: no se muestra como actual
-            else:
-                est["afectados"] = r
+        elif tipo == "actual":
+            if not afectados_visto:
+                afectados_visto = True
+                est["reporte_fecha"] = fecha.isoformat()
+                if ahora - fecha > timedelta(hours=MAX_EDAD_H):
+                    est["reporte_vencido"] = True      # demasiado viejo: no se muestra como actual
+            if not est["reporte_vencido"]:
+                # MERGE: combinar con mensajes anteriores (avería + déficit)
+                # en vez de reemplazar
+                for cid, zonas in r.items():
+                    if cid not in est["afectados"]:
+                        est["afectados"][cid] = zonas
                 extra = extraer_info_extra(texto, prov)
-                est["mw"], est["hora_inicio"], est["cierre"] = extra["mw"], extra["hora_inicio"], extra["cierre"]
+                if est["mw"] is None:
+                    est["mw"], est["hora_inicio"], est["cierre"] = extra["mw"], extra["hora_inicio"], extra["cierre"]
                 for cid in r:
                     nk = _norm_id(cid)
-                    if nk in extra["tiempos"]:
+                    if nk in extra["tiempos"] and cid not in est["tiempos"]:
                         est["tiempos"][cid] = extra["tiempos"][nk]
-                    if nk in extra["causas"]:
+                    if nk in extra["causas"] and cid not in est["causas"]:
                         est["causas"][cid] = extra["causas"][nk]
-        if afectados_visto and est["programados"]:
-            break
+        # NO hacer break aquí: seguir leyendo para combinar múltiples mensajes
+        # (avería + déficit son causas distintas, ambas válidas)
 
     # Programados viejos (>MAX_EDAD_H) tampoco valen
     if est["programado_fecha"]:
