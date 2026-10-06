@@ -42,7 +42,7 @@ CANALES = {
 }
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAX_EDAD_H = float(os.environ.get("MAX_EDAD_HORAS", "12"))
-HEARTBEAT_MIN = float(os.environ.get("HEARTBEAT_MIN", "60"))
+HEARTBEAT_MIN = float(os.environ.get("HEARTBEAT_MIN", "10"))
 
 
 def _ruta(prov):
