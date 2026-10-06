@@ -12,8 +12,21 @@ import os, re, json, sys
 from datetime import datetime, timezone
 
 CANALES = {
-    "cienfuegos": "empresaelectricacienfuegos1",
+    "pinar-del-rio": "elecpinar",
+    "artemisa": "EEArtemisa",
+    "la-habana": "ceelh",
+    "mayabeque": "electricamayabeque",
     "matanzas": "EmpresaElectricaMatanzas",
+    "cienfuegos": "empresaelectricacienfuegos1",
+    "villa-clara": "electrico1895",
+    "sancti-spiritus": "informateessp",
+    "ciego-de-avila": "eecav",
+    "camaguey": "empresa_electrica",
+    "las-tunas": "eleclastunas",
+    "holguin": "elecholguin",
+    "granma": "UNE_EEG",
+    "santiago-de-cuba": "electricastgo",
+    "guantanamo": "elecguantanamo",
 }
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -58,23 +71,28 @@ def main():
             fecha_reporte = None
             total_leidos = 0
             muestras = []
-            for msg in client.iter_messages(canal, limit=30):
-                total_leidos += 1
-                if not msg.text:
-                    continue
-                if modo_muestras and prov == "matanzas" and len(muestras) < 8:
-                    muestras.append({
-                        "fecha": msg.date.astimezone(timezone.utc).isoformat(),
-                        "texto": msg.text[:1500],
-                    })
-                if not afectados and es_reporte_afectados(msg.text):
-                    if prov == "cienfuegos":
-                        circuitos = parsear_circuitos_cf(msg.text)
-                    else:
-                        circuitos = {}  # parser de Matanzas pendiente
-                    if circuitos:
-                        afectados = circuitos
-                        fecha_reporte = msg.date.astimezone(timezone.utc).isoformat()
+            error_canal = None
+            try:
+                for msg in client.iter_messages(canal, limit=30):
+                    total_leidos += 1
+                    if not msg.text:
+                        continue
+                    if modo_muestras and len(muestras) < 6:
+                        muestras.append({
+                            "fecha": msg.date.astimezone(timezone.utc).isoformat(),
+                            "texto": msg.text[:1200],
+                        })
+                    if not afectados and es_reporte_afectados(msg.text):
+                        if prov == "cienfuegos":
+                            circuitos = parsear_circuitos_cf(msg.text)
+                        else:
+                            circuitos = {}  # parser por provincia pendiente
+                        if circuitos:
+                            afectados = circuitos
+                            fecha_reporte = msg.date.astimezone(timezone.utc).isoformat()
+            except Exception as e:
+                error_canal = f"{type(e).__name__}: {str(e)[:100]}"
+                print(f"ERROR canal {prov} ({canal}): {error_canal}")
             resultado["provincias"][prov] = {
                 "fuente": f"https://t.me/{canal}",
                 "reporte_fecha": fecha_reporte,
@@ -82,10 +100,12 @@ def main():
                 "afectados": afectados,
                 "total_circuitos_afectados": len(afectados),
             }
+            if error_canal:
+                resultado["provincias"][prov]["error"] = error_canal
             if muestras:
-                with open(os.path.join(BASE, "data", "muestras_matanzas.json"), "w", encoding="utf-8") as f:
+                with open(os.path.join(BASE, "data", f"muestras_{prov}.json"), "w", encoding="utf-8") as f:
                     json.dump(muestras, f, ensure_ascii=False, indent=2)
-                print(f"Muestras Matanzas guardadas: {len(muestras)}")
+                print(f"Muestras {prov} guardadas: {len(muestras)}")
 
     # Compatibilidad: estado.json mantiene formato anterior para Cienfuegos
     cf = resultado["provincias"]["cienfuegos"]
