@@ -73,6 +73,7 @@
     <div class="stat orange"><b id="cProg">–</b><span>Programados</span></div>
     <div class="stat green"><b id="cOk">–</b><span>Con servicio</span></div>
   </div>
+  <div class="updated" id="mwLine" style="display:none">⚡ <b id="mwVal"></b> MW afectados</div>
   <div class="leyenda">
     <span><i style="background:#ef4444"></i>Sin servicio</span>
     <span><i style="background:#f59e0b"></i>Programado</span>
@@ -174,7 +175,14 @@ async function cargar(prov, mover=true){
     datosCache = {circ, est};
     renderizar();
     const f = est.actualizado ? new Date(est.actualizado).toLocaleString('es') : '—';
-    document.getElementById('upd').dataset.full = `Actualizado: ${f}`;
+    let extra = '';
+    if(est.hora_inicio) extra += ` | Desde: ${est.hora_inicio}`;
+    if(est.cierre) extra += ` | Cierre: ${est.cierre}`;
+    document.getElementById('upd').dataset.full = `Actualizado: ${f}${extra}`;
+    // MW afectados
+    const mwLine = document.getElementById('mwLine');
+    if(est.mw){ document.getElementById('mwVal').textContent = est.mw; mwLine.style.display = 'block'; }
+    else mwLine.style.display = 'none';
     actualizarTexto();
     if(mover){ moviendoPorCodigo=true; map.flyTo(p.centro, p.zoom, {duration:1}); setTimeout(()=>moviendoPorCodigo=false, 1100); }
   }catch(e){
@@ -214,8 +222,15 @@ function renderizar(){
     const aprox = c.aproximado ? '<br><i style="color:#f59e0b">📍 Ubicación aproximada</i>' : '';
     const zonas = esAfect ? afectados[id] : (esProg ? programados[id] : null);
     const detalle = (zonas && zonas.length) ? `<br><b>Zonas:</b> ${zonas.join(', ')}` : '';
+    let extraInfo = '';
+    if(esAfect){
+      const t = (est.tiempos||{})[id];
+      const causa = (est.causas||{})[id];
+      if(t) extraInfo += `<br>⏱️ <b>${t}</b> sin servicio`;
+      if(causa) extraInfo += `<br>🔧 Causa: ${causa}`;
+    }
     L.marker([c.lat, c.lng], {icon}).addTo(layerGroup)
-      .bindPopup(`${badge}<br><b>Circuito ${id}</b><br>${lugares}${c.municipio?`<br><i>${c.municipio}</i>`:''}${aprox}${detalle}`);
+      .bindPopup(`${badge}<br><b>Circuito ${id}</b><br>${lugares}${c.municipio?`<br><i>${c.municipio}</i>`:''}${aprox}${extraInfo}${detalle}`);
   }
   document.getElementById('cAfect').textContent = nAfect;
   document.getElementById('cProg').textContent = nProg;
