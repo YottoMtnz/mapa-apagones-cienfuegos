@@ -2,12 +2,28 @@
   "schema": 2,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-06T11:02:21+00:00",
+  "reporte_fecha": "2026-10-06T12:01:16+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-06T11:16:02+00:00",
   "mensajes_leidos": 50,
   "afectados": {
+    "C-25": [
+      "Abreus (Pueblo"
+    ],
+    "C-29": [
+      "Moncada",
+      "Constancia",
+      "Rosalía",
+      "Loma del Chivo",
+      "Simpatía",
+      "Charcas",
+      "Guasimal"
+    ],
+    "C-70": [
+      "Aguada",
+      "Federal"
+    ],
     "C-31": [
       "Horquita",
       "Vista Hermosa",
@@ -134,10 +150,6 @@
       "Guayabales",
       "Batey Diego. ( PSFV 0-24"
     ],
-    "C-70": [
-      "Aguada",
-      "Federal"
-    ],
     "C-49": [
       "Arriete",
       "Ciego Montero",
@@ -168,18 +180,6 @@
     "C-91": [
       "Buena Vista",
       "La Esperanza"
-    ],
-    "C-29": [
-      "Moncada",
-      "Constancia",
-      "Rosalía",
-      "Loma del Chivo",
-      "Simpatía",
-      "Charcas",
-      "Guasimal"
-    ],
-    "C-25": [
-      "Abreus (Pueblo"
     ],
     "C-85": [
       "Cumanayagua (Centro"
@@ -388,11 +388,11 @@
   },
   "total_circuitos_afectados": 69,
   "total_circuitos_programados": 1,
-  "mw": 50,
+  "mw": 70,
   "hora_inicio": null,
   "cierre": null,
   "tiempos": {},
   "causas": {},
   "error": null,
-  "actualizado": "2026-10-06T11:24:02.516249+00:00"
+  "actualizado": "2026-10-06T12:09:04.387169+00:00"
 }
