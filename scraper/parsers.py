@@ -42,18 +42,40 @@ def _add(circuitos, prov, nombre, lugares=None):
 # --------------------------------------------------------------------- Cienfuegos
 def parse_cienfuegos(texto):
     circuitos = {}
-    partes = re.split(r'\bC[-_ ]?(\d{1,4})\b', texto, flags=re.IGNORECASE)
-    for i in range(1, len(partes), 2):
-        num = partes[i]
-        lugares_txt = partes[i + 1] if i + 1 < len(partes) else ""
+    # Capturar tanto C-XX como S-XXXX (secciones)
+    partes = re.split(r'\b([CS])[-_ ]?(\d{1,4})\b', texto, flags=re.IGNORECASE)
+    # partes: [antes, tipo1, num1, texto1, tipo2, num2, texto2, ...]
+    for i in range(1, len(partes), 3):
+        tipo = partes[i].upper()
+        num = partes[i+1]
+        lugares_txt = partes[i+2] if i+2 < len(partes) else ""
         lugares_txt = lugares_txt.split("\n")[0]
+        # Extraer notas en paréntesis ANTES de limpiar
+        notas = re.findall(r'\(([^)]+)\)', lugares_txt)
+        # Filtrar códigos (FW1558, C-1770) vs servicios (Bombeo, Hoteles)
+        servicios = []
+        for n in notas:
+            n = n.strip()
+            # Es código si parece FW1234, C-1234, o similar
+            if re.match(r'^[A-Z]{1,3}[-_]?\d+$', n, re.I):
+                continue  # Es código, ignorar
+            # Es servicio si menciona infraestructura
+            if re.search(r'bombeo|hotel|hospital|agua|prefabricado|psfv', n, re.I):
+                servicios.append(n)
+        # Limpiar paréntesis del texto de lugares
+        lugares_txt = re.sub(r'\([^)]*\)', '', lugares_txt)
         lugares_txt = re.sub(r'^[^\wáéíóúñÁÉÍÓÚÑ]+', '', lugares_txt)
         lugares = [_limpiar(l) for l in lugares_txt.split(",")]
         lugares = [l for l in lugares if l and len(l) < 60 and not re.search(
             r'(afectaci|deficit|capacidad|generaci|MW|restablec|disculp|ofrecemos|se comunica)', l, re.I)]
         lugares = _lugares(lugares)
-        if lugares:
-            circuitos[f"C-{num}"] = lugares
+        if lugares or servicios:
+            cid = f"{tipo}-{num}"
+            circuitos[cid] = lugares
+            # Guardar servicios como metadata (se usa en extraer_info_extra)
+            if servicios:
+                # Añadir al final de lugares con marcador especial
+                circuitos[cid] = lugares + [f"[{s}]" for s in servicios]
     return circuitos
 
 
