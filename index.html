@@ -17,12 +17,13 @@
   .stat{flex:1;background:#141b2e;border-radius:10px;padding:8px;text-align:center}
   .stat b{font-size:20px;display:block}
   .stat span{font-size:11px;color:#9aa4b8}
-  .stat.red b{color:#f87171}.stat.green b{color:#4ade80}
+  .stat.red b{color:#f87171}.stat.green b{color:#4ade80}.stat.orange b{color:#fbbf24}
   .updated{font-size:11px;color:#6b7280}
   .credits{font-size:11px;color:#6b7280;margin-top:8px;line-height:1.5}
   .credits a{color:#5eead4;text-decoration:none}
   .dot{border-radius:50%;border:2px solid #fff3}
   .dot.red{background:#ef4444;animation:blink 1.2s infinite}
+  .dot.orange{background:#f59e0b;animation:blink 2s infinite}
   .dot.green{background:#22c55e}
   @keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.8)}}
   .leaflet-popup-content{font-size:13px;line-height:1.5}
@@ -38,6 +39,7 @@
   <select class="provsel" id="provSel"></select>
   <div class="stats">
     <div class="stat red"><b id="cAfect">–</b><span>Sin servicio</span></div>
+    <div class="stat orange"><b id="cProg">–</b><span>Programados</span></div>
     <div class="stat green"><b id="cOk">–</b><span>Con servicio</span></div>
   </div>
   <div class="updated" id="upd">Cargando…</div>
@@ -88,22 +90,27 @@ async function cargar(prov){
       fetch(`data/estado_${prov}.json`).then(r=>r.json()).catch(()=>({afectados:{}}))
     ]);
     const afectados = est.afectados || {};
-    let nAfect = 0, nOk = 0;
+    const programados = est.programados || {};
+    let nAfect = 0, nProg = 0, nOk = 0;
     const porMun = {};
     for(const [id, c] of Object.entries(circ)){
       const esAfect = !!afectados[id];
+      const esProg = !esAfect && !!programados[id];
       if(esAfect){ nAfect++; porMun[c.municipio]=(porMun[c.municipio]||0)+1; }
+      else if(esProg){ nProg++; }
       else nOk++;
-      const color = esAfect ? 'red' : 'green';
+      const color = esAfect ? 'red' : (esProg ? 'orange' : 'green');
       const icon = L.divIcon({className:'', html:`<div class="dot ${color}" style="width:18px;height:18px"></div>`, iconSize:[18,18]});
       const lugares = (c.lugares||[]).join(', ');
-      const estadoTxt = esAfect ? '🔴 <b>SIN SERVICIO</b>' : '🟢 <b>Con servicio</b>';
+      const estadoTxt = esAfect ? '🔴 <b>SIN SERVICIO</b>' : (esProg ? '🟠 <b>PROGRAMADO</b>' : '🟢 <b>Con servicio</b>');
       let detalleAfect = '';
-      if(esAfect && afectados[id] && afectados[id].length) detalleAfect = `<br>Zonas: ${afectados[id].join(', ')}`;
+      const zonas = esAfect ? afectados[id] : (esProg ? programados[id] : null);
+      if(zonas && zonas.length) detalleAfect = `<br>Zonas: ${zonas.join(', ')}`;
       L.marker([c.lat, c.lng], {icon}).addTo(layerGroup)
         .bindPopup(`${estadoTxt}<br><b>Circuito ${id}</b><br>${lugares}<br><i>${c.municipio||''}</i>${detalleAfect}`);
     }
     document.getElementById('cAfect').textContent = nAfect;
+    document.getElementById('cProg').textContent = nProg;
     document.getElementById('cOk').textContent = nOk;
     const f = est.actualizado ? new Date(est.actualizado).toLocaleString('es') : '—';
     let munTxt = Object.entries(porMun).map(([m,n])=>`${m}: ${n}`).join(' · ');
