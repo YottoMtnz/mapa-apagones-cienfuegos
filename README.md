@@ -1,23 +1,20 @@
-# ⚡ Mapa de Apagones — Cuba
+# Mapa de apagones · Cienfuegos
 
-Mapa interactivo en vivo de los apagones en Cuba, por provincias.
+Mapa de los estados reportados por el canal eléctrico de Cienfuegos, con lectura
+de texto, imágenes y PDF, procedencia por circuito y ubicaciones verificables.
 
-🗺️ **Ver el mapa:** https://yottomtnz.github.io/mapa-apagones-cienfuegos/
+**Empieza por [LEEME_PRIMERO.txt](LEEME_PRIMERO.txt).** Incluye los cambios, límites,
+la configuración de GitHub Actions y los pasos para sustituir la credencial
+que estaba expuesta en la versión anterior.
 
-## Cómo funciona
+- Rojo: corte reciente reportado. Naranja: programación vigente.
+- Verde: restablecimiento explícito reciente. Gris: sin confirmación suficiente.
+- Solo Cienfuegos. Los puntos representan localidades, no viviendas individuales.
+- El cron solicita actualización cada cinco minutos; su ejecución puede retrasarse.
 
-- 🔴 Puntos **rojos parpadeantes**: circuitos sin servicio eléctrico
-- 🟠 Puntos **naranjas parpadeantes**: apagones programados (lo que viene)
-- 🟢 Puntos **verdes**: circuitos con servicio
-- Toca un punto para ver el circuito, lugares y municipio
-- Usa el selector para cambiar de provincia
-- Usa las pestañas para filtrar: Todos / Sin servicio / Programados
-- Los datos se actualizan automáticamente cada 5 minutos
+Vista local: `ABRIR_MAPA.bat`. Pruebas: `PROBAR.bat`.
+Publicación: GitHub Pages, Source = GitHub Actions; workflow `mapa.yml`.
 
-## Provincias activas
-
-Artemisa, Camagüey, Ciego de Ávila, Cienfuegos, Granma, Holguín, Las Tunas, La Habana, Matanzas, Mayabeque, Sancti Spíritus, Santiago de Cuba, Villa Clara.
-
-## Créditos
-
-Desarrollado por [Fraudy Martinez Madruga (YottoMtnz)](https://github.com/YottoMtnz)
+Desarrollado por Fraudy Martinez Madruga (YottoMtnz).
+Cartografía © OpenStreetMap contributors, ODbL 1.0.
+Leaflet y MarkerCluster incluidos con sus licencias en `assets/`.
