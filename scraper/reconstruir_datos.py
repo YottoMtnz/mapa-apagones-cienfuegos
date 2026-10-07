@@ -93,7 +93,7 @@ def main():
 
     res = cat.Resolvedor(cache=cache)
     informe = {}
-    for prov in PROVINCIAS:
+    for prov in ["cienfuegos"]:
         circuitos = {}
         for cid, lugares in inv.get(prov, {}).items():
             circuitos[cid] = cat.construir_circuito(prov, cid, lugares, res.offline)
