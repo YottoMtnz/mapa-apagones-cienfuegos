@@ -305,7 +305,7 @@ function renderizar(){
   else if(est.estado_datos==='error') msg='Error al leer el canal oficial; se muestran los últimos datos conocidos.';
   else if(est.reporte_vencido) msg='El último reporte oficial es antiguo (más de 12 h). No se muestra como actual.';
   else if(!datosOk) msg='No hay información reciente suficiente para confirmar el servicio.';
-  else if(est.cobertura!=='provincial') msg='La información es por circuitos. La ausencia en una lista no confirma que haya electricidad.';
+  else if(est.cobertura!=='provincial') msg='Los reportes son por circuitos. Si tu zona no sale en la lista, no significa que tengas electricidad.';
   if(est.lectura?.no_leidos) msg+='';
   $('estadoPill').textContent=datosOk?'Avisos recientes disponibles':'Servicio pendiente de confirmar';
   $('reporteHora').textContent='Último aviso: '+fechaCuba(est.reporte_fecha)+' · hora de Cuba';
