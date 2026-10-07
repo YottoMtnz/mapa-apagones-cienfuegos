@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-07T21:23:31+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-07T20:54:33+00:00",
-  "mensajes_leidos": 109,
+  "programado_fecha": "2026-10-07T21:44:07+00:00",
+  "mensajes_leidos": 110,
   "afectados": {
     "C-90": [
       "FW1558) La Pollera"
@@ -278,6 +278,16 @@
       "Viet Nam",
       "Real Campiña",
       "Guanito"
+    ],
+    "C-19": [
+      "Tulipán"
+    ],
+    "C-66": [
+      "Reina (Parque"
+    ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
     ]
   },
   "confirmados_con_servicio": {
@@ -778,6 +788,33 @@
       "confianza": 75.0,
       "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
     },
+    "C-19": {
+      "fecha": "2026-10-07T21:44:07+00:00",
+      "mensaje_id": 59085,
+      "url": "https://t.me/empresaelectricacienfuegos1/59085",
+      "medio": "imagenes",
+      "editado": null,
+      "confianza": 75.0,
+      "texto": "👉C-19 Tulipán"
+    },
+    "C-66": {
+      "fecha": "2026-10-07T21:44:07+00:00",
+      "mensaje_id": 59085,
+      "url": "https://t.me/empresaelectricacienfuegos1/59085",
+      "medio": "imagenes",
+      "editado": null,
+      "confianza": 75.0,
+      "texto": "👉C-19 Tulipán"
+    },
+    "C-80": {
+      "fecha": "2026-10-07T21:44:07+00:00",
+      "mensaje_id": 59085,
+      "url": "https://t.me/empresaelectricacienfuegos1/59085",
+      "medio": "imagenes",
+      "editado": null,
+      "confianza": 75.0,
+      "texto": "👉C-19 Tulipán"
+    },
     "C-31": {
       "fecha": "2026-10-07T20:13:37+00:00",
       "mensaje_id": 59078,
@@ -868,6 +905,21 @@
       "inicio": null,
       "fin": "2026-10-08T08:54:33+00:00",
       "fecha_ambigua": false
+    },
+    "C-19": {
+      "inicio": null,
+      "fin": "2026-10-08T09:44:07+00:00",
+      "fecha_ambigua": false
+    },
+    "C-66": {
+      "inicio": null,
+      "fin": "2026-10-08T09:44:07+00:00",
+      "fecha_ambigua": false
+    },
+    "C-80": {
+      "inicio": null,
+      "fin": "2026-10-08T09:44:07+00:00",
+      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
@@ -926,13 +978,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n60 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
-      "id": 59032,
-      "url": "https://t.me/empresaelectricacienfuegos1/59032",
-      "fecha": "2026-10-06T14:05:42+00:00"
-    },
     {
       "motivo": "resumen_historico",
       "texto": "👉C-65 Centro histórico, Reina (Aduana)",
@@ -1234,17 +1279,24 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59083",
       "fecha": "2026-10-07T21:20:46+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "👉C-65 Casco histórico, Reina (Aduana)",
+      "id": 59085,
+      "url": "https://t.me/empresaelectricacienfuegos1/59085",
+      "fecha": "2026-10-07T21:44:07+00:00"
     }
   ],
   "lectura": {
     "texto": 56,
-    "imagenes": 53,
+    "imagenes": 54,
     "pdf": 0,
     "no_leidos": 8
   },
   "lectura_incompleta_desde": "2026-10-07T21:20:46+00:00",
   "total_circuitos_afectados": 47,
-  "total_circuitos_programados": 16,
+  "total_circuitos_programados": 19,
   "circuitos_sin_catalogar": [
     "C-1770",
     "C-18",
@@ -1261,5 +1313,5 @@
     "S-4893",
     "S-9092"
   ],
-  "actualizado": "2026-10-07T21:32:06.815097+00:00"
+  "actualizado": "2026-10-07T21:49:30.277737+00:00"
 }
