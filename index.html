@@ -233,7 +233,38 @@ function provinciaCercana(lat,lng,soloActivas){
 
 // Alcance fijo: Cienfuegos. No se cambia de provincia por arrastrar el mapa.
 let busqueda='';
-$('buscar').addEventListener('input',e=>{busqueda=e.target.value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();renderizar();});
+let buscarTimer=null;
+$('buscar').addEventListener('input',e=>{
+  busqueda=e.target.value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  renderizar();
+  // Mover el mapa en tiempo real al mejor resultado
+  clearTimeout(buscarTimer);
+  if(busqueda.length<2) return;
+  buscarTimer=setTimeout(()=>{
+    const {circ={}}=datosCache;
+    let mejor=null, mejorScore=1e9;
+    for(const id of Object.keys(circ)){
+      const c=circ[id];
+      const nombres=[id,...(c.lugares||[])];
+      for(const n of nombres){
+        const nn=n.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+        const idx=nn.indexOf(busqueda);
+        if(idx>=0){
+          // Prefijo exacto vale más que coincidencia interior
+          const score=idx*10+(nn.length-n.length);
+          if(score<mejorScore){
+            // Buscar primer punto válido de este circuito
+            const pt=(c.puntos||[]).find(p=>Number.isFinite(p.lat)&&Number.isFinite(p.lng));
+            if(pt){ mejorScore=score; mejor={lat:pt.lat,lng:pt.lng}; }
+          }
+          break;
+        }
+      }
+      if(mejorScore===0) break;
+    }
+    if(mejor) map.flyTo([mejor.lat,mejor.lng], Math.max(map.getZoom(),13), {duration:0.6});
+  },250);
+});
 $('plegar').addEventListener('click',()=>{const hidden=$('contenidoPanel').hidden=!$('contenidoPanel').hidden;$('plegar').textContent=hidden?'+':'−';$('plegar').setAttribute('aria-expanded',String(!hidden));$('panelPrincipal').classList.toggle('plegado',hidden);});
 function avisoBreve(texto){$('mapToast').textContent=texto;$('mapToast').style.display='block';clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>$('mapToast').style.display='none',5000);}
 function fechaCuba(value){return value?new Date(value).toLocaleString('es-CU',{timeZone:'America/Havana',dateStyle:'short',timeStyle:'short'}):'—';}
