@@ -2,11 +2,11 @@
   "schema": 3,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-07T22:20:43+00:00",
+  "reporte_fecha": "2026-10-07T22:47:07+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-07T21:44:07+00:00",
-  "mensajes_leidos": 112,
+  "mensajes_leidos": 113,
   "afectados": {
     "C-30": [
       "14 de Julio",
@@ -62,19 +62,9 @@
       "Santiago de Cartagena",
       "Lequeito"
     ],
-    "C-58": [],
     "C-2": [],
     "C-3": [
       "Reparto Eléctrico"
-    ],
-    "C-27": [
-      "Barrio Matadero",
-      "Juraguá"
-    ],
-    "C-28": [
-      "CEN",
-      "Castillo de Jagua",
-      "La Loma"
     ],
     "C-18": [],
     "C-20": [],
@@ -198,6 +188,18 @@
       "Viet Nam",
       "Real Campiña",
       "Guanito"
+    ],
+    "C-36": [
+      "Cumanayagua (Sur",
+      "La Guasasa",
+      "Ceibabo",
+      "La Furnia",
+      "Monasterio",
+      "El Concuní"
+    ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
     ]
   },
   "programados": {
@@ -327,13 +329,13 @@
       "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
     },
     "C-407": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     },
     "S-9092": {
       "fecha": "2026-10-07T13:09:13+00:00",
@@ -372,13 +374,13 @@
       "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
     },
     "C-84": {
-      "fecha": "2026-10-07T13:09:13+00:00",
-      "mensaje_id": 59063,
-      "url": "https://t.me/empresaelectricacienfuegos1/59063",
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     },
     "C-92": {
       "fecha": "2026-10-07T13:09:13+00:00",
@@ -417,346 +419,328 @@
       "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
     },
     "C-101": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-23": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-102": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-103": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-58": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-2": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-3": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-27": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-28": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-18": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-20": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-55": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-21": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-50": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-32": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-59": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-8": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-7": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-41": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-57": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-43": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-5": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-406": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-25": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-53": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-54": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-11": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-78": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-29": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-49": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-72": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-85": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-86": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-73": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-22": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-19": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-42": {
-      "fecha": "2026-10-07T22:20:43+00:00",
-      "mensaje_id": 59089,
-      "url": "https://t.me/empresaelectricacienfuegos1/59089",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-36": {
-      "fecha": "2026-10-07T20:49:11+00:00",
-      "mensaje_id": 59080,
-      "url": "https://t.me/empresaelectricacienfuegos1/59080",
+      "fecha": "2026-10-07T16:31:01+00:00",
+      "mensaje_id": 59067,
+      "url": "https://t.me/empresaelectricacienfuegos1/59067",
       "medio": "imagenes",
       "editado": null,
-      "confianza": 75.0,
-      "texto": "👉C-22 Rodas"
+      "confianza": 100,
+      "texto": "👉C-101 Cartagena, La Modelo, Sta Rosa, La Piragua, El Bajío, California, El Salado."
+    },
+    "C-23": {
+      "fecha": "2026-10-07T16:31:01+00:00",
+      "mensaje_id": 59067,
+      "url": "https://t.me/empresaelectricacienfuegos1/59067",
+      "medio": "imagenes",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-101 Cartagena, La Modelo, Sta Rosa, La Piragua, El Bajío, California, El Salado."
+    },
+    "C-102": {
+      "fecha": "2026-10-07T19:33:52+00:00",
+      "mensaje_id": 59076,
+      "url": "https://t.me/empresaelectricacienfuegos1/59076",
+      "medio": "imagenes",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-102 La Ciruela"
+    },
+    "C-103": {
+      "fecha": "2026-10-07T19:33:52+00:00",
+      "mensaje_id": 59076,
+      "url": "https://t.me/empresaelectricacienfuegos1/59076",
+      "medio": "imagenes",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-102 La Ciruela"
+    },
+    "C-2": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-3": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-18": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-20": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-55": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-21": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-50": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-32": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-59": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-8": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-7": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-41": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-57": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-43": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-5": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-406": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-25": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-53": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-54": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-11": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-78": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-29": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-49": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-72": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-85": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-86": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-73": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-22": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-19": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-42": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-36": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-80": {
+      "fecha": "2026-10-07T22:47:07+00:00",
+      "mensaje_id": 59090,
+      "url": "https://t.me/empresaelectricacienfuegos1/59090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     },
     "C-24": {
       "fecha": "2026-10-07T20:54:33+00:00",
@@ -768,15 +752,6 @@
       "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
     },
     "C-66": {
-      "fecha": "2026-10-07T21:44:07+00:00",
-      "mensaje_id": 59085,
-      "url": "https://t.me/empresaelectricacienfuegos1/59085",
-      "medio": "imagenes",
-      "editado": null,
-      "confianza": 75.0,
-      "texto": "👉C-19 Tulipán"
-    },
-    "C-80": {
       "fecha": "2026-10-07T21:44:07+00:00",
       "mensaje_id": 59085,
       "url": "https://t.me/empresaelectricacienfuegos1/59085",
@@ -893,7 +868,7 @@
     }
   },
   "cobertura": "parcial",
-  "mw": 60,
+  "mw": 64,
   "hora_inicio": null,
   "cierre": null,
   "tiempos": {},
@@ -905,20 +880,17 @@
     "C-1770": "avería",
     "S-4893": "avería",
     "C-48": "avería",
-    "C-84": "avería",
+    "C-84": "avería / déficit",
     "C-92": "avería",
     "C-401": "avería",
     "C-405": "avería",
     "C-52": "avería",
-    "C-101": "avería / déficit",
-    "C-23": "avería / déficit",
-    "C-102": "avería / déficit",
-    "C-103": "avería / déficit",
-    "C-58": "déficit",
+    "C-101": "avería",
+    "C-23": "avería",
+    "C-102": "avería",
+    "C-103": "avería",
     "C-2": "déficit",
     "C-3": "déficit",
-    "C-27": "déficit",
-    "C-28": "déficit",
     "C-18": "déficit",
     "C-20": "déficit",
     "C-55": "déficit",
@@ -946,7 +918,9 @@
     "C-73": "déficit",
     "C-22": "déficit",
     "C-19": "déficit",
-    "C-42": "déficit"
+    "C-42": "déficit",
+    "C-36": "déficit",
+    "C-80": "déficit"
   },
   "error": null,
   "pendientes_revision": [
@@ -1260,13 +1234,13 @@
     }
   ],
   "lectura": {
-    "texto": 57,
+    "texto": 58,
     "imagenes": 55,
     "pdf": 0,
     "no_leidos": 9
   },
   "lectura_incompleta_desde": "2026-10-07T21:52:02+00:00",
-  "total_circuitos_afectados": 49,
+  "total_circuitos_afectados": 48,
   "total_circuitos_programados": 19,
   "circuitos_sin_catalogar": [
     "C-1770",
@@ -1277,11 +1251,10 @@
     "C-407",
     "C-43",
     "C-48",
-    "C-58",
     "C-59",
     "C-92",
     "S-4893",
     "S-9092"
   ],
-  "actualizado": "2026-10-07T22:34:59.595134+00:00"
+  "actualizado": "2026-10-07T22:49:17.556379+00:00"
 }
