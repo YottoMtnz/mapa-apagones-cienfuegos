@@ -6,10 +6,12 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<title>Mapa de Apagones — Cuba</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<title>Cienfuegos · Mapa de apagones</title>
+<meta name="theme-color" content="#0b1418">
+<meta name="description" content="Estado reportado de los circuitos eléctricos de Cienfuegos, con fuentes y horarios.">
+<link rel="stylesheet" href="assets/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="assets/MarkerCluster.css">
+<link rel="stylesheet" href="assets/MarkerCluster.Default.css">
 <style>
   *{margin:0;padding:0;box-sizing:border-box}
   :root{--bg:#0b0f1a;--panel:rgba(13,18,32,.94);--borde:#2dd4bf2e;--teal:#5eead4;--rojo:#f87171;--naranja:#fbbf24;--verde:#4ade80;--gris:#9aa4b8;--gris2:#6b7280}
@@ -62,25 +64,61 @@
   #btnUbic{position:fixed;top:12px;right:12px;z-index:1001;width:44px;height:44px;border-radius:12px;border:1px solid #2dd4bf;background:#0f172a;color:#5eead4;font-size:22px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.5)}
   #btnRefresh{position:fixed;top:12px;right:64px;z-index:1001;width:44px;height:44px;border-radius:12px;border:1px solid #2dd4bf;background:#0f172a;color:#5eead4;font-size:22px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.5)}
   @media(max-width:600px){.panel{max-width:calc(100vw - 24px);padding:12px}.panel h1{font-size:16px}.stat b{font-size:18px}}
+
+  :root{--bg:#0b1418;--panel:#101e24f5;--borde:#ffffff16;--teal:#8de4d0;--gris:#a8b7bd;--gris2:#9daeb5}
+  body{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+  .leaflet-tile-pane{filter:saturate(.65) brightness(.82)}
+  .panel{top:24px;left:24px;width:358px;max-width:358px;max-height:calc(100dvh - 48px);border-radius:22px;padding:22px;box-shadow:0 20px 70px #0006}
+  .brand{display:flex;align-items:center;gap:9px;font-size:9px;letter-spacing:1.7px;color:#afc5c9;margin-bottom:22px;font-weight:700}
+  .brand-icon{display:grid;place-items:center;background:#9cebd6;color:#0c2625;border-radius:9px;width:30px;height:30px;font-size:26px;line-height:1}
+  .region-tag{margin-left:auto;border:1px solid #ffffff24;padding:4px 6px;border-radius:5px;font-size:9px}
+  .panel h1{font-size:38px;letter-spacing:-1.8px;color:#f1f7f8;font-weight:650;margin-bottom:6px}.title-dot{color:#87e4c8}
+  .panel .sub{font-size:12px;margin-bottom:18px;color:#b2c0c6}
+  .statusline{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+  #estadoPill{font-size:10px;color:#a4e6d3;padding:6px 10px;background:#7ce1c410;border:1px solid #7ce1c430;border-radius:20px}
+  #plegar{background:transparent;color:#c4d9dc;border:1px solid #ffffff30;width:30px;height:28px;border-radius:8px;cursor:pointer;font-size:20px}
+  .searchbox{display:flex;align-items:center;gap:10px;border:1px solid #ffffff20;background:#ffffff06;border-radius:11px;padding:0 12px;margin-bottom:14px}.searchbox span{font-size:24px;color:#a4babd}
+  .searchbox input{width:100%;padding:12px 0;background:transparent;color:#edf9fa;border:0;outline:0;font-size:12px}.searchbox:focus-within{border-color:#8de4d0}
+  .tabs{padding:4px;background:#071216a0;border-radius:11px;gap:3px;margin-bottom:20px}.tab{border:0;padding:9px 4px;background:transparent;color:#b8c4c9;font-size:11px}
+  .tab.activo{box-shadow:0 2px 8px #0002}.section-label{display:flex;justify-content:space-between;letter-spacing:1.5px;font-size:9px;color:#a6b9bd;margin-bottom:10px}
+  .stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px}.stat{text-align:left;padding:14px;background:#ffffff04;border:1px solid #ffffff0f;transition:background .2s}.stat:hover{background:#ffffff0a}.stat b{font-size:29px;font-weight:600;margin-bottom:5px}.stat span{font-size:9px;letter-spacing:1px}
+  .leyenda{padding-top:12px;border-top:1px solid #ffffff10;font-size:10px;gap:8px 12px}.leyenda i{width:7px;height:7px}
+  .aviso{font-size:11px;padding:11px 12px;background:#4237215c;color:#f1d7a1;border-color:#d3ab5929}
+  .data-foot{padding:10px 0}.updated{font-size:10px;line-height:1.8}.map-note{font-size:10px;color:#9eb0b6;line-height:1.6;padding-top:8px}
+  .credits{font-size:10px;margin-top:14px}.leaflet-popup-content-wrapper{border-radius:15px;background:#12252b;color:#e5f1f3;box-shadow:0 14px 35px #0004}.leaflet-popup-tip{background:#12252b}.leaflet-popup-content{margin:17px;font-size:12px;max-width:270px}.leaflet-popup-content a{color:#9cebd6}
+  #btnUbic,#btnRefresh{top:24px;background:#102329;color:#a2edd9;border:1px solid #ffffff30;border-radius:13px;box-shadow:0 7px 20px #0003}#btnUbic{right:24px}#btnRefresh{right:78px}
+  #mapLabel{position:fixed;top:28px;left:410px;z-index:800;background:#102329ec;border:1px solid #ffffff20;border-radius:11px;padding:13px 17px;font-size:11px;font-weight:700;letter-spacing:2px;box-shadow:0 8px 24px #0002}#mapLabel span{display:block;margin-top:5px;font-size:8px;color:#a8bfc4;letter-spacing:1.5px;font-weight:400}
+  #mapToast{display:none;position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#102329;color:#e5f2ee;border:1px solid #83d9c0;padding:12px 18px;border-radius:12px;z-index:2000;max-width:90vw;font-size:12px}
+  .dot{border:2px solid #fff;box-shadow:0 0 0 4px #12252b44,0 2px 6px #0005}.dot.gray{opacity:.9;background:#84969f}.dot.dudoso{border-color:#fde68a}
+  #revision li{display:block;font-size:10px;padding:7px 0}#revision a{color:#9cebd6}.pbtn{padding:8px;font-size:11px;background:#203c42;border:1px solid #7baba750}
+  button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #9debd6;outline-offset:3px}
+  @media(prefers-reduced-motion:reduce){.parpadeo .dot{animation:none!important}*{scroll-behavior:auto!important}}
+  @media(max-width:700px){.panel{top:auto;bottom:12px;left:12px;width:calc(100vw - 24px);max-width:none;max-height:52dvh;padding:15px 17px;border-radius:20px}.brand{display:none}.panel h1{font-size:25px;letter-spacing:-.9px;margin-bottom:3px}.panel .sub{font-size:10px;margin-bottom:9px}.statusline{margin-bottom:10px}.searchbox{margin-bottom:10px}.tabs{margin-bottom:12px}.stats{grid-template-columns:repeat(4,1fr);gap:5px}.stat{padding:10px 5px;text-align:center}.stat b{font-size:23px}.stat span{font-size:7px;letter-spacing:0}.section-label{margin-bottom:7px}.credits{font-size:9px;margin-top:8px;padding-top:8px}#mapLabel{left:12px;top:12px;padding:10px 12px;font-size:9px}#btnUbic,#btnRefresh{top:12px}#btnUbic{right:12px}#btnRefresh{right:64px}.leaflet-bottom.leaflet-right{bottom:54dvh}#tourBar{bottom:auto;top:72px;gap:6px;padding:6px 8px}#tourInfo{font-size:11px}#mapToast{bottom:54dvh}.panel.plegado{max-height:none}.panel.plegado .credits{display:none}.panel.plegado .sub{display:none}}
+
 </style>
 </head>
 <body>
 <div id="map"></div>
-<div class="panel">
-  <h1>⚡ Mapa de Apagones</h1>
-  <div class="sub">Cienfuegos — monitoreo en vivo</div>
+<div class="panel" id="panelPrincipal">
+  <div class="brand"><span class="brand-icon">ϟ</span><span>OBSERVATORIO ELÉCTRICO</span><span class="region-tag">CFG</span></div>
+  <h1>Cienfuegos<span class="title-dot">.</span></h1>
+  <div class="sub">Tu provincia, con información más clara.</div>
+  <div class="statusline"><span id="estadoPill">Consultando avisos</span><button id="plegar" aria-expanded="true" aria-label="Ocultar o mostrar detalles">−</button></div>
+  <div id="contenidoPanel">
+  <label class="searchbox"><span>⌕</span><input id="buscar" type="search" placeholder="Buscar localidad o circuito" aria-label="Buscar localidad o circuito"></label>
   <select class="provsel" id="provSel" style="display:none"></select>
   <div class="tabs">
-    <div class="tab activo" data-tab="todos">Todos</div>
-    <div class="tab" data-tab="ahora">Sin servicio</div>
-    <div class="tab" data-tab="programados">Programados</div>
+    <button class="tab activo" data-tab="todos">Todos</button>
+    <button class="tab" data-tab="ahora">Sin servicio</button>
+    <button class="tab" data-tab="programados">Programados</button>
   </div>
   <div class="aviso" id="aviso"></div>
+  <div class="section-label">CIRCUITOS REPORTADOS <span id="totalCatalogo"></span></div>
   <div class="stats">
-    <div class="stat red"><b id="cAfect">–</b><span>Sin servicio</span></div>
-    <div class="stat orange"><b id="cProg">–</b><span>Programados</span></div>
-    <div class="stat green"><b id="cOk">–</b><span>Con servicio</span></div>
-    <div class="stat gray"><b id="cDesc">–</b><span>Sin datos</span></div>
+    <button class="stat red" title="Recorrer circuitos sin servicio"><b id="cAfect">–</b><span>Sin servicio</span></button>
+    <button class="stat orange" title="Recorrer programados"><b id="cProg">–</b><span>Programados</span></button>
+    <button class="stat green" title="Recorrer restablecidos"><b id="cOk">–</b><span>Restablecidos</span></button>
+    <button class="stat gray" title="Recorrer sin confirmar"><b id="cDesc">–</b><span>Sin confirmar</span></button>
   </div>
   <div class="updated" id="mwLine" style="display:none">⚡ <b id="mwVal"></b> MW afectados</div>
   <div class="leyenda">
@@ -93,9 +131,14 @@
     <summary id="sinubTitulo"></summary>
     <ul id="sinubLista"></ul>
   </details>
-  <div class="updated" id="upd">Cargando…</div>
+  <div class="data-foot"><div class="updated" id="upd">Cargando…</div><div class="updated" id="reporteHora"></div></div>
+  <details class="sinub" id="revision" style="display:none"><summary id="revisionTitulo"></summary><ul id="revisionLista"></ul></details>
+  <div class="map-note">Los puntos representan localidades del circuito, no cada vivienda. Gris significa que el servicio no está confirmado.</div>
+  </div>
   <div class="credits">Desarrollado por <a href="https://github.com/YottoMtnz" target="_blank" rel="noopener">Fraudy Martinez Madruga</a></div>
 </div>
+<div id="mapLabel">CIENFUEGOS <span>ESTADO REPORTADO</span></div>
+<div id="mapToast" role="status" aria-live="polite"></div>
 <button id="btnUbic" title="Mi ubicación" aria-label="Mi ubicación">◎</button>
 <button id="btnRefresh" title="Actualizar" aria-label="Actualizar">↻</button>
 <div id="tourBar">
@@ -105,8 +148,9 @@
   <button id="tourSalir" class="salir" title="Salir">✕</button>
 </div>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="assets/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="assets/leaflet.markercluster.js"></script>
+<script src="config.js"></script>
 <script>
 const REPO_URL = "https://github.com/YottoMtnz/mapa-apagones-cienfuegos";
 const PROVINCIAS = {
@@ -120,6 +164,7 @@ let tour = {activo:false, lista:[], idx:0, categoria:''};
 const TOUR_COLOR = {afect:'red', prog:'orange', ok:'green', desc:'gray'};
 function iniciarTour(cat){
   // Recolectar marcadores de esa categoría
+  filtroActual='todos';document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('activo',x.dataset.tab==='todos'));renderizar();
   const lista = [];
   for(const ck in marcadores){
     const mk = marcadores[ck];
@@ -135,7 +180,7 @@ function mostrarTour(){
   if(!mk) return;
   const {lat, lng} = mk._m;
   map.setView([lat, lng], 13, {animate:true});
-  setTimeout(()=>mk.openPopup(), 400);
+  layerGroup.zoomToShowLayer(mk,()=>mk.openPopup());
   const nombres = {afect:'sin servicio', prog:'programados', ok:'con servicio', desc:'sin datos'};
   $('tourInfo').textContent = `${tour.idx+1} de ${tour.lista.length} ${nombres[tour.categoria]||''}`;
 }
@@ -146,11 +191,19 @@ function tourSalir(){ tour.activo = false; const b=$('tourBar'); if(b) b.style.d
 // Escapa HTML: TODO texto que venga de datos/Telegram pasa por aquí antes de ir a innerHTML.
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
-const map = L.map('map',{zoomControl:false}).setView([21.5,-79.0], 6);
+const LIMITES_CFG=[[21.75,-80.95],[22.55,-79.95]];
+const map = L.map('map',{zoomControl:false,minZoom:9,maxBounds:LIMITES_CFG,maxBoundsViscosity:1}).setView([22.15,-80.45], 10);
 L.control.zoom({position:'bottomright'}).addTo(map);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap', maxZoom:19}).addTo(map);
 const layerGroup = L.markerClusterGroup({maxClusterRadius:40, spiderfyOnMaxZoom:true}).addTo(map);
 
+let limiteReal=null;
+function dentroProvincia(lat,lng){
+ if(!limiteReal)return lat>=21.75&&lat<=22.55&&lng>=-80.95&&lng<=-79.95;
+ const ring=(r)=>{let c=false;for(let i=0,j=r.length-1;i<r.length;j=i++){const a=r[i],b=r[j];if((a[1]>lat)!==(b[1]>lat)&&lng<(b[0]-a[0])*(lat-a[1])/(b[1]-a[1])+a[0])c=!c;}return c;};
+ const ps=limiteReal.type==='MultiPolygon'?limiteReal.coordinates:[limiteReal.coordinates];return ps.some(p=>ring(p[0])&&!p.slice(1).some(ring));
+}
+fetch('data/limite_cienfuegos.geojson').then(r=>{if(!r.ok)throw Error();return r.json();}).then(g=>{limiteReal=g.geometry;L.geoJSON(g,{interactive:false,style:{color:'#227c72',weight:2,fillOpacity:.025,dashArray:'6 5'}}).addTo(map);if(datosCache.circ)renderizar();}).catch(()=>avisoBreve('No se pudo cargar el límite provincial.'));
 let filtroActual='todos', provActual='cienfuegos', datosCache={}, marcadores={}, reqId=0, moviendo=false;
 const $ = id => document.getElementById(id);
 const sel = $('provSel');
@@ -178,23 +231,19 @@ function provinciaCercana(lat,lng,soloActivas){
   return {id:mejor,d:md};
 }
 
-// Cambiar de provincia al mover el mapa (con debounce y solo provincias activas)
-let tMove=null;
-map.on('moveend',()=>{
-  if(moviendo) return;
-  clearTimeout(tMove);
-  tMove=setTimeout(()=>{
-    const c=map.getCenter(), {id,d}=provinciaCercana(c.lat,c.lng,true);
-    if(id && id!==sel.value && d<120){sel.value=id; cargar(id,false);}
-  },900);
-});
-
+// Alcance fijo: Cienfuegos. No se cambia de provincia por arrastrar el mapa.
+let busqueda='';
+$('buscar').addEventListener('input',e=>{busqueda=e.target.value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();renderizar();});
+$('plegar').addEventListener('click',()=>{const hidden=$('contenidoPanel').hidden=!$('contenidoPanel').hidden;$('plegar').textContent=hidden?'+':'−';$('plegar').setAttribute('aria-expanded',String(!hidden));$('panelPrincipal').classList.toggle('plegado',hidden);});
+function avisoBreve(texto){$('mapToast').textContent=texto;$('mapToast').style.display='block';clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>$('mapToast').style.display='none',5000);}
+function fechaCuba(value){return value?new Date(value).toLocaleString('es-CU',{timeZone:'America/Havana',dateStyle:'short',timeStyle:'short'}):'—';}
+function enlaceFuente(url){return typeof url==='string'&&/^https:\/\/t\.me\/empresaelectricacienfuegos1\/\d+$/.test(url)?url:null;}
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
   document.querySelectorAll('.tab').forEach(x=>x.classList.remove('activo'));
   t.classList.add('activo'); filtroActual=t.dataset.tab; renderizar();
 }));
 
-async function getJSON(url){ const r=await fetch(url+'?v='+Date.now(),{cache:'no-store',headers:{'Cache-Control':'no-cache','Pragma':'no-cache'}}); if(!r.ok) throw new Error(r.status); return r.json(); }
+async function getJSON(url){const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),15000);try{const r=await fetch(url+'?v='+Date.now(),{cache:'no-store',signal:ctrl.signal});if(!r.ok)throw new Error(r.status);return await r.json();}finally{clearTimeout(timer);}}
 
 async function cargar(prov,mover=true){
   const mi=++reqId;                 // descarta respuestas viejas si el usuario cambió de provincia
@@ -212,39 +261,58 @@ async function cargar(prov,mover=true){
     renderizar();
   }catch(e){
     if(mi!==reqId) return;
-    datosCache={}; layerGroup.clearLayers();
-    ['cAfect','cProg','cOk','cDesc'].forEach(i=>$(i).textContent='–');
-    $('upd').textContent='Datos de '+p.nombre+' próximamente.';
+    if(datosCache.circ){datosCache.est={...datosCache.est,estado_datos:'error'};renderizar();}else{layerGroup.clearLayers();['cAfect','cProg','cOk','cDesc'].forEach(i=>$(i).textContent='–');}
+    $('upd').textContent='No se pudieron actualizar los datos. Reintenta con ↻.';
+    $('estadoPill').textContent='Conexión interrumpida';
   }
   if(mover) volar(p.centro,10);
 }
 
 function estadoDe(id,est,datosOk){
-  if(est.afectados && est.afectados[id]) return 'afect';
-  if(est.programados && est.programados[id]) return 'prog';
-  return datosOk ? 'ok' : 'desc';
+  const prueba=(est.evidencias||{})[id]||(est.confirmados_con_servicio||{})[id];
+  const fecha=prueba?.fecha||est.reporte_fecha;
+  const sinBloqueo=!(est.lectura_incompleta_desde&&Date.parse(est.lectura_incompleta_desde)>Date.parse(fecha));
+  const reciente=sinBloqueo&&fecha&&Date.now()-Date.parse(fecha)<12*36e5&&Date.parse(fecha)<=Date.now()+5*60000;
+  if(datosOk&&reciente&&Object.hasOwn(est.afectados||{},id)) return 'afect';
+  const plan=(est.horarios||{})[id];
+  const fin=plan?.fin?Date.parse(plan.fin):Date.parse(est.programado_fecha)+12*36e5;
+  if(est.estado_datos!=='error'&&Object.hasOwn(est.programados||{},id)&&fin>Date.now()) return 'prog';
+  if(datosOk&&reciente&&Object.hasOwn(est.confirmados_con_servicio||{},id)) return 'ok';
+  return 'desc';
 }
+
 const COLOR={afect:'red',prog:'orange',ok:'green',desc:'gray'};
 const BADGE={afect:'<span class="badge red">SIN SERVICIO</span>',prog:'<span class="badge orange">PROGRAMADO</span>',
-             ok:'<span class="badge green">CON SERVICIO</span>',desc:'<span class="badge gray">SIN DATOS</span>'};
+             ok:'<span class="badge green">CON SERVICIO</span>',desc:'<span class="badge gray">SIN CONFIRMAR</span>'};
 
 function leerCorreccion(ck){ try{const s=localStorage.getItem(ck); return s?JSON.parse(s):null}catch(e){return null} }
 function guardarCorreccion(ck,v){ try{localStorage.setItem(ck,JSON.stringify(v));return true}catch(e){return false} }
 
 function renderizar(){
+  if(tour.activo)tourSalir();
   layerGroup.clearLayers(); marcadores={};
   const {circ={},est={}}=datosCache;
-  const ids=Object.keys(circ);
+  const ids=[...new Set([...Object.keys(circ),...Object.keys(est.afectados||{}),...Object.keys(est.programados||{})])];
+  $('totalCatalogo').textContent=ids.length+' circuitos';
   const f=est.actualizado?new Date(est.actualizado):null;
 
   // Avisos de fiabilidad de datos (nunca pintar verde sin respaldo)
   const av=$('aviso'); av.style.display='none'; av.classList.remove('rojo');
-  const datosOk = est.estado_datos==='ok';
+  const monitorReciente=f&&Date.now()-f.getTime()<MAX_MONITOR_ATRASADO_H*36e5;
+  const datosOk = est.estado_datos==='ok'&&monitorReciente;
   let msg='';
   if(est.estado_datos==='sin_fuente') msg='Esta provincia no publica listas de circuitos afectados: no se puede saber si hay servicio.';
   else if(est.estado_datos==='error') msg='Error al leer el canal oficial; se muestran los últimos datos conocidos.';
   else if(est.reporte_vencido) msg='El último reporte oficial es antiguo (más de 12 h). No se muestra como actual.';
-  else if(!datosOk) msg='Sin reporte oficial reciente (24 h): no se puede confirmar el servicio.';
+  else if(!datosOk) msg='No hay información reciente suficiente para confirmar el servicio.';
+  else if(est.cobertura!=='provincial') msg='El canal informa por circuitos. La ausencia en una lista no confirma que haya electricidad.';
+  if(est.lectura?.no_leidos) msg+=' Hay publicaciones pendientes de lectura; consulta los avisos por revisar.';
+  $('estadoPill').textContent=datosOk?'Avisos recientes disponibles':'Servicio pendiente de confirmar';
+  $('reporteHora').textContent='Último aviso: '+fechaCuba(est.reporte_fecha)+' · hora de Cuba';
+  const pendientes=est.pendientes_revision||[];
+  $('revision').style.display=pendientes.length?'block':'none';$('revisionTitulo').textContent=pendientes.length+' avisos por revisar';
+  $('revisionLista').replaceChildren();
+  for(const q of pendientes.slice(-8).reverse()){const li=document.createElement('li');li.textContent=(q.texto||'Publicación con contenido no interpretado').slice(0,130)+' ';const url=enlaceFuente(q.url);if(url){const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener';a.textContent='Ver publicación ↗';li.appendChild(a);}$('revisionLista').appendChild(li);}
   if(f && (Date.now()-f.getTime())/36e5 > MAX_MONITOR_ATRASADO_H){ msg=(msg?msg+' ':'')+'Además, el monitor lleva horas sin actualizarse.'; av.classList.add('rojo'); }
   if(msg){ av.textContent=msg; av.style.display='block'; }
 
@@ -258,24 +326,28 @@ function renderizar(){
 
   let n={afect:0,prog:0,ok:0,desc:0}, pines=0; const sinUbicar=[]; const jobs=[];
   for(const id of ids){
-    const c=circ[id], st=estadoDe(id,est,datosOk);
+    const c=circ[id]||{lugares:[],puntos:[],ubicado:false}, st=estadoDe(id,est,datosOk);
+    n[st]++;
+    const buscable=[id,...(c.lugares||[])].join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+    if(busqueda&&!buscable.includes(busqueda)) continue;
     if(filtroActual==='ahora' && st!=='afect') continue;
     if(filtroActual==='programados' && st!=='prog') continue;
     if(!c.ubicado || !(c.puntos||[]).length){
       sinUbicar.push({id,st,zonas:(est.afectados&&est.afectados[id])||(est.programados&&est.programados[id])||[]});
-      n[st]++;  // Contar como 1 aunque no tenga pin
       continue;
     }
-    // Contar PUNTOS (localidades), no circuitos — es lo que ve el usuario
-    n[st] += c.puntos.length;
-    for(const pt of c.puntos){ jobs.push({id,c,st,pt}); }
+    if((c.lugares_sin_ubicar||[]).length)sinUbicar.push({id,st,zonas:c.lugares_sin_ubicar});
+    // Un circuito se cuenta una vez aunque abarque varias localidades.
+    for(const pt of c.puntos){if(Number.isFinite(pt.lat)&&Number.isFinite(pt.lng)&&dentroProvincia(pt.lat,pt.lng))jobs.push({id,c,st,pt});}
   }
+  if(!jobs.length&&busqueda)avisoBreve('No hay puntos ubicados que coincidan con la búsqueda.');
   const parpadeo = jobs.length<=MAX_PINES_PARPADEO;
   $('map').classList.toggle('parpadeo',parpadeo);
 
   for(const {id,c,st,pt} of jobs){
     const ck=`corr2_${provActual}_${id}_${pt.lugar}`;
-    const corr=leerCorreccion(ck);
+    const rawCorr=leerCorreccion(ck);
+    const corr=rawCorr&&Number.isFinite(rawCorr.lat)&&Number.isFinite(rawCorr.lng)&&dentroProvincia(rawCorr.lat,rawCorr.lng)?rawCorr:null;
     const lat=corr?corr.lat:pt.lat, lng=corr?corr.lng:pt.lng;
     const dudoso=!!pt.dudoso && !corr;
     const icon=L.divIcon({className:'',iconSize:[18,18],
@@ -297,25 +369,28 @@ function renderizar(){
         extra += `<br>${icono} <b>${txt}</b>`;
       }
     }
+    const prueba=(est.evidencias||{})[id]||(est.confirmados_con_servicio||{})[id];
+    if(prueba){extra+=`<br><small>Aviso: ${esc(fechaCuba(prueba.fecha))}</small>`;const url=enlaceFuente(prueba.url);if(url)extra+=`<br><a href="${esc(url)}" target="_blank" rel="noopener">Ver aviso original ↗</a>`;if(prueba.medio==='imagenes'||prueba.medio==='pdf')extra+='<br><small>Lectura de imagen o documento</small>';}
+    const horario=(est.horarios||{})[id];if(st==='prog'&&horario){extra+=`<br>Previsto: ${esc(fechaCuba(horario.inicio))}<br>Hasta: ${esc(fechaCuba(horario.fin))}`;}
     const nota = corr ? '<br><i style="color:#38bdf8">✏️ Corregido por ti</i>'
       : dudoso ? '<br><i style="color:#f59e0b">⚠️ Ubicación por confirmar</i>'
       : pt.precision==='ciudad' ? '<br><i style="color:#9aa4b8">📍 Ubicación a nivel de pueblo/ciudad</i>' : '';
     const repBadge = badgeReporte(id, st);
     mk.bindPopup(
-      `${BADGE[st]}<br><b style="font-size:15px">${esc(pt.lugar || `Circuito ${id}`)}</b>` +
+      `${BADGE[st]}<br><b style="font-size:15px">${esc(pt.lugar || `Circuito ${id}`)}</b><br><small>Circuito ${esc(id)}</small>` +
       nota + extra + repBadge +
-      `<br><button class="pbtn" data-reportar="${esc(id)}" data-lugar="${esc(pt.lugar||'')}" style="margin-top:8px">📢 Reportar</button>`);
+      `<br><button class="pbtn" data-act="mover" data-ck="${esc(ck)}">Mover punto</button><button class="pbtn" data-act="reportar" data-ck="${esc(ck)}">Enviar corrección</button>`+(REPORT_API?`<br><button class="pbtn" data-reportar="${esc(id)}" data-lugar="${esc(pt.lugar||'')}">Reportar servicio</button>`:''));
     mk.on('dragend',()=>onDragEnd(mk));
     pines++;
   }
 
-  $('cAfect').textContent=n.afect; $('cProg').textContent=n.prog; $('cOk').textContent=n.ok; $('cDesc').textContent=n.desc;
-  if(est.mw){ $('mwVal').textContent=est.mw; $('mwLine').style.display='block'; } else $('mwLine').style.display='none';
+  $('cAfect').textContent=String(n.afect); $('cProg').textContent=String(n.prog); $('cOk').textContent=String(n.ok); $('cDesc').textContent=String(n.desc);
+  if(datosOk&&est.mw!=null){ $('mwVal').textContent=est.mw; $('mwLine').style.display='block'; } else $('mwLine').style.display='none';
 
   const sb=$('sinub');
   if(sinUbicar.length){
     sb.style.display='block';
-    $('sinubTitulo').textContent=`${sinUbicar.length} circuito(s) sin ubicar en el mapa`;
+    $('sinubTitulo').textContent=`${sinUbicar.length} circuito(s) con localidades por ubicar`;
     const ul=$('sinubLista'); ul.textContent='';
     for(const s of sinUbicar){
       const li=document.createElement('li');
@@ -327,7 +402,7 @@ function renderizar(){
   } else sb.style.display='none';
 
   const partes=[];
-  partes.push('Actualizado: '+(f?f.toLocaleString('es'):'—'));
+  partes.push('Actualizado: '+fechaCuba(est.actualizado));
   if(est.hora_inicio) partes.push('Desde: '+est.hora_inicio);
   if(est.cierre) partes.push('Cierre: '+est.cierre);
   $('upd').textContent=partes.join(' | ');
@@ -348,7 +423,9 @@ function onDragEnd(mk){
   mk.dragging.disable(); mk.setOpacity(1);
   const ll=mk.getLatLng(), m=mk._m;
   if(confirm(`¿Seguro que "${m.lugar||m.id}" está aquí?\n\nSe guardará solo en tu dispositivo.`)){
-    guardarCorreccion(m.ck,{lat:+ll.lat.toFixed(5),lng:+ll.lng.toFixed(5)});
+    if(!dentroProvincia(ll.lat,ll.lng)){mk.setLatLng([m.lat,m.lng]);avisoBreve('La corrección debe quedar en el área de Cienfuegos.');return;}
+    if(!guardarCorreccion(m.ck,{lat:+ll.lat.toFixed(5),lng:+ll.lng.toFixed(5)})){mk.setLatLng([m.lat,m.lng]);avisoBreve('No se pudo guardar en este dispositivo.');return;}
+    m.lat=ll.lat;m.lng=ll.lng;
     mk.setIcon(L.divIcon({className:'',iconSize:[18,18],html:`<div class="dot ${m.color} corregido" style="width:18px;height:18px"></div>`}));
     alert('Guardado en tu dispositivo. Usa "📤 Reportar" para enviarlo a revisión.');
   } else mk.setLatLng([m.lat,m.lng]);
@@ -367,11 +444,11 @@ function reportar(mk){
 let miPos=null;
 const userIcon=L.divIcon({className:'',html:'<div style="width:20px;height:20px;border-radius:50%;background:#3b82f6;border:3px solid #fff;box-shadow:0 0 10px #3b82f6"></div>',iconSize:[20,20]});
 function irAMiPos(){
-  if(miPos) volar(miPos,12);
-  else if(navigator.geolocation) navigator.geolocation.getCurrentPosition(p=>{miPos=[p.coords.latitude,p.coords.longitude];volar(miPos,12)},()=>{},{timeout:10000});
+  if(miPos){if(!dentroProvincia(miPos[0],miPos[1])){avisoBreve('Tu ubicación está fuera del área de Cienfuegos.');return;}volar(miPos,12);}
+  else if(navigator.geolocation) navigator.geolocation.getCurrentPosition(p=>{miPos=[p.coords.latitude,p.coords.longitude];irAMiPos()},()=>avisoBreve('No se pudo obtener tu ubicación.'),{timeout:10000});
 }
 $('btnUbic').addEventListener('click',irAMiPos);
-$('btnRefresh').addEventListener('click',()=>location.reload());
+$('btnRefresh').addEventListener('click',()=>cargar('cienfuegos',false));
 
 // Recorrido: tocar un contador para ver los puntos uno por uno
 document.querySelector('.stat.red').addEventListener('click',()=>iniciarTour('afect'));
@@ -386,105 +463,29 @@ cargar('cienfuegos',false);
 volar([22.15,-80.45],10);
 setInterval(()=>cargar(sel.value,false),5*60*1000);
 
-if(navigator.geolocation){
-  navigator.geolocation.getCurrentPosition(pos=>{
-    const lat=pos.coords.latitude,lng=pos.coords.longitude; miPos=[lat,lng];
-    L.marker([lat,lng],{icon:userIcon}).addTo(map).bindPopup('📍 Estás aquí').openPopup();
-    const {id,d}=provinciaCercana(lat,lng,true);
-    if(id && d<250){ sel.value=id; cargar(id,true); } else volar([lat,lng],10);
-  },()=>{},{timeout:10000});
-}
-
-
-// === Sistema de reportes via Telegram ===
-const TG_BOT = '8844656307:AAHUxPb7LnDz2vPef57uwZ8lmeKs8vyimAc';
-const TG_CHAT = '@apagones_cuba';
-const REP_VIGENCIA = 2*60*60*1000;
+// Los reportes comunitarios usan un servidor opcional, sin credenciales en el navegador.
+const REPORT_API = window.MAPA_CONFIG?.reportApi || '';
 let reportesCache = [];
-
-function hashUser(){
-  let h = localStorage.getItem('mu_hash');
-  if(!h){ h = Math.random().toString(36).slice(2,10); localStorage.setItem('mu_hash', h); }
-  return h;
+function badgeReporte(id){
+ const rs=reportesCache.filter(r=>r.provincia==='cienfuegos'&&r.circuito_id===id&&Date.now()-r.timestamp<7200000);
+ const on=rs.filter(r=>r.tipo==='on').length,off=rs.filter(r=>r.tipo==='off').length;
+ return rs.length?`<br><small>Comunidad (sin verificar): ${on} con luz · ${off} sin luz</small>`:'';
 }
-
 async function cargarReportes(){
-  try{
-    // Leer reportes del canal público via t.me/s/
-    const r = await fetch('https://t.me/s/apagones_cuba', {cache:'no-store'});
-    const htmlTxt = await r.text();
-    const ahora = Date.now();
-    reportesCache = [];
-    // Extraer mensajes del HTML: buscar divs con clase tgme_widget_message_text
-    const re = /<div class="tgme_widget_message_text[^"]*"[^>]*>([\s\S]*?)<\/div>/g;
-    let m;
-    while((m = re.exec(htmlTxt)) !== null){
-      let txt = m[1].replace(/<br\s*\/?>/gi, '\n').replace(/<[^>]+>/g, '').trim();
-      // Decodificar entidades HTML básicas
-      txt = txt.replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#39;/g,"'").replace(/&quot;/g,'"');
-      if(!txt.startsWith('📢 REPORTE')) continue;
-      try{
-        const lines = txt.split('\n');
-        const rep = {};
-        for(const l of lines.slice(1)){
-          const idx = l.indexOf('=');
-          if(idx>0) rep[l.slice(0,idx).trim()] = l.slice(idx+1).trim();
-        }
-        const ts = parseInt(rep.ts||'0')*1000;
-        if(ahora - ts < REP_VIGENCIA && rep.circuito){
-          reportesCache.push({circuito_id:rep.circuito, lugar:rep.lugar||'', tipo:rep.tipo, timestamp:ts});
-        }
-      }catch(e){}
-    }
-    renderizar();
-  }catch(e){}
+ if(!REPORT_API)return;
+ try{const r=await fetch(REPORT_API.replace(/\/$/,'')+'/reportes',{signal:AbortSignal.timeout(10000)});if(!r.ok)return;const j=await r.json();reportesCache=Array.isArray(j.reportes)?j.reportes:[];renderizar();}catch(e){}
 }
-
-function badgeReporte(id, canalSt){
-  const ahora = Date.now();
-  const reps = reportesCache.filter(r => r.circuito_id===id && ahora - r.timestamp < REP_VIGENCIA);
-  if(!reps.length) return '';
-  // Regla 30 min: si el canal tiene evento fresco, no contradecir
-  // (simplificado: si hay reporte del canal reciente, no mostrar)
-  const on = reps.filter(r=>r.tipo==='on').length;
-  const off = reps.filter(r=>r.tipo==='off').length;
-  const canalOff = (canalSt==='sin' || canalSt==='prog');
-  // Solo mostrar si contradice
-  if(canalOff && off>0) return ''; // ambos dicen no hay
-  if(!canalOff && on>0) return ''; // ambos dicen hay
-  if(canalOff && on>0) return `<br><span style="background:#fef3c7;color:#92400e;padding:2px 8px;border-radius:10px;font-size:12px">⚡ ${on} usuario${on>1?'s':''} dice${on>1?'n':''} que SÍ hay</span>`;
-  if(!canalOff && off>0) return `<br><span style="background:#fee2e2;color:#991b1b;padding:2px 8px;border-radius:10px;font-size:12px">⚠️ ${off} usuario${off>1?'s':''} dice${off>1?'n':''} que NO hay</span>`;
-  return '';
-}
-
-async function enviarReporte(circuitoId, lugar, tipo){
-  const ts = Math.floor(Date.now()/1000);
-  const txt = `📢 REPORTE\ncircuito=${circuitoId}\nlugar=${lugar}\ntipo=${tipo}\nts=${ts}\nuser=${hashUser()}`;
-  try{
-    await fetch(`https://api.telegram.org/bot${TG_BOT}/sendMessage`, {
-      method:'POST',
-      headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({chat_id: TG_CHAT, text: txt})
-    });
-    alert(tipo==='on' ? '✅ Gracias por reportar que SÍ hay corriente' : '✅ Gracias por reportar que NO hay corriente');
-    setTimeout(cargarReportes, 2000);
-  }catch(e){ alert('Error al enviar'); }
-}
-
-// Diálogo de reporte
-document.addEventListener('click', e => {
-  const b = e.target.closest('[data-reportar]');
-  if(!b) return;
-  const cid = b.dataset.reportar, lug = b.dataset.lugar;
-  if(confirm(`¿Hay corriente en ${lug||cid}?\n\nOK = ✅ Sí hay\nCancelar = ❌ No hay`)){
-    enviarReporte(cid, lug, 'on');
-  } else {
-    enviarReporte(cid, lug, 'off');
-  }
+const dialog=document.createElement('dialog');dialog.style.cssText='margin:auto;border:1px solid #7cc8b0;border-radius:18px;padding:24px;background:#102329;color:#edf7f5;max-width:90vw';
+document.body.appendChild(dialog);
+document.addEventListener('click',e=>{
+ const b=e.target.closest('[data-reportar]');if(!b||!REPORT_API)return;
+ dialog.replaceChildren();const p=document.createElement('p');p.textContent='¿Hay electricidad en '+(b.dataset.lugar||b.dataset.reportar)+'?';dialog.appendChild(p);
+ for(const [label,tipo] of [['Sí hay','on'],['No hay','off'],['Cancelar',null]]){const btn=document.createElement('button');btn.className='pbtn';btn.textContent=label;dialog.appendChild(btn);btn.addEventListener('click',async()=>{
+  if(!tipo){dialog.close();return;}dialog.querySelectorAll('button').forEach(x=>x.disabled=true);
+  try{const r=await fetch(REPORT_API.replace(/\/$/,'')+'/reporte',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({provincia:'cienfuegos',circuito_id:b.dataset.reportar,lugar:b.dataset.lugar,tipo}),signal:AbortSignal.timeout(12000)});const j=await r.json();if(!r.ok||!j.ok)throw new Error(j.error||'No se pudo enviar');dialog.close();avisoBreve('Reporte recibido. Se mostrará como información de la comunidad.');cargarReportes();}catch(err){dialog.close();avisoBreve(err.message);}
+ });}dialog.showModal();
 });
-
-// Recargar reportes cada 2 min
-setInterval(cargarReportes, 120000);
+if(REPORT_API){cargarReportes();setInterval(cargarReportes,120000);}
 
 </script>
 </body>
