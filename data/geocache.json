@@ -145,9 +145,14 @@
     "fuente": "legacy-nominatim"
   },
   "cienfuegos|juragua": {
-    "lat": 22.09803,
-    "lng": -80.55721,
-    "fuente": "legacy-nominatim"
+    "lat": 22.0980303,
+    "lng": -80.5572082,
+    "fuente": "nominatim-verificado",
+    "display": "Juraguá, Abreus, Cienfuegos, Cuba",
+    "fecha": "2026-10-07",
+    "provincia_verificada": "cienfuegos",
+    "precision": "localidad",
+    "osm_url": "https://www.openstreetmap.org/node/1549201982"
   },
   "cienfuegos|cen": {
     "lat": 22.06553,
@@ -1223,5 +1228,105 @@
     "lat": 22.40083,
     "lng": -79.97181,
     "fuente": "legacy-nominatim"
+  },
+  "cienfuegos|abreus": {
+    "lat": 22.2777305,
+    "lng": -80.5698519,
+    "fuente": "nominatim-verificado",
+    "display": "Abreus, Cienfuegos, 57700, Cuba",
+    "fecha": "2026-10-07",
+    "provincia_verificada": "cienfuegos",
+    "precision": "ciudad",
+    "osm_url": "https://www.openstreetmap.org/relation/5884785"
+  },
+  "cienfuegos|palmira": {
+    "lat": 22.2414566,
+    "lng": -80.3931021,
+    "fuente": "nominatim-verificado",
+    "display": "Palmira, Cienfuegos, 57300, Cuba",
+    "fecha": "2026-10-07",
+    "provincia_verificada": "cienfuegos",
+    "precision": "ciudad",
+    "osm_url": "https://www.openstreetmap.org/relation/5884796"
+  },
+  "cienfuegos|pasacaballos": {
+    "lat": 22.0649674,
+    "lng": -80.4584545,
+    "fuente": "nominatim-verificado",
+    "display": "Pasacaballos, Castillo de Jagua, Cienfuegos, Cuba",
+    "fecha": "2026-10-07",
+    "provincia_verificada": "cienfuegos",
+    "precision": "localidad",
+    "osm_url": "https://www.openstreetmap.org/node/6302420387"
+  },
+  "cienfuegos|san fernando de camarones": {
+    "lat": 22.2469951,
+    "lng": -80.2956149,
+    "fuente": "nominatim-verificado",
+    "display": "San Fernando de Camarones, Palmira, Cienfuegos, Cuba",
+    "fecha": "2026-10-07",
+    "provincia_verificada": "cienfuegos",
+    "precision": "localidad",
+    "osm_url": "https://www.openstreetmap.org/relation/20774505"
+  },
+  "cienfuegos|cruces": {
+    "lat": 22.3429449,
+    "lng": -80.2727876,
+    "fuente": "nominatim-verificado",
+    "display": "Cruces, Cienfuegos, 57500, Cuba",
+    "fecha": "2026-10-07",
+    "provincia_verificada": "cienfuegos",
+    "precision": "ciudad",
+    "osm_url": "https://www.openstreetmap.org/relation/5884792"
+  },
+  "cienfuegos|cumanayagua": {
+    "lat": 22.1493835,
+    "lng": -80.2021172,
+    "fuente": "nominatim-verificado",
+    "display": "Cumanayagua, Cienfuegos, 57600, Cuba",
+    "fecha": "2026-10-07",
+    "provincia_verificada": "cienfuegos",
+    "precision": "ciudad",
+    "osm_url": "https://www.openstreetmap.org/relation/5884793"
+  },
+  "cienfuegos|aguada de pasajeros": {
+    "lat": 22.3833314,
+    "lng": -80.8481784,
+    "fuente": "nominatim-verificado",
+    "display": "Aguada de Pasajeros, Cienfuegos, Cuba",
+    "fecha": "2026-10-07",
+    "provincia_verificada": "cienfuegos",
+    "precision": "ciudad",
+    "osm_url": "https://www.openstreetmap.org/relation/5884786"
+  },
+  "cienfuegos|la pollera": {
+    "lat": 22.2646993,
+    "lng": -80.7160499,
+    "fuente": "nominatim-verificado",
+    "display": "La Pollera, Yaguaramas, Abreus, Cienfuegos, Cuba",
+    "fecha": "2026-10-07",
+    "provincia_verificada": "cienfuegos",
+    "precision": "localidad",
+    "osm_url": "https://www.openstreetmap.org/node/13027193327"
+  },
+  "cienfuegos|las medidas": {
+    "lat": 22.4304338,
+    "lng": -80.5804862,
+    "fuente": "nominatim-verificado",
+    "display": "Las Medidas, Rodas, Cienfuegos, Cuba",
+    "fecha": "2026-10-07",
+    "provincia_verificada": "cienfuegos",
+    "precision": "localidad",
+    "osm_url": "https://www.openstreetmap.org/node/1548634081"
+  },
+  "cienfuegos|mal tiempo": {
+    "lat": 22.3182242,
+    "lng": -80.2679521,
+    "fuente": "nominatim-verificado",
+    "display": "Mal Tiempo, Cruces, Cienfuegos, 57500, Cuba",
+    "fecha": "2026-10-07",
+    "provincia_verificada": "cienfuegos",
+    "precision": "localidad",
+    "osm_url": "https://www.openstreetmap.org/node/1544521623"
   }
 }
