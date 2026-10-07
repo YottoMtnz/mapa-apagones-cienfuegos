@@ -24,7 +24,7 @@ def main():
 
     inventario = cat.cargar_json("inventario.json", {})
     with TelegramClient(StringSession(sesion), int(api_id), api_hash) as client:
-        for prov in PROVINCIAS:
+        for prov in ["cienfuegos"]:
             parser = parse_matanzas_restaurados if prov == "matanzas" else PARSERS.get(prov)
             if not parser:
                 continue
