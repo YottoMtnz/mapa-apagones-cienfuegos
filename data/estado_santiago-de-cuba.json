@@ -1,64 +1,15 @@
 {
   "schema": 2,
-  "estado_datos": "ok",
+  "estado_datos": "sin_reporte_reciente",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-06T11:56:47+00:00",
+  "reporte_fecha": null,
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 50,
-  "afectados": {
-    "2": [
-      "Santiago y la 4 de Palma"
-    ],
-    "5980": [
-      "San Juan"
-    ],
-    "15": [
-      "en manipulación"
-    ],
-    "21": [
-      "Santiago"
-    ],
-    "23": [
-      "Santiago"
-    ],
-    "5975": [
-      "Baconao"
-    ],
-    "5385": [
-      "San Luis"
-    ],
-    "12": [
-      "Santiago"
-    ],
-    "3": [
-      "Santiago"
-    ],
-    "8": [
-      "Santiago"
-    ],
-    "20": [
-      "Santiago"
-    ],
-    "7": [
-      "Santiago"
-    ],
-    "17": [
-      "Santiago"
-    ],
-    "4390": [
-      "Contramaestre"
-    ],
-    "4": [
-      "Palma"
-    ],
-    "25": [
-      "Santiago"
-    ]
-  },
+  "mensajes_leidos": 0,
+  "afectados": {},
   "programados": {},
-  "total_circuitos_afectados": 16,
+  "total_circuitos_afectados": 0,
   "total_circuitos_programados": 0,
   "mw": null,
   "hora_inicio": null,
@@ -66,5 +17,5 @@
   "tiempos": {},
   "causas": {},
   "error": null,
-  "actualizado": "2026-10-06T13:08:59.887940+00:00"
+  "actualizado": null
 }
