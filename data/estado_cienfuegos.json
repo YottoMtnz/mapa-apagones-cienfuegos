@@ -2,34 +2,18 @@
   "schema": 2,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-07T16:31:01+00:00",
+  "reporte_fecha": "2026-10-07T17:02:02+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-07T15:31:32+00:00",
   "mensajes_leidos": 50,
   "afectados": {
-    "C-52": [
-      "Paradero de Camarones",
-      "Vía Estrecha",
-      "Espartaco",
-      "La Macana",
-      "Cherepa"
-    ],
     "C-35": [
       "Terraza",
       "Codicia",
       "Breñas",
       "Caña Brava",
       "Dolores"
-    ],
-    "C-73": [
-      "Perseverancia",
-      "1ro de Mayo"
-    ],
-    "C-42": [
-      "Viet Nam",
-      "Real Campiña",
-      "Guanito"
     ],
     "C-31": [
       "Horquita",
@@ -84,20 +68,6 @@
       "Quesada",
       "Callejón del Palmar"
     ],
-    "C-80": [
-      "Punta Cotica",
-      "Parque José Martí"
-    ],
-    "C-19": [
-      "Tulipán"
-    ],
-    "C-65": [
-      "Centro histórico",
-      "Reina"
-    ],
-    "C-66": [
-      "Reina"
-    ],
     "C-91": [
       "Buena Vista",
       "La Esperanza"
@@ -138,6 +108,12 @@
       "Pepito Tey",
       "Guabairo"
     ],
+    "C-60": [
+      "La Tatagua",
+      "Camilo Cienfuegos",
+      "Villa Yaguanabo",
+      "Villa Guajimico"
+    ],
     "C-27": [
       "Barrio Matadero",
       "Juraguá",
@@ -168,6 +144,15 @@
       "Paraíso",
       "El Piojo",
       "Trujillo"
+    ],
+    "C-18": [
+      "Arizona",
+      "La Juanita",
+      "[Hospital de Especialidades 0-24]"
+    ],
+    "C-20": [
+      "Punta Gorda",
+      "[Hospital Provincial 0-24]"
     ],
     "C-30": [
       "14 de Julio",
@@ -234,13 +219,13 @@
       "Punta Gorda"
     ]
   },
-  "total_circuitos_afectados": 38,
+  "total_circuitos_afectados": 34,
   "total_circuitos_programados": 2,
-  "mw": 35,
+  "mw": 33,
   "hora_inicio": null,
   "cierre": null,
   "tiempos": {},
   "causas": {},
   "error": null,
-  "actualizado": "2026-10-07T16:48:57.753570+00:00"
+  "actualizado": "2026-10-07T17:04:04.328846+00:00"
 }
