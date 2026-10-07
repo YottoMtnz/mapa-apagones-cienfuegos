@@ -2,18 +2,18 @@
   "schema": 3,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-07T21:23:31+00:00",
+  "reporte_fecha": "2026-10-07T21:53:46+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-07T21:44:07+00:00",
-  "mensajes_leidos": 110,
+  "mensajes_leidos": 111,
   "afectados": {
-    "C-90": [
-      "FW1558) La Pollera"
-    ],
     "C-30": [
       "14 de Julio",
       "Batey 2 Hermanos"
+    ],
+    "C-90": [
+      "FW1558) La Pollera"
     ],
     "C-407": [],
     "S-9092": [],
@@ -73,12 +73,6 @@
       "Las Minas",
       "Playa Alegre"
     ],
-    "C-26": [
-      "Caonao",
-      "Los Tanques",
-      "La Ceiba",
-      "El Paisíto"
-    ],
     "C-67": [
       "El Crucero",
       "Guaos",
@@ -97,7 +91,6 @@
       "Castillo de Jagua",
       "La Loma"
     ],
-    "C-94": [],
     "C-18": [],
     "C-20": [],
     "C-55": [
@@ -192,6 +185,18 @@
       "Ciego Montero",
       "La Amalia",
       "Ceiba Hueca"
+    ],
+    "C-72": [
+      "Porcino",
+      "La Caridad",
+      "Palmira (Sur"
+    ],
+    "C-85": [
+      "Cumanayagua (Centro"
+    ],
+    "C-86": [
+      "Cumanayagua",
+      "emisora de radio"
     ]
   },
   "programados": {
@@ -302,15 +307,6 @@
     }
   },
   "evidencias": {
-    "C-90": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
     "C-30": {
       "fecha": "2026-10-07T13:09:13+00:00",
       "mensaje_id": 59063,
@@ -320,10 +316,19 @@
       "confianza": 100,
       "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
     },
+    "C-90": {
+      "fecha": "2026-10-07T13:09:13+00:00",
+      "mensaje_id": 59063,
+      "url": "https://t.me/empresaelectricacienfuegos1/59063",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
+    },
     "C-407": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -447,279 +452,288 @@
       "texto": "👉C-102 La Ciruela"
     },
     "C-58": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-2": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-3": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-69": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-26": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-67": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-15": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-27": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-28": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-94": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-18": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-20": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-55": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-21": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-50": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-32": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-59": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-8": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-7": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-41": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-57": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-43": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-5": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-406": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-25": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-53": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-54": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-11": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-78": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-29": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-49": {
-      "fecha": "2026-10-07T21:23:31+00:00",
-      "mensaje_id": 59084,
-      "url": "https://t.me/empresaelectricacienfuegos1/59084",
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
+    },
+    "C-72": {
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
+    },
+    "C-85": {
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
+    },
+    "C-86": {
+      "fecha": "2026-10-07T21:53:46+00:00",
+      "mensaje_id": 59087,
+      "url": "https://t.me/empresaelectricacienfuegos1/59087",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -743,34 +757,7 @@
       "confianza": 75.0,
       "texto": "👉C-22 Rodas"
     },
-    "C-72": {
-      "fecha": "2026-10-07T20:49:11+00:00",
-      "mensaje_id": 59080,
-      "url": "https://t.me/empresaelectricacienfuegos1/59080",
-      "medio": "imagenes",
-      "editado": null,
-      "confianza": 75.0,
-      "texto": "👉C-22 Rodas"
-    },
     "C-24": {
-      "fecha": "2026-10-07T20:54:33+00:00",
-      "mensaje_id": 59081,
-      "url": "https://t.me/empresaelectricacienfuegos1/59081",
-      "medio": "imagenes",
-      "editado": null,
-      "confianza": 75.0,
-      "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
-    },
-    "C-86": {
-      "fecha": "2026-10-07T20:54:33+00:00",
-      "mensaje_id": 59081,
-      "url": "https://t.me/empresaelectricacienfuegos1/59081",
-      "medio": "imagenes",
-      "editado": null,
-      "confianza": 75.0,
-      "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
-    },
-    "C-85": {
       "fecha": "2026-10-07T20:54:33+00:00",
       "mensaje_id": 59081,
       "url": "https://t.me/empresaelectricacienfuegos1/59081",
@@ -923,13 +910,13 @@
     }
   },
   "cobertura": "parcial",
-  "mw": 45,
+  "mw": 50,
   "hora_inicio": null,
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-90": "avería / déficit",
     "C-30": "avería",
+    "C-90": "avería",
     "C-407": "avería / déficit",
     "S-9092": "avería",
     "C-1770": "avería",
@@ -948,12 +935,10 @@
     "C-2": "déficit",
     "C-3": "déficit",
     "C-69": "déficit",
-    "C-26": "déficit",
     "C-67": "déficit",
     "C-15": "déficit",
     "C-27": "déficit",
     "C-28": "déficit",
-    "C-94": "déficit",
     "C-18": "déficit",
     "C-20": "déficit",
     "C-55": "déficit",
@@ -974,17 +959,13 @@
     "C-11": "déficit",
     "C-78": "déficit",
     "C-29": "déficit",
-    "C-49": "déficit"
+    "C-49": "déficit",
+    "C-72": "déficit",
+    "C-85": "déficit",
+    "C-86": "déficit"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "resumen_historico",
-      "texto": "👉C-65 Centro histórico, Reina (Aduana)",
-      "id": 59033,
-      "url": "https://t.me/empresaelectricacienfuegos1/59033",
-      "fecha": "2026-10-06T14:10:05+00:00"
-    },
     {
       "motivo": "resumen_historico",
       "texto": "👉C-65 Centro histórico, Reina (Aduana)",
@@ -1286,16 +1267,22 @@
       "id": 59085,
       "url": "https://t.me/empresaelectricacienfuegos1/59085",
       "fecha": "2026-10-07T21:44:07+00:00"
+    },
+    {
+      "id": 59086,
+      "url": "https://t.me/empresaelectricacienfuegos1/59086",
+      "fecha": "2026-10-07T21:52:02+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
-    "texto": 56,
+    "texto": 57,
     "imagenes": 54,
     "pdf": 0,
-    "no_leidos": 8
+    "no_leidos": 9
   },
-  "lectura_incompleta_desde": "2026-10-07T21:20:46+00:00",
-  "total_circuitos_afectados": 47,
+  "lectura_incompleta_desde": "2026-10-07T21:52:02+00:00",
+  "total_circuitos_afectados": 48,
   "total_circuitos_programados": 19,
   "circuitos_sin_catalogar": [
     "C-1770",
@@ -1309,9 +1296,8 @@
     "C-58",
     "C-59",
     "C-92",
-    "C-94",
     "S-4893",
     "S-9092"
   ],
-  "actualizado": "2026-10-07T21:49:30.277737+00:00"
+  "actualizado": "2026-10-07T22:04:14.795842+00:00"
 }
