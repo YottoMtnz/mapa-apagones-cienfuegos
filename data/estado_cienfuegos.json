@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-07T20:54:33+00:00",
-  "mensajes_leidos": 110,
+  "mensajes_leidos": 109,
   "afectados": {
     "C-90": [
       "FW1558) La Pollera"
@@ -904,26 +904,20 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "sin_estado_explicito",
-      "texto": "⚠ Se comunica a nuestros clientes que se encuentra en fallo la sección S-9092, afectando la zona:",
-      "circuitos": [
-        "S-9092"
-      ],
-      "id": 59030,
-      "url": "https://t.me/empresaelectricacienfuegos1/59030",
-      "fecha": "2026-10-06T13:59:09+00:00"
-    },
-    {
       "id": 59031,
       "url": "https://t.me/empresaelectricacienfuegos1/59031",
-      "fecha": "2026-10-06T14:02:21+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
+      "motivo": "OCR_circuito_no_catalogado",
+      "circuitos": [
+        "C-401",
+        "C-407"
+      ]
     },
     {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n60 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
       "id": 59032,
       "url": "https://t.me/empresaelectricacienfuegos1/59032",
-      "fecha": "2026-10-06T14:05:42+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
+      "fecha": "2026-10-06T14:05:42+00:00"
     },
     {
       "motivo": "resumen_historico",
@@ -942,14 +936,19 @@
     {
       "id": 59035,
       "url": "https://t.me/empresaelectricacienfuegos1/59035",
-      "fecha": "2026-10-06T15:08:29+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
+      "motivo": "OCR_circuito_no_catalogado",
+      "circuitos": [
+        "C-18",
+        "C-20"
+      ]
     },
     {
       "id": 59037,
       "url": "https://t.me/empresaelectricacienfuegos1/59037",
-      "fecha": "2026-10-06T16:37:05+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
+      "motivo": "OCR_circuito_no_catalogado",
+      "circuitos": [
+        "C-92"
+      ]
     },
     {
       "motivo": "resumen_historico",
@@ -971,12 +970,6 @@
       "id": 59041,
       "url": "https://t.me/empresaelectricacienfuegos1/59041",
       "fecha": "2026-10-06T19:09:34+00:00"
-    },
-    {
-      "id": 59042,
-      "url": "https://t.me/empresaelectricacienfuegos1/59042",
-      "fecha": "2026-10-06T19:17:17+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
     },
     {
       "motivo": "sin_estado_explicito",
@@ -1001,8 +994,10 @@
     {
       "id": 59043,
       "url": "https://t.me/empresaelectricacienfuegos1/59043",
-      "fecha": "2026-10-06T19:44:39+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
+      "motivo": "OCR_circuito_no_catalogado",
+      "circuitos": [
+        "C-407"
+      ]
     },
     {
       "motivo": "resumen_historico",
@@ -1014,14 +1009,17 @@
     {
       "id": 59045,
       "url": "https://t.me/empresaelectricacienfuegos1/59045",
-      "fecha": "2026-10-06T21:00:21+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
+      "motivo": "OCR_circuito_no_catalogado",
+      "circuitos": [
+        "C-2"
+      ]
     },
     {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n68 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
       "id": 59046,
       "url": "https://t.me/empresaelectricacienfuegos1/59046",
-      "fecha": "2026-10-06T21:23:28+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
+      "fecha": "2026-10-06T21:23:28+00:00"
     },
     {
       "motivo": "resumen_historico",
@@ -1031,10 +1029,11 @@
       "fecha": "2026-10-06T21:34:19+00:00"
     },
     {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n80 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
       "id": 59048,
       "url": "https://t.me/empresaelectricacienfuegos1/59048",
-      "fecha": "2026-10-06T22:05:41+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
+      "fecha": "2026-10-06T22:05:41+00:00"
     },
     {
       "id": 59049,
@@ -1198,13 +1197,30 @@
       "circuitos": [
         "C-43"
       ]
+    },
+    {
+      "id": 59082,
+      "url": "https://t.me/empresaelectricacienfuegos1/59082",
+      "motivo": "OCR_circuito_no_catalogado",
+      "circuitos": [
+        "C-1770",
+        "C-48"
+      ]
+    },
+    {
+      "id": 59082,
+      "url": "https://t.me/empresaelectricacienfuegos1/59082",
+      "motivo": "OCR_circuito_no_catalogado",
+      "circuitos": [
+        "S-4820"
+      ]
     }
   ],
   "lectura": {
-    "texto": 57,
+    "texto": 56,
     "imagenes": 53,
     "pdf": 0,
-    "no_leidos": 41
+    "no_leidos": 25
   },
   "lectura_incompleta_desde": "2026-10-07T19:33:52+00:00",
   "total_circuitos_afectados": 41,
@@ -1227,5 +1243,5 @@
     "S-4893",
     "S-9092"
   ],
-  "actualizado": "2026-10-07T21:02:25.409310+00:00"
+  "actualizado": "2026-10-07T21:14:27.087449+00:00"
 }
