@@ -20,7 +20,7 @@ Garantías (lo que antes fallaba):
 import os, json, sys, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from datetime import datetime, timezone, timedelta
-from parsers import PARSERS, SIN_AFECTADOS, SIN_AFECTACION, detectar_tipo, extraer_info_extra, _norm_id
+from parsers import PARSERS, SIN_AFECTADOS, SIN_AFECTACION, detectar_tipo, clasificar_mensaje, extraer_info_extra, _norm_id
 from provincias import PROVINCIAS
 
 CANALES = {
@@ -138,12 +138,27 @@ def analizar_mensajes(prov, mensajes, ahora):
             if est.get("sin_afectaciones"):
                 continue
             if not est["reporte_vencido"]:
-                # Distinguir: "Actualización" (lista completa, reemplaza)
-                # vs "continúan en avería" (lista completa de fallas, reemplaza)
-                # vs "avería" nueva (adicional, se suma)
+                # Clasificación por criterios humanos (no frases exactas)
+                clasif = clasificar_mensaje(texto)
+                intencion = clasif["intencion"]
+                # 'restablecido': quitar esos circuitos de afectados
+                if intencion == "restablecido":
+                    for cid in r:
+                        est["afectados"].pop(cid, None)
+                    continue
+                # 'irrelevante' o 'sin_afectacion' (ya manejado arriba): saltar
+                if intencion in ("irrelevante", "sin_afectacion"):
+                    continue
+                # Distinguir: lista completa (reemplaza) vs corte nuevo (se suma)
+                # Criterio humano: ¿el mensaje pretende ser LA lista vigente?
+                es_lista_completa = clasif["lista_completa"]
+                # Compat: mantener detección de "actualización"/"continúan en avería"
+                # como casos específicos de lista completa
                 t_lower = texto.lower()
-                es_actualizacion = "actualizaci" in t_lower
-                es_lista_averias = "continuan en averia" in t_lower or "continúan en avería" in t_lower
+                es_actualizacion = "actualizaci" in t_lower or es_lista_completa
+                es_lista_averias = ("continuan en averia" in t_lower
+                                    or "continúan en avería" in t_lower
+                                    or (intencion == "corte" and es_lista_completa))
                 # Inicializar sets de seguimiento
                 if "_deficit_ids" not in est:
                     est["_deficit_ids"] = set()
