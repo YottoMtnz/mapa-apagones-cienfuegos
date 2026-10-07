@@ -218,10 +218,22 @@ def analizar_mensajes(prov, mensajes, ahora):
                     else:
                         # Avería nueva: se suma
                         est["_averia_ids"].update(r.keys())
+                        # Registrar cuándo se sumó cada circuito por corte individual
+                        # (el canal nunca publica restablecimientos, así que estos
+                        # vencen por tiempo si no se reafirman)
+                        if "_corte_tiempo" not in est:
+                            est["_corte_tiempo"] = {}
+                        for cid in r:
+                            # Solo si viene de corte individual (no lista completa)
+                            if not es_lista_completa:
+                                est["_corte_tiempo"][cid] = fecha.isoformat()
                 # Merge (sin duplicar)
                 for cid, zonas in r.items():
                     if cid not in est["afectados"]:
                         est["afectados"][cid] = zonas
+                    # Reafirmado por cualquier mensaje: actualizar timestamp
+                    if "_corte_tiempo" in est and cid in est["_corte_tiempo"]:
+                        est["_corte_tiempo"][cid] = fecha.isoformat()
                 extra = extraer_info_extra(texto, prov)
                 if est["mw"] is None:
                     est["mw"], est["hora_inicio"], est["cierre"] = extra["mw"], extra["hora_inicio"], extra["cierre"]
@@ -233,6 +245,22 @@ def analizar_mensajes(prov, mensajes, ahora):
                         est["causas"][cid] = extra["causas"][nk]
         # NO hacer break aquí: seguir leyendo para combinar múltiples mensajes
         # (avería + déficit son causas distintas, ambas válidas)
+
+    # Vencer cortes individuales viejos sin reafirmar
+    # (el canal nunca publica restablecimientos; un disparo/avería que no se
+    # menciona en 6 horas se asume resuelto)
+    if "_corte_tiempo" in est:
+        for cid, ts in list(est["_corte_tiempo"].items()):
+            try:
+                f = datetime.fromisoformat(ts)
+                if ahora - f > timedelta(hours=6):
+                    est["afectados"].pop(cid, None)
+                    est["_averia_ids"].discard(cid)
+                    del est["_corte_tiempo"][cid]
+            except:
+                pass
+        # Limpiar el dict temporal del estado final
+        est.pop("_corte_tiempo", None)
 
     # Programados viejos (>MAX_EDAD_H) tampoco valen
     if est["programado_fecha"]:
