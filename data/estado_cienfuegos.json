@@ -2,42 +2,12 @@
   "schema": 2,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-07T11:12:14+00:00",
+  "reporte_fecha": "2026-10-07T11:45:08+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-06T21:00:21+00:00",
   "mensajes_leidos": 50,
   "afectados": {
-    "C-30": [
-      "14 de Julio",
-      "Batey 2 Hermanos"
-    ],
-    "C-90": [
-      "La Pollera"
-    ],
-    "C-48": [
-      "San Blas",
-      "La Vega",
-      "Sabanita",
-      "Pico San Juan",
-      "Gaviña",
-      "El Naranjo",
-      "Sopapo",
-      "Mayarí"
-    ],
-    "C-1770": [
-      "Guanayara",
-      "4 Vientos",
-      "Cien Rosas",
-      "Charco Azul",
-      "Aguacate",
-      "Grones",
-      "EL Nacimiento",
-      "Centro Cubano"
-    ],
-    "S-9092": [
-      "la zona"
-    ],
     "C-11": [
       "Ariza",
       "Silverita",
@@ -52,41 +22,15 @@
       "La Caridad",
       "Palmira"
     ],
-    "C-7": [
-      "Lajas",
-      "Las Nuevas",
-      "El Salto",
-      "Ajuria",
-      "Santa Susana",
-      "San Marcos",
-      "Chucho Rosa"
-    ],
-    "C-41": [
-      "Caracas",
-      "Mora",
-      "San Isidro"
-    ],
-    "C-57": [
-      "Lajas"
-    ],
     "C-53": [
       "Potrerillo",
       "Peñasco",
       "Lomitas"
     ],
-    "C-55": [
-      "Cruces"
-    ],
     "C-54": [
       "Batey Mal Tiempo",
       "Carrasco",
       "Loma de Tola"
-    ],
-    "C-32": [
-      "Yaguaramas",
-      "Guayabales",
-      "Batey Diego",
-      "[PSFV 0-24]"
     ],
     "C-49": [
       "Arriete",
@@ -115,24 +59,8 @@
       "5 de Septiembre",
       "Guayabito"
     ],
-    "C-29": [
-      "Moncada",
-      "Constancia",
-      "Rosalía",
-      "Loma del Chivo",
-      "Simpatía",
-      "Charcas",
-      "Guasimal"
-    ],
-    "C-25": [
-      "Abreus"
-    ],
     "C-85": [
       "Cumanayagua"
-    ],
-    "C-8": [
-      "Congojas",
-      "La Lolita"
     ],
     "C-52": [
       "Paradero de Camarones",
@@ -176,17 +104,6 @@
       "Real Campiña",
       "Guanito"
     ],
-    "C-21": [
-      "Santa Elena",
-      "La Candita",
-      "Jabacoa",
-      "Batey Nuevo",
-      "Las Medidas"
-    ],
-    "C-22": [
-      "Rodas",
-      "[Bombeo Agua Rodas 0-12]"
-    ],
     "C-36": [
       "Cumanayagua",
       "La Guasasa",
@@ -200,15 +117,6 @@
       "Calle 35 de Ave 58 hasta Ave 64",
       "Ave 58 de Calle 47 hasta Calle 49",
       "Calle 47 de Ave 54 hasta Ave 58"
-    ],
-    "C-59": [
-      "Marta Abreus",
-      "Jova",
-      "Tumba Saco"
-    ],
-    "C-20": [
-      "Punta Gorda",
-      "[Hospital Provincial 0-24]"
     ],
     "C-88": [
       "San Ignacio",
@@ -237,11 +145,6 @@
     ],
     "C-56": [
       "Cruces"
-    ],
-    "C-18": [
-      "Arizona",
-      "La Juanita",
-      "[Hospital de Especialidades 0-24]"
     ],
     "C-82": [
       "Balboa",
@@ -283,6 +186,18 @@
       "La Ceiba",
       "El Paisíto"
     ],
+    "C-90": [
+      "La Josefa",
+      "La Colmena",
+      "Arroyo Arenas",
+      "Lagunilla",
+      "Loma Abreus",
+      "Lajitas",
+      "Loma del Rosario",
+      "La Sabana",
+      "Pueblo Nuevo",
+      "Ciego Alonso"
+    ],
     "C-43": [
       "Aguada",
       "Autopista",
@@ -306,6 +221,33 @@
       "Buena Vista",
       "La Esperanza"
     ],
+    "C-30": [
+      "14 de Julio",
+      "Batey 2 Hermanos"
+    ],
+    "C-48": [
+      "San Blas",
+      "La Vega",
+      "Sabanita",
+      "Pico San Juan",
+      "Gaviña",
+      "El Naranjo",
+      "Sopapo",
+      "Mayarí"
+    ],
+    "C-1770": [
+      "Guanayara",
+      "4 Vientos",
+      "Cien Rosas",
+      "Charco Azul",
+      "Aguacate",
+      "Grones",
+      "EL Nacimiento",
+      "Centro Cubano"
+    ],
+    "S-9092": [
+      "la zona"
+    ],
     "C-92": [
       "Calzada Dolores",
       "San Lázaro"
@@ -325,19 +267,31 @@
       "Termoeléctrica",
       "O'bourke"
     ],
+    "C-25": [
+      "Abreus"
+    ],
+    "C-29": [
+      "Moncada",
+      "Constancia",
+      "Rosalía",
+      "Loma del Chivo",
+      "Simpatía",
+      "Charcas",
+      "Guasimal"
+    ],
     "C-70": [
       "Aguada",
       "Federal"
     ]
   },
   "programados": {},
-  "total_circuitos_afectados": 60,
+  "total_circuitos_afectados": 49,
   "total_circuitos_programados": 0,
-  "mw": 55,
+  "mw": 43,
   "hora_inicio": null,
   "cierre": null,
   "tiempos": {},
   "causas": {},
   "error": null,
-  "actualizado": "2026-10-07T11:34:03.653546+00:00"
+  "actualizado": "2026-10-07T11:49:02.278424+00:00"
 }
