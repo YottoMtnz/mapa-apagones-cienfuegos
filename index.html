@@ -277,7 +277,10 @@ $('buscar').addEventListener('input',e=>{
           if(mejor) break;
         }
       }
-      if(mejor&&map) map.flyTo([mejor.lat,mejor.lng], Math.max(map.getZoom(),13), {duration:0.6});
+      if(mejor&&map){
+        try{ map.setView([mejor.lat,mejor.lng], Math.max(map.getZoom(),13), {animate:true}); }
+        catch(_){ try{ map.panTo([mejor.lat,mejor.lng]); }catch(_){} }
+      }
     }catch(_){}
   },300);
 });
