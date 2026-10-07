@@ -19,7 +19,7 @@ en la capital "de relleno" (era el bug nº1: el mapa mentía con confianza).
 """
 import json, os, re, statistics, datetime
 from normalizar import fold, candidatos, limpiar_lugar, lugar_desde_id
-from provincias import PROVINCIAS, provincia_mas_cercana, distancia_km
+from provincias import PROVINCIAS, provincia_mas_cercana, distancia_km, en_caja
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, "data")
@@ -72,14 +72,20 @@ class Resolvedor:
     def offline(self, prov, lugar):
         """(lat,lng,precision,fuente) o None. Sin red."""
         g = self.gaz.get(prov, {})
-        for cand in candidatos(lugar):          # n-gramas: 'Nicaro Cabonico' -> 'Nicaro'
-            k = fold(cand)
-            if k in g:
-                lat, lng, prec = g[k][0], g[k][1], g[k][2]
-                return lat, lng, prec, "gazetteer"
-        e = self.cache.get(clave_cache(prov, lugar))   # solo coincidencia EXACTA del lugar
-        if e and "lat" in e:
-            return e["lat"], e["lng"], "localidad", e.get("fuente", "cache")
+        k=fold(lugar)
+        if k in g:
+            lat,lng,prec=g[k][:3]
+            return (lat,lng,prec,'gazetteer') if en_caja(prov,lat,lng) else None
+        aliases={
+            'aguada':'aguada de pasajeros','aguada (oeste':'aguada de pasajeros',
+            'pasacaballo':'pasacaballos','abreus (pueblo':'abreus','lajas (pueblo':'lajas',
+            'cruces (norte':'cruces','cruces (sur':'cruces','cumanayagua (sur':'cumanayagua',
+            'cumanayagua (centro':'cumanayagua','palmira (norte':'palmira','palmira (sur':'palmira',
+            'juragua (oeste':'juragua','fw1558) la pollera':'la pollera'} if prov=='cienfuegos' else {}
+        target=aliases.get(k,k)
+        e=self.cache.get(clave_cache(prov,target))
+        if e and 'lat' in e and en_caja(prov,e['lat'],e['lng']):
+            return e['lat'],e['lng'],'ciudad' if target!=k else e.get('precision','localidad'),e.get('fuente','cache')
         return None
 
 
@@ -87,8 +93,8 @@ class Resolvedor:
 def _marcar_dudosos(prov, puntos):
     reales = [p for p in puntos]
     for p in reales:
-        p["dudoso"] = False
-        if p["fuente"] != "gazetteer":
+        p["dudoso"] = p["fuente"] in ("legacy-nominatim","cache")
+        if p["fuente"] not in ("gazetteer","nominatim-verificado","manual-fraudy"):
             if fold(p["lugar"]) in AMBIGUOS:
                 p["dudoso"] = True
             if provincia_mas_cercana(p["lat"], p["lng"]) != prov:
@@ -121,6 +127,10 @@ def construir_circuito(prov, cid, lugares, resolver_lugar):
         if not r:
             continue
         lat, lng, prec, fuente = r
+        if not en_caja(prov,lat,lng): continue
+        if prov=="cienfuegos":
+            from geometria import en_cienfuegos
+            if not en_cienfuegos(lat,lng): continue
         k = (round(lat, 4), round(lng, 4))
         if k in vistos:
             continue
