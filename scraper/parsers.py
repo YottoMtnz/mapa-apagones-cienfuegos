@@ -354,6 +354,66 @@ SIN_AFECTACION = re.compile(
     r'todos los circuitos (?:han sido |fueron )?restablecidos)', re.I)
 
 
+# ---------------------------------------------------------------- Criterios humanos
+# Sistema de comprensión por criterios generales (no frases exactas).
+# Un humano identifica el tipo de mensaje por el SENTIDO, no por plantillas.
+
+# Criterio: el mensaje habla de FALTA de servicio
+_CRIT_FALTA = [
+    r'afectad[oa]s?', r'sin servicio', r'sin corriente', r'sin energ[íi]a',
+    r'sin electricidad', r'disparo', r'disparad[oa]', r'aver[íi]a',
+    r'interrupci[óo]n', r'interrumpid[oa]', r'fuera de servicio',
+    r'apag[óo]n', r'se qued[óo] sin', r'quedaron sin',
+]
+# Criterio: el mensaje habla de servicio RESTABLECIDO
+_CRIT_RESTABLECIDO = [
+    r'restablecid[oa]s?', r'restableci[óo]', r'recuperad[oa]s?',
+    r'normalizad[oa]', r'ya (?:tienen|cuentan) con servicio',
+    r'servicio normal',
+]
+# Criterio: el mensaje es PROGRAMADO (futuro)
+_CRIT_PROGRAMADO = [
+    r'programad[oa]s?', r'planificad[oa]s?', r'mantenimiento',
+    r'ser[áa]n afectad[oa]s?', r'se afectar[áa]', r'pr[óo]xim[oa]s?',
+    r'a continuaci[óo]n',
+]
+# Criterio: el mensaje es una LISTA COMPLETA (reemplaza, no suma)
+_CRIT_LISTA_COMPLETA = [
+    r'actualizaci[óo]n', r'contin[úu]an en aver[íi]a',
+    r'se mantienen afectad[oa]s?', r'estado actual',
+]
+
+
+def clasificar_mensaje(texto):
+    """
+    Clasifica el mensaje por criterios humanos. Devuelve dict con:
+    - intencion: 'corte' | 'restablecido' | 'programado' | 'sin_afectacion' | 'irrelevante'
+    - lista_completa: True si el mensaje pretende ser la lista total vigente
+    """
+    t = texto.lower()
+    # Sin afectación (cierra todo)
+    if SIN_AFECTACION.search(texto):
+        return {"intencion": "sin_afectacion", "lista_completa": True}
+    # Programado (futuro) tiene prioridad sobre corte
+    if any(re.search(p, t) for p in _CRIT_PROGRAMADO):
+        # Pero si también habla de falta actual, es corte (ej: "programado para mañana, hoy afectados X")
+        if any(re.search(p, t) for p in _CRIT_FALTA) and not re.search(
+                r'(mañana|pr[óo]ximo|el d[íi]a \d+)', t):
+            pass  # es corte actual, seguir
+        else:
+            return {"intencion": "programado",
+                    "lista_completa": any(re.search(p, t) for p in _CRIT_LISTA_COMPLETA)}
+    # Restablecido
+    if any(re.search(p, t) for p in _CRIT_RESTABLECIDO):
+        return {"intencion": "restablecido",
+                "lista_completa": any(re.search(p, t) for p in _CRIT_LISTA_COMPLETA)}
+    # Corte / falta de servicio
+    if any(re.search(p, t) for p in _CRIT_FALTA):
+        return {"intencion": "corte",
+                "lista_completa": any(re.search(p, t) for p in _CRIT_LISTA_COMPLETA)}
+    return {"intencion": "irrelevante", "lista_completa": False}
+
+
 def detectar_tipo(texto):
     """
     "programado" (futuro) o "actual". Heurística heredada: NO verificada contra
