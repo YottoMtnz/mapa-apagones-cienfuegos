@@ -1,0 +1,12 @@
+name: Ayuda para generar sesión Telegram
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  instrucciones:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo 'Genera la sesión en tu PC con GENERAR_SESION.bat.'
+          echo 'Guárdala como secreto TG_SESSION junto con TG_API_ID y TG_API_HASH.'
+          echo 'No introduzcas códigos de acceso en formularios públicos ni subas SESSION.txt.’
