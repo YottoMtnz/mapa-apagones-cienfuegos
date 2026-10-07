@@ -1,107 +1,90 @@
-name: Mapa Apagones Cienfuegos
-
+name: Mapa de Apagones Cienfuegos
 on:
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
     inputs:
       modo:
-        description: 'Modo: "sesion-paso1", "sesion-paso2", "actualizar" o "inventario"'
-        required: true
-        default: 'actualizar'
-      telefono:
-        description: 'Tu numero con codigo de pais (solo sesion-paso1)'
-        required: false
-      codigo:
-        description: 'Codigo de Telegram (solo sesion-paso2)'
-        required: false
-      api_id:
-        description: 'Tu api_id (solo sesion)'
-        required: false
-      api_hash:
-        description: 'Tu api_hash (solo sesion)'
-        required: false
-
+        description: Modo de lectura
+        type: choice
+        options: [actualizar, estudio]
+        default: actualizar
+  push:
+    branches: [main]
+    paths: ['index.html', 'config.js', 'assets/**', 'scraper/**', 'requirements.txt', '.github/workflows/mapa.yml']
+permissions:
+  contents: write
+concurrency:
+  group: mapa-cienfuegos
+  cancel-in-progress: false
 jobs:
-  sesion-paso1:
-    if: inputs.modo == 'sesion-paso1'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: '3.12' }
-      - run: pip install telethon
-      - run: |
-          python3 - <<'EOF'
-          from telethon.sync import TelegramClient
-          import os
-          client = TelegramClient("tmp", int(os.environ["API_ID"]), os.environ["API_HASH"])
-          client.connect()
-          sent = client.send_code_request(os.environ["PHONE"])
-          open("code_hash.txt","w").write(sent.phone_code_hash)
-          open("phone.txt","w").write(os.environ["PHONE"])
-          print("CODIGO ENVIADO. Corre de nuevo con modo=sesion-paso2 y el codigo.")
-          client.disconnect()
-          EOF
-        env:
-          API_ID: ${{ inputs.api_id }}
-          API_HASH: ${{ inputs.api_hash }}
-          PHONE: ${{ inputs.telefono }}
-      - uses: actions/upload-artifact@v4
-        with: { name: tg-estado, path: "code_hash.txt\nphone.txt" }
-
-  sesion-paso2:
-    if: inputs.modo == 'sesion-paso2'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: '3.12' }
-      - run: pip install telethon
-      - uses: actions/download-artifact@v4
-        with: { name: tg-estado }
-      - run: |
-          python3 - <<'EOF'
-          from telethon.sync import TelegramClient
-          from telethon.sessions import StringSession
-          import os
-          pch = open("code_hash.txt").read().strip()
-          phone = open("phone.txt").read().strip()
-          client = TelegramClient(StringSession(), int(os.environ["API_ID"]), os.environ["API_HASH"])
-          client.connect()
-          client.sign_in(phone=phone, code=os.environ["CODE"].strip(), phone_code_hash=pch)
-          open("SESSION.txt","w").write(client.session.save())
-          print("OK. Descarga SESSION.txt y guardalo como secreto TG_SESSION.")
-          client.disconnect()
-          EOF
-        env:
-          API_ID: ${{ inputs.api_id }}
-          API_HASH: ${{ inputs.api_hash }}
-          CODE: ${{ inputs.codigo }}
-      - uses: actions/upload-artifact@v4
-        with: { name: tg-session, path: SESSION.txt }
-
   actualizar:
-    if: inputs.modo == 'actualizar' || inputs.modo == 'inventario' || github.event_name == 'schedule'
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
-        with: { python-version: '3.12' }
-      - run: pip install telethon
-      - run: |
-          if [ "${{ inputs.modo }}" = "inventario" ]; then
-            python3 scraper/inventario.py
-          else
-            python3 scraper/actualizar.py
-          fi
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Dependencias y OCR gratuito en español
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-spa
+          python -m pip install -r requirements.txt
+      - name: Recuperar lecturas de imágenes
+        uses: actions/cache@v4
+        with:
+          path: .cache/ocr.json
+          key: ocr-v3-${{ github.run_id }}
+          restore-keys: ocr-v3-
+      - name: Pruebas de regresión
+        run: python -m unittest discover -s tests -v
+      - name: Leer canal de Cienfuegos
+        id: lectura
+        continue-on-error: true
+        run: python scraper/actualizar.py
         env:
           TG_SESSION: ${{ secrets.TG_SESSION }}
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
-      - name: Commit si hay cambios
+          MODO_ESTUDIO: ${{ inputs.modo == 'estudio' && '1' || '' }}
+          MAX_OCR_POR_CICLO: '16'
+          MAX_MENSAJES: '200'
+      - name: Guardar cambios de estado
         run: |
-          git config user.name "MapaBot"
-          git config user.email "mapabot@users.noreply.github.com"
-          git add data/
-          git diff --staged --quiet || (git commit -m "Actualizar estado apagones" && git push)
+          git config user.name MapaBot
+          git config user.email mapabot@users.noreply.github.com
+          git add data/estado_cienfuegos.json
+          if ! git diff --staged --quiet; then
+            git commit -m "Actualizar estado Cienfuegos"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Preparar web pública
+        run: python scraper/preparar_web.py
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Registrar fallo de lectura sin ocultarlo
+        if: steps.lectura.outcome == 'failure'
+        run: echo '::warning::La lectura del canal falló. El mapa mostrará el aviso y los datos sin confirmar.'
+    outputs:
+      lectura: ${{ steps.lectura.outcome }}
+  publicar:
+    needs: actualizar
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
+      - name: Señalar error del canal
+        if: needs.actualizar.outputs.lectura == 'failure'
+        run: exit 1
