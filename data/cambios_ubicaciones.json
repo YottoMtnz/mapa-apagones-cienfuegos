@@ -1,0 +1,197 @@
+{
+  "antes": {
+    "circuitos_ubicados": 52,
+    "puntos": 119
+  },
+  "despues": {
+    "circuitos_ubicados": 57,
+    "puntos": 123
+  },
+  "retirados": [
+    {
+      "circuito": "C-38",
+      "lugar": "La Jutía",
+      "lat": 22.4861,
+      "lng": -80.85079,
+      "precision": "localidad",
+      "fuente": "legacy-nominatim",
+      "dudoso": true,
+      "motivo": "fuera_de_provincia"
+    },
+    {
+      "circuito": "C-42",
+      "lugar": "Viet Nam",
+      "lat": 22.14263,
+      "lng": -79.96995,
+      "precision": "localidad",
+      "fuente": "legacy-nominatim",
+      "dudoso": true,
+      "motivo": "fuera_de_provincia"
+    },
+    {
+      "circuito": "C-7",
+      "lugar": "Santa Susana",
+      "lat": 22.38128,
+      "lng": -80.15038,
+      "precision": "localidad",
+      "fuente": "legacy-nominatim",
+      "dudoso": true,
+      "motivo": "fuera_de_provincia"
+    },
+    {
+      "circuito": "C-80",
+      "lugar": "Parque José Martí",
+      "lat": 22.34289,
+      "lng": -80.27283,
+      "precision": "localidad",
+      "fuente": "legacy-nominatim",
+      "dudoso": false,
+      "motivo": "ubicacion_incompatible_sin_respaldo"
+    },
+    {
+      "circuito": "C-35",
+      "lugar": "Terraza",
+      "lat": 22.1443477,
+      "lng": -80.4550018,
+      "precision": "localidad",
+      "fuente": "nominatim",
+      "dudoso": true,
+      "motivo": "ubicacion_incompatible_sin_respaldo"
+    },
+    {
+      "circuito": "C-63",
+      "lugar": "Las 500",
+      "lat": 22.4157061,
+      "lng": -80.2943145,
+      "precision": "localidad",
+      "fuente": "nominatim",
+      "dudoso": true,
+      "motivo": "ubicacion_incompatible_sin_respaldo"
+    },
+    {
+      "circuito": "C-72",
+      "lugar": "Porcino",
+      "lat": 22.3352713,
+      "lng": -80.7831277,
+      "precision": "localidad",
+      "fuente": "nominatim",
+      "dudoso": true,
+      "motivo": "ubicacion_incompatible_sin_respaldo"
+    }
+  ],
+  "corregidos": [
+    {
+      "circuito": "C-27",
+      "lugar": "Juraguá",
+      "lat": 22.0980303,
+      "lng": -80.5572082,
+      "precision": "localidad"
+    },
+    {
+      "circuito": "C-56",
+      "lugar": "Cruces (Norte",
+      "lat": 22.3429449,
+      "lng": -80.2727876,
+      "precision": "ciudad"
+    },
+    {
+      "circuito": "C-80",
+      "lugar": "Parque José Martí",
+      "motivo": "misma_referencia_Parque_Marti_C5",
+      "pendiente_revision": true
+    },
+    {
+      "circuito": "C-85",
+      "lugar": "Cumanayagua (Centro",
+      "lat": 22.1493835,
+      "lng": -80.2021172,
+      "precision": "ciudad"
+    },
+    {
+      "circuito": "C-36",
+      "lugar": "Cumanayagua (Sur",
+      "lat": 22.1493835,
+      "lng": -80.2021172,
+      "precision": "ciudad"
+    },
+    {
+      "circuito": "C-86",
+      "lugar": "Cumanayagua",
+      "lat": 22.1493835,
+      "lng": -80.2021172,
+      "precision": "ciudad"
+    }
+  ],
+  "anadidos": [
+    {
+      "circuito": "C-21",
+      "lugar": "Las Medidas",
+      "lat": 22.4304338,
+      "lng": -80.5804862,
+      "precision": "localidad"
+    },
+    {
+      "circuito": "C-25",
+      "lugar": "Abreus (Pueblo",
+      "lat": 22.2777305,
+      "lng": -80.5698519,
+      "precision": "ciudad"
+    },
+    {
+      "circuito": "C-50",
+      "lugar": "Palmira (Norte",
+      "lat": 22.2414566,
+      "lng": -80.3931021,
+      "precision": "ciudad"
+    },
+    {
+      "circuito": "C-55",
+      "lugar": "Cruces (Sur",
+      "lat": 22.3429449,
+      "lng": -80.2727876,
+      "precision": "ciudad"
+    },
+    {
+      "circuito": "C-6",
+      "lugar": "Pasacaballo",
+      "lat": 22.0649674,
+      "lng": -80.4584545,
+      "precision": "ciudad"
+    },
+    {
+      "circuito": "C-63",
+      "lugar": "Juraguá (Oeste",
+      "lat": 22.0980303,
+      "lng": -80.5572082,
+      "precision": "ciudad"
+    },
+    {
+      "circuito": "C-72",
+      "lugar": "Palmira (Sur",
+      "lat": 22.2414566,
+      "lng": -80.3931021,
+      "precision": "ciudad"
+    },
+    {
+      "circuito": "C-78",
+      "lugar": "Aguada (Oeste",
+      "lat": 22.3833314,
+      "lng": -80.8481784,
+      "precision": "ciudad"
+    },
+    {
+      "circuito": "C-84",
+      "lugar": "San Fernando de Camarones",
+      "lat": 22.2469951,
+      "lng": -80.2956149,
+      "precision": "localidad"
+    },
+    {
+      "circuito": "C-90",
+      "lugar": "FW1558) La Pollera",
+      "lat": 22.2646993,
+      "lng": -80.7160499,
+      "precision": "ciudad"
+    }
+  ]
+}
