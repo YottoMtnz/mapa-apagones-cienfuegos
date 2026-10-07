@@ -78,6 +78,7 @@ def analizar_mensajes(prov, mensajes, ahora):
         return est
 
     afectados_visto = False
+    sospechosos = []
     for texto, fecha in mensajes:
         est["mensajes_leidos"] += 1
         if not texto:
@@ -91,6 +92,10 @@ def analizar_mensajes(prov, mensajes, ahora):
             continue
         r = parser(texto)
         if not r:
+            # Monitoreo proactivo de formatos: si menciona circuitos pero no parsea, guardarlo
+            import re as _re
+            if _re.search(r'\b[CS][-_ ]?\d{1,4}\b', texto, _re.I) and len(sospechosos) < 5:
+                sospechosos.append({"fecha": fecha.isoformat(), "texto": texto[:500]})
             continue
         # Expandir marcadores MUN:xxx a circuitos reales (inferencia lógica)
         # Ej: "MUN:vertientes" -> circuitos cuyos lugares mencionan Vertientes
@@ -222,6 +227,8 @@ def analizar_mensajes(prov, mensajes, ahora):
 
     est["total_circuitos_afectados"] = len(est["afectados"])
     est["total_circuitos_programados"] = len(est["programados"])
+    if sospechosos:
+        est["formatos_sospechosos"] = sospechosos
     if est["reporte_fecha"] and not est["reporte_vencido"]:
         f = datetime.fromisoformat(est["reporte_fecha"])
         if ahora - f < timedelta(hours=24):
