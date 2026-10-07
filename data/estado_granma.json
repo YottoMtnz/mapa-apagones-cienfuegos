@@ -1,21 +1,15 @@
 {
   "schema": 2,
-  "estado_datos": "ok",
+  "estado_datos": "sin_reporte_reciente",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-06T13:29:59+00:00",
+  "reporte_fecha": null,
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 50,
-  "afectados": {
-    "Ceiba Hueca": [],
-    "Campechuela": [],
-    "Jimmy Hirzel": [],
-    "Media Luna": [],
-    "La Jagua": []
-  },
+  "mensajes_leidos": 0,
+  "afectados": {},
   "programados": {},
-  "total_circuitos_afectados": 5,
+  "total_circuitos_afectados": 0,
   "total_circuitos_programados": 0,
   "mw": null,
   "hora_inicio": null,
@@ -23,5 +17,5 @@
   "tiempos": {},
   "causas": {},
   "error": null,
-  "actualizado": "2026-10-06T13:39:03.962916+00:00"
+  "actualizado": null
 }
