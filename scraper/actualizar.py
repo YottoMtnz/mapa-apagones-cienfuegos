@@ -249,11 +249,19 @@ def analizar_mensajes(prov, mensajes, ahora):
     # Vencer cortes individuales viejos sin reafirmar
     # (el canal nunca publica restablecimientos; un disparo/avería que no se
     # menciona en 6 horas se asume resuelto)
+    # PERO: solo si el canal ha publicado algo DESPUÉS (de noche 12-6am no
+    # publican; sin actividad nueva no vence nada para evitar falsos verdes)
+    ultimo_msg = None
+    for _, fecha in mensajes:
+        if fecha and (ultimo_msg is None or fecha > ultimo_msg):
+            ultimo_msg = fecha
     if "_corte_tiempo" in est:
         for cid, ts in list(est["_corte_tiempo"].items()):
             try:
                 f = datetime.fromisoformat(ts)
-                if ahora - f > timedelta(hours=6):
+                # ¿Hubo actividad del canal después de este corte?
+                hubo_actividad = ultimo_msg and ultimo_msg > f
+                if hubo_actividad and ahora - f > timedelta(hours=6):
                     est["afectados"].pop(cid, None)
                     est["_averia_ids"].discard(cid)
                     del est["_corte_tiempo"][cid]
