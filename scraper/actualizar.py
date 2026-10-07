@@ -1,21 +1,6 @@
-"""
-Scraper multi-provincia de apagones en Cuba (capa DINÁMICA).
-Lee los últimos mensajes de cada canal de Telegram, extrae circuitos afectados y
-escribe data/estado_<prov>.json.
-
-Variables de entorno: TG_SESSION, TG_API_ID, TG_API_HASH (GitHub Secrets).
-Opcionales: MAX_EDAD_HORAS (def. 12), HEARTBEAT_MIN (def. 10).
-
-Garantías (lo que antes fallaba):
-  * Si falla la lectura de una provincia se CONSERVA su estado anterior (antes se
-    sobrescribía con afectados vacíos => todo "con servicio" por un fallo de red).
-  * Una lista de afectados más vieja que MAX_EDAD_HORAS se descarta (antes un reporte
-    de hace días seguía en rojo). Se marca reporte_vencido=true.
-  * Un mensaje posterior que dice "sin afectaciones" cierra la lista anterior.
-  * estado_datos = "ok" | "sin_reporte_reciente" | "sin_fuente" | "error": el mapa solo
-    pinta VERDE con "ok". Matanzas/Pinar/Guantánamo no tienen parser => "sin_fuente".
-  * Solo se reescribe el archivo si cambia el contenido, o si la última marca de
-    tiempo supera HEARTBEAT_MIN. Evita ~288 commits diarios sin cambios.
+"""Estado eléctrico de Cienfuegos. Texto + OCR, eventos cronológicos y procedencia.
+Los módulos provinciales heredados quedan para compatibilidad; main SOLO consulta Cienfuegos.
+Variables: TG_SESSION, TG_API_ID, TG_API_HASH; opcionales MAX_MENSAJES, MAX_OCR_POR_CICLO.
 """
 import os, json, sys, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -57,233 +42,130 @@ def leer_previo(prov):
         return None
 
 
-def analizar_mensajes(prov, mensajes, ahora):
+def analizar_mensajes(prov, mensajes, ahora, catalogo=None):
+    """Reproduce eventos por fecha de publicación (las ediciones sustituyen el contenido).
+    Acepta tuplas antiguas o registros con texto/fecha/id/url/ocr. Nunca vence a verde.
     """
-    mensajes: iterable de (texto, fecha_utc) de MÁS NUEVO a MÁS VIEJO.
-    Devuelve el dict de estado (sin 'actualizado'). Función pura => testeable.
-    """
-    parser = PARSERS.get(prov)
-    est = {
-        "schema": 2, "estado_datos": "sin_reporte_reciente",
-        "fuente_afectados": parser is not None,
-        "reporte_fecha": None, "reporte_vencido": False, "sin_afectaciones": False,
-        "programado_fecha": None, "mensajes_leidos": 0,
-        "afectados": {}, "programados": {},
-        "total_circuitos_afectados": 0, "total_circuitos_programados": 0,
-        "mw": None, "hora_inicio": None, "cierre": None, "tiempos": {}, "causas": {},
-        "error": None,
-    }
-    if parser is None:
-        est["estado_datos"] = "sin_fuente"
-        return est
-
-    afectados_visto = False
-    sospechosos = []
-    for texto, fecha in mensajes:
-        est["mensajes_leidos"] += 1
-        if not texto:
-            continue
-        if not afectados_visto and SIN_AFECTACION.search(texto) and not parser(texto):
-            # El mensaje más reciente relevante dice que no hay afectaciones
-            afectados_visto = True
-            est["sin_afectaciones"] = True
-            est["afectados"] = {}
-            est["reporte_fecha"] = fecha.isoformat()
-            continue
-        r = parser(texto)
-        if not r:
-            # Monitoreo proactivo de formatos: si menciona circuitos pero no parsea, guardarlo
-            import re as _re
-            if _re.search(r'\b[CS][-_ ]?\d{1,4}\b', texto, _re.I) and len(sospechosos) < 5:
-                sospechosos.append({"fecha": fecha.isoformat(), "texto": texto[:500]})
-            continue
-        # Expandir marcadores MUN:xxx a circuitos reales (inferencia lógica)
-        # Ej: "MUN:vertientes" -> circuitos cuyos lugares mencionan Vertientes
-        r_exp = {}
-        for cid, zonas in r.items():
-            if cid.startswith("MUN:"):
-                mun = cid[4:].lower()
-                # Buscar en catálogo circuitos con lugares que coincidan
-                try:
-                    cat = json.load(open(os.path.join(BASE, "data", f"circuitos_{prov}.json")))
-                    for rcid, rc in cat.get("circuitos", {}).items():
-                        for lug in rc.get("lugares", []):
-                            # Normalizar: sin acentos, minúsculas
-                            import unicodedata
-                            nl = unicodedata.normalize('NFD', lug.lower()).encode('ascii', 'ignore').decode()
-                            nm = unicodedata.normalize('NFD', mun).encode('ascii', 'ignore').decode()
-                            if nm in nl or nl in nm:
-                                if rcid not in r_exp:
-                                    r_exp[rcid] = rc.get("lugares", [])
-                                break
-                except:
-                    pass
-                # Si no hay match, usar el municipio como zona genérica
-                if not any(k for k in r_exp if k != cid):
-                    r_exp[cid] = zonas
-            else:
-                r_exp[cid] = zonas
-        r = r_exp
-        tipo = detectar_tipo(texto)
-        if tipo == "programado" and not est["programados"]:
-            est["programados"] = r
-            est["programado_fecha"] = fecha.isoformat()
-        elif tipo == "actual":
-            if not afectados_visto:
-                afectados_visto = True
-                est["reporte_fecha"] = fecha.isoformat()
-                if ahora - fecha > timedelta(hours=MAX_EDAD_H):
-                    est["reporte_vencido"] = True      # demasiado viejo: no se muestra como actual
-            # Si ya se declaró "sin afectaciones", no mezclar mensajes viejos
-            if est.get("sin_afectaciones"):
+    from interpretador import interpretar
+    if catalogo is None:
+        try:
+            with open(os.path.join(BASE,'data',f'circuitos_{prov}.json'),encoding='utf-8') as f:
+                catalogo=json.load(f).get('circuitos',{})
+        except (OSError,ValueError): catalogo={}
+    est={"schema":3,"estado_datos":"sin_reporte_reciente","fuente_afectados":prov in PARSERS,
+         "reporte_fecha":None,"reporte_vencido":False,"sin_afectaciones":False,
+         "programado_fecha":None,"mensajes_leidos":0,"afectados":{},"programados":{},
+         "confirmados_con_servicio":{},"evidencias":{},"horarios":{},"cobertura":"parcial",
+         "mw":None,"hora_inicio":None,"cierre":None,"tiempos":{},"causas":{},"error":None,
+         "pendientes_revision":[],"lectura":{"texto":0,"imagenes":0,"pdf":0,"no_leidos":0}}
+    if prov not in PARSERS:
+        est['estado_datos']='sin_fuente'; return est
+    registros=[]
+    for ix,m in enumerate(mensajes):
+        if isinstance(m,dict): r=dict(m)
+        else: r={'texto':m[0] or '', 'fecha':m[1]}
+        f=r.get('fecha')
+        if isinstance(f,str): f=datetime.fromisoformat(f.replace('Z','+00:00'))
+        if not f: continue
+        if f.tzinfo is None: f=f.replace(tzinfo=timezone.utc)
+        r['fecha']=f; r.setdefault('id',ix); registros.append(r)
+    registros.sort(key=lambda r:(r['fecha'],r['id']))
+    activos={}; verdes={}; planes={}; evidencia={}; ultima=None; ultima_global=None
+    snapshot_grupos={}
+    for r in registros:
+        fecha=r['fecha']; est['mensajes_leidos']+=1
+        medio=r.get('medio','texto'); est['lectura'][medio if medio in ('texto','imagenes','pdf') else 'texto']+=1
+        if r.get('error_lectura'):
+            est['lectura']['no_leidos']+=1
+            est['lectura_incompleta_desde']=fecha.isoformat()
+            est['pendientes_revision'].append({'id':r['id'],'url':r.get('url'),'fecha':fecha.isoformat(),'motivo':r['error_lectura']})
+        if fecha>ahora+timedelta(minutes=5): continue
+        texto=r.get('texto','')
+        eventos,pendientes=interpretar(prov,texto,fecha,catalogo)
+        for q in pendientes:
+            est['pendientes_revision'].append({**q,'id':r['id'],'url':r.get('url'),'fecha':fecha.isoformat()})
+        for ev in eventos:
+            action=ev['accion']; ids=ev['circuitos']; scope=ev['alcance']
+            if r.get('error_lectura'):
+                ev['completa']=False
+                if action=='sin_afectacion': continue
+            if medio in ('imagenes','pdf') and r.get('confianza',100)<100:
+                desconocidos=set(ids)-set(catalogo)
+                if desconocidos:
+                    est['pendientes_revision'].append({'id':r['id'],'url':r.get('url'),'motivo':'OCR_circuito_no_catalogado','circuitos':sorted(desconocidos)})
+                    ids={k:v for k,v in ids.items() if k in catalogo};ev['completa']=False
+                if not ids and action!='sin_afectacion': continue
+            if action=='programado':
+                horario=ev.get('horario',{})
+                if horario.get('fecha_ambigua'):
+                    est['pendientes_revision'].append({'id':r['id'],'motivo':'fecha_ambigua','url':r.get('url')}); continue
+                fin=horario.get('fin')
+                if fin and datetime.fromisoformat(fin)<=ahora: continue
+                if ahora-fecha>timedelta(days=7): continue
+            elif ahora-fecha>timedelta(hours=MAX_EDAD_H):
+                est['reporte_vencido']=True; continue
+            prueba={'fecha':fecha.isoformat(),'mensaje_id':r['id'],'url':r.get('url'),
+                    'medio':medio,'editado':r.get('editado'),'confianza':r.get('confianza',100),'texto':ev['texto']}
+            if action in ('corte','restablecido','sin_afectacion'):
+                ultima=fecha
+            if action=='cancelado':
+                for cid in ids: planes.pop(cid,None)
                 continue
-            if not est["reporte_vencido"]:
-                # Clasificación por criterios humanos (no frases exactas)
-                clasif = clasificar_mensaje(texto)
-                intencion = clasif["intencion"]
-                # 'restablecido': quitar esos circuitos de afectados
-                if intencion == "restablecido":
-                    for cid in r:
-                        est["afectados"].pop(cid, None)
-                    continue
-                # 'irrelevante' o 'sin_afectacion' (ya manejado arriba): saltar
-                if intencion in ("irrelevante", "sin_afectacion"):
-                    continue
-                # Distinguir: lista completa (reemplaza) vs corte nuevo (se suma)
-                # Criterio humano: ¿el mensaje pretende ser LA lista vigente?
-                es_lista_completa = clasif["lista_completa"]
-                # Compat: mantener detección de "actualización"/"continúan en avería"
-                # como casos específicos de lista completa
-                t_lower = texto.lower()
-                es_actualizacion = "actualizaci" in t_lower or es_lista_completa
-                es_lista_averias = ("continuan en averia" in t_lower
-                                    or "continúan en avería" in t_lower
-                                    or (intencion == "corte" and es_lista_completa))
-                # Inicializar sets de seguimiento
-                if "_deficit_ids" not in est:
-                    est["_deficit_ids"] = set()
-                    est["_averia_ids"] = set()
-                if es_actualizacion:
-                    # Si hay múltiples "actualización" juntas (menos de 3 min entre sí),
-                    # son partes de la MISMA lista dividida -> UNIRLAS.
-                    # Si están separadas en el tiempo, la más nueva reemplaza.
-                    if "_visto_actualizacion" not in est:
-                        est["_visto_actualizacion"] = True
-                        est["_actualizacion_fecha"] = fecha
-                        # Nueva actualización: los no listados se restablecieron
-                        # PERO solo si no tienen avería activa
-                        for cid in list(est["_deficit_ids"]):
-                            if cid not in r and cid in est["afectados"]:
-                                if cid not in est["_averia_ids"]:
-                                    del est["afectados"][cid]
-                        est["_deficit_ids"] = set(r.keys())
+            if action=='programado':
+                for cid,z in ids.items(): planes[cid]=(z,prueba,ev.get('horario',{}))
+                est['programado_fecha']=fecha.isoformat(); continue
+            if action=='sin_afectacion':
+                for cid in list(activos):
+                    if scope=='general': activos.pop(cid,None)
                     else:
-                        # ¿Es parte de la misma ráfaga? (menos de 3 min de diferencia)
-                        try:
-                            diff = abs((est["_actualizacion_fecha"] - fecha).total_seconds())
-                        except:
-                            diff = 9999
-                        if diff < 180:  # 3 minutos: misma actualización dividida
-                            # UNIR, no reemplazar
-                            est["_deficit_ids"].update(r.keys())
+                        activos[cid].pop(scope,None)
+                        if not activos[cid]: activos.pop(cid,None)
+                if scope=='general':
+                    ultima_global=prueba
+                    verdes={cid:prueba for cid in catalogo}
+                continue
+            if action=='restablecido':
+                for cid in ids:
+                    activos.pop(cid,None); verdes[cid]=prueba; evidencia[cid]=prueba
+                continue
+            if ev['completa']:
+                # Solo unir fragmentos con el MISMO álbum, nunca por cercanía horaria.
+                grupo=r.get('grupo'); key=(scope,grupo) if grupo else None
+                unir=key is not None and key in snapshot_grupos
+                if not unir:
+                    for cid in list(activos):
+                        if scope=='general': activos.pop(cid,None)
                         else:
-                            # Actualización vieja separada: ignorar
-                            continue
-                else:
-                    if es_lista_averias:
-                        # "continúan en avería" = lista completa de fallas.
-                        # Igual que "actualización": la más nueva manda; las de la
-                        # misma ráfaga (<3 min) se unen; las viejas separadas se
-                        # ignoran (antes una lista vieja re-agregaba circuitos ya
-                        # resueltos: el bug "las averías nunca se quitan").
-                        if "_visto_averias" not in est:
-                            est["_visto_averias"] = True
-                            est["_averias_fecha"] = fecha
-                            # Las que no están se resolvieron, SALVO déficit activo
-                            for cid in list(est["_averia_ids"]):
-                                if cid not in r and cid in est["afectados"]:
-                                    if cid not in est["_deficit_ids"]:
-                                        del est["afectados"][cid]
-                            est["_averia_ids"] = set(r.keys())
-                        else:
-                            try:
-                                diff = abs((est["_averias_fecha"] - fecha).total_seconds())
-                            except:
-                                diff = 9999
-                            if diff < 180:  # misma lista dividida en varios mensajes
-                                est["_averia_ids"].update(r.keys())
-                            else:
-                                # Lista de averías vieja y separada: ignorar
-                                continue
-                    else:
-                        # Avería nueva: se suma
-                        est["_averia_ids"].update(r.keys())
-                        # Registrar cuándo se sumó cada circuito por corte individual
-                        # (el canal nunca publica restablecimientos, así que estos
-                        # vencen por tiempo si no se reafirman)
-                        if "_corte_tiempo" not in est:
-                            est["_corte_tiempo"] = {}
-                        for cid in r:
-                            # Solo si viene de corte individual (no lista completa)
-                            if not es_lista_completa:
-                                est["_corte_tiempo"][cid] = fecha.isoformat()
-                # Merge (sin duplicar)
-                for cid, zonas in r.items():
-                    if cid not in est["afectados"]:
-                        est["afectados"][cid] = zonas
-                    # Reafirmado por cualquier mensaje: actualizar timestamp
-                    if "_corte_tiempo" in est and cid in est["_corte_tiempo"]:
-                        est["_corte_tiempo"][cid] = fecha.isoformat()
-                extra = extraer_info_extra(texto, prov)
-                if est["mw"] is None:
-                    est["mw"], est["hora_inicio"], est["cierre"] = extra["mw"], extra["hora_inicio"], extra["cierre"]
-                for cid in r:
-                    nk = _norm_id(cid)
-                    if nk in extra["tiempos"] and cid not in est["tiempos"]:
-                        est["tiempos"][cid] = extra["tiempos"][nk]
-                    if nk in extra["causas"] and cid not in est["causas"]:
-                        est["causas"][cid] = extra["causas"][nk]
-        # NO hacer break aquí: seguir leyendo para combinar múltiples mensajes
-        # (avería + déficit son causas distintas, ambas válidas)
-
-    # Vencer cortes individuales viejos sin reafirmar
-    # (el canal nunca publica restablecimientos; un disparo/avería que no se
-    # menciona en 6 horas se asume resuelto)
-    # PERO: solo si el canal ha publicado algo DESPUÉS (de noche 12-6am no
-    # publican; sin actividad nueva no vence nada para evitar falsos verdes)
-    ultimo_msg = None
-    for _, fecha in mensajes:
-        if fecha and (ultimo_msg is None or fecha > ultimo_msg):
-            ultimo_msg = fecha
-    if "_corte_tiempo" in est:
-        for cid, ts in list(est["_corte_tiempo"].items()):
-            try:
-                f = datetime.fromisoformat(ts)
-                # ¿Hubo actividad del canal después de este corte?
-                hubo_actividad = ultimo_msg and ultimo_msg > f
-                if hubo_actividad and ahora - f > timedelta(hours=6):
-                    est["afectados"].pop(cid, None)
-                    est["_averia_ids"].discard(cid)
-                    del est["_corte_tiempo"][cid]
-            except:
-                pass
-        # Limpiar el dict temporal del estado final
-        est.pop("_corte_tiempo", None)
-
-    # Programados viejos (>MAX_EDAD_H) tampoco valen
-    if est["programado_fecha"]:
-        f = datetime.fromisoformat(est["programado_fecha"])
-        if ahora - f > timedelta(hours=MAX_EDAD_H):
-            est["programados"] = {}
-
-    est["total_circuitos_afectados"] = len(est["afectados"])
-    est["total_circuitos_programados"] = len(est["programados"])
-    if sospechosos:
-        est["formatos_sospechosos"] = sospechosos
-    if est["reporte_fecha"] and not est["reporte_vencido"]:
-        f = datetime.fromisoformat(est["reporte_fecha"])
-        if ahora - f < timedelta(hours=24):
-            est["estado_datos"] = "ok"
+                            activos[cid].pop(scope,None)
+                            if not activos[cid]: activos.pop(cid,None)
+                if key: snapshot_grupos[key]=True
+            for cid,z in ids.items():
+                activos.setdefault(cid,{})[scope]=(z,prueba)
+                verdes.pop(cid,None); evidencia[cid]=prueba
+            extra=extraer_info_extra(texto,prov)
+            for name in ('mw','hora_inicio','cierre'):
+                if extra.get(name) is not None: est[name]=extra[name]
+            for cid in ids:
+                nk=_norm_id(cid)
+                for name in ('tiempos','causas'):
+                    if nk in extra[name]: est[name][cid]=extra[name][nk]
+    for cid,causas in activos.items():
+        z,prueba=max(causas.values(),key=lambda x:x[1]['fecha'])
+        est['afectados'][cid]=z; est['evidencias'][cid]=prueba
+        est['causas'][cid]=' / '.join('avería' if x=='averia' else 'déficit' if x=='deficit' else 'sin precisar' for x in causas)
+    est['confirmados_con_servicio']={cid:p for cid,p in verdes.items() if cid not in activos}
+    for cid,(z,p,h) in planes.items():
+        est['programados'][cid]=z; est['horarios'][cid]=h
+        if cid not in est['evidencias']: est['evidencias'][cid]=p
+    est['evidencias'].update({cid:p for cid,p in est['confirmados_con_servicio'].items() if cid not in est['evidencias']})
+    if ultima:
+        est['reporte_fecha']=ultima.isoformat(); est['reporte_vencido']=False; est['estado_datos']='ok'
+    est['sin_afectaciones']=bool(ultima_global and not activos)
+    if ultima_global: est['cobertura']='provincial'; est['evidencia_global']=ultima_global
+    est['total_circuitos_afectados']=len(est['afectados'])
+    est['total_circuitos_programados']=len(est['programados'])
+    est['pendientes_revision']=est['pendientes_revision'][-40:]
+    est['circuitos_sin_catalogar']=sorted((set(est['afectados'])|set(est['programados']))-set(catalogo))
     return est
 
 
@@ -309,9 +191,10 @@ def guardar(prov, est, ahora):
         except (KeyError, ValueError):
             pass
     est["actualizado"] = ahora.isoformat()
-    with open(_ruta(prov), "w", encoding="utf-8") as f:
+    with open(_ruta(prov)+".tmp", "w", encoding="utf-8") as f:
         json.dump(est, f, ensure_ascii=False, indent=2)
         f.write("\n")
+    os.replace(_ruta(prov)+".tmp",_ruta(prov))
     return True
 
 
@@ -324,84 +207,59 @@ def registrar_error(prov, ahora, motivo):
     est["error"] = motivo
     est["estado_datos"] = "error"
     est["actualizado"] = ahora.isoformat()
-    with open(_ruta(prov), "w", encoding="utf-8") as f:
+    with open(_ruta(prov)+".tmp", "w", encoding="utf-8") as f:
         json.dump(est, f, ensure_ascii=False, indent=2)
         f.write("\n")
+    os.replace(_ruta(prov)+".tmp",_ruta(prov))
 
 
 def main():
-    sesion = os.environ.get("TG_SESSION", "").strip()
-    api_id = os.environ.get("TG_API_ID", "").strip()
-    api_hash = os.environ.get("TG_API_HASH", "").strip()
+    sesion=os.environ.get('TG_SESSION','').strip()
+    api_id=os.environ.get('TG_API_ID','').strip()
+    api_hash=os.environ.get('TG_API_HASH','').strip()
     if not (sesion and api_id and api_hash):
-        print("ERROR: faltan TG_SESSION, TG_API_ID o TG_API_HASH")
-        sys.exit(1)
-
+        print('ERROR: faltan TG_SESSION, TG_API_ID o TG_API_HASH'); return 1
     from telethon.sync import TelegramClient
     from telethon.sessions import StringSession
     from telethon.errors import FloodWaitError
-
-    ahora = datetime.now(timezone.utc)
-    os.makedirs(os.path.join(BASE, "data"), exist_ok=True)
-    fallos = 0
-
-    with TelegramClient(StringSession(sesion), int(api_id), api_hash) as client:
-        # MODO ESTUDIO: guardar muestras de mensajes por provincia
-        # Se activa creando el archivo data/MODO_ESTUDIO (luego se borra)
-        if os.path.exists(os.path.join(BASE, "data", "MODO_ESTUDIO")) or os.environ.get("MODO_ESTUDIO") == "1":
-            muestras = {}
-            for prov in ["cienfuegos"]:
-                canal = CANALES.get(prov)
-                if not canal:
-                    continue
-                try:
-                    msgs = []
-                    for m in client.iter_messages(canal, limit=20):
-                        if m.text:
-                            msgs.append({
-                                "fecha": m.date.astimezone(timezone.utc).isoformat(),
-                                "texto": m.text[:1500]
-                            })
-                    muestras[prov] = msgs
-                    print(f"ESTUDIO {prov}: {len(msgs)} mensajes")
-                except Exception as e:
-                    muestras[prov] = [{"error": str(e)}]
-                    print(f"ESTUDIO {prov}: ERROR {e}")
-            with open(os.path.join(BASE, "data", "estudio_canales.json"), "w") as f:
-                json.dump(muestras, f, ensure_ascii=False, indent=1)
-            print("Muestras guardadas en data/estudio_canales.json")
-            return
-
-        # Solo Cienfuegos (decisión de Fraudy 2026-10-06: pulir una provincia)
-        for prov in ["cienfuegos"]:
-            canal = CANALES.get(prov)
-            if prov in SIN_AFECTADOS or prov not in PARSERS:
-                est = analizar_mensajes(prov, [], ahora)
-                print(f"{prov}: sin fuente de afectados ({guardar(prov, est, ahora) and 'escrito' or 'igual'})")
-                continue
-            for intento in (1, 2):
-                try:
-                    msgs = [(m.text, m.date.astimezone(timezone.utc))
-                            for m in client.iter_messages(canal, limit=50)]
-                    est = analizar_mensajes(prov, msgs, ahora)
-                    cambio = guardar(prov, est, ahora)
-                    print(f"{prov}: {len(est['afectados'])} afectados, {len(est['programados'])} programados "
-                          f"[{est['estado_datos']}] {'escrito' if cambio else 'sin cambios'}")
-                    break
-                except FloodWaitError as e:
-                    espera = min(int(e.seconds), 60)
-                    print(f"{prov}: FloodWait {e.seconds}s; espero {espera}s")
-                    time.sleep(espera)
-                except Exception as e:
-                    if intento == 2:
-                        fallos += 1
-                        registrar_error(prov, ahora, type(e).__name__)
-                        print(f"{prov}: ERROR {type(e).__name__} (se conserva el estado anterior)")
-    # Falla el job solo si TODO falló (credenciales caducadas): así se nota en Actions
-    if fallos >= len([p for p in PROVINCIAS if p in PARSERS]):
-        sys.exit(2)
-    print("OK")
+    from lectura import leer_canal
+    ahora=datetime.now(timezone.utc)
+    os.makedirs(os.path.join(BASE,'data'),exist_ok=True)
+    prov='cienfuegos'  # Alcance deliberado: nunca consultar otras provincias.
+    try:
+        client=TelegramClient(StringSession(sesion),int(api_id),api_hash,
+                              timeout=25,connection_retries=2,request_retries=2,flood_sleep_threshold=0)
+        client.connect()
+        if not client.is_user_authorized():
+            raise RuntimeError('SesionNoAutorizada')
+        for intento in range(3):
+            try:
+                msgs=leer_canal(client,CANALES[prov],ahora,BASE)
+                est=analizar_mensajes(prov,msgs,ahora)
+                # Límite alcanzado: advertir que pudo faltar historial.
+                if len(msgs)>=int(os.environ.get('MAX_MENSAJES','200')):
+                    est['historial_limitado']=True
+                if os.environ.get('MODO_ESTUDIO')=='1':
+                    with open(os.path.join(BASE,'data','estudio_canales.json'),'w',encoding='utf-8') as f:
+                        json.dump({prov:msgs},f,ensure_ascii=False,indent=2,default=str)
+                guardar(prov,est,ahora)
+                print(f"{prov}: {len(est['afectados'])} afectados, {len(est['programados'])} programados, "
+                      f"{len(est['pendientes_revision'])} pendientes de revisión [{est['estado_datos']}]")
+                return 0
+            except FloodWaitError as e:
+                # Respetar la espera completa. No recortar 2 horas a 60 segundos y reintentar.
+                if e.seconds>30 or intento==2: raise
+                time.sleep(e.seconds+1)
+            except (OSError,TimeoutError):
+                if intento==2: raise
+                time.sleep(2**intento)
+    except Exception as e:
+        registrar_error(prov,ahora,type(e).__name__)
+        print('ERROR: '+type(e).__name__+'; se conservan los datos anteriores.'); return 2
+    finally:
+        if 'client' in locals(): client.disconnect()
+    return 2
 
 
-if __name__ == "__main__":
-    main()
+if __name__=='__main__':
+    sys.exit(main())
