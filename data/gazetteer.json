@@ -1,42 +1,783 @@
 {
   "_nota": "Coordenadas de cabeceras municipales y localidades conocidas, escritas a mano (precision ~2-5 km). Formato: nombre_sin_acentos_minusculas: [lat, lng, precision, nota]. 'ciudad' = cabecera/pueblo (un pin representa todo el pueblo). Tienen PRIORIDAD sobre Nominatim. Verificar/ampliar con cualquier fuente fiable; NO anadir coordenadas de memoria si no se esta seguro: un circuito sin ubicar es mejor que uno mal ubicado.",
   "holguin": {
-    "holguin":        [20.887, -76.263, "ciudad", "capital provincial"],
-    "moa":            [20.657, -74.951, "ciudad", "cabecera municipal"],
-    "banes":          [20.962, -75.719, "ciudad", "cabecera municipal"],
-    "mayari":         [20.659, -75.686, "ciudad", "cabecera municipal"],
-    "gibara":         [21.108, -76.133, "ciudad", "cabecera municipal"],
-    "antilla":        [20.840, -75.738, "ciudad", "cabecera municipal"],
-    "sagua de tanamo":[20.585, -75.241, "ciudad", "cabecera municipal"],
-    "cueto":          [20.717, -75.930, "ciudad", "cabecera municipal"],
-    "nicaro":         [20.684, -75.557, "localidad", "Levisa/Nicaro, aprox."],
-    "guardalavaca":   [21.130, -75.720, "localidad", "playa, aprox."]
+    "holguin": [
+      20.887,
+      -76.263,
+      "ciudad",
+      "capital provincial"
+    ],
+    "moa": [
+      20.657,
+      -74.951,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "banes": [
+      20.962,
+      -75.719,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "mayari": [
+      20.659,
+      -75.686,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "gibara": [
+      21.108,
+      -76.133,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "antilla": [
+      20.84,
+      -75.738,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "sagua de tanamo": [
+      20.585,
+      -75.241,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "cueto": [
+      20.717,
+      -75.93,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "nicaro": [
+      20.684,
+      -75.557,
+      "localidad",
+      "Levisa/Nicaro, aprox."
+    ],
+    "guardalavaca": [
+      21.13,
+      -75.72,
+      "localidad",
+      "playa, aprox."
+    ]
   },
   "granma": {
-    "bayamo":         [20.379, -76.643, "ciudad", "capital provincial"],
-    "manzanillo":     [20.343, -77.117, "ciudad", "cabecera municipal"],
-    "niquero":        [20.040, -77.583, "ciudad", "cabecera municipal"],
-    "pilon":          [19.903, -77.316, "ciudad", "cabecera municipal"],
-    "yara":           [20.272, -76.955, "ciudad", "cabecera municipal"],
-    "jiguani":        [20.373, -76.432, "ciudad", "cabecera municipal"],
-    "guisa":          [20.256, -76.552, "ciudad", "cabecera municipal"],
-    "campechuela":    [20.239, -77.265, "ciudad", "cabecera municipal"],
-    "media luna":     [20.147, -77.433, "ciudad", "cabecera municipal"],
-    "cauto cristo":   [20.555, -76.479, "ciudad", "cabecera de Rio Cauto"],
-    "bueycito":       [20.333, -76.783, "localidad", "aprox."],
-    "bartolome maso": [20.167, -76.983, "ciudad", "cabecera municipal, aprox."]
+    "bayamo": [
+      20.379,
+      -76.643,
+      "ciudad",
+      "capital provincial"
+    ],
+    "manzanillo": [
+      20.343,
+      -77.117,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "niquero": [
+      20.04,
+      -77.583,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "pilon": [
+      19.903,
+      -77.316,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "yara": [
+      20.272,
+      -76.955,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "jiguani": [
+      20.373,
+      -76.432,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "guisa": [
+      20.256,
+      -76.552,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "campechuela": [
+      20.239,
+      -77.265,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "media luna": [
+      20.147,
+      -77.433,
+      "ciudad",
+      "cabecera municipal"
+    ],
+    "cauto cristo": [
+      20.555,
+      -76.479,
+      "ciudad",
+      "cabecera de Rio Cauto"
+    ],
+    "bueycito": [
+      20.333,
+      -76.783,
+      "localidad",
+      "aprox."
+    ],
+    "bartolome maso": [
+      20.167,
+      -76.983,
+      "ciudad",
+      "cabecera municipal, aprox."
+    ]
   },
   "ciego-de-avila": {
-    "ciego de avila": [21.840, -78.762, "ciudad", "capital provincial"],
-    "moron":          [22.109, -78.627, "ciudad", "cabecera municipal"]
+    "ciego de avila": [
+      21.84,
+      -78.762,
+      "ciudad",
+      "capital provincial"
+    ],
+    "moron": [
+      22.109,
+      -78.627,
+      "ciudad",
+      "cabecera municipal"
+    ]
   },
   "mayabeque": {
-    "san jose":              [22.967, -82.150, "ciudad", "San Jose de las Lajas (en Mayabeque 'San Jose' es esta ciudad)"],
-    "san jose de las lajas": [22.967, -82.150, "ciudad", "capital provincial"]
+    "san jose": [
+      22.967,
+      -82.15,
+      "ciudad",
+      "San Jose de las Lajas (en Mayabeque 'San Jose' es esta ciudad)"
+    ],
+    "san jose de las lajas": [
+      22.967,
+      -82.15,
+      "ciudad",
+      "capital provincial"
+    ]
   },
   "artemisa": {
-    "artemisa":                 [22.813, -82.763, "ciudad", "capital provincial"],
-    "san antonio de los banos": [22.891, -82.503, "ciudad", "S.A.B."],
-    "bahia honda":              [22.904, -83.166, "ciudad", "cabecera municipal"]
+    "artemisa": [
+      22.813,
+      -82.763,
+      "ciudad",
+      "capital provincial"
+    ],
+    "san antonio de los banos": [
+      22.891,
+      -82.503,
+      "ciudad",
+      "S.A.B."
+    ],
+    "bahia honda": [
+      22.904,
+      -83.166,
+      "ciudad",
+      "cabecera municipal"
+    ]
+  },
+  "cienfuegos": {
+    "cartagena": [
+      22.4260925,
+      -80.4587286,
+      "ciudad",
+      "https://www.openstreetmap.org/node/1546988896"
+    ],
+    "la modelo": [
+      22.4074153,
+      -80.4033633,
+      "localidad",
+      "https://www.openstreetmap.org/node/1548577188"
+    ],
+    "la piragua": [
+      22.4426164,
+      -80.3704901,
+      "localidad",
+      "https://www.openstreetmap.org/node/1548574529"
+    ],
+    "california": [
+      22.481494,
+      -80.3794497,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549068380"
+    ],
+    "el salado": [
+      22.5111717,
+      -80.4040402,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549069229"
+    ],
+    "la ciruela": [
+      22.4682647,
+      -80.4468263,
+      "localidad",
+      "https://www.openstreetmap.org/node/5261359787"
+    ],
+    "santiago de cartagena": [
+      22.5071503,
+      -80.5204897,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549052244"
+    ],
+    "lequeito": [
+      22.4615183,
+      -80.4952021,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549061258"
+    ],
+    "tulipan": [
+      22.1516847,
+      -80.4288405,
+      "localidad",
+      "https://www.openstreetmap.org/node/3158300604"
+    ],
+    "la redonda": [
+      22.2911811,
+      -80.6688953,
+      "localidad",
+      "https://www.openstreetmap.org/node/13027265712"
+    ],
+    "juragua": [
+      22.0980303,
+      -80.5572082,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549201982"
+    ],
+    "castillo de jagua": [
+      22.0650567,
+      -80.4640546,
+      "ciudad",
+      "https://www.openstreetmap.org/node/631658666"
+    ],
+    "la loma": [
+      22.070339,
+      -80.4654497,
+      "localidad",
+      "https://www.openstreetmap.org/node/12592953678"
+    ],
+    "el tablon": [
+      22.1472561,
+      -80.1288252,
+      "localidad",
+      "https://www.openstreetmap.org/node/5203476354"
+    ],
+    "el mamey": [
+      22.0572878,
+      -80.144528,
+      "localidad",
+      "https://www.openstreetmap.org/node/1545957388"
+    ],
+    "crucesitas": [
+      22.0491148,
+      -80.1695436,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543050245"
+    ],
+    "el nicho": [
+      22.0321292,
+      -80.1210707,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543049243"
+    ],
+    "crespo": [
+      22.2096585,
+      -80.1840204,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543875733"
+    ],
+    "la parra": [
+      22.2068254,
+      -80.1647955,
+      "localidad",
+      "https://www.openstreetmap.org/node/5565391616"
+    ],
+    "el jibaro": [
+      22.1815435,
+      -80.1081802,
+      "localidad",
+      "https://www.openstreetmap.org/node/1540575487"
+    ],
+    "mora": [
+      22.3745534,
+      -80.2917123,
+      "localidad",
+      "https://www.openstreetmap.org/node/8018461447"
+    ],
+    "san isidro": [
+      22.3910892,
+      -80.260984,
+      "localidad",
+      "https://www.openstreetmap.org/node/11796082213"
+    ],
+    "real campina": [
+      22.3261674,
+      -80.7793143,
+      "localidad",
+      "https://www.openstreetmap.org/node/1547055857"
+    ],
+    "los burros": [
+      22.4685389,
+      -80.837849,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549177597"
+    ],
+    "el desquite": [
+      22.3939777,
+      -80.8060291,
+      "localidad",
+      "https://www.openstreetmap.org/node/6852940274"
+    ],
+    "elpidio gomez": [
+      22.2766083,
+      -80.4216636,
+      "localidad",
+      "https://www.openstreetmap.org/node/1548443179"
+    ],
+    "altamira": [
+      22.2881334,
+      -80.4007158,
+      "localidad",
+      "https://www.openstreetmap.org/node/1548462564"
+    ],
+    "la peseta": [
+      22.2651247,
+      -80.3984806,
+      "localidad",
+      "https://www.openstreetmap.org/node/13027193326"
+    ],
+    "arriete": [
+      22.3399607,
+      -80.4121011,
+      "localidad",
+      "https://www.openstreetmap.org/node/2566588356"
+    ],
+    "ciego montero": [
+      22.3414015,
+      -80.4017554,
+      "ciudad",
+      "https://www.openstreetmap.org/node/1546989947"
+    ],
+    "la amalia": [
+      22.3795139,
+      -80.3757298,
+      "localidad",
+      "https://www.openstreetmap.org/node/7995865766"
+    ],
+    "ceiba hueca": [
+      22.3713857,
+      -80.3566714,
+      "localidad",
+      "https://www.openstreetmap.org/node/1548571620"
+    ],
+    "potrerillo": [
+      22.2687435,
+      -80.1436274,
+      "localidad",
+      "https://www.openstreetmap.org/node/1544556940"
+    ],
+    "lomitas": [
+      22.245864,
+      -80.1686995,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543877986"
+    ],
+    "lajas": [
+      22.4157061,
+      -80.2943145,
+      "ciudad",
+      "https://www.openstreetmap.org/node/449590035"
+    ],
+    "las nuevas": [
+      22.4335576,
+      -80.2555178,
+      "localidad",
+      "https://www.openstreetmap.org/node/5873643067"
+    ],
+    "el salto": [
+      22.4139119,
+      -80.3518756,
+      "localidad",
+      "https://www.openstreetmap.org/node/1548575810"
+    ],
+    "ajuria": [
+      22.4836598,
+      -80.3012405,
+      "localidad",
+      "https://www.openstreetmap.org/node/5873643066"
+    ],
+    "el pino": [
+      22.3327544,
+      -80.5355707,
+      "localidad",
+      "https://www.openstreetmap.org/node/12987456863"
+    ],
+    "congojas": [
+      22.3522034,
+      -80.5107715,
+      "localidad",
+      "https://www.openstreetmap.org/node/2566590978"
+    ],
+    "la lolita": [
+      22.3739296,
+      -80.4917556,
+      "localidad",
+      "https://www.openstreetmap.org/node/4682702335"
+    ],
+    "parque alto": [
+      22.3652939,
+      -80.5091559,
+      "localidad",
+      "https://www.openstreetmap.org/node/3812147595"
+    ],
+    "la pedrera": [
+      22.3192663,
+      -80.2950392,
+      "localidad",
+      "https://www.openstreetmap.org/node/11796082207"
+    ],
+    "san ignacio": [
+      22.1752221,
+      -80.7761482,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543301433"
+    ],
+    "babiney": [
+      22.1730554,
+      -80.8053057,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543301693"
+    ],
+    "carmelina": [
+      22.1697282,
+      -80.7448201,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549218692"
+    ],
+    "san rafael": [
+      22.2923362,
+      -80.8924221,
+      "localidad",
+      "https://www.openstreetmap.org/node/1547018818"
+    ],
+    "mijalito": [
+      22.1589824,
+      -80.7219033,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549215348"
+    ],
+    "turquino": [
+      22.4270108,
+      -80.5080156,
+      "localidad",
+      "https://www.openstreetmap.org/node/1548622469"
+    ],
+    "ariza": [
+      22.2748403,
+      -80.4826171,
+      "localidad",
+      "https://www.openstreetmap.org/node/1546991058"
+    ],
+    "silverita": [
+      22.2567929,
+      -80.5077154,
+      "localidad",
+      "https://www.openstreetmap.org/node/3822067546"
+    ],
+    "pepito tey": [
+      22.127332,
+      -80.3368492,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549249780"
+    ],
+    "guabairo": [
+      22.1614538,
+      -80.3074217,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549245648"
+    ],
+    "santa elena": [
+      22.3297346,
+      -80.59541,
+      "localidad",
+      "https://www.openstreetmap.org/node/1548640284"
+    ],
+    "jabacoa": [
+      22.3778302,
+      -80.606705,
+      "localidad",
+      "https://www.openstreetmap.org/node/1548636620"
+    ],
+    "batey nuevo": [
+      22.4173144,
+      -80.6025503,
+      "localidad",
+      "https://www.openstreetmap.org/node/1548635158"
+    ],
+    "las medidas": [
+      22.4304338,
+      -80.5804862,
+      "localidad",
+      "https://www.openstreetmap.org/node/1548634081"
+    ],
+    "rodas": [
+      22.3378162,
+      -80.5547612,
+      "ciudad",
+      "https://www.openstreetmap.org/node/11162100338"
+    ],
+    "caonao": [
+      22.1740025,
+      -80.3974585,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543260836"
+    ],
+    "el paisito": [
+      22.182224,
+      -80.3840431,
+      "localidad",
+      "https://www.openstreetmap.org/node/1548454611"
+    ],
+    "constancia": [
+      22.2407932,
+      -80.5809015,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543288764"
+    ],
+    "simpatia": [
+      22.2099117,
+      -80.564318,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543288799"
+    ],
+    "charcas": [
+      22.1682002,
+      -80.6388719,
+      "localidad",
+      "https://www.openstreetmap.org/node/1548648397"
+    ],
+    "guasimal": [
+      22.1647603,
+      -80.677958,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549213863"
+    ],
+    "yaguaramas": [
+      22.2555244,
+      -80.7206735,
+      "localidad",
+      "https://www.openstreetmap.org/node/1385389351"
+    ],
+    "guayabales": [
+      22.2852822,
+      -80.7404989,
+      "localidad",
+      "https://www.openstreetmap.org/node/1547064861"
+    ],
+    "las moscas": [
+      22.0725612,
+      -80.2664465,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543129940"
+    ],
+    "santa martina": [
+      22.0417509,
+      -80.3538108,
+      "localidad",
+      "https://www.openstreetmap.org/node/11391743498"
+    ],
+    "san anton": [
+      22.1022014,
+      -80.3299982,
+      "localidad",
+      "https://www.openstreetmap.org/node/11484411679"
+    ],
+    "quesada": [
+      22.0975371,
+      -80.3457288,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549254328"
+    ],
+    "codicia": [
+      22.1440124,
+      -80.2463584,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549238913"
+    ],
+    "brenas": [
+      22.171057,
+      -80.2395862,
+      "localidad",
+      "https://www.openstreetmap.org/node/6517228399"
+    ],
+    "cana brava": [
+      22.1585643,
+      -80.270867,
+      "localidad",
+      "https://www.openstreetmap.org/node/11149979798"
+    ],
+    "dolores": [
+      22.1610244,
+      -80.2903466,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549238915"
+    ],
+    "ceibabo": [
+      22.1095972,
+      -80.2234828,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543131719"
+    ],
+    "la sierrita": [
+      21.9939594,
+      -80.2836406,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543112746"
+    ],
+    "cafetal": [
+      21.9947939,
+      -80.2485516,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543113651"
+    ],
+    "san lazaro": [
+      22.1537519,
+      -80.4447227,
+      "localidad",
+      "https://www.openstreetmap.org/node/3158300603"
+    ],
+    "paradero de camarones": [
+      22.3115473,
+      -80.3137535,
+      "localidad",
+      "https://www.openstreetmap.org/node/1544575398"
+    ],
+    "espartaco": [
+      22.2802825,
+      -80.3493791,
+      "localidad",
+      "https://www.openstreetmap.org/node/1544573659"
+    ],
+    "cherepa": [
+      22.2603767,
+      -80.3725589,
+      "localidad",
+      "https://www.openstreetmap.org/node/2566588383"
+    ],
+    "batey mal tiempo": [
+      22.3182242,
+      -80.2679521,
+      "localidad",
+      "https://www.openstreetmap.org/node/1544521623"
+    ],
+    "la yuca": [
+      22.1567715,
+      -80.5922346,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549211943"
+    ],
+    "guaos": [
+      22.1395748,
+      -80.3083599,
+      "localidad",
+      "https://www.openstreetmap.org/node/1549241865"
+    ],
+    "junco sur": [
+      22.1325953,
+      -80.4294776,
+      "localidad",
+      "https://www.openstreetmap.org/node/3158299802"
+    ],
+    "las minas": [
+      22.1277462,
+      -80.4386437,
+      "localidad",
+      "https://www.openstreetmap.org/node/12612608127"
+    ],
+    "playa alegre": [
+      22.1259373,
+      -80.4422593,
+      "localidad",
+      "https://www.openstreetmap.org/node/8893689750"
+    ],
+    "federal": [
+      22.3820084,
+      -80.839783,
+      "localidad",
+      "https://www.openstreetmap.org/node/12692884358"
+    ],
+    "la caridad": [
+      22.2160893,
+      -80.41606,
+      "localidad",
+      "https://www.openstreetmap.org/node/2566508659"
+    ],
+    "perseverancia": [
+      22.3558586,
+      -80.774724,
+      "localidad",
+      "https://www.openstreetmap.org/node/1547056469"
+    ],
+    "gavilan": [
+      21.978538,
+      -80.3193553,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543114978"
+    ],
+    "espartaco (este": [
+      22.2802825,
+      -80.3493791,
+      "localidad",
+      "https://www.openstreetmap.org/node/1544573659"
+    ],
+    "dagame": [
+      22.2691909,
+      -80.3340215,
+      "localidad",
+      "https://www.openstreetmap.org/node/1544575774"
+    ],
+    "paso del medio": [
+      22.2398984,
+      -80.3233355,
+      "localidad",
+      "https://www.openstreetmap.org/node/1544577999"
+    ],
+    "san fernando de camarones": [
+      22.2469951,
+      -80.2956149,
+      "ciudad",
+      "https://www.openstreetmap.org/node/1543878949"
+    ],
+    "jurisdiccion": [
+      22.2420011,
+      -80.273016,
+      "localidad",
+      "https://www.openstreetmap.org/node/1543879467"
+    ],
+    "cumanayagua": [
+      22.1493835,
+      -80.2021172,
+      "ciudad",
+      "https://www.openstreetmap.org/node/482488265"
+    ],
+    "la esperanza": [
+      22.1663723,
+      -80.4131627,
+      "localidad",
+      "https://www.openstreetmap.org/node/7216939847"
+    ],
+    "aguada": [
+      22.3833,
+      -80.8482,
+      "ciudad",
+      "ubicación manual previa de Fraudy"
+    ]
   }
 }
