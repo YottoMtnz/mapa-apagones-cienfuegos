@@ -641,7 +641,8 @@
    "lugares": [
     "El Pino",
     "Congojas",
-    "La Lolita"
+    "La Lolita",
+    "Parque Alto"
    ],
    "puntos": [
     {
@@ -666,6 +667,14 @@
      "lng": -80.49176,
      "precision": "localidad",
      "fuente": "legacy-nominatim",
+     "dudoso": false
+    },
+    {
+     "lugar": "Parque Alto",
+     "lat": 22.3652939,
+     "lng": -80.5091559,
+     "precision": "localidad",
+     "fuente": "nominatim",
      "dudoso": false
     }
    ],
