@@ -33,7 +33,7 @@ CLASES_PREFERIDAS = {"place": 0, "boundary": 1, "landuse": 2, "natural": 2, "hig
 
 def _ua():
     mail = os.environ.get("NOMINATIM_EMAIL", "").strip()
-    return "MapaApagonesCuba/2.0 (" + (mail or "sin-contacto: define NOMINATIM_EMAIL") + ")"
+    return "MapaApagonesCuba/2.0 (" + (mail or "https://github.com/YottoMtnz/mapa-apagones-cienfuegos") + ")"
 
 
 def nominatim(query, prov):
@@ -53,19 +53,30 @@ def nominatim(query, prov):
     validos = []
     for it in data:
         lat, lng = float(it["lat"]), float(it["lon"])
+        if prov=="cienfuegos":
+            from geometria import en_cienfuegos
+            if not en_cienfuegos(lat,lng): continue
         if not en_caja(prov, lat, lng):
             continue
-        state = fold((it.get("address") or {}).get("state", ""))
+        address=it.get("address") or {}
+        state = fold(address.get("state") or address.get("province") or "")
         if state:
             if inf["estado_osm"] not in state:
                 continue                           # homónimo de otra provincia
-        elif provincia_mas_cercana(lat, lng) != prov:
-            continue
-        rank = CLASES_PREFERIDAS.get(it.get("category", it.get("class", "")), 3)
+        else:
+            continue  # Una caja o la capital más cercana NO prueban pertenencia provincial.
+        category=it.get("category",it.get("class",""))
+        if category not in ("place","boundary"): continue
+        esperado=fold(query.split(",")[0])
+        if fold(it.get("name","")) != esperado: continue
+        rank = CLASES_PREFERIDAS.get(category,3)
         validos.append((rank, -float(it.get("importance", 0)), lat, lng, it.get("display_name", "")))
     if not validos:
         return None
     validos.sort()
+    # Homónimos alejados: no escoger el primero por popularidad.
+    from provincias import distancia_km
+    if any(distancia_km(validos[0][2],validos[0][3],x[2],x[3])>2 for x in validos[1:]): return None
     _, _, lat, lng, nombre = validos[0]
     return lat, lng, nombre
 
@@ -81,15 +92,15 @@ def buscar_lugar(prov, lugar, cache, reintentar=False):
             f = datetime.date.fromisoformat(e["no_encontrado"])
             if (datetime.date.today() - f).days < CADUCA_NEGATIVO_DIAS:
                 return None
-    capital = info(prov)["capital"]
+    capital = "Cienfuegos" if prov=="cienfuegos" else info(prov)["estado_osm"]
     for q in (f"{lugar}, {capital}, Cuba", f"{lugar}, Cuba"):
         r = nominatim(q, prov)
         time.sleep(PAUSA_S)
         if r:
             cache[k] = {"lat": round(r[0], 5), "lng": round(r[1], 5),
-                        "fuente": "nominatim", "display": r[2][:120],
+                        "fuente": "nominatim-verificado", "display": r[2][:120], "provincia_verificada":prov,
                         "fecha": datetime.date.today().isoformat()}
-            return r[0], r[1], "localidad", "nominatim"
+            return r[0], r[1], "localidad", "nominatim-verificado"
     cache[k] = {"no_encontrado": datetime.date.today().isoformat()}
     return None
 
@@ -107,7 +118,7 @@ def main():
         r = res.offline(prov, lugar)                # gazetteer manual y caché positivo
         return r or buscar_lugar(prov, lugar, cache, reintentar)
 
-    for prov in PROVINCIAS:
+    for prov in ["cienfuegos"]:
         if solo and prov != solo:
             continue
         circuitos = inv.get(prov, {})
