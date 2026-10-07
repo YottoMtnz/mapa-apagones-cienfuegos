@@ -235,35 +235,51 @@ function provinciaCercana(lat,lng,soloActivas){
 let busqueda='';
 let buscarTimer=null;
 $('buscar').addEventListener('input',e=>{
-  busqueda=e.target.value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  try{
+    busqueda=e.target.value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  }catch(_){ busqueda=e.target.value.toLowerCase(); }
   renderizar();
-  // Mover el mapa en tiempo real al mejor resultado
   clearTimeout(buscarTimer);
-  if(busqueda.length<2) return;
+  if(!busqueda||busqueda.length<2) return;
   buscarTimer=setTimeout(()=>{
-    const {circ={}}=datosCache;
-    let mejor=null, mejorScore=1e9;
-    for(const id of Object.keys(circ)){
-      const c=circ[id];
-      const nombres=[id,...(c.lugares||[])];
-      for(const n of nombres){
-        const nn=n.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-        const idx=nn.indexOf(busqueda);
-        if(idx>=0){
-          // Prefijo exacto vale más que coincidencia interior
-          const score=idx*10+(nn.length-n.length);
-          if(score<mejorScore){
-            // Buscar primer punto válido de este circuito
-            const pt=(c.puntos||[]).find(p=>Number.isFinite(p.lat)&&Number.isFinite(p.lng));
-            if(pt){ mejorScore=score; mejor={lat:pt.lat,lng:pt.lng}; }
+    try{
+      const circ=(datosCache&&datosCache.circ)||{};
+      let mejor=null;
+      const q=busqueda;
+      for(const id of Object.keys(circ)){
+        const c=circ[id]||{};
+        const nombres=[String(id)].concat(c.lugares||[]);
+        for(const n of nombres){
+          let nn;
+          try{ nn=String(n).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
+          catch(_){ nn=String(n).toLowerCase(); }
+          if(nn.indexOf(q)===0){ // prefijo: mejor coincidencia
+            const pt=(c.puntos||[]).find(p=>p&&Number.isFinite(p.lat)&&Number.isFinite(p.lng));
+            if(pt){ mejor={lat:pt.lat,lng:pt.lng}; break; }
           }
-          break;
+        }
+        if(mejor) break;
+      }
+      // Si no hubo prefijo, buscar coincidencia interior
+      if(!mejor){
+        for(const id of Object.keys(circ)){
+          const c=circ[id]||{};
+          const nombres=[String(id)].concat(c.lugares||[]);
+          for(const n of nombres){
+            let nn;
+            try{ nn=String(n).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
+            catch(_){ nn=String(n).toLowerCase(); }
+            if(nn.indexOf(q)>=0){
+              const pt=(c.puntos||[]).find(p=>p&&Number.isFinite(p.lat)&&Number.isFinite(p.lng));
+              if(pt){ mejor={lat:pt.lat,lng:pt.lng}; break; }
+            }
+          }
+          if(mejor) break;
         }
       }
-      if(mejorScore===0) break;
-    }
-    if(mejor) map.flyTo([mejor.lat,mejor.lng], Math.max(map.getZoom(),13), {duration:0.6});
-  },250);
+      if(mejor&&map) map.flyTo([mejor.lat,mejor.lng], Math.max(map.getZoom(),13), {duration:0.6});
+    }catch(_){}
+  },300);
 });
 $('plegar').addEventListener('click',()=>{const hidden=$('contenidoPanel').hidden=!$('contenidoPanel').hidden;$('plegar').textContent=hidden?'+':'−';$('plegar').setAttribute('aria-expanded',String(!hidden));$('panelPrincipal').classList.toggle('plegado',hidden);});
 function avisoBreve(texto){$('mapToast').textContent=texto;$('mapToast').style.display='block';clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>$('mapToast').style.display='none',5000);}
