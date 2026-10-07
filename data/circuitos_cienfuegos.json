@@ -949,10 +949,20 @@
   },
   "C-22": {
    "lugares": [
-    "Rodas (Bombeo Agua Rodas 0-12"
+    "Rodas (Bombeo Agua Rodas 0-12",
+    "Rodas"
    ],
-   "puntos": [],
-   "ubicado": false,
+   "puntos": [
+    {
+     "lugar": "Rodas",
+     "lat": 22.3378162,
+     "lng": -80.5547612,
+     "precision": "localidad",
+     "fuente": "nominatim",
+     "dudoso": false
+    }
+   ],
+   "ubicado": true,
    "revisar": false
   },
   "C-25": {
