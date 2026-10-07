@@ -15,15 +15,24 @@ from datetime import datetime, timezone
 REPO = os.environ.get("GITHUB_REPO", "YottoMtnz/mapa-apagones-cienfuegos")
 WORKFLOW = "mapa.yml"
 MAX_SILENCIO_MIN = float(os.environ.get("MAX_SILENCIO_MIN", "12"))
+GITHUB_HOSTS = ["api.github.com"]
+CRED_NAME = "custom.github"
+
+
+def _auth_headers(req):
+    """GITHUB_TOKEN en env, o la credencial conectada custom.github (surrogate)."""
+    token = os.environ.get("GITHUB_TOKEN", "")
+    if token:
+        req.add_header("Authorization", f"Bearer {token}")
+        return
+    sys.exit('Falta GITHUB_TOKEN')
 
 
 def api(path, method="GET", data=None):
-    token = os.environ.get("GITHUB_TOKEN", "")
-    if not token:
-        sys.exit("Falta GITHUB_TOKEN")
     req = urllib.request.Request(f"https://api.github.com{path}", data=data, method=method)
     req.add_header("Accept", "application/vnd.github+json")
-    req.add_header("Authorization", f"Bearer {token}")
+    req.add_header("User-Agent", "MapaCienfuegos-vigilante/3.0")
+    _auth_headers(req)
     if data:
         req.add_header("Content-Type", "application/json")
     with urllib.request.urlopen(req, timeout=20) as r:
@@ -38,7 +47,7 @@ def main():
         dt = datetime.fromisoformat(runs["workflow_runs"][0]["created_at"].replace("Z", "+00:00"))
         mins = (datetime.now(timezone.utc) - dt).total_seconds() / 60
         print(f"Último run hace {mins:.1f} min")
-        disparar = mins > MAX_SILENCIO_MIN
+        disparar = mins > MAX_SILENCIO_MIN and runs['workflow_runs'][0].get('status') not in ('in_progress','queued','waiting')
     if disparar:
         api(f"/repos/{REPO}/actions/workflows/{WORKFLOW}/dispatches", "POST",
             json.dumps({"ref": "main"}).encode())
