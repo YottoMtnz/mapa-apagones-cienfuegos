@@ -26,48 +26,31 @@
 </div>
 <div class="box" id="panel">
   <h2>📍 Correcciones pendientes</h2>
-  <button onclick="cargar()">🔄 Recargar</button>
+  <button onclick="cargar().catch(e=>alert(e.message))">🔄 Recargar</button>
   <div id="lista"></div>
 </div>
+<script src="config.js"></script>
 <script>
-// CONFIGURACIÓN — Fraudy: pon aquí la URL del Apps Script desplegado
-const SCRIPT_URL = "PON_AQUI_LA_URL_DEL_SCRIPT";
-// Hash SHA-256 de la contraseña (no guardar en texto plano)
-const PASS_HASH = "997999e1cb0a2b78204af1619f5da90908e4ccf4d7cb54e1fd1a5dada28e57cc";
-
-async function sha256(t){
-  const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(t));
-  return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");
+let clave='';
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+async function api(action,extra={}){
+  const url=window.MAPA_CONFIG?.adminUrl;
+  if(!url||!url.startsWith('https://script.google.com/'))throw new Error('Configura adminUrl en config.js y ADMIN_TOKEN en las propiedades del servidor.');
+  const r=await fetch(url,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({action,token:clave,...extra})});
+  if(!r.ok)throw new Error('No se pudo contactar con el servidor');
+  const j=await r.json();if(!j.ok)throw new Error(j.error||'Acceso denegado');return j;
 }
-async function entrar(){
-  const h = await sha256(document.getElementById("pass").value);
-  if(h === PASS_HASH){
-    document.getElementById("login").style.display = "none";
-    document.getElementById("panel").style.display = "block";
-    cargar();
-  } else {
-    document.getElementById("err").textContent = "Contraseña incorrecta";
+async function entrar(){clave=$('pass').value;try{await cargar();$('pass').value='';$('login').style.display='none';$('panel').style.display='block';}catch(e){clave='';$('err').textContent=e.message;}}
+async function cargar(){
+  const r=await api('pendientes'),lista=$('lista');lista.textContent='';
+  if(!r.correcciones.length){lista.textContent='No hay correcciones pendientes.';return;}
+  for(const c of r.correcciones){
+    const div=document.createElement('div');div.className='corr';
+    div.innerHTML=`<b>${esc(c.lugar)}</b> (${esc(c.prov)})<br>Circuito: ${esc(c.circuito)}<br>${esc(c.lat)}, ${esc(c.lng)}<br><small>${esc(c.fecha)}</small><br>`;
+    for(const action of ['aprobar','rechazar']){const b=document.createElement('button');b.textContent=action;b.addEventListener('click',()=>decidir(c.fila,action));div.appendChild(b);}lista.appendChild(div);
   }
 }
-async function cargar(){
-  const r = await fetch(`${SCRIPT_URL}?action=pendientes`).then(r=>r.json());
-  const lista = document.getElementById("lista");
-  if(!r.length){ lista.innerHTML = "<p>No hay correcciones pendientes.</p>"; return; }
-  lista.innerHTML = r.map(c=>`
-    <div class="corr">
-      <b>${c.lugar}</b> (${c.prov})<br>
-      Circuito: ${c.circuito}<br>
-      📍 ${c.lat}, ${c.lng}<br>
-      <small>${c.fecha}</small><br><br>
-      <button onclick="decidir(${c.fila},'aprobar')">✅ Aprobar</button>
-      <button class="rechazar" onclick="decidir(${c.fila},'rechazar')">❌ Rechazar</button>
-    </div>`).join("");
-}
-async function decidir(fila, accion){
-  if(!confirm(`¿${accion==="aprobar"?"Aprobar":"Rechazar"} esta corrección?`)) return;
-  await fetch(`${SCRIPT_URL}?action=${accion}&fila=${fila}`);
-  cargar();
-}
+async function decidir(fila,action){if(!confirm('¿'+action+' esta corrección?'))return;try{await api(action,{fila});await cargar();}catch(e){alert(e.message);}}
 </script>
-</body>
-</html>
+</body></html>
