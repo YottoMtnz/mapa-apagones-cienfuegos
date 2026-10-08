@@ -20,10 +20,6 @@
     "C-25": [
       "Abreus (Pueblo"
     ],
-    "C-30": [
-      "14 de Julio",
-      "Batey 2 Hermanos"
-    ],
     "C-407": [],
     "C-92": [],
     "C-401": [],
@@ -31,7 +27,6 @@
       "Pueblo Griffo Nuevo"
     ],
     "C-408": [],
-    "S-4820": [],
     "C-53": [
       "Potrerillo",
       "Peñasco",
@@ -108,7 +103,6 @@
     "C-31": [],
     "C-43": [],
     "C-58": [],
-    "C-48": [],
     "C-27": [
       "Barrio Matadero",
       "Juraguá"
@@ -758,15 +752,6 @@
       "confianza": 100,
       "texto": "👉C-25 Abreus (Pueblo)."
     },
-    "C-30": {
-      "fecha": "2026-10-08T11:10:05+00:00",
-      "mensaje_id": 59105,
-      "url": "https://t.me/empresaelectricacienfuegos1/59105",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
-    },
     "C-407": {
       "fecha": "2026-10-08T22:41:16+00:00",
       "mensaje_id": 59137,
@@ -811,15 +796,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-408 Baldosas, T15,Trébol, 4 Caminos, Universidad,  Cantarrana, La Julia, Pepe Rivas."
-    },
-    "S-4820": {
-      "fecha": "2026-10-08T11:10:05+00:00",
-      "mensaje_id": 59105,
-      "url": "https://t.me/empresaelectricacienfuegos1/59105",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "C-53": {
       "fecha": "2026-10-08T22:41:16+00:00",
@@ -973,15 +949,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.\""
-    },
-    "C-48": {
-      "fecha": "2026-10-08T11:10:05+00:00",
-      "mensaje_id": 59105,
-      "url": "https://t.me/empresaelectricacienfuegos1/59105",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "C-27": {
       "fecha": "2026-10-08T22:41:16+00:00",
@@ -1696,13 +1663,11 @@
   "causas": {
     "C-29": "déficit",
     "C-25": "déficit",
-    "C-30": "avería",
     "C-407": "déficit",
     "C-92": "avería",
     "C-401": "avería",
     "C-405": "avería",
     "C-408": "avería",
-    "S-4820": "avería",
     "C-53": "déficit",
     "C-54": "déficit",
     "C-11": "déficit",
@@ -1720,7 +1685,6 @@
     "C-31": "déficit / avería",
     "C-43": "déficit",
     "C-58": "déficit",
-    "C-48": "avería",
     "C-27": "déficit",
     "C-28": "déficit",
     "C-52": "déficit / avería",
@@ -3159,7 +3123,7 @@
     }
   ],
   "mw_fecha": "2026-10-08T22:41:16+00:00",
-  "total_circuitos_afectados": 56,
+  "total_circuitos_afectados": 53,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
@@ -3172,15 +3136,13 @@
     "C-407",
     "C-408",
     "C-43",
-    "C-48",
     "C-58",
     "C-59",
     "C-60",
     "C-62",
     "C-89",
     "C-92",
-    "C-94",
-    "S-4820"
+    "C-94"
   ],
-  "actualizado": "2026-10-08T23:09:34.727616+00:00"
+  "actualizado": "2026-10-08T23:24:17.137253+00:00"
 }
