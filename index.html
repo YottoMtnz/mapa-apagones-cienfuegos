@@ -373,11 +373,11 @@ function renderizar(){
     const prueba=(est.evidencias||{})[id]||(est.confirmados_con_servicio||{})[id]||(est.restablecimientos_probables||{})[id];
     if(st==='prob'){
       extra+='<div class="inferencia">Ya no aparece en una lista completa de '+esc(prueba?.alcance==='averia'?'averías':'déficit')+'. Es una deducción; no confirma que todas las viviendas tengan corriente.</div>';
-      const anterior=enlaceFuente(prueba?.aviso_anterior?.url);if(anterior)extra+=`<a href="${esc(anterior)}" target="_blank" rel="noopener">Comparar con el aviso anterior ↗</a><br>`;
+
     }
     for(const seccion of est.afectaciones_parciales?.[id]||[]){
       extra+=`<br><small>Avería de sección ${esc(seccion.seccion)}: ${esc((seccion.lugares||[]).join(', '))}. ${seccion.vigente?'No representa todo el circuito.':'Aviso antiguo, pendiente de confirmación.'}</small>`;
-      const url=enlaceFuente(seccion.evidencia?.url);if(url)extra+=`<br><a href="${esc(url)}" target="_blank" rel="noopener">Ver aviso de la sección ↗</a>`;
+
     }
     if(prueba){extra+=`<br><small>Aviso: ${esc(fechaCuba(prueba.fecha))}</small>`;if(prueba.medio==='imagenes'||prueba.medio==='pdf')extra+='<br><small>Lectura de imagen o documento</small>';}
     const horario=(est.horarios||{})[id];if(st==='prog'&&horario){extra+=`<br>Previsto: ${esc(fechaCuba(horario.inicio))}<br>Hasta: ${esc(fechaCuba(horario.fin))}`;}
