@@ -6,7 +6,8 @@ Mapa con el estado del servicio eléctrico en la provincia de Cienfuegos, Cuba.
 
 - 🔴 Sin servicio
 - 🟠 Programado
-- 🟢 Con servicio
+- 🟢 Con servicio confirmado
+- 🩵 Restablecimiento probable
 - ⚪ Sin confirmar
 
 Los puntos representan localidades, no viviendas individuales. La información se actualiza cada pocos minutos.
