@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-08T19:24:11+00:00",
+  "reporte_fecha": "2026-10-08T19:30:24+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-08T15:05:58+00:00",
-  "mensajes_leidos": 118,
+  "mensajes_leidos": 119,
   "afectados": {
     "C-70": [
       "Aguada",
@@ -120,16 +120,6 @@
       "Balboa",
       "La Pedrera",
       "El Tropezón"
-    ],
-    "C-37": [
-      "El Tablón",
-      "Los Coquitos",
-      "El Túnel",
-      "Jovero",
-      "El Mamey",
-      "Crucesitas",
-      "El Nicho",
-      "Vegueta"
     ],
     "C-62": [],
     "C-38": [
@@ -295,6 +285,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-37": {
+      "fecha": "2026-10-08T19:30:24+00:00",
+      "mensaje_id": 59125,
+      "url": "https://t.me/empresaelectricacienfuegos1/59125",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
     }
   },
   "restablecimientos_probables": {
@@ -1021,15 +1020,6 @@
       "confianza": 100,
       "texto": "👉C-82 Balboa, La Pedrera, El Tropezón."
     },
-    "C-37": {
-      "fecha": "2026-10-08T14:31:57+00:00",
-      "mensaje_id": 59113,
-      "url": "https://t.me/empresaelectricacienfuegos1/59113",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
-    },
     "C-62": {
       "fecha": "2026-10-08T12:15:30+00:00",
       "mensaje_id": 59108,
@@ -1308,6 +1298,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-37": {
+      "fecha": "2026-10-08T19:30:24+00:00",
+      "mensaje_id": 59125,
+      "url": "https://t.me/empresaelectricacienfuegos1/59125",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
     },
     "C-6": {
       "fecha": "2026-10-08T18:47:10+00:00",
@@ -1794,7 +1793,6 @@
     "C-56": "déficit",
     "C-44": "déficit",
     "C-82": "déficit",
-    "C-37": "avería",
     "C-62": "avería",
     "C-38": "avería",
     "C-31": "déficit / avería",
@@ -2173,7 +2171,7 @@
     }
   ],
   "lectura": {
-    "texto": 63,
+    "texto": 64,
     "imagenes": 55,
     "pdf": 0,
     "no_leidos": 9
@@ -2228,15 +2226,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-18",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-07T11:45:08+00:00",
-      "mensaje_id": 59059,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59055",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59059"
-    },
     {
       "circuito": "C-72",
       "tipo": "salida_lista",
@@ -3127,10 +3116,19 @@
       "mensaje_id": 59122,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59118",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59122"
+    },
+    {
+      "circuito": "C-37",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-08T19:30:24+00:00",
+      "mensaje_id": 59125,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59113",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59125"
     }
   ],
   "mw_fecha": "2026-10-08T18:47:10+00:00",
-  "total_circuitos_afectados": 53,
+  "total_circuitos_afectados": 52,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
@@ -3152,5 +3150,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T19:24:24.120177+00:00"
+  "actualizado": "2026-10-08T19:39:29.410200+00:00"
 }
