@@ -120,7 +120,7 @@
     <button class="stat orange" title="Recorrer programados"><b id="cProg">–</b><span>Programados</span></button>
     <button class="stat green" title="Recorrer restablecidos"><b id="cOk">–</b><span>Restablecidos</span></button>
     <button class="stat gray" title="Recorrer sin confirmar"><b id="cDesc">–</b><span>Sin confirmar</span></button>
-    <button class="stat teal" title="Salieron de una lista completa; el canal no confirmó la reposición"><b id="cProb">–</b><span>Restablecimiento probable</span></button>
+    <button class="stat teal" title="Salieron de una lista completa; no se confirmó oficialmente la reposición"><b id="cProb">–</b><span>Restablecimiento probable</span></button>
   </div>
   <div class="updated" id="mwLine" style="display:none">⚡ <b id="mwVal"></b> MW afectados</div>
   <div class="leyenda">
@@ -306,10 +306,10 @@ function renderizar(){
   const datosOk = est.estado_datos==='ok'&&monitorReciente;
   let msg='';
   if(est.estado_datos==='sin_fuente') msg='Esta provincia no publica listas de circuitos afectados: no se puede saber si hay servicio.';
-  else if(est.estado_datos==='error') msg='Error al leer el canal oficial; se muestran los últimos datos conocidos.';
+  else if(est.estado_datos==='error') msg='Error al leer la fuente oficial; se muestran los últimos datos conocidos.';
   else if(est.reporte_vencido) msg='El último reporte oficial es antiguo (más de 12 h). No se muestra como actual.';
   else if(!datosOk) msg='No hay información reciente suficiente para confirmar el servicio.';
-  else if(est.cobertura!=='provincial') msg='Las listas completas retiran los cortes anteriores de la misma causa. Turquesa indica reposición probable; verde requiere confirmación del canal.';
+  else if(est.cobertura!=='provincial') msg='Las listas completas retiran los cortes anteriores de la misma causa. Turquesa indica reposición probable; verde requiere confirmación oficial.';
   if(est.lectura?.no_leidos) msg+=' Hay publicaciones pendientes de lectura; consulta los avisos por revisar.';
   $('estadoPill').textContent=datosOk?'Avisos recientes disponibles':'Servicio pendiente de confirmar';
   $('reporteHora').textContent='Último aviso: '+fechaCuba(est.reporte_fecha)+' · hora de Cuba';
