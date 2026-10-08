@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-08T16:29:06+00:00",
+  "reporte_fecha": "2026-10-08T16:48:43+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-08T15:05:58+00:00",
-  "mensajes_leidos": 120,
+  "mensajes_leidos": 121,
   "afectados": {
     "C-70": [
       "Aguada",
@@ -60,15 +60,6 @@
     ],
     "C-57": [
       "Lajas (Pueblo"
-    ],
-    "C-88": [
-      "San Ignacio",
-      "Babiney",
-      "Carmelina",
-      "San Rafael",
-      "La Leona",
-      "Mijalito",
-      "Matún"
     ],
     "S-4820": [],
     "C-406": [
@@ -259,6 +250,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
+    },
+    "C-88": {
+      "fecha": "2026-10-08T16:48:43+00:00",
+      "mensaje_id": 59119,
+      "url": "https://t.me/empresaelectricacienfuegos1/59119",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
     }
   },
   "restablecimientos_probables": {
@@ -1047,15 +1047,6 @@
       "confianza": 100,
       "texto": "👉C-57 Lajas (Pueblo)."
     },
-    "C-88": {
-      "fecha": "2026-10-08T16:29:06+00:00",
-      "mensaje_id": 59118,
-      "url": "https://t.me/empresaelectricacienfuegos1/59118",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
-    },
     "S-4820": {
       "fecha": "2026-10-08T11:10:05+00:00",
       "mensaje_id": 59105,
@@ -1415,6 +1406,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
+    },
+    "C-88": {
+      "fecha": "2026-10-08T16:48:43+00:00",
+      "mensaje_id": 59119,
+      "url": "https://t.me/empresaelectricacienfuegos1/59119",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
     },
     "C-6": {
       "fecha": "2026-10-08T16:29:06+00:00",
@@ -2049,7 +2049,6 @@
     "C-7": "déficit",
     "C-41": "déficit",
     "C-57": "déficit",
-    "C-88": "avería / déficit",
     "S-4820": "avería",
     "C-406": "déficit",
     "C-53": "déficit",
@@ -2437,7 +2436,7 @@
     }
   ],
   "lectura": {
-    "texto": 63,
+    "texto": 64,
     "imagenes": 57,
     "pdf": 0,
     "no_leidos": 9
@@ -2492,15 +2491,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-29",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-07T11:45:08+00:00",
-      "mensaje_id": 59059,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59055",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59059"
-    },
     {
       "circuito": "C-25",
       "tipo": "salida_lista",
@@ -3391,10 +3381,19 @@
       "mensaje_id": 59118,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59117",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59118"
+    },
+    {
+      "circuito": "C-88",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-08T16:48:43+00:00",
+      "mensaje_id": 59119,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59118",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59119"
     }
   ],
   "mw_fecha": "2026-10-08T16:29:06+00:00",
-  "total_circuitos_afectados": 49,
+  "total_circuitos_afectados": 48,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 23,
   "circuitos_sin_catalogar": [
@@ -3416,5 +3415,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T16:39:27.543605+00:00"
+  "actualizado": "2026-10-08T16:54:27.250866+00:00"
 }
