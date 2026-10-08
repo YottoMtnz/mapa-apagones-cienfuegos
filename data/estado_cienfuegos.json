@@ -226,15 +226,6 @@
     ]
   },
   "programados": {
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
-    ],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
-    ],
     "C-18": [],
     "C-20": []
   },
@@ -1381,24 +1372,6 @@
       "confianza": 100,
       "texto": "👉C-86 \"Cumanayagua, emisora de radio\""
     },
-    "C-15": {
-      "fecha": "2026-10-08T03:32:15+00:00",
-      "mensaje_id": 59098,
-      "url": "https://t.me/empresaelectricacienfuegos1/59098",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-    },
-    "C-67": {
-      "fecha": "2026-10-08T03:32:15+00:00",
-      "mensaje_id": 59098,
-      "url": "https://t.me/empresaelectricacienfuegos1/59098",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-    },
     "C-18": {
       "fecha": "2026-10-08T15:05:58+00:00",
       "mensaje_id": 59115,
@@ -1671,6 +1644,61 @@
         "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
       },
       "lugares": []
+    },
+    "C-67": {
+      "fecha": "2026-10-08T15:26:49+00:00",
+      "mensaje_id": 59117,
+      "url": "https://t.me/empresaelectricacienfuegos1/59117",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-07T22:20:43+00:00",
+      "listas_consecutivas": 13,
+      "aviso_anterior": {
+        "fecha": "2026-10-07T21:53:46+00:00",
+        "mensaje_id": 59087,
+        "url": "https://t.me/empresaelectricacienfuegos1/59087",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-67 \"El Crucero, Guaos, Naranjito."
+      },
+      "lugares": [
+        "El Crucero",
+        "Guaos",
+        "Naranjito"
+      ]
+    },
+    "C-15": {
+      "fecha": "2026-10-08T15:26:49+00:00",
+      "mensaje_id": 59117,
+      "url": "https://t.me/empresaelectricacienfuegos1/59117",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-07T22:20:43+00:00",
+      "listas_consecutivas": 13,
+      "aviso_anterior": {
+        "fecha": "2026-10-07T21:53:46+00:00",
+        "mensaje_id": 59087,
+        "url": "https://t.me/empresaelectricacienfuegos1/59087",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-15 Pepito Tey, Guabairo."
+      },
+      "lugares": [
+        "Pepito Tey",
+        "Guabairo"
+      ]
     },
     "C-36": {
       "fecha": "2026-10-08T15:26:49+00:00",
@@ -1977,16 +2005,6 @@
     }
   },
   "horarios": {
-    "C-15": {
-      "inicio": null,
-      "fin": "2026-10-08T15:32:15+00:00",
-      "fecha_ambigua": false
-    },
-    "C-67": {
-      "inicio": null,
-      "fin": "2026-10-08T15:32:15+00:00",
-      "fecha_ambigua": false
-    },
     "C-18": {
       "inicio": null,
       "fin": "2026-10-09T03:05:58+00:00",
@@ -3363,7 +3381,7 @@
   ],
   "mw_fecha": "2026-10-08T15:26:49+00:00",
   "total_circuitos_afectados": 49,
-  "total_circuitos_programados": 4,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 23,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -3384,5 +3402,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T15:29:28.740391+00:00"
+  "actualizado": "2026-10-08T15:43:40.141215+00:00"
 }
