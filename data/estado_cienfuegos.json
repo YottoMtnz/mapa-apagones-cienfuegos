@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-08T20:00:10+00:00",
+  "reporte_fecha": "2026-10-08T20:18:27+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-08T15:05:58+00:00",
@@ -220,6 +220,18 @@
       "El Brazo",
       "Cafetal",
       "Faisanera"
+    ],
+    "C-90": [
+      "FW1558) La Pollera"
+    ],
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
     ]
   },
   "programados": {},
@@ -407,61 +419,6 @@
         "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
       },
       "lugares": []
-    },
-    "C-67": {
-      "fecha": "2026-10-08T20:00:10+00:00",
-      "mensaje_id": 59127,
-      "url": "https://t.me/empresaelectricacienfuegos1/59127",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-406  \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T22:20:43+00:00",
-      "listas_consecutivas": 17,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T21:53:46+00:00",
-        "mensaje_id": 59087,
-        "url": "https://t.me/empresaelectricacienfuegos1/59087",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-67 \"El Crucero, Guaos, Naranjito."
-      },
-      "lugares": [
-        "El Crucero",
-        "Guaos",
-        "Naranjito"
-      ]
-    },
-    "C-15": {
-      "fecha": "2026-10-08T20:00:10+00:00",
-      "mensaje_id": 59127,
-      "url": "https://t.me/empresaelectricacienfuegos1/59127",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-406  \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T22:20:43+00:00",
-      "listas_consecutivas": 17,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T21:53:46+00:00",
-        "mensaje_id": 59087,
-        "url": "https://t.me/empresaelectricacienfuegos1/59087",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-15 Pepito Tey, Guabairo."
-      },
-      "lugares": [
-        "Pepito Tey",
-        "Guabairo"
-      ]
     },
     "C-32": {
       "fecha": "2026-10-08T20:00:10+00:00",
@@ -1027,9 +984,9 @@
       "texto": "👉C-42 Viet Nam, Real Campiña, Guanito."
     },
     "C-26": {
-      "fecha": "2026-10-08T12:15:30+00:00",
-      "mensaje_id": 59108,
-      "url": "https://t.me/empresaelectricacienfuegos1/59108",
+      "fecha": "2026-10-08T20:18:27+00:00",
+      "mensaje_id": 59128,
+      "url": "https://t.me/empresaelectricacienfuegos1/59128",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1296,6 +1253,33 @@
       "confianza": 100,
       "texto": "👉C-39 La Sierrita, El Brazo, Cafetal, Faisanera."
     },
+    "C-90": {
+      "fecha": "2026-10-08T20:18:27+00:00",
+      "mensaje_id": 59128,
+      "url": "https://t.me/empresaelectricacienfuegos1/59128",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
+    },
+    "C-15": {
+      "fecha": "2026-10-08T20:18:27+00:00",
+      "mensaje_id": 59128,
+      "url": "https://t.me/empresaelectricacienfuegos1/59128",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
+    "C-67": {
+      "fecha": "2026-10-08T20:18:27+00:00",
+      "mensaje_id": 59128,
+      "url": "https://t.me/empresaelectricacienfuegos1/59128",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
+    },
     "C-101": {
       "fecha": "2026-10-08T15:20:31+00:00",
       "mensaje_id": 59116,
@@ -1477,61 +1461,6 @@
         "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
       },
       "lugares": []
-    },
-    "C-67": {
-      "fecha": "2026-10-08T20:00:10+00:00",
-      "mensaje_id": 59127,
-      "url": "https://t.me/empresaelectricacienfuegos1/59127",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-406  \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T22:20:43+00:00",
-      "listas_consecutivas": 17,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T21:53:46+00:00",
-        "mensaje_id": 59087,
-        "url": "https://t.me/empresaelectricacienfuegos1/59087",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-67 \"El Crucero, Guaos, Naranjito."
-      },
-      "lugares": [
-        "El Crucero",
-        "Guaos",
-        "Naranjito"
-      ]
-    },
-    "C-15": {
-      "fecha": "2026-10-08T20:00:10+00:00",
-      "mensaje_id": 59127,
-      "url": "https://t.me/empresaelectricacienfuegos1/59127",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-406  \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T22:20:43+00:00",
-      "listas_consecutivas": 17,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T21:53:46+00:00",
-        "mensaje_id": 59087,
-        "url": "https://t.me/empresaelectricacienfuegos1/59087",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-15 Pepito Tey, Guabairo."
-      },
-      "lugares": [
-        "Pepito Tey",
-        "Guabairo"
-      ]
     },
     "C-32": {
       "fecha": "2026-10-08T20:00:10+00:00",
@@ -1943,7 +1872,10 @@
     "C-33": "avería",
     "C-35": "avería",
     "C-36": "avería",
-    "C-39": "avería"
+    "C-39": "avería",
+    "C-90": "avería",
+    "C-15": "avería",
+    "C-67": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2302,8 +2234,8 @@
     }
   ],
   "lectura": {
-    "texto": 65,
-    "imagenes": 56,
+    "texto": 64,
+    "imagenes": 57,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -3258,9 +3190,9 @@
     }
   ],
   "mw_fecha": "2026-10-08T20:00:10+00:00",
-  "total_circuitos_afectados": 49,
+  "total_circuitos_afectados": 52,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 20,
+  "total_restablecimientos_probables": 18,
   "circuitos_sin_catalogar": [
     "C-18",
     "C-2",
@@ -3280,5 +3212,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T20:09:29.236041+00:00"
+  "actualizado": "2026-10-08T20:24:23.023212+00:00"
 }
