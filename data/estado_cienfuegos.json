@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-08T09:22:50+00:00",
-  "mensajes_leidos": 119,
+  "mensajes_leidos": 118,
   "afectados": {
     "C-70": [
       "Aguada",
@@ -233,17 +233,7 @@
       "La Loma"
     ]
   },
-  "confirmados_con_servicio": {
-    "C-52": {
-      "fecha": "2026-10-07T23:07:43+00:00",
-      "mensaje_id": 59092,
-      "url": "https://t.me/empresaelectricacienfuegos1/59092",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
-    }
-  },
+  "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-47": {
       "fecha": "2026-10-08T10:38:00+00:00",
@@ -1241,15 +1231,6 @@
       "confianza": 100,
       "texto": "👉C-19 Tulipán"
     },
-    "C-52": {
-      "fecha": "2026-10-07T23:07:43+00:00",
-      "mensaje_id": 59092,
-      "url": "https://t.me/empresaelectricacienfuegos1/59092",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
-    },
     "C-47": {
       "fecha": "2026-10-08T10:38:00+00:00",
       "mensaje_id": 59104,
@@ -1692,7 +1673,7 @@
     "C-73": "déficit",
     "C-22": "déficit",
     "C-42": "déficit",
-    "C-26": "avería / déficit",
+    "C-26": "déficit",
     "C-56": "déficit",
     "C-44": "déficit",
     "C-82": "déficit",
@@ -2049,7 +2030,7 @@
     }
   ],
   "lectura": {
-    "texto": 61,
+    "texto": 60,
     "imagenes": 58,
     "pdf": 0,
     "no_leidos": 10
@@ -3027,5 +3008,5 @@
     "C-89",
     "C-94"
   ],
-  "actualizado": "2026-10-08T10:54:21.669308+00:00"
+  "actualizado": "2026-10-08T11:09:20.668279+00:00"
 }
