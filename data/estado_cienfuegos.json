@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-08T18:47:10+00:00",
+  "reporte_fecha": "2026-10-08T19:24:11+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-08T15:05:58+00:00",
-  "mensajes_leidos": 119,
+  "mensajes_leidos": 118,
   "afectados": {
     "C-70": [
       "Aguada",
@@ -217,6 +217,36 @@
       "Jabacoa",
       "Batey Nuevo",
       "Las Medidas"
+    ],
+    "C-33": [
+      "Arimao",
+      "Las Moscas",
+      "Vegas Viejas",
+      "Santa Martina",
+      "San Antón",
+      "Quesada",
+      "Callejón del Palmar"
+    ],
+    "C-35": [
+      "Terraza",
+      "Codicia",
+      "Breñas",
+      "Caña Brava",
+      "Dolores"
+    ],
+    "C-36": [
+      "Cumanayagua (Sur",
+      "La Guasasa",
+      "Ceibabo",
+      "La Furnia",
+      "Monasterio",
+      "El Concuní"
+    ],
+    "C-39": [
+      "La Sierrita",
+      "El Brazo",
+      "Cafetal",
+      "Faisanera"
     ]
   },
   "programados": {},
@@ -296,68 +326,6 @@
         "La Milpa"
       ]
     },
-    "C-35": {
-      "fecha": "2026-10-08T18:47:10+00:00",
-      "mensaje_id": 59123,
-      "url": "https://t.me/empresaelectricacienfuegos1/59123",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T18:34:33+00:00",
-      "listas_consecutivas": 20,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T17:02:02+00:00",
-        "mensaje_id": 59070,
-        "url": "https://t.me/empresaelectricacienfuegos1/59070",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
-      },
-      "lugares": [
-        "Terraza",
-        "Codicia",
-        "Breñas",
-        "Caña Brava",
-        "Dolores"
-      ]
-    },
-    "C-33": {
-      "fecha": "2026-10-08T18:47:10+00:00",
-      "mensaje_id": 59123,
-      "url": "https://t.me/empresaelectricacienfuegos1/59123",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T19:38:29+00:00",
-      "listas_consecutivas": 19,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T18:34:33+00:00",
-        "mensaje_id": 59073,
-        "url": "https://t.me/empresaelectricacienfuegos1/59073",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
-      },
-      "lugares": [
-        "Arimao",
-        "Las Moscas",
-        "Vegas Viejas",
-        "Santa Martina",
-        "San Antón",
-        "Quesada",
-        "Callejón del Palmar"
-      ]
-    },
     "C-75": {
       "fecha": "2026-10-08T18:47:10+00:00",
       "mensaje_id": 59123,
@@ -384,35 +352,6 @@
         "La Legua",
         "Gavilán",
         "Boca Ambuila"
-      ]
-    },
-    "C-39": {
-      "fecha": "2026-10-08T18:47:10+00:00",
-      "mensaje_id": 59123,
-      "url": "https://t.me/empresaelectricacienfuegos1/59123",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T19:38:29+00:00",
-      "listas_consecutivas": 19,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T18:34:33+00:00",
-        "mensaje_id": 59073,
-        "url": "https://t.me/empresaelectricacienfuegos1/59073",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-39 La Sierrita, El Brazo, Cafetal, Faisanera."
-      },
-      "lugares": [
-        "La Sierrita",
-        "El Brazo",
-        "Cafetal",
-        "Faisanera"
       ]
     },
     "C-89": {
@@ -540,37 +479,6 @@
       "lugares": [
         "Pepito Tey",
         "Guabairo"
-      ]
-    },
-    "C-36": {
-      "fecha": "2026-10-08T18:47:10+00:00",
-      "mensaje_id": 59123,
-      "url": "https://t.me/empresaelectricacienfuegos1/59123",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T10:38:00+00:00",
-      "listas_consecutivas": 8,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T09:21:31+00:00",
-        "mensaje_id": 59102,
-        "url": "https://t.me/empresaelectricacienfuegos1/59102",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
-      },
-      "lugares": [
-        "Cumanayagua (Sur",
-        "La Guasasa",
-        "Ceibabo",
-        "La Furnia",
-        "Monasterio",
-        "El Concuní"
       ]
     },
     "C-32": {
@@ -1320,6 +1228,42 @@
       "confianza": 100,
       "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas."
     },
+    "C-33": {
+      "fecha": "2026-10-08T19:24:11+00:00",
+      "mensaje_id": 59124,
+      "url": "https://t.me/empresaelectricacienfuegos1/59124",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+    },
+    "C-35": {
+      "fecha": "2026-10-08T19:24:11+00:00",
+      "mensaje_id": 59124,
+      "url": "https://t.me/empresaelectricacienfuegos1/59124",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
+    },
+    "C-36": {
+      "fecha": "2026-10-08T19:24:11+00:00",
+      "mensaje_id": 59124,
+      "url": "https://t.me/empresaelectricacienfuegos1/59124",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+    },
+    "C-39": {
+      "fecha": "2026-10-08T19:24:11+00:00",
+      "mensaje_id": 59124,
+      "url": "https://t.me/empresaelectricacienfuegos1/59124",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-39 La Sierrita, El Brazo, Cafetal, Faisanera."
+    },
     "C-101": {
       "fecha": "2026-10-08T15:20:31+00:00",
       "mensaje_id": 59116,
@@ -1393,68 +1337,6 @@
         "La Milpa"
       ]
     },
-    "C-35": {
-      "fecha": "2026-10-08T18:47:10+00:00",
-      "mensaje_id": 59123,
-      "url": "https://t.me/empresaelectricacienfuegos1/59123",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T18:34:33+00:00",
-      "listas_consecutivas": 20,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T17:02:02+00:00",
-        "mensaje_id": 59070,
-        "url": "https://t.me/empresaelectricacienfuegos1/59070",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
-      },
-      "lugares": [
-        "Terraza",
-        "Codicia",
-        "Breñas",
-        "Caña Brava",
-        "Dolores"
-      ]
-    },
-    "C-33": {
-      "fecha": "2026-10-08T18:47:10+00:00",
-      "mensaje_id": 59123,
-      "url": "https://t.me/empresaelectricacienfuegos1/59123",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T19:38:29+00:00",
-      "listas_consecutivas": 19,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T18:34:33+00:00",
-        "mensaje_id": 59073,
-        "url": "https://t.me/empresaelectricacienfuegos1/59073",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
-      },
-      "lugares": [
-        "Arimao",
-        "Las Moscas",
-        "Vegas Viejas",
-        "Santa Martina",
-        "San Antón",
-        "Quesada",
-        "Callejón del Palmar"
-      ]
-    },
     "C-75": {
       "fecha": "2026-10-08T18:47:10+00:00",
       "mensaje_id": 59123,
@@ -1481,35 +1363,6 @@
         "La Legua",
         "Gavilán",
         "Boca Ambuila"
-      ]
-    },
-    "C-39": {
-      "fecha": "2026-10-08T18:47:10+00:00",
-      "mensaje_id": 59123,
-      "url": "https://t.me/empresaelectricacienfuegos1/59123",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T19:38:29+00:00",
-      "listas_consecutivas": 19,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T18:34:33+00:00",
-        "mensaje_id": 59073,
-        "url": "https://t.me/empresaelectricacienfuegos1/59073",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-39 La Sierrita, El Brazo, Cafetal, Faisanera."
-      },
-      "lugares": [
-        "La Sierrita",
-        "El Brazo",
-        "Cafetal",
-        "Faisanera"
       ]
     },
     "C-89": {
@@ -1637,37 +1490,6 @@
       "lugares": [
         "Pepito Tey",
         "Guabairo"
-      ]
-    },
-    "C-36": {
-      "fecha": "2026-10-08T18:47:10+00:00",
-      "mensaje_id": 59123,
-      "url": "https://t.me/empresaelectricacienfuegos1/59123",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T10:38:00+00:00",
-      "listas_consecutivas": 8,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T09:21:31+00:00",
-        "mensaje_id": 59102,
-        "url": "https://t.me/empresaelectricacienfuegos1/59102",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
-      },
-      "lugares": [
-        "Cumanayagua (Sur",
-        "La Guasasa",
-        "Ceibabo",
-        "La Furnia",
-        "Monasterio",
-        "El Concuní"
       ]
     },
     "C-32": {
@@ -1994,7 +1816,11 @@
     "C-55": "déficit",
     "C-66": "déficit",
     "C-22": "déficit",
-    "C-21": "déficit"
+    "C-21": "déficit",
+    "C-33": "avería",
+    "C-35": "avería",
+    "C-36": "avería",
+    "C-39": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2337,10 +2163,17 @@
       "id": 59114,
       "url": "https://t.me/empresaelectricacienfuegos1/59114",
       "fecha": "2026-10-08T14:35:34+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59124,
+      "url": "https://t.me/empresaelectricacienfuegos1/59124",
+      "fecha": "2026-10-08T19:24:11+00:00"
     }
   ],
   "lectura": {
-    "texto": 64,
+    "texto": 63,
     "imagenes": 55,
     "pdf": 0,
     "no_leidos": 9
@@ -3297,9 +3130,9 @@
     }
   ],
   "mw_fecha": "2026-10-08T18:47:10+00:00",
-  "total_circuitos_afectados": 49,
+  "total_circuitos_afectados": 53,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 21,
+  "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
     "C-18",
     "C-2",
@@ -3319,5 +3152,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T19:09:30.333697+00:00"
+  "actualizado": "2026-10-08T19:24:24.120177+00:00"
 }
