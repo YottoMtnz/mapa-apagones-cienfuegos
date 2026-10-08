@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-10-08T14:31:57+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-08T09:22:50+00:00",
+  "programado_fecha": "2026-10-08T15:05:58+00:00",
   "mensajes_leidos": 118,
   "afectados": {
     "C-70": [
@@ -255,7 +255,9 @@
       "El Crucero",
       "Guaos",
       "Naranjito"
-    ]
+    ],
+    "C-18": [],
+    "C-20": []
   },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
@@ -1417,6 +1419,24 @@
       "confianza": 100,
       "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
+    "C-18": {
+      "fecha": "2026-10-08T15:05:58+00:00",
+      "mensaje_id": 59115,
+      "url": "https://t.me/empresaelectricacienfuegos1/59115",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
+    "C-20": {
+      "fecha": "2026-10-08T15:05:58+00:00",
+      "mensaje_id": 59115,
+      "url": "https://t.me/empresaelectricacienfuegos1/59115",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
     "C-6": {
       "fecha": "2026-10-08T14:18:25+00:00",
       "mensaje_id": 59112,
@@ -1633,54 +1653,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
-      },
-      "lugares": []
-    },
-    "C-18": {
-      "fecha": "2026-10-08T14:18:25+00:00",
-      "mensaje_id": 59112,
-      "url": "https://t.me/empresaelectricacienfuegos1/59112",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T10:38:00+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T09:21:31+00:00",
-        "mensaje_id": 59102,
-        "url": "https://t.me/empresaelectricacienfuegos1/59102",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
-    "C-20": {
-      "fecha": "2026-10-08T14:18:25+00:00",
-      "mensaje_id": 59112,
-      "url": "https://t.me/empresaelectricacienfuegos1/59112",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T10:38:00+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T09:21:31+00:00",
-        "mensaje_id": 59102,
-        "url": "https://t.me/empresaelectricacienfuegos1/59102",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
       },
       "lugares": []
     },
@@ -1997,6 +1969,16 @@
     "C-67": {
       "inicio": null,
       "fin": "2026-10-08T15:32:15+00:00",
+      "fecha_ambigua": false
+    },
+    "C-18": {
+      "inicio": null,
+      "fin": "2026-10-09T03:05:58+00:00",
+      "fecha_ambigua": false
+    },
+    "C-20": {
+      "inicio": null,
+      "fin": "2026-10-09T03:05:58+00:00",
       "fecha_ambigua": false
     }
   },
@@ -3369,7 +3351,7 @@
   ],
   "mw_fecha": "2026-10-08T14:18:25+00:00",
   "total_circuitos_afectados": 53,
-  "total_circuitos_programados": 2,
+  "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 23,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -3390,5 +3372,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T14:59:28.579835+00:00"
+  "actualizado": "2026-10-08T15:14:33.606077+00:00"
 }
