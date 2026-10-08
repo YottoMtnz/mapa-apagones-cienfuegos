@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-08T21:24:58+00:00",
+  "reporte_fecha": "2026-10-08T22:24:22+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-08T21:32:55+00:00",
-  "mensajes_leidos": 120,
+  "mensajes_leidos": 122,
   "afectados": {
     "C-70": [
       "Aguada",
@@ -1016,9 +1016,9 @@
       "texto": "👉C-82 Balboa, La Pedrera, El Tropezón."
     },
     "C-62": {
-      "fecha": "2026-10-08T12:15:30+00:00",
-      "mensaje_id": 59108,
-      "url": "https://t.me/empresaelectricacienfuegos1/59108",
+      "fecha": "2026-10-08T22:24:22+00:00",
+      "mensaje_id": 59134,
+      "url": "https://t.me/empresaelectricacienfuegos1/59134",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -2206,11 +2206,78 @@
       "id": 59132,
       "url": "https://t.me/empresaelectricacienfuegos1/59132",
       "fecha": "2026-10-08T22:01:27+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar.",
+      "circuitos": [
+        "C-33"
+      ],
+      "id": 59133,
+      "url": "https://t.me/empresaelectricacienfuegos1/59133",
+      "fecha": "2026-10-08T22:20:06+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores.",
+      "circuitos": [
+        "C-35"
+      ],
+      "id": 59133,
+      "url": "https://t.me/empresaelectricacienfuegos1/59133",
+      "fecha": "2026-10-08T22:20:06+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní.",
+      "circuitos": [
+        "C-36"
+      ],
+      "id": 59133,
+      "url": "https://t.me/empresaelectricacienfuegos1/59133",
+      "fecha": "2026-10-08T22:20:06+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-39 La Sierrita, El Brazo, Cafetal, Faisanera.",
+      "circuitos": [
+        "C-39"
+      ],
+      "id": 59133,
+      "url": "https://t.me/empresaelectricacienfuegos1/59133",
+      "fecha": "2026-10-08T22:20:06+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-85 Cumanayagua (Centro).",
+      "circuitos": [
+        "C-85"
+      ],
+      "id": 59133,
+      "url": "https://t.me/empresaelectricacienfuegos1/59133",
+      "fecha": "2026-10-08T22:20:06+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-86 \"Cumanayagua, emisora de radio\"",
+      "circuitos": [
+        "C-86"
+      ],
+      "id": 59133,
+      "url": "https://t.me/empresaelectricacienfuegos1/59133",
+      "fecha": "2026-10-08T22:20:06+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59134,
+      "url": "https://t.me/empresaelectricacienfuegos1/59134",
+      "fecha": "2026-10-08T22:24:22+00:00"
     }
   ],
   "lectura": {
-    "texto": 64,
-    "imagenes": 56,
+    "texto": 65,
+    "imagenes": 57,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -3186,5 +3253,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T22:09:21.314989+00:00"
+  "actualizado": "2026-10-08T22:24:26.625631+00:00"
 }
