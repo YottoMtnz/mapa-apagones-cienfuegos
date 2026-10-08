@@ -93,6 +93,7 @@
   #revision li{display:block;font-size:10px;padding:7px 0}#revision a{color:#9cebd6}.pbtn{padding:8px;font-size:11px;background:#203c42;border:1px solid #7baba750}
   button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #9debd6;outline-offset:3px}
   @media(prefers-reduced-motion:reduce){.parpadeo .dot{animation:none!important}*{scroll-behavior:auto!important}}
+  .stat.teal{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;border:1px dashed #5eead466}.stat.teal b{color:#5eead4;margin:0}.stat.teal span{max-width:170px;line-height:1.5;text-align:right}.dot.teal{background:#0f766e;border:2px dashed #99f6e4}.badge.teal{background:#99f6e4;color:#083d38}.inferencia{margin-top:6px;color:#a4ebdc;line-height:1.5;font-size:11px}
   @media(max-width:700px){.panel{top:auto;bottom:12px;left:12px;width:calc(100vw - 24px);max-width:none;max-height:52dvh;padding:15px 17px;border-radius:20px}.brand{display:none}.panel h1{font-size:25px;letter-spacing:-.9px;margin-bottom:3px}.panel .sub{font-size:10px;margin-bottom:9px}.statusline{margin-bottom:10px}.searchbox{margin-bottom:10px}.tabs{margin-bottom:12px}.stats{grid-template-columns:repeat(4,1fr);gap:5px}.stat{padding:10px 5px;text-align:center}.stat b{font-size:23px}.stat span{font-size:7px;letter-spacing:0}.section-label{margin-bottom:7px}.credits{font-size:9px;margin-top:8px;padding-top:8px}#mapLabel{left:12px;top:12px;padding:10px 12px;font-size:9px}#btnUbic,#btnRefresh{top:12px}#btnUbic{right:12px}#btnRefresh{right:64px}.leaflet-bottom.leaflet-right{bottom:54dvh}#tourBar{bottom:auto;top:72px;gap:6px;padding:6px 8px}#tourInfo{font-size:11px}#mapToast{bottom:54dvh}.panel.plegado{max-height:none}.panel.plegado .credits{display:none}.panel.plegado .sub{display:none}}
 
 </style>
@@ -119,12 +120,14 @@
     <button class="stat orange" title="Recorrer programados"><b id="cProg">–</b><span>Programados</span></button>
     <button class="stat green" title="Recorrer restablecidos"><b id="cOk">–</b><span>Restablecidos</span></button>
     <button class="stat gray" title="Recorrer sin confirmar"><b id="cDesc">–</b><span>Sin confirmar</span></button>
+    <button class="stat teal" title="Salieron de una lista completa; el canal no confirmó la reposición"><b id="cProb">–</b><span>Restablecimiento probable</span></button>
   </div>
   <div class="updated" id="mwLine" style="display:none">⚡ <b id="mwVal"></b> MW afectados</div>
   <div class="leyenda">
     <span><i style="background:#ef4444"></i>Sin servicio</span>
     <span><i style="background:#f59e0b"></i>Programado</span>
     <span><i style="background:#22c55e"></i>Con servicio</span>
+    <span><i style="background:#0f766e;border:1px dashed #99f6e4"></i>Restablecimiento probable</span>
     <span><i style="background:#6b7280"></i>Sin datos</span>
   </div>
   <details class="sinub" id="sinub" style="display:none">
@@ -133,7 +136,7 @@
   </details>
   <div class="data-foot"><div class="updated" id="upd">Cargando…</div><div class="updated" id="reporteHora"></div></div>
   <details class="sinub" id="revision" style="display:none"><summary id="revisionTitulo"></summary><ul id="revisionLista"></ul></details>
-  <div class="map-note">Los puntos representan localidades del circuito, no cada vivienda. Gris significa que el servicio no está confirmado.</div>
+  <div class="map-note">Verde: reposición confirmada. Turquesa: salió de una lista completa, sin confirmación directa. Gris: sin información suficiente. Cada punto representa una localidad, no cada vivienda.</div>
   </div>
   <div class="credits">Desarrollado por <a href="https://github.com/YottoMtnz" target="_blank" rel="noopener">Fraudy Martinez Madruga</a></div>
 </div>
@@ -161,7 +164,7 @@ const MAX_PINES_PARPADEO = 120;        // por encima, sin animación (batería e
 
 // Modo recorrido: tocar un contador para ver los puntos uno por uno
 let tour = {activo:false, lista:[], idx:0, categoria:''};
-const TOUR_COLOR = {afect:'red', prog:'orange', ok:'green', desc:'gray'};
+const TOUR_COLOR = {afect:'red', prog:'orange', ok:'green', prob:'teal', desc:'gray'};
 function iniciarTour(cat){
   // Recolectar marcadores de esa categoría
   filtroActual='todos';document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('activo',x.dataset.tab==='todos'));renderizar();
@@ -181,14 +184,14 @@ function mostrarTour(){
   const {lat, lng} = mk._m;
   map.setView([lat, lng], 13, {animate:true});
   layerGroup.zoomToShowLayer(mk,()=>mk.openPopup());
-  const nombres = {afect:'sin servicio', prog:'programados', ok:'con servicio', desc:'sin datos'};
+  const nombres = {afect:'sin servicio', prog:'programados', ok:'con servicio', prob:'probables', desc:'sin datos'};
   $('tourInfo').textContent = `${tour.idx+1} de ${tour.lista.length} ${nombres[tour.categoria]||''}`;
 }
 function tourSiguiente(){ if(!tour.activo) return; tour.idx = (tour.idx+1) % tour.lista.length; mostrarTour(); }
 function tourAnterior(){ if(!tour.activo) return; tour.idx = (tour.idx-1+tour.lista.length) % tour.lista.length; mostrarTour(); }
 function tourSalir(){ tour.activo = false; const b=$('tourBar'); if(b) b.style.display = 'none'; try{ map.closePopup(); }catch(e){} }
 
-// Escapa HTML: TODO texto que venga de datos/Telegram pasa por aquí antes de ir a innerHTML.
+// Escapa HTML: todo texto de datos pasa por aquí antes de ir a innerHTML.
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 const LIMITES_CFG=[[21.75,-80.95],[22.55,-79.95]];
@@ -233,57 +236,7 @@ function provinciaCercana(lat,lng,soloActivas){
 
 // Alcance fijo: Cienfuegos. No se cambia de provincia por arrastrar el mapa.
 let busqueda='';
-let buscarTimer=null;
-$('buscar').addEventListener('input',e=>{
-  try{
-    busqueda=e.target.value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-  }catch(_){ busqueda=e.target.value.toLowerCase(); }
-  renderizar();
-  clearTimeout(buscarTimer);
-  if(!busqueda||busqueda.length<2) return;
-  buscarTimer=setTimeout(()=>{
-    try{
-      const circ=(datosCache&&datosCache.circ)||{};
-      let mejor=null;
-      const q=busqueda;
-      for(const id of Object.keys(circ)){
-        const c=circ[id]||{};
-        const nombres=[String(id)].concat(c.lugares||[]);
-        for(const n of nombres){
-          let nn;
-          try{ nn=String(n).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
-          catch(_){ nn=String(n).toLowerCase(); }
-          if(nn.indexOf(q)===0){ // prefijo: mejor coincidencia
-            const pt=(c.puntos||[]).find(p=>p&&Number.isFinite(p.lat)&&Number.isFinite(p.lng));
-            if(pt){ mejor={lat:pt.lat,lng:pt.lng}; break; }
-          }
-        }
-        if(mejor) break;
-      }
-      // Si no hubo prefijo, buscar coincidencia interior
-      if(!mejor){
-        for(const id of Object.keys(circ)){
-          const c=circ[id]||{};
-          const nombres=[String(id)].concat(c.lugares||[]);
-          for(const n of nombres){
-            let nn;
-            try{ nn=String(n).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
-            catch(_){ nn=String(n).toLowerCase(); }
-            if(nn.indexOf(q)>=0){
-              const pt=(c.puntos||[]).find(p=>p&&Number.isFinite(p.lat)&&Number.isFinite(p.lng));
-              if(pt){ mejor={lat:pt.lat,lng:pt.lng}; break; }
-            }
-          }
-          if(mejor) break;
-        }
-      }
-      if(mejor&&map){
-        try{ map.setView([mejor.lat,mejor.lng], Math.max(map.getZoom(),13), {animate:true}); }
-        catch(_){ try{ map.panTo([mejor.lat,mejor.lng]); }catch(_){} }
-      }
-    }catch(_){}
-  },300);
-});
+$('buscar').addEventListener('input',e=>{busqueda=e.target.value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();renderizar();});
 $('plegar').addEventListener('click',()=>{const hidden=$('contenidoPanel').hidden=!$('contenidoPanel').hidden;$('plegar').textContent=hidden?'+':'−';$('plegar').setAttribute('aria-expanded',String(!hidden));$('panelPrincipal').classList.toggle('plegado',hidden);});
 function avisoBreve(texto){$('mapToast').textContent=texto;$('mapToast').style.display='block';clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>$('mapToast').style.display='none',5000);}
 function fechaCuba(value){return value?new Date(value).toLocaleString('es-CU',{timeZone:'America/Havana',dateStyle:'short',timeStyle:'short'}):'—';}
@@ -319,21 +272,22 @@ async function cargar(prov,mover=true){
 }
 
 function estadoDe(id,est,datosOk){
-  const prueba=(est.evidencias||{})[id]||(est.confirmados_con_servicio||{})[id];
+  const prueba=(est.evidencias||{})[id]||(est.confirmados_con_servicio||{})[id]||(est.restablecimientos_probables||{})[id];
   const fecha=prueba?.fecha||est.reporte_fecha;
-  const sinBloqueo=!(est.lectura_incompleta_desde&&Date.parse(est.lectura_incompleta_desde)>Date.parse(fecha));
+  const sinBloqueo=est.schema>=4||!(est.lectura_incompleta_desde&&Date.parse(est.lectura_incompleta_desde)>Date.parse(fecha));
   const reciente=sinBloqueo&&fecha&&Date.now()-Date.parse(fecha)<12*36e5&&Date.parse(fecha)<=Date.now()+5*60000;
   if(datosOk&&reciente&&Object.hasOwn(est.afectados||{},id)) return 'afect';
   const plan=(est.horarios||{})[id];
   const fin=plan?.fin?Date.parse(plan.fin):Date.parse(est.programado_fecha)+12*36e5;
   if(est.estado_datos!=='error'&&Object.hasOwn(est.programados||{},id)&&fin>Date.now()) return 'prog';
   if(datosOk&&reciente&&Object.hasOwn(est.confirmados_con_servicio||{},id)) return 'ok';
+  if(datosOk&&reciente&&Object.hasOwn(est.restablecimientos_probables||{},id)) return 'prob';
   return 'desc';
 }
 
-const COLOR={afect:'red',prog:'orange',ok:'green',desc:'gray'};
+const COLOR={afect:'red',prog:'orange',ok:'green',prob:'teal',desc:'gray'};
 const BADGE={afect:'<span class="badge red">SIN SERVICIO</span>',prog:'<span class="badge orange">PROGRAMADO</span>',
-             ok:'<span class="badge green">CON SERVICIO</span>',desc:'<span class="badge gray">SIN CONFIRMAR</span>'};
+             ok:'<span class="badge green">CON SERVICIO</span>',prob:'<span class="badge teal">RESTABLECIMIENTO PROBABLE</span>',desc:'<span class="badge gray">SIN CONFIRMAR</span>'};
 
 function leerCorreccion(ck){ try{const s=localStorage.getItem(ck); return s?JSON.parse(s):null}catch(e){return null} }
 function guardarCorreccion(ck,v){ try{localStorage.setItem(ck,JSON.stringify(v));return true}catch(e){return false} }
@@ -342,7 +296,7 @@ function renderizar(){
   if(tour.activo)tourSalir();
   layerGroup.clearLayers(); marcadores={};
   const {circ={},est={}}=datosCache;
-  const ids=[...new Set([...Object.keys(circ),...Object.keys(est.afectados||{}),...Object.keys(est.programados||{})])];
+  const ids=[...new Set([...Object.keys(circ),...Object.keys(est.afectados||{}),...Object.keys(est.programados||{}),...Object.keys(est.restablecimientos_probables||{}),...Object.keys(est.confirmados_con_servicio||{}),...Object.keys(est.afectaciones_parciales||{})])];
   $('totalCatalogo').textContent=ids.length+' circuitos';
   const f=est.actualizado?new Date(est.actualizado):null;
 
@@ -355,26 +309,26 @@ function renderizar(){
   else if(est.estado_datos==='error') msg='Error al leer el canal oficial; se muestran los últimos datos conocidos.';
   else if(est.reporte_vencido) msg='El último reporte oficial es antiguo (más de 12 h). No se muestra como actual.';
   else if(!datosOk) msg='No hay información reciente suficiente para confirmar el servicio.';
-  else if(est.cobertura!=='provincial') msg='Los reportes son por circuitos. Si tu zona no sale en la lista, no significa que tengas electricidad.';
-  if(est.lectura?.no_leidos) msg+='';
+  else if(est.cobertura!=='provincial') msg='Las listas completas retiran los cortes anteriores de la misma causa. Turquesa indica reposición probable; verde requiere confirmación del canal.';
+  if(est.lectura?.no_leidos) msg+=' Hay publicaciones pendientes de lectura; consulta los avisos por revisar.';
   $('estadoPill').textContent=datosOk?'Avisos recientes disponibles':'Servicio pendiente de confirmar';
   $('reporteHora').textContent='Último aviso: '+fechaCuba(est.reporte_fecha)+' · hora de Cuba';
-  const pendientes=[];
-  $('revision').style.display='none';
+  const pendientes=est.pendientes_revision||[];
+  $('revision').style.display=pendientes.length?'block':'none';$('revisionTitulo').textContent=pendientes.length+' avisos por revisar';
   $('revisionLista').replaceChildren();
   for(const q of pendientes.slice(-8).reverse()){const li=document.createElement('li');li.textContent=(q.texto||'Publicación con contenido no interpretado').slice(0,130)+' ';const url=enlaceFuente(q.url);if(url){const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener';a.textContent='Ver publicación ↗';li.appendChild(a);}$('revisionLista').appendChild(li);}
   if(f && (Date.now()-f.getTime())/36e5 > MAX_MONITOR_ATRASADO_H){ msg=(msg?msg+' ':'')+'Además, el monitor lleva horas sin actualizarse.'; av.classList.add('rojo'); }
   if(msg){ av.textContent=msg; av.style.display='block'; }
 
   if(!ids.length){
-    ['cAfect','cProg','cOk','cDesc'].forEach(i=>$(i).textContent='–');
+    ['cAfect','cProg','cOk','cDesc','cProb'].forEach(i=>$(i).textContent='–');
     $('sinub').style.display='none';
     $('upd').textContent='Esta provincia aún no tiene circuitos catalogados.';
     $('mwLine').style.display='none';
     return;
   }
 
-  let n={afect:0,prog:0,ok:0,desc:0}, pines=0; const sinUbicar=[]; const jobs=[];
+  let n={afect:0,prog:0,ok:0,prob:0,desc:0}, pines=0; const sinUbicar=[]; const jobs=[];
   for(const id of ids){
     const c=circ[id]||{lugares:[],puntos:[],ubicado:false}, st=estadoDe(id,est,datosOk);
     n[st]++;
@@ -419,8 +373,16 @@ function renderizar(){
         extra += `<br>${icono} <b>${txt}</b>`;
       }
     }
-    const prueba=(est.evidencias||{})[id]||(est.confirmados_con_servicio||{})[id];
-    if(prueba){extra+=`<br><small>Aviso: ${esc(fechaCuba(prueba.fecha))}</small>`;if(prueba.medio==='imagenes'||prueba.medio==='pdf')extra+='<br><small>Lectura de imagen o documento</small>';}
+    const prueba=(est.evidencias||{})[id]||(est.confirmados_con_servicio||{})[id]||(est.restablecimientos_probables||{})[id];
+    if(st==='prob'){
+      extra+='<div class="inferencia">Ya no aparece en una lista completa de '+esc(prueba?.alcance==='averia'?'averías':'déficit')+'. Es una deducción; no confirma que todas las viviendas tengan corriente.</div>';
+      const anterior=enlaceFuente(prueba?.aviso_anterior?.url);if(anterior)extra+=`<a href="${esc(anterior)}" target="_blank" rel="noopener">Comparar con el aviso anterior ↗</a><br>`;
+    }
+    for(const seccion of est.afectaciones_parciales?.[id]||[]){
+      extra+=`<br><small>Avería de sección ${esc(seccion.seccion)}: ${esc((seccion.lugares||[]).join(', '))}. ${seccion.vigente?'No representa todo el circuito.':'Aviso antiguo, pendiente de confirmación.'}</small>`;
+      const url=enlaceFuente(seccion.evidencia?.url);if(url)extra+=`<br><a href="${esc(url)}" target="_blank" rel="noopener">Ver aviso de la sección ↗</a>`;
+    }
+    if(prueba){extra+=`<br><small>Aviso: ${esc(fechaCuba(prueba.fecha))}</small>`;const url=enlaceFuente(prueba.url);if(url)extra+=`<br><a href="${esc(url)}" target="_blank" rel="noopener">Ver aviso original ↗</a>`;if(prueba.medio==='imagenes'||prueba.medio==='pdf')extra+='<br><small>Lectura de imagen o documento</small>';}
     const horario=(est.horarios||{})[id];if(st==='prog'&&horario){extra+=`<br>Previsto: ${esc(fechaCuba(horario.inicio))}<br>Hasta: ${esc(fechaCuba(horario.fin))}`;}
     const nota = corr ? '<br><i style="color:#38bdf8">✏️ Corregido por ti</i>'
       : dudoso ? '<br><i style="color:#f59e0b">⚠️ Ubicación por confirmar</i>'
@@ -435,6 +397,7 @@ function renderizar(){
   }
 
   $('cAfect').textContent=String(n.afect); $('cProg').textContent=String(n.prog); $('cOk').textContent=String(n.ok); $('cDesc').textContent=String(n.desc);
+  $('cProb').textContent=String(n.prob);
   if(datosOk&&est.mw!=null){ $('mwVal').textContent=est.mw; $('mwLine').style.display='block'; } else $('mwLine').style.display='none';
 
   const sb=$('sinub');
@@ -444,9 +407,9 @@ function renderizar(){
     const ul=$('sinubLista'); ul.textContent='';
     for(const s of sinUbicar){
       const li=document.createElement('li');
-      const i=document.createElement('i'); i.style.background={afect:'#ef4444',prog:'#f59e0b',ok:'#22c55e',desc:'#6b7280'}[s.st];
+      const i=document.createElement('i'); i.style.background={afect:'#ef4444',prog:'#f59e0b',ok:'#22c55e',prob:'#5eead4',desc:'#6b7280'}[s.st];
       li.appendChild(i);
-      li.appendChild(document.createTextNode(s.id+(s.st==='afect'?' — SIN SERVICIO':s.st==='prog'?' — programado':'')+(s.zonas.length?' ('+s.zonas.join(', ')+')':'')));
+      li.appendChild(document.createTextNode(s.id+(s.st==='afect'?' — SIN SERVICIO':s.st==='prog'?' — programado':s.st==='prob'?' — restablecimiento probable':'')+(s.zonas.length?' ('+s.zonas.join(', ')+')':'')));
       ul.appendChild(li);
     }
   } else sb.style.display='none';
@@ -456,6 +419,13 @@ function renderizar(){
   if(est.hora_inicio) partes.push('Desde: '+est.hora_inicio);
   if(est.cierre) partes.push('Cierre: '+est.cierre);
   $('upd').textContent=partes.join(' | ');
+  // Si hay búsqueda activa con resultados, mover el mapa al primero
+  if(busqueda && jobs.length){
+    const primero = jobs[0];
+    if(primero && primero.pt && Number.isFinite(primero.pt.lat)){
+      try{ map.setView([primero.pt.lat, primero.pt.lng], 13, {animate:true}); }catch(e){}
+    }
+  }
 }
 
 // Un solo manejador para los botones de los popups (sin onclick inline)
@@ -504,6 +474,7 @@ $('btnRefresh').addEventListener('click',()=>cargar('cienfuegos',false));
 document.querySelector('.stat.red').addEventListener('click',()=>iniciarTour('afect'));
 document.querySelector('.stat.orange').addEventListener('click',()=>iniciarTour('prog'));
 document.querySelector('.stat.green').addEventListener('click',()=>iniciarTour('ok'));
+document.querySelector('.stat.teal').addEventListener('click',()=>iniciarTour('prob'));
 document.querySelector('.stat.gray').addEventListener('click',()=>iniciarTour('desc'));
 $('tourNext').addEventListener('click',tourSiguiente);
 $('tourPrev').addEventListener('click',tourAnterior);
