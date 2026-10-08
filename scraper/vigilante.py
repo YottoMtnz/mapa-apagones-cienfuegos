@@ -3,14 +3,24 @@
 Vigilante opcional del workflow: si GitHub pausa el cron programado, lo reactiva con
 un workflow_dispatch. Ejecútalo desde cualquier cron EXTERNO (cada 10 min).
 
-Variables de entorno:
+Autenticación (en orden):
   GITHUB_TOKEN  token con permiso Actions: write sobre el repo (fine-grained)
+  o la credencial conectada custom.github (surrogate, sin exponer el token)
+
+Variables de entorno:
   GITHUB_REPO   p.ej. "YottoMtnz/mapa-apagones-cienfuegos"
   MAX_SILENCIO_MIN  (def. 12)  minutos sin ningún run antes de disparar
-Sin dependencias fuera de la librería estándar.
+Sin dependencias fuera de la librería estándar (+ el helper de credenciales).
 """
 import json, os, sys, urllib.request
 from datetime import datetime, timezone
+
+sys.path.insert(0, "/opt/hatch/skills/skill-creator/bin")
+try:
+    from dynamic_credentials import add_surrogate_to_request
+    _TIENE_SURROGATE = True
+except ImportError:
+    _TIENE_SURROGATE = False
 
 REPO = os.environ.get("GITHUB_REPO", "YottoMtnz/mapa-apagones-cienfuegos")
 WORKFLOW = "mapa.yml"
@@ -25,7 +35,10 @@ def _auth_headers(req):
     if token:
         req.add_header("Authorization", f"Bearer {token}")
         return
-    sys.exit('Falta GITHUB_TOKEN')
+    if _TIENE_SURROGATE:
+        add_surrogate_to_request(req, CRED_NAME, allowed_hosts=GITHUB_HOSTS)
+        return
+    sys.exit("Falta GITHUB_TOKEN")
 
 
 def api(path, method="GET", data=None):
