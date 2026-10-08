@@ -316,7 +316,7 @@ function renderizar(){
   const pendientes=est.pendientes_revision||[];
   $('revision').style.display=pendientes.length?'block':'none';$('revisionTitulo').textContent=pendientes.length+' avisos por revisar';
   $('revisionLista').replaceChildren();
-  for(const q of pendientes.slice(-8).reverse()){const li=document.createElement('li');li.textContent=(q.texto||'Publicación con contenido no interpretado').slice(0,130)+' ';const url=enlaceFuente(q.url);if(url){const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener';a.textContent='Ver publicación ↗';li.appendChild(a);}$('revisionLista').appendChild(li);}
+  for(const q of pendientes.slice(-8).reverse()){const li=document.createElement('li');li.textContent=(q.texto||'Publicación con contenido no interpretado').slice(0,130);$('revisionLista').appendChild(li);}
   if(f && (Date.now()-f.getTime())/36e5 > MAX_MONITOR_ATRASADO_H){ msg=(msg?msg+' ':'')+'Además, el monitor lleva horas sin actualizarse.'; av.classList.add('rojo'); }
   if(msg){ av.textContent=msg; av.style.display='block'; }
 
@@ -382,7 +382,7 @@ function renderizar(){
       extra+=`<br><small>Avería de sección ${esc(seccion.seccion)}: ${esc((seccion.lugares||[]).join(', '))}. ${seccion.vigente?'No representa todo el circuito.':'Aviso antiguo, pendiente de confirmación.'}</small>`;
       const url=enlaceFuente(seccion.evidencia?.url);if(url)extra+=`<br><a href="${esc(url)}" target="_blank" rel="noopener">Ver aviso de la sección ↗</a>`;
     }
-    if(prueba){extra+=`<br><small>Aviso: ${esc(fechaCuba(prueba.fecha))}</small>`;const url=enlaceFuente(prueba.url);if(url)extra+=`<br><a href="${esc(url)}" target="_blank" rel="noopener">Ver aviso original ↗</a>`;if(prueba.medio==='imagenes'||prueba.medio==='pdf')extra+='<br><small>Lectura de imagen o documento</small>';}
+    if(prueba){extra+=`<br><small>Aviso: ${esc(fechaCuba(prueba.fecha))}</small>`;if(prueba.medio==='imagenes'||prueba.medio==='pdf')extra+='<br><small>Lectura de imagen o documento</small>';}
     const horario=(est.horarios||{})[id];if(st==='prog'&&horario){extra+=`<br>Previsto: ${esc(fechaCuba(horario.inicio))}<br>Hasta: ${esc(fechaCuba(horario.fin))}`;}
     const nota = corr ? '<br><i style="color:#38bdf8">✏️ Corregido por ti</i>'
       : dudoso ? '<br><i style="color:#f59e0b">⚠️ Ubicación por confirmar</i>'
