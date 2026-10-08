@@ -135,7 +135,7 @@
     <ul id="sinubLista"></ul>
   </details>
   <div class="data-foot"><div class="updated" id="upd">Cargando…</div><div class="updated" id="reporteHora"></div></div>
-  <details class="sinub" id="revision" style="display:none"><summary id="revisionTitulo"></summary><ul id="revisionLista"></ul></details>
+  
   <div class="map-note">Verde: reposición confirmada. Turquesa: salió de una lista completa, sin confirmación directa. Gris: sin información suficiente. Cada punto representa una localidad, no cada vivienda.</div>
   </div>
   <div class="credits">Desarrollado por <a href="https://github.com/YottoMtnz" target="_blank" rel="noopener">Fraudy Martinez Madruga</a></div>
@@ -310,13 +310,10 @@ function renderizar(){
   else if(est.reporte_vencido) msg='El último reporte oficial es antiguo (más de 12 h). No se muestra como actual.';
   else if(!datosOk) msg='No hay información reciente suficiente para confirmar el servicio.';
   else if(est.cobertura!=='provincial') msg='Las listas completas retiran los cortes anteriores de la misma causa. Turquesa indica reposición probable; verde requiere confirmación oficial.';
-  if(est.lectura?.no_leidos) msg+=' Hay publicaciones pendientes de lectura; consulta los avisos por revisar.';
+  if(est.lectura?.no_leidos) msg+=' Hay publicaciones pendientes de lectura.';
   $('estadoPill').textContent=datosOk?'Avisos recientes disponibles':'Servicio pendiente de confirmar';
   $('reporteHora').textContent='Último aviso: '+fechaCuba(est.reporte_fecha)+' · hora de Cuba';
-  const pendientes=est.pendientes_revision||[];
-  $('revision').style.display=pendientes.length?'block':'none';$('revisionTitulo').textContent=pendientes.length+' avisos por revisar';
-  $('revisionLista').replaceChildren();
-  for(const q of pendientes.slice(-8).reverse()){const li=document.createElement('li');li.textContent=(q.texto||'Publicación con contenido no interpretado').slice(0,130);$('revisionLista').appendChild(li);}
+
   if(f && (Date.now()-f.getTime())/36e5 > MAX_MONITOR_ATRASADO_H){ msg=(msg?msg+' ':'')+'Además, el monitor lleva horas sin actualizarse.'; av.classList.add('rojo'); }
   if(msg){ av.textContent=msg; av.style.display='block'; }
 
