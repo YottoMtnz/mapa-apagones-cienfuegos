@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-08T03:07:56+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-07T21:44:07+00:00",
-  "mensajes_leidos": 114,
+  "programado_fecha": "2026-10-08T03:32:15+00:00",
+  "mensajes_leidos": 115,
   "afectados": {
     "C-70": [
       "Aguada",
@@ -213,7 +213,32 @@
       "El Limpio"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
+    ],
+    "C-2": [],
+    "C-3": [
+      "Reparto Eléctrico"
+    ],
+    "C-5": [
+      "Boulevard",
+      "Parque Martí"
+    ],
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
+    ],
+    "C-43": []
+  },
   "confirmados_con_servicio": {
     "C-1770": {
       "fecha": "2026-10-07T21:11:13+00:00",
@@ -1301,6 +1326,69 @@
       "confianza": 100,
       "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
     },
+    "C-69": {
+      "fecha": "2026-10-08T03:32:15+00:00",
+      "mensaje_id": 59098,
+      "url": "https://t.me/empresaelectricacienfuegos1/59098",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
+    "C-2": {
+      "fecha": "2026-10-08T03:32:15+00:00",
+      "mensaje_id": 59098,
+      "url": "https://t.me/empresaelectricacienfuegos1/59098",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
+    "C-3": {
+      "fecha": "2026-10-08T03:32:15+00:00",
+      "mensaje_id": 59098,
+      "url": "https://t.me/empresaelectricacienfuegos1/59098",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
+    "C-5": {
+      "fecha": "2026-10-08T03:32:15+00:00",
+      "mensaje_id": 59098,
+      "url": "https://t.me/empresaelectricacienfuegos1/59098",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
+    "C-15": {
+      "fecha": "2026-10-08T03:32:15+00:00",
+      "mensaje_id": 59098,
+      "url": "https://t.me/empresaelectricacienfuegos1/59098",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
+    "C-67": {
+      "fecha": "2026-10-08T03:32:15+00:00",
+      "mensaje_id": 59098,
+      "url": "https://t.me/empresaelectricacienfuegos1/59098",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
+    "C-43": {
+      "fecha": "2026-10-08T03:32:15+00:00",
+      "mensaje_id": 59098,
+      "url": "https://t.me/empresaelectricacienfuegos1/59098",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
     "C-1770": {
       "fecha": "2026-10-07T21:11:13+00:00",
       "mensaje_id": 59082,
@@ -1636,90 +1724,6 @@
       },
       "lugares": []
     },
-    "C-67": {
-      "fecha": "2026-10-08T03:07:56+00:00",
-      "mensaje_id": 59097,
-      "url": "https://t.me/empresaelectricacienfuegos1/59097",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-70 \"Aguada, Federal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T22:20:43+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T21:53:46+00:00",
-        "mensaje_id": 59087,
-        "url": "https://t.me/empresaelectricacienfuegos1/59087",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-67 \"El Crucero, Guaos, Naranjito."
-      },
-      "lugares": [
-        "El Crucero",
-        "Guaos",
-        "Naranjito"
-      ]
-    },
-    "C-15": {
-      "fecha": "2026-10-08T03:07:56+00:00",
-      "mensaje_id": 59097,
-      "url": "https://t.me/empresaelectricacienfuegos1/59097",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-70 \"Aguada, Federal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T22:20:43+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T21:53:46+00:00",
-        "mensaje_id": 59087,
-        "url": "https://t.me/empresaelectricacienfuegos1/59087",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-15 Pepito Tey, Guabairo."
-      },
-      "lugares": [
-        "Pepito Tey",
-        "Guabairo"
-      ]
-    },
-    "C-69": {
-      "fecha": "2026-10-08T03:07:56+00:00",
-      "mensaje_id": 59097,
-      "url": "https://t.me/empresaelectricacienfuegos1/59097",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-70 \"Aguada, Federal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T22:20:43+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T21:53:46+00:00",
-        "mensaje_id": 59087,
-        "url": "https://t.me/empresaelectricacienfuegos1/59087",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-      },
-      "lugares": [
-        "Junco Sur",
-        "Reparto de los médicos",
-        "Las Minas",
-        "Playa Alegre"
-      ]
-    },
     "C-58": {
       "fecha": "2026-10-08T03:07:56+00:00",
       "mensaje_id": 59097,
@@ -1799,107 +1803,6 @@
         "La Loma"
       ]
     },
-    "C-2": {
-      "fecha": "2026-10-08T03:07:56+00:00",
-      "mensaje_id": 59097,
-      "url": "https://t.me/empresaelectricacienfuegos1/59097",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-70 \"Aguada, Federal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T23:46:03+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T22:47:07+00:00",
-        "mensaje_id": 59090,
-        "url": "https://t.me/empresaelectricacienfuegos1/59090",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
-      },
-      "lugares": []
-    },
-    "C-3": {
-      "fecha": "2026-10-08T03:07:56+00:00",
-      "mensaje_id": 59097,
-      "url": "https://t.me/empresaelectricacienfuegos1/59097",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-70 \"Aguada, Federal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T23:46:03+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T22:47:07+00:00",
-        "mensaje_id": 59090,
-        "url": "https://t.me/empresaelectricacienfuegos1/59090",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-3 Reparto Eléctrico"
-      },
-      "lugares": [
-        "Reparto Eléctrico"
-      ]
-    },
-    "C-5": {
-      "fecha": "2026-10-08T03:07:56+00:00",
-      "mensaje_id": 59097,
-      "url": "https://t.me/empresaelectricacienfuegos1/59097",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-70 \"Aguada, Federal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T23:46:03+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T22:47:07+00:00",
-        "mensaje_id": 59090,
-        "url": "https://t.me/empresaelectricacienfuegos1/59090",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-5 Boulevard, Parque Martí"
-      },
-      "lugares": [
-        "Boulevard",
-        "Parque Martí"
-      ]
-    },
-    "C-43": {
-      "fecha": "2026-10-08T03:07:56+00:00",
-      "mensaje_id": 59097,
-      "url": "https://t.me/empresaelectricacienfuegos1/59097",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-70 \"Aguada, Federal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T00:42:16+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T23:46:03+00:00",
-        "mensaje_id": 59094,
-        "url": "https://t.me/empresaelectricacienfuegos1/59094",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
-      },
-      "lugares": []
-    },
     "C-31": {
       "fecha": "2026-10-08T03:07:56+00:00",
       "mensaje_id": 59097,
@@ -1925,7 +1828,43 @@
       "lugares": []
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-69": {
+      "inicio": null,
+      "fin": "2026-10-08T15:32:15+00:00",
+      "fecha_ambigua": false
+    },
+    "C-2": {
+      "inicio": null,
+      "fin": "2026-10-08T15:32:15+00:00",
+      "fecha_ambigua": false
+    },
+    "C-3": {
+      "inicio": null,
+      "fin": "2026-10-08T15:32:15+00:00",
+      "fecha_ambigua": false
+    },
+    "C-5": {
+      "inicio": null,
+      "fin": "2026-10-08T15:32:15+00:00",
+      "fecha_ambigua": false
+    },
+    "C-15": {
+      "inicio": null,
+      "fin": "2026-10-08T15:32:15+00:00",
+      "fecha_ambigua": false
+    },
+    "C-67": {
+      "inicio": null,
+      "fin": "2026-10-08T15:32:15+00:00",
+      "fecha_ambigua": false
+    },
+    "C-43": {
+      "inicio": null,
+      "fin": "2026-10-08T15:32:15+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -2291,7 +2230,7 @@
   ],
   "lectura": {
     "texto": 60,
-    "imagenes": 54,
+    "imagenes": 55,
     "pdf": 0,
     "no_leidos": 9
   },
@@ -3249,7 +3188,7 @@
   ],
   "mw_fecha": "2026-10-08T03:07:56+00:00",
   "total_circuitos_afectados": 47,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 7,
   "total_restablecimientos_probables": 22,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -3268,5 +3207,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T03:22:16.586388+00:00"
+  "actualizado": "2026-10-08T03:34:22.356582+00:00"
 }
