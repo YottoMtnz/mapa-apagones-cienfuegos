@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-08T21:24:58+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-08T15:05:58+00:00",
-  "mensajes_leidos": 119,
+  "programado_fecha": "2026-10-08T21:32:55+00:00",
+  "mensajes_leidos": 120,
   "afectados": {
     "C-70": [
       "Aguada",
@@ -237,7 +237,35 @@
       "La Esperanza"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-2": [],
+    "C-3": [
+      "Reparto Eléctrico"
+    ],
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
+    ],
+    "C-36": [
+      "Cumanayagua (Sur",
+      "La Guasasa",
+      "Ceibabo",
+      "La Furnia",
+      "Monasterio",
+      "El Concuní"
+    ],
+    "C-84": [
+      "Espartaco (Este",
+      "Maleza",
+      "Dagame",
+      "Paso del Medio",
+      "San Fernando de Camarones",
+      "Jurisdicción",
+      "Manaquita"
+    ]
+  },
   "confirmados_con_servicio": {
     "C-101": {
       "fecha": "2026-10-08T15:20:31+00:00",
@@ -1266,6 +1294,42 @@
       "confianza": 100,
       "texto": "👉C-91 Buena Vista, La Esperanza."
     },
+    "C-2": {
+      "fecha": "2026-10-08T21:32:55+00:00",
+      "mensaje_id": 59131,
+      "url": "https://t.me/empresaelectricacienfuegos1/59131",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
+    "C-3": {
+      "fecha": "2026-10-08T21:32:55+00:00",
+      "mensaje_id": 59131,
+      "url": "https://t.me/empresaelectricacienfuegos1/59131",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
+    "C-69": {
+      "fecha": "2026-10-08T21:32:55+00:00",
+      "mensaje_id": 59131,
+      "url": "https://t.me/empresaelectricacienfuegos1/59131",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
+    "C-84": {
+      "fecha": "2026-10-08T21:32:55+00:00",
+      "mensaje_id": 59131,
+      "url": "https://t.me/empresaelectricacienfuegos1/59131",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
     "C-101": {
       "fecha": "2026-10-08T15:20:31+00:00",
       "mensaje_id": 59116,
@@ -1301,15 +1365,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
-    },
-    "C-84": {
-      "fecha": "2026-10-08T16:55:11+00:00",
-      "mensaje_id": 59120,
-      "url": "https://t.me/empresaelectricacienfuegos1/59120",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     },
     "C-37": {
       "fecha": "2026-10-08T19:30:24+00:00",
@@ -1582,85 +1637,6 @@
         "El Limpio"
       ]
     },
-    "C-69": {
-      "fecha": "2026-10-08T21:24:58+00:00",
-      "mensaje_id": 59130,
-      "url": "https://t.me/empresaelectricacienfuegos1/59130",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T16:29:06+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T15:26:49+00:00",
-        "mensaje_id": 59117,
-        "url": "https://t.me/empresaelectricacienfuegos1/59117",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-      },
-      "lugares": [
-        "Junco Sur",
-        "Reparto de los médicos",
-        "Las Minas",
-        "Playa Alegre"
-      ]
-    },
-    "C-3": {
-      "fecha": "2026-10-08T21:24:58+00:00",
-      "mensaje_id": 59130,
-      "url": "https://t.me/empresaelectricacienfuegos1/59130",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T17:41:28+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T16:29:06+00:00",
-        "mensaje_id": 59118,
-        "url": "https://t.me/empresaelectricacienfuegos1/59118",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-3 Reparto Eléctrico"
-      },
-      "lugares": [
-        "Reparto Eléctrico"
-      ]
-    },
-    "C-2": {
-      "fecha": "2026-10-08T21:24:58+00:00",
-      "mensaje_id": 59130,
-      "url": "https://t.me/empresaelectricacienfuegos1/59130",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T17:41:28+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T16:29:06+00:00",
-        "mensaje_id": 59118,
-        "url": "https://t.me/empresaelectricacienfuegos1/59118",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
-      },
-      "lugares": []
-    },
     "C-7": {
       "fecha": "2026-10-08T21:24:58+00:00",
       "mensaje_id": 59130,
@@ -1777,7 +1753,33 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-2": {
+      "inicio": null,
+      "fin": "2026-10-09T09:32:55+00:00",
+      "fecha_ambigua": false
+    },
+    "C-3": {
+      "inicio": null,
+      "fin": "2026-10-09T09:32:55+00:00",
+      "fecha_ambigua": false
+    },
+    "C-69": {
+      "inicio": null,
+      "fin": "2026-10-09T09:32:55+00:00",
+      "fecha_ambigua": false
+    },
+    "C-36": {
+      "inicio": null,
+      "fin": "2026-10-09T09:32:55+00:00",
+      "fecha_ambigua": false
+    },
+    "C-84": {
+      "inicio": null,
+      "fin": "2026-10-09T09:32:55+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -2175,7 +2177,7 @@
   ],
   "lectura": {
     "texto": 63,
-    "imagenes": 56,
+    "imagenes": 57,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -3130,7 +3132,7 @@
   ],
   "mw_fecha": "2026-10-08T21:24:58+00:00",
   "total_circuitos_afectados": 53,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -3151,5 +3153,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T21:29:11.016354+00:00"
+  "actualizado": "2026-10-08T21:39:19.605053+00:00"
 }
