@@ -1946,22 +1946,11 @@
   "error": null,
   "pendientes_revision": [
     {
-      "id": 58982,
-      "url": "https://t.me/empresaelectricacienfuegos1/58982",
-      "fecha": "2026-10-05T03:10:16+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
-    },
-    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\n|\n-\nq\nAN\n$\nY\n4%\n~ &\ne?\nG",
       "id": 58986,
       "url": "https://t.me/empresaelectricacienfuegos1/58986",
-      "fecha": "2026-10-05T11:24:02+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
-    },
-    {
-      "id": 58988,
-      "url": "https://t.me/empresaelectricacienfuegos1/58988",
-      "fecha": "2026-10-05T12:30:06+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
+      "fecha": "2026-10-05T11:24:02+00:00"
     },
     {
       "motivo": "resumen_historico",
@@ -1985,28 +1974,17 @@
       "fecha": "2026-10-05T12:32:14+00:00"
     },
     {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\n> | S y\nEl | a",
       "id": 58991,
       "url": "https://t.me/empresaelectricacienfuegos1/58991",
-      "fecha": "2026-10-05T12:46:07+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
-    },
-    {
-      "id": 58993,
-      "url": "https://t.me/empresaelectricacienfuegos1/58993",
-      "fecha": "2026-10-05T13:44:00+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
+      "fecha": "2026-10-05T12:46:07+00:00"
     },
     {
       "id": 58994,
       "url": "https://t.me/empresaelectricacienfuegos1/58994",
       "fecha": "2026-10-05T14:05:07+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
-    },
-    {
-      "id": 58996,
-      "url": "https://t.me/empresaelectricacienfuegos1/58996",
-      "fecha": "2026-10-05T15:12:29+00:00",
-      "motivo": "OCR_pendiente_limite_del_ciclo"
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     },
     {
       "motivo": "sin_circuitos_identificables",
@@ -2278,7 +2256,7 @@
     "texto": 59,
     "imagenes": 55,
     "pdf": 0,
-    "no_leidos": 15
+    "no_leidos": 9
   },
   "listas_completas": {
     "deficit": {
@@ -3233,7 +3211,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59096"
     }
   ],
-  "lectura_incompleta_desde": "2026-10-05T11:24:02+00:00",
   "mw_fecha": "2026-10-08T02:16:54+00:00",
   "total_circuitos_afectados": 48,
   "total_circuitos_programados": 0,
@@ -3255,5 +3232,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T02:38:19.212181+00:00"
+  "actualizado": "2026-10-08T02:40:22.946345+00:00"
 }
