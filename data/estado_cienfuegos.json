@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-08T09:22:50+00:00",
-  "mensajes_leidos": 119,
+  "mensajes_leidos": 118,
   "afectados": {
     "C-70": [
       "Aguada",
@@ -259,34 +259,6 @@
   },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
-    "C-47": {
-      "fecha": "2026-10-08T14:18:25+00:00",
-      "mensaje_id": 59112,
-      "url": "https://t.me/empresaelectricacienfuegos1/59112",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-05T16:19:14+00:00",
-      "listas_consecutivas": 45,
-      "aviso_anterior": {
-        "fecha": "2026-10-05T14:51:59+00:00",
-        "mensaje_id": 58995,
-        "url": "https://t.me/empresaelectricacienfuegos1/58995",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
-      },
-      "lugares": [
-        "Elpidio Gómez",
-        "Altamira",
-        "La Peseta"
-      ]
-    },
     "C-6": {
       "fecha": "2026-10-08T14:18:25+00:00",
       "mensaje_id": 59112,
@@ -1445,34 +1417,6 @@
       "confianza": 100,
       "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
-    "C-47": {
-      "fecha": "2026-10-08T14:18:25+00:00",
-      "mensaje_id": 59112,
-      "url": "https://t.me/empresaelectricacienfuegos1/59112",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-05T16:19:14+00:00",
-      "listas_consecutivas": 45,
-      "aviso_anterior": {
-        "fecha": "2026-10-05T14:51:59+00:00",
-        "mensaje_id": 58995,
-        "url": "https://t.me/empresaelectricacienfuegos1/58995",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
-      },
-      "lugares": [
-        "Elpidio Gómez",
-        "Altamira",
-        "La Peseta"
-      ]
-    },
     "C-6": {
       "fecha": "2026-10-08T14:18:25+00:00",
       "mensaje_id": 59112,
@@ -2467,7 +2411,7 @@
     }
   ],
   "lectura": {
-    "texto": 62,
+    "texto": 61,
     "imagenes": 57,
     "pdf": 0,
     "no_leidos": 9
@@ -3426,7 +3370,7 @@
   "mw_fecha": "2026-10-08T14:18:25+00:00",
   "total_circuitos_afectados": 53,
   "total_circuitos_programados": 2,
-  "total_restablecimientos_probables": 24,
+  "total_restablecimientos_probables": 23,
   "circuitos_sin_catalogar": [
     "C-18",
     "C-2",
@@ -3446,5 +3390,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T14:44:24.096016+00:00"
+  "actualizado": "2026-10-08T14:59:28.579835+00:00"
 }
