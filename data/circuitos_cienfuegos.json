@@ -1,2060 +1,2060 @@
 {
- "schema": 2,
- "provincia": "cienfuegos",
- "circuitos": {
-  "C-101": {
-   "lugares": [
-    "Cartagena",
-    "La Modelo",
-    "Santa Rosa",
-    "La Piragua",
-    "El Bajío",
-    "California",
-    "El Salado"
-   ],
-   "puntos": [
-    {
-     "lugar": "Cartagena",
-     "lat": 22.4260925,
-     "lng": -80.4587286,
-     "precision": "ciudad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1546988896"
+  "schema": 2,
+  "provincia": "cienfuegos",
+  "circuitos": {
+    "C-101": {
+      "lugares": [
+        "Cartagena",
+        "La Modelo",
+        "Santa Rosa",
+        "La Piragua",
+        "El Bajío",
+        "California",
+        "El Salado"
+      ],
+      "puntos": [
+        {
+          "lugar": "Cartagena",
+          "lat": 22.4260925,
+          "lng": -80.4587286,
+          "precision": "ciudad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1546988896"
+        },
+        {
+          "lugar": "Santa Rosa",
+          "lat": 22.18837,
+          "lng": -80.38061,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "La Piragua",
+          "lat": 22.4426164,
+          "lng": -80.3704901,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1548574529"
+        },
+        {
+          "lugar": "California",
+          "lat": 22.481494,
+          "lng": -80.3794497,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549068380"
+        },
+        {
+          "lugar": "El Salado",
+          "lat": 22.5111717,
+          "lng": -80.4040402,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": true,
+          "fuente_url": "https://www.openstreetmap.org/node/1549069229"
+        },
+        {
+          "lugar": "La Modelo",
+          "lat": 22.4074153,
+          "lng": -80.4033633,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1548577188"
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": [
+        "El Bajío"
+      ]
     },
-    {
-     "lugar": "Santa Rosa",
-     "lat": 22.18837,
-     "lng": -80.38061,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
+    "C-102": {
+      "lugares": [
+        "La Ciruela"
+      ],
+      "puntos": [
+        {
+          "lugar": "La Ciruela",
+          "lat": 22.4682647,
+          "lng": -80.4468263,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/5261359787"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": []
     },
-    {
-     "lugar": "La Piragua",
-     "lat": 22.4426164,
-     "lng": -80.3704901,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1548574529"
+    "C-103": {
+      "lugares": [
+        "Santiago de Cartagena",
+        "Lequeito"
+      ],
+      "puntos": [
+        {
+          "lugar": "Santiago de Cartagena",
+          "lat": 22.5071503,
+          "lng": -80.5204897,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549052244"
+        },
+        {
+          "lugar": "Lequeito",
+          "lat": 22.4615183,
+          "lng": -80.4952021,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549061258"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": []
     },
-    {
-     "lugar": "California",
-     "lat": 22.481494,
-     "lng": -80.3794497,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549068380"
+    "C-19": {
+      "lugares": [
+        "Tulipán"
+      ],
+      "puntos": [
+        {
+          "lugar": "Tulipán",
+          "lat": 22.1516847,
+          "lng": -80.4288405,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/3158300604"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": []
     },
-    {
-     "lugar": "El Salado",
-     "lat": 22.5111717,
-     "lng": -80.4040402,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": true,
-     "fuente_url": "https://www.openstreetmap.org/node/1549069229"
+    "C-24": {
+      "lugares": [
+        "Pérez Leyva",
+        "La Redonda",
+        "El Limpio"
+      ],
+      "puntos": [
+        {
+          "lugar": "La Redonda",
+          "lat": 22.2911811,
+          "lng": -80.6688953,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/13027265712"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Pérez Leyva",
+        "El Limpio"
+      ]
     },
-    {
-     "lugar": "La Modelo",
-     "lat": 22.4074153,
-     "lng": -80.4033633,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1548577188"
+    "C-27": {
+      "lugares": [
+        "Barrio Matadero",
+        "Juraguá"
+      ],
+      "puntos": [
+        {
+          "lugar": "Juraguá",
+          "lat": 22.0980303,
+          "lng": -80.5572082,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549201982"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Barrio Matadero"
+      ]
+    },
+    "C-28": {
+      "lugares": [
+        "CEN",
+        "Castillo de Jagua",
+        "La Loma"
+      ],
+      "puntos": [
+        {
+          "lugar": "CEN",
+          "lat": 22.06553,
+          "lng": -80.47401,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "Castillo de Jagua",
+          "lat": 22.0650567,
+          "lng": -80.4640546,
+          "precision": "ciudad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/631658666"
+        },
+        {
+          "lugar": "La Loma",
+          "lat": 22.070339,
+          "lng": -80.4654497,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/12592953678"
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": []
+    },
+    "C-37": {
+      "lugares": [
+        "El Tablón",
+        "Los Coquitos",
+        "El Túnel",
+        "Jovero",
+        "El Mamey",
+        "Crucesitas",
+        "El Nicho",
+        "Vegueta"
+      ],
+      "puntos": [
+        {
+          "lugar": "El Tablón",
+          "lat": 22.1472561,
+          "lng": -80.1288252,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/5203476354"
+        },
+        {
+          "lugar": "El Túnel",
+          "lat": 22.10341,
+          "lng": -80.12474,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "Jovero",
+          "lat": 22.11976,
+          "lng": -80.17171,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "El Mamey",
+          "lat": 22.0572878,
+          "lng": -80.144528,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1545957388"
+        },
+        {
+          "lugar": "El Nicho",
+          "lat": 22.0321292,
+          "lng": -80.1210707,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543049243"
+        },
+        {
+          "lugar": "Crucesitas",
+          "lat": 22.0491148,
+          "lng": -80.1695436,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543050245"
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": [
+        "Los Coquitos",
+        "Vegueta"
+      ]
+    },
+    "C-38": {
+      "lugares": [
+        "El Abra",
+        "Crespo",
+        "Quiñones",
+        "La Parra",
+        "El Granizo",
+        "El Jíbaro",
+        "La Jutía",
+        "Hervidero"
+      ],
+      "puntos": [
+        {
+          "lugar": "Crespo",
+          "lat": 22.2096585,
+          "lng": -80.1840204,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543875733"
+        },
+        {
+          "lugar": "La Parra",
+          "lat": 22.2068254,
+          "lng": -80.1647955,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/5565391616"
+        },
+        {
+          "lugar": "El Jíbaro",
+          "lat": 22.1815435,
+          "lng": -80.1081802,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1540575487"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "El Abra",
+        "Quiñones",
+        "El Granizo",
+        "La Jutía",
+        "Hervidero"
+      ]
+    },
+    "C-405": {
+      "lugares": [
+        "Pueblo Griffo Nuevo"
+      ],
+      "puntos": [
+        {
+          "lugar": "Pueblo Griffo Nuevo",
+          "lat": 22.1471,
+          "lng": -80.45303,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": []
+    },
+    "C-41": {
+      "lugares": [
+        "Caracas",
+        "Mora",
+        "San Isidro"
+      ],
+      "puntos": [
+        {
+          "lugar": "Caracas",
+          "lat": 22.37782,
+          "lng": -80.2797,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "Mora",
+          "lat": 22.3745534,
+          "lng": -80.2917123,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/8018461447"
+        },
+        {
+          "lugar": "San Isidro",
+          "lat": 22.3910892,
+          "lng": -80.260984,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/11796082213"
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": []
+    },
+    "C-42": {
+      "lugares": [
+        "Viet Nam",
+        "Real Campiña",
+        "Guanito"
+      ],
+      "puntos": [
+        {
+          "lugar": "Real Campiña",
+          "lat": 22.3261674,
+          "lng": -80.7793143,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1547055857"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Viet Nam",
+        "Guanito"
+      ]
+    },
+    "C-44": {
+      "lugares": [
+        "Los Burros",
+        "El Conejito",
+        "El Desquite",
+        "Venero"
+      ],
+      "puntos": [
+        {
+          "lugar": "Los Burros",
+          "lat": 22.4685389,
+          "lng": -80.837849,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549177597"
+        },
+        {
+          "lugar": "El Conejito",
+          "lat": 22.4188,
+          "lng": -80.82087,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "Venero",
+          "lat": 22.40987,
+          "lng": -80.73119,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "El Desquite",
+          "lat": 22.3939777,
+          "lng": -80.8060291,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/6852940274"
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": []
+    },
+    "C-47": {
+      "lugares": [
+        "Elpidio Gómez",
+        "Altamira",
+        "La Peseta"
+      ],
+      "puntos": [
+        {
+          "lugar": "Elpidio Gómez",
+          "lat": 22.2766083,
+          "lng": -80.4216636,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1548443179"
+        },
+        {
+          "lugar": "Altamira",
+          "lat": 22.2881334,
+          "lng": -80.4007158,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1548462564"
+        },
+        {
+          "lugar": "La Peseta",
+          "lat": 22.2651247,
+          "lng": -80.3984806,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/13027193326"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": []
+    },
+    "C-49": {
+      "lugares": [
+        "Arriete",
+        "Ciego Montero",
+        "La Amalia",
+        "Ceiba Hueca"
+      ],
+      "puntos": [
+        {
+          "lugar": "Arriete",
+          "lat": 22.3399607,
+          "lng": -80.4121011,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/2566588356"
+        },
+        {
+          "lugar": "Ciego Montero",
+          "lat": 22.3414015,
+          "lng": -80.4017554,
+          "precision": "ciudad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1546989947"
+        },
+        {
+          "lugar": "La Amalia",
+          "lat": 22.3795139,
+          "lng": -80.3757298,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/7995865766"
+        },
+        {
+          "lugar": "Ceiba Hueca",
+          "lat": 22.3713857,
+          "lng": -80.3566714,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1548571620"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": []
+    },
+    "C-5": {
+      "lugares": [
+        "Boulevard",
+        "Parque Martí"
+      ],
+      "puntos": [
+        {
+          "lugar": "Parque Martí",
+          "lat": 22.14596,
+          "lng": -80.45308,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": [
+        "Boulevard"
+      ]
+    },
+    "C-53": {
+      "lugares": [
+        "Potrerillo",
+        "Peñasco",
+        "Lomitas"
+      ],
+      "puntos": [
+        {
+          "lugar": "Potrerillo",
+          "lat": 22.2687435,
+          "lng": -80.1436274,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1544556940"
+        },
+        {
+          "lugar": "Peñasco",
+          "lat": 22.24527,
+          "lng": -80.11796,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "Lomitas",
+          "lat": 22.245864,
+          "lng": -80.1686995,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543877986"
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": []
+    },
+    "C-56": {
+      "lugares": [
+        "Cruces (Norte"
+      ],
+      "puntos": [
+        {
+          "lugar": "Cruces (Norte",
+          "lat": 22.342945,
+          "lng": -80.272788,
+          "precision": "ciudad",
+          "fuente": "nominatim-verificado",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": []
+    },
+    "C-57": {
+      "lugares": [
+        "Lajas (Pueblo"
+      ],
+      "puntos": [
+        {
+          "lugar": "Lajas (Pueblo",
+          "lat": 22.41571,
+          "lng": -80.29431,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": []
+    },
+    "C-7": {
+      "lugares": [
+        "Lajas",
+        "Las Nuevas",
+        "El Salto",
+        "Ajuria",
+        "Santa Susana",
+        "San Marcos",
+        "Chucho Rosa"
+      ],
+      "puntos": [
+        {
+          "lugar": "Lajas",
+          "lat": 22.4157061,
+          "lng": -80.2943145,
+          "precision": "ciudad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/449590035"
+        },
+        {
+          "lugar": "Las Nuevas",
+          "lat": 22.4335576,
+          "lng": -80.2555178,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/5873643067"
+        },
+        {
+          "lugar": "El Salto",
+          "lat": 22.4139119,
+          "lng": -80.3518756,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1548575810"
+        },
+        {
+          "lugar": "Ajuria",
+          "lat": 22.4836598,
+          "lng": -80.3012405,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/5873643066"
+        },
+        {
+          "lugar": "San Marcos",
+          "lat": 22.51173,
+          "lng": -80.28694,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": [
+        "Santa Susana",
+        "Chucho Rosa"
+      ]
+    },
+    "C-8": {
+      "lugares": [
+        "El Pino",
+        "Congojas",
+        "La Lolita",
+        "Parque Alto"
+      ],
+      "puntos": [
+        {
+          "lugar": "El Pino",
+          "lat": 22.3327544,
+          "lng": -80.5355707,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/12987456863"
+        },
+        {
+          "lugar": "Congojas",
+          "lat": 22.3522034,
+          "lng": -80.5107715,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/2566590978"
+        },
+        {
+          "lugar": "La Lolita",
+          "lat": 22.3739296,
+          "lng": -80.4917556,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/4682702335"
+        },
+        {
+          "lugar": "Parque Alto",
+          "lat": 22.3652939,
+          "lng": -80.5091559,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/3812147595"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": []
+    },
+    "C-80": {
+      "lugares": [
+        "Punta Cotica",
+        "Parque José Martí"
+      ],
+      "puntos": [
+        {
+          "lugar": "Punta Cotica",
+          "lat": 22.15423,
+          "lng": -80.44989,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "Parque José Martí",
+          "lat": 22.14596,
+          "lng": -80.45308,
+          "precision": "localidad",
+          "fuente": "referencia-catalogo-C-5",
+          "dudoso": true
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": []
+    },
+    "C-82": {
+      "lugares": [
+        "Balboa",
+        "La Pedrera",
+        "El Tropezón"
+      ],
+      "puntos": [
+        {
+          "lugar": "Balboa",
+          "lat": 22.35115,
+          "lng": -80.30643,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "La Pedrera",
+          "lat": 22.3192663,
+          "lng": -80.2950392,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/11796082207"
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": [
+        "El Tropezón"
+      ]
+    },
+    "C-85": {
+      "lugares": [
+        "Cumanayagua (Centro"
+      ],
+      "puntos": [
+        {
+          "lugar": "Cumanayagua (Centro",
+          "lat": 22.149383,
+          "lng": -80.202117,
+          "precision": "ciudad",
+          "fuente": "nominatim-verificado",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": []
+    },
+    "C-88": {
+      "lugares": [
+        "San Ignacio",
+        "Babiney",
+        "Carmelina",
+        "San Rafael",
+        "La Leona",
+        "Mijalito",
+        "Matún"
+      ],
+      "puntos": [
+        {
+          "lugar": "San Ignacio",
+          "lat": 22.1752221,
+          "lng": -80.7761482,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543301433"
+        },
+        {
+          "lugar": "Babiney",
+          "lat": 22.1730554,
+          "lng": -80.8053057,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543301693"
+        },
+        {
+          "lugar": "Carmelina",
+          "lat": 22.1697282,
+          "lng": -80.7448201,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549218692"
+        },
+        {
+          "lugar": "San Rafael",
+          "lat": 22.2923362,
+          "lng": -80.8924221,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1547018818"
+        },
+        {
+          "lugar": "La Leona",
+          "lat": 22.19828,
+          "lng": -80.77816,
+          "precision": "localidad",
+          "fuente": "legacy-nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "Mijalito",
+          "lat": 22.1589824,
+          "lng": -80.7219033,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549215348"
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": [
+        "Matún"
+      ]
+    },
+    "C-23": {
+      "lugares": [
+        "Turquino",
+        "5 de Septiembre",
+        "Guayabito"
+      ],
+      "puntos": [
+        {
+          "lugar": "Turquino",
+          "lat": 22.4270108,
+          "lng": -80.5080156,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1548622469"
+        },
+        {
+          "lugar": "5 de Septiembre",
+          "lat": 22.4285,
+          "lng": -80.5212,
+          "precision": "localidad",
+          "fuente": "nominatim-village",
+          "dudoso": false
+        },
+        {
+          "lugar": "Guayabito",
+          "lat": 22.4696171,
+          "lng": -80.590207,
+          "precision": "localidad",
+          "fuente": "nominatim",
+          "dudoso": true
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": []
+    },
+    "C-11": {
+      "lugares": [
+        "Ariza",
+        "Silverita",
+        "Nuevo México"
+      ],
+      "puntos": [
+        {
+          "lugar": "Ariza",
+          "lat": 22.2748403,
+          "lng": -80.4826171,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1546991058"
+        },
+        {
+          "lugar": "Silverita",
+          "lat": 22.2567929,
+          "lng": -80.5077154,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/3822067546"
+        },
+        {
+          "lugar": "Nuevo México",
+          "lat": 22.2822584,
+          "lng": -80.4910987,
+          "precision": "localidad",
+          "fuente": "nominatim",
+          "dudoso": true
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": []
+    },
+    "C-15": {
+      "lugares": [
+        "Pepito Tey",
+        "Guabairo"
+      ],
+      "puntos": [
+        {
+          "lugar": "Pepito Tey",
+          "lat": 22.127332,
+          "lng": -80.3368492,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549249780"
+        },
+        {
+          "lugar": "Guabairo",
+          "lat": 22.1614538,
+          "lng": -80.3074217,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549245648"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": []
+    },
+    "C-21": {
+      "lugares": [
+        "Santa Elena",
+        "La Candita",
+        "Jabacoa",
+        "Batey Nuevo",
+        "Las Medidas"
+      ],
+      "puntos": [
+        {
+          "lugar": "Santa Elena",
+          "lat": 22.3297346,
+          "lng": -80.59541,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1548640284"
+        },
+        {
+          "lugar": "Jabacoa",
+          "lat": 22.3778302,
+          "lng": -80.606705,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1548636620"
+        },
+        {
+          "lugar": "Batey Nuevo",
+          "lat": 22.4173144,
+          "lng": -80.6025503,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1548635158"
+        },
+        {
+          "lugar": "Las Medidas",
+          "lat": 22.4304338,
+          "lng": -80.5804862,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1548634081"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "La Candita"
+      ]
+    },
+    "C-22": {
+      "lugares": [
+        "Rodas (Bombeo Agua Rodas 0-12",
+        "Rodas"
+      ],
+      "puntos": [
+        {
+          "lugar": "Rodas",
+          "lat": 22.3378162,
+          "lng": -80.5547612,
+          "precision": "ciudad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/11162100338"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Rodas (Bombeo Agua Rodas 0-12"
+      ]
+    },
+    "C-25": {
+      "lugares": [
+        "Abreus (Pueblo"
+      ],
+      "puntos": [
+        {
+          "lugar": "Abreus (Pueblo",
+          "lat": 22.277731,
+          "lng": -80.569852,
+          "precision": "ciudad",
+          "fuente": "nominatim-verificado",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": []
+    },
+    "C-26": {
+      "lugares": [
+        "Caonao",
+        "Los Tanques",
+        "La Ceiba",
+        "El Paisíto"
+      ],
+      "puntos": [
+        {
+          "lugar": "La Ceiba",
+          "lat": 22.3185239,
+          "lng": -80.2093626,
+          "precision": "localidad",
+          "fuente": "nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "Caonao",
+          "lat": 22.1740025,
+          "lng": -80.3974585,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543260836"
+        },
+        {
+          "lugar": "El Paisíto",
+          "lat": 22.182224,
+          "lng": -80.3840431,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1548454611"
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": [
+        "Los Tanques"
+      ]
+    },
+    "C-29": {
+      "lugares": [
+        "Moncada",
+        "Constancia",
+        "Rosalía",
+        "Loma del Chivo",
+        "Simpatía",
+        "Charcas",
+        "Guasimal"
+      ],
+      "puntos": [
+        {
+          "lugar": "Moncada",
+          "lat": 22.3398865,
+          "lng": -80.2787527,
+          "precision": "localidad",
+          "fuente": "nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "Constancia",
+          "lat": 22.2407932,
+          "lng": -80.5809015,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543288764"
+        },
+        {
+          "lugar": "Loma del Chivo",
+          "lat": 22.198209,
+          "lng": -80.6020303,
+          "precision": "localidad",
+          "fuente": "nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "Simpatía",
+          "lat": 22.2099117,
+          "lng": -80.564318,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543288799"
+        },
+        {
+          "lugar": "Charcas",
+          "lat": 22.1682002,
+          "lng": -80.6388719,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1548648397"
+        },
+        {
+          "lugar": "Guasimal",
+          "lat": 22.1647603,
+          "lng": -80.677958,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549213863"
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": [
+        "Rosalía"
+      ]
+    },
+    "C-3": {
+      "lugares": [
+        "Reparto Eléctrico"
+      ],
+      "puntos": [],
+      "ubicado": false,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Reparto Eléctrico"
+      ]
+    },
+    "C-30": {
+      "lugares": [
+        "14 de Julio",
+        "Batey 2 Hermanos"
+      ],
+      "puntos": [
+        {
+          "lugar": "14 de Julio",
+          "lat": 22.2451406,
+          "lng": -80.5311914,
+          "precision": "localidad",
+          "fuente": "nominatim",
+          "dudoso": true
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": [
+        "Batey 2 Hermanos"
+      ]
+    },
+    "C-32": {
+      "lugares": [
+        "Yaguaramas",
+        "Guayabales",
+        "Batey Diego. ( PSFV 0-24"
+      ],
+      "puntos": [
+        {
+          "lugar": "Yaguaramas",
+          "lat": 22.2555244,
+          "lng": -80.7206735,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1385389351"
+        },
+        {
+          "lugar": "Guayabales",
+          "lat": 22.2852822,
+          "lng": -80.7404989,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1547064861"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Batey Diego. ( PSFV 0-24"
+      ]
+    },
+    "C-33": {
+      "lugares": [
+        "Arimao",
+        "Las Moscas",
+        "Vegas Viejas",
+        "Santa Martina",
+        "San Antón",
+        "Quesada",
+        "Callejón del Palmar"
+      ],
+      "puntos": [
+        {
+          "lugar": "Arimao",
+          "lat": 22.0359039,
+          "lng": -80.3556329,
+          "precision": "localidad",
+          "fuente": "nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "Las Moscas",
+          "lat": 22.0725612,
+          "lng": -80.2664465,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543129940"
+        },
+        {
+          "lugar": "Santa Martina",
+          "lat": 22.0417509,
+          "lng": -80.3538108,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/11391743498"
+        },
+        {
+          "lugar": "San Antón",
+          "lat": 22.1022014,
+          "lng": -80.3299982,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/11484411679"
+        },
+        {
+          "lugar": "Quesada",
+          "lat": 22.0975371,
+          "lng": -80.3457288,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549254328"
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": [
+        "Vegas Viejas",
+        "Callejón del Palmar"
+      ]
+    },
+    "C-35": {
+      "lugares": [
+        "Terraza",
+        "Codicia",
+        "Breñas",
+        "Caña Brava",
+        "Dolores"
+      ],
+      "puntos": [
+        {
+          "lugar": "Codicia",
+          "lat": 22.1440124,
+          "lng": -80.2463584,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549238913"
+        },
+        {
+          "lugar": "Breñas",
+          "lat": 22.171057,
+          "lng": -80.2395862,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/6517228399"
+        },
+        {
+          "lugar": "Caña Brava",
+          "lat": 22.1585643,
+          "lng": -80.270867,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/11149979798"
+        },
+        {
+          "lugar": "Dolores",
+          "lat": 22.1610244,
+          "lng": -80.2903466,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549238915"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Terraza"
+      ]
+    },
+    "C-36": {
+      "lugares": [
+        "Cumanayagua (Sur",
+        "La Guasasa",
+        "Ceibabo",
+        "La Furnia",
+        "Monasterio",
+        "El Concuní"
+      ],
+      "puntos": [
+        {
+          "lugar": "Cumanayagua (Sur",
+          "lat": 22.149383,
+          "lng": -80.202117,
+          "precision": "ciudad",
+          "fuente": "nominatim-verificado",
+          "dudoso": false
+        },
+        {
+          "lugar": "Ceibabo",
+          "lat": 22.1095972,
+          "lng": -80.2234828,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543131719"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "La Guasasa",
+        "La Furnia",
+        "Monasterio",
+        "El Concuní"
+      ]
+    },
+    "C-39": {
+      "lugares": [
+        "La Sierrita",
+        "El Brazo",
+        "Cafetal",
+        "Faisanera"
+      ],
+      "puntos": [
+        {
+          "lugar": "La Sierrita",
+          "lat": 21.9939594,
+          "lng": -80.2836406,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543112746"
+        },
+        {
+          "lugar": "Cafetal",
+          "lat": 21.9947939,
+          "lng": -80.2485516,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543113651"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "El Brazo",
+        "Faisanera"
+      ]
+    },
+    "C-406": {
+      "lugares": [
+        "San Lázaro",
+        "Calle 35 de Ave 58 hasta Ave 64",
+        "Ave 58 de Calle 47 hasta Calle 49",
+        "Calle 47 de Ave 54 hasta Ave 58"
+      ],
+      "puntos": [
+        {
+          "lugar": "San Lázaro",
+          "lat": 22.1537519,
+          "lng": -80.4447227,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/3158300603"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Calle 35 de Ave 58 hasta Ave 64",
+        "Ave 58 de Calle 47 hasta Calle 49",
+        "Calle 47 de Ave 54 hasta Ave 58"
+      ]
+    },
+    "C-50": {
+      "lugares": [
+        "Palmira (Norte"
+      ],
+      "puntos": [
+        {
+          "lugar": "Palmira (Norte",
+          "lat": 22.241457,
+          "lng": -80.393102,
+          "precision": "ciudad",
+          "fuente": "nominatim-verificado",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": []
+    },
+    "C-52": {
+      "lugares": [
+        "Paradero de Camarones",
+        "Vía Estrecha",
+        "Espartaco",
+        "La Macana",
+        "Cherepa"
+      ],
+      "puntos": [
+        {
+          "lugar": "Paradero de Camarones",
+          "lat": 22.3115473,
+          "lng": -80.3137535,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1544575398"
+        },
+        {
+          "lugar": "Espartaco",
+          "lat": 22.2802825,
+          "lng": -80.3493791,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1544573659"
+        },
+        {
+          "lugar": "Cherepa",
+          "lat": 22.2603767,
+          "lng": -80.3725589,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/2566588383"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Vía Estrecha",
+        "La Macana"
+      ]
+    },
+    "C-54": {
+      "lugares": [
+        "Batey Mal Tiempo",
+        "Loma de Tola"
+      ],
+      "puntos": [
+        {
+          "lugar": "Batey Mal Tiempo",
+          "lat": 22.3182242,
+          "lng": -80.2679521,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1544521623"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Loma de Tola"
+      ]
+    },
+    "C-55": {
+      "lugares": [
+        "Cruces (Sur"
+      ],
+      "puntos": [
+        {
+          "lugar": "Cruces (Sur",
+          "lat": 22.342945,
+          "lng": -80.272788,
+          "precision": "ciudad",
+          "fuente": "nominatim-verificado",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": []
+    },
+    "C-6": {
+      "lugares": [
+        "Rancho Luna",
+        "Pasacaballo",
+        "La Milpa"
+      ],
+      "puntos": [
+        {
+          "lugar": "Rancho Luna",
+          "lat": 22.034062,
+          "lng": -80.4431532,
+          "precision": "localidad",
+          "fuente": "nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "Pasacaballo",
+          "lat": 22.064967,
+          "lng": -80.458455,
+          "precision": "ciudad",
+          "fuente": "nominatim-verificado",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": [
+        "La Milpa"
+      ]
+    },
+    "C-63": {
+      "lugares": [
+        "Juraguá (Oeste",
+        "Las 500",
+        "Calicito",
+        "Bolivia",
+        "Comunidad Alejandro",
+        "Hondones",
+        "La Yuca",
+        "Bagazal"
+      ],
+      "puntos": [
+        {
+          "lugar": "Juraguá (Oeste",
+          "lat": 22.09803,
+          "lng": -80.557208,
+          "precision": "ciudad",
+          "fuente": "nominatim-verificado",
+          "dudoso": false
+        },
+        {
+          "lugar": "La Yuca",
+          "lat": 22.1567715,
+          "lng": -80.5922346,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549211943"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Las 500",
+        "Calicito",
+        "Bolivia",
+        "Comunidad Alejandro",
+        "Hondones",
+        "Bagazal"
+      ]
+    },
+    "C-65": {
+      "lugares": [
+        "Centro histórico",
+        "Reina (Aduana"
+      ],
+      "puntos": [],
+      "ubicado": false,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Centro histórico",
+        "Reina (Aduana"
+      ]
+    },
+    "C-66": {
+      "lugares": [
+        "Reina (Parque"
+      ],
+      "puntos": [
+        {
+          "lugar": "Reina (Parque",
+          "lat": 22.143438,
+          "lng": -80.4621266,
+          "precision": "localidad",
+          "fuente": "nominatim",
+          "dudoso": true
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": []
+    },
+    "C-67": {
+      "lugares": [
+        "El Crucero",
+        "Guaos",
+        "Naranjito"
+      ],
+      "puntos": [
+        {
+          "lugar": "Guaos",
+          "lat": 22.1395748,
+          "lng": -80.3083599,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1549241865"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "El Crucero",
+        "Naranjito"
+      ]
+    },
+    "C-69": {
+      "lugares": [
+        "Junco Sur",
+        "Reparto de los médicos",
+        "Las Minas",
+        "Playa Alegre"
+      ],
+      "puntos": [
+        {
+          "lugar": "Junco Sur",
+          "lat": 22.1325953,
+          "lng": -80.4294776,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/3158299802"
+        },
+        {
+          "lugar": "Las Minas",
+          "lat": 22.1277462,
+          "lng": -80.4386437,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/12612608127"
+        },
+        {
+          "lugar": "Playa Alegre",
+          "lat": 22.1259373,
+          "lng": -80.4422593,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/8893689750"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Reparto de los médicos"
+      ]
+    },
+    "C-70": {
+      "lugares": [
+        "Aguada",
+        "Federal"
+      ],
+      "puntos": [
+        {
+          "lugar": "Aguada de Pasajeros",
+          "lat": 22.3833,
+          "lng": -80.8482,
+          "precision": "localidad",
+          "fuente": "manual-fraudy",
+          "dudoso": false
+        },
+        {
+          "lugar": "Federal",
+          "lat": 22.3820084,
+          "lng": -80.839783,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/12692884358"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Aguada"
+      ]
+    },
+    "C-72": {
+      "lugares": [
+        "Porcino",
+        "La Caridad",
+        "Palmira (Sur"
+      ],
+      "puntos": [
+        {
+          "lugar": "La Caridad",
+          "lat": 22.2160893,
+          "lng": -80.41606,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/2566508659"
+        },
+        {
+          "lugar": "Palmira (Sur",
+          "lat": 22.241457,
+          "lng": -80.393102,
+          "precision": "ciudad",
+          "fuente": "nominatim-verificado",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Porcino"
+      ]
+    },
+    "C-73": {
+      "lugares": [
+        "Perseverancia",
+        "1ro de Mayo"
+      ],
+      "puntos": [
+        {
+          "lugar": "Perseverancia",
+          "lat": 22.3558586,
+          "lng": -80.774724,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1547056469"
+        },
+        {
+          "lugar": "1ro de Mayo",
+          "lat": 22.1480077,
+          "lng": -80.2083803,
+          "precision": "localidad",
+          "fuente": "nominatim",
+          "dudoso": true
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": []
+    },
+    "C-75": {
+      "lugares": [
+        "La Legua",
+        "Gavilán",
+        "Boca Ambuila"
+      ],
+      "puntos": [
+        {
+          "lugar": "Gavilán",
+          "lat": 21.978538,
+          "lng": -80.3193553,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543114978"
+        },
+        {
+          "lugar": "Boca Ambuila",
+          "lat": 21.9625633,
+          "lng": -80.3300933,
+          "precision": "localidad",
+          "fuente": "nominatim",
+          "dudoso": true
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": [
+        "La Legua"
+      ]
+    },
+    "C-78": {
+      "lugares": [
+        "Plan Arroz",
+        "La Paquita",
+        "Galeón",
+        "Batey Santana",
+        "Guevara",
+        "Aguada (Oeste"
+      ],
+      "puntos": [
+        {
+          "lugar": "Aguada (Oeste",
+          "lat": 22.383331,
+          "lng": -80.848178,
+          "precision": "ciudad",
+          "fuente": "nominatim-verificado",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "Plan Arroz",
+        "La Paquita",
+        "Galeón",
+        "Batey Santana",
+        "Guevara"
+      ]
+    },
+    "C-84": {
+      "lugares": [
+        "Espartaco (Este",
+        "Maleza",
+        "Dagame",
+        "Paso del Medio",
+        "San Fernando de Camarones",
+        "Jurisdicción",
+        "Manaquita"
+      ],
+      "puntos": [
+        {
+          "lugar": "Maleza",
+          "lat": 22.2704687,
+          "lng": -80.2694344,
+          "precision": "localidad",
+          "fuente": "nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "Dagame",
+          "lat": 22.2691909,
+          "lng": -80.3340215,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1544575774"
+        },
+        {
+          "lugar": "Paso del Medio",
+          "lat": 22.2398984,
+          "lng": -80.3233355,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1544577999"
+        },
+        {
+          "lugar": "San Fernando de Camarones",
+          "lat": 22.2469951,
+          "lng": -80.2956149,
+          "precision": "ciudad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543878949"
+        },
+        {
+          "lugar": "Espartaco (Este",
+          "lat": 22.2802825,
+          "lng": -80.3493791,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1544573659"
+        },
+        {
+          "lugar": "Jurisdicción",
+          "lat": 22.2420011,
+          "lng": -80.273016,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/1543879467"
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": [
+        "Manaquita"
+      ]
+    },
+    "C-86": {
+      "lugares": [
+        "Cumanayagua",
+        "emisora de radio"
+      ],
+      "puntos": [
+        {
+          "lugar": "Cumanayagua",
+          "lat": 22.1493835,
+          "lng": -80.2021172,
+          "precision": "ciudad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/482488265"
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": [
+        "emisora de radio"
+      ]
+    },
+    "C-90": {
+      "lugares": [
+        "FW1558) La Pollera"
+      ],
+      "puntos": [
+        {
+          "lugar": "FW1558) La Pollera",
+          "lat": 22.264699,
+          "lng": -80.71605,
+          "precision": "ciudad",
+          "fuente": "nominatim-verificado",
+          "dudoso": false
+        }
+      ],
+      "ubicado": true,
+      "revisar": false,
+      "lugares_sin_ubicar": []
+    },
+    "C-91": {
+      "lugares": [
+        "Buena Vista",
+        "La Esperanza"
+      ],
+      "puntos": [
+        {
+          "lugar": "Buena Vista",
+          "lat": 22.1442647,
+          "lng": -80.1975914,
+          "precision": "localidad",
+          "fuente": "nominatim",
+          "dudoso": true
+        },
+        {
+          "lugar": "La Esperanza",
+          "lat": 22.1663723,
+          "lng": -80.4131627,
+          "precision": "localidad",
+          "fuente": "gazetteer",
+          "dudoso": false,
+          "fuente_url": "https://www.openstreetmap.org/node/7216939847"
+        }
+      ],
+      "ubicado": true,
+      "revisar": true,
+      "lugares_sin_ubicar": []
     }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": [
-    "El Bajío"
-   ]
-  },
-  "C-102": {
-   "lugares": [
-    "La Ciruela"
-   ],
-   "puntos": [
-    {
-     "lugar": "La Ciruela",
-     "lat": 22.4682647,
-     "lng": -80.4468263,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/5261359787"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": []
-  },
-  "C-103": {
-   "lugares": [
-    "Santiago de Cartagena",
-    "Lequeito"
-   ],
-   "puntos": [
-    {
-     "lugar": "Santiago de Cartagena",
-     "lat": 22.5071503,
-     "lng": -80.5204897,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549052244"
-    },
-    {
-     "lugar": "Lequeito",
-     "lat": 22.4615183,
-     "lng": -80.4952021,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549061258"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": []
-  },
-  "C-19": {
-   "lugares": [
-    "Tulipán"
-   ],
-   "puntos": [
-    {
-     "lugar": "Tulipán",
-     "lat": 22.1516847,
-     "lng": -80.4288405,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/3158300604"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": []
-  },
-  "C-24": {
-   "lugares": [
-    "Pérez Leyva",
-    "La Redonda",
-    "El Limpio"
-   ],
-   "puntos": [
-    {
-     "lugar": "La Redonda",
-     "lat": 22.2911811,
-     "lng": -80.6688953,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/13027265712"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Pérez Leyva",
-    "El Limpio"
-   ]
-  },
-  "C-27": {
-   "lugares": [
-    "Barrio Matadero",
-    "Juraguá"
-   ],
-   "puntos": [
-    {
-     "lugar": "Juraguá",
-     "lat": 22.0980303,
-     "lng": -80.5572082,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549201982"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Barrio Matadero"
-   ]
-  },
-  "C-28": {
-   "lugares": [
-    "CEN",
-    "Castillo de Jagua",
-    "La Loma"
-   ],
-   "puntos": [
-    {
-     "lugar": "CEN",
-     "lat": 22.06553,
-     "lng": -80.47401,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "Castillo de Jagua",
-     "lat": 22.0650567,
-     "lng": -80.4640546,
-     "precision": "ciudad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/631658666"
-    },
-    {
-     "lugar": "La Loma",
-     "lat": 22.070339,
-     "lng": -80.4654497,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/12592953678"
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": []
-  },
-  "C-37": {
-   "lugares": [
-    "El Tablón",
-    "Los Coquitos",
-    "El Túnel",
-    "Jovero",
-    "El Mamey",
-    "Crucesitas",
-    "El Nicho",
-    "Vegueta"
-   ],
-   "puntos": [
-    {
-     "lugar": "El Tablón",
-     "lat": 22.1472561,
-     "lng": -80.1288252,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/5203476354"
-    },
-    {
-     "lugar": "El Túnel",
-     "lat": 22.10341,
-     "lng": -80.12474,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "Jovero",
-     "lat": 22.11976,
-     "lng": -80.17171,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "El Mamey",
-     "lat": 22.0572878,
-     "lng": -80.144528,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1545957388"
-    },
-    {
-     "lugar": "El Nicho",
-     "lat": 22.0321292,
-     "lng": -80.1210707,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543049243"
-    },
-    {
-     "lugar": "Crucesitas",
-     "lat": 22.0491148,
-     "lng": -80.1695436,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543050245"
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": [
-    "Los Coquitos",
-    "Vegueta"
-   ]
-  },
-  "C-38": {
-   "lugares": [
-    "El Abra",
-    "Crespo",
-    "Quiñones",
-    "La Parra",
-    "El Granizo",
-    "El Jíbaro",
-    "La Jutía",
-    "Hervidero"
-   ],
-   "puntos": [
-    {
-     "lugar": "Crespo",
-     "lat": 22.2096585,
-     "lng": -80.1840204,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543875733"
-    },
-    {
-     "lugar": "La Parra",
-     "lat": 22.2068254,
-     "lng": -80.1647955,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/5565391616"
-    },
-    {
-     "lugar": "El Jíbaro",
-     "lat": 22.1815435,
-     "lng": -80.1081802,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1540575487"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "El Abra",
-    "Quiñones",
-    "El Granizo",
-    "La Jutía",
-    "Hervidero"
-   ]
-  },
-  "C-405": {
-   "lugares": [
-    "Pueblo Griffo Nuevo"
-   ],
-   "puntos": [
-    {
-     "lugar": "Pueblo Griffo Nuevo",
-     "lat": 22.1471,
-     "lng": -80.45303,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": []
-  },
-  "C-41": {
-   "lugares": [
-    "Caracas",
-    "Mora",
-    "San Isidro"
-   ],
-   "puntos": [
-    {
-     "lugar": "Caracas",
-     "lat": 22.37782,
-     "lng": -80.2797,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "Mora",
-     "lat": 22.3745534,
-     "lng": -80.2917123,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/8018461447"
-    },
-    {
-     "lugar": "San Isidro",
-     "lat": 22.3910892,
-     "lng": -80.260984,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/11796082213"
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": []
-  },
-  "C-42": {
-   "lugares": [
-    "Viet Nam",
-    "Real Campiña",
-    "Guanito"
-   ],
-   "puntos": [
-    {
-     "lugar": "Real Campiña",
-     "lat": 22.3261674,
-     "lng": -80.7793143,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1547055857"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Viet Nam",
-    "Guanito"
-   ]
-  },
-  "C-44": {
-   "lugares": [
-    "Los Burros",
-    "El Conejito",
-    "El Desquite",
-    "Venero"
-   ],
-   "puntos": [
-    {
-     "lugar": "Los Burros",
-     "lat": 22.4685389,
-     "lng": -80.837849,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549177597"
-    },
-    {
-     "lugar": "El Conejito",
-     "lat": 22.4188,
-     "lng": -80.82087,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "Venero",
-     "lat": 22.40987,
-     "lng": -80.73119,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "El Desquite",
-     "lat": 22.3939777,
-     "lng": -80.8060291,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/6852940274"
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": []
-  },
-  "C-47": {
-   "lugares": [
-    "Elpidio Gómez",
-    "Altamira",
-    "La Peseta"
-   ],
-   "puntos": [
-    {
-     "lugar": "Elpidio Gómez",
-     "lat": 22.2766083,
-     "lng": -80.4216636,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1548443179"
-    },
-    {
-     "lugar": "Altamira",
-     "lat": 22.2881334,
-     "lng": -80.4007158,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1548462564"
-    },
-    {
-     "lugar": "La Peseta",
-     "lat": 22.2651247,
-     "lng": -80.3984806,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/13027193326"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": []
-  },
-  "C-49": {
-   "lugares": [
-    "Arriete",
-    "Ciego Montero",
-    "La Amalia",
-    "Ceiba Hueca"
-   ],
-   "puntos": [
-    {
-     "lugar": "Arriete",
-     "lat": 22.3399607,
-     "lng": -80.4121011,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/2566588356"
-    },
-    {
-     "lugar": "Ciego Montero",
-     "lat": 22.3414015,
-     "lng": -80.4017554,
-     "precision": "ciudad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1546989947"
-    },
-    {
-     "lugar": "La Amalia",
-     "lat": 22.3795139,
-     "lng": -80.3757298,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/7995865766"
-    },
-    {
-     "lugar": "Ceiba Hueca",
-     "lat": 22.3713857,
-     "lng": -80.3566714,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1548571620"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": []
-  },
-  "C-5": {
-   "lugares": [
-    "Boulevard",
-    "Parque Martí"
-   ],
-   "puntos": [
-    {
-     "lugar": "Parque Martí",
-     "lat": 22.14596,
-     "lng": -80.45308,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": [
-    "Boulevard"
-   ]
-  },
-  "C-53": {
-   "lugares": [
-    "Potrerillo",
-    "Peñasco",
-    "Lomitas"
-   ],
-   "puntos": [
-    {
-     "lugar": "Potrerillo",
-     "lat": 22.2687435,
-     "lng": -80.1436274,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1544556940"
-    },
-    {
-     "lugar": "Peñasco",
-     "lat": 22.24527,
-     "lng": -80.11796,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "Lomitas",
-     "lat": 22.245864,
-     "lng": -80.1686995,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543877986"
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": []
-  },
-  "C-56": {
-   "lugares": [
-    "Cruces (Norte"
-   ],
-   "puntos": [
-    {
-     "lugar": "Cruces (Norte",
-     "lat": 22.342945,
-     "lng": -80.272788,
-     "precision": "ciudad",
-     "fuente": "nominatim-verificado",
-     "dudoso": false
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": []
-  },
-  "C-57": {
-   "lugares": [
-    "Lajas (Pueblo"
-   ],
-   "puntos": [
-    {
-     "lugar": "Lajas (Pueblo",
-     "lat": 22.41571,
-     "lng": -80.29431,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": []
-  },
-  "C-7": {
-   "lugares": [
-    "Lajas",
-    "Las Nuevas",
-    "El Salto",
-    "Ajuria",
-    "Santa Susana",
-    "San Marcos",
-    "Chucho Rosa"
-   ],
-   "puntos": [
-    {
-     "lugar": "Lajas",
-     "lat": 22.4157061,
-     "lng": -80.2943145,
-     "precision": "ciudad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/449590035"
-    },
-    {
-     "lugar": "Las Nuevas",
-     "lat": 22.4335576,
-     "lng": -80.2555178,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/5873643067"
-    },
-    {
-     "lugar": "El Salto",
-     "lat": 22.4139119,
-     "lng": -80.3518756,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1548575810"
-    },
-    {
-     "lugar": "Ajuria",
-     "lat": 22.4836598,
-     "lng": -80.3012405,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/5873643066"
-    },
-    {
-     "lugar": "San Marcos",
-     "lat": 22.51173,
-     "lng": -80.28694,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": [
-    "Santa Susana",
-    "Chucho Rosa"
-   ]
-  },
-  "C-8": {
-   "lugares": [
-    "El Pino",
-    "Congojas",
-    "La Lolita",
-    "Parque Alto"
-   ],
-   "puntos": [
-    {
-     "lugar": "El Pino",
-     "lat": 22.3327544,
-     "lng": -80.5355707,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/12987456863"
-    },
-    {
-     "lugar": "Congojas",
-     "lat": 22.35211,
-     "lng": -80.51615,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/2566590978"
-    },
-    {
-     "lugar": "La Lolita",
-     "lat": 22.3739296,
-     "lng": -80.4917556,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/4682702335"
-    },
-    {
-     "lugar": "Parque Alto",
-     "lat": 22.3652939,
-     "lng": -80.5091559,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/3812147595"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": []
-  },
-  "C-80": {
-   "lugares": [
-    "Punta Cotica",
-    "Parque José Martí"
-   ],
-   "puntos": [
-    {
-     "lugar": "Punta Cotica",
-     "lat": 22.15423,
-     "lng": -80.44989,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "Parque José Martí",
-     "lat": 22.14596,
-     "lng": -80.45308,
-     "precision": "localidad",
-     "fuente": "referencia-catalogo-C-5",
-     "dudoso": true
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": []
-  },
-  "C-82": {
-   "lugares": [
-    "Balboa",
-    "La Pedrera",
-    "El Tropezón"
-   ],
-   "puntos": [
-    {
-     "lugar": "Balboa",
-     "lat": 22.35115,
-     "lng": -80.30643,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "La Pedrera",
-     "lat": 22.3192663,
-     "lng": -80.2950392,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/11796082207"
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": [
-    "El Tropezón"
-   ]
-  },
-  "C-85": {
-   "lugares": [
-    "Cumanayagua (Centro"
-   ],
-   "puntos": [
-    {
-     "lugar": "Cumanayagua (Centro",
-     "lat": 22.149383,
-     "lng": -80.202117,
-     "precision": "ciudad",
-     "fuente": "nominatim-verificado",
-     "dudoso": false
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": []
-  },
-  "C-88": {
-   "lugares": [
-    "San Ignacio",
-    "Babiney",
-    "Carmelina",
-    "San Rafael",
-    "La Leona",
-    "Mijalito",
-    "Matún"
-   ],
-   "puntos": [
-    {
-     "lugar": "San Ignacio",
-     "lat": 22.1752221,
-     "lng": -80.7761482,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543301433"
-    },
-    {
-     "lugar": "Babiney",
-     "lat": 22.1730554,
-     "lng": -80.8053057,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543301693"
-    },
-    {
-     "lugar": "Carmelina",
-     "lat": 22.1697282,
-     "lng": -80.7448201,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549218692"
-    },
-    {
-     "lugar": "San Rafael",
-     "lat": 22.2923362,
-     "lng": -80.8924221,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1547018818"
-    },
-    {
-     "lugar": "La Leona",
-     "lat": 22.19828,
-     "lng": -80.77816,
-     "precision": "localidad",
-     "fuente": "legacy-nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "Mijalito",
-     "lat": 22.1589824,
-     "lng": -80.7219033,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549215348"
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": [
-    "Matún"
-   ]
-  },
-  "C-23": {
-   "lugares": [
-    "Turquino",
-    "5 de Septiembre",
-    "Guayabito"
-   ],
-   "puntos": [
-    {
-     "lugar": "Turquino",
-     "lat": 22.4270108,
-     "lng": -80.5080156,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1548622469"
-    },
-    {
-     "lugar": "5 de Septiembre",
-     "lat": 22.4285,
-     "lng": -80.5212,
-     "precision": "localidad",
-     "fuente": "nominatim-village",
-     "dudoso": false
-    },
-    {
-     "lugar": "Guayabito",
-     "lat": 22.4696171,
-     "lng": -80.590207,
-     "precision": "localidad",
-     "fuente": "nominatim",
-     "dudoso": true
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": []
-  },
-  "C-11": {
-   "lugares": [
-    "Ariza",
-    "Silverita",
-    "Nuevo México"
-   ],
-   "puntos": [
-    {
-     "lugar": "Ariza",
-     "lat": 22.2748403,
-     "lng": -80.4826171,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1546991058"
-    },
-    {
-     "lugar": "Silverita",
-     "lat": 22.2567929,
-     "lng": -80.5077154,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/3822067546"
-    },
-    {
-     "lugar": "Nuevo México",
-     "lat": 22.2822584,
-     "lng": -80.4910987,
-     "precision": "localidad",
-     "fuente": "nominatim",
-     "dudoso": true
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": []
-  },
-  "C-15": {
-   "lugares": [
-    "Pepito Tey",
-    "Guabairo"
-   ],
-   "puntos": [
-    {
-     "lugar": "Pepito Tey",
-     "lat": 22.127332,
-     "lng": -80.3368492,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549249780"
-    },
-    {
-     "lugar": "Guabairo",
-     "lat": 22.1614538,
-     "lng": -80.3074217,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549245648"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": []
-  },
-  "C-21": {
-   "lugares": [
-    "Santa Elena",
-    "La Candita",
-    "Jabacoa",
-    "Batey Nuevo",
-    "Las Medidas"
-   ],
-   "puntos": [
-    {
-     "lugar": "Santa Elena",
-     "lat": 22.3297346,
-     "lng": -80.59541,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1548640284"
-    },
-    {
-     "lugar": "Jabacoa",
-     "lat": 22.3778302,
-     "lng": -80.606705,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1548636620"
-    },
-    {
-     "lugar": "Batey Nuevo",
-     "lat": 22.4173144,
-     "lng": -80.6025503,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1548635158"
-    },
-    {
-     "lugar": "Las Medidas",
-     "lat": 22.4304338,
-     "lng": -80.5804862,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1548634081"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "La Candita"
-   ]
-  },
-  "C-22": {
-   "lugares": [
-    "Rodas (Bombeo Agua Rodas 0-12",
-    "Rodas"
-   ],
-   "puntos": [
-    {
-     "lugar": "Rodas",
-     "lat": 22.3378162,
-     "lng": -80.5547612,
-     "precision": "ciudad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/11162100338"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Rodas (Bombeo Agua Rodas 0-12"
-   ]
-  },
-  "C-25": {
-   "lugares": [
-    "Abreus (Pueblo"
-   ],
-   "puntos": [
-    {
-     "lugar": "Abreus (Pueblo",
-     "lat": 22.277731,
-     "lng": -80.569852,
-     "precision": "ciudad",
-     "fuente": "nominatim-verificado",
-     "dudoso": false
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": []
-  },
-  "C-26": {
-   "lugares": [
-    "Caonao",
-    "Los Tanques",
-    "La Ceiba",
-    "El Paisíto"
-   ],
-   "puntos": [
-    {
-     "lugar": "La Ceiba",
-     "lat": 22.3185239,
-     "lng": -80.2093626,
-     "precision": "localidad",
-     "fuente": "nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "Caonao",
-     "lat": 22.1740025,
-     "lng": -80.3974585,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543260836"
-    },
-    {
-     "lugar": "El Paisíto",
-     "lat": 22.182224,
-     "lng": -80.3840431,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1548454611"
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": [
-    "Los Tanques"
-   ]
-  },
-  "C-29": {
-   "lugares": [
-    "Moncada",
-    "Constancia",
-    "Rosalía",
-    "Loma del Chivo",
-    "Simpatía",
-    "Charcas",
-    "Guasimal"
-   ],
-   "puntos": [
-    {
-     "lugar": "Moncada",
-     "lat": 22.3398865,
-     "lng": -80.2787527,
-     "precision": "localidad",
-     "fuente": "nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "Constancia",
-     "lat": 22.2407932,
-     "lng": -80.5809015,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543288764"
-    },
-    {
-     "lugar": "Loma del Chivo",
-     "lat": 22.198209,
-     "lng": -80.6020303,
-     "precision": "localidad",
-     "fuente": "nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "Simpatía",
-     "lat": 22.2099117,
-     "lng": -80.564318,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543288799"
-    },
-    {
-     "lugar": "Charcas",
-     "lat": 22.1682002,
-     "lng": -80.6388719,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1548648397"
-    },
-    {
-     "lugar": "Guasimal",
-     "lat": 22.1647603,
-     "lng": -80.677958,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549213863"
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": [
-    "Rosalía"
-   ]
-  },
-  "C-3": {
-   "lugares": [
-    "Reparto Eléctrico"
-   ],
-   "puntos": [],
-   "ubicado": false,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Reparto Eléctrico"
-   ]
-  },
-  "C-30": {
-   "lugares": [
-    "14 de Julio",
-    "Batey 2 Hermanos"
-   ],
-   "puntos": [
-    {
-     "lugar": "14 de Julio",
-     "lat": 22.2451406,
-     "lng": -80.5311914,
-     "precision": "localidad",
-     "fuente": "nominatim",
-     "dudoso": true
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": [
-    "Batey 2 Hermanos"
-   ]
-  },
-  "C-32": {
-   "lugares": [
-    "Yaguaramas",
-    "Guayabales",
-    "Batey Diego. ( PSFV 0-24"
-   ],
-   "puntos": [
-    {
-     "lugar": "Yaguaramas",
-     "lat": 22.2555244,
-     "lng": -80.7206735,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1385389351"
-    },
-    {
-     "lugar": "Guayabales",
-     "lat": 22.2852822,
-     "lng": -80.7404989,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1547064861"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Batey Diego. ( PSFV 0-24"
-   ]
-  },
-  "C-33": {
-   "lugares": [
-    "Arimao",
-    "Las Moscas",
-    "Vegas Viejas",
-    "Santa Martina",
-    "San Antón",
-    "Quesada",
-    "Callejón del Palmar"
-   ],
-   "puntos": [
-    {
-     "lugar": "Arimao",
-     "lat": 22.0359039,
-     "lng": -80.3556329,
-     "precision": "localidad",
-     "fuente": "nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "Las Moscas",
-     "lat": 22.0725612,
-     "lng": -80.2664465,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543129940"
-    },
-    {
-     "lugar": "Santa Martina",
-     "lat": 22.0417509,
-     "lng": -80.3538108,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/11391743498"
-    },
-    {
-     "lugar": "San Antón",
-     "lat": 22.1022014,
-     "lng": -80.3299982,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/11484411679"
-    },
-    {
-     "lugar": "Quesada",
-     "lat": 22.0975371,
-     "lng": -80.3457288,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549254328"
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": [
-    "Vegas Viejas",
-    "Callejón del Palmar"
-   ]
-  },
-  "C-35": {
-   "lugares": [
-    "Terraza",
-    "Codicia",
-    "Breñas",
-    "Caña Brava",
-    "Dolores"
-   ],
-   "puntos": [
-    {
-     "lugar": "Codicia",
-     "lat": 22.1440124,
-     "lng": -80.2463584,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549238913"
-    },
-    {
-     "lugar": "Breñas",
-     "lat": 22.171057,
-     "lng": -80.2395862,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/6517228399"
-    },
-    {
-     "lugar": "Caña Brava",
-     "lat": 22.1585643,
-     "lng": -80.270867,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/11149979798"
-    },
-    {
-     "lugar": "Dolores",
-     "lat": 22.1610244,
-     "lng": -80.2903466,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549238915"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Terraza"
-   ]
-  },
-  "C-36": {
-   "lugares": [
-    "Cumanayagua (Sur",
-    "La Guasasa",
-    "Ceibabo",
-    "La Furnia",
-    "Monasterio",
-    "El Concuní"
-   ],
-   "puntos": [
-    {
-     "lugar": "Cumanayagua (Sur",
-     "lat": 22.149383,
-     "lng": -80.202117,
-     "precision": "ciudad",
-     "fuente": "nominatim-verificado",
-     "dudoso": false
-    },
-    {
-     "lugar": "Ceibabo",
-     "lat": 22.1095972,
-     "lng": -80.2234828,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543131719"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "La Guasasa",
-    "La Furnia",
-    "Monasterio",
-    "El Concuní"
-   ]
-  },
-  "C-39": {
-   "lugares": [
-    "La Sierrita",
-    "El Brazo",
-    "Cafetal",
-    "Faisanera"
-   ],
-   "puntos": [
-    {
-     "lugar": "La Sierrita",
-     "lat": 21.9939594,
-     "lng": -80.2836406,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543112746"
-    },
-    {
-     "lugar": "Cafetal",
-     "lat": 21.9947939,
-     "lng": -80.2485516,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543113651"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "El Brazo",
-    "Faisanera"
-   ]
-  },
-  "C-406": {
-   "lugares": [
-    "San Lázaro",
-    "Calle 35 de Ave 58 hasta Ave 64",
-    "Ave 58 de Calle 47 hasta Calle 49",
-    "Calle 47 de Ave 54 hasta Ave 58"
-   ],
-   "puntos": [
-    {
-     "lugar": "San Lázaro",
-     "lat": 22.1537519,
-     "lng": -80.4447227,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/3158300603"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Calle 35 de Ave 58 hasta Ave 64",
-    "Ave 58 de Calle 47 hasta Calle 49",
-    "Calle 47 de Ave 54 hasta Ave 58"
-   ]
-  },
-  "C-50": {
-   "lugares": [
-    "Palmira (Norte"
-   ],
-   "puntos": [
-    {
-     "lugar": "Palmira (Norte",
-     "lat": 22.241457,
-     "lng": -80.393102,
-     "precision": "ciudad",
-     "fuente": "nominatim-verificado",
-     "dudoso": false
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": []
-  },
-  "C-52": {
-   "lugares": [
-    "Paradero de Camarones",
-    "Vía Estrecha",
-    "Espartaco",
-    "La Macana",
-    "Cherepa"
-   ],
-   "puntos": [
-    {
-     "lugar": "Paradero de Camarones",
-     "lat": 22.3115473,
-     "lng": -80.3137535,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1544575398"
-    },
-    {
-     "lugar": "Espartaco",
-     "lat": 22.2802825,
-     "lng": -80.3493791,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1544573659"
-    },
-    {
-     "lugar": "Cherepa",
-     "lat": 22.2603767,
-     "lng": -80.3725589,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/2566588383"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Vía Estrecha",
-    "La Macana"
-   ]
-  },
-  "C-54": {
-   "lugares": [
-    "Batey Mal Tiempo",
-    "Loma de Tola"
-   ],
-   "puntos": [
-    {
-     "lugar": "Batey Mal Tiempo",
-     "lat": 22.3182242,
-     "lng": -80.2679521,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1544521623"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Loma de Tola"
-   ]
-  },
-  "C-55": {
-   "lugares": [
-    "Cruces (Sur"
-   ],
-   "puntos": [
-    {
-     "lugar": "Cruces (Sur",
-     "lat": 22.342945,
-     "lng": -80.272788,
-     "precision": "ciudad",
-     "fuente": "nominatim-verificado",
-     "dudoso": false
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": []
-  },
-  "C-6": {
-   "lugares": [
-    "Rancho Luna",
-    "Pasacaballo",
-    "La Milpa"
-   ],
-   "puntos": [
-    {
-     "lugar": "Rancho Luna",
-     "lat": 22.034062,
-     "lng": -80.4431532,
-     "precision": "localidad",
-     "fuente": "nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "Pasacaballo",
-     "lat": 22.064967,
-     "lng": -80.458455,
-     "precision": "ciudad",
-     "fuente": "nominatim-verificado",
-     "dudoso": false
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": [
-    "La Milpa"
-   ]
-  },
-  "C-63": {
-   "lugares": [
-    "Juraguá (Oeste",
-    "Las 500",
-    "Calicito",
-    "Bolivia",
-    "Comunidad Alejandro",
-    "Hondones",
-    "La Yuca",
-    "Bagazal"
-   ],
-   "puntos": [
-    {
-     "lugar": "Juraguá (Oeste",
-     "lat": 22.09803,
-     "lng": -80.557208,
-     "precision": "ciudad",
-     "fuente": "nominatim-verificado",
-     "dudoso": false
-    },
-    {
-     "lugar": "La Yuca",
-     "lat": 22.1567715,
-     "lng": -80.5922346,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549211943"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Las 500",
-    "Calicito",
-    "Bolivia",
-    "Comunidad Alejandro",
-    "Hondones",
-    "Bagazal"
-   ]
-  },
-  "C-65": {
-   "lugares": [
-    "Centro histórico",
-    "Reina (Aduana"
-   ],
-   "puntos": [],
-   "ubicado": false,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Centro histórico",
-    "Reina (Aduana"
-   ]
-  },
-  "C-66": {
-   "lugares": [
-    "Reina (Parque"
-   ],
-   "puntos": [
-    {
-     "lugar": "Reina (Parque",
-     "lat": 22.143438,
-     "lng": -80.4621266,
-     "precision": "localidad",
-     "fuente": "nominatim",
-     "dudoso": true
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": []
-  },
-  "C-67": {
-   "lugares": [
-    "El Crucero",
-    "Guaos",
-    "Naranjito"
-   ],
-   "puntos": [
-    {
-     "lugar": "Guaos",
-     "lat": 22.1395748,
-     "lng": -80.3083599,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1549241865"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "El Crucero",
-    "Naranjito"
-   ]
-  },
-  "C-69": {
-   "lugares": [
-    "Junco Sur",
-    "Reparto de los médicos",
-    "Las Minas",
-    "Playa Alegre"
-   ],
-   "puntos": [
-    {
-     "lugar": "Junco Sur",
-     "lat": 22.1325953,
-     "lng": -80.4294776,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/3158299802"
-    },
-    {
-     "lugar": "Las Minas",
-     "lat": 22.1277462,
-     "lng": -80.4386437,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/12612608127"
-    },
-    {
-     "lugar": "Playa Alegre",
-     "lat": 22.1259373,
-     "lng": -80.4422593,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/8893689750"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Reparto de los médicos"
-   ]
-  },
-  "C-70": {
-   "lugares": [
-    "Aguada",
-    "Federal"
-   ],
-   "puntos": [
-    {
-     "lugar": "Aguada de Pasajeros",
-     "lat": 22.3833,
-     "lng": -80.8482,
-     "precision": "localidad",
-     "fuente": "manual-fraudy",
-     "dudoso": false
-    },
-    {
-     "lugar": "Federal",
-     "lat": 22.3820084,
-     "lng": -80.839783,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/12692884358"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Aguada"
-   ]
-  },
-  "C-72": {
-   "lugares": [
-    "Porcino",
-    "La Caridad",
-    "Palmira (Sur"
-   ],
-   "puntos": [
-    {
-     "lugar": "La Caridad",
-     "lat": 22.2160893,
-     "lng": -80.41606,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/2566508659"
-    },
-    {
-     "lugar": "Palmira (Sur",
-     "lat": 22.241457,
-     "lng": -80.393102,
-     "precision": "ciudad",
-     "fuente": "nominatim-verificado",
-     "dudoso": false
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Porcino"
-   ]
-  },
-  "C-73": {
-   "lugares": [
-    "Perseverancia",
-    "1ro de Mayo"
-   ],
-   "puntos": [
-    {
-     "lugar": "Perseverancia",
-     "lat": 22.3558586,
-     "lng": -80.774724,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1547056469"
-    },
-    {
-     "lugar": "1ro de Mayo",
-     "lat": 22.1480077,
-     "lng": -80.2083803,
-     "precision": "localidad",
-     "fuente": "nominatim",
-     "dudoso": true
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": []
-  },
-  "C-75": {
-   "lugares": [
-    "La Legua",
-    "Gavilán",
-    "Boca Ambuila"
-   ],
-   "puntos": [
-    {
-     "lugar": "Gavilán",
-     "lat": 21.978538,
-     "lng": -80.3193553,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543114978"
-    },
-    {
-     "lugar": "Boca Ambuila",
-     "lat": 21.9625633,
-     "lng": -80.3300933,
-     "precision": "localidad",
-     "fuente": "nominatim",
-     "dudoso": true
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": [
-    "La Legua"
-   ]
-  },
-  "C-78": {
-   "lugares": [
-    "Plan Arroz",
-    "La Paquita",
-    "Galeón",
-    "Batey Santana",
-    "Guevara",
-    "Aguada (Oeste"
-   ],
-   "puntos": [
-    {
-     "lugar": "Aguada (Oeste",
-     "lat": 22.383331,
-     "lng": -80.848178,
-     "precision": "ciudad",
-     "fuente": "nominatim-verificado",
-     "dudoso": false
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "Plan Arroz",
-    "La Paquita",
-    "Galeón",
-    "Batey Santana",
-    "Guevara"
-   ]
-  },
-  "C-84": {
-   "lugares": [
-    "Espartaco (Este",
-    "Maleza",
-    "Dagame",
-    "Paso del Medio",
-    "San Fernando de Camarones",
-    "Jurisdicción",
-    "Manaquita"
-   ],
-   "puntos": [
-    {
-     "lugar": "Maleza",
-     "lat": 22.2704687,
-     "lng": -80.2694344,
-     "precision": "localidad",
-     "fuente": "nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "Dagame",
-     "lat": 22.2691909,
-     "lng": -80.3340215,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1544575774"
-    },
-    {
-     "lugar": "Paso del Medio",
-     "lat": 22.2398984,
-     "lng": -80.3233355,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1544577999"
-    },
-    {
-     "lugar": "San Fernando de Camarones",
-     "lat": 22.2469951,
-     "lng": -80.2956149,
-     "precision": "ciudad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543878949"
-    },
-    {
-     "lugar": "Espartaco (Este",
-     "lat": 22.2802825,
-     "lng": -80.3493791,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1544573659"
-    },
-    {
-     "lugar": "Jurisdicción",
-     "lat": 22.2420011,
-     "lng": -80.273016,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/1543879467"
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": [
-    "Manaquita"
-   ]
-  },
-  "C-86": {
-   "lugares": [
-    "Cumanayagua",
-    "emisora de radio"
-   ],
-   "puntos": [
-    {
-     "lugar": "Cumanayagua",
-     "lat": 22.1493835,
-     "lng": -80.2021172,
-     "precision": "ciudad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/482488265"
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": [
-    "emisora de radio"
-   ]
-  },
-  "C-90": {
-   "lugares": [
-    "FW1558) La Pollera"
-   ],
-   "puntos": [
-    {
-     "lugar": "FW1558) La Pollera",
-     "lat": 22.264699,
-     "lng": -80.71605,
-     "precision": "ciudad",
-     "fuente": "nominatim-verificado",
-     "dudoso": false
-    }
-   ],
-   "ubicado": true,
-   "revisar": false,
-   "lugares_sin_ubicar": []
-  },
-  "C-91": {
-   "lugares": [
-    "Buena Vista",
-    "La Esperanza"
-   ],
-   "puntos": [
-    {
-     "lugar": "Buena Vista",
-     "lat": 22.1442647,
-     "lng": -80.1975914,
-     "precision": "localidad",
-     "fuente": "nominatim",
-     "dudoso": true
-    },
-    {
-     "lugar": "La Esperanza",
-     "lat": 22.1663723,
-     "lng": -80.4131627,
-     "precision": "localidad",
-     "fuente": "gazetteer",
-     "dudoso": false,
-     "fuente_url": "https://www.openstreetmap.org/node/7216939847"
-    }
-   ],
-   "ubicado": true,
-   "revisar": true,
-   "lugares_sin_ubicar": []
   }
- }
 }
