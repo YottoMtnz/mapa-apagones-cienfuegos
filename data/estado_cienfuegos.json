@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-08T14:18:25+00:00",
+  "reporte_fecha": "2026-10-08T14:31:57+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-08T09:22:50+00:00",
-  "mensajes_leidos": 117,
+  "mensajes_leidos": 119,
   "afectados": {
     "C-70": [
       "Aguada",
@@ -237,6 +237,13 @@
       "Hondones",
       "La Yuca",
       "Bagazal"
+    ],
+    "C-85": [
+      "Cumanayagua (Centro"
+    ],
+    "C-86": [
+      "Cumanayagua",
+      "emisora de radio"
     ]
   },
   "programados": {
@@ -601,59 +608,6 @@
         "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
       },
       "lugares": []
-    },
-    "C-85": {
-      "fecha": "2026-10-08T14:18:25+00:00",
-      "mensaje_id": 59112,
-      "url": "https://t.me/empresaelectricacienfuegos1/59112",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T10:38:00+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T09:21:31+00:00",
-        "mensaje_id": 59102,
-        "url": "https://t.me/empresaelectricacienfuegos1/59102",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-85 \"Cumanayagua (Centro)."
-      },
-      "lugares": [
-        "Cumanayagua (Centro"
-      ]
-    },
-    "C-86": {
-      "fecha": "2026-10-08T14:18:25+00:00",
-      "mensaje_id": 59112,
-      "url": "https://t.me/empresaelectricacienfuegos1/59112",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T10:38:00+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T09:21:31+00:00",
-        "mensaje_id": 59102,
-        "url": "https://t.me/empresaelectricacienfuegos1/59102",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-86 \"Cumanayagua, emisora de radio\""
-      },
-      "lugares": [
-        "Cumanayagua",
-        "emisora de radio"
-      ]
     },
     "C-36": {
       "fecha": "2026-10-08T14:18:25+00:00",
@@ -1285,9 +1239,9 @@
       "texto": "👉C-82 Balboa, La Pedrera, El Tropezón."
     },
     "C-37": {
-      "fecha": "2026-10-08T12:15:30+00:00",
-      "mensaje_id": 59108,
-      "url": "https://t.me/empresaelectricacienfuegos1/59108",
+      "fecha": "2026-10-08T14:31:57+00:00",
+      "mensaje_id": 59113,
+      "url": "https://t.me/empresaelectricacienfuegos1/59113",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1454,6 +1408,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
+    },
+    "C-85": {
+      "fecha": "2026-10-08T14:31:57+00:00",
+      "mensaje_id": 59113,
+      "url": "https://t.me/empresaelectricacienfuegos1/59113",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-85 Cumanayagua (Centro)."
+    },
+    "C-86": {
+      "fecha": "2026-10-08T14:31:57+00:00",
+      "mensaje_id": 59113,
+      "url": "https://t.me/empresaelectricacienfuegos1/59113",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-86 \"Cumanayagua, emisora de radio\""
     },
     "C-15": {
       "fecha": "2026-10-08T03:32:15+00:00",
@@ -1767,59 +1739,6 @@
         "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
       },
       "lugares": []
-    },
-    "C-85": {
-      "fecha": "2026-10-08T14:18:25+00:00",
-      "mensaje_id": 59112,
-      "url": "https://t.me/empresaelectricacienfuegos1/59112",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T10:38:00+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T09:21:31+00:00",
-        "mensaje_id": 59102,
-        "url": "https://t.me/empresaelectricacienfuegos1/59102",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-85 \"Cumanayagua (Centro)."
-      },
-      "lugares": [
-        "Cumanayagua (Centro"
-      ]
-    },
-    "C-86": {
-      "fecha": "2026-10-08T14:18:25+00:00",
-      "mensaje_id": 59112,
-      "url": "https://t.me/empresaelectricacienfuegos1/59112",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T10:38:00+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T09:21:31+00:00",
-        "mensaje_id": 59102,
-        "url": "https://t.me/empresaelectricacienfuegos1/59102",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-86 \"Cumanayagua, emisora de radio\""
-      },
-      "lugares": [
-        "Cumanayagua",
-        "emisora de radio"
-      ]
     },
     "C-36": {
       "fecha": "2026-10-08T14:18:25+00:00",
@@ -2193,7 +2112,9 @@
     "C-27": "déficit",
     "C-28": "déficit",
     "C-52": "déficit / avería",
-    "C-63": "déficit"
+    "C-63": "déficit",
+    "C-85": "avería",
+    "C-86": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2529,11 +2450,25 @@
       "id": 59111,
       "url": "https://t.me/empresaelectricacienfuegos1/59111",
       "fecha": "2026-10-08T13:29:45+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59113,
+      "url": "https://t.me/empresaelectricacienfuegos1/59113",
+      "fecha": "2026-10-08T14:31:57+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠Se comunica a nuestros clientes que se encuentra restablecido el servicio en las líneas:\n\n\n👉L-1415 Aguada.\n\n👉L-76 Cruces.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
+      "id": 59114,
+      "url": "https://t.me/empresaelectricacienfuegos1/59114",
+      "fecha": "2026-10-08T14:35:34+00:00"
     }
   ],
   "lectura": {
-    "texto": 61,
-    "imagenes": 56,
+    "texto": 62,
+    "imagenes": 57,
     "pdf": 0,
     "no_leidos": 9
   },
@@ -3489,9 +3424,9 @@
     }
   ],
   "mw_fecha": "2026-10-08T14:18:25+00:00",
-  "total_circuitos_afectados": 51,
+  "total_circuitos_afectados": 53,
   "total_circuitos_programados": 2,
-  "total_restablecimientos_probables": 26,
+  "total_restablecimientos_probables": 24,
   "circuitos_sin_catalogar": [
     "C-18",
     "C-2",
@@ -3511,5 +3446,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T14:29:27.488088+00:00"
+  "actualizado": "2026-10-08T14:44:24.096016+00:00"
 }
