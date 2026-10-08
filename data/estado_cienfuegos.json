@@ -2,12 +2,16 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-08T09:21:31+00:00",
+  "reporte_fecha": "2026-10-08T10:38:00+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-08T09:22:50+00:00",
-  "mensajes_leidos": 118,
+  "mensajes_leidos": 119,
   "afectados": {
+    "C-70": [
+      "Aguada",
+      "Federal"
+    ],
     "C-29": [
       "Moncada",
       "Constancia",
@@ -20,8 +24,6 @@
     "C-25": [
       "Abreus (Pueblo"
     ],
-    "C-18": [],
-    "C-20": [],
     "C-55": [
       "Cruces (Sur"
     ],
@@ -64,6 +66,15 @@
     "C-57": [
       "Lajas (Pueblo"
     ],
+    "C-88": [
+      "San Ignacio",
+      "Babiney",
+      "Carmelina",
+      "San Rafael",
+      "La Leona",
+      "Mijalito",
+      "Matún"
+    ],
     "C-406": [
       "San Lázaro",
       "Calle 35 de Ave 58 hasta Ave 64",
@@ -103,13 +114,6 @@
       "La Caridad",
       "Palmira (Sur"
     ],
-    "C-85": [
-      "Cumanayagua (Centro"
-    ],
-    "C-86": [
-      "Cumanayagua",
-      "emisora de radio"
-    ],
     "C-73": [
       "Perseverancia",
       "1ro de Mayo"
@@ -122,14 +126,6 @@
       "Viet Nam",
       "Real Campiña",
       "Guanito"
-    ],
-    "C-36": [
-      "Cumanayagua (Sur",
-      "La Guasasa",
-      "Ceibabo",
-      "La Furnia",
-      "Monasterio",
-      "El Concuní"
     ],
     "C-26": [
       "Caonao",
@@ -199,7 +195,18 @@
     "C-3": [
       "Reparto Eléctrico"
     ],
-    "C-2": []
+    "C-2": [],
+    "C-58": [],
+    "C-19": [
+      "Tulipán"
+    ],
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
+    ],
+    "C-66": [
+      "Reina (Parque"
+    ]
   },
   "programados": {
     "C-15": [
@@ -210,16 +217,6 @@
       "El Crucero",
       "Guaos",
       "Naranjito"
-    ],
-    "C-19": [
-      "Tulipán"
-    ],
-    "C-65": [
-      "Centro histórico",
-      "Reina (Aduana"
-    ],
-    "C-66": [
-      "Reina (Parque"
     ],
     "C-80": [
       "Punta Cotica",
@@ -234,10 +231,6 @@
       "CEN",
       "Castillo de Jagua",
       "La Loma"
-    ],
-    "C-70": [
-      "Aguada",
-      "Federal"
     ]
   },
   "confirmados_con_servicio": {
@@ -253,18 +246,18 @@
   },
   "restablecimientos_probables": {
     "C-47": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-05T16:19:14+00:00",
-      "listas_consecutivas": 41,
+      "listas_consecutivas": 42,
       "aviso_anterior": {
         "fecha": "2026-10-05T14:51:59+00:00",
         "mensaje_id": 58995,
@@ -281,18 +274,18 @@
       ]
     },
     "C-63": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-06T18:19:27+00:00",
-      "listas_consecutivas": 26,
+      "listas_consecutivas": 27,
       "aviso_anterior": {
         "fecha": "2026-10-06T17:35:51+00:00",
         "mensaje_id": 59038,
@@ -314,18 +307,18 @@
       ]
     },
     "C-6": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T01:03:44+00:00",
-      "listas_consecutivas": 21,
+      "listas_consecutivas": 22,
       "aviso_anterior": {
         "fecha": "2026-10-06T22:48:12+00:00",
         "mensaje_id": 59050,
@@ -342,18 +335,18 @@
       ]
     },
     "C-35": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T18:34:33+00:00",
-      "listas_consecutivas": 12,
+      "listas_consecutivas": 13,
       "aviso_anterior": {
         "fecha": "2026-10-07T17:02:02+00:00",
         "mensaje_id": 59070,
@@ -372,18 +365,18 @@
       ]
     },
     "C-75": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T19:38:29+00:00",
-      "listas_consecutivas": 11,
+      "listas_consecutivas": 12,
       "aviso_anterior": {
         "fecha": "2026-10-07T18:34:33+00:00",
         "mensaje_id": 59073,
@@ -400,18 +393,18 @@
       ]
     },
     "C-39": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T19:38:29+00:00",
-      "listas_consecutivas": 11,
+      "listas_consecutivas": 12,
       "aviso_anterior": {
         "fecha": "2026-10-07T18:34:33+00:00",
         "mensaje_id": 59073,
@@ -429,18 +422,18 @@
       ]
     },
     "C-89": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T21:23:31+00:00",
-      "listas_consecutivas": 10,
+      "listas_consecutivas": 11,
       "aviso_anterior": {
         "fecha": "2026-10-07T19:38:29+00:00",
         "mensaje_id": 59077,
@@ -453,18 +446,18 @@
       "lugares": []
     },
     "C-60": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T21:23:31+00:00",
-      "listas_consecutivas": 10,
+      "listas_consecutivas": 11,
       "aviso_anterior": {
         "fecha": "2026-10-07T19:38:29+00:00",
         "mensaje_id": 59077,
@@ -477,18 +470,18 @@
       "lugares": []
     },
     "C-94": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T21:53:46+00:00",
-      "listas_consecutivas": 9,
+      "listas_consecutivas": 10,
       "aviso_anterior": {
         "fecha": "2026-10-07T21:23:31+00:00",
         "mensaje_id": 59084,
@@ -501,18 +494,18 @@
       "lugares": []
     },
     "C-67": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T22:20:43+00:00",
-      "listas_consecutivas": 8,
+      "listas_consecutivas": 9,
       "aviso_anterior": {
         "fecha": "2026-10-07T21:53:46+00:00",
         "mensaje_id": 59087,
@@ -529,18 +522,18 @@
       ]
     },
     "C-15": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T22:20:43+00:00",
-      "listas_consecutivas": 8,
+      "listas_consecutivas": 9,
       "aviso_anterior": {
         "fecha": "2026-10-07T21:53:46+00:00",
         "mensaje_id": 59087,
@@ -555,43 +548,19 @@
         "Guabairo"
       ]
     },
-    "C-58": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T22:47:07+00:00",
-      "listas_consecutivas": 7,
-      "aviso_anterior": {
-        "fecha": "2026-10-07T22:20:43+00:00",
-        "mensaje_id": 59089,
-        "url": "https://t.me/empresaelectricacienfuegos1/59089",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-      },
-      "lugares": []
-    },
     "C-27": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T22:47:07+00:00",
-      "listas_consecutivas": 7,
+      "listas_consecutivas": 8,
       "aviso_anterior": {
         "fecha": "2026-10-07T22:20:43+00:00",
         "mensaje_id": 59089,
@@ -607,18 +576,18 @@
       ]
     },
     "C-28": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T22:47:07+00:00",
-      "listas_consecutivas": 7,
+      "listas_consecutivas": 8,
       "aviso_anterior": {
         "fecha": "2026-10-07T22:20:43+00:00",
         "mensaje_id": 59089,
@@ -634,45 +603,19 @@
         "La Loma"
       ]
     },
-    "C-19": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T04:31:23+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T03:07:56+00:00",
-        "mensaje_id": 59097,
-        "url": "https://t.me/empresaelectricacienfuegos1/59097",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-19 Tulipán"
-      },
-      "lugares": [
-        "Tulipán"
-      ]
-    },
     "C-80": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-08T09:21:31+00:00",
-      "listas_consecutivas": 1,
+      "listas_consecutivas": 2,
       "aviso_anterior": {
         "fecha": "2026-10-08T04:31:23+00:00",
         "mensaje_id": 59100,
@@ -687,57 +630,136 @@
         "Parque José Martí"
       ]
     },
-    "C-65": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+    "C-18": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
-      "primera_salida": "2026-10-08T09:21:31+00:00",
+      "primera_salida": "2026-10-08T10:38:00+00:00",
       "listas_consecutivas": 1,
       "aviso_anterior": {
-        "fecha": "2026-10-08T04:31:23+00:00",
-        "mensaje_id": 59100,
-        "url": "https://t.me/empresaelectricacienfuegos1/59100",
+        "fecha": "2026-10-08T09:21:31+00:00",
+        "mensaje_id": 59102,
+        "url": "https://t.me/empresaelectricacienfuegos1/59102",
         "medio": "texto",
         "editado": null,
         "confianza": 100,
-        "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
+      },
+      "lugares": []
+    },
+    "C-20": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-55 Cruces (Sur).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-08T10:38:00+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-08T09:21:31+00:00",
+        "mensaje_id": 59102,
+        "url": "https://t.me/empresaelectricacienfuegos1/59102",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
+      },
+      "lugares": []
+    },
+    "C-85": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-55 Cruces (Sur).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-08T10:38:00+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-08T09:21:31+00:00",
+        "mensaje_id": 59102,
+        "url": "https://t.me/empresaelectricacienfuegos1/59102",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-85 \"Cumanayagua (Centro)."
       },
       "lugares": [
-        "Centro histórico",
-        "Reina (Aduana"
+        "Cumanayagua (Centro"
       ]
     },
-    "C-66": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+    "C-86": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
-      "primera_salida": "2026-10-08T09:21:31+00:00",
+      "primera_salida": "2026-10-08T10:38:00+00:00",
       "listas_consecutivas": 1,
       "aviso_anterior": {
-        "fecha": "2026-10-08T04:31:23+00:00",
-        "mensaje_id": 59100,
-        "url": "https://t.me/empresaelectricacienfuegos1/59100",
+        "fecha": "2026-10-08T09:21:31+00:00",
+        "mensaje_id": 59102,
+        "url": "https://t.me/empresaelectricacienfuegos1/59102",
         "medio": "texto",
         "editado": null,
         "confianza": 100,
-        "texto": "👉C-66 Reina (Parque)"
+        "texto": "👉C-86 \"Cumanayagua, emisora de radio\""
       },
       "lugares": [
-        "Reina (Parque"
+        "Cumanayagua",
+        "emisora de radio"
+      ]
+    },
+    "C-36": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-55 Cruces (Sur).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-08T10:38:00+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-08T09:21:31+00:00",
+        "mensaje_id": 59102,
+        "url": "https://t.me/empresaelectricacienfuegos1/59102",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+      },
+      "lugares": [
+        "Cumanayagua (Sur",
+        "La Guasasa",
+        "Ceibabo",
+        "La Furnia",
+        "Monasterio",
+        "El Concuní"
       ]
     }
   },
@@ -778,280 +800,253 @@
     ]
   },
   "evidencias": {
+    "C-70": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-70 \"Aguada, Federal."
+    },
     "C-29": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-29 Moncada, Constancia, Rosalía, Loma del Chivo, Simpatía, Charcas, Guasimal."
     },
     "C-25": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-25 Abreus (Pueblo)."
     },
-    "C-18": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-    },
-    "C-20": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
-    },
     "C-55": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-55 Cruces (Sur)."
     },
     "C-21": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas."
     },
     "C-50": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-50 \"Palmira (Norte)."
     },
     "C-32": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)"
     },
     "C-59": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
     },
     "C-8": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-8  Congojas, La Lolita."
     },
     "C-7": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\""
+      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa."
     },
     "C-41": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-41 \"Caracas, Mora, San Isidro.\""
+      "texto": "👉C-41 \"Caracas, Mora, San Isidro."
     },
     "C-57": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-57 Lajas (Pueblo)."
     },
-    "C-406": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+    "C-88": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58.\""
+      "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
+    },
+    "C-406": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
     },
     "C-53": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-53 Potrerillo, El No, Peñasco, Lomitas."
     },
     "C-54": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola."
     },
     "C-11": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-11 Ariza, Silverita, Nuevo México."
     },
     "C-78": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste)."
     },
     "C-49": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
     },
     "C-72": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)"
     },
-    "C-85": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 \"Cumanayagua (Centro)."
-    },
-    "C-86": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-86 \"Cumanayagua, emisora de radio\""
-    },
     "C-73": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-73 \"Perseverancia, 1ro de Mayo."
     },
     "C-22": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-22 Rodas (Bombeo Agua Rodas 0-12)"
     },
     "C-42": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-42 Viet Nam, Real Campiña, Guanito."
     },
-    "C-36": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
-    },
     "C-26": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
     },
     "C-56": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-56 \"Cruces (Norte)."
     },
     "C-44": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero."
     },
     "C-82": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-82 Balboa, La Pedrera, El Tropezón."
     },
     "C-24": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1085,76 +1080,112 @@
       "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero."
     },
     "C-31": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
     },
     "C-69": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
     "C-90": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
     "C-43": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
     },
     "C-91": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-91 Buena Vista, La Esperanza."
     },
     "C-5": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-5 Boulevard, Parque Martí"
     },
     "C-3": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-3 Reparto Eléctrico"
     },
     "C-2": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
+    },
+    "C-58": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
+    },
+    "C-19": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán"
+    },
+    "C-65": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+    },
+    "C-66": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-66 Reina (Parque)"
     },
     "C-15": {
       "fecha": "2026-10-08T03:32:15+00:00",
@@ -1173,33 +1204,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-    },
-    "C-19": {
-      "fecha": "2026-10-08T09:22:50+00:00",
-      "mensaje_id": 59103,
-      "url": "https://t.me/empresaelectricacienfuegos1/59103",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-19 Tulipán"
-    },
-    "C-65": {
-      "fecha": "2026-10-08T09:22:50+00:00",
-      "mensaje_id": 59103,
-      "url": "https://t.me/empresaelectricacienfuegos1/59103",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-19 Tulipán"
-    },
-    "C-66": {
-      "fecha": "2026-10-08T09:22:50+00:00",
-      "mensaje_id": 59103,
-      "url": "https://t.me/empresaelectricacienfuegos1/59103",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-19 Tulipán"
     },
     "C-80": {
       "fecha": "2026-10-08T09:22:50+00:00",
@@ -1237,15 +1241,6 @@
       "confianza": 100,
       "texto": "👉C-19 Tulipán"
     },
-    "C-70": {
-      "fecha": "2026-10-08T09:22:50+00:00",
-      "mensaje_id": 59103,
-      "url": "https://t.me/empresaelectricacienfuegos1/59103",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-19 Tulipán"
-    },
     "C-52": {
       "fecha": "2026-10-07T23:07:43+00:00",
       "mensaje_id": 59092,
@@ -1256,18 +1251,18 @@
       "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
     },
     "C-47": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-05T16:19:14+00:00",
-      "listas_consecutivas": 41,
+      "listas_consecutivas": 42,
       "aviso_anterior": {
         "fecha": "2026-10-05T14:51:59+00:00",
         "mensaje_id": 58995,
@@ -1284,18 +1279,18 @@
       ]
     },
     "C-63": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-06T18:19:27+00:00",
-      "listas_consecutivas": 26,
+      "listas_consecutivas": 27,
       "aviso_anterior": {
         "fecha": "2026-10-06T17:35:51+00:00",
         "mensaje_id": 59038,
@@ -1317,18 +1312,18 @@
       ]
     },
     "C-6": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T01:03:44+00:00",
-      "listas_consecutivas": 21,
+      "listas_consecutivas": 22,
       "aviso_anterior": {
         "fecha": "2026-10-06T22:48:12+00:00",
         "mensaje_id": 59050,
@@ -1345,18 +1340,18 @@
       ]
     },
     "C-35": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T18:34:33+00:00",
-      "listas_consecutivas": 12,
+      "listas_consecutivas": 13,
       "aviso_anterior": {
         "fecha": "2026-10-07T17:02:02+00:00",
         "mensaje_id": 59070,
@@ -1375,18 +1370,18 @@
       ]
     },
     "C-75": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T19:38:29+00:00",
-      "listas_consecutivas": 11,
+      "listas_consecutivas": 12,
       "aviso_anterior": {
         "fecha": "2026-10-07T18:34:33+00:00",
         "mensaje_id": 59073,
@@ -1403,18 +1398,18 @@
       ]
     },
     "C-39": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T19:38:29+00:00",
-      "listas_consecutivas": 11,
+      "listas_consecutivas": 12,
       "aviso_anterior": {
         "fecha": "2026-10-07T18:34:33+00:00",
         "mensaje_id": 59073,
@@ -1432,18 +1427,18 @@
       ]
     },
     "C-89": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T21:23:31+00:00",
-      "listas_consecutivas": 10,
+      "listas_consecutivas": 11,
       "aviso_anterior": {
         "fecha": "2026-10-07T19:38:29+00:00",
         "mensaje_id": 59077,
@@ -1456,18 +1451,18 @@
       "lugares": []
     },
     "C-60": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T21:23:31+00:00",
-      "listas_consecutivas": 10,
+      "listas_consecutivas": 11,
       "aviso_anterior": {
         "fecha": "2026-10-07T19:38:29+00:00",
         "mensaje_id": 59077,
@@ -1480,18 +1475,18 @@
       "lugares": []
     },
     "C-94": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-07T21:53:46+00:00",
-      "listas_consecutivas": 9,
+      "listas_consecutivas": 10,
       "aviso_anterior": {
         "fecha": "2026-10-07T21:23:31+00:00",
         "mensaje_id": 59084,
@@ -1503,29 +1498,137 @@
       },
       "lugares": []
     },
-    "C-58": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+    "C-18": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "tipo": "inferido",
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
-      "primera_salida": "2026-10-07T22:47:07+00:00",
-      "listas_consecutivas": 7,
+      "primera_salida": "2026-10-08T10:38:00+00:00",
+      "listas_consecutivas": 1,
       "aviso_anterior": {
-        "fecha": "2026-10-07T22:20:43+00:00",
-        "mensaje_id": 59089,
-        "url": "https://t.me/empresaelectricacienfuegos1/59089",
+        "fecha": "2026-10-08T09:21:31+00:00",
+        "mensaje_id": 59102,
+        "url": "https://t.me/empresaelectricacienfuegos1/59102",
         "medio": "texto",
         "editado": null,
         "confianza": 100,
-        "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
+        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
       },
       "lugares": []
+    },
+    "C-20": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-55 Cruces (Sur).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-08T10:38:00+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-08T09:21:31+00:00",
+        "mensaje_id": 59102,
+        "url": "https://t.me/empresaelectricacienfuegos1/59102",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
+      },
+      "lugares": []
+    },
+    "C-85": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-55 Cruces (Sur).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-08T10:38:00+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-08T09:21:31+00:00",
+        "mensaje_id": 59102,
+        "url": "https://t.me/empresaelectricacienfuegos1/59102",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-85 \"Cumanayagua (Centro)."
+      },
+      "lugares": [
+        "Cumanayagua (Centro"
+      ]
+    },
+    "C-86": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-55 Cruces (Sur).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-08T10:38:00+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-08T09:21:31+00:00",
+        "mensaje_id": 59102,
+        "url": "https://t.me/empresaelectricacienfuegos1/59102",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-86 \"Cumanayagua, emisora de radio\""
+      },
+      "lugares": [
+        "Cumanayagua",
+        "emisora de radio"
+      ]
+    },
+    "C-36": {
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-55 Cruces (Sur).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-08T10:38:00+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-08T09:21:31+00:00",
+        "mensaje_id": 59102,
+        "url": "https://t.me/empresaelectricacienfuegos1/59102",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+      },
+      "lugares": [
+        "Cumanayagua (Sur",
+        "La Guasasa",
+        "Ceibabo",
+        "La Furnia",
+        "Monasterio",
+        "El Concuní"
+      ]
     }
   },
   "horarios": {
@@ -1537,21 +1640,6 @@
     "C-67": {
       "inicio": null,
       "fin": "2026-10-08T15:32:15+00:00",
-      "fecha_ambigua": false
-    },
-    "C-19": {
-      "inicio": null,
-      "fin": "2026-10-08T21:22:50+00:00",
-      "fecha_ambigua": false
-    },
-    "C-65": {
-      "inicio": null,
-      "fin": "2026-10-08T21:22:50+00:00",
-      "fecha_ambigua": false
-    },
-    "C-66": {
-      "inicio": null,
-      "fin": "2026-10-08T21:22:50+00:00",
       "fecha_ambigua": false
     },
     "C-80": {
@@ -1573,23 +1661,17 @@
       "inicio": null,
       "fin": "2026-10-08T21:22:50+00:00",
       "fecha_ambigua": false
-    },
-    "C-70": {
-      "inicio": null,
-      "fin": "2026-10-08T21:22:50+00:00",
-      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
-  "mw": 49.0,
+  "mw": 50.0,
   "hora_inicio": null,
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-70": "déficit",
     "C-29": "déficit",
     "C-25": "déficit",
-    "C-18": "déficit",
-    "C-20": "déficit",
     "C-55": "déficit",
     "C-21": "déficit",
     "C-50": "déficit",
@@ -1599,6 +1681,7 @@
     "C-7": "déficit",
     "C-41": "déficit",
     "C-57": "déficit",
+    "C-88": "déficit",
     "C-406": "déficit",
     "C-53": "déficit",
     "C-54": "déficit",
@@ -1606,12 +1689,9 @@
     "C-78": "déficit",
     "C-49": "déficit",
     "C-72": "déficit",
-    "C-85": "déficit",
-    "C-86": "déficit",
     "C-73": "déficit",
     "C-22": "déficit",
     "C-42": "déficit",
-    "C-36": "déficit",
     "C-26": "avería / déficit",
     "C-56": "déficit",
     "C-44": "déficit",
@@ -1627,7 +1707,11 @@
     "C-91": "déficit",
     "C-5": "déficit",
     "C-3": "déficit",
-    "C-2": "déficit"
+    "C-2": "déficit",
+    "C-58": "déficit",
+    "C-19": "déficit",
+    "C-65": "déficit",
+    "C-66": "déficit"
   },
   "error": null,
   "pendientes_revision": [
@@ -1965,23 +2049,21 @@
     }
   ],
   "lectura": {
-    "texto": 60,
+    "texto": 61,
     "imagenes": 58,
     "pdf": 0,
     "no_leidos": 10
   },
   "listas_completas": {
     "deficit": {
-      "fecha": "2026-10-08T09:21:31+00:00",
-      "mensaje_id": 59102,
-      "url": "https://t.me/empresaelectricacienfuegos1/59102",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "url": "https://t.me/empresaelectricacienfuegos1/59104",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)",
+      "texto": "👉C-55 Cruces (Sur).",
       "circuitos": [
-        "C-18",
-        "C-20",
         "C-55",
         "C-21",
         "C-50",
@@ -2000,13 +2082,11 @@
         "C-29",
         "C-49",
         "C-72",
-        "C-85",
-        "C-86",
         "C-22",
         "C-73",
         "C-42",
-        "C-36",
         "C-31",
+        "C-88",
         "C-56",
         "C-44",
         "C-82",
@@ -2018,56 +2098,16 @@
         "C-91",
         "C-5",
         "C-3",
-        "C-2"
+        "C-2",
+        "C-58",
+        "C-19",
+        "C-65",
+        "C-66",
+        "C-70"
       ]
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-70",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-06T22:48:12+00:00",
-      "mensaje_id": 59050,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59047",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59050"
-    },
-    {
-      "circuito": "C-19",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-06T22:48:12+00:00",
-      "mensaje_id": 59050,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59047",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59050"
-    },
-    {
-      "circuito": "C-80",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-06T22:48:12+00:00",
-      "mensaje_id": 59050,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59047",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59050"
-    },
-    {
-      "circuito": "C-66",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-06T22:48:12+00:00",
-      "mensaje_id": 59050,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59047",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59050"
-    },
-    {
-      "circuito": "C-65",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-06T22:48:12+00:00",
-      "mensaje_id": 59050,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59047",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59050"
-    },
     {
       "circuito": "C-27",
       "tipo": "salida_lista",
@@ -2922,12 +2962,57 @@
       "mensaje_id": 59102,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59100",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59102"
+    },
+    {
+      "circuito": "C-18",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59102",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59104"
+    },
+    {
+      "circuito": "C-20",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59102",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59104"
+    },
+    {
+      "circuito": "C-85",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59102",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59104"
+    },
+    {
+      "circuito": "C-86",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59102",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59104"
+    },
+    {
+      "circuito": "C-36",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-08T10:38:00+00:00",
+      "mensaje_id": 59104,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59102",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59104"
     }
   ],
-  "mw_fecha": "2026-10-08T09:21:31+00:00",
-  "total_circuitos_afectados": 42,
-  "total_circuitos_programados": 10,
-  "total_restablecimientos_probables": 18,
+  "mw_fecha": "2026-10-08T10:38:00+00:00",
+  "total_circuitos_afectados": 43,
+  "total_circuitos_programados": 6,
+  "total_restablecimientos_probables": 19,
   "circuitos_sin_catalogar": [
     "C-18",
     "C-2",
@@ -2942,5 +3027,5 @@
     "C-89",
     "C-94"
   ],
-  "actualizado": "2026-10-08T10:24:23.995801+00:00"
+  "actualizado": "2026-10-08T10:39:25.629846+00:00"
 }
