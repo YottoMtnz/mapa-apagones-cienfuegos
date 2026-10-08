@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-08T16:48:43+00:00",
+  "reporte_fecha": "2026-10-08T16:55:11+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-08T15:05:58+00:00",
-  "mensajes_leidos": 121,
+  "mensajes_leidos": 122,
   "afectados": {
     "C-70": [
       "Aguada",
@@ -27,15 +27,6 @@
     "C-30": [
       "14 de Julio",
       "Batey 2 Hermanos"
-    ],
-    "C-84": [
-      "Espartaco (Este",
-      "Maleza",
-      "Dagame",
-      "Paso del Medio",
-      "San Fernando de Camarones",
-      "Jurisdicción",
-      "Manaquita"
     ],
     "C-407": [],
     "C-92": [],
@@ -259,6 +250,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
+    },
+    "C-84": {
+      "fecha": "2026-10-08T16:55:11+00:00",
+      "mensaje_id": 59120,
+      "url": "https://t.me/empresaelectricacienfuegos1/59120",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     }
   },
   "restablecimientos_probables": {
@@ -966,15 +966,6 @@
       "confianza": 100,
       "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
     },
-    "C-84": {
-      "fecha": "2026-10-08T11:10:05+00:00",
-      "mensaje_id": 59105,
-      "url": "https://t.me/empresaelectricacienfuegos1/59105",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
-    },
     "C-407": {
       "fecha": "2026-10-08T16:29:06+00:00",
       "mensaje_id": 59118,
@@ -1415,6 +1406,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
+    },
+    "C-84": {
+      "fecha": "2026-10-08T16:55:11+00:00",
+      "mensaje_id": 59120,
+      "url": "https://t.me/empresaelectricacienfuegos1/59120",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     },
     "C-6": {
       "fecha": "2026-10-08T16:29:06+00:00",
@@ -2040,7 +2040,6 @@
     "C-29": "déficit",
     "C-25": "déficit",
     "C-30": "avería",
-    "C-84": "avería",
     "C-407": "déficit",
     "C-92": "avería",
     "C-401": "avería",
@@ -2436,7 +2435,7 @@
     }
   ],
   "lectura": {
-    "texto": 64,
+    "texto": 65,
     "imagenes": 57,
     "pdf": 0,
     "no_leidos": 9
@@ -2491,15 +2490,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-25",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-07T11:45:08+00:00",
-      "mensaje_id": 59059,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59055",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59059"
-    },
     {
       "circuito": "C-8",
       "tipo": "salida_lista",
@@ -3390,10 +3380,19 @@
       "mensaje_id": 59119,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59118",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59119"
+    },
+    {
+      "circuito": "C-84",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-08T16:55:11+00:00",
+      "mensaje_id": 59120,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59105",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59120"
     }
   ],
   "mw_fecha": "2026-10-08T16:29:06+00:00",
-  "total_circuitos_afectados": 48,
+  "total_circuitos_afectados": 47,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 23,
   "circuitos_sin_catalogar": [
@@ -3415,5 +3414,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T16:54:27.250866+00:00"
+  "actualizado": "2026-10-08T17:09:20.190856+00:00"
 }
