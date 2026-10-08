@@ -5,7 +5,7 @@ from datetime import datetime, timedelta, timezone
 from functools import lru_cache
 from collections import OrderedDict
 
-OCR_VERSION='3'
+OCR_VERSION='4'
 MAX_BYTES=12*1024*1024
 
 @lru_cache(maxsize=1)
@@ -82,7 +82,8 @@ def leer_canal(client,canal,ahora,base):
         fecha=m.date.astimezone(timezone.utc)
         if fecha<corte: break
         editado=m.edit_date.isoformat() if getattr(m,'edit_date',None) else None
-        r={'id':m.id,'texto':m.text or '', 'fecha':fecha.isoformat(),'editado':editado,
+        r={'id':m.id,'texto':m.text or '', 'texto_nativo':m.text or '', 'texto_ocr':'',
+           'fecha':fecha.isoformat(),'editado':editado,
            'url':f'https://t.me/{canal}/{m.id}','medio':'texto','confianza':100,
            'grupo':getattr(m,'grouped_id',None)}
         doc=getattr(m,'document',None); photo=getattr(m,'photo',None)
@@ -109,6 +110,7 @@ def leer_canal(client,canal,ahora,base):
                 if resultado.get('confianza',0)<65 or len(resultado.get('texto','').strip())<5:
                     r['error_lectura']='OCR_baja_confianza_o_sin_texto'
                 else:
+                    r['texto_ocr']=resultado['texto']; r['confianza_ocr']=resultado['confianza']
                     r['texto']+='\n'+resultado['texto']; r['confianza']=resultado['confianza']
             except Exception as e:
                 # FloodWait debe propagarse para que el actualizador respete la espera.
@@ -127,8 +129,12 @@ def leer_canal(client,canal,ahora,base):
         completo='\n'.join(x['texto'] for x in lote)
         # Interpretar una sola vez impide que una página posterior borre la anterior.
         primero=lote[0]; primero['texto']=completo
+        primero['texto_nativo']='\n'.join(x['texto_nativo'] for x in lote)
+        primero['texto_ocr']='\n'.join(x['texto_ocr'] for x in lote)
+        primero['confianza_ocr']=min((x.get('confianza_ocr',100) for x in lote),default=100)
         primero['confianza']=min(x['confianza'] for x in lote)
         errores=[x['error_lectura'] for x in lote if x.get('error_lectura')]
         if errores: primero['error_lectura']='album_incompleto: '+', '.join(sorted(set(errores)))
-        for x in lote[1:]: x['texto']=''
+        for x in lote[1:]:
+            x['texto']=''; x['texto_nativo']=''; x['texto_ocr']=''; x['album_fragmento']=True
     return registros
