@@ -8,7 +8,7 @@ from normalizar import fold, canon_id
 from parsers import PARSERS, extraer_info_extra
 
 HABANA = ZoneInfo('America/Havana')
-CORTE = re.compile(r'\b(afectad[oa]s?|afectan?|afecta(?:cion(?:es)?)?|sin (?:servicio|corriente|energia|electricidad)|desenergizad[oa]s?|interrumpid[oa]s?|interrupcion(?:es)?|averias?|dispar(?:o|ad[oa]s?)|apagones?|fuera de servicio|desconectad[oa]s?|se desconecta|se interrumpe|no (?:tiene|tienen|hay) (?:luz|corriente))\b')
+CORTE = re.compile(r'\b(afectad[oa]s?|afectan?|afecta(?:cion(?:es)?)?|sin (?:servicio|corriente|energia|electricidad)|desenergizad[oa]s?|interrumpid[oa]s?|interrupcion(?:es)?|averias?|en fallo|dispar(?:o|ad[oa]s?)|apagones?|fuera de servicio|desconectad[oa]s?|se desconecta|se interrumpe|no (?:tiene|tienen|hay) (?:luz|corriente))\b')
 RESTAURA = re.compile(r'\b(restablecid[oa]s?|restablecio|se restablece|se restablecieron|se normaliza|normalizad[oa]s?|energizad[oa]s?|se energiza|recuperad[oa]s?|con servicio|conectad[oa]s?|ya (?:tienen|hay|cuentan con) (?:luz|corriente|servicio))\b')
 FUTURO = re.compile(r'\b(programad[oa]s?|programacion|se desconectaran|se interrumpiran|planificad[oa]s?|se afectara|seran? afectad[oa]s?|se interrumpira|se desconectara|manana|proximo|previsto|pronostico)\b')
 GLOBAL = re.compile(r'\b(sin afectaciones|no (?:hay|existen|se reportan) afectaciones|todos los circuitos (?:han sido |fueron )?restablecidos|servicio (?:electrico )?restablecido en (?:su )?totalidad)\b')
@@ -23,6 +23,8 @@ def normalizar_texto(texto):
 
 def intencion(texto):
     t = fold(texto)
+    # El estado anterior explica la reparación; no contradice la reposición actual.
+    t = re.sub(r'\bque (?:se encontraba[n]?|estaba[n]?)\b.*$', '', t)
     if re.search(r'\b(cancelad[oa]|se cancela|suspendid[oa])\b', t) and FUTURO.search(t):
         return 'cancelado'
     if re.search(r'\bno (?:se )?(?:ha |han |fue |esta |estan )?(?:restablecid|restablec|energizad|normalizad)', t):
@@ -50,7 +52,8 @@ def intencion(texto):
 
 def alcance(texto, previo='general'):
     t = fold(texto)
-    if re.search(r'averia|disparo|disparad', t): return 'averia'
+    if re.search(r'averia|disparo|disparad|en fallo', t): return 'averia'
+    if re.search(r'emergencia|via libre',t): return 'emergencia'
     if 'deficit' in t or 'generacion' in t: return 'deficit'
     # Convención histórica del canal: "Actualización" = lista de déficit.
     if t.strip(' :.!⚡') == 'actualizacion': return 'deficit'
@@ -60,6 +63,12 @@ def alcance(texto, previo='general'):
 def extraer_circuitos(prov, texto, catalogo):
     resultado = {}
     if prov == 'cienfuegos':
+        parcial=re.search(r'\bC\s*[- ]?\s*(\d+)\s*\(\s*(FW|S)\s*-?\s*(\d+)\s*\)',texto,re.I)
+        if parcial:
+            # Una sección averiada no equivale a todo su circuito sin corriente.
+            cid=f'C-{int(parcial[1])}/{parcial[2].upper()}-{int(parcial[3])}'
+            lugares=[x.strip(' .\"') for x in texto[parcial.end():].split(',') if x.strip(' .\"')]
+            return {cid:lugares}
         for m in re.finditer(r'\b([CS])\s*[-_:]?\s*(\d{1,4})\b', texto, re.I):
             resultado[f'{m[1].upper()}-{int(m[2])}'] = []
         for m in re.finditer(r'\b(?:circuitos?|ctos?\.?)\s*[:#-]?\s*(\d{1,4}(?:\s*[,ye/]\s*\d{1,4})*)(?!\d)', texto, re.I):
@@ -121,6 +130,7 @@ def interpretar(prov, texto, fecha, catalogo=None):
     catalogo = catalogo or {}; texto = normalizar_texto(texto)
     eventos=[]; pendientes=[]; contexto=None; scope='general'; completa=False; encabezado=''
     # Separar cambios de estado en una misma línea conservando sus propios sujetos.
+    texto = re.sub(r'(?=[👉📌])', '\n', texto)
     texto = re.sub(r';|\.\s+(?=[A-ZÁÉÍÓÚÑ])|,?\s+(?:mientras(?: que)?|pero)\s+', '\n', texto)
     texto = re.sub(r'\s+y\s+(?=se (?:restable|afecta|energiza)|permanece|continua)', '\n', texto,flags=re.I)
     grupos={}
@@ -129,8 +139,9 @@ def interpretar(prov, texto, fecha, catalogo=None):
         if not linea: continue
         t=fold(linea); ids=extraer_circuitos(prov,linea,catalogo); accion=intencion(linea)
         local_scope=alcance(linea,scope)
-        if re.search(r'\b(ayer|historico|acumulado|durante el dia de ayer)\b',t):
+        if re.search(r'\bayer\b|\b(?:resumen|balance|reporte) historico\b|\bacumulado de\b',t):
             if RELEVANTE.search(t): pendientes.append({'motivo':'resumen_historico','texto':linea[:300]})
+            contexto=None; completa=False
             continue
         if accion=='sin_afectacion' and not ids:
             global_claro = bool(re.search(r'provincia|totalidad|todos los circuitos',t) or GLOBAL.fullmatch(t.strip(' .:!')))
@@ -142,6 +153,7 @@ def interpretar(prov, texto, fecha, catalogo=None):
         if not ids:
             if accion and accion!='ambiguo':
                 contexto=accion; scope=local_scope; completa=bool(SNAPSHOT.search(t)); encabezado=linea
+                grupos={}
             elif re.search(r'gracias|disculp|informacion nacional|union electrica',t): contexto=None; completa=False
             continue
         accion=accion or contexto
@@ -150,12 +162,15 @@ def interpretar(prov, texto, fecha, catalogo=None):
             pendientes.append({'motivo':'estado_ambiguo' if accion=='ambiguo' else 'sin_estado_explicito','texto':linea[:300],'circuitos':list(ids)})
             continue
         es_completa = (completa if contexto==accion else False) or bool(SNAPSHOT.search(t))
+        if re.search(r'\b(parcial|algunos|entre otros|continuara|parte \d)\b',fold(encabezado+' '+linea)):
+            es_completa=False
         horario=ventana(encabezado+'\n'+linea,fecha) if accion=='programado' else None
         key=(accion,local_scope,es_completa,str(horario))
         if key not in grupos:
-            grupos[key]={'accion':accion,'circuitos':{},'alcance':local_scope,'completa':es_completa,'texto':linea[:350]}
+            grupos[key]={'accion':accion,'circuitos':{},'alcance':local_scope,'completa':es_completa,'texto':linea[:350],'textos':{}}
             eventos.append(grupos[key])
         grupos[key]['circuitos'].update(ids)
+        grupos[key]['textos'].update({cid:linea[:350] for cid in ids})
         if accion=='programado': grupos[key]['horario']=horario
     # Los parsers provinciales heredados necesitan a veces el encabezado completo.
     if not eventos and prov!='cienfuegos':
