@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-08T21:32:55+00:00",
-  "mensajes_leidos": 122,
+  "mensajes_leidos": 124,
   "afectados": {
     "C-70": [
       "Aguada",
@@ -2273,13 +2273,26 @@
       "id": 59134,
       "url": "https://t.me/empresaelectricacienfuegos1/59134",
       "fecha": "2026-10-08T22:24:22+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠️Se comunica a nuestros clientes que se encuentra restablecido el servicio en la zona:\n\n\n👉Lácteo\n\n \n📌Ofrecemos disculpas por las molestias ocasionadas",
+      "id": 59135,
+      "url": "https://t.me/empresaelectricacienfuegos1/59135",
+      "fecha": "2026-10-08T22:27:48+00:00"
+    },
+    {
+      "id": 59136,
+      "url": "https://t.me/empresaelectricacienfuegos1/59136",
+      "fecha": "2026-10-08T22:29:30+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
-    "texto": 65,
-    "imagenes": 57,
+    "texto": 66,
+    "imagenes": 58,
     "pdf": 0,
-    "no_leidos": 10
+    "no_leidos": 11
   },
   "listas_completas": {
     "deficit": {
@@ -3253,5 +3266,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T22:24:26.625631+00:00"
+  "actualizado": "2026-10-08T22:39:32.700665+00:00"
 }
