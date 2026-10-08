@@ -16,7 +16,7 @@ win.eval(script+'\nwindow.__qa=()=>({marcadores:Object.keys(marcadores).length,d
 await new Promise(r=>setTimeout(r,200));
 const get=id=>win.document.getElementById(id);
 assert.equal(get('cDesc').textContent,'60');assert.equal(get('cOk').textContent,'0');
-assert.equal(win.document.querySelectorAll('.stat').length,4);
+assert.equal(win.document.querySelectorAll('.stat').length,5);
 assert.equal(win.document.querySelectorAll('.tab').length,3);
 get('plegar').click();assert.equal(get('contenidoPanel').hidden,true);get('plegar').click();
 get('buscar').value='Palmira';get('buscar').dispatchEvent(new win.Event('input'));await new Promise(r=>setTimeout(r,50));
@@ -26,6 +26,13 @@ assert.equal(ctx.estadoDe('C-31',{estado_datos:'ok',afectados:{'C-31':[]},report
 assert.equal(ctx.estadoDe('C-32',{estado_datos:'ok',afectados:{'C-31':[]},reporte_fecha:now},true),'desc');
 assert.equal(ctx.estadoDe('C-31',{estado_datos:'ok',afectados:{'C-31':[]},reporte_fecha:'2020-01-01T00:00:00Z'},true),'desc');
 assert.equal(ctx.estadoDe('C-31',{estado_datos:'error',afectados:{'C-31':[]},reporte_fecha:now},false),'desc');
+const probable={schema:4,estado_datos:'ok',actualizado:now,reporte_fecha:now,afectados:{},programados:{},restablecimientos_probables:{'C-32':{fecha:now,alcance:'deficit',tipo:'inferido',url:'https://t.me/empresaelectricacienfuegos1/1'}}};
+assert.equal(ctx.estadoDe('C-32',probable,true),'prob');
+assert.equal(ctx.estadoDe('C-32',{...probable,restablecimientos_probables:{'C-32':{fecha:'2020-01-01T00:00:00Z'}}},true),'desc');
+assert.equal(ctx.estadoDe('C-32',{schema:4,estado_datos:'ok',reporte_fecha:now,afectados:{'C-32':[]},lectura_incompleta_desde:new Date(Date.now()+1000).toISOString()},true),'afect');
+const original=ctx.datos.est;ctx.datos.est=probable;ctx.renderizar();assert.equal(get('cProb').textContent,'1');assert.equal(get('cOk').textContent,'0');
+get('buscar').value='';get('buscar').dispatchEvent(new win.Event('input'));win.document.querySelector('.stat.teal').click();assert.equal(get('tourBar').style.display,'flex');get('tourSalir').click();
+ctx.datos.est=original;ctx.renderizar();
 get('buscar').value='';get('buscar').dispatchEvent(new win.Event('input'));win.document.querySelector('.stat.gray').click();assert.equal(get('tourBar').style.display,'flex');get('tourSalir').click();
-console.log('PASS: inicialización con Leaflet real, 60 circuitos sin confirmar, cero verdes ficticios, búsqueda, panel plegable, recorrido, caducidad y estados.');
+console.log('PASS: inicialización con Leaflet real, 60 circuitos sin confirmar, cero verdes ficticios, búsqueda, panel plegable, recorrido, caducidad, restablecimiento probable y estados.');
 await win.happyDOM.close();
