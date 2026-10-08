@@ -1,0 +1,117 @@
+test_actualizacion_reciente_reemplaza_aunque_sea_cercana (test_actualizar.TestEstado.test_actualizacion_reciente_reemplaza_aunque_sea_cercana) ... ok
+test_actualizacion_vieja_separada_se_ignora (test_actualizar.TestEstado.test_actualizacion_vieja_separada_se_ignora) ... ok
+test_averia_activa_protege_de_actualizacion (test_actualizar.TestEstado.test_averia_activa_protege_de_actualizacion) ... ok
+test_deficit_activo_protege_de_lista_averias (test_actualizar.TestEstado.test_deficit_activo_protege_de_lista_averias) ... ok
+test_error_conserva_estado_previo (test_actualizar.TestEstado.test_error_conserva_estado_previo) ... /workspace/scratch/920bfc139117/work/mapa-apagones/tests/test_actualizar.py:44: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmplku0ofdu/data/estado_artemisa.json' mode='r' encoding='UTF-8'>
+  r = json.load(open(os.path.join(d, "data", "estado_artemisa.json")))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_lista_averias_vieja_no_reagrega_resueltos (test_actualizar.TestEstado.test_lista_averias_vieja_no_reagrega_resueltos) ... ok
+test_listas_independientes_cercanas_no_se_fusionan (test_actualizar.TestEstado.test_listas_independientes_cercanas_no_se_fusionan) ... ok
+test_provincia_sin_fuente (test_actualizar.TestEstado.test_provincia_sin_fuente) ... ok
+test_reporte_reciente_es_ok (test_actualizar.TestEstado.test_reporte_reciente_es_ok) ... ok
+test_reporte_viejo_no_se_muestra_como_actual (test_actualizar.TestEstado.test_reporte_viejo_no_se_muestra_como_actual) ... ok
+test_sin_afectaciones_cierra_lista_anterior (test_actualizar.TestEstado.test_sin_afectaciones_cierra_lista_anterior) ... ok
+test_sin_cambios_no_reescribe (test_actualizar.TestEstado.test_sin_cambios_no_reescribe) ... ok
+test_homonimos_distantes_no_elige_primero (test_auditoria.TestGeografiaSegura.test_homonimos_distantes_no_elige_primero) ... ok
+test_no_acepta_villa_clara_en_caja_compartida (test_auditoria.TestGeografiaSegura.test_no_acepta_villa_clara_en_caja_compartida) ... ok
+test_province_osm_se_reconoce (test_auditoria.TestGeografiaSegura.test_province_osm_se_reconoce) ... ok
+test_sin_coincidencias_parciales (test_auditoria.TestGeografiaSegura.test_sin_coincidencias_parciales) ... ok
+test_album_explicito_se_une (test_auditoria.TestLecturaInteligente.test_album_explicito_se_une) ... ok
+test_album_incompleto_no_borra_lista (test_auditoria.TestLecturaInteligente.test_album_incompleto_no_borra_lista) ... ok
+test_ambiguedad_registrada (test_auditoria.TestLecturaInteligente.test_ambiguedad_registrada) ... ok
+test_ausencia_no_confirma_verde (test_auditoria.TestLecturaInteligente.test_ausencia_no_confirma_verde) ... ok
+test_circuito_nuevo_texto_no_desaparece (test_auditoria.TestLecturaInteligente.test_circuito_nuevo_texto_no_desaparece) ... ok
+test_corte_nuevo_despues_de_restablecer (test_auditoria.TestLecturaInteligente.test_corte_nuevo_despues_de_restablecer) ... ok
+test_fecha_invalida_pendiente (test_auditoria.TestLecturaInteligente.test_fecha_invalida_pendiente) ... ok
+test_generador_y_orden_entrada (test_auditoria.TestLecturaInteligente.test_generador_y_orden_entrada) ... ok
+test_horarios_por_fila (test_auditoria.TestLecturaInteligente.test_horarios_por_fila) ... ok
+test_lista_numerica (test_auditoria.TestLecturaInteligente.test_lista_numerica) ... ok
+test_misma_linea_dos_estados (test_auditoria.TestLecturaInteligente.test_misma_linea_dos_estados) ... ok
+test_municipio_quejas_no_apaga_todo (test_auditoria.TestLecturaInteligente.test_municipio_quejas_no_apaga_todo) ... ok
+test_negacion_y_trabajo_no_son_restablecimiento (test_auditoria.TestLecturaInteligente.test_negacion_y_trabajo_no_son_restablecimiento) ... ok
+test_no_afectara_no_es_plan (test_auditoria.TestLecturaInteligente.test_no_afectara_no_es_plan) ... ok
+test_no_inventa_verde_al_caducar (test_auditoria.TestLecturaInteligente.test_no_inventa_verde_al_caducar) ... ok
+test_ocr_desconocido_pendiente (test_auditoria.TestLecturaInteligente.test_ocr_desconocido_pendiente) ... ok
+test_programacion_para_manana_persistente (test_auditoria.TestLecturaInteligente.test_programacion_para_manana_persistente) ... ok
+test_programacion_vencida_no_se_publica (test_auditoria.TestLecturaInteligente.test_programacion_vencida_no_se_publica) ... ok
+test_restauracion_posterior_no_resucita_corte (test_auditoria.TestLecturaInteligente.test_restauracion_posterior_no_resucita_corte) ... ok
+test_secciones_mixtas (test_auditoria.TestLecturaInteligente.test_secciones_mixtas) ... ok
+test_sin_afectaciones_antiguo_no_es_verde (test_auditoria.TestLecturaInteligente.test_sin_afectaciones_antiguo_no_es_verde) ... ok
+test_sin_afectaciones_deficit_no_borra_averia (test_auditoria.TestLecturaInteligente.test_sin_afectaciones_deficit_no_borra_averia) ... ok
+test_variantes_sin_emojis_y_sin_lugar (test_auditoria.TestLecturaInteligente.test_variantes_sin_emojis_y_sin_lugar) ... ok
+test_viejo_no_se_reafirma_por_otra_lista (test_auditoria.TestLecturaInteligente.test_viejo_no_se_reafirma_por_otra_lista) ... ok
+test_todos_los_puntos_dentro_de_cienfuegos (test_auditoria.TestLimiteReal.test_todos_los_puntos_dentro_de_cienfuegos) ... ok
+test_tres_puntos_antiguos_fuera_se_rechazan (test_auditoria.TestLimiteReal.test_tres_puntos_antiguos_fuera_se_rechazan) ... ok
+test_caption_y_ocr_se_combinan_y_cache_se_reutiliza (test_auditoria.TestMedios.test_caption_y_ocr_se_combinan_y_cache_se_reutiliza) ... ok
+test_foto_baja_confianza_pendiente_sin_aplicar (test_auditoria.TestMedios.test_foto_baja_confianza_pendiente_sin_aplicar) ... ok
+test_pdf_con_texto_real (test_auditoria.TestMedios.test_pdf_con_texto_real) ... ok
+test_imagen_sintetica_se_lee_con_motor_real (test_auditoria.TestOCRReal.test_imagen_sintetica_se_lee_con_motor_real) ... ok
+test_esquema_y_coherencia (test_datos.TestDatos.test_esquema_y_coherencia) ... ok
+test_hay_archivo_por_provincia (test_datos.TestDatos.test_hay_archivo_por_provincia) ... ok
+test_ids_basura_conocidos_no_existen (test_datos.TestDatos.test_ids_basura_conocidos_no_existen) ... ok
+test_ids_name_keyed_son_canonicos (test_datos.TestDatos.test_ids_name_keyed_son_canonicos) ... ok
+test_no_hay_lugares_basura (test_datos.TestDatos.test_no_hay_lugares_basura) ... ok
+test_no_hay_pines_de_relleno_en_capital (test_datos.TestDatos.test_no_hay_pines_de_relleno_en_capital)
+El bug original: 'aproximado' en el centro de la capital. Un pin en el centro ... ok
+test_puntos_gazetteer_en_su_provincia (test_datos.TestDatos.test_puntos_gazetteer_en_su_provincia) ... ok
+test_5_de_moa (test_normalizar.TestIds.test_5_de_moa) ... ok
+test_cto_duplicado_y_numerico (test_normalizar.TestIds.test_cto_duplicado_y_numerico) ... ok
+test_expansion_y (test_normalizar.TestIds.test_expansion_y) ... ok
+test_guiones_pegados (test_normalizar.TestIds.test_guiones_pegados) ... ok
+test_holguin_variantes_convergen (test_normalizar.TestIds.test_holguin_variantes_convergen) ... ok
+test_provincias_con_codigo_no_se_tocan (test_normalizar.TestIds.test_provincias_con_codigo_no_se_tocan) ... ok
+test_basura (test_normalizar.TestLugares.test_basura) ... ok
+test_candidatos (test_normalizar.TestLugares.test_candidatos) ... ok
+test_lugar_desde_id (test_normalizar.TestLugares.test_lugar_desde_id) ... ok
+test_recorta (test_normalizar.TestLugares.test_recorta) ... ok
+test_artemisa_ignora_mw_y_horas (test_parsers.TestParsers.test_artemisa_ignora_mw_y_horas) ... ok
+test_cienfuegos_conserva_guion_interno (test_parsers.TestParsers.test_cienfuegos_conserva_guion_interno) ... ok
+test_detectar_tipo_heredado (test_parsers.TestParsers.test_detectar_tipo_heredado) ... ok
+test_holguin_ids_canonicos (test_parsers.TestParsers.test_holguin_ids_canonicos) ... ok
+test_las_tunas_exige_digito (test_parsers.TestParsers.test_las_tunas_exige_digito) ... ok
+test_mayabeque_filtra_ruido (test_parsers.TestParsers.test_mayabeque_filtra_ruido) ... ok
+test_santiago_dos_circuitos_en_una_linea (test_parsers.TestParsers.test_santiago_dos_circuitos_en_una_linea) ... ok
+test_tiempos_usan_misma_clave_que_ids (test_parsers.TestParsers.test_tiempos_usan_misma_clave_que_ids) ... ok
+test_villa_clara_ctos_multiples (test_parsers.TestParsers.test_villa_clara_ctos_multiples) ... ok
+test_averia_aparte_no_se_borra_por_restablecer_deficit (test_restablecimientos.TestRestablecimientos.test_averia_aparte_no_se_borra_por_restablecer_deficit) ... ok
+test_averia_vencida_no_se_convierte_en_probable (test_restablecimientos.TestRestablecimientos.test_averia_vencida_no_se_convierte_en_probable) ... ok
+test_aviso_previo_se_consume_al_confirmar_corte (test_restablecimientos.TestRestablecimientos.test_aviso_previo_se_consume_al_confirmar_corte) ... ok
+test_aviso_suelto_no_cierra_la_lista (test_restablecimientos.TestRestablecimientos.test_aviso_suelto_no_cierra_la_lista) ... ok
+test_caption_de_circuito_nuevo_no_se_filtra_como_ocr (test_restablecimientos.TestRestablecimientos.test_caption_de_circuito_nuevo_no_se_filtra_como_ocr) ... ok
+test_centro_historico_es_un_lugar (test_restablecimientos.TestRestablecimientos.test_centro_historico_es_un_lugar) ... ok
+test_codigo_roto_no_autoriza_retirar_circuitos (test_restablecimientos.TestRestablecimientos.test_codigo_roto_no_autoriza_retirar_circuitos) ... ok
+test_edicion_reemplaza_no_suma_versiones (test_restablecimientos.TestRestablecimientos.test_edicion_reemplaza_no_suma_versiones) ... ok
+test_foto_de_aviso_individual_no_invalida_otros_circuitos (test_restablecimientos.TestRestablecimientos.test_foto_de_aviso_individual_no_invalida_otros_circuitos) ... ok
+test_foto_decorativa_ilegible_no_impide_reemplazo (test_restablecimientos.TestRestablecimientos.test_foto_decorativa_ilegible_no_impide_reemplazo) ... ok
+test_intento_de_restaurar_con_fallo_no_es_reposicion (test_restablecimientos.TestRestablecimientos.test_intento_de_restaurar_con_fallo_no_es_reposicion) ... ok
+test_lectura_pertinente_fallida_suspende_deduccion (test_restablecimientos.TestRestablecimientos.test_lectura_pertinente_fallida_suspende_deduccion) ... ok
+test_lista_parcial_explicita_no_cierra (test_restablecimientos.TestRestablecimientos.test_lista_parcial_explicita_no_cierra) ... ok
+test_lista_repetida_refresca_probable_sin_volverlo_confirmado (test_restablecimientos.TestRestablecimientos.test_lista_repetida_refresca_probable_sin_volverlo_confirmado) ... ok
+test_lista_truncada_no_infiere_salidas (test_restablecimientos.TestRestablecimientos.test_lista_truncada_no_infiere_salidas) ... ok
+test_mw_no_es_total_historico_o_nacional (test_restablecimientos.TestRestablecimientos.test_mw_no_es_total_historico_o_nacional) ... ok
+test_ocr_dudoso_no_pinta_verde (test_restablecimientos.TestRestablecimientos.test_ocr_dudoso_no_pinta_verde) ... ok
+test_ocr_incompleto_no_infiere_salidas (test_restablecimientos.TestRestablecimientos.test_ocr_incompleto_no_infiere_salidas) ... ok
+test_ocr_sin_cierre_no_infiere_ausencias (test_restablecimientos.TestRestablecimientos.test_ocr_sin_cierre_no_infiere_ausencias) ... ok
+test_plan_futuro_no_se_elimina_por_corte_actual (test_restablecimientos.TestRestablecimientos.test_plan_futuro_no_se_elimina_por_corte_actual) ... ok
+test_restablecimiento_de_seccion_con_id_corto (test_restablecimientos.TestRestablecimientos.test_restablecimiento_de_seccion_con_id_corto) ... ok
+test_restablecimiento_total_cierra_seccion (test_restablecimientos.TestRestablecimientos.test_restablecimiento_total_cierra_seccion) ... ok
+test_restauracion_con_descripcion_de_la_falla_anterior (test_restablecimientos.TestRestablecimientos.test_restauracion_con_descripcion_de_la_falla_anterior) ... ok
+test_restauracion_expresa_pasa_probable_a_confirmado (test_restablecimientos.TestRestablecimientos.test_restauracion_expresa_pasa_probable_a_confirmado) ... ok
+test_seccion_no_apaga_circuito_completo (test_restablecimientos.TestRestablecimientos.test_seccion_no_apaga_circuito_completo) ... ok
+test_silencio_y_vencimiento_no_restablecen (test_restablecimientos.TestRestablecimientos.test_silencio_y_vencimiento_no_restablecen) ... ok
+test_texto_evidencia_corresponde_a_cada_circuito (test_restablecimientos.TestRestablecimientos.test_texto_evidencia_corresponde_a_cada_circuito) ... ok
+test_transicion_real_no_acumula_dos_listas (test_restablecimientos.TestRestablecimientos.test_transicion_real_no_acumula_dos_listas) ... ok
+test_vuelve_a_lista_vuelve_a_rojo (test_restablecimientos.TestRestablecimientos.test_vuelve_a_lista_vuelve_a_rojo) ... ok
+
+----------------------------------------------------------------------
+Ran 101 tests in 4.667s
+
+OK
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> test
+> node tests/test_ui.mjs && node tests/test_worker.cjs
+
+PASS: inicialización con Leaflet real, 60 circuitos sin confirmar, cero verdes ficticios, búsqueda, panel plegable, recorrido, caducidad, restablecimiento probable y estados.
+PASS Worker: origen, provincia, validación, límite, deduplicación y privacidad.
