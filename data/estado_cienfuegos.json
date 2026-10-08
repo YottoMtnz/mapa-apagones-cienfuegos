@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-08T15:05:58+00:00",
-  "mensajes_leidos": 121,
+  "mensajes_leidos": 122,
   "afectados": {
     "C-70": [
       "Aguada",
@@ -2231,11 +2231,18 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59126",
       "fecha": "2026-10-08T19:47:14+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n60 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 59129,
+      "url": "https://t.me/empresaelectricacienfuegos1/59129",
+      "fecha": "2026-10-08T20:35:45+00:00"
     }
   ],
   "lectura": {
     "texto": 64,
-    "imagenes": 57,
+    "imagenes": 58,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -3212,5 +3219,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T20:24:23.023212+00:00"
+  "actualizado": "2026-10-08T20:39:21.799170+00:00"
 }
