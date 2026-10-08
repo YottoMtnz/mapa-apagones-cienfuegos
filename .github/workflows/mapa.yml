@@ -38,8 +38,8 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .cache/ocr.json
-          key: ocr-v3-${{ github.run_id }}
-          restore-keys: ocr-v3-
+          key: ocr-v4-${{ github.run_id }}
+          restore-keys: ocr-v4-
       - name: Pruebas de regresión
         run: python -m unittest discover -s tests -v
       - name: Leer canal de Cienfuegos
@@ -53,6 +53,13 @@ jobs:
           MODO_ESTUDIO: ${{ inputs.modo == 'estudio' && '1' || '' }}
           MAX_OCR_POR_CICLO: '16'
           MAX_MENSAJES: '200'
+      - name: Conservar estudio íntegro del canal
+        if: inputs.modo == 'estudio' && steps.lectura.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: estudio-cienfuegos
+          path: data/estudio_canales.json
+          retention-days: 7
       - name: Guardar cambios de estado
         run: |
           git config user.name MapaBot
