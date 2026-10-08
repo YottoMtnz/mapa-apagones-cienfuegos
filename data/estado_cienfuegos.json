@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-08T09:22:50+00:00",
-  "mensajes_leidos": 120,
+  "mensajes_leidos": 117,
   "afectados": {
     "C-70": [
       "Aguada",
@@ -381,6 +381,38 @@
         "Breñas",
         "Caña Brava",
         "Dolores"
+      ]
+    },
+    "C-33": {
+      "fecha": "2026-10-08T11:57:07+00:00",
+      "mensaje_id": 59106,
+      "url": "https://t.me/empresaelectricacienfuegos1/59106",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-50 \"Palmira (Norte).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-07T19:38:29+00:00",
+      "listas_consecutivas": 13,
+      "aviso_anterior": {
+        "fecha": "2026-10-07T18:34:33+00:00",
+        "mensaje_id": 59073,
+        "url": "https://t.me/empresaelectricacienfuegos1/59073",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+      },
+      "lugares": [
+        "Arimao",
+        "Las Moscas",
+        "Vegas Viejas",
+        "Santa Martina",
+        "San Antón",
+        "Quesada",
+        "Callejón del Palmar"
       ]
     },
     "C-75": {
@@ -1504,6 +1536,38 @@
         "Dolores"
       ]
     },
+    "C-33": {
+      "fecha": "2026-10-08T11:57:07+00:00",
+      "mensaje_id": 59106,
+      "url": "https://t.me/empresaelectricacienfuegos1/59106",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-50 \"Palmira (Norte).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-07T19:38:29+00:00",
+      "listas_consecutivas": 13,
+      "aviso_anterior": {
+        "fecha": "2026-10-07T18:34:33+00:00",
+        "mensaje_id": 59073,
+        "url": "https://t.me/empresaelectricacienfuegos1/59073",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+      },
+      "lugares": [
+        "Arimao",
+        "Las Moscas",
+        "Vegas Viejas",
+        "Santa Martina",
+        "San Antón",
+        "Quesada",
+        "Callejón del Palmar"
+      ]
+    },
     "C-75": {
       "fecha": "2026-10-08T11:57:07+00:00",
       "mensaje_id": 59106,
@@ -1982,27 +2046,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
-      "id": 58989,
-      "url": "https://t.me/empresaelectricacienfuegos1/58989",
-      "fecha": "2026-10-05T12:30:23+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de 1895 MW a las 20:10 horas",
-      "id": 58989,
-      "url": "https://t.me/empresaelectricacienfuegos1/58989",
-      "fecha": "2026-10-05T12:30:23+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
-      "id": 58990,
-      "url": "https://t.me/empresaelectricacienfuegos1/58990",
-      "fecha": "2026-10-05T12:32:14+00:00"
-    },
-    {
       "motivo": "sin_circuitos_identificables",
       "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\n> | S y\nEl | a",
       "id": 58991,
@@ -2336,8 +2379,8 @@
     }
   ],
   "lectura": {
-    "texto": 61,
-    "imagenes": 59,
+    "texto": 59,
+    "imagenes": 58,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -3298,7 +3341,7 @@
   "mw_fecha": "2026-10-08T11:57:07+00:00",
   "total_circuitos_afectados": 54,
   "total_circuitos_programados": 3,
-  "total_restablecimientos_probables": 21,
+  "total_restablecimientos_probables": 22,
   "circuitos_sin_catalogar": [
     "C-18",
     "C-2",
@@ -3318,5 +3361,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-08T12:29:28.217396+00:00"
+  "actualizado": "2026-10-08T12:44:30.137070+00:00"
 }
