@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-09T20:17:26+00:00",
+  "reporte_fecha": "2026-10-09T21:51:42+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-09T19:23:34+00:00",
-  "mensajes_leidos": 122,
+  "mensajes_leidos": 123,
   "afectados": {
     "C-30": [
       "14 de Julio",
@@ -292,6 +292,20 @@
     ],
     "C-25": [
       "Abreus (Pueblo"
+    ],
+    "C-47": [
+      "Elpidio Gómez",
+      "Altamira",
+      "La Peseta"
+    ],
+    "C-53": [
+      "Potrerillo",
+      "Peñasco",
+      "Lomitas"
+    ],
+    "C-54": [
+      "Batey Mal Tiempo",
+      "Loma de Tola"
     ]
   },
   "programados": {},
@@ -586,89 +600,6 @@
         "Hondones",
         "La Yuca",
         "Bagazal"
-      ]
-    },
-    "C-53": {
-      "fecha": "2026-10-09T20:17:26+00:00",
-      "mensaje_id": 59172,
-      "url": "https://t.me/empresaelectricacienfuegos1/59172",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-09T20:17:26+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-09T17:36:42+00:00",
-        "mensaje_id": 59169,
-        "url": "https://t.me/empresaelectricacienfuegos1/59169",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-53 Potrerillo, El No, Peñasco, Lomitas."
-      },
-      "lugares": [
-        "Potrerillo",
-        "Peñasco",
-        "Lomitas"
-      ]
-    },
-    "C-54": {
-      "fecha": "2026-10-09T20:17:26+00:00",
-      "mensaje_id": 59172,
-      "url": "https://t.me/empresaelectricacienfuegos1/59172",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-09T20:17:26+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-09T17:36:42+00:00",
-        "mensaje_id": 59169,
-        "url": "https://t.me/empresaelectricacienfuegos1/59169",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola."
-      },
-      "lugares": [
-        "Batey Mal Tiempo",
-        "Loma de Tola"
-      ]
-    },
-    "C-47": {
-      "fecha": "2026-10-09T20:17:26+00:00",
-      "mensaje_id": 59172,
-      "url": "https://t.me/empresaelectricacienfuegos1/59172",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-09T20:17:26+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-09T17:36:42+00:00",
-        "mensaje_id": 59169,
-        "url": "https://t.me/empresaelectricacienfuegos1/59169",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
-      },
-      "lugares": [
-        "Elpidio Gómez",
-        "Altamira",
-        "La Peseta"
       ]
     }
   },
@@ -1267,6 +1198,33 @@
       "confianza": 100,
       "texto": "👉C-25 Abreus (Pueblo)."
     },
+    "C-47": {
+      "fecha": "2026-10-09T21:51:42+00:00",
+      "mensaje_id": 59173,
+      "url": "https://t.me/empresaelectricacienfuegos1/59173",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
+    },
+    "C-53": {
+      "fecha": "2026-10-09T21:51:42+00:00",
+      "mensaje_id": 59173,
+      "url": "https://t.me/empresaelectricacienfuegos1/59173",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-53 \"Potrerillo, El No, Peñasco, Lomitas."
+    },
+    "C-54": {
+      "fecha": "2026-10-09T21:51:42+00:00",
+      "mensaje_id": 59173,
+      "url": "https://t.me/empresaelectricacienfuegos1/59173",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola."
+    },
     "C-6": {
       "fecha": "2026-10-09T20:17:26+00:00",
       "mensaje_id": 59172,
@@ -1557,89 +1515,6 @@
         "La Yuca",
         "Bagazal"
       ]
-    },
-    "C-53": {
-      "fecha": "2026-10-09T20:17:26+00:00",
-      "mensaje_id": 59172,
-      "url": "https://t.me/empresaelectricacienfuegos1/59172",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-09T20:17:26+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-09T17:36:42+00:00",
-        "mensaje_id": 59169,
-        "url": "https://t.me/empresaelectricacienfuegos1/59169",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-53 Potrerillo, El No, Peñasco, Lomitas."
-      },
-      "lugares": [
-        "Potrerillo",
-        "Peñasco",
-        "Lomitas"
-      ]
-    },
-    "C-54": {
-      "fecha": "2026-10-09T20:17:26+00:00",
-      "mensaje_id": 59172,
-      "url": "https://t.me/empresaelectricacienfuegos1/59172",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-09T20:17:26+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-09T17:36:42+00:00",
-        "mensaje_id": 59169,
-        "url": "https://t.me/empresaelectricacienfuegos1/59169",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola."
-      },
-      "lugares": [
-        "Batey Mal Tiempo",
-        "Loma de Tola"
-      ]
-    },
-    "C-47": {
-      "fecha": "2026-10-09T20:17:26+00:00",
-      "mensaje_id": 59172,
-      "url": "https://t.me/empresaelectricacienfuegos1/59172",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-09T20:17:26+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-09T17:36:42+00:00",
-        "mensaje_id": 59169,
-        "url": "https://t.me/empresaelectricacienfuegos1/59169",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
-      },
-      "lugares": [
-        "Elpidio Gómez",
-        "Altamira",
-        "La Peseta"
-      ]
     }
   },
   "horarios": {},
@@ -1710,7 +1585,10 @@
     "C-59": "avería",
     "C-17": "déficit",
     "C-5": "déficit",
-    "C-25": "déficit"
+    "C-25": "déficit",
+    "C-47": "avería",
+    "C-53": "avería",
+    "C-54": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2164,7 +2042,7 @@
   ],
   "lectura": {
     "texto": 66,
-    "imagenes": 56,
+    "imagenes": 57,
     "pdf": 0,
     "no_leidos": 12
   },
@@ -3138,9 +3016,9 @@
   ],
   "mw_fecha": "2026-10-09T20:17:26+00:00",
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
-  "total_circuitos_afectados": 62,
+  "total_circuitos_afectados": 65,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 14,
+  "total_restablecimientos_probables": 11,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3159,5 +3037,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-09T21:49:20.308027+00:00"
+  "actualizado": "2026-10-09T22:04:16.847921+00:00"
 }
