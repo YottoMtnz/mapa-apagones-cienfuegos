@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-08T21:32:55+00:00",
-  "mensajes_leidos": 122,
+  "mensajes_leidos": 123,
   "afectados": {
     "C-29": [
       "Moncada",
@@ -2148,11 +2148,18 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59136",
       "fecha": "2026-10-08T22:29:30+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n80 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 59138,
+      "url": "https://t.me/empresaelectricacienfuegos1/59138",
+      "fecha": "2026-10-08T23:57:56+00:00"
     }
   ],
   "lectura": {
     "texto": 66,
-    "imagenes": 56,
+    "imagenes": 57,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -3138,5 +3145,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-08T23:49:28.481318+00:00"
+  "actualizado": "2026-10-09T00:04:37.086913+00:00"
 }
