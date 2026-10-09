@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-09T11:23:56+00:00",
+  "reporte_fecha": "2026-10-09T12:33:08+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-09T11:26:09+00:00",
@@ -302,6 +302,11 @@
     "C-5": [
       "Boulevard",
       "Parque Martí"
+    ],
+    "C-24": [
+      "Pérez Leyva",
+      "La Redonda",
+      "El Limpio"
     ]
   },
   "programados": {
@@ -436,34 +441,6 @@
         "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
       },
       "lugares": []
-    },
-    "C-24": {
-      "fecha": "2026-10-09T11:23:56+00:00",
-      "mensaje_id": 59154,
-      "url": "https://t.me/empresaelectricacienfuegos1/59154",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T14:18:25+00:00",
-      "listas_consecutivas": 16,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T12:45:18+00:00",
-        "mensaje_id": 59109,
-        "url": "https://t.me/empresaelectricacienfuegos1/59109",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
-      },
-      "lugares": [
-        "Pérez Leyva",
-        "La Redonda",
-        "El Limpio"
-      ]
     },
     "C-406": {
       "fecha": "2026-10-09T11:23:56+00:00",
@@ -947,13 +924,13 @@
       "texto": "👉C-75 La Legua, Gavilán, Boca Ambuila."
     },
     "C-8": {
-      "fecha": "2026-10-09T11:23:56+00:00",
-      "mensaje_id": 59154,
-      "url": "https://t.me/empresaelectricacienfuegos1/59154",
+      "fecha": "2026-10-09T12:33:08+00:00",
+      "mensaje_id": 59156,
+      "url": "https://t.me/empresaelectricacienfuegos1/59156",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-8  Congojas, La Lolita."
+      "texto": "👉C-8 El Pino, Congojas, La Lolita."
     },
     "C-69": {
       "fecha": "2026-10-09T11:23:56+00:00",
@@ -1180,6 +1157,15 @@
       "confianza": 100,
       "texto": "👉C-5 Boulevard, Parque Martí"
     },
+    "C-24": {
+      "fecha": "2026-10-09T12:33:08+00:00",
+      "mensaje_id": 59156,
+      "url": "https://t.me/empresaelectricacienfuegos1/59156",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
+    },
     "C-91": {
       "fecha": "2026-10-09T11:26:09+00:00",
       "mensaje_id": 59155,
@@ -1316,34 +1302,6 @@
       },
       "lugares": []
     },
-    "C-24": {
-      "fecha": "2026-10-09T11:23:56+00:00",
-      "mensaje_id": 59154,
-      "url": "https://t.me/empresaelectricacienfuegos1/59154",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T14:18:25+00:00",
-      "listas_consecutivas": 16,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T12:45:18+00:00",
-        "mensaje_id": 59109,
-        "url": "https://t.me/empresaelectricacienfuegos1/59109",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
-      },
-      "lugares": [
-        "Pérez Leyva",
-        "La Redonda",
-        "El Limpio"
-      ]
-    },
     "C-20": {
       "fecha": "2026-10-09T11:23:56+00:00",
       "mensaje_id": 59154,
@@ -1470,7 +1428,7 @@
     "C-67": "déficit",
     "C-32": "déficit",
     "C-75": "déficit",
-    "C-8": "déficit",
+    "C-8": "déficit / avería",
     "C-69": "déficit",
     "C-50": "déficit",
     "C-84": "déficit",
@@ -1495,7 +1453,8 @@
     "C-43": "déficit",
     "C-3": "déficit",
     "C-2": "déficit",
-    "C-5": "déficit"
+    "C-5": "déficit",
+    "C-24": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -1930,13 +1889,19 @@
       "id": 59153,
       "url": "https://t.me/empresaelectricacienfuegos1/59153",
       "fecha": "2026-10-09T11:17:07+00:00"
+    },
+    {
+      "id": 59156,
+      "url": "https://t.me/empresaelectricacienfuegos1/59156",
+      "fecha": "2026-10-09T12:33:08+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 68,
     "imagenes": 58,
     "pdf": 0,
-    "no_leidos": 10
+    "no_leidos": 11
   },
   "listas_completas": {
     "deficit": {
@@ -2912,9 +2877,9 @@
     }
   ],
   "mw_fecha": "2026-10-09T11:23:56+00:00",
-  "total_circuitos_afectados": 61,
+  "total_circuitos_afectados": 62,
   "total_circuitos_programados": 2,
-  "total_restablecimientos_probables": 10,
+  "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2930,5 +2895,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-09T12:24:21.657931+00:00"
+  "actualizado": "2026-10-09T12:39:30.660208+00:00"
 }
