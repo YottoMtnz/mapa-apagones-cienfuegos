@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-09T15:08:59+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-09T11:26:09+00:00",
-  "mensajes_leidos": 126,
+  "programado_fecha": "2026-10-09T15:24:30+00:00",
+  "mensajes_leidos": 127,
   "afectados": {
     "C-30": [
       "14 de Julio",
@@ -320,7 +320,9 @@
     "C-62": [],
     "C-59": []
   },
-  "programados": {},
+  "programados": {
+    "C-92": []
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-6": {
@@ -1175,6 +1177,15 @@
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
     },
+    "C-92": {
+      "fecha": "2026-10-09T15:24:30+00:00",
+      "mensaje_id": 59165,
+      "url": "https://t.me/empresaelectricacienfuegos1/59165",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-92 Calzada Dolores, San Lázaro."
+    },
     "C-6": {
       "fecha": "2026-10-09T14:44:00+00:00",
       "mensaje_id": 59161,
@@ -1405,7 +1416,13 @@
       "lugares": []
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-92": {
+      "inicio": null,
+      "fin": "2026-10-10T03:24:30+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -1928,7 +1945,7 @@
   ],
   "lectura": {
     "texto": 70,
-    "imagenes": 56,
+    "imagenes": 57,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -2905,7 +2922,7 @@
   ],
   "mw_fecha": "2026-10-09T14:44:00+00:00",
   "total_circuitos_afectados": 65,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2921,8 +2938,9 @@
     "C-60",
     "C-62",
     "C-89",
+    "C-92",
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-09T15:24:18.490652+00:00"
+  "actualizado": "2026-10-09T15:39:20.851803+00:00"
 }
