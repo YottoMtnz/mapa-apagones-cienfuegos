@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-09T11:23:56+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-09T10:24:47+00:00",
-  "mensajes_leidos": 128,
+  "programado_fecha": "2026-10-09T11:26:09+00:00",
+  "mensajes_leidos": 129,
   "afectados": {
     "C-25": [
       "Abreus (Pueblo"
@@ -304,7 +304,18 @@
       "Parque Martí"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-91": [
+      "Buena Vista",
+      "La Esperanza"
+    ],
+    "C-406": [
+      "San Lázaro",
+      "Calle 35 de Ave 58 hasta Ave 64",
+      "Ave 58 de Calle 47 hasta Calle 49",
+      "Calle 47 de Ave 54 hasta Ave 58"
+    ]
+  },
   "confirmados_con_servicio": {
     "C-59": {
       "fecha": "2026-10-09T02:51:01+00:00",
@@ -1169,6 +1180,24 @@
       "confianza": 100,
       "texto": "👉C-5 Boulevard, Parque Martí"
     },
+    "C-91": {
+      "fecha": "2026-10-09T11:26:09+00:00",
+      "mensaje_id": 59155,
+      "url": "https://t.me/empresaelectricacienfuegos1/59155",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
+    "C-406": {
+      "fecha": "2026-10-09T11:26:09+00:00",
+      "mensaje_id": 59155,
+      "url": "https://t.me/empresaelectricacienfuegos1/59155",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
     "C-59": {
       "fecha": "2026-10-09T02:51:01+00:00",
       "mensaje_id": 59143,
@@ -1315,35 +1344,6 @@
         "El Limpio"
       ]
     },
-    "C-406": {
-      "fecha": "2026-10-09T11:23:56+00:00",
-      "mensaje_id": 59154,
-      "url": "https://t.me/empresaelectricacienfuegos1/59154",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T21:24:58+00:00",
-      "listas_consecutivas": 10,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T20:00:10+00:00",
-        "mensaje_id": 59127,
-        "url": "https://t.me/empresaelectricacienfuegos1/59127",
-        "medio": "texto",
-        "editado": "2026-10-08T21:24:47+00:00",
-        "confianza": 100,
-        "texto": "👉C-406  \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58.\""
-      },
-      "lugares": [
-        "San Lázaro",
-        "Calle 35 de Ave 58 hasta Ave 64",
-        "Ave 58 de Calle 47 hasta Calle 49",
-        "Calle 47 de Ave 54 hasta Ave 58"
-      ]
-    },
     "C-20": {
       "fecha": "2026-10-09T11:23:56+00:00",
       "mensaje_id": 59154,
@@ -1392,33 +1392,6 @@
       },
       "lugares": []
     },
-    "C-91": {
-      "fecha": "2026-10-09T11:23:56+00:00",
-      "mensaje_id": 59154,
-      "url": "https://t.me/empresaelectricacienfuegos1/59154",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-09T05:33:23+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-09T04:30:59+00:00",
-        "mensaje_id": 59147,
-        "url": "https://t.me/empresaelectricacienfuegos1/59147",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-91 Buena Vista, La Esperanza."
-      },
-      "lugares": [
-        "Buena Vista",
-        "La Esperanza"
-      ]
-    },
     "C-17": {
       "fecha": "2026-10-09T11:23:56+00:00",
       "mensaje_id": 59154,
@@ -1444,7 +1417,18 @@
       "lugares": []
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-91": {
+      "inicio": null,
+      "fin": "2026-10-09T23:26:09+00:00",
+      "fecha_ambigua": false
+    },
+    "C-406": {
+      "inicio": null,
+      "fin": "2026-10-09T23:26:09+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -1964,7 +1948,7 @@
   ],
   "lectura": {
     "texto": 70,
-    "imagenes": 58,
+    "imagenes": 59,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -2943,7 +2927,7 @@
   ],
   "mw_fecha": "2026-10-09T11:23:56+00:00",
   "total_circuitos_afectados": 61,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 10,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2960,5 +2944,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-09T11:24:43.396279+00:00"
+  "actualizado": "2026-10-09T11:39:21.906043+00:00"
 }
