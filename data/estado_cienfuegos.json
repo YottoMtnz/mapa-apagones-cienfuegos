@@ -68,12 +68,6 @@
       "Real Campiña",
       "Guanito"
     ],
-    "C-26": [
-      "Caonao",
-      "Los Tanques",
-      "La Ceiba",
-      "El Paisíto"
-    ],
     "C-44": [
       "Los Burros",
       "El Conejito",
@@ -162,9 +156,6 @@
       "El Brazo",
       "Cafetal",
       "Faisanera"
-    ],
-    "C-90": [
-      "FW1558) La Pollera"
     ],
     "C-15": [
       "Pepito Tey",
@@ -881,15 +872,6 @@
       "confianza": 100,
       "texto": "👉C-42 Viet Nam, Real Campiña, Guanito."
     },
-    "C-26": {
-      "fecha": "2026-10-08T20:18:27+00:00",
-      "mensaje_id": 59128,
-      "url": "https://t.me/empresaelectricacienfuegos1/59128",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
-    },
     "C-44": {
       "fecha": "2026-10-09T07:01:56+00:00",
       "mensaje_id": 59149,
@@ -1015,15 +997,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-39 La Sierrita, El Brazo, Cafetal, Faisanera."
-    },
-    "C-90": {
-      "fecha": "2026-10-08T20:18:27+00:00",
-      "mensaje_id": 59128,
-      "url": "https://t.me/empresaelectricacienfuegos1/59128",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
     "C-15": {
       "fecha": "2026-10-09T07:01:56+00:00",
@@ -1652,7 +1625,6 @@
     "C-72": "déficit",
     "C-73": "déficit",
     "C-42": "déficit",
-    "C-26": "avería",
     "C-44": "déficit",
     "C-82": "déficit",
     "C-38": "déficit",
@@ -1667,9 +1639,8 @@
     "C-35": "déficit",
     "C-36": "déficit",
     "C-39": "déficit",
-    "C-90": "avería",
-    "C-15": "avería / déficit",
-    "C-67": "avería / déficit",
+    "C-15": "déficit",
+    "C-67": "déficit",
     "C-32": "déficit",
     "C-75": "déficit",
     "C-5": "déficit",
@@ -3113,7 +3084,7 @@
     }
   ],
   "mw_fecha": "2026-10-09T07:01:56+00:00",
-  "total_circuitos_afectados": 52,
+  "total_circuitos_afectados": 50,
   "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
@@ -3129,5 +3100,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-09T08:04:35.630719+00:00"
+  "actualizado": "2026-10-09T08:19:26.410797+00:00"
 }
