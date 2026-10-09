@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-09T16:43:46+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-09T15:24:30+00:00",
-  "mensajes_leidos": 127,
+  "programado_fecha": "2026-10-09T16:56:04+00:00",
+  "mensajes_leidos": 128,
   "afectados": {
     "C-30": [
       "14 de Julio",
@@ -307,7 +307,12 @@
     "C-59": [],
     "C-17": []
   },
-  "programados": {},
+  "programados": {
+    "C-5": [
+      "Boulevard",
+      "Parque Martí"
+    ]
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-6": {
@@ -1217,6 +1222,15 @@
       "confianza": 100,
       "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
     },
+    "C-5": {
+      "fecha": "2026-10-09T16:56:04+00:00",
+      "mensaje_id": 59168,
+      "url": "https://t.me/empresaelectricacienfuegos1/59168",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-5 Boulevard, Parque Martí."
+    },
     "C-6": {
       "fecha": "2026-10-09T16:43:46+00:00",
       "mensaje_id": 59167,
@@ -1341,33 +1355,6 @@
       },
       "lugares": [
         "Abreus (Pueblo"
-      ]
-    },
-    "C-5": {
-      "fecha": "2026-10-09T16:43:46+00:00",
-      "mensaje_id": 59167,
-      "url": "https://t.me/empresaelectricacienfuegos1/59167",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-53 Potrerillo, El No, Peñasco, Lomitas.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-09T13:07:58+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-09T11:23:56+00:00",
-        "mensaje_id": 59154,
-        "url": "https://t.me/empresaelectricacienfuegos1/59154",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-5 Boulevard, Parque Martí"
-      },
-      "lugares": [
-        "Boulevard",
-        "Parque Martí"
       ]
     },
     "C-11": {
@@ -1529,7 +1516,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-5": {
+      "inicio": null,
+      "fin": "2026-10-10T04:56:04+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 65.0,
   "hora_inicio": null,
@@ -2049,7 +2042,7 @@
   ],
   "lectura": {
     "texto": 70,
-    "imagenes": 57,
+    "imagenes": 58,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -3023,7 +3016,7 @@
   ],
   "mw_fecha": "2026-10-09T16:43:46+00:00",
   "total_circuitos_afectados": 62,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 12,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3042,5 +3035,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-09T16:54:32.407373+00:00"
+  "actualizado": "2026-10-09T17:04:04.406792+00:00"
 }
