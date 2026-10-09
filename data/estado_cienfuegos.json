@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-09T00:15:10+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-08T21:32:55+00:00",
-  "mensajes_leidos": 123,
+  "programado_fecha": "2026-10-09T00:31:46+00:00",
+  "mensajes_leidos": 124,
   "afectados": {
     "C-29": [
       "Moncada",
@@ -287,7 +287,9 @@
       "Lajas (Pueblo"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-92": []
+  },
   "confirmados_con_servicio": {
     "C-37": {
       "fecha": "2026-10-08T19:30:24+00:00",
@@ -1162,6 +1164,15 @@
       "confianza": 100,
       "texto": "👉C-57 Lajas (Pueblo)."
     },
+    "C-92": {
+      "fecha": "2026-10-09T00:31:46+00:00",
+      "mensaje_id": 59140,
+      "url": "https://t.me/empresaelectricacienfuegos1/59140",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-92 Calzada Dolores, San Lázaro."
+    },
     "C-37": {
       "fecha": "2026-10-08T19:30:24+00:00",
       "mensaje_id": 59125,
@@ -1483,7 +1494,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-92": {
+      "inicio": null,
+      "fin": "2026-10-09T12:31:46+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 80.0,
   "hora_inicio": null,
@@ -1992,7 +2009,7 @@
   ],
   "lectura": {
     "texto": 66,
-    "imagenes": 57,
+    "imagenes": 58,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -2969,7 +2986,7 @@
   ],
   "mw_fecha": "2026-10-09T00:15:10+00:00",
   "total_circuitos_afectados": 57,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 12,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2984,7 +3001,8 @@
     "C-60",
     "C-62",
     "C-89",
+    "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-09T00:19:30.571418+00:00"
+  "actualizado": "2026-10-09T00:34:29.511498+00:00"
 }
