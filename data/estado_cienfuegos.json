@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-09T19:23:34+00:00",
-  "mensajes_leidos": 122,
+  "mensajes_leidos": 121,
   "afectados": {
     "C-30": [
       "14 de Julio",
@@ -311,34 +311,6 @@
   "programados": {},
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
-    "C-6": {
-      "fecha": "2026-10-09T20:17:26+00:00",
-      "mensaje_id": 59172,
-      "url": "https://t.me/empresaelectricacienfuegos1/59172",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T01:03:44+00:00",
-      "listas_consecutivas": 45,
-      "aviso_anterior": {
-        "fecha": "2026-10-06T22:48:12+00:00",
-        "mensaje_id": 59050,
-        "url": "https://t.me/empresaelectricacienfuegos1/59050",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-6 \"Rancho Luna, Pasacaballo, La Milpa."
-      },
-      "lugares": [
-        "Rancho Luna",
-        "Pasacaballo",
-        "La Milpa"
-      ]
-    },
     "C-60": {
       "fecha": "2026-10-09T20:17:26+00:00",
       "mensaje_id": 59172,
@@ -1225,34 +1197,6 @@
       "confianza": 100,
       "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola."
     },
-    "C-6": {
-      "fecha": "2026-10-09T20:17:26+00:00",
-      "mensaje_id": 59172,
-      "url": "https://t.me/empresaelectricacienfuegos1/59172",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-07T01:03:44+00:00",
-      "listas_consecutivas": 45,
-      "aviso_anterior": {
-        "fecha": "2026-10-06T22:48:12+00:00",
-        "mensaje_id": 59050,
-        "url": "https://t.me/empresaelectricacienfuegos1/59050",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-6 \"Rancho Luna, Pasacaballo, La Milpa."
-      },
-      "lugares": [
-        "Rancho Luna",
-        "Pasacaballo",
-        "La Milpa"
-      ]
-    },
     "C-60": {
       "fecha": "2026-10-09T20:17:26+00:00",
       "mensaje_id": 59172,
@@ -2041,7 +1985,7 @@
     }
   ],
   "lectura": {
-    "texto": 66,
+    "texto": 65,
     "imagenes": 56,
     "pdf": 0,
     "no_leidos": 12
@@ -3018,7 +2962,7 @@
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "total_circuitos_afectados": 65,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 11,
+  "total_restablecimientos_probables": 10,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3037,5 +2981,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-09T22:34:29.001549+00:00"
+  "actualizado": "2026-10-09T22:49:13.845533+00:00"
 }
