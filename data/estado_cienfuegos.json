@@ -2,15 +2,14 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-09T10:24:44+00:00",
+  "reporte_fecha": "2026-10-09T11:03:02+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-09T10:24:47+00:00",
   "mensajes_leidos": 127,
   "afectados": {
-    "C-70": [
-      "Aguada",
-      "Federal"
+    "C-25": [
+      "Abreus (Pueblo"
     ],
     "C-29": [
       "Moncada",
@@ -21,10 +20,16 @@
       "Charcas",
       "Guasimal"
     ],
-    "C-25": [
-      "Abreus (Pueblo"
+    "C-70": [
+      "Aguada",
+      "Federal"
+    ],
+    "C-30": [
+      "14 de Julio",
+      "Batey 2 Hermanos"
     ],
     "C-407": [],
+    "S-4820": [],
     "C-53": [
       "Potrerillo",
       "Peñasco",
@@ -94,6 +99,7 @@
       "La Jutía",
       "Hervidero"
     ],
+    "C-48": [],
     "C-52": [
       "Paradero de Camarones",
       "Vía Estrecha",
@@ -761,15 +767,15 @@
           "La Pollera"
         ],
         "evidencia": {
-          "fecha": "2026-10-07T13:09:13+00:00",
-          "mensaje_id": 59063,
-          "url": "https://t.me/empresaelectricacienfuegos1/59063",
+          "fecha": "2026-10-09T11:03:02+00:00",
+          "mensaje_id": 59152,
+          "url": "https://t.me/empresaelectricacienfuegos1/59152",
           "medio": "texto",
           "editado": null,
           "confianza": 100,
           "texto": "👉C-90 (FW1558) La Pollera"
         },
-        "vigente": false
+        "vigente": true
       },
       {
         "seccion": "C-90/S-9092",
@@ -790,14 +796,14 @@
     ]
   },
   "evidencias": {
-    "C-70": {
+    "C-25": {
       "fecha": "2026-10-09T10:24:44+00:00",
       "mensaje_id": 59150,
       "url": "https://t.me/empresaelectricacienfuegos1/59150",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-70 \"Aguada, Federal."
+      "texto": "👉C-25 Abreus (Pueblo)."
     },
     "C-29": {
       "fecha": "2026-10-09T10:24:44+00:00",
@@ -808,14 +814,23 @@
       "confianza": 100,
       "texto": "👉C-29 Moncada, Constancia, Rosalía, Loma del Chivo, Simpatía, Charcas, Guasimal."
     },
-    "C-25": {
+    "C-70": {
       "fecha": "2026-10-09T10:24:44+00:00",
       "mensaje_id": 59150,
       "url": "https://t.me/empresaelectricacienfuegos1/59150",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo)."
+      "texto": "👉C-70 \"Aguada, Federal."
+    },
+    "C-30": {
+      "fecha": "2026-10-09T11:03:02+00:00",
+      "mensaje_id": 59152,
+      "url": "https://t.me/empresaelectricacienfuegos1/59152",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
     },
     "C-407": {
       "fecha": "2026-10-09T10:24:44+00:00",
@@ -825,6 +840,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-407  \"Cocaleca, Poligráfico, Pastorita, O'bourke.\""
+    },
+    "S-4820": {
+      "fecha": "2026-10-09T11:03:02+00:00",
+      "mensaje_id": 59152,
+      "url": "https://t.me/empresaelectricacienfuegos1/59152",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "C-53": {
       "fecha": "2026-10-09T10:24:44+00:00",
@@ -933,6 +957,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero."
+    },
+    "C-48": {
+      "fecha": "2026-10-09T11:03:02+00:00",
+      "mensaje_id": 59152,
+      "url": "https://t.me/empresaelectricacienfuegos1/59152",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "C-52": {
       "fecha": "2026-10-09T10:24:44+00:00",
@@ -1676,10 +1709,12 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-70": "déficit",
-    "C-29": "déficit",
     "C-25": "déficit",
+    "C-29": "déficit",
+    "C-70": "déficit",
+    "C-30": "avería",
     "C-407": "déficit",
+    "S-4820": "avería",
     "C-53": "déficit",
     "C-54": "déficit",
     "C-11": "déficit",
@@ -1692,6 +1727,7 @@
     "C-44": "déficit",
     "C-82": "déficit",
     "C-38": "déficit",
+    "C-48": "avería",
     "C-52": "déficit",
     "C-63": "déficit",
     "C-85": "déficit",
@@ -2165,11 +2201,18 @@
       "id": 59141,
       "url": "https://t.me/empresaelectricacienfuegos1/59141",
       "fecha": "2026-10-09T00:36:02+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
+      "id": 59152,
+      "url": "https://t.me/empresaelectricacienfuegos1/59152",
+      "fecha": "2026-10-09T11:03:02+00:00"
     }
   ],
   "lectura": {
-    "texto": 70,
-    "imagenes": 57,
+    "texto": 69,
+    "imagenes": 58,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -3137,7 +3180,7 @@
     }
   ],
   "mw_fecha": "2026-10-09T10:24:44+00:00",
-  "total_circuitos_afectados": 48,
+  "total_circuitos_afectados": 51,
   "total_circuitos_programados": 7,
   "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
@@ -3147,10 +3190,12 @@
     "C-20",
     "C-407",
     "C-43",
+    "C-48",
     "C-58",
     "C-60",
     "C-89",
-    "C-94"
+    "C-94",
+    "S-4820"
   ],
-  "actualizado": "2026-10-09T10:54:25.142356+00:00"
+  "actualizado": "2026-10-09T11:09:19.281256+00:00"
 }
