@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-09T17:36:42+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-09T16:56:04+00:00",
-  "mensajes_leidos": 124,
+  "programado_fecha": "2026-10-09T19:23:34+00:00",
+  "mensajes_leidos": 125,
   "afectados": {
     "C-30": [
       "14 de Julio",
@@ -301,7 +301,11 @@
       "Parque Martí"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-405": [
+      "Pueblo Griffo Nuevo"
+    ]
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-6": {
@@ -1217,6 +1221,15 @@
       "confianza": 100,
       "texto": "👉C-5 Boulevard, Parque Martí"
     },
+    "C-405": {
+      "fecha": "2026-10-09T19:23:34+00:00",
+      "mensaje_id": 59170,
+      "url": "https://t.me/empresaelectricacienfuegos1/59170",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-405 Pueblo Griffo Nuevo."
+    },
     "C-6": {
       "fecha": "2026-10-09T17:36:42+00:00",
       "mensaje_id": 59169,
@@ -1535,7 +1548,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-405": {
+      "inicio": null,
+      "fin": "2026-10-10T07:23:34+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 65.0,
   "hora_inicio": null,
@@ -2055,7 +2074,7 @@
   ],
   "lectura": {
     "texto": 67,
-    "imagenes": 57,
+    "imagenes": 58,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -3029,7 +3048,7 @@
   ],
   "mw_fecha": "2026-10-09T17:36:42+00:00",
   "total_circuitos_afectados": 62,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 12,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3048,5 +3067,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-09T19:19:23.324790+00:00"
+  "actualizado": "2026-10-09T19:34:21.067751+00:00"
 }
