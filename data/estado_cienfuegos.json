@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-09T00:15:10+00:00",
+  "reporte_fecha": "2026-10-09T00:36:02+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-09T00:31:46+00:00",
@@ -285,7 +285,8 @@
     ],
     "C-57": [
       "Lajas (Pueblo"
-    ]
+    ],
+    "C-59": []
   },
   "programados": {
     "C-92": []
@@ -399,30 +400,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
-      },
-      "lugares": []
-    },
-    "C-59": {
-      "fecha": "2026-10-09T00:15:10+00:00",
-      "mensaje_id": 59139,
-      "url": "https://t.me/empresaelectricacienfuegos1/59139",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T11:57:07+00:00",
-      "listas_consecutivas": 11,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T10:38:00+00:00",
-        "mensaje_id": 59104,
-        "url": "https://t.me/empresaelectricacienfuegos1/59104",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
       },
       "lugares": []
     },
@@ -1164,6 +1141,15 @@
       "confianza": 100,
       "texto": "👉C-57 Lajas (Pueblo)."
     },
+    "C-59": {
+      "fecha": "2026-10-09T00:36:02+00:00",
+      "mensaje_id": 59141,
+      "url": "https://t.me/empresaelectricacienfuegos1/59141",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
+    },
     "C-92": {
       "fecha": "2026-10-09T00:31:46+00:00",
       "mensaje_id": 59140,
@@ -1279,30 +1265,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
-      },
-      "lugares": []
-    },
-    "C-59": {
-      "fecha": "2026-10-09T00:15:10+00:00",
-      "mensaje_id": 59139,
-      "url": "https://t.me/empresaelectricacienfuegos1/59139",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T11:57:07+00:00",
-      "listas_consecutivas": 11,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T10:38:00+00:00",
-        "mensaje_id": 59104,
-        "url": "https://t.me/empresaelectricacienfuegos1/59104",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
       },
       "lugares": []
     },
@@ -1563,7 +1525,8 @@
     "C-101": "déficit",
     "C-7": "déficit",
     "C-41": "déficit",
-    "C-57": "déficit"
+    "C-57": "déficit",
+    "C-59": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2005,6 +1968,13 @@
       "id": 59138,
       "url": "https://t.me/empresaelectricacienfuegos1/59138",
       "fecha": "2026-10-08T23:57:56+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Líneas afectadas por\nq\n| > EN \\\nA | A k\n>] | = Ls S\n| | s SM\nel | N",
+      "id": 59141,
+      "url": "https://t.me/empresaelectricacienfuegos1/59141",
+      "fecha": "2026-10-09T00:36:02+00:00"
     }
   ],
   "lectura": {
@@ -2985,9 +2955,9 @@
     }
   ],
   "mw_fecha": "2026-10-09T00:15:10+00:00",
-  "total_circuitos_afectados": 57,
+  "total_circuitos_afectados": 58,
   "total_circuitos_programados": 1,
-  "total_restablecimientos_probables": 12,
+  "total_restablecimientos_probables": 11,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3004,5 +2974,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-09T00:34:29.511498+00:00"
+  "actualizado": "2026-10-09T00:49:24.078312+00:00"
 }
