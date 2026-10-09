@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-09T01:28:49+00:00",
+  "reporte_fecha": "2026-10-09T02:51:01+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-09T00:31:46+00:00",
-  "mensajes_leidos": 124,
+  "mensajes_leidos": 125,
   "afectados": {
     "C-29": [
       "Moncada",
@@ -261,8 +261,7 @@
     ],
     "C-57": [
       "Lajas (Pueblo"
-    ],
-    "C-59": []
+    ]
   },
   "programados": {
     "C-92": []
@@ -276,6 +275,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
+    },
+    "C-59": {
+      "fecha": "2026-10-09T02:51:01+00:00",
+      "mensaje_id": 59143,
+      "url": "https://t.me/empresaelectricacienfuegos1/59143",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
     }
   },
   "restablecimientos_probables": {
@@ -1215,15 +1223,6 @@
       "confianza": 100,
       "texto": "👉C-57 Lajas (Pueblo)."
     },
-    "C-59": {
-      "fecha": "2026-10-09T00:36:02+00:00",
-      "mensaje_id": 59141,
-      "url": "https://t.me/empresaelectricacienfuegos1/59141",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
-    },
     "C-92": {
       "fecha": "2026-10-09T00:31:46+00:00",
       "mensaje_id": 59140,
@@ -1241,6 +1240,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
+    },
+    "C-59": {
+      "fecha": "2026-10-09T02:51:01+00:00",
+      "mensaje_id": 59143,
+      "url": "https://t.me/empresaelectricacienfuegos1/59143",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
     },
     "C-6": {
       "fecha": "2026-10-09T01:28:49+00:00",
@@ -1753,8 +1761,7 @@
     "C-101": "déficit",
     "C-7": "déficit",
     "C-41": "déficit",
-    "C-57": "déficit",
-    "C-59": "avería"
+    "C-57": "déficit"
   },
   "error": null,
   "pendientes_revision": [
@@ -2206,7 +2213,7 @@
     }
   ],
   "lectura": {
-    "texto": 66,
+    "texto": 67,
     "imagenes": 58,
     "pdf": 0,
     "no_leidos": 10
@@ -2274,15 +2281,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-44",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-07T16:16:34+00:00",
-      "mensaje_id": 59066,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59064",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59066"
-    },
     {
       "circuito": "C-52",
       "tipo": "salida_lista",
@@ -3173,10 +3171,19 @@
       "mensaje_id": 59142,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59139",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59142"
+    },
+    {
+      "circuito": "C-59",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-09T02:51:01+00:00",
+      "mensaje_id": 59143,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59141",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59143"
     }
   ],
   "mw_fecha": "2026-10-09T01:28:49+00:00",
-  "total_circuitos_afectados": 51,
+  "total_circuitos_afectados": 50,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
@@ -3187,12 +3194,11 @@
     "C-407",
     "C-43",
     "C-58",
-    "C-59",
     "C-60",
     "C-62",
     "C-89",
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-09T02:49:18.156953+00:00"
+  "actualizado": "2026-10-09T03:03:38.587992+00:00"
 }
