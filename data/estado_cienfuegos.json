@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-09T03:14:31+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-09T00:31:46+00:00",
-  "mensajes_leidos": 126,
+  "programado_fecha": "2026-10-09T03:31:11+00:00",
+  "mensajes_leidos": 125,
   "afectados": {
     "C-29": [
       "Moncada",
@@ -263,7 +263,35 @@
       "Lajas (Pueblo"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-19": [
+      "Tulipán"
+    ],
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
+    ],
+    "C-66": [
+      "Reina (Parque"
+    ],
+    "C-70": [
+      "Aguada",
+      "Federal"
+    ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
+    ],
+    "C-27": [
+      "Barrio Matadero",
+      "Juraguá"
+    ],
+    "C-28": [
+      "CEN",
+      "Castillo de Jagua",
+      "La Loma"
+    ]
+  },
   "confirmados_con_servicio": {
     "C-37": {
       "fecha": "2026-10-08T19:30:24+00:00",
@@ -1230,6 +1258,69 @@
       "confianza": 100,
       "texto": "👉C-57 Lajas (Pueblo)."
     },
+    "C-19": {
+      "fecha": "2026-10-09T03:31:11+00:00",
+      "mensaje_id": 59146,
+      "url": "https://t.me/empresaelectricacienfuegos1/59146",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-65": {
+      "fecha": "2026-10-09T03:31:11+00:00",
+      "mensaje_id": 59146,
+      "url": "https://t.me/empresaelectricacienfuegos1/59146",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-66": {
+      "fecha": "2026-10-09T03:31:11+00:00",
+      "mensaje_id": 59146,
+      "url": "https://t.me/empresaelectricacienfuegos1/59146",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-70": {
+      "fecha": "2026-10-09T03:31:11+00:00",
+      "mensaje_id": 59146,
+      "url": "https://t.me/empresaelectricacienfuegos1/59146",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-80": {
+      "fecha": "2026-10-09T03:31:11+00:00",
+      "mensaje_id": 59146,
+      "url": "https://t.me/empresaelectricacienfuegos1/59146",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-27": {
+      "fecha": "2026-10-09T03:31:11+00:00",
+      "mensaje_id": 59146,
+      "url": "https://t.me/empresaelectricacienfuegos1/59146",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-28": {
+      "fecha": "2026-10-09T03:31:11+00:00",
+      "mensaje_id": 59146,
+      "url": "https://t.me/empresaelectricacienfuegos1/59146",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
     "C-37": {
       "fecha": "2026-10-08T19:30:24+00:00",
       "mensaje_id": 59125,
@@ -1414,86 +1505,6 @@
         "Calle 47 de Ave 54 hasta Ave 58"
       ]
     },
-    "C-19": {
-      "fecha": "2026-10-09T03:14:31+00:00",
-      "mensaje_id": 59145,
-      "url": "https://t.me/empresaelectricacienfuegos1/59145",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T22:41:16+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T21:24:58+00:00",
-        "mensaje_id": 59130,
-        "url": "https://t.me/empresaelectricacienfuegos1/59130",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-19 Tulipán"
-      },
-      "lugares": [
-        "Tulipán"
-      ]
-    },
-    "C-65": {
-      "fecha": "2026-10-09T03:14:31+00:00",
-      "mensaje_id": 59145,
-      "url": "https://t.me/empresaelectricacienfuegos1/59145",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T22:41:16+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T21:24:58+00:00",
-        "mensaje_id": 59130,
-        "url": "https://t.me/empresaelectricacienfuegos1/59130",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-65 Centro histórico, Reina (Aduana)"
-      },
-      "lugares": [
-        "Centro histórico",
-        "Reina (Aduana"
-      ]
-    },
-    "C-80": {
-      "fecha": "2026-10-09T03:14:31+00:00",
-      "mensaje_id": 59145,
-      "url": "https://t.me/empresaelectricacienfuegos1/59145",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T22:41:16+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T21:24:58+00:00",
-        "mensaje_id": 59130,
-        "url": "https://t.me/empresaelectricacienfuegos1/59130",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-80 Punta Cotica, Parque José Martí."
-      },
-      "lugares": [
-        "Punta Cotica",
-        "Parque José Martí"
-      ]
-    },
     "C-20": {
       "fecha": "2026-10-09T03:14:31+00:00",
       "mensaje_id": 59145,
@@ -1517,32 +1528,6 @@
         "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
       },
       "lugares": []
-    },
-    "C-66": {
-      "fecha": "2026-10-09T03:14:31+00:00",
-      "mensaje_id": 59145,
-      "url": "https://t.me/empresaelectricacienfuegos1/59145",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T22:41:16+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T21:24:58+00:00",
-        "mensaje_id": 59130,
-        "url": "https://t.me/empresaelectricacienfuegos1/59130",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-66 Reina (Parque)"
-      },
-      "lugares": [
-        "Reina (Parque"
-      ]
     },
     "C-56": {
       "fecha": "2026-10-09T03:14:31+00:00",
@@ -1593,61 +1578,6 @@
         "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.\""
       },
       "lugares": []
-    },
-    "C-27": {
-      "fecha": "2026-10-09T03:14:31+00:00",
-      "mensaje_id": 59145,
-      "url": "https://t.me/empresaelectricacienfuegos1/59145",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-09T01:28:49+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-09T00:15:10+00:00",
-        "mensaje_id": 59139,
-        "url": "https://t.me/empresaelectricacienfuegos1/59139",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
-      },
-      "lugares": [
-        "Barrio Matadero",
-        "Juraguá"
-      ]
-    },
-    "C-28": {
-      "fecha": "2026-10-09T03:14:31+00:00",
-      "mensaje_id": 59145,
-      "url": "https://t.me/empresaelectricacienfuegos1/59145",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-09T01:28:49+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-09T00:15:10+00:00",
-        "mensaje_id": 59139,
-        "url": "https://t.me/empresaelectricacienfuegos1/59139",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-28 CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)"
-      },
-      "lugares": [
-        "CEN",
-        "Castillo de Jagua",
-        "La Loma"
-      ]
     },
     "C-18": {
       "fecha": "2026-10-09T03:14:31+00:00",
@@ -1706,7 +1636,43 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-19": {
+      "inicio": null,
+      "fin": "2026-10-09T15:31:11+00:00",
+      "fecha_ambigua": false
+    },
+    "C-65": {
+      "inicio": null,
+      "fin": "2026-10-09T15:31:11+00:00",
+      "fecha_ambigua": false
+    },
+    "C-66": {
+      "inicio": null,
+      "fin": "2026-10-09T15:31:11+00:00",
+      "fecha_ambigua": false
+    },
+    "C-70": {
+      "inicio": null,
+      "fin": "2026-10-09T15:31:11+00:00",
+      "fecha_ambigua": false
+    },
+    "C-80": {
+      "inicio": null,
+      "fin": "2026-10-09T15:31:11+00:00",
+      "fecha_ambigua": false
+    },
+    "C-27": {
+      "inicio": null,
+      "fin": "2026-10-09T15:31:11+00:00",
+      "fecha_ambigua": false
+    },
+    "C-28": {
+      "inicio": null,
+      "fin": "2026-10-09T15:31:11+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -2214,7 +2180,7 @@
     }
   ],
   "lectura": {
-    "texto": 69,
+    "texto": 68,
     "imagenes": 57,
     "pdf": 0,
     "no_leidos": 10
@@ -3186,7 +3152,7 @@
   ],
   "mw_fecha": "2026-10-09T03:14:31+00:00",
   "total_circuitos_afectados": 50,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 7,
   "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3201,5 +3167,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-09T03:19:28.859107+00:00"
+  "actualizado": "2026-10-09T03:34:21.698276+00:00"
 }
