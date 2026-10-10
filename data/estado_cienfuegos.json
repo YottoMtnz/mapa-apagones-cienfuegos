@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-10T21:56:25+00:00",
-  "mensajes_leidos": 121,
+  "mensajes_leidos": 120,
   "afectados": {
     "C-26": [
       "Caonao",
@@ -14,12 +14,6 @@
       "La Ceiba",
       "El Paisíto"
     ],
-    "C-30": [
-      "14 de Julio",
-      "Batey 2 Hermanos"
-    ],
-    "C-48": [],
-    "S-4820": [],
     "C-92": [],
     "C-405": [
       "Pueblo Griffo Nuevo"
@@ -913,7 +907,7 @@
           "confianza": 100,
           "texto": "👉C-90 (FW1558) La Pollera"
         },
-        "vigente": true
+        "vigente": false
       }
     ]
   },
@@ -926,33 +920,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
-    },
-    "C-30": {
-      "fecha": "2026-10-10T10:50:42+00:00",
-      "mensaje_id": 59186,
-      "url": "https://t.me/empresaelectricacienfuegos1/59186",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
-    },
-    "C-48": {
-      "fecha": "2026-10-10T10:50:42+00:00",
-      "mensaje_id": 59186,
-      "url": "https://t.me/empresaelectricacienfuegos1/59186",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-4820": {
-      "fecha": "2026-10-10T10:50:42+00:00",
-      "mensaje_id": 59186,
-      "url": "https://t.me/empresaelectricacienfuegos1/59186",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "C-92": {
       "fecha": "2026-10-10T19:31:35+00:00",
@@ -1917,9 +1884,6 @@
   "tiempos": {},
   "causas": {
     "C-26": "avería",
-    "C-30": "avería",
-    "C-48": "avería",
-    "S-4820": "avería",
     "C-92": "déficit",
     "C-405": "déficit",
     "C-85": "déficit",
@@ -2413,7 +2377,7 @@
     }
   ],
   "lectura": {
-    "texto": 66,
+    "texto": 65,
     "imagenes": 55,
     "pdf": 0,
     "no_leidos": 9
@@ -3364,7 +3328,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-10T19:31:35+00:00",
-  "total_circuitos_afectados": 43,
+  "total_circuitos_afectados": 40,
   "total_circuitos_programados": 6,
   "total_restablecimientos_probables": 24,
   "circuitos_sin_catalogar": [
@@ -3374,12 +3338,10 @@
     "C-20",
     "C-407",
     "C-43",
-    "C-48",
     "C-58",
     "C-89",
     "C-92",
-    "C-94",
-    "S-4820"
+    "C-94"
   ],
-  "actualizado": "2026-10-10T22:44:22.797256+00:00"
+  "actualizado": "2026-10-10T22:59:12.935789+00:00"
 }
