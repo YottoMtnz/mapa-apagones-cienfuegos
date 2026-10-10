@@ -2,16 +2,21 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-10T10:47:40+00:00",
+  "reporte_fecha": "2026-10-10T10:50:42+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-10T03:40:40+00:00",
-  "mensajes_leidos": 126,
+  "mensajes_leidos": 127,
   "afectados": {
+    "C-30": [
+      "14 de Julio",
+      "Batey 2 Hermanos"
+    ],
     "C-92": [],
     "C-405": [
       "Pueblo Griffo Nuevo"
     ],
+    "S-4820": [],
     "C-78": [
       "Plan Arroz",
       "La Paquita",
@@ -77,6 +82,7 @@
       "Hervidero"
     ],
     "C-31": [],
+    "C-48": [],
     "C-52": [
       "Paradero de Camarones",
       "Vía Estrecha",
@@ -659,15 +665,15 @@
           "La Pollera"
         ],
         "evidencia": {
-          "fecha": "2026-10-09T11:03:02+00:00",
-          "mensaje_id": 59152,
-          "url": "https://t.me/empresaelectricacienfuegos1/59152",
+          "fecha": "2026-10-10T10:50:42+00:00",
+          "mensaje_id": 59186,
+          "url": "https://t.me/empresaelectricacienfuegos1/59186",
           "medio": "texto",
           "editado": null,
           "confianza": 100,
           "texto": "👉C-90 (FW1558) La Pollera"
         },
-        "vigente": false
+        "vigente": true
       },
       {
         "seccion": "C-90/S-9092",
@@ -688,6 +694,15 @@
     ]
   },
   "evidencias": {
+    "C-30": {
+      "fecha": "2026-10-10T10:50:42+00:00",
+      "mensaje_id": 59186,
+      "url": "https://t.me/empresaelectricacienfuegos1/59186",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
+    },
     "C-92": {
       "fecha": "2026-10-10T08:02:53+00:00",
       "mensaje_id": 59184,
@@ -705,6 +720,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-405 \"Pueblo Griffo Nuevo."
+    },
+    "S-4820": {
+      "fecha": "2026-10-10T10:50:42+00:00",
+      "mensaje_id": 59186,
+      "url": "https://t.me/empresaelectricacienfuegos1/59186",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "C-78": {
       "fecha": "2026-10-10T08:02:53+00:00",
@@ -761,9 +785,9 @@
       "texto": "👉C-42 Viet Nam, Real Campiña, Guanito."
     },
     "C-26": {
-      "fecha": "2026-10-09T23:47:41+00:00",
-      "mensaje_id": 59177,
-      "url": "https://t.me/empresaelectricacienfuegos1/59177",
+      "fecha": "2026-10-10T10:50:42+00:00",
+      "mensaje_id": 59186,
+      "url": "https://t.me/empresaelectricacienfuegos1/59186",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -804,6 +828,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
+    },
+    "C-48": {
+      "fecha": "2026-10-10T10:50:42+00:00",
+      "mensaje_id": 59186,
+      "url": "https://t.me/empresaelectricacienfuegos1/59186",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "C-52": {
       "fecha": "2026-10-10T08:02:53+00:00",
@@ -1553,8 +1586,10 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-30": "avería",
     "C-92": "déficit",
     "C-405": "déficit",
+    "S-4820": "avería",
     "C-78": "déficit",
     "C-29": "déficit",
     "C-49": "déficit",
@@ -1566,6 +1601,7 @@
     "C-82": "déficit",
     "C-38": "déficit",
     "C-31": "déficit",
+    "C-48": "avería",
     "C-52": "déficit",
     "C-85": "déficit",
     "C-86": "déficit",
@@ -1603,13 +1639,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de         1778 MW a las 20:50 horas",
-      "id": 59062,
-      "url": "https://t.me/empresaelectricacienfuegos1/59062",
-      "fecha": "2026-10-07T13:05:35+00:00"
-    },
     {
       "motivo": "resumen_historico",
       "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
@@ -2049,11 +2078,18 @@
       "id": 59180,
       "url": "https://t.me/empresaelectricacienfuegos1/59180",
       "fecha": "2026-10-10T02:51:23+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
+      "id": 59186,
+      "url": "https://t.me/empresaelectricacienfuegos1/59186",
+      "fecha": "2026-10-10T10:50:42+00:00"
     }
   ],
   "lectura": {
     "texto": 67,
-    "imagenes": 59,
+    "imagenes": 60,
     "pdf": 0,
     "no_leidos": 13
   },
@@ -3020,7 +3056,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-10T08:02:53+00:00",
-  "total_circuitos_afectados": 47,
+  "total_circuitos_afectados": 50,
   "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 13,
   "circuitos_sin_catalogar": [
@@ -3030,10 +3066,12 @@
     "C-20",
     "C-31",
     "C-43",
+    "C-48",
     "C-58",
     "C-60",
     "C-89",
-    "C-92"
+    "C-92",
+    "S-4820"
   ],
-  "actualizado": "2026-10-10T10:49:22.445878+00:00"
+  "actualizado": "2026-10-10T11:04:21.400722+00:00"
 }
