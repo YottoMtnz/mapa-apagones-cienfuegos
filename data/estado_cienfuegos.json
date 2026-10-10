@@ -6,9 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-10T19:36:28+00:00",
-  "mensajes_leidos": 127,
+  "mensajes_leidos": 126,
   "afectados": {
-    "S-4820": [],
     "C-26": [
       "Caonao",
       "Los Tanques",
@@ -20,6 +19,7 @@
       "Batey 2 Hermanos"
     ],
     "C-48": [],
+    "S-4820": [],
     "C-92": [],
     "C-405": [
       "Pueblo Griffo Nuevo"
@@ -904,15 +904,6 @@
     ]
   },
   "evidencias": {
-    "S-4820": {
-      "fecha": "2026-10-10T10:50:42+00:00",
-      "mensaje_id": 59186,
-      "url": "https://t.me/empresaelectricacienfuegos1/59186",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
     "C-26": {
       "fecha": "2026-10-10T19:11:10+00:00",
       "mensaje_id": 59207,
@@ -932,6 +923,15 @@
       "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
     },
     "C-48": {
+      "fecha": "2026-10-10T10:50:42+00:00",
+      "mensaje_id": 59186,
+      "url": "https://t.me/empresaelectricacienfuegos1/59186",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
+    },
+    "S-4820": {
       "fecha": "2026-10-10T10:50:42+00:00",
       "mensaje_id": 59186,
       "url": "https://t.me/empresaelectricacienfuegos1/59186",
@@ -1952,10 +1952,10 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "S-4820": "avería",
     "C-26": "avería",
     "C-30": "avería",
     "C-48": "avería",
+    "S-4820": "avería",
     "C-92": "déficit",
     "C-405": "déficit",
     "C-85": "déficit",
@@ -2453,7 +2453,7 @@
   ],
   "lectura": {
     "texto": 69,
-    "imagenes": 58,
+    "imagenes": 57,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -3420,5 +3420,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-10T20:59:28.180927+00:00"
+  "actualizado": "2026-10-10T21:14:24.813356+00:00"
 }
