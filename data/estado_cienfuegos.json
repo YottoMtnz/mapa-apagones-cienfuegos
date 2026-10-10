@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-10T11:33:07+00:00",
+  "reporte_fecha": "2026-10-10T12:06:13+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-10T11:20:34+00:00",
-  "mensajes_leidos": 126,
+  "mensajes_leidos": 127,
   "afectados": {
     "C-30": [
       "14 de Julio",
@@ -140,6 +140,15 @@
       "Cafetal",
       "Faisanera"
     ],
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
+    ],
     "C-32": [
       "Yaguaramas",
       "Guayabales",
@@ -267,15 +276,6 @@
     ]
   },
   "programados": {
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
-    ],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
-    ],
     "C-90": [
       "FW1558) La Pollera"
     ],
@@ -853,6 +853,24 @@
       "confianza": 100,
       "texto": "👉C-39 La Sierrita, El Brazo, Cafetal, Faisanera."
     },
+    "C-15": {
+      "fecha": "2026-10-10T12:06:13+00:00",
+      "mensaje_id": 59190,
+      "url": "https://t.me/empresaelectricacienfuegos1/59190",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
+    "C-67": {
+      "fecha": "2026-10-10T12:06:13+00:00",
+      "mensaje_id": 59190,
+      "url": "https://t.me/empresaelectricacienfuegos1/59190",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
+    },
     "C-32": {
       "fecha": "2026-10-10T11:07:15+00:00",
       "mensaje_id": 59187,
@@ -1104,24 +1122,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-65 Centro histórico, Reina (Aduana)"
-    },
-    "C-15": {
-      "fecha": "2026-10-10T03:40:40+00:00",
-      "mensaje_id": 59181,
-      "url": "https://t.me/empresaelectricacienfuegos1/59181",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-15 Pepito Tey, Guabairo."
-    },
-    "C-67": {
-      "fecha": "2026-10-10T03:40:40+00:00",
-      "mensaje_id": 59181,
-      "url": "https://t.me/empresaelectricacienfuegos1/59181",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-15 Pepito Tey, Guabairo."
     },
     "C-90": {
       "fecha": "2026-10-10T03:40:40+00:00",
@@ -1414,16 +1414,6 @@
     }
   },
   "horarios": {
-    "C-15": {
-      "inicio": null,
-      "fin": "2026-10-10T15:40:40+00:00",
-      "fecha_ambigua": false
-    },
-    "C-67": {
-      "inicio": null,
-      "fin": "2026-10-10T15:40:40+00:00",
-      "fecha_ambigua": false
-    },
     "C-90": {
       "inicio": null,
       "fin": "2026-10-10T15:40:40+00:00",
@@ -1471,6 +1461,8 @@
     "C-35": "déficit",
     "C-36": "déficit",
     "C-39": "déficit",
+    "C-15": "avería",
+    "C-67": "avería",
     "C-32": "déficit",
     "C-75": "déficit",
     "C-50": "déficit",
@@ -1502,12 +1494,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "id": 59067,
-      "url": "https://t.me/empresaelectricacienfuegos1/59067",
-      "fecha": "2026-10-07T16:31:01+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "id": 59069,
       "url": "https://t.me/empresaelectricacienfuegos1/59069",
@@ -1947,13 +1933,19 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59189",
       "fecha": "2026-10-10T11:33:07+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "id": 59190,
+      "url": "https://t.me/empresaelectricacienfuegos1/59190",
+      "fecha": "2026-10-10T12:06:13+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 66,
-    "imagenes": 60,
+    "imagenes": 61,
     "pdf": 0,
-    "no_leidos": 13
+    "no_leidos": 14
   },
   "listas_completas": {
     "deficit": {
@@ -2921,8 +2913,8 @@
   ],
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-10T11:07:15+00:00",
-  "total_circuitos_afectados": 53,
-  "total_circuitos_programados": 5,
+  "total_circuitos_afectados": 55,
+  "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 10,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2938,5 +2930,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-10T12:04:20.459077+00:00"
+  "actualizado": "2026-10-10T12:19:20.747116+00:00"
 }
