@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-10T11:07:15+00:00",
+  "reporte_fecha": "2026-10-10T11:33:07+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-10T03:40:40+00:00",
-  "mensajes_leidos": 126,
+  "programado_fecha": "2026-10-10T11:20:34+00:00",
+  "mensajes_leidos": 128,
   "afectados": {
     "C-30": [
       "14 de Julio",
@@ -278,7 +278,14 @@
     ],
     "C-90": [
       "FW1558) La Pollera"
-    ]
+    ],
+    "C-406": [
+      "San Lázaro",
+      "Calle 35 de Ave 58 hasta Ave 64",
+      "Ave 58 de Calle 47 hasta Calle 49",
+      "Calle 47 de Ave 54 hasta Ave 58"
+    ],
+    "C-94": []
   },
   "confirmados_con_servicio": {
     "C-47": {
@@ -793,13 +800,13 @@
       "texto": "👉C-55 Cruces (Sur)."
     },
     "C-22": {
-      "fecha": "2026-10-10T11:07:15+00:00",
-      "mensaje_id": 59187,
-      "url": "https://t.me/empresaelectricacienfuegos1/59187",
+      "fecha": "2026-10-10T11:33:07+00:00",
+      "mensaje_id": 59189,
+      "url": "https://t.me/empresaelectricacienfuegos1/59189",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-22 Rodas (Bombeo Agua Rodas 0-12)"
+      "texto": "👉C-22 \"Rodas."
     },
     "C-21": {
       "fecha": "2026-10-10T11:07:15+00:00",
@@ -1125,6 +1132,24 @@
       "confianza": 100,
       "texto": "👉C-15 Pepito Tey, Guabairo."
     },
+    "C-406": {
+      "fecha": "2026-10-10T11:20:34+00:00",
+      "mensaje_id": 59188,
+      "url": "https://t.me/empresaelectricacienfuegos1/59188",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-406 San Lázaro, Calle 39 desde Ave 74 hasta 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta 49, Calle 47 de Ave 54 hasta Ave 58."
+    },
+    "C-94": {
+      "fecha": "2026-10-10T11:20:34+00:00",
+      "mensaje_id": 59188,
+      "url": "https://t.me/empresaelectricacienfuegos1/59188",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-406 San Lázaro, Calle 39 desde Ave 74 hasta 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta 49, Calle 47 de Ave 54 hasta Ave 58."
+    },
     "C-47": {
       "fecha": "2026-10-10T10:47:40+00:00",
       "mensaje_id": 59185,
@@ -1151,15 +1176,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola."
-    },
-    "C-94": {
-      "fecha": "2026-10-10T10:47:40+00:00",
-      "mensaje_id": 59185,
-      "url": "https://t.me/empresaelectricacienfuegos1/59185",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
     },
     "C-60": {
       "fecha": "2026-10-10T11:07:15+00:00",
@@ -1264,35 +1280,6 @@
         "Hondones",
         "La Yuca",
         "Bagazal"
-      ]
-    },
-    "C-406": {
-      "fecha": "2026-10-10T11:07:15+00:00",
-      "mensaje_id": 59187,
-      "url": "https://t.me/empresaelectricacienfuegos1/59187",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-09T23:00:00+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-10-09T20:17:26+00:00",
-        "mensaje_id": 59172,
-        "url": "https://t.me/empresaelectricacienfuegos1/59172",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
-      },
-      "lugares": [
-        "San Lázaro",
-        "Calle 35 de Ave 58 hasta Ave 64",
-        "Ave 58 de Calle 47 hasta Calle 49",
-        "Calle 47 de Ave 54 hasta Ave 58"
       ]
     },
     "C-89": {
@@ -1441,6 +1428,16 @@
       "inicio": null,
       "fin": "2026-10-10T15:40:40+00:00",
       "fecha_ambigua": false
+    },
+    "C-406": {
+      "inicio": null,
+      "fin": "2026-10-10T23:20:34+00:00",
+      "fecha_ambigua": false
+    },
+    "C-94": {
+      "inicio": null,
+      "fin": "2026-10-10T23:20:34+00:00",
+      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
@@ -1468,7 +1465,7 @@
     "C-85": "déficit",
     "C-86": "déficit",
     "C-55": "déficit",
-    "C-22": "déficit",
+    "C-22": "déficit / avería",
     "C-21": "déficit",
     "C-33": "déficit",
     "C-35": "déficit",
@@ -1505,13 +1502,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
-      "id": 59063,
-      "url": "https://t.me/empresaelectricacienfuegos1/59063",
-      "fecha": "2026-10-07T13:09:13+00:00"
-    },
     {
       "id": 59067,
       "url": "https://t.me/empresaelectricacienfuegos1/59067",
@@ -1951,13 +1941,19 @@
       "id": 59186,
       "url": "https://t.me/empresaelectricacienfuegos1/59186",
       "fecha": "2026-10-10T10:50:42+00:00"
+    },
+    {
+      "id": 59189,
+      "url": "https://t.me/empresaelectricacienfuegos1/59189",
+      "fecha": "2026-10-10T11:33:07+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 67,
-    "imagenes": 59,
+    "imagenes": 61,
     "pdf": 0,
-    "no_leidos": 13
+    "no_leidos": 14
   },
   "listas_completas": {
     "deficit": {
@@ -2926,7 +2922,7 @@
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-10T11:07:15+00:00",
   "total_circuitos_afectados": 53,
-  "total_circuitos_programados": 3,
+  "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 10,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2939,7 +2935,8 @@
     "C-58",
     "C-60",
     "C-89",
+    "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-10T11:19:28.594026+00:00"
+  "actualizado": "2026-10-10T11:34:23.571157+00:00"
 }
