@@ -157,12 +157,6 @@
       "Gavilán",
       "Boca Ambuila"
     ],
-    "C-8": [
-      "El Pino",
-      "Congojas",
-      "La Lolita",
-      "Parque Alto"
-    ],
     "C-50": [
       "Palmira (Norte"
     ],
@@ -243,11 +237,6 @@
       "Reparto Eléctrico"
     ],
     "C-2": [],
-    "C-24": [
-      "Pérez Leyva",
-      "La Redonda",
-      "El Limpio"
-    ],
     "C-91": [
       "Buena Vista",
       "La Esperanza"
@@ -857,15 +846,6 @@
       "confianza": 100,
       "texto": "👉C-75 La Legua, Gavilán, Boca Ambuila."
     },
-    "C-8": {
-      "fecha": "2026-10-09T12:33:08+00:00",
-      "mensaje_id": 59156,
-      "url": "https://t.me/empresaelectricacienfuegos1/59156",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8 El Pino, Congojas, La Lolita."
-    },
     "C-50": {
       "fecha": "2026-10-09T23:00:00+00:00",
       "mensaje_id": 59175,
@@ -1018,15 +998,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
-    },
-    "C-24": {
-      "fecha": "2026-10-09T12:33:08+00:00",
-      "mensaje_id": 59156,
-      "url": "https://t.me/empresaelectricacienfuegos1/59156",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
     },
     "C-91": {
       "fecha": "2026-10-09T23:00:00+00:00",
@@ -1461,7 +1432,6 @@
     "C-67": "avería",
     "C-32": "déficit",
     "C-75": "déficit",
-    "C-8": "avería",
     "C-50": "déficit",
     "C-84": "déficit",
     "C-23": "déficit",
@@ -1479,7 +1449,6 @@
     "C-58": "déficit",
     "C-3": "déficit",
     "C-2": "déficit",
-    "C-24": "avería",
     "C-91": "déficit",
     "C-89": "déficit",
     "C-94": "déficit",
@@ -2917,7 +2886,7 @@
   ],
   "mw_fecha": "2026-10-09T23:00:00+00:00",
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
-  "total_circuitos_afectados": 61,
+  "total_circuitos_afectados": 59,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 10,
   "circuitos_sin_catalogar": [
@@ -2935,5 +2904,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-10T00:19:23.715224+00:00"
+  "actualizado": "2026-10-10T00:34:26.880351+00:00"
 }
