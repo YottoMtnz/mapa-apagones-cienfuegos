@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-10T15:22:18+00:00",
-  "mensajes_leidos": 126,
+  "mensajes_leidos": 128,
   "afectados": {
     "S-4820": [],
     "C-26": [
@@ -1830,20 +1830,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
-      "id": 59079,
-      "url": "https://t.me/empresaelectricacienfuegos1/59079",
-      "fecha": "2026-10-07T20:20:11+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
-      "id": 59082,
-      "url": "https://t.me/empresaelectricacienfuegos1/59082",
-      "fecha": "2026-10-07T21:11:13+00:00"
-    },
-    {
       "id": 59083,
       "url": "https://t.me/empresaelectricacienfuegos1/59083",
       "fecha": "2026-10-07T21:20:46+00:00",
@@ -2276,11 +2262,25 @@
       "id": 59196,
       "url": "https://t.me/empresaelectricacienfuegos1/59196",
       "fecha": "2026-10-10T15:18:58+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n220)\nUnión Eléctrica UNE\neee\nxX\nUNE\nred RECTIICA\n33 min: @\n@ 12:46\nDispara la linea 220KV NUEVITAS-TUNAS 220 kV\nlo que provoca una desconexion parcial del SEN\nen la zona oriental\n~~\npr\npy\nUNE\nUNION ELECTRICA\nSCL Be.",
+      "id": 59201,
+      "url": "https://t.me/empresaelectricacienfuegos1/59201",
+      "fecha": "2026-10-10T17:50:31+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n02 MW > ¿ NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 59202,
+      "url": "https://t.me/empresaelectricacienfuegos1/59202",
+      "fecha": "2026-10-10T17:51:47+00:00"
     }
   ],
   "lectura": {
     "texto": 67,
-    "imagenes": 59,
+    "imagenes": 61,
     "pdf": 0,
     "no_leidos": 12
   },
@@ -3261,5 +3261,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-10T17:44:22.820657+00:00"
+  "actualizado": "2026-10-10T17:57:23.828973+00:00"
 }
