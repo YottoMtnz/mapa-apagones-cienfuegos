@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-10T15:56:46+00:00",
+  "reporte_fecha": "2026-10-10T16:07:19+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-10T15:22:18+00:00",
-  "mensajes_leidos": 130,
+  "mensajes_leidos": 131,
   "afectados": {
     "C-405": [
       "Pueblo Griffo Nuevo"
@@ -37,10 +37,6 @@
     "C-86": [
       "Cumanayagua",
       "emisora de radio"
-    ],
-    "C-22": [
-      "Rodas (Bombeo Agua Rodas 0-12",
-      "Rodas"
     ],
     "C-21": [
       "Santa Elena",
@@ -241,7 +237,17 @@
     "C-17": [],
     "C-92": []
   },
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-22": {
+      "fecha": "2026-10-10T16:07:19+00:00",
+      "mensaje_id": 59200,
+      "url": "https://t.me/empresaelectricacienfuegos1/59200",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-22 Rodas"
+    }
+  },
   "restablecimientos_probables": {
     "C-60": {
       "fecha": "2026-10-10T15:56:46+00:00",
@@ -870,15 +876,6 @@
       "confianza": 100,
       "texto": "👉C-86 \"Cumanayagua, emisora de radio"
     },
-    "C-22": {
-      "fecha": "2026-10-10T11:33:07+00:00",
-      "mensaje_id": 59189,
-      "url": "https://t.me/empresaelectricacienfuegos1/59189",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-22 \"Rodas."
-    },
     "C-21": {
       "fecha": "2026-10-10T15:56:46+00:00",
       "mensaje_id": 59199,
@@ -1274,6 +1271,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-17 Ave 5 de sept, Distrito Petrolero, Hermanas Giralt"
+    },
+    "C-22": {
+      "fecha": "2026-10-10T16:07:19+00:00",
+      "mensaje_id": 59200,
+      "url": "https://t.me/empresaelectricacienfuegos1/59200",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-22 Rodas"
     },
     "C-60": {
       "fecha": "2026-10-10T15:56:46+00:00",
@@ -1779,7 +1785,6 @@
     "C-52": "déficit",
     "C-85": "déficit",
     "C-86": "déficit",
-    "C-22": "avería",
     "C-21": "déficit",
     "C-33": "déficit",
     "C-35": "déficit",
@@ -2274,7 +2279,7 @@
     }
   ],
   "lectura": {
-    "texto": 68,
+    "texto": 69,
     "imagenes": 62,
     "pdf": 0,
     "no_leidos": 14
@@ -2334,15 +2339,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-26",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-08T17:41:28+00:00",
-      "mensaje_id": 59122,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59118",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59122"
-    },
     {
       "circuito": "C-90",
       "tipo": "salida_lista",
@@ -3233,11 +3229,20 @@
       "mensaje_id": 59199,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59198",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59199"
+    },
+    {
+      "circuito": "C-22",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-10T16:07:19+00:00",
+      "mensaje_id": 59200,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59189",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59200"
     }
   ],
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-10T15:56:46+00:00",
-  "total_circuitos_afectados": 51,
+  "total_circuitos_afectados": 50,
   "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 19,
   "circuitos_sin_catalogar": [
@@ -3256,5 +3261,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-10T15:59:39.689817+00:00"
+  "actualizado": "2026-10-10T16:14:28.224057+00:00"
 }
