@@ -6,11 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-10T15:22:18+00:00",
-  "mensajes_leidos": 127,
+  "mensajes_leidos": 126,
   "afectados": {
-    "C-405": [
-      "Pueblo Griffo Nuevo"
-    ],
     "S-4820": [],
     "C-26": [
       "Caonao",
@@ -30,6 +27,9 @@
       "Espartaco",
       "La Macana",
       "Cherepa"
+    ],
+    "C-405": [
+      "Pueblo Griffo Nuevo"
     ],
     "C-85": [
       "Cumanayagua (Centro"
@@ -795,15 +795,6 @@
     ]
   },
   "evidencias": {
-    "C-405": {
-      "fecha": "2026-10-10T15:56:46+00:00",
-      "mensaje_id": 59199,
-      "url": "https://t.me/empresaelectricacienfuegos1/59199",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-405 \"Pueblo Griffo Nuevo."
-    },
     "S-4820": {
       "fecha": "2026-10-10T10:50:42+00:00",
       "mensaje_id": 59186,
@@ -857,6 +848,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
+    },
+    "C-405": {
+      "fecha": "2026-10-10T15:56:46+00:00",
+      "mensaje_id": 59199,
+      "url": "https://t.me/empresaelectricacienfuegos1/59199",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-405 \"Pueblo Griffo Nuevo."
     },
     "C-85": {
       "fecha": "2026-10-10T15:56:46+00:00",
@@ -1776,13 +1776,13 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-405": "déficit",
     "S-4820": "avería",
     "C-26": "avería",
     "C-31": "déficit",
     "C-30": "avería",
     "C-48": "avería",
     "C-52": "déficit",
+    "C-405": "déficit",
     "C-85": "déficit",
     "C-86": "déficit",
     "C-21": "déficit",
@@ -2280,7 +2280,7 @@
   ],
   "lectura": {
     "texto": 67,
-    "imagenes": 60,
+    "imagenes": 59,
     "pdf": 0,
     "no_leidos": 12
   },
@@ -3261,5 +3261,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-10T17:29:34.235001+00:00"
+  "actualizado": "2026-10-10T17:44:22.820657+00:00"
 }
