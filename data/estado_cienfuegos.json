@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-11T11:19:15+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-11T03:34:03+00:00",
-  "mensajes_leidos": 120,
+  "programado_fecha": "2026-10-11T11:26:20+00:00",
+  "mensajes_leidos": 121,
   "afectados": {
     "C-31": [],
     "C-52": [
@@ -302,7 +302,14 @@
       "La Loma"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-406": [
+      "San Lázaro",
+      "Calle 35 de Ave 58 hasta Ave 64",
+      "Ave 58 de Calle 47 hasta Calle 49",
+      "Calle 47 de Ave 54 hasta Ave 58"
+    ]
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-20": {
@@ -1088,6 +1095,15 @@
       "confianza": 100,
       "texto": "👉C-28 CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)"
     },
+    "C-406": {
+      "fecha": "2026-10-11T11:26:20+00:00",
+      "mensaje_id": 59229,
+      "url": "https://t.me/empresaelectricacienfuegos1/59229",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-406  San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
+    },
     "C-20": {
       "fecha": "2026-10-11T11:12:11+00:00",
       "mensaje_id": 59227,
@@ -1215,35 +1231,6 @@
         "Palmira (Norte"
       ]
     },
-    "C-406": {
-      "fecha": "2026-10-11T11:12:11+00:00",
-      "mensaje_id": 59227,
-      "url": "https://t.me/empresaelectricacienfuegos1/59227",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 \"Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-11T04:39:57+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-11T03:34:38+00:00",
-        "mensaje_id": 59221,
-        "url": "https://t.me/empresaelectricacienfuegos1/59221",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
-      },
-      "lugares": [
-        "San Lázaro",
-        "Calle 35 de Ave 58 hasta Ave 64",
-        "Ave 58 de Calle 47 hasta Calle 49",
-        "Calle 47 de Ave 54 hasta Ave 58"
-      ]
-    },
     "C-56": {
       "fecha": "2026-10-11T11:12:11+00:00",
       "mensaje_id": 59227,
@@ -1319,7 +1306,13 @@
       "lugares": []
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-406": {
+      "inicio": null,
+      "fin": "2026-10-11T23:26:20+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 52.0,
   "hora_inicio": null,
@@ -1837,7 +1830,7 @@
   ],
   "lectura": {
     "texto": 67,
-    "imagenes": 53,
+    "imagenes": 54,
     "pdf": 0,
     "no_leidos": 7
   },
@@ -2807,7 +2800,7 @@
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-11T11:12:11+00:00",
   "total_circuitos_afectados": 59,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2821,5 +2814,5 @@
     "C-89",
     "S-4820"
   ],
-  "actualizado": "2026-10-11T11:24:15.059707+00:00"
+  "actualizado": "2026-10-11T11:35:25.433939+00:00"
 }
