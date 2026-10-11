@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-11T21:52:48+00:00",
+  "reporte_fecha": "2026-10-11T22:19:03+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-11T21:30:17+00:00",
-  "mensajes_leidos": 116,
+  "mensajes_leidos": 117,
   "afectados": {
     "C-30": [
       "14 de Julio",
@@ -1025,9 +1025,9 @@
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
     "C-11": {
-      "fecha": "2026-10-11T21:52:48+00:00",
-      "mensaje_id": 59250,
-      "url": "https://t.me/empresaelectricacienfuegos1/59250",
+      "fecha": "2026-10-11T22:19:03+00:00",
+      "mensaje_id": 59251,
+      "url": "https://t.me/empresaelectricacienfuegos1/59251",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1290,7 +1290,7 @@
     "C-91": "déficit",
     "C-89": "déficit",
     "C-35": "déficit",
-    "C-11": "déficit"
+    "C-11": "déficit / avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -1678,13 +1678,19 @@
       "id": 59249,
       "url": "https://t.me/empresaelectricacienfuegos1/59249",
       "fecha": "2026-10-11T21:51:42+00:00"
+    },
+    {
+      "id": 59251,
+      "url": "https://t.me/empresaelectricacienfuegos1/59251",
+      "fecha": "2026-10-11T22:19:03+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 61,
-    "imagenes": 55,
+    "imagenes": 56,
     "pdf": 0,
-    "no_leidos": 7
+    "no_leidos": 8
   },
   "listas_completas": {
     "deficit": {
@@ -2669,5 +2675,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-11T22:04:21.261628+00:00"
+  "actualizado": "2026-10-11T22:19:26.962536+00:00"
 }
