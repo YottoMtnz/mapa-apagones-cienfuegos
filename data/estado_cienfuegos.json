@@ -6,18 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-11T03:34:03+00:00",
-  "mensajes_leidos": 120,
+  "mensajes_leidos": 117,
   "afectados": {
-    "C-38": [
-      "El Abra",
-      "Crespo",
-      "Quiñones",
-      "La Parra",
-      "El Granizo",
-      "El Jíbaro",
-      "La Jutía",
-      "Hervidero"
-    ],
     "C-31": [],
     "C-26": [
       "Caonao",
@@ -35,6 +25,16 @@
       "Espartaco",
       "La Macana",
       "Cherepa"
+    ],
+    "C-38": [
+      "El Abra",
+      "Crespo",
+      "Quiñones",
+      "La Parra",
+      "El Granizo",
+      "El Jíbaro",
+      "La Jutía",
+      "Hervidero"
     ],
     "C-92": [],
     "C-85": [
@@ -614,15 +614,6 @@
     ]
   },
   "evidencias": {
-    "C-38": {
-      "fecha": "2026-10-11T03:34:38+00:00",
-      "mensaje_id": 59221,
-      "url": "https://t.me/empresaelectricacienfuegos1/59221",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero."
-    },
     "C-31": {
       "fecha": "2026-10-11T03:34:38+00:00",
       "mensaje_id": 59221,
@@ -658,6 +649,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
+    },
+    "C-38": {
+      "fecha": "2026-10-11T03:34:38+00:00",
+      "mensaje_id": 59221,
+      "url": "https://t.me/empresaelectricacienfuegos1/59221",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero."
     },
     "C-92": {
       "fecha": "2026-10-11T03:34:38+00:00",
@@ -1357,11 +1357,11 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-38": "déficit",
     "C-31": "déficit",
     "C-26": "avería",
     "C-30": "avería",
     "C-52": "déficit",
+    "C-38": "déficit",
     "C-92": "déficit",
     "C-85": "déficit",
     "C-86": "déficit",
@@ -1863,10 +1863,10 @@
     }
   ],
   "lectura": {
-    "texto": 65,
-    "imagenes": 55,
+    "texto": 64,
+    "imagenes": 53,
     "pdf": 0,
-    "no_leidos": 8
+    "no_leidos": 7
   },
   "listas_completas": {
     "deficit": {
@@ -2845,5 +2845,5 @@
     "C-89",
     "C-92"
   ],
-  "actualizado": "2026-10-11T04:24:21.644788+00:00"
+  "actualizado": "2026-10-11T04:39:22.610362+00:00"
 }
