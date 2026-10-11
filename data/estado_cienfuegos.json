@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-11T21:30:17+00:00",
-  "mensajes_leidos": 113,
+  "mensajes_leidos": 112,
   "afectados": {
     "C-30": [
       "14 de Julio",
@@ -1607,7 +1607,7 @@
     }
   ],
   "lectura": {
-    "texto": 59,
+    "texto": 58,
     "imagenes": 54,
     "pdf": 0,
     "no_leidos": 7
@@ -2038,6 +2038,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59203"
     },
     {
+      "circuito": "C-35",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-10T19:31:35+00:00",
+      "mensaje_id": 59208,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59206",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59208"
+    },
+    {
       "circuito": "C-39",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2057,15 +2066,6 @@
     },
     {
       "circuito": "C-33",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-10T19:31:35+00:00",
-      "mensaje_id": 59208,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59206",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59208"
-    },
-    {
-      "circuito": "C-35",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-10T19:31:35+00:00",
@@ -2595,5 +2595,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-11T22:34:18.519777+00:00"
+  "actualizado": "2026-10-11T22:49:16.125971+00:00"
 }
