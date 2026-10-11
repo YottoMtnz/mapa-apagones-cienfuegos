@@ -6,9 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-11T11:26:20+00:00",
-  "mensajes_leidos": 121,
+  "mensajes_leidos": 120,
   "afectados": {
-    "C-31": [],
     "C-52": [
       "Paradero de Camarones",
       "Vía Estrecha",
@@ -26,6 +25,7 @@
       "La Jutía",
       "Hervidero"
     ],
+    "C-31": [],
     "C-405": [
       "Pueblo Griffo Nuevo"
     ],
@@ -564,15 +564,6 @@
     ]
   },
   "evidencias": {
-    "C-31": {
-      "fecha": "2026-10-11T11:12:11+00:00",
-      "mensaje_id": 59227,
-      "url": "https://t.me/empresaelectricacienfuegos1/59227",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
-    },
     "C-52": {
       "fecha": "2026-10-11T11:12:11+00:00",
       "mensaje_id": 59227,
@@ -590,6 +581,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero."
+    },
+    "C-31": {
+      "fecha": "2026-10-11T11:12:11+00:00",
+      "mensaje_id": 59227,
+      "url": "https://t.me/empresaelectricacienfuegos1/59227",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
     },
     "C-405": {
       "fecha": "2026-10-11T11:12:11+00:00",
@@ -1319,9 +1319,9 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-31": "déficit",
     "C-52": "déficit",
     "C-38": "déficit",
+    "C-31": "déficit",
     "C-405": "déficit",
     "C-85": "déficit",
     "C-86": "déficit",
@@ -1829,7 +1829,7 @@
     }
   ],
   "lectura": {
-    "texto": 67,
+    "texto": 66,
     "imagenes": 54,
     "pdf": 0,
     "no_leidos": 7
@@ -2814,5 +2814,5 @@
     "C-89",
     "S-4820"
   ],
-  "actualizado": "2026-10-11T11:49:23.866758+00:00"
+  "actualizado": "2026-10-11T12:04:32.190089+00:00"
 }
