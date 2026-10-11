@@ -8,12 +8,6 @@
   "programado_fecha": "2026-10-11T21:30:17+00:00",
   "mensajes_leidos": 112,
   "afectados": {
-    "C-30": [
-      "14 de Julio",
-      "Batey 2 Hermanos"
-    ],
-    "C-48": [],
-    "S-4820": [],
     "C-24": [
       "Pérez Leyva",
       "La Redonda",
@@ -542,38 +536,11 @@
           "confianza": 100,
           "texto": "👉C-90 (FW1558) La Pollera"
         },
-        "vigente": true
+        "vigente": false
       }
     ]
   },
   "evidencias": {
-    "C-30": {
-      "fecha": "2026-10-11T11:19:15+00:00",
-      "mensaje_id": 59228,
-      "url": "https://t.me/empresaelectricacienfuegos1/59228",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
-    },
-    "C-48": {
-      "fecha": "2026-10-11T11:19:15+00:00",
-      "mensaje_id": 59228,
-      "url": "https://t.me/empresaelectricacienfuegos1/59228",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-4820": {
-      "fecha": "2026-10-11T11:19:15+00:00",
-      "mensaje_id": 59228,
-      "url": "https://t.me/empresaelectricacienfuegos1/59228",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
     "C-24": {
       "fecha": "2026-10-11T21:52:48+00:00",
       "mensaje_id": 59250,
@@ -1237,9 +1204,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-30": "avería",
-    "C-48": "avería",
-    "S-4820": "avería",
     "C-24": "déficit",
     "C-85": "déficit",
     "C-86": "déficit",
@@ -2580,7 +2544,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-11T21:52:48+00:00",
-  "total_circuitos_afectados": 54,
+  "total_circuitos_afectados": 51,
   "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
@@ -2588,12 +2552,10 @@
     "C-2",
     "C-31",
     "C-43",
-    "C-48",
     "C-58",
     "C-89",
     "C-92",
-    "C-94",
-    "S-4820"
+    "C-94"
   ],
-  "actualizado": "2026-10-11T23:04:28.821564+00:00"
+  "actualizado": "2026-10-11T23:19:30.309691+00:00"
 }
