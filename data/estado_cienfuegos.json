@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-11T14:03:26+00:00",
+  "reporte_fecha": "2026-10-11T14:40:47+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-11T14:11:45+00:00",
@@ -262,12 +262,6 @@
     "C-90": [
       "FW1558) La Pollera"
     ],
-    "C-26": [
-      "Caonao",
-      "Los Tanques",
-      "La Ceiba",
-      "El Paisíto"
-    ],
     "C-2": [],
     "C-3": [
       "Reparto Eléctrico"
@@ -304,7 +298,17 @@
       "Palmira (Norte"
     ]
   },
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-26": {
+      "fecha": "2026-10-11T14:40:47+00:00",
+      "mensaje_id": 59235,
+      "url": "https://t.me/empresaelectricacienfuegos1/59235",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
+    }
+  },
   "restablecimientos_probables": {
     "C-20": {
       "fecha": "2026-10-11T14:03:26+00:00",
@@ -1021,15 +1025,6 @@
       "confianza": 100,
       "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
-    "C-26": {
-      "fecha": "2026-10-11T10:30:22+00:00",
-      "mensaje_id": 59225,
-      "url": "https://t.me/empresaelectricacienfuegos1/59225",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
-    },
     "C-2": {
       "fecha": "2026-10-11T14:03:26+00:00",
       "mensaje_id": 59233,
@@ -1110,6 +1105,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-50 Palmira (Norte)"
+    },
+    "C-26": {
+      "fecha": "2026-10-11T14:40:47+00:00",
+      "mensaje_id": 59235,
+      "url": "https://t.me/empresaelectricacienfuegos1/59235",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
     },
     "C-20": {
       "fecha": "2026-10-11T14:03:26+00:00",
@@ -1400,7 +1404,6 @@
     "C-15": "avería",
     "C-67": "avería",
     "C-90": "avería / déficit",
-    "C-26": "avería",
     "C-2": "déficit",
     "C-3": "déficit",
     "C-69": "déficit",
@@ -1412,13 +1415,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠Se comunica a nuestros clientes que se encuentra restablecido el servicio en las líneas:\n\n\n👉L-1415 Aguada.\n\n👉L-76 Cruces.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
-      "id": 59114,
-      "url": "https://t.me/empresaelectricacienfuegos1/59114",
-      "fecha": "2026-10-08T14:35:34+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
@@ -1913,15 +1909,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-63",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-09T17:36:42+00:00",
-      "mensaje_id": 59169,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59167",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59169"
-    },
     {
       "circuito": "C-53",
       "tipo": "salida_lista",
@@ -2812,11 +2799,20 @@
       "mensaje_id": 59233,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59230",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59233"
+    },
+    {
+      "circuito": "C-26",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-11T14:40:47+00:00",
+      "mensaje_id": 59235,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59225",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59235"
     }
   ],
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-11T14:03:26+00:00",
-  "total_circuitos_afectados": 58,
+  "total_circuitos_afectados": 57,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 10,
   "circuitos_sin_catalogar": [
@@ -2832,5 +2828,5 @@
     "C-92",
     "S-4820"
   ],
-  "actualizado": "2026-10-11T14:34:20.068739+00:00"
+  "actualizado": "2026-10-11T14:49:32.227020+00:00"
 }
