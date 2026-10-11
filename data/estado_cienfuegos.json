@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-11T18:07:59+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-11T15:21:08+00:00",
-  "mensajes_leidos": 117,
+  "programado_fecha": "2026-10-11T19:09:45+00:00",
+  "mensajes_leidos": 119,
   "afectados": {
     "C-36": [
       "Cumanayagua (Sur",
@@ -245,7 +245,25 @@
     "C-92": [],
     "C-17": []
   },
-  "programados": {},
+  "programados": {
+    "C-89": [],
+    "C-94": [],
+    "C-44": [
+      "Los Burros",
+      "El Conejito",
+      "El Desquite",
+      "Venero"
+    ],
+    "C-24": [
+      "Pérez Leyva",
+      "La Redonda",
+      "El Limpio"
+    ],
+    "C-91": [
+      "Buena Vista",
+      "La Esperanza"
+    ]
+  },
   "confirmados_con_servicio": {
     "C-26": {
       "fecha": "2026-10-11T14:40:47+00:00",
@@ -1018,6 +1036,51 @@
       "confianza": 100,
       "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
     },
+    "C-89": {
+      "fecha": "2026-10-11T19:00:20+00:00",
+      "mensaje_id": 59243,
+      "url": "https://t.me/empresaelectricacienfuegos1/59243",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
+    },
+    "C-94": {
+      "fecha": "2026-10-11T19:00:20+00:00",
+      "mensaje_id": 59243,
+      "url": "https://t.me/empresaelectricacienfuegos1/59243",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
+    },
+    "C-44": {
+      "fecha": "2026-10-11T19:00:20+00:00",
+      "mensaje_id": 59243,
+      "url": "https://t.me/empresaelectricacienfuegos1/59243",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
+    },
+    "C-24": {
+      "fecha": "2026-10-11T19:00:20+00:00",
+      "mensaje_id": 59243,
+      "url": "https://t.me/empresaelectricacienfuegos1/59243",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
+    },
+    "C-91": {
+      "fecha": "2026-10-11T19:09:45+00:00",
+      "mensaje_id": 59244,
+      "url": "https://t.me/empresaelectricacienfuegos1/59244",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
     "C-26": {
       "fecha": "2026-10-11T14:40:47+00:00",
       "mensaje_id": 59235,
@@ -1129,86 +1192,6 @@
       },
       "lugares": []
     },
-    "C-89": {
-      "fecha": "2026-10-11T18:07:59+00:00",
-      "mensaje_id": 59242,
-      "url": "https://t.me/empresaelectricacienfuegos1/59242",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-10T00:40:56+00:00",
-      "listas_consecutivas": 23,
-      "aviso_anterior": {
-        "fecha": "2026-10-09T23:00:00+00:00",
-        "mensaje_id": 59175,
-        "url": "https://t.me/empresaelectricacienfuegos1/59175",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
-      },
-      "lugares": []
-    },
-    "C-44": {
-      "fecha": "2026-10-11T18:07:59+00:00",
-      "mensaje_id": 59242,
-      "url": "https://t.me/empresaelectricacienfuegos1/59242",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-10T19:31:35+00:00",
-      "listas_consecutivas": 13,
-      "aviso_anterior": {
-        "fecha": "2026-10-10T17:57:35+00:00",
-        "mensaje_id": 59203,
-        "url": "https://t.me/empresaelectricacienfuegos1/59203",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero."
-      },
-      "lugares": [
-        "Los Burros",
-        "El Conejito",
-        "El Desquite",
-        "Venero"
-      ]
-    },
-    "C-91": {
-      "fecha": "2026-10-11T18:07:59+00:00",
-      "mensaje_id": 59242,
-      "url": "https://t.me/empresaelectricacienfuegos1/59242",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-11T14:03:26+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-11T12:48:58+00:00",
-        "mensaje_id": 59230,
-        "url": "https://t.me/empresaelectricacienfuegos1/59230",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-91 Buena Vista, La Esperanza."
-      },
-      "lugares": [
-        "Buena Vista",
-        "La Esperanza"
-      ]
-    },
     "C-65": {
       "fecha": "2026-10-11T18:07:59+00:00",
       "mensaje_id": 59242,
@@ -1316,7 +1299,33 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-89": {
+      "inicio": null,
+      "fin": "2026-10-12T07:00:20+00:00",
+      "fecha_ambigua": false
+    },
+    "C-94": {
+      "inicio": null,
+      "fin": "2026-10-12T07:00:20+00:00",
+      "fecha_ambigua": false
+    },
+    "C-44": {
+      "inicio": null,
+      "fin": "2026-10-12T07:00:20+00:00",
+      "fecha_ambigua": false
+    },
+    "C-24": {
+      "inicio": null,
+      "fin": "2026-10-12T07:00:20+00:00",
+      "fecha_ambigua": false
+    },
+    "C-91": {
+      "inicio": null,
+      "fin": "2026-10-12T07:09:45+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 54.0,
   "hora_inicio": null,
@@ -1817,7 +1826,7 @@
   ],
   "lectura": {
     "texto": 62,
-    "imagenes": 55,
+    "imagenes": 57,
     "pdf": 0,
     "no_leidos": 8
   },
@@ -2786,7 +2795,7 @@
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-11T18:07:59+00:00",
   "total_circuitos_afectados": 50,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2799,7 +2808,8 @@
     "C-58",
     "C-89",
     "C-92",
+    "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-11T18:59:20.536048+00:00"
+  "actualizado": "2026-10-11T19:14:19.545886+00:00"
 }
