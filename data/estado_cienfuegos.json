@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-11T21:17:10+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-11T19:09:45+00:00",
-  "mensajes_leidos": 116,
+  "programado_fecha": "2026-10-11T21:30:17+00:00",
+  "mensajes_leidos": 115,
   "afectados": {
     "C-30": [
       "14 de Julio",
@@ -242,6 +242,27 @@
       "Pérez Leyva",
       "La Redonda",
       "El Limpio"
+    ],
+    "C-85": [
+      "Cumanayagua (Centro"
+    ],
+    "C-86": [
+      "Cumanayagua",
+      "emisora de radio"
+    ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
+    ],
+    "C-19": [
+      "Tulipán"
+    ],
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
+    ],
+    "C-66": [
+      "Reina (Parque"
     ]
   },
   "confirmados_con_servicio": {
@@ -319,30 +340,6 @@
     }
   },
   "restablecimientos_probables": {
-    "C-20": {
-      "fecha": "2026-10-11T20:56:51+00:00",
-      "mensaje_id": 59246,
-      "url": "https://t.me/empresaelectricacienfuegos1/59246",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T22:41:16+00:00",
-      "listas_consecutivas": 40,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T21:24:58+00:00",
-        "mensaje_id": 59130,
-        "url": "https://t.me/empresaelectricacienfuegos1/59130",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
-      },
-      "lugares": []
-    },
     "C-18": {
       "fecha": "2026-10-11T20:56:51+00:00",
       "mensaje_id": 59246,
@@ -1025,6 +1022,60 @@
       "confianza": 100,
       "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
     },
+    "C-85": {
+      "fecha": "2026-10-11T21:30:17+00:00",
+      "mensaje_id": 59248,
+      "url": "https://t.me/empresaelectricacienfuegos1/59248",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-85 Cumanayagua (Centro)."
+    },
+    "C-86": {
+      "fecha": "2026-10-11T21:30:17+00:00",
+      "mensaje_id": 59248,
+      "url": "https://t.me/empresaelectricacienfuegos1/59248",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-85 Cumanayagua (Centro)."
+    },
+    "C-80": {
+      "fecha": "2026-10-11T21:30:17+00:00",
+      "mensaje_id": 59248,
+      "url": "https://t.me/empresaelectricacienfuegos1/59248",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-85 Cumanayagua (Centro)."
+    },
+    "C-19": {
+      "fecha": "2026-10-11T21:30:17+00:00",
+      "mensaje_id": 59248,
+      "url": "https://t.me/empresaelectricacienfuegos1/59248",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-85 Cumanayagua (Centro)."
+    },
+    "C-65": {
+      "fecha": "2026-10-11T21:30:17+00:00",
+      "mensaje_id": 59248,
+      "url": "https://t.me/empresaelectricacienfuegos1/59248",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-85 Cumanayagua (Centro)."
+    },
+    "C-66": {
+      "fecha": "2026-10-11T21:30:17+00:00",
+      "mensaje_id": 59248,
+      "url": "https://t.me/empresaelectricacienfuegos1/59248",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-85 Cumanayagua (Centro)."
+    },
     "C-26": {
       "fecha": "2026-10-11T14:40:47+00:00",
       "mensaje_id": 59235,
@@ -1097,30 +1148,6 @@
       "confianza": 100,
       "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt."
     },
-    "C-20": {
-      "fecha": "2026-10-11T20:56:51+00:00",
-      "mensaje_id": 59246,
-      "url": "https://t.me/empresaelectricacienfuegos1/59246",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-08T22:41:16+00:00",
-      "listas_consecutivas": 40,
-      "aviso_anterior": {
-        "fecha": "2026-10-08T21:24:58+00:00",
-        "mensaje_id": 59130,
-        "url": "https://t.me/empresaelectricacienfuegos1/59130",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
-      },
-      "lugares": []
-    },
     "C-18": {
       "fecha": "2026-10-11T20:56:51+00:00",
       "mensaje_id": 59246,
@@ -1144,112 +1171,6 @@
         "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
       },
       "lugares": []
-    },
-    "C-65": {
-      "fecha": "2026-10-11T20:56:51+00:00",
-      "mensaje_id": 59246,
-      "url": "https://t.me/empresaelectricacienfuegos1/59246",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-11T18:07:59+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-11T16:24:51+00:00",
-        "mensaje_id": 59241,
-        "url": "https://t.me/empresaelectricacienfuegos1/59241",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-65 Centro histórico, Reina (Aduana)"
-      },
-      "lugares": [
-        "Centro histórico",
-        "Reina (Aduana"
-      ]
-    },
-    "C-66": {
-      "fecha": "2026-10-11T20:56:51+00:00",
-      "mensaje_id": 59246,
-      "url": "https://t.me/empresaelectricacienfuegos1/59246",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-11T18:07:59+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-11T16:24:51+00:00",
-        "mensaje_id": 59241,
-        "url": "https://t.me/empresaelectricacienfuegos1/59241",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-66 Reina (Parque)"
-      },
-      "lugares": [
-        "Reina (Parque"
-      ]
-    },
-    "C-19": {
-      "fecha": "2026-10-11T20:56:51+00:00",
-      "mensaje_id": 59246,
-      "url": "https://t.me/empresaelectricacienfuegos1/59246",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-11T18:07:59+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-11T16:24:51+00:00",
-        "mensaje_id": 59241,
-        "url": "https://t.me/empresaelectricacienfuegos1/59241",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-19 Tulipán"
-      },
-      "lugares": [
-        "Tulipán"
-      ]
-    },
-    "C-80": {
-      "fecha": "2026-10-11T20:56:51+00:00",
-      "mensaje_id": 59246,
-      "url": "https://t.me/empresaelectricacienfuegos1/59246",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-11T18:07:59+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-11T16:24:51+00:00",
-        "mensaje_id": 59241,
-        "url": "https://t.me/empresaelectricacienfuegos1/59241",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-80 Punta Cotica, Parque José Martí."
-      },
-      "lugares": [
-        "Punta Cotica",
-        "Parque José Martí"
-      ]
     },
     "C-25": {
       "fecha": "2026-10-11T20:56:51+00:00",
@@ -1336,6 +1257,36 @@
     "C-24": {
       "inicio": null,
       "fin": "2026-10-12T07:00:20+00:00",
+      "fecha_ambigua": false
+    },
+    "C-85": {
+      "inicio": null,
+      "fin": "2026-10-12T09:30:17+00:00",
+      "fecha_ambigua": false
+    },
+    "C-86": {
+      "inicio": null,
+      "fin": "2026-10-12T09:30:17+00:00",
+      "fecha_ambigua": false
+    },
+    "C-80": {
+      "inicio": null,
+      "fin": "2026-10-12T09:30:17+00:00",
+      "fecha_ambigua": false
+    },
+    "C-19": {
+      "inicio": null,
+      "fin": "2026-10-12T09:30:17+00:00",
+      "fecha_ambigua": false
+    },
+    "C-65": {
+      "inicio": null,
+      "fin": "2026-10-12T09:30:17+00:00",
+      "fecha_ambigua": false
+    },
+    "C-66": {
+      "inicio": null,
+      "fin": "2026-10-12T09:30:17+00:00",
       "fecha_ambigua": false
     }
   },
@@ -1817,7 +1768,7 @@
     }
   ],
   "lectura": {
-    "texto": 62,
+    "texto": 61,
     "imagenes": 54,
     "pdf": 0,
     "no_leidos": 7
@@ -2786,12 +2737,11 @@
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-11T20:56:51+00:00",
   "total_circuitos_afectados": 49,
-  "total_circuitos_programados": 1,
-  "total_restablecimientos_probables": 9,
+  "total_circuitos_programados": 7,
+  "total_restablecimientos_probables": 8,
   "circuitos_sin_catalogar": [
     "C-18",
     "C-2",
-    "C-20",
     "C-31",
     "C-43",
     "C-48",
@@ -2801,5 +2751,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-11T21:19:20.684370+00:00"
+  "actualizado": "2026-10-11T21:34:20.417925+00:00"
 }
