@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-11T04:43:18+00:00",
+  "reporte_fecha": "2026-10-11T05:05:49+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-11T03:34:03+00:00",
-  "mensajes_leidos": 119,
+  "mensajes_leidos": 120,
   "afectados": {
     "C-31": [],
     "C-30": [
@@ -70,15 +70,6 @@
       "El Brazo",
       "Cafetal",
       "Faisanera"
-    ],
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
-    ],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
     ],
     "C-75": [
       "La Legua",
@@ -292,6 +283,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
+    },
+    "C-15": {
+      "fecha": "2026-10-11T05:05:49+00:00",
+      "mensaje_id": 59224,
+      "url": "https://t.me/empresaelectricacienfuegos1/59224",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
+    "C-67": {
+      "fecha": "2026-10-11T05:05:49+00:00",
+      "mensaje_id": 59224,
+      "url": "https://t.me/empresaelectricacienfuegos1/59224",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     }
   },
   "restablecimientos_probables": {
@@ -747,24 +756,6 @@
       "confianza": 100,
       "texto": "👉C-39 La Sierrita, El Brazo, Cafetal, Faisanera."
     },
-    "C-15": {
-      "fecha": "2026-10-10T23:22:44+00:00",
-      "mensaje_id": 59217,
-      "url": "https://t.me/empresaelectricacienfuegos1/59217",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-15 Pepito Tey, Guabairo."
-    },
-    "C-67": {
-      "fecha": "2026-10-10T23:22:44+00:00",
-      "mensaje_id": 59217,
-      "url": "https://t.me/empresaelectricacienfuegos1/59217",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
-    },
     "C-75": {
       "fecha": "2026-10-10T23:22:44+00:00",
       "mensaje_id": 59217,
@@ -1124,6 +1115,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
+    },
+    "C-15": {
+      "fecha": "2026-10-11T05:05:49+00:00",
+      "mensaje_id": 59224,
+      "url": "https://t.me/empresaelectricacienfuegos1/59224",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
+    "C-67": {
+      "fecha": "2026-10-11T05:05:49+00:00",
+      "mensaje_id": 59224,
+      "url": "https://t.me/empresaelectricacienfuegos1/59224",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     },
     "C-20": {
       "fecha": "2026-10-11T04:39:57+00:00",
@@ -1486,8 +1495,6 @@
     "C-35": "avería",
     "C-36": "déficit",
     "C-39": "avería",
-    "C-15": "avería",
-    "C-67": "avería",
     "C-75": "avería",
     "C-56": "déficit",
     "C-24": "déficit",
@@ -1977,7 +1984,7 @@
     }
   ],
   "lectura": {
-    "texto": 66,
+    "texto": 67,
     "imagenes": 53,
     "pdf": 0,
     "no_leidos": 7
@@ -2041,24 +2048,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-8",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-09T13:07:58+00:00",
-      "mensaje_id": 59157,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59156",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59157"
-    },
-    {
-      "circuito": "C-5",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-09T13:07:58+00:00",
-      "mensaje_id": 59157,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59154",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59157"
-    },
     {
       "circuito": "C-11",
       "tipo": "salida_lista",
@@ -2940,11 +2929,29 @@
       "mensaje_id": 59223,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59217",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59223"
+    },
+    {
+      "circuito": "C-15",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-11T05:05:49+00:00",
+      "mensaje_id": 59224,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59217",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59224"
+    },
+    {
+      "circuito": "C-67",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-11T05:05:49+00:00",
+      "mensaje_id": 59224,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59217",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59224"
     }
   ],
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-11T04:39:57+00:00",
-  "total_circuitos_afectados": 52,
+  "total_circuitos_afectados": 50,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 13,
   "circuitos_sin_catalogar": [
@@ -2958,5 +2965,5 @@
     "C-89",
     "C-92"
   ],
-  "actualizado": "2026-10-11T04:54:22.274124+00:00"
+  "actualizado": "2026-10-11T05:09:21.942372+00:00"
 }
