@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-11T20:56:51+00:00",
+  "reporte_fecha": "2026-10-11T21:17:10+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-11T19:09:45+00:00",
-  "mensajes_leidos": 115,
+  "mensajes_leidos": 116,
   "afectados": {
     "C-30": [
       "14 de Julio",
@@ -307,6 +307,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
+    },
+    "C-17": {
+      "fecha": "2026-10-11T21:17:10+00:00",
+      "mensaje_id": 59247,
+      "url": "https://t.me/empresaelectricacienfuegos1/59247",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt."
     }
   },
   "restablecimientos_probables": {
@@ -543,30 +552,6 @@
       "lugares": [
         "Pueblo Griffo Nuevo"
       ]
-    },
-    "C-17": {
-      "fecha": "2026-10-11T20:56:51+00:00",
-      "mensaje_id": 59246,
-      "url": "https://t.me/empresaelectricacienfuegos1/59246",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-11T20:56:51+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-11T19:29:09+00:00",
-        "mensaje_id": 59245,
-        "url": "https://t.me/empresaelectricacienfuegos1/59245",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
-      },
-      "lugares": []
     }
   },
   "afectaciones_parciales": {
@@ -1103,6 +1088,15 @@
       "confianza": 100,
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
+    "C-17": {
+      "fecha": "2026-10-11T21:17:10+00:00",
+      "mensaje_id": 59247,
+      "url": "https://t.me/empresaelectricacienfuegos1/59247",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt."
+    },
     "C-20": {
       "fecha": "2026-10-11T20:56:51+00:00",
       "mensaje_id": 59246,
@@ -1336,30 +1330,6 @@
       "lugares": [
         "Pueblo Griffo Nuevo"
       ]
-    },
-    "C-17": {
-      "fecha": "2026-10-11T20:56:51+00:00",
-      "mensaje_id": 59246,
-      "url": "https://t.me/empresaelectricacienfuegos1/59246",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-11T20:56:51+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-11T19:29:09+00:00",
-        "mensaje_id": 59245,
-        "url": "https://t.me/empresaelectricacienfuegos1/59245",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
-      },
-      "lugares": []
     }
   },
   "horarios": {
@@ -1848,7 +1818,7 @@
   ],
   "lectura": {
     "texto": 62,
-    "imagenes": 53,
+    "imagenes": 54,
     "pdf": 0,
     "no_leidos": 7
   },
@@ -2817,9 +2787,8 @@
   "mw_fecha": "2026-10-11T20:56:51+00:00",
   "total_circuitos_afectados": 49,
   "total_circuitos_programados": 1,
-  "total_restablecimientos_probables": 10,
+  "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
-    "C-17",
     "C-18",
     "C-2",
     "C-20",
@@ -2832,5 +2801,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-11T21:04:19.898910+00:00"
+  "actualizado": "2026-10-11T21:19:20.684370+00:00"
 }
