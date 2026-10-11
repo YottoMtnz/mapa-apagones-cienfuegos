@@ -115,7 +115,6 @@
       "La Lolita",
       "Parque Alto"
     ],
-    "C-407": [],
     "C-47": [
       "Elpidio Gómez",
       "Altamira",
@@ -130,7 +129,6 @@
       "Batey Mal Tiempo",
       "Loma de Tola"
     ],
-    "C-94": [],
     "C-27": [
       "Barrio Matadero",
       "Juraguá"
@@ -762,15 +760,6 @@
       "confianza": 100,
       "texto": "👉C-8  Congojas, La Lolita."
     },
-    "C-407": {
-      "fecha": "2026-10-10T13:35:54+00:00",
-      "mensaje_id": 59195,
-      "url": "https://t.me/empresaelectricacienfuegos1/59195",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
-    },
     "C-47": {
       "fecha": "2026-10-11T00:09:12+00:00",
       "mensaje_id": 59218,
@@ -797,15 +786,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola."
-    },
-    "C-94": {
-      "fecha": "2026-10-10T13:35:54+00:00",
-      "mensaje_id": 59195,
-      "url": "https://t.me/empresaelectricacienfuegos1/59195",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
     },
     "C-27": {
       "fecha": "2026-10-11T00:09:12+00:00",
@@ -1350,12 +1330,10 @@
     "C-11": "déficit",
     "C-58": "déficit",
     "C-43": "déficit",
-    "C-8": "avería / déficit",
-    "C-407": "emergencia",
-    "C-47": "avería / déficit",
-    "C-53": "avería / déficit",
-    "C-54": "avería / déficit",
-    "C-94": "emergencia",
+    "C-8": "déficit",
+    "C-47": "déficit",
+    "C-53": "déficit",
+    "C-54": "déficit",
     "C-27": "déficit",
     "C-28": "déficit",
     "C-17": "déficit",
@@ -2808,7 +2786,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-11T00:09:12+00:00",
-  "total_circuitos_afectados": 59,
+  "total_circuitos_afectados": 57,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
@@ -2817,12 +2795,10 @@
     "C-2",
     "C-20",
     "C-31",
-    "C-407",
     "C-43",
     "C-58",
     "C-89",
-    "C-92",
-    "C-94"
+    "C-92"
   ],
-  "actualizado": "2026-10-11T01:24:27.299427+00:00"
+  "actualizado": "2026-10-11T01:39:25.785492+00:00"
 }
