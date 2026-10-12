@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-12T03:07:52+00:00",
-  "mensajes_leidos": 109,
+  "mensajes_leidos": 108,
   "afectados": {
     "C-85": [
       "Cumanayagua (Centro"
@@ -1574,7 +1574,7 @@
     }
   ],
   "lectura": {
-    "texto": 59,
+    "texto": 58,
     "imagenes": 50,
     "pdf": 0,
     "no_leidos": 7
@@ -1728,6 +1728,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59203"
     },
     {
+      "circuito": "C-33",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-10T19:31:35+00:00",
+      "mensaje_id": 59208,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59206",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59208"
+    },
+    {
       "circuito": "C-35",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -1747,15 +1756,6 @@
     },
     {
       "circuito": "C-75",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-10T19:31:35+00:00",
-      "mensaje_id": 59208,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59206",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59208"
-    },
-    {
-      "circuito": "C-33",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-10T19:31:35+00:00",
@@ -2564,5 +2564,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-12T14:39:43.772059+00:00"
+  "actualizado": "2026-10-12T14:54:29.104831+00:00"
 }
