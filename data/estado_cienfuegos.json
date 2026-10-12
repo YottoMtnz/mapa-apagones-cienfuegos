@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-12T13:36:02+00:00",
+  "reporte_fecha": "2026-10-12T13:49:05+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-12T03:07:52+00:00",
@@ -276,6 +276,15 @@
       "CEN",
       "Castillo de Jagua",
       "La Loma"
+    ],
+    "C-84": [
+      "Espartaco (Este",
+      "Maleza",
+      "Dagame",
+      "Paso del Medio",
+      "San Fernando de Camarones",
+      "Jurisdicción",
+      "Manaquita"
     ]
   },
   "programados": {},
@@ -389,38 +398,6 @@
         "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
       },
       "lugares": []
-    },
-    "C-84": {
-      "fecha": "2026-10-12T13:36:02+00:00",
-      "mensaje_id": 59270,
-      "url": "https://t.me/empresaelectricacienfuegos1/59270",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T13:36:02+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T12:23:35+00:00",
-        "mensaje_id": 59266,
-        "url": "https://t.me/empresaelectricacienfuegos1/59266",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
-      },
-      "lugares": [
-        "Espartaco (Este",
-        "Maleza",
-        "Dagame",
-        "Paso del Medio",
-        "San Fernando de Camarones",
-        "Jurisdicción",
-        "Manaquita"
-      ]
     },
     "C-55": {
       "fecha": "2026-10-12T13:36:02+00:00",
@@ -1027,6 +1004,15 @@
       "confianza": 100,
       "texto": "👉C-28 CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)"
     },
+    "C-84": {
+      "fecha": "2026-10-12T13:49:05+00:00",
+      "mensaje_id": 59271,
+      "url": "https://t.me/empresaelectricacienfuegos1/59271",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
     "C-30": {
       "fecha": "2026-10-12T11:09:34+00:00",
       "mensaje_id": 59264,
@@ -1134,38 +1120,6 @@
         "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
       },
       "lugares": []
-    },
-    "C-84": {
-      "fecha": "2026-10-12T13:36:02+00:00",
-      "mensaje_id": 59270,
-      "url": "https://t.me/empresaelectricacienfuegos1/59270",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T13:36:02+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T12:23:35+00:00",
-        "mensaje_id": 59266,
-        "url": "https://t.me/empresaelectricacienfuegos1/59266",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
-      },
-      "lugares": [
-        "Espartaco (Este",
-        "Maleza",
-        "Dagame",
-        "Paso del Medio",
-        "San Fernando de Camarones",
-        "Jurisdicción",
-        "Manaquita"
-      ]
     },
     "C-55": {
       "fecha": "2026-10-12T13:36:02+00:00",
@@ -1309,17 +1263,11 @@
     "C-11": "avería",
     "C-406": "déficit",
     "C-27": "déficit",
-    "C-28": "déficit"
+    "C-28": "déficit",
+    "C-84": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠Se comunica a nuestros clientes que se encuentra restablecido el servicio en las líneas:\n\n\n👉L-1415 Aguada.\n\n👉L-76 Cruces.\n\n\n👉Ofrecemos disculpas por las molestias ocasionadas.",
-      "id": 59160,
-      "url": "https://t.me/empresaelectricacienfuegos1/59160",
-      "fecha": "2026-10-09T13:43:56+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚡ Actualización del Sistema Eléctrico Nacional para el 9 de octubre de 2026\nPronóstico de afectación:\nPara el pico de la noche: 1880 MW\n\n#UnidosXCuba #UniónEléctrica #UNE #NotaInformativa",
@@ -1616,11 +1564,18 @@
       "id": 59269,
       "url": "https://t.me/empresaelectricacienfuegos1/59269",
       "fecha": "2026-10-12T12:56:57+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59271,
+      "url": "https://t.me/empresaelectricacienfuegos1/59271",
+      "fecha": "2026-10-12T13:49:05+00:00"
     }
   ],
   "lectura": {
-    "texto": 60,
-    "imagenes": 49,
+    "texto": 59,
+    "imagenes": 50,
     "pdf": 0,
     "no_leidos": 7
   },
@@ -2594,9 +2549,9 @@
   ],
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-12T13:36:02+00:00",
-  "total_circuitos_afectados": 56,
+  "total_circuitos_afectados": 57,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 8,
+  "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-2",
@@ -2609,5 +2564,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-12T13:39:30.515088+00:00"
+  "actualizado": "2026-10-12T13:54:31.893502+00:00"
 }
