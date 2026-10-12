@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-12T12:23:35+00:00",
+  "reporte_fecha": "2026-10-12T12:54:28+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-12T03:07:52+00:00",
-  "mensajes_leidos": 109,
+  "mensajes_leidos": 110,
   "afectados": {
     "C-85": [
       "Cumanayagua (Centro"
@@ -291,19 +291,15 @@
       "Breñas",
       "Caña Brava",
       "Dolores"
+    ],
+    "C-11": [
+      "Ariza",
+      "Silverita",
+      "Nuevo México"
     ]
   },
   "programados": {},
   "confirmados_con_servicio": {
-    "C-11": {
-      "fecha": "2026-10-12T01:31:31+00:00",
-      "mensaje_id": 59256,
-      "url": "https://t.me/empresaelectricacienfuegos1/59256",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11 Ariza, Silverita, Nuevo México."
-    },
     "C-30": {
       "fecha": "2026-10-12T11:09:34+00:00",
       "mensaje_id": 59264,
@@ -507,9 +503,9 @@
           "La Pollera"
         ],
         "evidencia": {
-          "fecha": "2026-10-12T11:12:22+00:00",
-          "mensaje_id": 59265,
-          "url": "https://t.me/empresaelectricacienfuegos1/59265",
+          "fecha": "2026-10-12T12:54:28+00:00",
+          "mensaje_id": 59268,
+          "url": "https://t.me/empresaelectricacienfuegos1/59268",
           "medio": "texto",
           "editado": null,
           "confianza": 100,
@@ -548,18 +544,18 @@
       "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
     },
     "C-48": {
-      "fecha": "2026-10-12T11:12:22+00:00",
-      "mensaje_id": 59265,
-      "url": "https://t.me/empresaelectricacienfuegos1/59265",
+      "fecha": "2026-10-12T12:54:28+00:00",
+      "mensaje_id": 59268,
+      "url": "https://t.me/empresaelectricacienfuegos1/59268",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "S-4820": {
-      "fecha": "2026-10-12T11:12:22+00:00",
-      "mensaje_id": 59265,
-      "url": "https://t.me/empresaelectricacienfuegos1/59265",
+      "fecha": "2026-10-12T12:54:28+00:00",
+      "mensaje_id": 59268,
+      "url": "https://t.me/empresaelectricacienfuegos1/59268",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1043,9 +1039,9 @@
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
     "C-11": {
-      "fecha": "2026-10-12T01:31:31+00:00",
-      "mensaje_id": 59256,
-      "url": "https://t.me/empresaelectricacienfuegos1/59256",
+      "fecha": "2026-10-12T12:54:28+00:00",
+      "mensaje_id": 59268,
+      "url": "https://t.me/empresaelectricacienfuegos1/59268",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1308,7 +1304,8 @@
     "C-80": "déficit",
     "C-65": "déficit",
     "C-66": "déficit",
-    "C-35": "déficit"
+    "C-35": "déficit",
+    "C-11": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -1622,11 +1619,25 @@
       "id": 59267,
       "url": "https://t.me/empresaelectricacienfuegos1/59267",
       "fecha": "2026-10-12T12:51:29+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
+      "id": 59268,
+      "url": "https://t.me/empresaelectricacienfuegos1/59268",
+      "fecha": "2026-10-12T12:54:28+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\nActualización del Sistema $\nElectroenergético Nacional ine\nLunes, 12 de octubre de 2026 as\nDisponibilidad MEW\n| Demanda | 3000 MW\nAfectación MLS MW |\n= ae",
+      "id": 59269,
+      "url": "https://t.me/empresaelectricacienfuegos1/59269",
+      "fecha": "2026-10-12T12:56:57+00:00"
     }
   ],
   "lectura": {
     "texto": 60,
-    "imagenes": 49,
+    "imagenes": 50,
     "pdf": 0,
     "no_leidos": 7
   },
@@ -2603,7 +2614,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-12T12:23:35+00:00",
-  "total_circuitos_afectados": 58,
+  "total_circuitos_afectados": 59,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
@@ -2617,5 +2628,5 @@
     "C-92",
     "S-4820"
   ],
-  "actualizado": "2026-10-12T12:54:23.449552+00:00"
+  "actualizado": "2026-10-12T13:09:22.904466+00:00"
 }
