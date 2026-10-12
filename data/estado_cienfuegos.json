@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-12T14:55:45+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 107,
+  "programado_fecha": "2026-10-12T15:22:28+00:00",
+  "mensajes_leidos": 108,
   "afectados": {
     "C-48": [],
     "S-4820": [],
@@ -260,7 +260,18 @@
     "C-408": [],
     "C-89": []
   },
-  "programados": {},
+  "programados": {
+    "C-18": [],
+    "C-20": [],
+    "C-22": [
+      "Rodas (Bombeo Agua Rodas 0-12",
+      "Rodas"
+    ],
+    "C-5": [
+      "Boulevard",
+      "Parque Martí"
+    ]
+  },
   "confirmados_con_servicio": {
     "C-30": {
       "fecha": "2026-10-12T11:09:34+00:00",
@@ -1096,6 +1107,42 @@
       "confianza": 100,
       "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
     },
+    "C-18": {
+      "fecha": "2026-10-12T15:22:28+00:00",
+      "mensaje_id": 59273,
+      "url": "https://t.me/empresaelectricacienfuegos1/59273",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
+    "C-20": {
+      "fecha": "2026-10-12T15:22:28+00:00",
+      "mensaje_id": 59273,
+      "url": "https://t.me/empresaelectricacienfuegos1/59273",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
+    "C-22": {
+      "fecha": "2026-10-12T15:22:28+00:00",
+      "mensaje_id": 59273,
+      "url": "https://t.me/empresaelectricacienfuegos1/59273",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
+    "C-5": {
+      "fecha": "2026-10-12T15:22:28+00:00",
+      "mensaje_id": 59273,
+      "url": "https://t.me/empresaelectricacienfuegos1/59273",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
     "C-30": {
       "fecha": "2026-10-12T11:09:34+00:00",
       "mensaje_id": 59264,
@@ -1128,33 +1175,6 @@
         "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
       },
       "lugares": []
-    },
-    "C-22": {
-      "fecha": "2026-10-12T14:55:45+00:00",
-      "mensaje_id": 59272,
-      "url": "https://t.me/empresaelectricacienfuegos1/59272",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T11:08:21+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T10:32:57+00:00",
-        "mensaje_id": 59262,
-        "url": "https://t.me/empresaelectricacienfuegos1/59262",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-22 Rodas (Bombeo Agua Rodas 0-12)"
-      },
-      "lugares": [
-        "Rodas (Bombeo Agua Rodas 0-12",
-        "Rodas"
-      ]
     },
     "C-92": {
       "fecha": "2026-10-12T14:55:45+00:00",
@@ -1261,33 +1281,6 @@
       },
       "lugares": [
         "Pueblo Griffo Nuevo"
-      ]
-    },
-    "C-5": {
-      "fecha": "2026-10-12T14:55:45+00:00",
-      "mensaje_id": 59272,
-      "url": "https://t.me/empresaelectricacienfuegos1/59272",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T13:36:02+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T12:23:35+00:00",
-        "mensaje_id": 59266,
-        "url": "https://t.me/empresaelectricacienfuegos1/59266",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-5 Boulevard, Parque Martí"
-      },
-      "lugares": [
-        "Boulevard",
-        "Parque Martí"
       ]
     },
     "C-32": {
@@ -1412,7 +1405,28 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-18": {
+      "inicio": null,
+      "fin": "2026-10-13T03:22:28+00:00",
+      "fecha_ambigua": false
+    },
+    "C-20": {
+      "inicio": null,
+      "fin": "2026-10-13T03:22:28+00:00",
+      "fecha_ambigua": false
+    },
+    "C-22": {
+      "inicio": null,
+      "fin": "2026-10-13T03:22:28+00:00",
+      "fecha_ambigua": false
+    },
+    "C-5": {
+      "inicio": null,
+      "fin": "2026-10-13T03:22:28+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 56.0,
   "hora_inicio": null,
@@ -1763,7 +1777,7 @@
   ],
   "lectura": {
     "texto": 58,
-    "imagenes": 49,
+    "imagenes": 50,
     "pdf": 0,
     "no_leidos": 7
   },
@@ -2736,11 +2750,13 @@
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-12T14:55:45+00:00",
   "total_circuitos_afectados": 55,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 11,
   "circuitos_sin_catalogar": [
     "C-17",
+    "C-18",
     "C-2",
+    "C-20",
     "C-31",
     "C-408",
     "C-43",
@@ -2751,5 +2767,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-12T15:09:23.524371+00:00"
+  "actualizado": "2026-10-12T15:24:16.312199+00:00"
 }
