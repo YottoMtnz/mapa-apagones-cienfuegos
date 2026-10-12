@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-12T19:11:28+00:00",
+  "reporte_fecha": "2026-10-12T19:25:18+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-12T19:08:50+00:00",
-  "mensajes_leidos": 114,
+  "mensajes_leidos": 115,
   "afectados": {
     "C-48": [],
     "S-4820": [],
@@ -203,15 +203,6 @@
     ],
     "C-55": [
       "Cruces (Sur"
-    ],
-    "C-7": [
-      "Lajas",
-      "Las Nuevas",
-      "El Salto",
-      "Ajuria",
-      "Santa Susana",
-      "San Marcos",
-      "Chucho Rosa"
     ]
   },
   "programados": {
@@ -250,6 +241,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
+    },
+    "C-7": {
+      "fecha": "2026-10-12T19:25:18+00:00",
+      "mensaje_id": 59286,
+      "url": "https://t.me/empresaelectricacienfuegos1/59286",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-7 Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana, San Marcos, Chucho Rosa."
     }
   },
   "restablecimientos_probables": {
@@ -1261,15 +1261,6 @@
       "confianza": 100,
       "texto": "👉C-55 Cruces (Sur)."
     },
-    "C-7": {
-      "fecha": "2026-10-12T19:11:28+00:00",
-      "mensaje_id": 59285,
-      "url": "https://t.me/empresaelectricacienfuegos1/59285",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana, San Marcos, Chucho Rosa."
-    },
     "C-5": {
       "fecha": "2026-10-12T15:22:28+00:00",
       "mensaje_id": 59273,
@@ -1314,6 +1305,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
+    },
+    "C-7": {
+      "fecha": "2026-10-12T19:25:18+00:00",
+      "mensaje_id": 59286,
+      "url": "https://t.me/empresaelectricacienfuegos1/59286",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-7 Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana, San Marcos, Chucho Rosa."
     },
     "C-17": {
       "fecha": "2026-10-12T18:42:40+00:00",
@@ -1906,8 +1906,7 @@
     "C-89": "déficit",
     "C-18": "déficit",
     "C-22": "déficit",
-    "C-55": "déficit",
-    "C-7": "avería"
+    "C-55": "déficit"
   },
   "error": null,
   "pendientes_revision": [
@@ -2231,7 +2230,7 @@
     }
   ],
   "lectura": {
-    "texto": 63,
+    "texto": 64,
     "imagenes": 51,
     "pdf": 0,
     "no_leidos": 7
@@ -2291,15 +2290,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-31",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-10T19:31:35+00:00",
-      "mensaje_id": 59208,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59203",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59208"
-    },
     {
       "circuito": "C-88",
       "tipo": "salida_lista",
@@ -3190,11 +3180,20 @@
       "mensaje_id": 59282,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59274",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59282"
+    },
+    {
+      "circuito": "C-7",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-12T19:25:18+00:00",
+      "mensaje_id": 59286,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59285",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59286"
     }
   ],
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-12T18:42:40+00:00",
-  "total_circuitos_afectados": 46,
+  "total_circuitos_afectados": 45,
   "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 21,
   "circuitos_sin_catalogar": [
@@ -3212,5 +3211,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-12T19:24:28.667887+00:00"
+  "actualizado": "2026-10-12T19:39:15.855492+00:00"
 }
