@@ -6,13 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-12T03:07:52+00:00",
-  "mensajes_leidos": 109,
+  "mensajes_leidos": 108,
   "afectados": {
-    "C-24": [
-      "Pérez Leyva",
-      "La Redonda",
-      "El Limpio"
-    ],
     "C-85": [
       "Cumanayagua (Centro"
     ],
@@ -210,6 +205,11 @@
     "C-91": [
       "Buena Vista",
       "La Esperanza"
+    ],
+    "C-24": [
+      "Pérez Leyva",
+      "La Redonda",
+      "El Limpio"
     ],
     "C-39": [
       "La Sierrita",
@@ -520,15 +520,6 @@
     ]
   },
   "evidencias": {
-    "C-24": {
-      "fecha": "2026-10-12T12:23:35+00:00",
-      "mensaje_id": 59266,
-      "url": "https://t.me/empresaelectricacienfuegos1/59266",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
-    },
     "C-85": {
       "fecha": "2026-10-12T12:23:35+00:00",
       "mensaje_id": 59266,
@@ -870,6 +861,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
+    "C-24": {
+      "fecha": "2026-10-12T12:23:35+00:00",
+      "mensaje_id": 59266,
+      "url": "https://t.me/empresaelectricacienfuegos1/59266",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
     },
     "C-39": {
       "fecha": "2026-10-12T12:23:35+00:00",
@@ -1251,7 +1251,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-24": "déficit",
     "C-85": "déficit",
     "C-86": "déficit",
     "C-36": "déficit",
@@ -1290,6 +1289,7 @@
     "C-56": "déficit",
     "C-44": "déficit",
     "C-91": "déficit",
+    "C-24": "déficit",
     "C-39": "déficit",
     "C-75": "déficit",
     "C-33": "déficit",
@@ -1312,12 +1312,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "id": 59156,
-      "url": "https://t.me/empresaelectricacienfuegos1/59156",
-      "fecha": "2026-10-09T12:33:08+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚠Se comunica a nuestros clientes que se encuentra afectado el servicio por Disparo Automático por Frecuencia (DAF), las líneas:\n\n\n👉L-1415 Aguada.\n\n👉L-76 Cruces.\n\n\n👉Ofrecemos disculpas por las molestias ocasionadas.",
@@ -1618,9 +1612,9 @@
   ],
   "lectura": {
     "texto": 59,
-    "imagenes": 50,
+    "imagenes": 49,
     "pdf": 0,
-    "no_leidos": 8
+    "no_leidos": 7
   },
   "listas_completas": {
     "deficit": {
@@ -2609,5 +2603,5 @@
     "C-92",
     "S-4820"
   ],
-  "actualizado": "2026-10-12T12:24:32.062272+00:00"
+  "actualizado": "2026-10-12T12:39:22.543453+00:00"
 }
