@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-12T18:52:00+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-12T15:22:28+00:00",
-  "mensajes_leidos": 112,
+  "programado_fecha": "2026-10-12T19:08:50+00:00",
+  "mensajes_leidos": 114,
   "afectados": {
     "C-48": [],
     "S-4820": [],
@@ -209,6 +209,9 @@
     "C-5": [
       "Boulevard",
       "Parque Martí"
+    ],
+    "C-405": [
+      "Pueblo Griffo Nuevo"
     ]
   },
   "confirmados_con_servicio": {
@@ -1290,6 +1293,15 @@
       "confianza": 100,
       "texto": "👉C-18 Arizona, La Juanita."
     },
+    "C-405": {
+      "fecha": "2026-10-12T19:08:50+00:00",
+      "mensaje_id": 59284,
+      "url": "https://t.me/empresaelectricacienfuegos1/59284",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-405 Pueblo Griffo Nuevo."
+    },
     "C-30": {
       "fecha": "2026-10-12T11:09:34+00:00",
       "mensaje_id": 59264,
@@ -1394,32 +1406,6 @@
         "La Furnia",
         "Monasterio",
         "El Concuní"
-      ]
-    },
-    "C-405": {
-      "fecha": "2026-10-12T18:42:40+00:00",
-      "mensaje_id": 59280,
-      "url": "https://t.me/empresaelectricacienfuegos1/59280",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T13:36:02+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T12:23:35+00:00",
-        "mensaje_id": 59266,
-        "url": "https://t.me/empresaelectricacienfuegos1/59266",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-405  \"Pueblo Griffo Nuevo.\""
-      },
-      "lugares": [
-        "Pueblo Griffo Nuevo"
       ]
     },
     "C-32": {
@@ -1909,6 +1895,11 @@
       "inicio": null,
       "fin": "2026-10-13T03:22:28+00:00",
       "fecha_ambigua": false
+    },
+    "C-405": {
+      "inicio": null,
+      "fin": "2026-10-13T07:08:50+00:00",
+      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
@@ -2268,11 +2259,18 @@
       "id": 59281,
       "url": "https://t.me/empresaelectricacienfuegos1/59281",
       "fecha": "2026-10-12T18:45:47+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠Se comunica a nuestros clientes que se encuentra restablecido el servicio en la línea:\n\n\n👉L-1410 Horquita, San Ignacio.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas",
+      "id": 59283,
+      "url": "https://t.me/empresaelectricacienfuegos1/59283",
+      "fecha": "2026-10-12T19:06:54+00:00"
     }
   ],
   "lectura": {
-    "texto": 62,
-    "imagenes": 50,
+    "texto": 63,
+    "imagenes": 51,
     "pdf": 0,
     "no_leidos": 7
   },
@@ -3235,7 +3233,7 @@
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-12T18:42:40+00:00",
   "total_circuitos_afectados": 45,
-  "total_circuitos_programados": 1,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 22,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3252,5 +3250,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-12T18:54:26.440768+00:00"
+  "actualizado": "2026-10-12T19:09:48.915404+00:00"
 }
