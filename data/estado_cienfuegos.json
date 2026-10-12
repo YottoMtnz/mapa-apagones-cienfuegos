@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-12T18:52:00+00:00",
+  "reporte_fecha": "2026-10-12T19:11:28+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-12T19:08:50+00:00",
@@ -203,6 +203,15 @@
     ],
     "C-55": [
       "Cruces (Sur"
+    ],
+    "C-7": [
+      "Lajas",
+      "Las Nuevas",
+      "El Salto",
+      "Ajuria",
+      "Santa Susana",
+      "San Marcos",
+      "Chucho Rosa"
     ]
   },
   "programados": {
@@ -666,38 +675,6 @@
         "Caracas",
         "Mora",
         "San Isidro"
-      ]
-    },
-    "C-7": {
-      "fecha": "2026-10-12T18:42:40+00:00",
-      "mensaje_id": 59280,
-      "url": "https://t.me/empresaelectricacienfuegos1/59280",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T17:36:23+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T16:05:00+00:00",
-        "mensaje_id": 59275,
-        "url": "https://t.me/empresaelectricacienfuegos1/59275",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\""
-      },
-      "lugares": [
-        "Lajas",
-        "Las Nuevas",
-        "El Salto",
-        "Ajuria",
-        "Santa Susana",
-        "San Marcos",
-        "Chucho Rosa"
       ]
     },
     "C-57": {
@@ -1284,6 +1261,15 @@
       "confianza": 100,
       "texto": "👉C-55 Cruces (Sur)."
     },
+    "C-7": {
+      "fecha": "2026-10-12T19:11:28+00:00",
+      "mensaje_id": 59285,
+      "url": "https://t.me/empresaelectricacienfuegos1/59285",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-7 Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana, San Marcos, Chucho Rosa."
+    },
     "C-5": {
       "fecha": "2026-10-12T15:22:28+00:00",
       "mensaje_id": 59273,
@@ -1700,38 +1686,6 @@
         "San Isidro"
       ]
     },
-    "C-7": {
-      "fecha": "2026-10-12T18:42:40+00:00",
-      "mensaje_id": 59280,
-      "url": "https://t.me/empresaelectricacienfuegos1/59280",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T17:36:23+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T16:05:00+00:00",
-        "mensaje_id": 59275,
-        "url": "https://t.me/empresaelectricacienfuegos1/59275",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\""
-      },
-      "lugares": [
-        "Lajas",
-        "Las Nuevas",
-        "El Salto",
-        "Ajuria",
-        "Santa Susana",
-        "San Marcos",
-        "Chucho Rosa"
-      ]
-    },
     "C-57": {
       "fecha": "2026-10-12T18:42:40+00:00",
       "mensaje_id": 59280,
@@ -1952,7 +1906,8 @@
     "C-89": "déficit",
     "C-18": "déficit",
     "C-22": "déficit",
-    "C-55": "déficit"
+    "C-55": "déficit",
+    "C-7": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2266,6 +2221,13 @@
       "id": 59283,
       "url": "https://t.me/empresaelectricacienfuegos1/59283",
       "fecha": "2026-10-12T19:06:54+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59285,
+      "url": "https://t.me/empresaelectricacienfuegos1/59285",
+      "fecha": "2026-10-12T19:11:28+00:00"
     }
   ],
   "lectura": {
@@ -3232,9 +3194,9 @@
   ],
   "lectura_incompleta_desde": "2026-10-09T20:08:51+00:00",
   "mw_fecha": "2026-10-12T18:42:40+00:00",
-  "total_circuitos_afectados": 45,
+  "total_circuitos_afectados": 46,
   "total_circuitos_programados": 2,
-  "total_restablecimientos_probables": 22,
+  "total_restablecimientos_probables": 21,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3250,5 +3212,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-12T19:09:48.915404+00:00"
+  "actualizado": "2026-10-12T19:24:28.667887+00:00"
 }
