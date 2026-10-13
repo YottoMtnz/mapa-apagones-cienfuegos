@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-13T03:02:04+00:00",
+  "reporte_fecha": "2026-10-13T04:32:00+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-13T03:08:24+00:00",
-  "mensajes_leidos": 116,
+  "mensajes_leidos": 117,
   "afectados": {
     "C-8": [
       "El Pino",
@@ -276,10 +276,6 @@
       "Ciego Montero",
       "La Amalia",
       "Ceiba Hueca"
-    ],
-    "C-30": [
-      "14 de Julio",
-      "Batey 2 Hermanos"
     ]
   },
   "programados": {
@@ -323,6 +319,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
+    },
+    "C-30": {
+      "fecha": "2026-10-13T04:32:00+00:00",
+      "mensaje_id": 59299,
+      "url": "https://t.me/empresaelectricacienfuegos1/59299",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
     }
   },
   "restablecimientos_probables": {
@@ -1132,15 +1137,6 @@
       "confianza": 100,
       "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
     },
-    "C-30": {
-      "fecha": "2026-10-13T00:52:38+00:00",
-      "mensaje_id": 59295,
-      "url": "https://t.me/empresaelectricacienfuegos1/59295",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
-    },
     "C-91": {
       "fecha": "2026-10-13T03:08:24+00:00",
       "mensaje_id": 59298,
@@ -1221,6 +1217,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
+    },
+    "C-30": {
+      "fecha": "2026-10-13T04:32:00+00:00",
+      "mensaje_id": 59299,
+      "url": "https://t.me/empresaelectricacienfuegos1/59299",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
     },
     "C-17": {
       "fecha": "2026-10-13T03:02:04+00:00",
@@ -1426,8 +1431,7 @@
     "C-66": "déficit",
     "C-72": "déficit",
     "C-80": "déficit",
-    "C-49": "déficit",
-    "C-30": "avería"
+    "C-49": "déficit"
   },
   "error": null,
   "pendientes_revision": [
@@ -1735,7 +1739,7 @@
     }
   ],
   "lectura": {
-    "texto": 66,
+    "texto": 67,
     "imagenes": 50,
     "pdf": 0,
     "no_leidos": 6
@@ -1809,15 +1813,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-28",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-11T01:55:55+00:00",
-      "mensaje_id": 59219,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59218",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59219"
-    },
     {
       "circuito": "C-43",
       "tipo": "salida_lista",
@@ -2708,10 +2703,19 @@
       "mensaje_id": 59296,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59294",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59296"
+    },
+    {
+      "circuito": "C-30",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-13T04:32:00+00:00",
+      "mensaje_id": 59299,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59295",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59299"
     }
   ],
   "mw_fecha": "2026-10-13T03:02:04+00:00",
-  "total_circuitos_afectados": 56,
+  "total_circuitos_afectados": 55,
   "total_circuitos_programados": 8,
   "total_restablecimientos_probables": 11,
   "circuitos_sin_catalogar": [
@@ -2726,5 +2730,5 @@
     "C-89",
     "C-92"
   ],
-  "actualizado": "2026-10-13T04:19:20.537004+00:00"
+  "actualizado": "2026-10-13T04:34:20.019161+00:00"
 }
