@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-13T19:12:31+00:00",
-  "mensajes_leidos": 103,
+  "mensajes_leidos": 102,
   "afectados": {
     "C-38": [
       "El Abra",
@@ -39,8 +39,6 @@
       "5 de Septiembre",
       "Guayabito"
     ],
-    "C-48": [],
-    "S-4820": [],
     "C-25": [
       "Abreus (Pueblo"
     ],
@@ -732,7 +730,7 @@
           "confianza": 100,
           "texto": "👉C-90 (FW1558) La Pollera"
         },
-        "vigente": true
+        "vigente": false
       }
     ]
   },
@@ -781,24 +779,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
-    },
-    "C-48": {
-      "fecha": "2026-10-13T11:23:22+00:00",
-      "mensaje_id": 59303,
-      "url": "https://t.me/empresaelectricacienfuegos1/59303",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-4820": {
-      "fecha": "2026-10-13T11:23:22+00:00",
-      "mensaje_id": 59303,
-      "url": "https://t.me/empresaelectricacienfuegos1/59303",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "C-25": {
       "fecha": "2026-10-13T20:39:49+00:00",
@@ -1667,8 +1647,6 @@
     "C-102": "déficit",
     "C-103": "déficit",
     "C-23": "déficit",
-    "C-48": "avería",
-    "S-4820": "avería",
     "C-25": "déficit",
     "C-11": "déficit",
     "C-27": "déficit",
@@ -1720,13 +1698,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
-      "id": 59217,
-      "url": "https://t.me/empresaelectricacienfuegos1/59217",
-      "fecha": "2026-10-10T23:22:44+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
@@ -1950,7 +1921,7 @@
   ],
   "lectura": {
     "texto": 62,
-    "imagenes": 41,
+    "imagenes": 40,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -2922,7 +2893,7 @@
     }
   ],
   "mw_fecha": "2026-10-13T20:39:49+00:00",
-  "total_circuitos_afectados": 55,
+  "total_circuitos_afectados": 53,
   "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
@@ -2933,13 +2904,11 @@
     "C-31",
     "C-408",
     "C-43",
-    "C-48",
     "C-58",
     "C-59",
     "C-89",
     "C-92",
-    "C-94",
-    "S-4820"
+    "C-94"
   ],
-  "actualizado": "2026-10-13T23:19:18.773263+00:00"
+  "actualizado": "2026-10-13T23:34:23.520890+00:00"
 }
