@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-13T15:07:38+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 111,
+  "programado_fecha": "2026-10-13T15:34:43+00:00",
+  "mensajes_leidos": 112,
   "afectados": {
     "C-47": [
       "Elpidio Gómez",
@@ -265,7 +265,18 @@
       "Palmira (Norte"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-18": [],
+    "C-20": [],
+    "C-36": [
+      "Cumanayagua (Sur",
+      "La Guasasa",
+      "Ceibabo",
+      "La Furnia",
+      "Monasterio",
+      "El Concuní"
+    ]
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-17": {
@@ -1240,6 +1251,33 @@
       "confianza": 100,
       "texto": "👉C-50 \"Palmira (Norte)."
     },
+    "C-18": {
+      "fecha": "2026-10-13T15:34:43+00:00",
+      "mensaje_id": 59310,
+      "url": "https://t.me/empresaelectricacienfuegos1/59310",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
+    "C-20": {
+      "fecha": "2026-10-13T15:34:43+00:00",
+      "mensaje_id": 59310,
+      "url": "https://t.me/empresaelectricacienfuegos1/59310",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
+    "C-36": {
+      "fecha": "2026-10-13T15:34:43+00:00",
+      "mensaje_id": 59310,
+      "url": "https://t.me/empresaelectricacienfuegos1/59310",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
     "C-17": {
       "fecha": "2026-10-13T15:07:38+00:00",
       "mensaje_id": 59309,
@@ -1288,54 +1326,6 @@
       },
       "lugares": []
     },
-    "C-18": {
-      "fecha": "2026-10-13T15:07:38+00:00",
-      "mensaje_id": 59309,
-      "url": "https://t.me/empresaelectricacienfuegos1/59309",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-13T11:19:56+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-13T10:06:53+00:00",
-        "mensaje_id": 59301,
-        "url": "https://t.me/empresaelectricacienfuegos1/59301",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
-    "C-20": {
-      "fecha": "2026-10-13T15:07:38+00:00",
-      "mensaje_id": 59309,
-      "url": "https://t.me/empresaelectricacienfuegos1/59309",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-13T11:19:56+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-13T10:06:53+00:00",
-        "mensaje_id": 59301,
-        "url": "https://t.me/empresaelectricacienfuegos1/59301",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
-      },
-      "lugares": []
-    },
     "C-406": {
       "fecha": "2026-10-13T15:07:38+00:00",
       "mensaje_id": 59309,
@@ -1363,37 +1353,6 @@
         "Calle 35 de Ave 58 hasta Ave 64",
         "Ave 58 de Calle 47 hasta Calle 49",
         "Calle 47 de Ave 54 hasta Ave 58"
-      ]
-    },
-    "C-36": {
-      "fecha": "2026-10-13T15:07:38+00:00",
-      "mensaje_id": 59309,
-      "url": "https://t.me/empresaelectricacienfuegos1/59309",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-13T12:09:35+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-13T11:19:56+00:00",
-        "mensaje_id": 59302,
-        "url": "https://t.me/empresaelectricacienfuegos1/59302",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
-      },
-      "lugares": [
-        "Cumanayagua (Sur",
-        "La Guasasa",
-        "Ceibabo",
-        "La Furnia",
-        "Monasterio",
-        "El Concuní"
       ]
     },
     "C-78": {
@@ -1678,7 +1637,23 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-18": {
+      "inicio": null,
+      "fin": "2026-10-14T03:34:43+00:00",
+      "fecha_ambigua": false
+    },
+    "C-20": {
+      "inicio": null,
+      "fin": "2026-10-14T03:34:43+00:00",
+      "fecha_ambigua": false
+    },
+    "C-36": {
+      "inicio": null,
+      "fin": "2026-10-14T03:34:43+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -2031,7 +2006,7 @@
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 46,
+    "imagenes": 47,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -3006,7 +2981,7 @@
   ],
   "mw_fecha": "2026-10-13T15:07:38+00:00",
   "total_circuitos_afectados": 57,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3024,5 +2999,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-13T15:34:16.873166+00:00"
+  "actualizado": "2026-10-13T15:49:32.476086+00:00"
 }
