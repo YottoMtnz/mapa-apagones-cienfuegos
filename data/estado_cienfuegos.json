@@ -2,14 +2,12 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-12T23:51:55+00:00",
+  "reporte_fecha": "2026-10-13T00:52:38+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-12T21:13:20+00:00",
-  "mensajes_leidos": 115,
+  "mensajes_leidos": 116,
   "afectados": {
-    "C-48": [],
-    "S-4820": [],
     "C-8": [
       "El Pino",
       "Congojas",
@@ -141,11 +139,6 @@
       "Breñas",
       "Caña Brava",
       "Dolores"
-    ],
-    "C-11": [
-      "Ariza",
-      "Silverita",
-      "Nuevo México"
     ],
     "C-406": [
       "San Lázaro",
@@ -289,6 +282,10 @@
       "Ciego Montero",
       "La Amalia",
       "Ceiba Hueca"
+    ],
+    "C-30": [
+      "14 de Julio",
+      "Batey 2 Hermanos"
     ]
   },
   "programados": {},
@@ -586,29 +583,11 @@
           "confianza": 100,
           "texto": "👉C-90 (FW1558) La Pollera"
         },
-        "vigente": true
+        "vigente": false
       }
     ]
   },
   "evidencias": {
-    "C-48": {
-      "fecha": "2026-10-12T12:54:28+00:00",
-      "mensaje_id": 59268,
-      "url": "https://t.me/empresaelectricacienfuegos1/59268",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-4820": {
-      "fecha": "2026-10-12T12:54:28+00:00",
-      "mensaje_id": 59268,
-      "url": "https://t.me/empresaelectricacienfuegos1/59268",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
     "C-8": {
       "fecha": "2026-10-12T23:51:55+00:00",
       "mensaje_id": 59294,
@@ -851,15 +830,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
-    },
-    "C-11": {
-      "fecha": "2026-10-12T12:54:28+00:00",
-      "mensaje_id": 59268,
-      "url": "https://t.me/empresaelectricacienfuegos1/59268",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11 Ariza, Silverita, Nuevo México."
     },
     "C-406": {
       "fecha": "2026-10-12T23:51:55+00:00",
@@ -1130,6 +1100,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
+    },
+    "C-30": {
+      "fecha": "2026-10-13T00:52:38+00:00",
+      "mensaje_id": 59295,
+      "url": "https://t.me/empresaelectricacienfuegos1/59295",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
     },
     "C-59": {
       "fecha": "2026-10-12T18:52:00+00:00",
@@ -1413,8 +1392,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-48": "avería",
-    "S-4820": "avería",
     "C-8": "déficit",
     "C-47": "déficit",
     "C-53": "déficit",
@@ -1442,7 +1419,6 @@
     "C-25": "déficit",
     "C-43": "déficit",
     "C-35": "déficit",
-    "C-11": "avería",
     "C-406": "déficit",
     "C-27": "déficit",
     "C-28": "déficit",
@@ -1472,7 +1448,8 @@
     "C-66": "déficit",
     "C-72": "déficit",
     "C-80": "déficit",
-    "C-49": "déficit"
+    "C-49": "déficit",
+    "C-30": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -1777,11 +1754,18 @@
       "id": 59293,
       "url": "https://t.me/empresaelectricacienfuegos1/59293",
       "fecha": "2026-10-12T23:49:55+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
+      "id": 59295,
+      "url": "https://t.me/empresaelectricacienfuegos1/59295",
+      "fecha": "2026-10-13T00:52:38+00:00"
     }
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 50,
+    "imagenes": 51,
     "pdf": 0,
     "no_leidos": 6
   },
@@ -2757,7 +2741,7 @@
     }
   ],
   "mw_fecha": "2026-10-12T23:51:55+00:00",
-  "total_circuitos_afectados": 60,
+  "total_circuitos_afectados": 58,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 10,
   "circuitos_sin_catalogar": [
@@ -2768,12 +2752,10 @@
     "C-31",
     "C-408",
     "C-43",
-    "C-48",
     "C-58",
     "C-89",
     "C-92",
-    "C-94",
-    "S-4820"
+    "C-94"
   ],
-  "actualizado": "2026-10-13T00:44:22.053493+00:00"
+  "actualizado": "2026-10-13T00:59:21.493190+00:00"
 }
