@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-13T03:02:04+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-12T21:13:20+00:00",
-  "mensajes_leidos": 116,
+  "programado_fecha": "2026-10-13T03:08:24+00:00",
+  "mensajes_leidos": 117,
   "afectados": {
     "C-8": [
       "El Pino",
@@ -282,7 +282,38 @@
       "Batey 2 Hermanos"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-91": [
+      "Buena Vista",
+      "La Esperanza"
+    ],
+    "C-90": [
+      "FW1558) La Pollera"
+    ],
+    "C-70": [
+      "Aguada",
+      "Federal"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
+    ],
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
+    ],
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
+    ],
+    "C-3": [
+      "Reparto Eléctrico"
+    ],
+    "C-2": []
+  },
   "confirmados_con_servicio": {
     "C-59": {
       "fecha": "2026-10-12T18:52:00+00:00",
@@ -1110,6 +1141,78 @@
       "confianza": 100,
       "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
     },
+    "C-91": {
+      "fecha": "2026-10-13T03:08:24+00:00",
+      "mensaje_id": 59298,
+      "url": "https://t.me/empresaelectricacienfuegos1/59298",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
+    "C-90": {
+      "fecha": "2026-10-13T03:08:24+00:00",
+      "mensaje_id": 59298,
+      "url": "https://t.me/empresaelectricacienfuegos1/59298",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
+    "C-70": {
+      "fecha": "2026-10-13T03:08:24+00:00",
+      "mensaje_id": 59298,
+      "url": "https://t.me/empresaelectricacienfuegos1/59298",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
+    "C-67": {
+      "fecha": "2026-10-13T03:08:24+00:00",
+      "mensaje_id": 59298,
+      "url": "https://t.me/empresaelectricacienfuegos1/59298",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
+    "C-69": {
+      "fecha": "2026-10-13T03:08:24+00:00",
+      "mensaje_id": 59298,
+      "url": "https://t.me/empresaelectricacienfuegos1/59298",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
+    "C-15": {
+      "fecha": "2026-10-13T03:08:24+00:00",
+      "mensaje_id": 59298,
+      "url": "https://t.me/empresaelectricacienfuegos1/59298",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
+    "C-3": {
+      "fecha": "2026-10-13T03:08:24+00:00",
+      "mensaje_id": 59298,
+      "url": "https://t.me/empresaelectricacienfuegos1/59298",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
+    "C-2": {
+      "fecha": "2026-10-13T03:08:24+00:00",
+      "mensaje_id": 59298,
+      "url": "https://t.me/empresaelectricacienfuegos1/59298",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
     "C-59": {
       "fecha": "2026-10-12T18:52:00+00:00",
       "mensaje_id": 59282,
@@ -1167,110 +1270,6 @@
       },
       "lugares": []
     },
-    "C-91": {
-      "fecha": "2026-10-13T03:02:04+00:00",
-      "mensaje_id": 59297,
-      "url": "https://t.me/empresaelectricacienfuegos1/59297",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T17:36:23+00:00",
-      "listas_consecutivas": 8,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T16:05:00+00:00",
-        "mensaje_id": 59275,
-        "url": "https://t.me/empresaelectricacienfuegos1/59275",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-91 Buena Vista, La Esperanza."
-      },
-      "lugares": [
-        "Buena Vista",
-        "La Esperanza"
-      ]
-    },
-    "C-2": {
-      "fecha": "2026-10-13T03:02:04+00:00",
-      "mensaje_id": 59297,
-      "url": "https://t.me/empresaelectricacienfuegos1/59297",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T22:17:51+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T20:59:49+00:00",
-        "mensaje_id": 59289,
-        "url": "https://t.me/empresaelectricacienfuegos1/59289",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
-      },
-      "lugares": []
-    },
-    "C-3": {
-      "fecha": "2026-10-13T03:02:04+00:00",
-      "mensaje_id": 59297,
-      "url": "https://t.me/empresaelectricacienfuegos1/59297",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T22:17:51+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T20:59:49+00:00",
-        "mensaje_id": 59289,
-        "url": "https://t.me/empresaelectricacienfuegos1/59289",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-3 Reparto Eléctrico"
-      },
-      "lugares": [
-        "Reparto Eléctrico"
-      ]
-    },
-    "C-70": {
-      "fecha": "2026-10-13T03:02:04+00:00",
-      "mensaje_id": 59297,
-      "url": "https://t.me/empresaelectricacienfuegos1/59297",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T22:17:51+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T20:59:49+00:00",
-        "mensaje_id": 59289,
-        "url": "https://t.me/empresaelectricacienfuegos1/59289",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-70 \"Aguada, Federal."
-      },
-      "lugares": [
-        "Aguada",
-        "Federal"
-      ]
-    },
     "C-26": {
       "fecha": "2026-10-13T03:02:04+00:00",
       "mensaje_id": 59297,
@@ -1300,90 +1299,6 @@
         "El Paisíto"
       ]
     },
-    "C-67": {
-      "fecha": "2026-10-13T03:02:04+00:00",
-      "mensaje_id": 59297,
-      "url": "https://t.me/empresaelectricacienfuegos1/59297",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T23:51:55+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T22:17:51+00:00",
-        "mensaje_id": 59292,
-        "url": "https://t.me/empresaelectricacienfuegos1/59292",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-67 \"El Crucero, Guaos, Naranjito."
-      },
-      "lugares": [
-        "El Crucero",
-        "Guaos",
-        "Naranjito"
-      ]
-    },
-    "C-15": {
-      "fecha": "2026-10-13T03:02:04+00:00",
-      "mensaje_id": 59297,
-      "url": "https://t.me/empresaelectricacienfuegos1/59297",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T23:51:55+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T22:17:51+00:00",
-        "mensaje_id": 59292,
-        "url": "https://t.me/empresaelectricacienfuegos1/59292",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-15 Pepito Tey, Guabairo."
-      },
-      "lugares": [
-        "Pepito Tey",
-        "Guabairo"
-      ]
-    },
-    "C-69": {
-      "fecha": "2026-10-13T03:02:04+00:00",
-      "mensaje_id": 59297,
-      "url": "https://t.me/empresaelectricacienfuegos1/59297",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T23:51:55+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T22:17:51+00:00",
-        "mensaje_id": 59292,
-        "url": "https://t.me/empresaelectricacienfuegos1/59292",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-      },
-      "lugares": [
-        "Junco Sur",
-        "Reparto de los médicos",
-        "Las Minas",
-        "Playa Alegre"
-      ]
-    },
     "C-89": {
       "fecha": "2026-10-13T03:02:04+00:00",
       "mensaje_id": 59297,
@@ -1409,7 +1324,48 @@
       "lugares": []
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-91": {
+      "inicio": null,
+      "fin": "2026-10-13T15:08:24+00:00",
+      "fecha_ambigua": false
+    },
+    "C-90": {
+      "inicio": null,
+      "fin": "2026-10-13T15:08:24+00:00",
+      "fecha_ambigua": false
+    },
+    "C-70": {
+      "inicio": null,
+      "fin": "2026-10-13T15:08:24+00:00",
+      "fecha_ambigua": false
+    },
+    "C-67": {
+      "inicio": null,
+      "fin": "2026-10-13T15:08:24+00:00",
+      "fecha_ambigua": false
+    },
+    "C-69": {
+      "inicio": null,
+      "fin": "2026-10-13T15:08:24+00:00",
+      "fecha_ambigua": false
+    },
+    "C-15": {
+      "inicio": null,
+      "fin": "2026-10-13T15:08:24+00:00",
+      "fecha_ambigua": false
+    },
+    "C-3": {
+      "inicio": null,
+      "fin": "2026-10-13T15:08:24+00:00",
+      "fecha_ambigua": false
+    },
+    "C-2": {
+      "inicio": null,
+      "fin": "2026-10-13T15:08:24+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 70.0,
   "hora_inicio": null,
@@ -1780,7 +1736,7 @@
   ],
   "lectura": {
     "texto": 66,
-    "imagenes": 50,
+    "imagenes": 51,
     "pdf": 0,
     "no_leidos": 6
   },
@@ -2756,7 +2712,7 @@
   ],
   "mw_fecha": "2026-10-13T03:02:04+00:00",
   "total_circuitos_afectados": 56,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 8,
   "total_restablecimientos_probables": 11,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2770,5 +2726,5 @@
     "C-89",
     "C-92"
   ],
-  "actualizado": "2026-10-13T03:04:26.880726+00:00"
+  "actualizado": "2026-10-13T03:19:27.612180+00:00"
 }
