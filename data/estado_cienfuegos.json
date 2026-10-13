@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-13T19:01:46+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-13T15:34:43+00:00",
-  "mensajes_leidos": 108,
+  "programado_fecha": "2026-10-13T19:12:31+00:00",
+  "mensajes_leidos": 107,
   "afectados": {
     "C-38": [
       "El Abra",
@@ -251,7 +251,30 @@
       "Cumanayagua (Centro"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-24": [
+      "Pérez Leyva",
+      "La Redonda",
+      "El Limpio"
+    ],
+    "C-406": [
+      "San Lázaro",
+      "Calle 35 de Ave 58 hasta Ave 64",
+      "Ave 58 de Calle 47 hasta Calle 49",
+      "Calle 47 de Ave 54 hasta Ave 58"
+    ],
+    "C-47": [
+      "Elpidio Gómez",
+      "Altamira",
+      "La Peseta"
+    ],
+    "C-8": [
+      "El Pino",
+      "Congojas",
+      "La Lolita",
+      "Parque Alto"
+    ]
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-17": {
@@ -1242,6 +1265,42 @@
       "confianza": 100,
       "texto": "👉C-85 \"Cumanayagua (Centro)."
     },
+    "C-24": {
+      "fecha": "2026-10-13T19:12:31+00:00",
+      "mensaje_id": 59314,
+      "url": "https://t.me/empresaelectricacienfuegos1/59314",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
+    },
+    "C-406": {
+      "fecha": "2026-10-13T19:12:31+00:00",
+      "mensaje_id": 59314,
+      "url": "https://t.me/empresaelectricacienfuegos1/59314",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
+    },
+    "C-47": {
+      "fecha": "2026-10-13T19:12:31+00:00",
+      "mensaje_id": 59314,
+      "url": "https://t.me/empresaelectricacienfuegos1/59314",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
+    },
+    "C-8": {
+      "fecha": "2026-10-13T19:12:31+00:00",
+      "mensaje_id": 59314,
+      "url": "https://t.me/empresaelectricacienfuegos1/59314",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
+    },
     "C-17": {
       "fecha": "2026-10-13T19:01:46+00:00",
       "mensaje_id": 59313,
@@ -1289,120 +1348,6 @@
         "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
       },
       "lugares": []
-    },
-    "C-406": {
-      "fecha": "2026-10-13T19:01:46+00:00",
-      "mensaje_id": 59313,
-      "url": "https://t.me/empresaelectricacienfuegos1/59313",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-13T12:09:35+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-10-13T11:19:56+00:00",
-        "mensaje_id": 59302,
-        "url": "https://t.me/empresaelectricacienfuegos1/59302",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-406  \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58.\""
-      },
-      "lugares": [
-        "San Lázaro",
-        "Calle 35 de Ave 58 hasta Ave 64",
-        "Ave 58 de Calle 47 hasta Calle 49",
-        "Calle 47 de Ave 54 hasta Ave 58"
-      ]
-    },
-    "C-8": {
-      "fecha": "2026-10-13T19:01:46+00:00",
-      "mensaje_id": 59313,
-      "url": "https://t.me/empresaelectricacienfuegos1/59313",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-13T15:07:38+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-13T13:54:45+00:00",
-        "mensaje_id": 59307,
-        "url": "https://t.me/empresaelectricacienfuegos1/59307",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-8  Congojas, La Lolita."
-      },
-      "lugares": [
-        "El Pino",
-        "Congojas",
-        "La Lolita",
-        "Parque Alto"
-      ]
-    },
-    "C-47": {
-      "fecha": "2026-10-13T19:01:46+00:00",
-      "mensaje_id": 59313,
-      "url": "https://t.me/empresaelectricacienfuegos1/59313",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-13T16:12:08+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-13T15:07:38+00:00",
-        "mensaje_id": 59309,
-        "url": "https://t.me/empresaelectricacienfuegos1/59309",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
-      },
-      "lugares": [
-        "Elpidio Gómez",
-        "Altamira",
-        "La Peseta"
-      ]
-    },
-    "C-24": {
-      "fecha": "2026-10-13T19:01:46+00:00",
-      "mensaje_id": 59313,
-      "url": "https://t.me/empresaelectricacienfuegos1/59313",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-13T16:12:08+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-13T15:07:38+00:00",
-        "mensaje_id": 59309,
-        "url": "https://t.me/empresaelectricacienfuegos1/59309",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
-      },
-      "lugares": [
-        "Pérez Leyva",
-        "La Redonda",
-        "El Limpio"
-      ]
     },
     "C-69": {
       "fecha": "2026-10-13T19:01:46+00:00",
@@ -1714,7 +1659,28 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-24": {
+      "inicio": null,
+      "fin": "2026-10-14T07:12:31+00:00",
+      "fecha_ambigua": false
+    },
+    "C-406": {
+      "inicio": null,
+      "fin": "2026-10-14T07:12:31+00:00",
+      "fecha_ambigua": false
+    },
+    "C-47": {
+      "inicio": null,
+      "fin": "2026-10-14T07:12:31+00:00",
+      "fecha_ambigua": false
+    },
+    "C-8": {
+      "inicio": null,
+      "fin": "2026-10-14T07:12:31+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -1779,20 +1745,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
-      "id": 59206,
-      "url": "https://t.me/empresaelectricacienfuegos1/59206",
-      "fecha": "2026-10-10T19:08:49+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
-      "id": 59207,
-      "url": "https://t.me/empresaelectricacienfuegos1/59207",
-      "fecha": "2026-10-10T19:11:10+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Unión Nacional Eléctrica informa:\n\n🟢 15:17 ||Restablecida la desconexión parcial del SEN en la zona oriental.",
@@ -2037,7 +1989,7 @@
   ],
   "lectura": {
     "texto": 64,
-    "imagenes": 44,
+    "imagenes": 43,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -3009,7 +2961,7 @@
   ],
   "mw_fecha": "2026-10-13T19:01:46+00:00",
   "total_circuitos_afectados": 55,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3027,5 +2979,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-13T19:04:29.214717+00:00"
+  "actualizado": "2026-10-13T19:19:24.759154+00:00"
 }
