@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-13T20:39:49+00:00",
+  "reporte_fecha": "2026-10-13T22:59:06+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-13T19:12:31+00:00",
-  "mensajes_leidos": 103,
+  "mensajes_leidos": 104,
   "afectados": {
     "C-38": [
       "El Abra",
@@ -57,15 +57,6 @@
       "CEN",
       "Castillo de Jagua",
       "La Loma"
-    ],
-    "C-84": [
-      "Espartaco (Este",
-      "Maleza",
-      "Dagame",
-      "Paso del Medio",
-      "San Fernando de Camarones",
-      "Jurisdicción",
-      "Manaquita"
     ],
     "C-408": [],
     "C-22": [
@@ -271,7 +262,17 @@
       "Parque Alto"
     ]
   },
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-84": {
+      "fecha": "2026-10-13T22:59:06+00:00",
+      "mensaje_id": 59318,
+      "url": "https://t.me/empresaelectricacienfuegos1/59318",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    }
+  },
   "restablecimientos_probables": {
     "C-17": {
       "fecha": "2026-10-13T20:39:49+00:00",
@@ -835,15 +836,6 @@
       "confianza": 100,
       "texto": "👉C-28 CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)"
     },
-    "C-84": {
-      "fecha": "2026-10-13T13:15:31+00:00",
-      "mensaje_id": 59306,
-      "url": "https://t.me/empresaelectricacienfuegos1/59306",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
-    },
     "C-408": {
       "fecha": "2026-10-13T20:39:49+00:00",
       "mensaje_id": 59317,
@@ -1257,6 +1249,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
+    },
+    "C-84": {
+      "fecha": "2026-10-13T22:59:06+00:00",
+      "mensaje_id": 59318,
+      "url": "https://t.me/empresaelectricacienfuegos1/59318",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     },
     "C-17": {
       "fecha": "2026-10-13T20:39:49+00:00",
@@ -1672,7 +1673,6 @@
     "C-11": "déficit",
     "C-27": "déficit",
     "C-28": "déficit",
-    "C-84": "avería",
     "C-408": "déficit",
     "C-22": "déficit",
     "C-55": "déficit",
@@ -1949,7 +1949,7 @@
     }
   ],
   "lectura": {
-    "texto": 62,
+    "texto": 63,
     "imagenes": 41,
     "pdf": 0,
     "no_leidos": 4
@@ -2020,15 +2020,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-3",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-11T23:38:10+00:00",
-      "mensaje_id": 59253,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59250",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59253"
-    },
     {
       "circuito": "C-69",
       "tipo": "salida_lista",
@@ -2919,10 +2910,19 @@
       "mensaje_id": 59317,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59313",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59317"
+    },
+    {
+      "circuito": "C-84",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-13T22:59:06+00:00",
+      "mensaje_id": 59318,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59306",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59318"
     }
   ],
   "mw_fecha": "2026-10-13T20:39:49+00:00",
-  "total_circuitos_afectados": 56,
+  "total_circuitos_afectados": 55,
   "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
@@ -2941,5 +2941,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-13T22:49:34.488759+00:00"
+  "actualizado": "2026-10-13T23:04:26.684876+00:00"
 }
