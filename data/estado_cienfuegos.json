@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 96,
+  "mensajes_leidos": 93,
   "afectados": {
     "C-48": [],
     "S-4820": [],
@@ -1743,12 +1743,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "id": 59237,
-      "url": "https://t.me/empresaelectricacienfuegos1/59237",
-      "fecha": "2026-10-11T15:25:07+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
-    {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n60 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
       "id": 59240,
@@ -2006,10 +2000,10 @@
     }
   ],
   "lectura": {
-    "texto": 58,
-    "imagenes": 38,
+    "texto": 57,
+    "imagenes": 36,
     "pdf": 0,
-    "no_leidos": 4
+    "no_leidos": 3
   },
   "listas_completas": {
     "deficit": {
@@ -2997,5 +2991,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-14T15:14:58.245698+00:00"
+  "actualizado": "2026-10-14T15:29:23.614475+00:00"
 }
