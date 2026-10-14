@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-14T21:01:27+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-14T21:03:44+00:00",
-  "mensajes_leidos": 95,
+  "programado_fecha": "2026-10-14T22:07:45+00:00",
+  "mensajes_leidos": 97,
   "afectados": {
     "C-48": [],
     "S-4820": [],
@@ -318,6 +318,10 @@
     ],
     "C-19": [
       "Tulipán"
+    ],
+    "C-70": [
+      "Aguada",
+      "Federal"
     ]
   },
   "confirmados_con_servicio": {},
@@ -1185,6 +1189,15 @@
       "confianza": 100,
       "texto": "👉C-65 Casco histórico, Reina (Aduana)"
     },
+    "C-70": {
+      "fecha": "2026-10-14T22:07:45+00:00",
+      "mensaje_id": 59348,
+      "url": "https://t.me/empresaelectricacienfuegos1/59348",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-70 Aguada, Federal."
+    },
     "C-17": {
       "fecha": "2026-10-14T21:01:27+00:00",
       "mensaje_id": 59345,
@@ -1281,33 +1294,6 @@
       },
       "lugares": []
     },
-    "C-70": {
-      "fecha": "2026-10-14T21:01:27+00:00",
-      "mensaje_id": 59345,
-      "url": "https://t.me/empresaelectricacienfuegos1/59345",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-6 Rancho Luna, Pasacaballo, La Milpa.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-14T17:59:39+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-14T13:42:16+00:00",
-        "mensaje_id": 59330,
-        "url": "https://t.me/empresaelectricacienfuegos1/59330",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-70 \"Aguada, Federal."
-      },
-      "lugares": [
-        "Aguada",
-        "Federal"
-      ]
-    },
     "C-406": {
       "fecha": "2026-10-14T21:01:27+00:00",
       "mensaje_id": 59345,
@@ -1381,6 +1367,11 @@
     "C-19": {
       "inicio": null,
       "fin": "2026-10-15T09:03:44+00:00",
+      "fecha_ambigua": false
+    },
+    "C-70": {
+      "inicio": null,
+      "fin": "2026-10-15T10:07:45+00:00",
       "fecha_ambigua": false
     }
   },
@@ -1759,11 +1750,18 @@
       "id": 59347,
       "url": "https://t.me/empresaelectricacienfuegos1/59347",
       "fecha": "2026-10-14T21:48:47+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n1\nNy\nY\n\\\n13 MW\naN\nDEFICIT DE GENERACION\nZi Sox\n“1\na\n-\nUNE\nCIENFUEGOS.\na EY",
+      "id": 59349,
+      "url": "https://t.me/empresaelectricacienfuegos1/59349",
+      "fecha": "2026-10-14T22:12:41+00:00"
     }
   ],
   "lectura": {
     "texto": 58,
-    "imagenes": 37,
+    "imagenes": 39,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2743,7 +2741,7 @@
   ],
   "mw_fecha": "2026-10-14T21:01:27+00:00",
   "total_circuitos_afectados": 62,
-  "total_circuitos_programados": 4,
+  "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 10,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2761,5 +2759,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-14T22:04:34.713750+00:00"
+  "actualizado": "2026-10-14T22:17:59.638032+00:00"
 }
