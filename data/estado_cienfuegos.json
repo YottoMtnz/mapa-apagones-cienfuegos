@@ -6,13 +6,13 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 101,
+  "mensajes_leidos": 99,
   "afectados": {
-    "C-48": [],
-    "S-4820": [],
     "C-25": [
       "Abreus (Pueblo"
     ],
+    "C-48": [],
+    "S-4820": [],
     "C-11": [
       "Ariza",
       "Silverita",
@@ -368,6 +368,59 @@
         "Hervidero"
       ]
     },
+    "C-103": {
+      "fecha": "2026-10-14T11:02:46+00:00",
+      "mensaje_id": 59328,
+      "url": "https://t.me/empresaelectricacienfuegos1/59328",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-25 Abreus (Pueblo).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-14T01:16:49+00:00",
+      "listas_consecutivas": 4,
+      "aviso_anterior": {
+        "fecha": "2026-10-13T20:39:49+00:00",
+        "mensaje_id": 59317,
+        "url": "https://t.me/empresaelectricacienfuegos1/59317",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-103 \"Santiago de Cartagena,  Lequeito"
+      },
+      "lugares": [
+        "Santiago de Cartagena",
+        "Lequeito"
+      ]
+    },
+    "C-102": {
+      "fecha": "2026-10-14T11:02:46+00:00",
+      "mensaje_id": 59328,
+      "url": "https://t.me/empresaelectricacienfuegos1/59328",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-25 Abreus (Pueblo).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-14T01:16:49+00:00",
+      "listas_consecutivas": 4,
+      "aviso_anterior": {
+        "fecha": "2026-10-13T20:39:49+00:00",
+        "mensaje_id": 59317,
+        "url": "https://t.me/empresaelectricacienfuegos1/59317",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-102 La Ciruela"
+      },
+      "lugares": [
+        "La Ciruela"
+      ]
+    },
     "C-101": {
       "fecha": "2026-10-14T11:02:46+00:00",
       "mensaje_id": 59328,
@@ -398,59 +451,6 @@
         "El Bajío",
         "California",
         "El Salado"
-      ]
-    },
-    "C-102": {
-      "fecha": "2026-10-14T11:02:46+00:00",
-      "mensaje_id": 59328,
-      "url": "https://t.me/empresaelectricacienfuegos1/59328",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-14T01:16:49+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-13T20:39:49+00:00",
-        "mensaje_id": 59317,
-        "url": "https://t.me/empresaelectricacienfuegos1/59317",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-102 La Ciruela"
-      },
-      "lugares": [
-        "La Ciruela"
-      ]
-    },
-    "C-103": {
-      "fecha": "2026-10-14T11:02:46+00:00",
-      "mensaje_id": 59328,
-      "url": "https://t.me/empresaelectricacienfuegos1/59328",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-14T01:16:49+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-13T20:39:49+00:00",
-        "mensaje_id": 59317,
-        "url": "https://t.me/empresaelectricacienfuegos1/59317",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-103 \"Santiago de Cartagena,  Lequeito"
-      },
-      "lugares": [
-        "Santiago de Cartagena",
-        "Lequeito"
       ]
     },
     "C-23": {
@@ -815,6 +815,15 @@
     ]
   },
   "evidencias": {
+    "C-25": {
+      "fecha": "2026-10-14T11:02:46+00:00",
+      "mensaje_id": 59328,
+      "url": "https://t.me/empresaelectricacienfuegos1/59328",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-25 Abreus (Pueblo)."
+    },
     "C-48": {
       "fecha": "2026-10-14T10:55:20+00:00",
       "mensaje_id": 59327,
@@ -832,15 +841,6 @@
       "editado": "2026-10-14T10:55:47+00:00",
       "confianza": 100,
       "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "C-25": {
-      "fecha": "2026-10-14T11:02:46+00:00",
-      "mensaje_id": 59328,
-      "url": "https://t.me/empresaelectricacienfuegos1/59328",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo)."
     },
     "C-11": {
       "fecha": "2026-10-14T11:02:46+00:00",
@@ -1385,6 +1385,59 @@
         "Hervidero"
       ]
     },
+    "C-103": {
+      "fecha": "2026-10-14T11:02:46+00:00",
+      "mensaje_id": 59328,
+      "url": "https://t.me/empresaelectricacienfuegos1/59328",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-25 Abreus (Pueblo).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-14T01:16:49+00:00",
+      "listas_consecutivas": 4,
+      "aviso_anterior": {
+        "fecha": "2026-10-13T20:39:49+00:00",
+        "mensaje_id": 59317,
+        "url": "https://t.me/empresaelectricacienfuegos1/59317",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-103 \"Santiago de Cartagena,  Lequeito"
+      },
+      "lugares": [
+        "Santiago de Cartagena",
+        "Lequeito"
+      ]
+    },
+    "C-102": {
+      "fecha": "2026-10-14T11:02:46+00:00",
+      "mensaje_id": 59328,
+      "url": "https://t.me/empresaelectricacienfuegos1/59328",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-25 Abreus (Pueblo).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-14T01:16:49+00:00",
+      "listas_consecutivas": 4,
+      "aviso_anterior": {
+        "fecha": "2026-10-13T20:39:49+00:00",
+        "mensaje_id": 59317,
+        "url": "https://t.me/empresaelectricacienfuegos1/59317",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-102 La Ciruela"
+      },
+      "lugares": [
+        "La Ciruela"
+      ]
+    },
     "C-101": {
       "fecha": "2026-10-14T11:02:46+00:00",
       "mensaje_id": 59328,
@@ -1415,59 +1468,6 @@
         "El Bajío",
         "California",
         "El Salado"
-      ]
-    },
-    "C-102": {
-      "fecha": "2026-10-14T11:02:46+00:00",
-      "mensaje_id": 59328,
-      "url": "https://t.me/empresaelectricacienfuegos1/59328",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-14T01:16:49+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-13T20:39:49+00:00",
-        "mensaje_id": 59317,
-        "url": "https://t.me/empresaelectricacienfuegos1/59317",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-102 La Ciruela"
-      },
-      "lugares": [
-        "La Ciruela"
-      ]
-    },
-    "C-103": {
-      "fecha": "2026-10-14T11:02:46+00:00",
-      "mensaje_id": 59328,
-      "url": "https://t.me/empresaelectricacienfuegos1/59328",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-14T01:16:49+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-13T20:39:49+00:00",
-        "mensaje_id": 59317,
-        "url": "https://t.me/empresaelectricacienfuegos1/59317",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-103 \"Santiago de Cartagena,  Lequeito"
-      },
-      "lugares": [
-        "Santiago de Cartagena",
-        "Lequeito"
       ]
     },
     "C-23": {
@@ -1818,9 +1818,9 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-25": "déficit",
     "C-48": "avería",
     "S-4820": "avería",
-    "C-25": "déficit",
     "C-11": "déficit",
     "C-22": "déficit",
     "C-55": "déficit",
@@ -1839,7 +1839,7 @@
     "C-57": "déficit",
     "C-72": "déficit",
     "C-30": "déficit",
-    "C-19": "avería / déficit",
+    "C-19": "déficit",
     "C-405": "déficit",
     "C-50": "déficit",
     "C-36": "déficit",
@@ -1872,13 +1872,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
-      "id": 59228,
-      "url": "https://t.me/empresaelectricacienfuegos1/59228",
-      "fecha": "2026-10-11T11:19:15+00:00"
-    },
     {
       "motivo": "resumen_historico",
       "texto": "En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
@@ -2129,8 +2122,8 @@
     }
   ],
   "lectura": {
-    "texto": 60,
-    "imagenes": 41,
+    "texto": 59,
+    "imagenes": 40,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -2225,7 +2218,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59278"
     },
     {
-      "circuito": "C-88",
+      "circuito": "C-31",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-12T17:36:23+00:00",
@@ -2234,7 +2227,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59278"
     },
     {
-      "circuito": "C-31",
+      "circuito": "C-88",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-12T17:36:23+00:00",
@@ -2252,7 +2245,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59278"
     },
     {
-      "circuito": "C-41",
+      "circuito": "C-7",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-12T17:36:23+00:00",
@@ -2261,7 +2254,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59278"
     },
     {
-      "circuito": "C-7",
+      "circuito": "C-41",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-12T17:36:23+00:00",
@@ -2828,7 +2821,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59321"
     },
     {
-      "circuito": "C-101",
+      "circuito": "C-103",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-14T01:16:49+00:00",
@@ -2846,7 +2839,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59321"
     },
     {
-      "circuito": "C-103",
+      "circuito": "C-101",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-14T01:16:49+00:00",
@@ -3117,5 +3110,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-14T11:04:17.379966+00:00"
+  "actualizado": "2026-10-14T11:19:20.300544+00:00"
 }
