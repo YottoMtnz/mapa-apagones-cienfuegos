@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-14T17:59:45+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-14T15:57:11+00:00",
-  "mensajes_leidos": 92,
+  "programado_fecha": "2026-10-14T18:21:51+00:00",
+  "mensajes_leidos": 93,
   "afectados": {
     "C-48": [],
     "S-4820": [],
@@ -274,7 +274,25 @@
     "C-18": [],
     "C-20": []
   },
-  "programados": {},
+  "programados": {
+    "C-25": [
+      "Abreus (Pueblo"
+    ],
+    "C-38": [
+      "El Abra",
+      "Crespo",
+      "Quiñones",
+      "La Parra",
+      "El Granizo",
+      "El Jíbaro",
+      "La Jutía",
+      "Hervidero"
+    ],
+    "C-5": [
+      "Boulevard",
+      "Parque Martí"
+    ]
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-17": {
@@ -1203,6 +1221,33 @@
       "confianza": 100,
       "texto": "👉 C-20 Punta Gorda"
     },
+    "C-25": {
+      "fecha": "2026-10-14T18:21:51+00:00",
+      "mensaje_id": 59337,
+      "url": "https://t.me/empresaelectricacienfuegos1/59337",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-25 Abreus (Pueblo)."
+    },
+    "C-38": {
+      "fecha": "2026-10-14T18:21:51+00:00",
+      "mensaje_id": 59337,
+      "url": "https://t.me/empresaelectricacienfuegos1/59337",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-25 Abreus (Pueblo)."
+    },
+    "C-5": {
+      "fecha": "2026-10-14T18:21:51+00:00",
+      "mensaje_id": 59337,
+      "url": "https://t.me/empresaelectricacienfuegos1/59337",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-25 Abreus (Pueblo)."
+    },
     "C-17": {
       "fecha": "2026-10-14T17:59:45+00:00",
       "mensaje_id": 59335,
@@ -1251,39 +1296,6 @@
       },
       "lugares": []
     },
-    "C-38": {
-      "fecha": "2026-10-14T17:59:45+00:00",
-      "mensaje_id": 59335,
-      "url": "https://t.me/empresaelectricacienfuegos1/59335",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉 C-6 Rancho Luna, Pasacaballo, La Milpa.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-14T01:16:49+00:00",
-      "listas_consecutivas": 7,
-      "aviso_anterior": {
-        "fecha": "2026-10-13T20:39:49+00:00",
-        "mensaje_id": 59317,
-        "url": "https://t.me/empresaelectricacienfuegos1/59317",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero."
-      },
-      "lugares": [
-        "El Abra",
-        "Crespo",
-        "Quiñones",
-        "La Parra",
-        "El Granizo",
-        "El Jíbaro",
-        "La Jutía",
-        "Hervidero"
-      ]
-    },
     "C-408": {
       "fecha": "2026-10-14T17:59:45+00:00",
       "mensaje_id": 59335,
@@ -1331,59 +1343,6 @@
         "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
       },
       "lugares": []
-    },
-    "C-25": {
-      "fecha": "2026-10-14T17:59:45+00:00",
-      "mensaje_id": 59335,
-      "url": "https://t.me/empresaelectricacienfuegos1/59335",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉 C-6 Rancho Luna, Pasacaballo, La Milpa.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-14T13:42:16+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-14T11:02:46+00:00",
-        "mensaje_id": 59328,
-        "url": "https://t.me/empresaelectricacienfuegos1/59328",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-25 Abreus (Pueblo)."
-      },
-      "lugares": [
-        "Abreus (Pueblo"
-      ]
-    },
-    "C-5": {
-      "fecha": "2026-10-14T17:59:45+00:00",
-      "mensaje_id": 59335,
-      "url": "https://t.me/empresaelectricacienfuegos1/59335",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉 C-6 Rancho Luna, Pasacaballo, La Milpa.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-14T13:42:16+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-14T11:02:46+00:00",
-        "mensaje_id": 59328,
-        "url": "https://t.me/empresaelectricacienfuegos1/59328",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-5 Boulevard, Parque Martí"
-      },
-      "lugares": [
-        "Boulevard",
-        "Parque Martí"
-      ]
     },
     "C-91": {
       "fecha": "2026-10-14T17:59:45+00:00",
@@ -1604,7 +1563,23 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-25": {
+      "inicio": null,
+      "fin": "2026-10-15T06:21:51+00:00",
+      "fecha_ambigua": false
+    },
+    "C-38": {
+      "inicio": null,
+      "fin": "2026-10-15T06:21:51+00:00",
+      "fecha_ambigua": false
+    },
+    "C-5": {
+      "inicio": null,
+      "fin": "2026-10-15T06:21:51+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -1921,7 +1896,7 @@
     }
   ],
   "lectura": {
-    "texto": 56,
+    "texto": 57,
     "imagenes": 36,
     "pdf": 0,
     "no_leidos": 3
@@ -2896,7 +2871,7 @@
   ],
   "mw_fecha": "2026-10-14T17:59:45+00:00",
   "total_circuitos_afectados": 56,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2913,5 +2888,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-14T18:20:39.204346+00:00"
+  "actualizado": "2026-10-14T18:40:06.721485+00:00"
 }
