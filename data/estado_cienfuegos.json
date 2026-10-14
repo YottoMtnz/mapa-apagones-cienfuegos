@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-14T14:17:47+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 93,
+  "programado_fecha": "2026-10-14T15:57:11+00:00",
+  "mensajes_leidos": 94,
   "afectados": {
     "C-48": [],
     "S-4820": [],
@@ -276,7 +276,10 @@
       "Lequeito"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-18": [],
+    "C-20": []
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-17": {
@@ -1232,6 +1235,24 @@
       "confianza": 100,
       "texto": "👉C-103 \"Santiago de Cartagena,  Lequeito"
     },
+    "C-18": {
+      "fecha": "2026-10-14T15:57:11+00:00",
+      "mensaje_id": 59333,
+      "url": "https://t.me/empresaelectricacienfuegos1/59333",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita"
+    },
+    "C-20": {
+      "fecha": "2026-10-14T15:57:11+00:00",
+      "mensaje_id": 59333,
+      "url": "https://t.me/empresaelectricacienfuegos1/59333",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita"
+    },
     "C-17": {
       "fecha": "2026-10-14T13:42:16+00:00",
       "mensaje_id": 59330,
@@ -1412,54 +1433,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
-      },
-      "lugares": []
-    },
-    "C-18": {
-      "fecha": "2026-10-14T13:42:16+00:00",
-      "mensaje_id": 59330,
-      "url": "https://t.me/empresaelectricacienfuegos1/59330",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-22 Rodas (Bombeo Agua Rodas 0-12)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-14T11:02:46+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-14T09:22:18+00:00",
-        "mensaje_id": 59325,
-        "url": "https://t.me/empresaelectricacienfuegos1/59325",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
-    "C-20": {
-      "fecha": "2026-10-14T13:42:16+00:00",
-      "mensaje_id": 59330,
-      "url": "https://t.me/empresaelectricacienfuegos1/59330",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-22 Rodas (Bombeo Agua Rodas 0-12)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-14T11:02:46+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-14T09:22:18+00:00",
-        "mensaje_id": 59325,
-        "url": "https://t.me/empresaelectricacienfuegos1/59325",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
       },
       "lugares": []
     },
@@ -1678,7 +1651,18 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-18": {
+      "inicio": null,
+      "fin": "2026-10-15T03:57:11+00:00",
+      "fecha_ambigua": false
+    },
+    "C-20": {
+      "inicio": null,
+      "fin": "2026-10-15T03:57:11+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 55.0,
   "hora_inicio": null,
@@ -2001,7 +1985,7 @@
   ],
   "lectura": {
     "texto": 57,
-    "imagenes": 36,
+    "imagenes": 37,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2974,7 +2958,7 @@
   ],
   "mw_fecha": "2026-10-14T13:42:16+00:00",
   "total_circuitos_afectados": 54,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2991,5 +2975,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-14T15:44:21.702227+00:00"
+  "actualizado": "2026-10-14T15:59:31.219962+00:00"
 }
