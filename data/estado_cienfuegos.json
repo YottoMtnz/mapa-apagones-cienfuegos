@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 97,
+  "mensajes_leidos": 96,
   "afectados": {
     "C-25": [
       "Abreus (Pueblo"
@@ -1873,20 +1873,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
-      "id": 59232,
-      "url": "https://t.me/empresaelectricacienfuegos1/59232",
-      "fecha": "2026-10-11T13:29:17+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de 1811         MW a las 19:30 horas",
-      "id": 59232,
-      "url": "https://t.me/empresaelectricacienfuegos1/59232",
-      "fecha": "2026-10-11T13:29:17+00:00"
-    },
-    {
       "id": 59237,
       "url": "https://t.me/empresaelectricacienfuegos1/59237",
       "fecha": "2026-10-11T15:25:07+00:00",
@@ -2119,10 +2105,17 @@
       "id": 59327,
       "url": "https://t.me/empresaelectricacienfuegos1/59327",
       "fecha": "2026-10-14T10:55:20+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n1\nNy\nY\n\\\n39 MW\naN\nDEFICIT DE GENERACION\nZi Sox\n“1\na\n-\nUNE\nCIENFUEGOS.\na EY",
+      "id": 59329,
+      "url": "https://t.me/empresaelectricacienfuegos1/59329",
+      "fecha": "2026-10-14T13:33:02+00:00"
     }
   ],
   "lectura": {
-    "texto": 58,
+    "texto": 57,
     "imagenes": 39,
     "pdf": 0,
     "no_leidos": 4
@@ -3110,5 +3103,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-14T13:25:06.715724+00:00"
+  "actualizado": "2026-10-14T13:39:12.756738+00:00"
 }
