@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-14T17:59:45+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-14T18:21:51+00:00",
-  "mensajes_leidos": 93,
+  "programado_fecha": "2026-10-14T19:42:10+00:00",
+  "mensajes_leidos": 94,
   "afectados": {
     "C-48": [],
     "S-4820": [],
@@ -291,6 +291,10 @@
     "C-5": [
       "Boulevard",
       "Parque Martí"
+    ],
+    "C-91": [
+      "Buena Vista",
+      "La Esperanza"
     ]
   },
   "confirmados_con_servicio": {},
@@ -1248,6 +1252,15 @@
       "confianza": 100,
       "texto": "👉C-25 Abreus (Pueblo)."
     },
+    "C-91": {
+      "fecha": "2026-10-14T19:42:10+00:00",
+      "mensaje_id": 59341,
+      "url": "https://t.me/empresaelectricacienfuegos1/59341",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
     "C-17": {
       "fecha": "2026-10-14T17:59:45+00:00",
       "mensaje_id": 59335,
@@ -1343,33 +1356,6 @@
         "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
       },
       "lugares": []
-    },
-    "C-91": {
-      "fecha": "2026-10-14T17:59:45+00:00",
-      "mensaje_id": 59335,
-      "url": "https://t.me/empresaelectricacienfuegos1/59335",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉 C-6 Rancho Luna, Pasacaballo, La Milpa.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-14T13:42:16+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-14T11:02:46+00:00",
-        "mensaje_id": 59328,
-        "url": "https://t.me/empresaelectricacienfuegos1/59328",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-91 Buena Vista, La Esperanza."
-      },
-      "lugares": [
-        "Buena Vista",
-        "La Esperanza"
-      ]
     },
     "C-22": {
       "fecha": "2026-10-14T17:59:45+00:00",
@@ -1577,6 +1563,11 @@
     "C-5": {
       "inicio": null,
       "fin": "2026-10-15T06:21:51+00:00",
+      "fecha_ambigua": false
+    },
+    "C-91": {
+      "inicio": null,
+      "fin": "2026-10-15T07:42:10+00:00",
       "fecha_ambigua": false
     }
   },
@@ -1932,7 +1923,7 @@
   ],
   "lectura": {
     "texto": 57,
-    "imagenes": 36,
+    "imagenes": 37,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2906,7 +2897,7 @@
   ],
   "mw_fecha": "2026-10-14T17:59:45+00:00",
   "total_circuitos_afectados": 56,
-  "total_circuitos_programados": 3,
+  "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2923,5 +2914,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-14T19:38:16.274747+00:00"
+  "actualizado": "2026-10-14T19:54:45.829280+00:00"
 }
