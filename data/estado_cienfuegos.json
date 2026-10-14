@@ -1,6 +1,6 @@
 {
   "schema": 4,
-  "estado_datos": "ok",
+  "estado_datos": "error",
   "fuente_afectados": true,
   "reporte_fecha": "2026-10-14T13:42:16+00:00",
   "reporte_vencido": false,
@@ -1740,7 +1740,7 @@
     "C-102": "déficit",
     "C-103": "déficit"
   },
-  "error": null,
+  "error": "ConnectionError",
   "pendientes_revision": [
     {
       "id": 59237,
@@ -2990,5 +2990,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-14T14:09:23.410356+00:00"
+  "actualizado": "2026-10-14T14:24:21.734809+00:00"
 }
