@@ -1,8 +1,8 @@
 {
   "schema": 4,
-  "estado_datos": "error",
+  "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-14T13:42:16+00:00",
+  "reporte_fecha": "2026-10-14T14:17:47+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
@@ -927,13 +927,13 @@
       "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
     },
     "C-19": {
-      "fecha": "2026-10-14T13:42:16+00:00",
-      "mensaje_id": 59330,
-      "url": "https://t.me/empresaelectricacienfuegos1/59330",
+      "fecha": "2026-10-14T14:17:47+00:00",
+      "mensaje_id": 59332,
+      "url": "https://t.me/empresaelectricacienfuegos1/59332",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-19 Tulipán"
+      "texto": "👉C-19 Tulipán."
     },
     "C-405": {
       "fecha": "2026-10-14T13:42:16+00:00",
@@ -1705,7 +1705,7 @@
     "C-57": "déficit",
     "C-72": "déficit",
     "C-30": "déficit",
-    "C-19": "déficit",
+    "C-19": "avería / déficit",
     "C-405": "déficit",
     "C-50": "déficit",
     "C-36": "déficit",
@@ -1740,7 +1740,7 @@
     "C-102": "déficit",
     "C-103": "déficit"
   },
-  "error": "ConnectionError",
+  "error": null,
   "pendientes_revision": [
     {
       "id": 59237,
@@ -1996,11 +1996,18 @@
       "id": 59331,
       "url": "https://t.me/empresaelectricacienfuegos1/59331",
       "fecha": "2026-10-14T14:07:10+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
+      "id": 59332,
+      "url": "https://t.me/empresaelectricacienfuegos1/59332",
+      "fecha": "2026-10-14T14:17:47+00:00"
     }
   ],
   "lectura": {
-    "texto": 58,
-    "imagenes": 39,
+    "texto": 59,
+    "imagenes": 38,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -2990,5 +2997,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-14T14:24:21.734809+00:00"
+  "actualizado": "2026-10-14T14:39:17.110067+00:00"
 }
