@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-15T02:35:41+00:00",
-  "mensajes_leidos": 96,
+  "mensajes_leidos": 95,
   "afectados": {
     "C-48": [],
     "S-4820": [],
@@ -320,30 +320,6 @@
     }
   },
   "restablecimientos_probables": {
-    "C-17": {
-      "fecha": "2026-10-15T01:48:35+00:00",
-      "mensaje_id": 59358,
-      "url": "https://t.me/empresaelectricacienfuegos1/59358",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T10:32:57+00:00",
-      "listas_consecutivas": 36,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T04:22:46+00:00",
-        "mensaje_id": 59261,
-        "url": "https://t.me/empresaelectricacienfuegos1/59261",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
-      },
-      "lugares": []
-    },
     "C-92": {
       "fecha": "2026-10-15T01:48:35+00:00",
       "mensaje_id": 59358,
@@ -1316,30 +1292,6 @@
       "confianza": 100,
       "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
-    "C-17": {
-      "fecha": "2026-10-15T01:48:35+00:00",
-      "mensaje_id": 59358,
-      "url": "https://t.me/empresaelectricacienfuegos1/59358",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-12T10:32:57+00:00",
-      "listas_consecutivas": 36,
-      "aviso_anterior": {
-        "fecha": "2026-10-12T04:22:46+00:00",
-        "mensaje_id": 59261,
-        "url": "https://t.me/empresaelectricacienfuegos1/59261",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
-      },
-      "lugares": []
-    },
     "C-92": {
       "fecha": "2026-10-15T01:48:35+00:00",
       "mensaje_id": 59358,
@@ -1952,7 +1904,7 @@
     }
   ],
   "lectura": {
-    "texto": 57,
+    "texto": 56,
     "imagenes": 39,
     "pdf": 0,
     "no_leidos": 1
@@ -2928,9 +2880,8 @@
   "mw_fecha": "2026-10-15T01:48:35+00:00",
   "total_circuitos_afectados": 55,
   "total_circuitos_programados": 9,
-  "total_restablecimientos_probables": 15,
+  "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
-    "C-17",
     "C-18",
     "C-2",
     "C-20",
@@ -2945,5 +2896,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-15T04:19:25.179564+00:00"
+  "actualizado": "2026-10-15T04:34:24.869898+00:00"
 }
