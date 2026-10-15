@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-15T21:09:52+00:00",
+  "reporte_fecha": "2026-10-15T21:18:37+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-15T15:56:57+00:00",
-  "mensajes_leidos": 107,
+  "mensajes_leidos": 109,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -274,7 +274,6 @@
     ],
     "C-20": [],
     "C-18": [],
-    "C-43": [],
     "C-31": [],
     "C-88": [
       "San Ignacio",
@@ -309,20 +308,29 @@
     ],
     "C-401": [],
     "C-92": [],
-    "C-89": [],
-    "C-63": [
-      "Juraguá (Oeste",
-      "Las 500",
-      "Calicito",
-      "Bolivia",
-      "Comunidad Alejandro",
-      "Hondones",
-      "La Yuca",
-      "Bagazal"
-    ]
+    "C-89": []
   },
   "programados": {},
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-43": {
+      "fecha": "2026-10-15T21:16:49+00:00",
+      "mensaje_id": 59403,
+      "url": "https://t.me/empresaelectricacienfuegos1/59403",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-43 Aguada (Pueblo), Autopista, Batey María Victoria."
+    },
+    "C-63": {
+      "fecha": "2026-10-15T21:18:37+00:00",
+      "mensaje_id": 59404,
+      "url": "https://t.me/empresaelectricacienfuegos1/59404",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-63 Juraguá(Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
+    }
+  },
   "restablecimientos_probables": {},
   "afectaciones_parciales": {
     "C-90": [
@@ -840,15 +848,6 @@
       "confianza": 100,
       "texto": "👉C-18  Arizona, La Juanita (Hospital de Especialidades 0-24)"
     },
-    "C-43": {
-      "fecha": "2026-10-15T19:00:21+00:00",
-      "mensaje_id": 59390,
-      "url": "https://t.me/empresaelectricacienfuegos1/59390",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-43 Aguada (Pueblo), Autopista, Batey María Victoria."
-    },
     "C-31": {
       "fecha": "2026-10-15T19:10:24+00:00",
       "mensaje_id": 59392,
@@ -948,10 +947,19 @@
       "confianza": 100,
       "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
     },
+    "C-43": {
+      "fecha": "2026-10-15T21:16:49+00:00",
+      "mensaje_id": 59403,
+      "url": "https://t.me/empresaelectricacienfuegos1/59403",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-43 Aguada (Pueblo), Autopista, Batey María Victoria."
+    },
     "C-63": {
-      "fecha": "2026-10-15T21:09:52+00:00",
-      "mensaje_id": 59402,
-      "url": "https://t.me/empresaelectricacienfuegos1/59402",
+      "fecha": "2026-10-15T21:18:37+00:00",
+      "mensaje_id": 59404,
+      "url": "https://t.me/empresaelectricacienfuegos1/59404",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1020,7 +1028,6 @@
     "C-70": "déficit",
     "C-20": "déficit",
     "C-18": "déficit",
-    "C-43": "emergencia",
     "C-31": "déficit",
     "C-88": "déficit",
     "C-405": "déficit",
@@ -1031,8 +1038,7 @@
     "C-90": "avería",
     "C-401": "avería",
     "C-92": "avería",
-    "C-89": "avería",
-    "C-63": "avería"
+    "C-89": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -1460,7 +1466,7 @@
     }
   ],
   "lectura": {
-    "texto": 57,
+    "texto": 59,
     "imagenes": 50,
     "pdf": 0,
     "no_leidos": 5
@@ -1534,24 +1540,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-21",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-13T15:07:38+00:00",
-      "mensaje_id": 59309,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59307",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59309"
-    },
-    {
-      "circuito": "C-8",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-13T15:07:38+00:00",
-      "mensaje_id": 59309,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59307",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59309"
-    },
     {
       "circuito": "C-5",
       "tipo": "salida_lista",
@@ -2433,11 +2421,29 @@
       "mensaje_id": 59388,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59384",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59388"
+    },
+    {
+      "circuito": "C-43",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-15T21:16:49+00:00",
+      "mensaje_id": 59403,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59390",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59403"
+    },
+    {
+      "circuito": "C-63",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-15T21:18:37+00:00",
+      "mensaje_id": 59404,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59402",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59404"
     }
   ],
   "mw_fecha": "2026-10-15T19:10:24+00:00",
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
-  "total_circuitos_afectados": 68,
+  "total_circuitos_afectados": 66,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 0,
   "circuitos_sin_catalogar": [
@@ -2445,7 +2451,6 @@
     "C-20",
     "C-31",
     "C-401",
-    "C-43",
     "C-48",
     "C-58",
     "C-59",
@@ -2454,5 +2459,5 @@
     "C-95",
     "S-4820"
   ],
-  "actualizado": "2026-10-15T21:14:22.324564+00:00"
+  "actualizado": "2026-10-15T21:29:23.117914+00:00"
 }
