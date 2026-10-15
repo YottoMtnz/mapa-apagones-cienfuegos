@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-15T11:33:56+00:00",
+  "reporte_fecha": "2026-10-15T11:44:02+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-15T02:35:41+00:00",
-  "mensajes_leidos": 100,
+  "programado_fecha": "2026-10-15T11:37:43+00:00",
+  "mensajes_leidos": 102,
   "afectados": {
     "C-11": [
       "Ariza",
@@ -296,7 +296,12 @@
       "Tulipán"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-91": [
+      "Buena Vista",
+      "La Esperanza"
+    ]
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-408": {
@@ -570,9 +575,9 @@
           "La Pollera"
         ],
         "evidencia": {
-          "fecha": "2026-10-15T00:21:15+00:00",
-          "mensaje_id": 59356,
-          "url": "https://t.me/empresaelectricacienfuegos1/59356",
+          "fecha": "2026-10-15T11:44:02+00:00",
+          "mensaje_id": 59371,
+          "url": "https://t.me/empresaelectricacienfuegos1/59371",
           "medio": "texto",
           "editado": null,
           "confianza": 100,
@@ -593,18 +598,18 @@
       "texto": "👉C-11 Ariza, Silverita, Nuevo México."
     },
     "C-48": {
-      "fecha": "2026-10-15T00:21:15+00:00",
-      "mensaje_id": 59356,
-      "url": "https://t.me/empresaelectricacienfuegos1/59356",
+      "fecha": "2026-10-15T11:44:02+00:00",
+      "mensaje_id": 59371,
+      "url": "https://t.me/empresaelectricacienfuegos1/59371",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "S-4820": {
-      "fecha": "2026-10-15T00:21:15+00:00",
-      "mensaje_id": 59356,
-      "url": "https://t.me/empresaelectricacienfuegos1/59356",
+      "fecha": "2026-10-15T11:44:02+00:00",
+      "mensaje_id": 59371,
+      "url": "https://t.me/empresaelectricacienfuegos1/59371",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1123,6 +1128,15 @@
       "confianza": 100,
       "texto": "👉C-19 Tulipán"
     },
+    "C-91": {
+      "fecha": "2026-10-15T11:37:43+00:00",
+      "mensaje_id": 59370,
+      "url": "https://t.me/empresaelectricacienfuegos1/59370",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
     "C-408": {
       "fecha": "2026-10-15T11:33:56+00:00",
       "mensaje_id": 59369,
@@ -1307,33 +1321,6 @@
       },
       "lugares": []
     },
-    "C-91": {
-      "fecha": "2026-10-15T11:33:56+00:00",
-      "mensaje_id": 59369,
-      "url": "https://t.me/empresaelectricacienfuegos1/59369",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-15T10:28:47+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-15T04:51:47+00:00",
-        "mensaje_id": 59360,
-        "url": "https://t.me/empresaelectricacienfuegos1/59360",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-91 Buena Vista, La Esperanza."
-      },
-      "lugares": [
-        "Buena Vista",
-        "La Esperanza"
-      ]
-    },
     "C-70": {
       "fecha": "2026-10-15T11:33:56+00:00",
       "mensaje_id": 59369,
@@ -1386,7 +1373,13 @@
       "lugares": []
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-91": {
+      "inicio": null,
+      "fin": "2026-10-15T23:37:43+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 55.0,
   "hora_inicio": null,
@@ -1790,11 +1783,18 @@
       "id": 59368,
       "url": "https://t.me/empresaelectricacienfuegos1/59368",
       "fecha": "2026-10-15T11:32:48+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
+      "id": 59371,
+      "url": "https://t.me/empresaelectricacienfuegos1/59371",
+      "fecha": "2026-10-15T11:44:02+00:00"
     }
   ],
   "lectura": {
     "texto": 60,
-    "imagenes": 40,
+    "imagenes": 42,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -2773,7 +2773,7 @@
   ],
   "mw_fecha": "2026-10-15T11:33:56+00:00",
   "total_circuitos_afectados": 60,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 10,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -2789,5 +2789,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-15T11:34:29.384662+00:00"
+  "actualizado": "2026-10-15T11:49:32.366022+00:00"
 }
