@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-15T15:56:57+00:00",
-  "mensajes_leidos": 104,
+  "mensajes_leidos": 103,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -1299,9 +1299,9 @@
       "fecha": "2026-10-15T19:09:03+00:00"
     },
     {
-      "id": 59393,
-      "url": "https://t.me/empresaelectricacienfuegos1/59393",
-      "fecha": "2026-10-15T19:12:46+00:00",
+      "id": 59394,
+      "url": "https://t.me/empresaelectricacienfuegos1/59394",
+      "fecha": "2026-10-15T19:26:03+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
     },
     {
@@ -1310,13 +1310,23 @@
       "circuitos": [
         "C-405"
       ],
-      "id": 59393,
-      "url": "https://t.me/empresaelectricacienfuegos1/59393",
-      "fecha": "2026-10-15T19:12:46+00:00"
+      "id": 59394,
+      "url": "https://t.me/empresaelectricacienfuegos1/59394",
+      "fecha": "2026-10-15T19:26:03+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, Termoeléctrica, O'bourke.",
+      "circuitos": [
+        "C-407"
+      ],
+      "id": 59394,
+      "url": "https://t.me/empresaelectricacienfuegos1/59394",
+      "fecha": "2026-10-15T19:26:03+00:00"
     }
   ],
   "lectura": {
-    "texto": 60,
+    "texto": 59,
     "imagenes": 44,
     "pdf": 0,
     "no_leidos": 2
@@ -2292,7 +2302,7 @@
     }
   ],
   "mw_fecha": "2026-10-15T19:10:24+00:00",
-  "lectura_incompleta_desde": "2026-10-15T19:12:46+00:00",
+  "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "total_circuitos_afectados": 59,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 0,
@@ -2306,5 +2316,5 @@
     "C-59",
     "S-4820"
   ],
-  "actualizado": "2026-10-15T19:14:34.743394+00:00"
+  "actualizado": "2026-10-15T19:29:22.723421+00:00"
 }
