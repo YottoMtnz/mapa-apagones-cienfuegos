@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-15T21:42:14+00:00",
+  "reporte_fecha": "2026-10-15T22:09:24+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-15T15:56:57+00:00",
-  "mensajes_leidos": 111,
+  "mensajes_leidos": 110,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -305,7 +305,17 @@
     ],
     "C-401": [],
     "C-92": [],
-    "C-89": []
+    "C-89": [],
+    "C-37": [
+      "El Tablón",
+      "Los Coquitos",
+      "El Túnel",
+      "Jovero",
+      "El Mamey",
+      "Crucesitas",
+      "El Nicho",
+      "Vegueta"
+    ]
   },
   "programados": {},
   "confirmados_con_servicio": {
@@ -1087,6 +1097,15 @@
       "confianza": 100,
       "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
     },
+    "C-37": {
+      "fecha": "2026-10-15T22:09:24+00:00",
+      "mensaje_id": 59407,
+      "url": "https://t.me/empresaelectricacienfuegos1/59407",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
+    },
     "C-43": {
       "fecha": "2026-10-15T21:16:49+00:00",
       "mensaje_id": 59403,
@@ -1328,17 +1347,11 @@
     "C-90": "avería",
     "C-401": "avería",
     "C-92": "avería",
-    "C-89": "avería"
+    "C-89": "avería",
+    "C-37": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n60 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
-      "id": 59308,
-      "url": "https://t.me/empresaelectricacienfuegos1/59308",
-      "fecha": "2026-10-13T15:01:55+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n65 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
@@ -1752,13 +1765,20 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59405",
       "fecha": "2026-10-15T21:40:43+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59407,
+      "url": "https://t.me/empresaelectricacienfuegos1/59407",
+      "fecha": "2026-10-15T22:09:24+00:00"
     }
   ],
   "lectura": {
-    "texto": 60,
+    "texto": 59,
     "imagenes": 51,
     "pdf": 0,
-    "no_leidos": 6
+    "no_leidos": 5
   },
   "listas_completas": {
     "deficit": {
@@ -2731,7 +2751,7 @@
   ],
   "mw_fecha": "2026-10-15T21:42:14+00:00",
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
-  "total_circuitos_afectados": 65,
+  "total_circuitos_afectados": 66,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 6,
   "circuitos_sin_catalogar": [
@@ -2750,5 +2770,5 @@
     "C-95",
     "S-4820"
   ],
-  "actualizado": "2026-10-15T22:04:29.445981+00:00"
+  "actualizado": "2026-10-15T22:19:27.071980+00:00"
 }
