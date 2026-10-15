@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-15T20:41:45+00:00",
+  "reporte_fecha": "2026-10-15T20:45:20+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-15T15:56:57+00:00",
@@ -306,7 +306,9 @@
     ],
     "C-90": [
       "FW1558) La Pollera"
-    ]
+    ],
+    "C-401": [],
+    "C-92": []
   },
   "programados": {},
   "confirmados_con_servicio": {},
@@ -907,6 +909,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
+    },
+    "C-401": {
+      "fecha": "2026-10-15T20:45:20+00:00",
+      "mensaje_id": 59400,
+      "url": "https://t.me/empresaelectricacienfuegos1/59400",
+      "medio": "texto",
+      "editado": "2026-10-15T20:53:48+00:00",
+      "confianza": 100,
+      "texto": "👉C-401 Zona Industrial 1, Almacenes Cimex, El Miedo, La 13."
+    },
+    "C-92": {
+      "fecha": "2026-10-15T20:45:20+00:00",
+      "mensaje_id": 59400,
+      "url": "https://t.me/empresaelectricacienfuegos1/59400",
+      "medio": "texto",
+      "editado": "2026-10-15T20:53:48+00:00",
+      "confianza": 100,
+      "texto": "👉C-92 Calzada Dolores, San Lázaro."
     }
   },
   "horarios": {},
@@ -979,17 +999,12 @@
     "C-15": "avería",
     "C-67": "avería",
     "C-26": "avería",
-    "C-90": "avería"
+    "C-90": "avería",
+    "C-401": "avería",
+    "C-92": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
-      "id": 59303,
-      "url": "https://t.me/empresaelectricacienfuegos1/59303",
-      "fecha": "2026-10-13T11:23:22+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\nActualización del Sistema $\nElectroenergético Nacional |\nMartes, 13 de octubre de 2026 ==\nDisponibilidad MEVA\nAfectación ME |\nMás información: www.uniensiednicacu",
@@ -1405,6 +1420,13 @@
       "id": 59399,
       "url": "https://t.me/empresaelectricacienfuegos1/59399",
       "fecha": "2026-10-15T20:41:45+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
+      "id": 59400,
+      "url": "https://t.me/empresaelectricacienfuegos1/59400",
+      "fecha": "2026-10-15T20:45:20+00:00"
     }
   ],
   "lectura": {
@@ -2385,19 +2407,21 @@
   ],
   "mw_fecha": "2026-10-15T19:10:24+00:00",
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
-  "total_circuitos_afectados": 64,
+  "total_circuitos_afectados": 66,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 0,
   "circuitos_sin_catalogar": [
     "C-18",
     "C-20",
     "C-31",
+    "C-401",
     "C-43",
     "C-48",
     "C-58",
     "C-59",
+    "C-92",
     "C-95",
     "S-4820"
   ],
-  "actualizado": "2026-10-15T20:44:19.325065+00:00"
+  "actualizado": "2026-10-15T20:59:44.804645+00:00"
 }
