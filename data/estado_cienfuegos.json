@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-15T22:09:24+00:00",
+  "reporte_fecha": "2026-10-15T22:37:58+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-15T15:56:57+00:00",
-  "mensajes_leidos": 110,
+  "mensajes_leidos": 111,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -315,7 +315,8 @@
       "Crucesitas",
       "El Nicho",
       "Vegueta"
-    ]
+    ],
+    "C-62": []
   },
   "programados": {},
   "confirmados_con_servicio": {
@@ -1106,6 +1107,15 @@
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
     },
+    "C-62": {
+      "fecha": "2026-10-15T22:37:58+00:00",
+      "mensaje_id": 59408,
+      "url": "https://t.me/empresaelectricacienfuegos1/59408",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-62 Barajagua."
+    },
     "C-43": {
       "fecha": "2026-10-15T21:16:49+00:00",
       "mensaje_id": 59403,
@@ -1348,7 +1358,8 @@
     "C-401": "avería",
     "C-92": "avería",
     "C-89": "avería",
-    "C-37": "avería"
+    "C-37": "avería",
+    "C-62": "emergencia"
   },
   "error": null,
   "pendientes_revision": [
@@ -1776,7 +1787,7 @@
   ],
   "lectura": {
     "texto": 59,
-    "imagenes": 51,
+    "imagenes": 52,
     "pdf": 0,
     "no_leidos": 5
   },
@@ -2751,7 +2762,7 @@
   ],
   "mw_fecha": "2026-10-15T21:42:14+00:00",
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
-  "total_circuitos_afectados": 66,
+  "total_circuitos_afectados": 67,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 6,
   "circuitos_sin_catalogar": [
@@ -2764,11 +2775,12 @@
     "C-48",
     "C-58",
     "C-59",
+    "C-62",
     "C-89",
     "C-92",
     "C-94",
     "C-95",
     "S-4820"
   ],
-  "actualizado": "2026-10-15T22:34:27.689469+00:00"
+  "actualizado": "2026-10-15T22:49:26.680160+00:00"
 }
