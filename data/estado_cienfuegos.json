@@ -6,15 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-15T11:37:43+00:00",
-  "mensajes_leidos": 102,
+  "mensajes_leidos": 99,
   "afectados": {
-    "C-11": [
-      "Ariza",
-      "Silverita",
-      "Nuevo México"
-    ],
-    "C-48": [],
-    "S-4820": [],
     "C-31": [],
     "C-88": [
       "San Ignacio",
@@ -78,6 +71,13 @@
       "La Caridad",
       "Palmira (Sur"
     ],
+    "C-11": [
+      "Ariza",
+      "Silverita",
+      "Nuevo México"
+    ],
+    "C-48": [],
+    "S-4820": [],
     "C-405": [
       "Pueblo Griffo Nuevo"
     ],
@@ -560,33 +560,6 @@
     ]
   },
   "evidencias": {
-    "C-11": {
-      "fecha": "2026-10-15T12:39:26+00:00",
-      "mensaje_id": 59372,
-      "url": "https://t.me/empresaelectricacienfuegos1/59372",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México."
-    },
-    "C-48": {
-      "fecha": "2026-10-15T11:44:02+00:00",
-      "mensaje_id": 59371,
-      "url": "https://t.me/empresaelectricacienfuegos1/59371",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-4820": {
-      "fecha": "2026-10-15T11:44:02+00:00",
-      "mensaje_id": 59371,
-      "url": "https://t.me/empresaelectricacienfuegos1/59371",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
     "C-31": {
       "fecha": "2026-10-15T12:39:26+00:00",
       "mensaje_id": 59372,
@@ -685,6 +658,33 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-72  Porcino, La Caridad, Palmira (Sur)"
+    },
+    "C-11": {
+      "fecha": "2026-10-15T12:39:26+00:00",
+      "mensaje_id": 59372,
+      "url": "https://t.me/empresaelectricacienfuegos1/59372",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-11  Ariza, Silverita, Nuevo México."
+    },
+    "C-48": {
+      "fecha": "2026-10-15T11:44:02+00:00",
+      "mensaje_id": 59371,
+      "url": "https://t.me/empresaelectricacienfuegos1/59371",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
+    },
+    "S-4820": {
+      "fecha": "2026-10-15T11:44:02+00:00",
+      "mensaje_id": 59371,
+      "url": "https://t.me/empresaelectricacienfuegos1/59371",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "C-405": {
       "fecha": "2026-10-15T12:39:26+00:00",
@@ -1352,9 +1352,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-11": "déficit",
-    "C-48": "avería",
-    "S-4820": "avería",
     "C-31": "déficit",
     "C-88": "déficit",
     "C-82": "déficit",
@@ -1366,6 +1363,9 @@
     "C-41": "déficit",
     "C-57": "déficit",
     "C-72": "déficit",
+    "C-11": "déficit",
+    "C-48": "avería",
+    "S-4820": "avería",
     "C-405": "déficit",
     "C-59": "déficit",
     "C-50": "déficit",
@@ -1416,34 +1416,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
-      "id": 59267,
-      "url": "https://t.me/empresaelectricacienfuegos1/59267",
-      "fecha": "2026-10-12T12:51:29+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de 1725        MW a las 19:50 horas",
-      "id": 59267,
-      "url": "https://t.me/empresaelectricacienfuegos1/59267",
-      "fecha": "2026-10-12T12:51:29+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
-      "id": 59268,
-      "url": "https://t.me/empresaelectricacienfuegos1/59268",
-      "fecha": "2026-10-12T12:54:28+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\nActualización del Sistema $\nElectroenergético Nacional ine\nLunes, 12 de octubre de 2026 as\nDisponibilidad MEW\n| Demanda | 3000 MW\nAfectación MLS MW |\n= ae",
-      "id": 59269,
-      "url": "https://t.me/empresaelectricacienfuegos1/59269",
-      "fecha": "2026-10-12T12:56:57+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
@@ -1760,8 +1732,8 @@
     }
   ],
   "lectura": {
-    "texto": 60,
-    "imagenes": 42,
+    "texto": 58,
+    "imagenes": 41,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -2757,5 +2729,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-15T12:49:32.009905+00:00"
+  "actualizado": "2026-10-15T13:04:33.583721+00:00"
 }
