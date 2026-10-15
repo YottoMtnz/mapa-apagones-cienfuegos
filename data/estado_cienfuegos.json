@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-15T04:51:47+00:00",
+  "reporte_fecha": "2026-10-15T07:14:12+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-15T02:35:41+00:00",
-  "mensajes_leidos": 96,
+  "mensajes_leidos": 98,
   "afectados": {
     "C-48": [],
     "S-4820": [],
@@ -77,6 +77,9 @@
       "Porcino",
       "La Caridad",
       "Palmira (Sur"
+    ],
+    "C-19": [
+      "Tulipán"
     ],
     "C-405": [
       "Pueblo Griffo Nuevo"
@@ -821,6 +824,15 @@
       "confianza": 100,
       "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)"
     },
+    "C-19": {
+      "fecha": "2026-10-15T07:14:12+00:00",
+      "mensaje_id": 59362,
+      "url": "https://t.me/empresaelectricacienfuegos1/59362",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán"
+    },
     "C-405": {
       "fecha": "2026-10-15T04:51:47+00:00",
       "mensaje_id": 59360,
@@ -1547,6 +1559,7 @@
     "C-41": "déficit",
     "C-57": "déficit",
     "C-72": "déficit",
+    "C-19": "avería",
     "C-405": "déficit",
     "C-59": "déficit",
     "C-50": "déficit",
@@ -1904,11 +1917,25 @@
       "id": 59356,
       "url": "https://t.me/empresaelectricacienfuegos1/59356",
       "fecha": "2026-10-15T00:21:15+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nDisparo Automático por Frecuencia\n> a | “<4\nel | EN",
+      "id": 59362,
+      "url": "https://t.me/empresaelectricacienfuegos1/59362",
+      "fecha": "2026-10-15T07:14:12+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠Terminología Eléctrica\n\n\n👉Disparo automático por frecuencia (DAF).\n\n\n📌Un disparo por frecuencia o Descarga Automática por Frecuencia, es una protección que posee el sistema eléctrico para cuando la frecuencia llega a valores mínimos permisibles que ponen en peligro la estabilidad de todo el sistema",
+      "id": 59363,
+      "url": "https://t.me/empresaelectricacienfuegos1/59363",
+      "fecha": "2026-10-15T07:16:57+00:00"
     }
   ],
   "lectura": {
-    "texto": 57,
-    "imagenes": 39,
+    "texto": 58,
+    "imagenes": 40,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -2881,7 +2908,7 @@
     }
   ],
   "mw_fecha": "2026-10-15T04:51:47+00:00",
-  "total_circuitos_afectados": 55,
+  "total_circuitos_afectados": 56,
   "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
@@ -2899,5 +2926,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-15T07:04:32.865052+00:00"
+  "actualizado": "2026-10-15T07:19:36.539392+00:00"
 }
