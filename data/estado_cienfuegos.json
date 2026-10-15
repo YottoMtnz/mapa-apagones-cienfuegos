@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-15T14:03:36+00:00",
+  "reporte_fecha": "2026-10-15T14:42:21+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-15T11:37:43+00:00",
-  "mensajes_leidos": 99,
+  "mensajes_leidos": 100,
   "afectados": {
     "C-31": [],
     "C-88": [
@@ -593,9 +593,9 @@
           "La Pollera"
         ],
         "evidencia": {
-          "fecha": "2026-10-15T11:44:02+00:00",
-          "mensaje_id": 59371,
-          "url": "https://t.me/empresaelectricacienfuegos1/59371",
+          "fecha": "2026-10-15T14:42:21+00:00",
+          "mensaje_id": 59375,
+          "url": "https://t.me/empresaelectricacienfuegos1/59375",
           "medio": "texto",
           "editado": null,
           "confianza": 100,
@@ -715,18 +715,18 @@
       "texto": "👉C-11  Ariza, Silverita, Nuevo México."
     },
     "C-48": {
-      "fecha": "2026-10-15T11:44:02+00:00",
-      "mensaje_id": 59371,
-      "url": "https://t.me/empresaelectricacienfuegos1/59371",
+      "fecha": "2026-10-15T14:42:21+00:00",
+      "mensaje_id": 59375,
+      "url": "https://t.me/empresaelectricacienfuegos1/59375",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "S-4820": {
-      "fecha": "2026-10-15T11:44:02+00:00",
-      "mensaje_id": 59371,
-      "url": "https://t.me/empresaelectricacienfuegos1/59371",
+      "fecha": "2026-10-15T14:42:21+00:00",
+      "mensaje_id": 59375,
+      "url": "https://t.me/empresaelectricacienfuegos1/59375",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1039,13 +1039,13 @@
       "texto": "👉C-3    Reparto Eléctrico"
     },
     "C-69": {
-      "fecha": "2026-10-15T14:03:36+00:00",
-      "mensaje_id": 59373,
-      "url": "https://t.me/empresaelectricacienfuegos1/59373",
+      "fecha": "2026-10-15T14:42:21+00:00",
+      "mensaje_id": 59375,
+      "url": "https://t.me/empresaelectricacienfuegos1/59375",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-69  Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
     "C-406": {
       "fecha": "2026-10-15T14:03:36+00:00",
@@ -1120,13 +1120,13 @@
       "texto": "👉C-80  Punta Cotica, Parque José Martí."
     },
     "C-19": {
-      "fecha": "2026-10-15T14:03:36+00:00",
-      "mensaje_id": 59373,
-      "url": "https://t.me/empresaelectricacienfuegos1/59373",
+      "fecha": "2026-10-15T14:42:21+00:00",
+      "mensaje_id": 59375,
+      "url": "https://t.me/empresaelectricacienfuegos1/59375",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-19  Tulipán"
+      "texto": "👉C-19 Tulipán"
     },
     "C-91": {
       "fecha": "2026-10-15T14:03:36+00:00",
@@ -1481,7 +1481,7 @@
     "C-22": "déficit",
     "C-2": "déficit",
     "C-3": "déficit",
-    "C-69": "déficit",
+    "C-69": "déficit / emergencia",
     "C-406": "déficit",
     "C-26": "déficit",
     "C-90": "déficit",
@@ -1490,7 +1490,7 @@
     "C-65": "déficit",
     "C-66": "déficit",
     "C-80": "déficit",
-    "C-19": "déficit",
+    "C-19": "déficit / avería",
     "C-91": "déficit"
   },
   "error": null,
@@ -1815,10 +1815,17 @@
       "id": 59374,
       "url": "https://t.me/empresaelectricacienfuegos1/59374",
       "fecha": "2026-10-15T14:38:37+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
+      "id": 59375,
+      "url": "https://t.me/empresaelectricacienfuegos1/59375",
+      "fecha": "2026-10-15T14:42:21+00:00"
     }
   ],
   "lectura": {
-    "texto": 58,
+    "texto": 59,
     "imagenes": 41,
     "pdf": 0,
     "no_leidos": 1
@@ -2813,5 +2820,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-15T14:39:22.872653+00:00"
+  "actualizado": "2026-10-15T14:54:29.963560+00:00"
 }
