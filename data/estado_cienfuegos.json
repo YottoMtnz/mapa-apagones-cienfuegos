@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-15T22:37:58+00:00",
+  "reporte_fecha": "2026-10-15T23:10:12+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-15T15:56:57+00:00",
-  "mensajes_leidos": 111,
+  "mensajes_leidos": 112,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -315,8 +315,7 @@
       "Crucesitas",
       "El Nicho",
       "Vegueta"
-    ],
-    "C-62": []
+    ]
   },
   "programados": {},
   "confirmados_con_servicio": {
@@ -337,6 +336,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-63 Juraguá(Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
+    },
+    "C-62": {
+      "fecha": "2026-10-15T23:10:12+00:00",
+      "mensaje_id": 59409,
+      "url": "https://t.me/empresaelectricacienfuegos1/59409",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-62 Barajagua."
     }
   },
   "restablecimientos_probables": {
@@ -1107,15 +1115,6 @@
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
     },
-    "C-62": {
-      "fecha": "2026-10-15T22:37:58+00:00",
-      "mensaje_id": 59408,
-      "url": "https://t.me/empresaelectricacienfuegos1/59408",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-62 Barajagua."
-    },
     "C-43": {
       "fecha": "2026-10-15T21:16:49+00:00",
       "mensaje_id": 59403,
@@ -1133,6 +1132,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-63 Juraguá(Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
+    },
+    "C-62": {
+      "fecha": "2026-10-15T23:10:12+00:00",
+      "mensaje_id": 59409,
+      "url": "https://t.me/empresaelectricacienfuegos1/59409",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-62 Barajagua."
     },
     "C-408": {
       "fecha": "2026-10-15T21:42:14+00:00",
@@ -1358,8 +1366,7 @@
     "C-401": "avería",
     "C-92": "avería",
     "C-89": "avería",
-    "C-37": "avería",
-    "C-62": "emergencia"
+    "C-37": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -1786,7 +1793,7 @@
     }
   ],
   "lectura": {
-    "texto": 59,
+    "texto": 60,
     "imagenes": 52,
     "pdf": 0,
     "no_leidos": 5
@@ -1859,15 +1866,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-47",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-13T16:12:08+00:00",
-      "mensaje_id": 59311,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59309",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59311"
-    },
     {
       "circuito": "C-85",
       "tipo": "salida_lista",
@@ -2758,11 +2756,20 @@
       "mensaje_id": 59406,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59392",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59406"
+    },
+    {
+      "circuito": "C-62",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-15T23:10:12+00:00",
+      "mensaje_id": 59409,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59408",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59409"
     }
   ],
   "mw_fecha": "2026-10-15T21:42:14+00:00",
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
-  "total_circuitos_afectados": 67,
+  "total_circuitos_afectados": 66,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 6,
   "circuitos_sin_catalogar": [
@@ -2775,12 +2782,11 @@
     "C-48",
     "C-58",
     "C-59",
-    "C-62",
     "C-89",
     "C-92",
     "C-94",
     "C-95",
     "S-4820"
   ],
-  "actualizado": "2026-10-15T23:04:22.413656+00:00"
+  "actualizado": "2026-10-15T23:19:29.531493+00:00"
 }
