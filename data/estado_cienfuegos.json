@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-14T23:02:45+00:00",
+  "reporte_fecha": "2026-10-15T00:09:04+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-14T22:07:45+00:00",
-  "mensajes_leidos": 97,
+  "mensajes_leidos": 99,
   "afectados": {
     "C-11": [
       "Ariza",
@@ -304,7 +304,17 @@
     ]
   },
   "programados": {},
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-69": {
+      "fecha": "2026-10-15T00:09:04+00:00",
+      "mensaje_id": 59355,
+      "url": "https://t.me/empresaelectricacienfuegos1/59355",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    }
+  },
   "restablecimientos_probables": {
     "C-17": {
       "fecha": "2026-10-14T23:02:45+00:00",
@@ -530,35 +540,6 @@
       "lugares": [
         "Boulevard",
         "Parque Martí"
-      ]
-    },
-    "C-69": {
-      "fecha": "2026-10-14T23:02:45+00:00",
-      "mensaje_id": 59353,
-      "url": "https://t.me/empresaelectricacienfuegos1/59353",
-      "medio": "texto",
-      "editado": "2026-10-14T23:04:57+00:00",
-      "confianza": 100,
-      "texto": "👉C-6 Rancho Luna, Pasacaballo, La Milpa.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-14T23:02:45+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-14T22:44:59+00:00",
-        "mensaje_id": 59351,
-        "url": "https://t.me/empresaelectricacienfuegos1/59351",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-      },
-      "lugares": [
-        "Junco Sur",
-        "Reparto de los médicos",
-        "Las Minas",
-        "Playa Alegre"
       ]
     }
   },
@@ -1123,6 +1104,15 @@
       "confianza": 100,
       "texto": "👉C-80 Punta Cotica, Parque José Martí."
     },
+    "C-69": {
+      "fecha": "2026-10-15T00:09:04+00:00",
+      "mensaje_id": 59355,
+      "url": "https://t.me/empresaelectricacienfuegos1/59355",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
     "C-17": {
       "fecha": "2026-10-14T23:02:45+00:00",
       "mensaje_id": 59353,
@@ -1347,35 +1337,6 @@
       "lugares": [
         "Boulevard",
         "Parque Martí"
-      ]
-    },
-    "C-69": {
-      "fecha": "2026-10-14T23:02:45+00:00",
-      "mensaje_id": 59353,
-      "url": "https://t.me/empresaelectricacienfuegos1/59353",
-      "medio": "texto",
-      "editado": "2026-10-14T23:04:57+00:00",
-      "confianza": 100,
-      "texto": "👉C-6 Rancho Luna, Pasacaballo, La Milpa.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-14T23:02:45+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-14T22:44:59+00:00",
-        "mensaje_id": 59351,
-        "url": "https://t.me/empresaelectricacienfuegos1/59351",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-      },
-      "lugares": [
-        "Junco Sur",
-        "Reparto de los médicos",
-        "Las Minas",
-        "Playa Alegre"
       ]
     }
   },
@@ -1754,11 +1715,18 @@
       "id": 59352,
       "url": "https://t.me/empresaelectricacienfuegos1/59352",
       "fecha": "2026-10-14T22:57:00+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\n> | S y\nEl | a",
+      "id": 59354,
+      "url": "https://t.me/empresaelectricacienfuegos1/59354",
+      "fecha": "2026-10-15T00:06:19+00:00"
     }
   ],
   "lectura": {
-    "texto": 59,
-    "imagenes": 38,
+    "texto": 60,
+    "imagenes": 39,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -1836,15 +1804,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-2",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-12T22:17:51+00:00",
-      "mensaje_id": 59292,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59289",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59292"
-    },
     {
       "circuito": "C-3",
       "tipo": "salida_lista",
@@ -2735,12 +2694,21 @@
       "mensaje_id": 59353,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59351",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59353"
+    },
+    {
+      "circuito": "C-69",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-15T00:09:04+00:00",
+      "mensaje_id": 59355,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59354",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59355"
     }
   ],
   "mw_fecha": "2026-10-14T23:02:45+00:00",
   "total_circuitos_afectados": 60,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 10,
+  "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2755,5 +2723,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-15T00:04:26.419154+00:00"
+  "actualizado": "2026-10-15T00:19:17.058521+00:00"
 }
