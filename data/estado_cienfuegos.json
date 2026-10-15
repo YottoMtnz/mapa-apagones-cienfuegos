@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-15T20:45:20+00:00",
+  "reporte_fecha": "2026-10-15T21:09:52+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-15T15:56:57+00:00",
@@ -308,7 +308,18 @@
       "FW1558) La Pollera"
     ],
     "C-401": [],
-    "C-92": []
+    "C-92": [],
+    "C-89": [],
+    "C-63": [
+      "Juraguá (Oeste",
+      "Las 500",
+      "Calicito",
+      "Bolivia",
+      "Comunidad Alejandro",
+      "Hondones",
+      "La Yuca",
+      "Bagazal"
+    ]
   },
   "programados": {},
   "confirmados_con_servicio": {},
@@ -927,6 +938,24 @@
       "editado": "2026-10-15T20:53:48+00:00",
       "confianza": 100,
       "texto": "👉C-92 Calzada Dolores, San Lázaro."
+    },
+    "C-89": {
+      "fecha": "2026-10-15T21:01:35+00:00",
+      "mensaje_id": 59401,
+      "url": "https://t.me/empresaelectricacienfuegos1/59401",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
+    },
+    "C-63": {
+      "fecha": "2026-10-15T21:09:52+00:00",
+      "mensaje_id": 59402,
+      "url": "https://t.me/empresaelectricacienfuegos1/59402",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-63 Juraguá(Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
     }
   },
   "horarios": {},
@@ -1001,17 +1030,12 @@
     "C-26": "avería",
     "C-90": "avería",
     "C-401": "avería",
-    "C-92": "avería"
+    "C-92": "avería",
+    "C-89": "avería",
+    "C-63": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\nActualización del Sistema $\nElectroenergético Nacional |\nMartes, 13 de octubre de 2026 ==\nDisponibilidad MEVA\nAfectación ME |\nMás información: www.uniensiednicacu",
-      "id": 59305,
-      "url": "https://t.me/empresaelectricacienfuegos1/59305",
-      "fecha": "2026-10-13T13:14:54+00:00"
-    },
     {
       "motivo": "resumen_historico",
       "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
@@ -1427,13 +1451,19 @@
       "id": 59400,
       "url": "https://t.me/empresaelectricacienfuegos1/59400",
       "fecha": "2026-10-15T20:45:20+00:00"
+    },
+    {
+      "id": 59402,
+      "url": "https://t.me/empresaelectricacienfuegos1/59402",
+      "fecha": "2026-10-15T21:09:52+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
-    "texto": 58,
-    "imagenes": 49,
+    "texto": 57,
+    "imagenes": 50,
     "pdf": 0,
-    "no_leidos": 4
+    "no_leidos": 5
   },
   "listas_completas": {
     "deficit": {
@@ -2407,7 +2437,7 @@
   ],
   "mw_fecha": "2026-10-15T19:10:24+00:00",
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
-  "total_circuitos_afectados": 66,
+  "total_circuitos_afectados": 68,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 0,
   "circuitos_sin_catalogar": [
@@ -2419,9 +2449,10 @@
     "C-48",
     "C-58",
     "C-59",
+    "C-89",
     "C-92",
     "C-95",
     "S-4820"
   ],
-  "actualizado": "2026-10-15T20:59:44.804645+00:00"
+  "actualizado": "2026-10-15T21:14:22.324564+00:00"
 }
