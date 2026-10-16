@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-16T18:18:36+00:00",
+  "reporte_fecha": "2026-10-16T18:28:31+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-16T17:54:25+00:00",
-  "mensajes_leidos": 145,
+  "mensajes_leidos": 146,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -1022,9 +1022,9 @@
       "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
     },
     "C-62": {
-      "fecha": "2026-10-16T10:57:51+00:00",
-      "mensaje_id": 59435,
-      "url": "https://t.me/empresaelectricacienfuegos1/59435",
+      "fecha": "2026-10-16T18:28:31+00:00",
+      "mensaje_id": 59467,
+      "url": "https://t.me/empresaelectricacienfuegos1/59467",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1112,9 +1112,9 @@
       "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
     "C-37": {
-      "fecha": "2026-10-16T13:39:55+00:00",
-      "mensaje_id": 59443,
-      "url": "https://t.me/empresaelectricacienfuegos1/59443",
+      "fecha": "2026-10-16T18:28:31+00:00",
+      "mensaje_id": 59467,
+      "url": "https://t.me/empresaelectricacienfuegos1/59467",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1462,7 +1462,7 @@
     "C-407": "avería / déficit",
     "S-3792": "avería",
     "C-94": "déficit",
-    "C-62": "emergencia",
+    "C-62": "emergencia / avería",
     "C-43": "déficit / emergencia",
     "C-80": "déficit",
     "C-69": "déficit / emergencia",
@@ -1486,13 +1486,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠Se comunica a nuestros clientes que se encuentra afectado el servicio por Disparo Automático por Frecuencia (DAF) en la línea:\n\n\n👉L-1410 Horquita, San Ignacio\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉Ofrecemos disculpas por las molestias ocasionadas\nLíneas afectadas por\nDispa",
-      "id": 59381,
-      "url": "https://t.me/empresaelectricacienfuegos1/59381",
-      "fecha": "2026-10-15T16:35:55+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚠Terminología Eléctrica\n \n\n👉Disparo automático por frecuencia (DAF).\n \n\n📌Un disparo por frecuencia o Descarga Automática por Frecuencia, es una protección que posee el sistema eléctrico para cuando la frecuencia llega a valores mínimos permisibles que ponen en peligro la estabilidad de todo el siste",
@@ -1904,13 +1897,19 @@
       "id": 59463,
       "url": "https://t.me/empresaelectricacienfuegos1/59463",
       "fecha": "2026-10-16T16:20:50+00:00"
+    },
+    {
+      "id": 59467,
+      "url": "https://t.me/empresaelectricacienfuegos1/59467",
+      "fecha": "2026-10-16T18:28:31+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 69,
-    "imagenes": 76,
+    "imagenes": 77,
     "pdf": 0,
-    "no_leidos": 9
+    "no_leidos": 10
   },
   "listas_completas": {
     "deficit": {
@@ -2904,5 +2903,5 @@
     "S-3792",
     "S-4820"
   ],
-  "actualizado": "2026-10-16T18:20:48.421790+00:00"
+  "actualizado": "2026-10-16T18:35:29.594407+00:00"
 }
