@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-15T23:36:11+00:00",
+  "reporte_fecha": "2026-10-15T23:57:35+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-15T15:56:57+00:00",
@@ -891,22 +891,22 @@
       "texto": "👉C-406               \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
     },
     "C-65": {
-      "fecha": "2026-10-15T23:23:05+00:00",
-      "mensaje_id": 59411,
-      "url": "https://t.me/empresaelectricacienfuegos1/59411",
+      "fecha": "2026-10-15T23:57:35+00:00",
+      "mensaje_id": 59416,
+      "url": "https://t.me/empresaelectricacienfuegos1/59416",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-65  Centro histórico, Reina (Aduana)"
+      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
     },
     "C-66": {
-      "fecha": "2026-10-15T23:23:05+00:00",
-      "mensaje_id": 59411,
-      "url": "https://t.me/empresaelectricacienfuegos1/59411",
+      "fecha": "2026-10-15T23:57:35+00:00",
+      "mensaje_id": 59416,
+      "url": "https://t.me/empresaelectricacienfuegos1/59416",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-66  Reina (Parque)"
+      "texto": "👉C-66 Reina (Parque)"
     },
     "C-80": {
       "fecha": "2026-10-15T23:23:05+00:00",
@@ -1326,8 +1326,8 @@
     "C-36": "déficit",
     "C-22": "déficit",
     "C-406": "déficit",
-    "C-65": "déficit",
-    "C-66": "déficit",
+    "C-65": "déficit / avería",
+    "C-66": "déficit / avería",
     "C-80": "déficit",
     "C-19": "déficit / avería",
     "C-91": "déficit",
@@ -1351,20 +1351,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\nY\ny\n69 MW\n-\nDEFICIT DE GENERACION\nZi Sox\nil,\n1\nUNE\nCIENFUEGOS.\na EY",
-      "id": 59322,
-      "url": "https://t.me/empresaelectricacienfuegos1/59322",
-      "fecha": "2026-10-14T04:47:55+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠Se comunica a nuestros clientes que se encuentra afectado el servicio por Disparo Automático por Frecuencia (DAF) en la línea:\n\n\n👉L-1415 Aguada.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
-      "id": 59323,
-      "url": "https://t.me/empresaelectricacienfuegos1/59323",
-      "fecha": "2026-10-14T04:54:59+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚠Se comunica a nuestros clientes que se encuentra afectado el servicio por Disparo Automático por Frecuencia (DAF) en la línea:\n\n\n👉L-1415 Aguada.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas\nLíneas afectadas por\nDisparo Automático por Frecuencia\n> a | “<4\nel | EN",
@@ -1771,13 +1757,26 @@
       "id": 59414,
       "url": "https://t.me/empresaelectricacienfuegos1/59414",
       "fecha": "2026-10-15T23:39:13+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n1\n90 MW\neo\nDEFICIT DE GENERACION\nmM\nas\nij\na\nHT]\nSee y\n+\nUNE\nEMPRESA ELECTRIC.\ny\nCIENFUEGOS\ny",
+      "id": 59415,
+      "url": "https://t.me/empresaelectricacienfuegos1/59415",
+      "fecha": "2026-10-15T23:52:56+00:00"
+    },
+    {
+      "id": 59416,
+      "url": "https://t.me/empresaelectricacienfuegos1/59416",
+      "fecha": "2026-10-15T23:57:35+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
-    "texto": 63,
-    "imagenes": 54,
+    "texto": 62,
+    "imagenes": 55,
     "pdf": 0,
-    "no_leidos": 5
+    "no_leidos": 6
   },
   "listas_completas": {
     "deficit": {
@@ -2771,5 +2770,5 @@
     "C-95",
     "S-4820"
   ],
-  "actualizado": "2026-10-15T23:39:27.958231+00:00"
+  "actualizado": "2026-10-16T00:04:31.299045+00:00"
 }
