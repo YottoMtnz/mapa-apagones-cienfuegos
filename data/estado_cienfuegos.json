@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-16T17:54:25+00:00",
-  "mensajes_leidos": 147,
+  "mensajes_leidos": 146,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -2009,7 +2009,7 @@
     }
   ],
   "lectura": {
-    "texto": 71,
+    "texto": 70,
     "imagenes": 76,
     "pdf": 0,
     "no_leidos": 10
@@ -2130,6 +2130,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59330"
     },
     {
+      "circuito": "C-19",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-14T17:59:39+00:00",
+      "mensaje_id": 59334,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59332",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59334"
+    },
+    {
       "circuito": "C-22",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2154,15 +2163,6 @@
       "fecha": "2026-10-14T17:59:39+00:00",
       "mensaje_id": 59334,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59330",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59334"
-    },
-    {
-      "circuito": "C-19",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-14T17:59:39+00:00",
-      "mensaje_id": 59334,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59332",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59334"
     },
     {
@@ -3004,5 +3004,5 @@
     "S-3792",
     "S-4820"
   ],
-  "actualizado": "2026-10-16T20:39:28.122777+00:00"
+  "actualizado": "2026-10-16T20:54:44.675005+00:00"
 }
