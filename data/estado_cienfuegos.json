@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-16T05:41:13+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 128,
+  "programado_fecha": "2026-10-16T05:48:00+00:00",
+  "mensajes_leidos": 129,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -305,7 +305,9 @@
       "Pueblo Griffo Nuevo"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-17": []
+  },
   "confirmados_con_servicio": {
     "C-63": {
       "fecha": "2026-10-15T21:18:37+00:00",
@@ -1116,6 +1118,15 @@
       "confianza": 100,
       "texto": "👉C-405 \"Pueblo Griffo Nuevo."
     },
+    "C-17": {
+      "fecha": "2026-10-16T05:48:00+00:00",
+      "mensaje_id": 59433,
+      "url": "https://t.me/empresaelectricacienfuegos1/59433",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17 Ave 5 de sept, Distrito Petrolero, Hermanas Giralt."
+    },
     "C-63": {
       "fecha": "2026-10-15T21:18:37+00:00",
       "mensaje_id": 59404,
@@ -1290,7 +1301,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-17": {
+      "inicio": null,
+      "fin": "2026-10-16T17:48:00+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -1791,7 +1808,7 @@
   ],
   "lectura": {
     "texto": 66,
-    "imagenes": 62,
+    "imagenes": 63,
     "pdf": 0,
     "no_leidos": 6
   },
@@ -2767,9 +2784,10 @@
   "mw_fecha": "2026-10-16T04:34:38+00:00",
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "total_circuitos_afectados": 68,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 5,
   "circuitos_sin_catalogar": [
+    "C-17",
     "C-18",
     "C-2",
     "C-31",
@@ -2790,5 +2808,5 @@
     "S-4820",
     "S-799"
   ],
-  "actualizado": "2026-10-16T05:44:33.200175+00:00"
+  "actualizado": "2026-10-16T05:59:26.376531+00:00"
 }
