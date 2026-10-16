@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-16T05:48:00+00:00",
-  "mensajes_leidos": 131,
+  "mensajes_leidos": 132,
   "afectados": {
     "C-30": [
       "14 de Julio",
@@ -281,11 +281,6 @@
     "C-5": [
       "Boulevard",
       "Parque Martí"
-    ],
-    "C-407": [],
-    "S-799": [],
-    "S-0799": [
-      "las zonas"
     ],
     "S-3792": [],
     "C-94": [],
@@ -1010,33 +1005,6 @@
       "confianza": 100,
       "texto": "👉C-5    Boulevard, Parque Martí"
     },
-    "C-407": {
-      "fecha": "2026-10-16T00:38:38+00:00",
-      "mensaje_id": 59418,
-      "url": "https://t.me/empresaelectricacienfuegos1/59418",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "⚠ Se comunica a nuestros clientes que se encuentra en avería el circuito C-407 Cocaleca, Poligráfico, Pastorita, Termoeléctrica"
-    },
-    "S-799": {
-      "fecha": "2026-10-16T00:38:38+00:00",
-      "mensaje_id": 59418,
-      "url": "https://t.me/empresaelectricacienfuegos1/59418",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "Se afecta a partir de la sección S0799, las zonas:"
-    },
-    "S-0799": {
-      "fecha": "2026-10-16T00:38:38+00:00",
-      "mensaje_id": 59418,
-      "url": "https://t.me/empresaelectricacienfuegos1/59418",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "Se afecta a partir de la sección S0799, las zonas:"
-    },
     "S-3792": {
       "fecha": "2026-10-16T11:03:53+00:00",
       "mensaje_id": 59436,
@@ -1348,9 +1316,6 @@
     "C-92": "avería",
     "C-89": "avería",
     "C-5": "déficit",
-    "C-407": "avería",
-    "S-799": "sin precisar",
-    "S-0799": "sin precisar",
     "S-3792": "sin precisar / avería",
     "C-94": "déficit",
     "C-62": "emergencia",
@@ -1787,7 +1752,7 @@
     }
   ],
   "lectura": {
-    "texto": 65,
+    "texto": 66,
     "imagenes": 66,
     "pdf": 0,
     "no_leidos": 6
@@ -2767,7 +2732,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-16T11:19:23+00:00",
-  "total_circuitos_afectados": 72,
+  "total_circuitos_afectados": 69,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 5,
   "circuitos_sin_catalogar": [
@@ -2776,7 +2741,6 @@
     "C-2",
     "C-31",
     "C-401",
-    "C-407",
     "C-408",
     "C-43",
     "C-48",
@@ -2787,10 +2751,8 @@
     "C-92",
     "C-94",
     "C-95",
-    "S-0799",
     "S-3792",
-    "S-4820",
-    "S-799"
+    "S-4820"
   ],
-  "actualizado": "2026-10-16T12:24:26.197542+00:00"
+  "actualizado": "2026-10-16T12:39:24.367827+00:00"
 }
