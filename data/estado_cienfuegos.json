@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-16T20:07:55+00:00",
+  "reporte_fecha": "2026-10-16T21:38:02+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-16T17:54:25+00:00",
-  "mensajes_leidos": 147,
+  "mensajes_leidos": 148,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -245,7 +245,6 @@
       "El Paisíto"
     ],
     "C-401": [],
-    "C-92": [],
     "C-89": [],
     "C-407": [],
     "S-3792": [],
@@ -320,7 +319,17 @@
     "C-17": []
   },
   "programados": {},
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-92": {
+      "fecha": "2026-10-16T21:38:02+00:00",
+      "mensaje_id": 59473,
+      "url": "https://t.me/empresaelectricacienfuegos1/59473",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-92 Calzada Dolores, San Lázaro."
+    }
+  },
   "restablecimientos_probables": {
     "C-18": {
       "fecha": "2026-10-16T20:07:55+00:00",
@@ -1038,15 +1047,6 @@
       "confianza": 100,
       "texto": "👉C-401 Zona Industrial 1, Almacenes CIMEX, El Miedo, La 13"
     },
-    "C-92": {
-      "fecha": "2026-10-16T13:39:55+00:00",
-      "mensaje_id": 59443,
-      "url": "https://t.me/empresaelectricacienfuegos1/59443",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-92 Calzada Dolores, San Lázaro."
-    },
     "C-89": {
       "fecha": "2026-10-16T11:03:53+00:00",
       "mensaje_id": 59436,
@@ -1244,6 +1244,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
+    },
+    "C-92": {
+      "fecha": "2026-10-16T21:38:02+00:00",
+      "mensaje_id": 59473,
+      "url": "https://t.me/empresaelectricacienfuegos1/59473",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-92 Calzada Dolores, San Lázaro."
     },
     "C-18": {
       "fecha": "2026-10-16T20:07:55+00:00",
@@ -1563,7 +1572,6 @@
     "C-67": "avería",
     "C-26": "avería",
     "C-401": "avería",
-    "C-92": "avería",
     "C-89": "avería",
     "C-407": "avería / déficit",
     "S-3792": "avería",
@@ -2009,7 +2017,7 @@
     }
   ],
   "lectura": {
-    "texto": 70,
+    "texto": 71,
     "imagenes": 77,
     "pdf": 0,
     "no_leidos": 10
@@ -2075,15 +2083,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-43",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-14T11:02:46+00:00",
-      "mensaje_id": 59328,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59325",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59328"
-    },
     {
       "circuito": "C-27",
       "tipo": "salida_lista",
@@ -2974,11 +2973,20 @@
       "mensaje_id": 59471,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59466",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59471"
+    },
+    {
+      "circuito": "C-92",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-16T21:38:02+00:00",
+      "mensaje_id": 59473,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59443",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59473"
     }
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-16T20:07:55+00:00",
-  "total_circuitos_afectados": 71,
+  "total_circuitos_afectados": 70,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 10,
   "circuitos_sin_catalogar": [
@@ -2998,11 +3006,10 @@
     "C-62",
     "C-76",
     "C-89",
-    "C-92",
     "C-94",
     "C-95",
     "S-3792",
     "S-4820"
   ],
-  "actualizado": "2026-10-16T21:24:19.313232+00:00"
+  "actualizado": "2026-10-16T21:39:29.261884+00:00"
 }
