@@ -122,8 +122,6 @@
       "Jurisdicción",
       "Manaquita"
     ],
-    "C-48": [],
-    "S-4820": [],
     "C-49": [
       "Arriete",
       "Ciego Montero",
@@ -245,9 +243,7 @@
       "El Paisíto"
     ],
     "C-401": [],
-    "C-89": [],
     "C-407": [],
-    "S-3792": [],
     "C-62": [],
     "C-43": [],
     "C-69": [
@@ -518,7 +514,7 @@
           "confianza": 100,
           "texto": "👉C-90 (FW1558) La Pollera"
         },
-        "vigente": true
+        "vigente": false
       }
     ]
   },
@@ -711,24 +707,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
-    },
-    "C-48": {
-      "fecha": "2026-10-16T11:03:53+00:00",
-      "mensaje_id": 59436,
-      "url": "https://t.me/empresaelectricacienfuegos1/59436",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-4820": {
-      "fecha": "2026-10-16T11:03:53+00:00",
-      "mensaje_id": 59436,
-      "url": "https://t.me/empresaelectricacienfuegos1/59436",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "C-49": {
       "fecha": "2026-10-16T21:41:39+00:00",
@@ -955,15 +933,6 @@
       "confianza": 100,
       "texto": "👉C-401 Zona Industrial 1, Almacenes CIMEX, El Miedo, La 13"
     },
-    "C-89": {
-      "fecha": "2026-10-16T11:03:53+00:00",
-      "mensaje_id": 59436,
-      "url": "https://t.me/empresaelectricacienfuegos1/59436",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
-    },
     "C-407": {
       "fecha": "2026-10-16T21:41:39+00:00",
       "mensaje_id": 59474,
@@ -972,15 +941,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-407  \"Cocaleca, Poligráfico, Pastorita, O'bourke.\""
-    },
-    "S-3792": {
-      "fecha": "2026-10-16T11:03:53+00:00",
-      "mensaje_id": 59436,
-      "url": "https://t.me/empresaelectricacienfuegos1/59436",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-3792 Crucesitas, Barrio Túnel, Jovero, El Nicho."
     },
     "C-62": {
       "fecha": "2026-10-16T21:41:39+00:00",
@@ -1379,8 +1339,6 @@
     "C-8": "déficit",
     "C-44": "déficit",
     "C-84": "déficit",
-    "C-48": "avería",
-    "S-4820": "avería",
     "C-49": "déficit",
     "C-23": "déficit",
     "C-101": "déficit",
@@ -1406,10 +1364,8 @@
     "C-67": "avería",
     "C-26": "avería",
     "C-401": "avería",
-    "C-89": "avería",
     "C-407": "avería / déficit",
-    "S-3792": "avería",
-    "C-62": "emergencia / avería / déficit",
+    "C-62": "avería / déficit",
     "C-43": "déficit / emergencia",
     "C-69": "déficit / emergencia",
     "C-65": "déficit / avería",
@@ -1435,12 +1391,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "id": 59394,
-      "url": "https://t.me/empresaelectricacienfuegos1/59394",
-      "fecha": "2026-10-15T19:26:03+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "motivo": "sin_estado_explicito",
       "texto": "👉C-405 Pueblo Griffo Nuevo.",
@@ -1852,6 +1802,13 @@
       "id": 59477,
       "url": "https://t.me/empresaelectricacienfuegos1/59477",
       "fecha": "2026-10-16T22:30:57+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Unión Eléctrica informa \n🟢 12:35 || En linea la CTE Lidio Ramón Pérez de Felton.",
+      "id": 59478,
+      "url": "https://t.me/empresaelectricacienfuegos1/59478",
+      "fecha": "2026-10-16T23:01:37+00:00"
     }
   ],
   "lectura": {
@@ -2830,7 +2787,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-16T21:41:39+00:00",
-  "total_circuitos_afectados": 74,
+  "total_circuitos_afectados": 70,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 6,
   "circuitos_sin_catalogar": [
@@ -2843,17 +2800,13 @@
     "C-407",
     "C-408",
     "C-43",
-    "C-48",
     "C-58",
     "C-59",
     "C-60",
     "C-62",
     "C-76",
-    "C-89",
     "C-94",
-    "C-95",
-    "S-3792",
-    "S-4820"
+    "C-95"
   ],
-  "actualizado": "2026-10-16T22:49:25.917735+00:00"
+  "actualizado": "2026-10-16T23:04:25.941547+00:00"
 }
