@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-16T04:51:18+00:00",
+  "reporte_fecha": "2026-10-16T05:41:13+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 127,
+  "mensajes_leidos": 128,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -250,7 +250,6 @@
       "Aguada",
       "Federal"
     ],
-    "C-20": [],
     "C-31": [],
     "C-88": [
       "San Ignacio",
@@ -343,6 +342,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-66 Reina (Parque)"
+    },
+    "C-20": {
+      "fecha": "2026-10-16T05:41:13+00:00",
+      "mensaje_id": 59432,
+      "url": "https://t.me/empresaelectricacienfuegos1/59432",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-20 Punta Gorda."
     }
   },
   "restablecimientos_probables": {
@@ -928,15 +936,6 @@
       "confianza": 100,
       "texto": "👉C-70 \"Aguada, Federal."
     },
-    "C-20": {
-      "fecha": "2026-10-16T04:09:19+00:00",
-      "mensaje_id": 59427,
-      "url": "https://t.me/empresaelectricacienfuegos1/59427",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-20 Punta Gorda."
-    },
     "C-31": {
       "fecha": "2026-10-16T04:34:38+00:00",
       "mensaje_id": 59430,
@@ -1153,6 +1152,15 @@
       "confianza": 100,
       "texto": "👉C-66 Reina (Parque)"
     },
+    "C-20": {
+      "fecha": "2026-10-16T05:41:13+00:00",
+      "mensaje_id": 59432,
+      "url": "https://t.me/empresaelectricacienfuegos1/59432",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-20 Punta Gorda."
+    },
     "C-408": {
       "fecha": "2026-10-16T04:34:38+00:00",
       "mensaje_id": 59430,
@@ -1337,7 +1345,6 @@
     "C-6": "déficit",
     "C-32": "déficit",
     "C-70": "déficit",
-    "C-20": "avería",
     "C-31": "déficit",
     "C-88": "déficit",
     "C-95": "avería",
@@ -1783,7 +1790,7 @@
     }
   ],
   "lectura": {
-    "texto": 65,
+    "texto": 66,
     "imagenes": 62,
     "pdf": 0,
     "no_leidos": 6
@@ -1856,15 +1863,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-103",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-14T01:16:49+00:00",
-      "mensaje_id": 59321,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59317",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59321"
-    },
     {
       "circuito": "C-102",
       "tipo": "salida_lista",
@@ -2755,17 +2753,25 @@
       "mensaje_id": 59430,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59427",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59430"
+    },
+    {
+      "circuito": "C-20",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-16T05:41:13+00:00",
+      "mensaje_id": 59432,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59427",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59432"
     }
   ],
   "mw_fecha": "2026-10-16T04:34:38+00:00",
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
-  "total_circuitos_afectados": 69,
+  "total_circuitos_afectados": 68,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 5,
   "circuitos_sin_catalogar": [
     "C-18",
     "C-2",
-    "C-20",
     "C-31",
     "C-401",
     "C-407",
@@ -2784,5 +2790,5 @@
     "S-4820",
     "S-799"
   ],
-  "actualizado": "2026-10-16T05:29:25.962547+00:00"
+  "actualizado": "2026-10-16T05:44:33.200175+00:00"
 }
