@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-16T17:12:58+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-16T15:38:37+00:00",
-  "mensajes_leidos": 143,
+  "programado_fecha": "2026-10-16T17:54:25+00:00",
+  "mensajes_leidos": 144,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -338,7 +338,13 @@
     ]
   },
   "programados": {
-    "C-17": []
+    "C-17": [],
+    "C-406": [
+      "San Lázaro",
+      "Calle 35 de Ave 58 hasta Ave 64",
+      "Ave 58 de Calle 47 hasta Calle 49",
+      "Calle 47 de Ave 54 hasta Ave 58"
+    ]
   },
   "confirmados_con_servicio": {
     "C-405": {
@@ -1264,6 +1270,11 @@
       "inicio": null,
       "fin": "2026-10-17T03:38:37+00:00",
       "fecha_ambigua": false
+    },
+    "C-406": {
+      "inicio": null,
+      "fin": "2026-10-17T05:54:25+00:00",
+      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
@@ -1773,7 +1784,7 @@
   ],
   "lectura": {
     "texto": 68,
-    "imagenes": 75,
+    "imagenes": 76,
     "pdf": 0,
     "no_leidos": 9
   },
@@ -2755,7 +2766,7 @@
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-16T14:41:38+00:00",
   "total_circuitos_afectados": 76,
-  "total_circuitos_programados": 1,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 4,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2780,5 +2791,5 @@
     "S-3792",
     "S-4820"
   ],
-  "actualizado": "2026-10-16T17:44:59.406363+00:00"
+  "actualizado": "2026-10-16T18:08:40.308543+00:00"
 }
