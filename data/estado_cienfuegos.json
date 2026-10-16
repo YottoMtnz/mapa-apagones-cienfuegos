@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-16T02:47:33+00:00",
+  "reporte_fecha": "2026-10-16T03:02:40+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-15T15:56:57+00:00",
-  "mensajes_leidos": 123,
+  "mensajes_leidos": 122,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -51,14 +51,14 @@
       "La Caridad",
       "Palmira (Sur"
     ],
+    "C-30": [
+      "14 de Julio",
+      "Batey 2 Hermanos"
+    ],
     "C-11": [
       "Ariza",
       "Silverita",
       "Nuevo México"
-    ],
-    "C-30": [
-      "14 de Julio",
-      "Batey 2 Hermanos"
     ],
     "C-59": [],
     "C-50": [
@@ -227,13 +227,6 @@
       "Ave 58 de Calle 47 hasta Calle 49",
       "Calle 47 de Ave 54 hasta Ave 58"
     ],
-    "C-65": [
-      "Centro histórico",
-      "Reina (Aduana"
-    ],
-    "C-66": [
-      "Reina (Parque"
-    ],
     "C-91": [
       "Buena Vista",
       "La Esperanza"
@@ -350,6 +343,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "⚠️ Se comunica a nuestros clientes que se encuentra restablecido el servicio en el circuito C-37 El Tablón, Los Coquitos, El Mamey, El Nicho, Vegueta"
+    },
+    "C-65": {
+      "fecha": "2026-10-16T03:02:40+00:00",
+      "mensaje_id": 59425,
+      "url": "https://t.me/empresaelectricacienfuegos1/59425",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+    },
+    "C-66": {
+      "fecha": "2026-10-16T03:02:40+00:00",
+      "mensaje_id": 59425,
+      "url": "https://t.me/empresaelectricacienfuegos1/59425",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-66 Reina (Parque)"
     }
   },
   "restablecimientos_probables": {
@@ -553,15 +564,6 @@
       "confianza": 100,
       "texto": "👉C-72  Porcino, La Caridad, Palmira (Sur)"
     },
-    "C-11": {
-      "fecha": "2026-10-16T02:47:33+00:00",
-      "mensaje_id": 59424,
-      "url": "https://t.me/empresaelectricacienfuegos1/59424",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México."
-    },
     "C-30": {
       "fecha": "2026-10-16T02:47:33+00:00",
       "mensaje_id": 59424,
@@ -570,6 +572,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-30  14 de Julio, Batey 2 Hermanos."
+    },
+    "C-11": {
+      "fecha": "2026-10-16T02:47:33+00:00",
+      "mensaje_id": 59424,
+      "url": "https://t.me/empresaelectricacienfuegos1/59424",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-11  Ariza, Silverita, Nuevo México."
     },
     "C-59": {
       "fecha": "2026-10-16T02:47:33+00:00",
@@ -859,24 +870,6 @@
       "confianza": 100,
       "texto": "👉C-406               \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
     },
-    "C-65": {
-      "fecha": "2026-10-15T23:57:35+00:00",
-      "mensaje_id": 59416,
-      "url": "https://t.me/empresaelectricacienfuegos1/59416",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
-    },
-    "C-66": {
-      "fecha": "2026-10-15T23:57:35+00:00",
-      "mensaje_id": 59416,
-      "url": "https://t.me/empresaelectricacienfuegos1/59416",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-66 Reina (Parque)"
-    },
     "C-91": {
       "fecha": "2026-10-16T02:47:33+00:00",
       "mensaje_id": 59424,
@@ -1129,6 +1122,24 @@
       "confianza": 100,
       "texto": "⚠️ Se comunica a nuestros clientes que se encuentra restablecido el servicio en el circuito C-37 El Tablón, Los Coquitos, El Mamey, El Nicho, Vegueta"
     },
+    "C-65": {
+      "fecha": "2026-10-16T03:02:40+00:00",
+      "mensaje_id": 59425,
+      "url": "https://t.me/empresaelectricacienfuegos1/59425",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+    },
+    "C-66": {
+      "fecha": "2026-10-16T03:02:40+00:00",
+      "mensaje_id": 59425,
+      "url": "https://t.me/empresaelectricacienfuegos1/59425",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-66 Reina (Parque)"
+    },
     "C-408": {
       "fecha": "2026-10-16T02:47:33+00:00",
       "mensaje_id": 59424,
@@ -1270,8 +1281,8 @@
     "C-41": "déficit",
     "C-57": "déficit",
     "C-72": "déficit",
-    "C-11": "déficit",
     "C-30": "déficit",
+    "C-11": "déficit",
     "C-59": "déficit",
     "C-50": "déficit",
     "C-56": "déficit",
@@ -1304,8 +1315,6 @@
     "C-36": "déficit",
     "C-22": "déficit",
     "C-406": "déficit",
-    "C-65": "avería",
-    "C-66": "avería",
     "C-91": "déficit",
     "C-29": "déficit",
     "C-6": "déficit",
@@ -1756,7 +1765,7 @@
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 58,
+    "imagenes": 57,
     "pdf": 0,
     "no_leidos": 6
   },
@@ -1830,24 +1839,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-86",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-13T19:01:46+00:00",
-      "mensaje_id": 59313,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59312",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59313"
-    },
-    {
-      "circuito": "C-35",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-13T19:01:46+00:00",
-      "mensaje_id": 59313,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59312",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59313"
-    },
     {
       "circuito": "C-91",
       "tipo": "salida_lista",
@@ -2729,11 +2720,29 @@
       "mensaje_id": 59424,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59421",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59424"
+    },
+    {
+      "circuito": "C-65",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-16T03:02:40+00:00",
+      "mensaje_id": 59425,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59416",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59425"
+    },
+    {
+      "circuito": "C-66",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-16T03:02:40+00:00",
+      "mensaje_id": 59425,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59416",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59425"
     }
   ],
   "mw_fecha": "2026-10-16T02:47:33+00:00",
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
-  "total_circuitos_afectados": 68,
+  "total_circuitos_afectados": 66,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 5,
   "circuitos_sin_catalogar": [
@@ -2755,5 +2764,5 @@
     "S-3792",
     "S-799"
   ],
-  "actualizado": "2026-10-16T02:59:24.319755+00:00"
+  "actualizado": "2026-10-16T03:14:27.585062+00:00"
 }
