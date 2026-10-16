@@ -6,22 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-16T05:48:00+00:00",
-  "mensajes_leidos": 132,
+  "mensajes_leidos": 129,
   "afectados": {
-    "C-30": [
-      "14 de Julio",
-      "Batey 2 Hermanos"
-    ],
-    "C-7": [
-      "Lajas",
-      "Las Nuevas",
-      "El Salto",
-      "Ajuria",
-      "Santa Susana",
-      "San Marcos",
-      "Chucho Rosa"
-    ],
-    "C-59": [],
     "C-82": [
       "Balboa",
       "La Pedrera",
@@ -42,6 +28,15 @@
       "Espartaco",
       "La Macana",
       "Cherepa"
+    ],
+    "C-7": [
+      "Lajas",
+      "Las Nuevas",
+      "El Salto",
+      "Ajuria",
+      "Santa Susana",
+      "San Marcos",
+      "Chucho Rosa"
     ],
     "C-41": [
       "Caracas",
@@ -223,6 +218,7 @@
       "Rodas (Bombeo Agua Rodas 0-12",
       "Rodas"
     ],
+    "C-59": [],
     "C-19": [
       "Tulipán"
     ],
@@ -283,6 +279,10 @@
       "Parque Martí"
     ],
     "S-3792": [],
+    "C-30": [
+      "14 de Julio",
+      "Batey 2 Hermanos"
+    ],
     "C-94": [],
     "C-62": [],
     "C-405": [
@@ -474,33 +474,6 @@
     ]
   },
   "evidencias": {
-    "C-30": {
-      "fecha": "2026-10-16T11:19:23+00:00",
-      "mensaje_id": 59438,
-      "url": "https://t.me/empresaelectricacienfuegos1/59438",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-30  14 de Julio, Batey 2 Hermanos."
-    },
-    "C-7": {
-      "fecha": "2026-10-16T11:19:23+00:00",
-      "mensaje_id": 59438,
-      "url": "https://t.me/empresaelectricacienfuegos1/59438",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7    \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa."
-    },
-    "C-59": {
-      "fecha": "2026-10-16T11:19:23+00:00",
-      "mensaje_id": 59438,
-      "url": "https://t.me/empresaelectricacienfuegos1/59438",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-59  Marta Abreus, Jova, Tumba Saco."
-    },
     "C-82": {
       "fecha": "2026-10-16T11:19:23+00:00",
       "mensaje_id": 59438,
@@ -536,6 +509,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-52  Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
+    },
+    "C-7": {
+      "fecha": "2026-10-16T11:19:23+00:00",
+      "mensaje_id": 59438,
+      "url": "https://t.me/empresaelectricacienfuegos1/59438",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-7    \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa."
     },
     "C-41": {
       "fecha": "2026-10-16T11:19:23+00:00",
@@ -861,6 +843,15 @@
       "confianza": 100,
       "texto": "👉C-22  Rodas (Bombeo Agua Rodas 0-12)"
     },
+    "C-59": {
+      "fecha": "2026-10-16T11:19:23+00:00",
+      "mensaje_id": 59438,
+      "url": "https://t.me/empresaelectricacienfuegos1/59438",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-59  Marta Abreus, Jova, Tumba Saco."
+    },
     "C-19": {
       "fecha": "2026-10-16T11:19:23+00:00",
       "mensaje_id": 59438,
@@ -1004,6 +995,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉S-3792 Crucesitas, Barrio Túnel, Jovero, El Nicho."
+    },
+    "C-30": {
+      "fecha": "2026-10-16T11:19:23+00:00",
+      "mensaje_id": 59438,
+      "url": "https://t.me/empresaelectricacienfuegos1/59438",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-30  14 de Julio, Batey 2 Hermanos."
     },
     "C-94": {
       "fecha": "2026-10-16T11:19:23+00:00",
@@ -1240,13 +1240,11 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-30": "déficit",
-    "C-7": "déficit",
-    "C-59": "déficit",
     "C-82": "déficit",
     "C-53": "déficit",
     "C-54": "déficit",
     "C-52": "déficit",
+    "C-7": "déficit",
     "C-41": "déficit",
     "C-57": "déficit",
     "C-72": "déficit",
@@ -1283,6 +1281,7 @@
     "C-55": "déficit",
     "C-36": "déficit",
     "C-22": "déficit",
+    "C-59": "déficit",
     "C-19": "déficit",
     "C-91": "déficit",
     "C-29": "déficit",
@@ -1299,6 +1298,7 @@
     "C-89": "avería",
     "C-5": "déficit",
     "S-3792": "avería",
+    "C-30": "déficit",
     "C-94": "déficit",
     "C-62": "emergencia",
     "C-405": "déficit",
@@ -1734,8 +1734,8 @@
     }
   ],
   "lectura": {
-    "texto": 66,
-    "imagenes": 66,
+    "texto": 64,
+    "imagenes": 65,
     "pdf": 0,
     "no_leidos": 6
   },
@@ -1812,7 +1812,7 @@
   },
   "transiciones": [
     {
-      "circuito": "C-28",
+      "circuito": "C-408",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-14T01:16:49+00:00",
@@ -1821,12 +1821,12 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59321"
     },
     {
-      "circuito": "C-408",
+      "circuito": "C-19",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-14T01:16:49+00:00",
       "mensaje_id": 59321,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59317",
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59319",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59321"
     },
     {
@@ -2055,24 +2055,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59330"
     },
     {
-      "circuito": "C-19",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-14T17:59:39+00:00",
-      "mensaje_id": 59334,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59332",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59334"
-    },
-    {
-      "circuito": "C-30",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-14T17:59:39+00:00",
-      "mensaje_id": 59334,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59330",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59334"
-    },
-    {
       "circuito": "C-22",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2088,6 +2070,24 @@
       "fecha": "2026-10-14T17:59:39+00:00",
       "mensaje_id": 59334,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59330",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59334"
+    },
+    {
+      "circuito": "C-30",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-14T17:59:39+00:00",
+      "mensaje_id": 59334,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59330",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59334"
+    },
+    {
+      "circuito": "C-19",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-14T17:59:39+00:00",
+      "mensaje_id": 59334,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59332",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59334"
     },
     {
@@ -2736,5 +2736,5 @@
     "S-3792",
     "S-4820"
   ],
-  "actualizado": "2026-10-16T13:09:31.432132+00:00"
+  "actualizado": "2026-10-16T13:24:20.763420+00:00"
 }
