@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-10-16T15:14:58+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-16T05:48:00+00:00",
+  "programado_fecha": "2026-10-16T15:38:37+00:00",
   "mensajes_leidos": 137,
   "afectados": {
     "C-82": [
@@ -326,7 +326,9 @@
     ],
     "C-408": []
   },
-  "programados": {},
+  "programados": {
+    "C-17": []
+  },
   "confirmados_con_servicio": {
     "C-91": {
       "fecha": "2026-10-16T15:14:58+00:00",
@@ -1139,6 +1141,15 @@
       "confianza": 100,
       "texto": "👉C-408 Trebol, T15, Universidad, Baldosas, T15,Trébol, 4 Caminos, Universidad,  Cantarrana, La Julia, Pepe Rivas."
     },
+    "C-17": {
+      "fecha": "2026-10-16T15:38:37+00:00",
+      "mensaje_id": 59456,
+      "url": "https://t.me/empresaelectricacienfuegos1/59456",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17 Ave 5 de sept, Distrito Petrolero, Hermanas Giralt."
+    },
     "C-91": {
       "fecha": "2026-10-16T15:14:58+00:00",
       "mensaje_id": 59453,
@@ -1187,30 +1198,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-18  Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
-    "C-17": {
-      "fecha": "2026-10-16T14:41:38+00:00",
-      "mensaje_id": 59447,
-      "url": "https://t.me/empresaelectricacienfuegos1/59447",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉 C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-16T11:19:23+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-16T10:12:06+00:00",
-        "mensaje_id": 59434,
-        "url": "https://t.me/empresaelectricacienfuegos1/59434",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-17  Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
       },
       "lugares": []
     },
@@ -1270,7 +1257,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-17": {
+      "inicio": null,
+      "fin": "2026-10-17T03:38:37+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 65.0,
   "hora_inicio": null,
@@ -2758,7 +2751,7 @@
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-16T14:41:38+00:00",
   "total_circuitos_afectados": 73,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 4,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2782,5 +2775,5 @@
     "S-3792",
     "S-4820"
   ],
-  "actualizado": "2026-10-16T15:24:40.920898+00:00"
+  "actualizado": "2026-10-16T15:44:43.431037+00:00"
 }
