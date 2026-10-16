@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-15T15:56:57+00:00",
-  "mensajes_leidos": 121,
+  "mensajes_leidos": 122,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -60,8 +60,6 @@
       "14 de Julio",
       "Batey 2 Hermanos"
     ],
-    "C-48": [],
-    "S-4820": [],
     "C-59": [],
     "C-50": [
       "Palmira (Norte"
@@ -235,9 +233,6 @@
     ],
     "C-66": [
       "Reina (Parque"
-    ],
-    "C-19": [
-      "Tulipán"
     ],
     "C-91": [
       "Buena Vista",
@@ -553,24 +548,6 @@
       "confianza": 100,
       "texto": "👉C-30  14 de Julio, Batey 2 Hermanos."
     },
-    "C-48": {
-      "fecha": "2026-10-15T14:42:21+00:00",
-      "mensaje_id": 59375,
-      "url": "https://t.me/empresaelectricacienfuegos1/59375",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-4820": {
-      "fecha": "2026-10-15T14:42:21+00:00",
-      "mensaje_id": 59375,
-      "url": "https://t.me/empresaelectricacienfuegos1/59375",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
     "C-59": {
       "fecha": "2026-10-16T01:42:42+00:00",
       "mensaje_id": 59421,
@@ -876,15 +853,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-66 Reina (Parque)"
-    },
-    "C-19": {
-      "fecha": "2026-10-15T14:42:21+00:00",
-      "mensaje_id": 59375,
-      "url": "https://t.me/empresaelectricacienfuegos1/59375",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-19 Tulipán"
     },
     "C-91": {
       "fecha": "2026-10-16T01:42:42+00:00",
@@ -1264,8 +1232,6 @@
     "C-72": "déficit",
     "C-11": "déficit",
     "C-30": "déficit",
-    "C-48": "avería",
-    "S-4820": "avería",
     "C-59": "déficit",
     "C-50": "déficit",
     "C-56": "déficit",
@@ -1300,7 +1266,6 @@
     "C-406": "déficit",
     "C-65": "avería",
     "C-66": "avería",
-    "C-19": "avería",
     "C-91": "déficit",
     "C-29": "déficit",
     "C-6": "déficit",
@@ -1329,13 +1294,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de 1811         MW a las 19:40 horas",
-      "id": 59331,
-      "url": "https://t.me/empresaelectricacienfuegos1/59331",
-      "fecha": "2026-10-14T14:07:10+00:00"
-    },
     {
       "motivo": "resumen_historico",
       "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
@@ -1748,10 +1706,17 @@
       "id": 59422,
       "url": "https://t.me/empresaelectricacienfuegos1/59422",
       "fecha": "2026-10-16T02:06:25+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠ Se comunica a nuestros clientes que se encuentra restablecido el servicio en las zonas:\n \n\n👉Los 500.\n\n👉O'bourke.\n \n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
+      "id": 59423,
+      "url": "https://t.me/empresaelectricacienfuegos1/59423",
+      "fecha": "2026-10-16T02:39:35+00:00"
     }
   ],
   "lectura": {
-    "texto": 63,
+    "texto": 64,
     "imagenes": 58,
     "pdf": 0,
     "no_leidos": 6
@@ -2732,7 +2697,7 @@
   ],
   "mw_fecha": "2026-10-16T01:42:42+00:00",
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
-  "total_circuitos_afectados": 72,
+  "total_circuitos_afectados": 69,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 4,
   "circuitos_sin_catalogar": [
@@ -2744,7 +2709,6 @@
     "C-407",
     "C-408",
     "C-43",
-    "C-48",
     "C-58",
     "C-59",
     "C-89",
@@ -2753,8 +2717,7 @@
     "C-95",
     "S-0799",
     "S-3792",
-    "S-4820",
     "S-799"
   ],
-  "actualizado": "2026-10-16T02:29:29.867237+00:00"
+  "actualizado": "2026-10-16T02:44:23.565807+00:00"
 }
