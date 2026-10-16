@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-16T15:55:15+00:00",
+  "reporte_fecha": "2026-10-16T17:12:58+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-16T15:38:37+00:00",
-  "mensajes_leidos": 143,
+  "mensajes_leidos": 144,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -478,40 +478,40 @@
   },
   "evidencias": {
     "C-82": {
-      "fecha": "2026-10-16T14:41:38+00:00",
-      "mensaje_id": 59447,
-      "url": "https://t.me/empresaelectricacienfuegos1/59447",
+      "fecha": "2026-10-16T17:12:58+00:00",
+      "mensaje_id": 59464,
+      "url": "https://t.me/empresaelectricacienfuegos1/59464",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉 C-82 Balboa, La Pedrera, El Tropezón."
     },
     "C-53": {
-      "fecha": "2026-10-16T14:41:38+00:00",
-      "mensaje_id": 59447,
-      "url": "https://t.me/empresaelectricacienfuegos1/59447",
+      "fecha": "2026-10-16T17:12:58+00:00",
+      "mensaje_id": 59464,
+      "url": "https://t.me/empresaelectricacienfuegos1/59464",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉 C-53 Potrerillo, El No, Peñasco, Lomitas."
     },
     "C-54": {
-      "fecha": "2026-10-16T14:41:38+00:00",
-      "mensaje_id": 59447,
-      "url": "https://t.me/empresaelectricacienfuegos1/59447",
+      "fecha": "2026-10-16T17:12:58+00:00",
+      "mensaje_id": 59464,
+      "url": "https://t.me/empresaelectricacienfuegos1/59464",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉 C-54 Batey Mal Tiempo, Carrasco, Loma de Tola."
+      "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola."
     },
     "C-52": {
-      "fecha": "2026-10-16T14:41:38+00:00",
-      "mensaje_id": 59447,
-      "url": "https://t.me/empresaelectricacienfuegos1/59447",
+      "fecha": "2026-10-16T17:12:58+00:00",
+      "mensaje_id": 59464,
+      "url": "https://t.me/empresaelectricacienfuegos1/59464",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉 C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
+      "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
     },
     "C-7": {
       "fecha": "2026-10-16T14:41:38+00:00",
@@ -541,22 +541,22 @@
       "texto": "👉 C-57 Lajas (Pueblo)."
     },
     "C-72": {
-      "fecha": "2026-10-16T14:41:38+00:00",
-      "mensaje_id": 59447,
-      "url": "https://t.me/empresaelectricacienfuegos1/59447",
+      "fecha": "2026-10-16T17:12:58+00:00",
+      "mensaje_id": 59464,
+      "url": "https://t.me/empresaelectricacienfuegos1/59464",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉 C-72 Porcino, La Caridad, Palmira (Sur)"
+      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)"
     },
     "C-50": {
-      "fecha": "2026-10-16T14:41:38+00:00",
-      "mensaje_id": 59447,
-      "url": "https://t.me/empresaelectricacienfuegos1/59447",
+      "fecha": "2026-10-16T17:12:58+00:00",
+      "mensaje_id": 59464,
+      "url": "https://t.me/empresaelectricacienfuegos1/59464",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉 C-50 Palmira (Norte)."
+      "texto": "👉C-50 Palmira (Norte)"
     },
     "C-56": {
       "fecha": "2026-10-16T14:41:38+00:00",
@@ -1272,15 +1272,15 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-82": "déficit",
-    "C-53": "déficit",
-    "C-54": "déficit",
-    "C-52": "déficit",
+    "C-82": "déficit / avería",
+    "C-53": "déficit / avería",
+    "C-54": "déficit / avería",
+    "C-52": "déficit / avería",
     "C-7": "déficit",
     "C-41": "déficit",
     "C-57": "déficit",
-    "C-72": "déficit",
-    "C-50": "déficit",
+    "C-72": "déficit / avería",
+    "C-50": "déficit / avería",
     "C-56": "déficit",
     "C-58": "déficit",
     "C-73": "déficit",
@@ -1773,7 +1773,7 @@
   ],
   "lectura": {
     "texto": 69,
-    "imagenes": 74,
+    "imagenes": 75,
     "pdf": 0,
     "no_leidos": 9
   },
@@ -2780,5 +2780,5 @@
     "S-3792",
     "S-4820"
   ],
-  "actualizado": "2026-10-16T17:00:14.521369+00:00"
+  "actualizado": "2026-10-16T17:15:31.793680+00:00"
 }
