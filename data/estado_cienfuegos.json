@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-16T15:14:58+00:00",
+  "reporte_fecha": "2026-10-16T15:55:15+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-16T15:38:37+00:00",
-  "mensajes_leidos": 137,
+  "mensajes_leidos": 139,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -324,30 +324,23 @@
       "Aguada",
       "Federal"
     ],
-    "C-408": []
+    "C-408": [],
+    "C-76": [],
+    "C-406": [
+      "San Lázaro",
+      "Calle 35 de Ave 58 hasta Ave 64",
+      "Ave 58 de Calle 47 hasta Calle 49",
+      "Calle 47 de Ave 54 hasta Ave 58"
+    ],
+    "C-91": [
+      "Buena Vista",
+      "La Esperanza"
+    ]
   },
   "programados": {
     "C-17": []
   },
   "confirmados_con_servicio": {
-    "C-91": {
-      "fecha": "2026-10-16T15:14:58+00:00",
-      "mensaje_id": 59453,
-      "url": "https://t.me/empresaelectricacienfuegos1/59453",
-      "medio": "imagenes",
-      "editado": null,
-      "confianza": 85.7,
-      "texto": "C-91"
-    },
-    "C-406": {
-      "fecha": "2026-10-16T15:14:58+00:00",
-      "mensaje_id": 59453,
-      "url": "https://t.me/empresaelectricacienfuegos1/59453",
-      "medio": "imagenes",
-      "editado": null,
-      "confianza": 85.7,
-      "texto": "C-406"
-    },
     "C-405": {
       "fecha": "2026-10-16T15:14:58+00:00",
       "mensaje_id": 59453,
@@ -944,13 +937,13 @@
       "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
     },
     "C-401": {
-      "fecha": "2026-10-16T13:39:55+00:00",
-      "mensaje_id": 59443,
-      "url": "https://t.me/empresaelectricacienfuegos1/59443",
+      "fecha": "2026-10-16T15:55:15+00:00",
+      "mensaje_id": 59458,
+      "url": "https://t.me/empresaelectricacienfuegos1/59458",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-401 Zona Industrial 1, Almacenes Cimex, El Miedo, La 13."
+      "texto": "👉C-401 Zona Industrial 1, Almacenes CIMEX, El Miedo, La 13"
     },
     "C-92": {
       "fecha": "2026-10-16T13:39:55+00:00",
@@ -1141,6 +1134,33 @@
       "confianza": 100,
       "texto": "👉C-408 Trebol, T15, Universidad, Baldosas, T15,Trébol, 4 Caminos, Universidad,  Cantarrana, La Julia, Pepe Rivas."
     },
+    "C-76": {
+      "fecha": "2026-10-16T15:54:38+00:00",
+      "mensaje_id": 59457,
+      "url": "https://t.me/empresaelectricacienfuegos1/59457",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
+    },
+    "C-406": {
+      "fecha": "2026-10-16T15:55:15+00:00",
+      "mensaje_id": 59458,
+      "url": "https://t.me/empresaelectricacienfuegos1/59458",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-406 San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
+    },
+    "C-91": {
+      "fecha": "2026-10-16T15:55:15+00:00",
+      "mensaje_id": 59458,
+      "url": "https://t.me/empresaelectricacienfuegos1/59458",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
     "C-17": {
       "fecha": "2026-10-16T15:38:37+00:00",
       "mensaje_id": 59456,
@@ -1149,24 +1169,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-17 Ave 5 de sept, Distrito Petrolero, Hermanas Giralt."
-    },
-    "C-91": {
-      "fecha": "2026-10-16T15:14:58+00:00",
-      "mensaje_id": 59453,
-      "url": "https://t.me/empresaelectricacienfuegos1/59453",
-      "medio": "imagenes",
-      "editado": null,
-      "confianza": 85.7,
-      "texto": "C-91"
-    },
-    "C-406": {
-      "fecha": "2026-10-16T15:14:58+00:00",
-      "mensaje_id": 59453,
-      "url": "https://t.me/empresaelectricacienfuegos1/59453",
-      "medio": "imagenes",
-      "editado": null,
-      "confianza": 85.7,
-      "texto": "C-406"
     },
     "C-405": {
       "fecha": "2026-10-16T15:14:58+00:00",
@@ -1342,24 +1344,13 @@
     "C-20": "avería",
     "C-60": "déficit",
     "C-70": "déficit",
-    "C-408": "avería"
+    "C-408": "avería",
+    "C-76": "avería",
+    "C-406": "avería",
+    "C-91": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚡ Actualización del Sistema Eléctrico Nacional para el 15 de octubre de 2026\nPronóstico de afectación:\nPara el pico de la noche: 2015 MW\n\n#UnidosXCuba #UniónEléctrica #UNE #NotaInformativa\nActualización del Sistema\nLl]\nElectroenergético Nacional\nUNIÓN ELÉCTRICA\nNE\nJueves, 15 de octubre de 2026\nINA A",
-      "id": 59374,
-      "url": "https://t.me/empresaelectricacienfuegos1/59374",
-      "fecha": "2026-10-15T14:38:37+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
-      "id": 59375,
-      "url": "https://t.me/empresaelectricacienfuegos1/59375",
-      "fecha": "2026-10-15T14:42:21+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n60 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
@@ -1765,13 +1756,26 @@
       "id": 59453,
       "url": "https://t.me/empresaelectricacienfuegos1/59453",
       "fecha": "2026-10-16T15:14:58+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nDisparo Automático por Frecuencia\n> a | “<4\nel | EN",
+      "id": 59457,
+      "url": "https://t.me/empresaelectricacienfuegos1/59457",
+      "fecha": "2026-10-16T15:54:38+00:00"
+    },
+    {
+      "id": 59458,
+      "url": "https://t.me/empresaelectricacienfuegos1/59458",
+      "fecha": "2026-10-16T15:55:15+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 66,
-    "imagenes": 71,
+    "imagenes": 73,
     "pdf": 0,
-    "no_leidos": 8
+    "no_leidos": 9
   },
   "listas_completas": {
     "deficit": {
@@ -2750,7 +2754,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-16T14:41:38+00:00",
-  "total_circuitos_afectados": 73,
+  "total_circuitos_afectados": 76,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 4,
   "circuitos_sin_catalogar": [
@@ -2768,6 +2772,7 @@
     "C-59",
     "C-60",
     "C-62",
+    "C-76",
     "C-89",
     "C-92",
     "C-94",
@@ -2775,5 +2780,5 @@
     "S-3792",
     "S-4820"
   ],
-  "actualizado": "2026-10-16T15:44:43.431037+00:00"
+  "actualizado": "2026-10-16T15:59:35.098438+00:00"
 }
