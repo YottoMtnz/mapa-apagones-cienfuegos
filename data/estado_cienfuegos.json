@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-16T05:48:00+00:00",
-  "mensajes_leidos": 132,
+  "mensajes_leidos": 133,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -1370,13 +1370,6 @@
   "pendientes_revision": [
     {
       "motivo": "sin_circuitos_identificables",
-      "texto": "⚠Se comunica a nuestros clientes que ocurrió un Disparo Automático por Frecuencia (DAF) en la línea:\n\n\n👉L-1415 Aguada \n\n\n📌 Ofrecemos disculpas por las molestias ocasionadas\nLíneas afectadas por\nDisparo Automático por Frecuencia\n(DAF)\nMM\nq\nSS Ne\ny\n4%\nel",
-      "id": 59367,
-      "url": "https://t.me/empresaelectricacienfuegos1/59367",
-      "fecha": "2026-10-15T11:29:29+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
       "texto": "⚠Terminología Eléctrica\n\n\n👉Disparo automático por frecuencia (DAF).\n\n\n📌Un disparo por frecuencia o Descarga Automática por Frecuencia, es una protección que posee el sistema eléctrico para cuando la frecuencia llega a valores mínimos permisibles que ponen en peligro la estabilidad de todo el sistema",
       "id": 59368,
       "url": "https://t.me/empresaelectricacienfuegos1/59368",
@@ -1786,11 +1779,18 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59445",
       "fecha": "2026-10-16T13:48:35+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n65 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 59446,
+      "url": "https://t.me/empresaelectricacienfuegos1/59446",
+      "fecha": "2026-10-16T14:01:21+00:00"
     }
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 67,
+    "imagenes": 68,
     "pdf": 0,
     "no_leidos": 7
   },
@@ -2793,5 +2793,5 @@
     "S-3792",
     "S-4820"
   ],
-  "actualizado": "2026-10-16T13:56:29.370872+00:00"
+  "actualizado": "2026-10-16T14:10:52.195587+00:00"
 }
