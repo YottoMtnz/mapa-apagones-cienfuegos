@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-16T14:42:04+00:00",
+  "reporte_fecha": "2026-10-16T15:14:58+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-16T05:48:00+00:00",
-  "mensajes_leidos": 133,
+  "mensajes_leidos": 137,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -217,10 +217,6 @@
     "C-19": [
       "Tulipán"
     ],
-    "C-91": [
-      "Buena Vista",
-      "La Esperanza"
-    ],
     "C-29": [
       "Moncada",
       "Constancia",
@@ -277,9 +273,6 @@
     "S-3792": [],
     "C-94": [],
     "C-62": [],
-    "C-405": [
-      "Pueblo Griffo Nuevo"
-    ],
     "C-43": [],
     "C-80": [
       "Punta Cotica",
@@ -334,7 +327,35 @@
     "C-408": []
   },
   "programados": {},
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-91": {
+      "fecha": "2026-10-16T15:14:58+00:00",
+      "mensaje_id": 59453,
+      "url": "https://t.me/empresaelectricacienfuegos1/59453",
+      "medio": "imagenes",
+      "editado": null,
+      "confianza": 85.7,
+      "texto": "C-91"
+    },
+    "C-406": {
+      "fecha": "2026-10-16T15:14:58+00:00",
+      "mensaje_id": 59453,
+      "url": "https://t.me/empresaelectricacienfuegos1/59453",
+      "medio": "imagenes",
+      "editado": null,
+      "confianza": 85.7,
+      "texto": "C-406"
+    },
+    "C-405": {
+      "fecha": "2026-10-16T15:14:58+00:00",
+      "mensaje_id": 59453,
+      "url": "https://t.me/empresaelectricacienfuegos1/59453",
+      "medio": "imagenes",
+      "editado": null,
+      "confianza": 85.7,
+      "texto": "Semana de protección del C-405"
+    }
+  },
   "restablecimientos_probables": {
     "C-18": {
       "fecha": "2026-10-16T14:41:38+00:00",
@@ -359,35 +380,6 @@
         "texto": "👉C-18  Arizona, La Juanita (Hospital de Especialidades 0-24)"
       },
       "lugares": []
-    },
-    "C-406": {
-      "fecha": "2026-10-16T14:41:38+00:00",
-      "mensaje_id": 59447,
-      "url": "https://t.me/empresaelectricacienfuegos1/59447",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉 C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-16T04:34:38+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-16T02:47:33+00:00",
-        "mensaje_id": 59424,
-        "url": "https://t.me/empresaelectricacienfuegos1/59424",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-406               \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
-      },
-      "lugares": [
-        "San Lázaro",
-        "Calle 35 de Ave 58 hasta Ave 64",
-        "Ave 58 de Calle 47 hasta Calle 49",
-        "Calle 47 de Ave 54 hasta Ave 58"
-      ]
     },
     "C-17": {
       "fecha": "2026-10-16T14:41:38+00:00",
@@ -868,15 +860,6 @@
       "confianza": 100,
       "texto": "👉 C-19 Tulipán"
     },
-    "C-91": {
-      "fecha": "2026-10-16T14:41:38+00:00",
-      "mensaje_id": 59447,
-      "url": "https://t.me/empresaelectricacienfuegos1/59447",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉 C-91 Buena Vista, La Esperanza."
-    },
     "C-29": {
       "fecha": "2026-10-16T14:41:38+00:00",
       "mensaje_id": 59447,
@@ -1030,15 +1013,6 @@
       "confianza": 100,
       "texto": "👉C-62 Barajagua."
     },
-    "C-405": {
-      "fecha": "2026-10-16T14:41:38+00:00",
-      "mensaje_id": 59447,
-      "url": "https://t.me/empresaelectricacienfuegos1/59447",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉 C-405 Pueblo Griffo Nuevo."
-    },
     "C-43": {
       "fecha": "2026-10-16T14:41:38+00:00",
       "mensaje_id": 59447,
@@ -1165,6 +1139,33 @@
       "confianza": 100,
       "texto": "👉C-408 Trebol, T15, Universidad, Baldosas, T15,Trébol, 4 Caminos, Universidad,  Cantarrana, La Julia, Pepe Rivas."
     },
+    "C-91": {
+      "fecha": "2026-10-16T15:14:58+00:00",
+      "mensaje_id": 59453,
+      "url": "https://t.me/empresaelectricacienfuegos1/59453",
+      "medio": "imagenes",
+      "editado": null,
+      "confianza": 85.7,
+      "texto": "C-91"
+    },
+    "C-406": {
+      "fecha": "2026-10-16T15:14:58+00:00",
+      "mensaje_id": 59453,
+      "url": "https://t.me/empresaelectricacienfuegos1/59453",
+      "medio": "imagenes",
+      "editado": null,
+      "confianza": 85.7,
+      "texto": "C-406"
+    },
+    "C-405": {
+      "fecha": "2026-10-16T15:14:58+00:00",
+      "mensaje_id": 59453,
+      "url": "https://t.me/empresaelectricacienfuegos1/59453",
+      "medio": "imagenes",
+      "editado": null,
+      "confianza": 85.7,
+      "texto": "Semana de protección del C-405"
+    },
     "C-18": {
       "fecha": "2026-10-16T14:41:38+00:00",
       "mensaje_id": 59447,
@@ -1188,35 +1189,6 @@
         "texto": "👉C-18  Arizona, La Juanita (Hospital de Especialidades 0-24)"
       },
       "lugares": []
-    },
-    "C-406": {
-      "fecha": "2026-10-16T14:41:38+00:00",
-      "mensaje_id": 59447,
-      "url": "https://t.me/empresaelectricacienfuegos1/59447",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉 C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-16T04:34:38+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-16T02:47:33+00:00",
-        "mensaje_id": 59424,
-        "url": "https://t.me/empresaelectricacienfuegos1/59424",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-406               \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
-      },
-      "lugares": [
-        "San Lázaro",
-        "Calle 35 de Ave 58 hasta Ave 64",
-        "Ave 58 de Calle 47 hasta Calle 49",
-        "Calle 47 de Ave 54 hasta Ave 58"
-      ]
     },
     "C-17": {
       "fecha": "2026-10-16T14:41:38+00:00",
@@ -1347,7 +1319,6 @@
     "C-22": "déficit",
     "C-59": "déficit",
     "C-19": "déficit",
-    "C-91": "déficit",
     "C-29": "déficit",
     "C-6": "déficit",
     "C-32": "déficit",
@@ -1365,7 +1336,6 @@
     "S-3792": "avería",
     "C-94": "déficit",
     "C-62": "emergencia",
-    "C-405": "déficit",
     "C-43": "déficit / emergencia",
     "C-80": "déficit",
     "C-69": "déficit / emergencia",
@@ -1383,20 +1353,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
-      "id": 59371,
-      "url": "https://t.me/empresaelectricacienfuegos1/59371",
-      "fecha": "2026-10-15T11:44:02+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚡ Actualización del Sistema Eléctrico Nacional para el 15 de octubre de 2026\nPronóstico de afectación:\nPara el pico de la noche: 2015 MW\n\n#UnidosXCuba #UniónEléctrica #UNE #NotaInformativa",
-      "id": 59374,
-      "url": "https://t.me/empresaelectricacienfuegos1/59374",
-      "fecha": "2026-10-15T14:38:37+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚡ Actualización del Sistema Eléctrico Nacional para el 15 de octubre de 2026\nPronóstico de afectación:\nPara el pico de la noche: 2015 MW\n\n#UnidosXCuba #UniónEléctrica #UNE #NotaInformativa\nActualización del Sistema\nLl]\nElectroenergético Nacional\nUNIÓN ELÉCTRICA\nNE\nJueves, 15 de octubre de 2026\nINA A",
@@ -1800,11 +1756,27 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59448",
       "fecha": "2026-10-16T14:42:04+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠️Información importante \n\n\n👉A continuación la rotación de las afectaciones al servicio eléctrico por déficit de capacidad de generación en los circuitos que brindan servicio a los hospitales y los que constituyen la derivada del DAF de la ciudad de Cienfuegos.\n\n\n👉El resto de los circuitos de la ciu",
+      "id": 59452,
+      "url": "https://t.me/empresaelectricacienfuegos1/59452",
+      "fecha": "2026-10-16T15:14:49+00:00"
+    },
+    {
+      "motivo": "OCR_circuito_no_catalogado",
+      "circuitos": [
+        "C-407"
+      ],
+      "id": 59453,
+      "url": "https://t.me/empresaelectricacienfuegos1/59453",
+      "fecha": "2026-10-16T15:14:58+00:00"
     }
   ],
   "lectura": {
-    "texto": 65,
-    "imagenes": 68,
+    "texto": 66,
+    "imagenes": 71,
     "pdf": 0,
     "no_leidos": 8
   },
@@ -1882,24 +1854,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-43",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-14T01:16:49+00:00",
-      "mensaje_id": 59321,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59317",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59321"
-    },
-    {
-      "circuito": "C-65",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-14T01:16:49+00:00",
-      "mensaje_id": 59321,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59317",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59321"
-    },
     {
       "circuito": "C-66",
       "tipo": "salida_lista",
@@ -2781,13 +2735,31 @@
       "mensaje_id": 59447,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59438",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59447"
+    },
+    {
+      "circuito": "C-91",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-16T15:14:58+00:00",
+      "mensaje_id": 59453,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59447",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59453"
+    },
+    {
+      "circuito": "C-405",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-16T15:14:58+00:00",
+      "mensaje_id": 59453,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59447",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59453"
     }
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-16T14:41:38+00:00",
-  "total_circuitos_afectados": 75,
+  "total_circuitos_afectados": 73,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 5,
+  "total_restablecimientos_probables": 4,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2810,5 +2782,5 @@
     "S-3792",
     "S-4820"
   ],
-  "actualizado": "2026-10-16T15:09:25.790276+00:00"
+  "actualizado": "2026-10-16T15:24:40.920898+00:00"
 }
