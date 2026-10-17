@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-17T14:07:10+00:00",
+  "reporte_fecha": "2026-10-17T14:52:53+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 150,
+  "mensajes_leidos": 151,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -244,6 +244,7 @@
       "El Paisíto"
     ],
     "C-89": [],
+    "C-407": [],
     "C-43": [],
     "C-69": [
       "Junco Sur",
@@ -954,6 +955,15 @@
       "confianza": 100,
       "texto": "👉C-89  Portilla, Venta del Río, La Margarita, San Nicolás."
     },
+    "C-407": {
+      "fecha": "2026-10-17T14:52:53+00:00",
+      "mensaje_id": 59491,
+      "url": "https://t.me/empresaelectricacienfuegos1/59491",
+      "medio": "texto",
+      "editado": "2026-10-17T14:53:05+00:00",
+      "confianza": 100,
+      "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
+    },
     "C-43": {
       "fecha": "2026-10-17T13:24:59+00:00",
       "mensaje_id": 59489,
@@ -1366,6 +1376,7 @@
     "C-67": "avería",
     "C-26": "avería",
     "C-89": "déficit",
+    "C-407": "avería",
     "C-43": "déficit",
     "C-69": "déficit",
     "C-65": "déficit",
@@ -1390,13 +1401,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
-      "id": 59400,
-      "url": "https://t.me/empresaelectricacienfuegos1/59400",
-      "fecha": "2026-10-15T20:45:20+00:00"
-    },
     {
       "id": 59402,
       "url": "https://t.me/empresaelectricacienfuegos1/59402",
@@ -1804,13 +1808,19 @@
       "id": 59490,
       "url": "https://t.me/empresaelectricacienfuegos1/59490",
       "fecha": "2026-10-17T14:07:10+00:00"
+    },
+    {
+      "id": 59491,
+      "url": "https://t.me/empresaelectricacienfuegos1/59491",
+      "fecha": "2026-10-17T14:52:53+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 71,
-    "imagenes": 79,
+    "imagenes": 80,
     "pdf": 0,
-    "no_leidos": 10
+    "no_leidos": 11
   },
   "listas_completas": {
     "deficit": {
@@ -2763,7 +2773,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-17T13:24:59+00:00",
-  "total_circuitos_afectados": 68,
+  "total_circuitos_afectados": 69,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
@@ -2771,6 +2781,7 @@
     "C-18",
     "C-2",
     "C-31",
+    "C-407",
     "C-43",
     "C-48",
     "C-58",
@@ -2783,5 +2794,5 @@
     "C-95",
     "S-4820"
   ],
-  "actualizado": "2026-10-17T14:39:25.308832+00:00"
+  "actualizado": "2026-10-17T14:54:23.929092+00:00"
 }
