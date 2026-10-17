@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-17T19:17:14+00:00",
+  "reporte_fecha": "2026-10-17T20:06:38+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-17T16:12:51+00:00",
@@ -251,7 +251,16 @@
     "C-62": [],
     "C-94": [],
     "C-17": [],
-    "C-92": []
+    "C-92": [],
+    "C-33": [
+      "Arimao",
+      "Las Moscas",
+      "Vegas Viejas",
+      "Santa Martina",
+      "San Antón",
+      "Quesada",
+      "Callejón del Palmar"
+    ]
   },
   "programados": {},
   "confirmados_con_servicio": {
@@ -632,38 +641,6 @@
         "La Legua",
         "Gavilán",
         "Boca Ambuila"
-      ]
-    },
-    "C-33": {
-      "fecha": "2026-10-17T19:17:14+00:00",
-      "mensaje_id": 59501,
-      "url": "https://t.me/empresaelectricacienfuegos1/59501",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-17T18:20:25+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-17T16:39:29+00:00",
-        "mensaje_id": 59497,
-        "url": "https://t.me/empresaelectricacienfuegos1/59497",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
-      },
-      "lugares": [
-        "Arimao",
-        "Las Moscas",
-        "Vegas Viejas",
-        "Santa Martina",
-        "San Antón",
-        "Quesada",
-        "Callejón del Palmar"
       ]
     },
     "C-86": {
@@ -1250,6 +1227,15 @@
       "confianza": 100,
       "texto": "👉C-92 Calzada Dolores, San Lázaro."
     },
+    "C-33": {
+      "fecha": "2026-10-17T20:06:38+00:00",
+      "mensaje_id": 59502,
+      "url": "https://t.me/empresaelectricacienfuegos1/59502",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+    },
     "C-26": {
       "fecha": "2026-10-17T15:00:38+00:00",
       "mensaje_id": 59492,
@@ -1627,38 +1613,6 @@
         "Boca Ambuila"
       ]
     },
-    "C-33": {
-      "fecha": "2026-10-17T19:17:14+00:00",
-      "mensaje_id": 59501,
-      "url": "https://t.me/empresaelectricacienfuegos1/59501",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-17T18:20:25+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-17T16:39:29+00:00",
-        "mensaje_id": 59497,
-        "url": "https://t.me/empresaelectricacienfuegos1/59497",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
-      },
-      "lugares": [
-        "Arimao",
-        "Las Moscas",
-        "Vegas Viejas",
-        "Santa Martina",
-        "San Antón",
-        "Quesada",
-        "Callejón del Palmar"
-      ]
-    },
     "C-86": {
       "fecha": "2026-10-17T19:17:14+00:00",
       "mensaje_id": 59501,
@@ -1780,17 +1734,11 @@
     "C-62": "avería",
     "C-94": "déficit",
     "C-17": "déficit",
-    "C-92": "déficit"
+    "C-92": "déficit",
+    "C-33": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n80 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
-      "id": 59410,
-      "url": "https://t.me/empresaelectricacienfuegos1/59410",
-      "fecha": "2026-10-15T23:21:39+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚠La Empresa Eléctrica Cienfuegos informa:\n\n\n👉Debido a la compleja situación que existe por  déficit de capacidad de generación no ha sido posible cumplir con la rotación de las 06:00 pm.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
@@ -2199,6 +2147,13 @@
       "id": 59495,
       "url": "https://t.me/empresaelectricacienfuegos1/59495",
       "fecha": "2026-10-17T15:26:44+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59502,
+      "url": "https://t.me/empresaelectricacienfuegos1/59502",
+      "fecha": "2026-10-17T20:06:38+00:00"
     }
   ],
   "lectura": {
@@ -3168,9 +3123,9 @@
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-17T19:17:14+00:00",
-  "total_circuitos_afectados": 56,
+  "total_circuitos_afectados": 57,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 16,
+  "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3188,5 +3143,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-17T19:59:26.414863+00:00"
+  "actualizado": "2026-10-17T20:14:29.906008+00:00"
 }
