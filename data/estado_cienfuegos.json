@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-17T22:27:21+00:00",
+  "reporte_fecha": "2026-10-17T22:47:47+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-17T20:16:55+00:00",
-  "mensajes_leidos": 151,
+  "mensajes_leidos": 152,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -133,8 +133,6 @@
       "Rodas (Bombeo Agua Rodas 0-12",
       "Rodas"
     ],
-    "C-48": [],
-    "S-4820": [],
     "C-29": [
       "Moncada",
       "Constancia",
@@ -302,6 +300,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "⚠Se comunica a nuestros clientes que se encuentra restablecido el servicio  en la sección 3792, del C-37, las zonas:"
+    },
+    "S-3389": {
+      "fecha": "2026-10-17T22:47:47+00:00",
+      "mensaje_id": 59508,
+      "url": "https://t.me/empresaelectricacienfuegos1/59508",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠Se comunica a nuestros clientes que  se encuentra restablecido el servicio en la S-3389, las zonas:"
     }
   },
   "restablecimientos_probables": {
@@ -559,7 +566,7 @@
           "confianza": 100,
           "texto": "👉C-90 (FW1558) La Pollera"
         },
-        "vigente": true
+        "vigente": false
       }
     ]
   },
@@ -770,24 +777,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-22 Rodas (Bombeo Agua Rodas 0-12)"
-    },
-    "C-48": {
-      "fecha": "2026-10-17T10:45:23+00:00",
-      "mensaje_id": 59486,
-      "url": "https://t.me/empresaelectricacienfuegos1/59486",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-4820": {
-      "fecha": "2026-10-17T10:45:23+00:00",
-      "mensaje_id": 59486,
-      "url": "https://t.me/empresaelectricacienfuegos1/59486",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "C-29": {
       "fecha": "2026-10-17T22:27:21+00:00",
@@ -1131,6 +1120,15 @@
       "confianza": 100,
       "texto": "⚠Se comunica a nuestros clientes que se encuentra restablecido el servicio  en la sección 3792, del C-37, las zonas:"
     },
+    "S-3389": {
+      "fecha": "2026-10-17T22:47:47+00:00",
+      "mensaje_id": 59508,
+      "url": "https://t.me/empresaelectricacienfuegos1/59508",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠Se comunica a nuestros clientes que  se encuentra restablecido el servicio en la S-3389, las zonas:"
+    },
     "C-60": {
       "fecha": "2026-10-17T22:27:21+00:00",
       "mensaje_id": 59507,
@@ -1399,8 +1397,6 @@
     "C-38": "déficit",
     "C-55": "déficit",
     "C-22": "déficit",
-    "C-48": "avería",
-    "S-4820": "avería",
     "C-29": "déficit",
     "C-6": "déficit",
     "C-32": "déficit",
@@ -1441,12 +1437,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "id": 59416,
-      "url": "https://t.me/empresaelectricacienfuegos1/59416",
-      "fecha": "2026-10-15T23:57:35+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
@@ -1863,11 +1853,18 @@
       "id": 59506,
       "url": "https://t.me/empresaelectricacienfuegos1/59506",
       "fecha": "2026-10-17T21:29:17+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n80 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 59509,
+      "url": "https://t.me/empresaelectricacienfuegos1/59509",
+      "fecha": "2026-10-17T22:50:08+00:00"
     }
   ],
   "lectura": {
     "texto": 75,
-    "imagenes": 76,
+    "imagenes": 77,
     "pdf": 0,
     "no_leidos": 12
   },
@@ -2843,7 +2840,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-17T22:27:21+00:00",
-  "total_circuitos_afectados": 62,
+  "total_circuitos_afectados": 60,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
@@ -2853,15 +2850,13 @@
     "C-31",
     "C-407",
     "C-43",
-    "C-48",
     "C-58",
     "C-59",
     "C-60",
     "C-62",
     "C-76",
     "C-92",
-    "C-94",
-    "S-4820"
+    "C-94"
   ],
-  "actualizado": "2026-10-17T22:39:21.074553+00:00"
+  "actualizado": "2026-10-17T22:54:22.540870+00:00"
 }
