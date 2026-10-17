@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-17T00:23:39+00:00",
+  "reporte_fecha": "2026-10-17T03:01:28+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-16T17:54:25+00:00",
-  "mensajes_leidos": 151,
+  "mensajes_leidos": 152,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -228,7 +228,6 @@
     ],
     "C-401": [],
     "C-407": [],
-    "C-62": [],
     "C-43": [],
     "C-69": [
       "Junco Sur",
@@ -256,16 +255,6 @@
       "Hondones",
       "La Yuca",
       "Bagazal"
-    ],
-    "C-37": [
-      "El Tablón",
-      "Los Coquitos",
-      "El Túnel",
-      "Jovero",
-      "El Mamey",
-      "Crucesitas",
-      "El Nicho",
-      "Vegueta"
     ],
     "C-70": [
       "Aguada",
@@ -326,6 +315,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-92 Calzada Dolores, San Lázaro."
+    },
+    "C-37": {
+      "fecha": "2026-10-17T03:01:28+00:00",
+      "mensaje_id": 59481,
+      "url": "https://t.me/empresaelectricacienfuegos1/59481",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
+    },
+    "C-62": {
+      "fecha": "2026-10-17T03:01:28+00:00",
+      "mensaje_id": 59481,
+      "url": "https://t.me/empresaelectricacienfuegos1/59481",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-62 Barajagua."
     }
   },
   "restablecimientos_probables": {
@@ -839,15 +846,6 @@
       "confianza": 100,
       "texto": "👉C-407  \"Cocaleca, Poligráfico, Pastorita, O'bourke\""
     },
-    "C-62": {
-      "fecha": "2026-10-17T00:23:39+00:00",
-      "mensaje_id": 59480,
-      "url": "https://t.me/empresaelectricacienfuegos1/59480",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-62 Barajagua."
-    },
     "C-43": {
       "fecha": "2026-10-17T00:23:39+00:00",
       "mensaje_id": 59480,
@@ -910,15 +908,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
-    },
-    "C-37": {
-      "fecha": "2026-10-17T00:23:39+00:00",
-      "mensaje_id": 59480,
-      "url": "https://t.me/empresaelectricacienfuegos1/59480",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
     },
     "C-70": {
       "fecha": "2026-10-17T00:23:39+00:00",
@@ -1045,6 +1034,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-92 Calzada Dolores, San Lázaro."
+    },
+    "C-37": {
+      "fecha": "2026-10-17T03:01:28+00:00",
+      "mensaje_id": 59481,
+      "url": "https://t.me/empresaelectricacienfuegos1/59481",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
+    },
+    "C-62": {
+      "fecha": "2026-10-17T03:01:28+00:00",
+      "mensaje_id": 59481,
+      "url": "https://t.me/empresaelectricacienfuegos1/59481",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-62 Barajagua."
     },
     "C-60": {
       "fecha": "2026-10-17T00:23:39+00:00",
@@ -1198,7 +1205,6 @@
     "C-88": "déficit",
     "C-401": "avería",
     "C-407": "déficit",
-    "C-62": "avería / déficit",
     "C-43": "déficit",
     "C-69": "déficit",
     "C-65": "déficit",
@@ -1206,7 +1212,6 @@
     "C-2": "déficit",
     "C-3": "déficit",
     "C-63": "déficit",
-    "C-37": "avería / déficit",
     "C-70": "déficit",
     "C-76": "avería",
     "C-406": "avería / déficit",
@@ -1644,7 +1649,7 @@
     }
   ],
   "lectura": {
-    "texto": 72,
+    "texto": 73,
     "imagenes": 79,
     "pdf": 0,
     "no_leidos": 10
@@ -1725,24 +1730,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-28",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-14T11:02:46+00:00",
-      "mensaje_id": 59328,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59325",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59328"
-    },
-    {
-      "circuito": "C-25",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-14T13:42:16+00:00",
-      "mensaje_id": 59330,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59328",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59330"
-    },
     {
       "circuito": "C-5",
       "tipo": "salida_lista",
@@ -2624,11 +2611,29 @@
       "mensaje_id": 59474,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59471",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59474"
+    },
+    {
+      "circuito": "C-37",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-17T03:01:28+00:00",
+      "mensaje_id": 59481,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59480",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59481"
+    },
+    {
+      "circuito": "C-62",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-17T03:01:28+00:00",
+      "mensaje_id": 59481,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59480",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59481"
     }
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-17T00:23:39+00:00",
-  "total_circuitos_afectados": 65,
+  "total_circuitos_afectados": 63,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 4,
   "circuitos_sin_catalogar": [
@@ -2642,9 +2647,8 @@
     "C-58",
     "C-59",
     "C-60",
-    "C-62",
     "C-76",
     "C-94"
   ],
-  "actualizado": "2026-10-17T02:44:22.565482+00:00"
+  "actualizado": "2026-10-17T03:09:20.319974+00:00"
 }
