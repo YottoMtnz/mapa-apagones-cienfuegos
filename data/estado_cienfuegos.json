@@ -226,7 +226,6 @@
       "Mijalito",
       "Matún"
     ],
-    "C-401": [],
     "C-407": [],
     "C-43": [],
     "C-69": [
@@ -260,16 +259,11 @@
       "Aguada",
       "Federal"
     ],
-    "C-76": [],
     "C-406": [
       "San Lázaro",
       "Calle 35 de Ave 58 hasta Ave 64",
       "Ave 58 de Calle 47 hasta Calle 49",
       "Calle 47 de Ave 54 hasta Ave 58"
-    ],
-    "C-91": [
-      "Buena Vista",
-      "La Esperanza"
     ],
     "C-11": [
       "Ariza",
@@ -812,15 +806,6 @@
       "confianza": 100,
       "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
     },
-    "C-401": {
-      "fecha": "2026-10-16T15:55:15+00:00",
-      "mensaje_id": 59458,
-      "url": "https://t.me/empresaelectricacienfuegos1/59458",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-401 Zona Industrial 1, Almacenes CIMEX, El Miedo, La 13"
-    },
     "C-407": {
       "fecha": "2026-10-17T03:11:14+00:00",
       "mensaje_id": 59482,
@@ -902,15 +887,6 @@
       "confianza": 100,
       "texto": "👉C-70 \"Aguada, Federal."
     },
-    "C-76": {
-      "fecha": "2026-10-16T15:54:38+00:00",
-      "mensaje_id": 59457,
-      "url": "https://t.me/empresaelectricacienfuegos1/59457",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
-    },
     "C-406": {
       "fecha": "2026-10-17T03:11:14+00:00",
       "mensaje_id": 59482,
@@ -919,15 +895,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-406  \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58.\""
-    },
-    "C-91": {
-      "fecha": "2026-10-16T15:55:15+00:00",
-      "mensaje_id": 59458,
-      "url": "https://t.me/empresaelectricacienfuegos1/59458",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-91 Buena Vista, La Esperanza."
     },
     "C-11": {
       "fecha": "2026-10-17T03:11:14+00:00",
@@ -1187,7 +1154,6 @@
     "C-32": "déficit",
     "C-31": "déficit",
     "C-88": "déficit",
-    "C-401": "avería",
     "C-407": "déficit",
     "C-43": "déficit",
     "C-69": "déficit",
@@ -1197,9 +1163,7 @@
     "C-3": "déficit",
     "C-63": "déficit",
     "C-70": "déficit",
-    "C-76": "avería",
-    "C-406": "avería / déficit",
-    "C-91": "avería",
+    "C-406": "déficit",
     "C-11": "déficit",
     "C-17": "déficit",
     "C-58": "déficit",
@@ -2617,7 +2581,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-17T03:11:14+00:00",
-  "total_circuitos_afectados": 66,
+  "total_circuitos_afectados": 63,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 4,
   "circuitos_sin_catalogar": [
@@ -2625,16 +2589,14 @@
     "C-18",
     "C-2",
     "C-31",
-    "C-401",
     "C-407",
     "C-43",
     "C-58",
     "C-59",
     "C-60",
     "C-62",
-    "C-76",
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-17T03:54:22.547698+00:00"
+  "actualizado": "2026-10-17T04:09:26.148771+00:00"
 }
