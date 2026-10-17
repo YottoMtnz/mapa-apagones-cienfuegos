@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-17T16:49:48+00:00",
+  "reporte_fecha": "2026-10-17T16:56:28+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-17T16:12:51+00:00",
-  "mensajes_leidos": 157,
+  "mensajes_leidos": 158,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -288,16 +288,6 @@
     "C-405": [
       "Pueblo Griffo Nuevo"
     ],
-    "C-37": [
-      "El Tablón",
-      "Los Coquitos",
-      "El Túnel",
-      "Jovero",
-      "El Mamey",
-      "Crucesitas",
-      "El Nicho",
-      "Vegueta"
-    ],
     "C-62": [],
     "C-94": []
   },
@@ -322,6 +312,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
+    },
+    "C-37": {
+      "fecha": "2026-10-17T16:56:28+00:00",
+      "mensaje_id": 59499,
+      "url": "https://t.me/empresaelectricacienfuegos1/59499",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠Se comunica a nuestros clientes que se encuentra restablecido el servicio  en la sección 3792, del C-37, las zonas:"
     }
   },
   "restablecimientos_probables": {
@@ -1192,15 +1191,6 @@
       "confianza": 100,
       "texto": "👉C-405 \"Pueblo Griffo Nuevo."
     },
-    "C-37": {
-      "fecha": "2026-10-17T15:26:44+00:00",
-      "mensaje_id": 59495,
-      "url": "https://t.me/empresaelectricacienfuegos1/59495",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
-    },
     "C-62": {
       "fecha": "2026-10-17T15:26:44+00:00",
       "mensaje_id": 59495,
@@ -1245,6 +1235,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
+    },
+    "C-37": {
+      "fecha": "2026-10-17T16:56:28+00:00",
+      "mensaje_id": 59499,
+      "url": "https://t.me/empresaelectricacienfuegos1/59499",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠Se comunica a nuestros clientes que se encuentra restablecido el servicio  en la sección 3792, del C-37, las zonas:"
     },
     "C-60": {
       "fecha": "2026-10-17T16:39:29+00:00",
@@ -1609,7 +1608,6 @@
     "C-57": "déficit",
     "C-80": "déficit",
     "C-405": "déficit",
-    "C-37": "avería",
     "C-62": "avería",
     "C-94": "déficit"
   },
@@ -2033,7 +2031,7 @@
     }
   ],
   "lectura": {
-    "texto": 77,
+    "texto": 78,
     "imagenes": 80,
     "pdf": 0,
     "no_leidos": 11
@@ -2100,15 +2098,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-19",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-15T04:51:47+00:00",
-      "mensaje_id": 59360,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59358",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59360"
-    },
     {
       "circuito": "C-19",
       "tipo": "restablecido",
@@ -2999,11 +2988,20 @@
       "mensaje_id": 59498,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59491",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59498"
+    },
+    {
+      "circuito": "C-37",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-17T16:56:28+00:00",
+      "mensaje_id": 59499,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59495",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59499"
     }
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-17T16:39:29+00:00",
-  "total_circuitos_afectados": 62,
+  "total_circuitos_afectados": 61,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 12,
   "circuitos_sin_catalogar": [
@@ -3023,5 +3021,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-17T16:54:21.728079+00:00"
+  "actualizado": "2026-10-17T17:09:18.723846+00:00"
 }
