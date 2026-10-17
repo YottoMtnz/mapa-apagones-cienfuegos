@@ -2,12 +2,41 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-17T15:20:46+00:00",
+  "reporte_fecha": "2026-10-17T15:26:44+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 154,
+  "mensajes_leidos": 155,
   "afectados": {
+    "C-82": [
+      "Balboa",
+      "La Pedrera",
+      "El Tropezón"
+    ],
+    "C-53": [
+      "Potrerillo",
+      "Peñasco",
+      "Lomitas"
+    ],
+    "C-54": [
+      "Batey Mal Tiempo",
+      "Loma de Tola"
+    ],
+    "C-52": [
+      "Paradero de Camarones",
+      "Vía Estrecha",
+      "Espartaco",
+      "La Macana",
+      "Cherepa"
+    ],
+    "C-72": [
+      "Porcino",
+      "La Caridad",
+      "Palmira (Sur"
+    ],
+    "C-50": [
+      "Palmira (Norte"
+    ],
     "C-73": [
       "Perseverancia",
       "1ro de Mayo"
@@ -240,6 +269,7 @@
       "Aguada",
       "Federal"
     ],
+    "C-76": [],
     "C-406": [
       "San Lázaro",
       "Calle 35 de Ave 58 hasta Ave 64",
@@ -289,7 +319,8 @@
       "El Nicho",
       "Vegueta"
     ],
-    "C-59": []
+    "C-59": [],
+    "C-62": []
   },
   "programados": {},
   "confirmados_con_servicio": {
@@ -397,30 +428,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
-    "C-62": {
-      "fecha": "2026-10-17T15:20:46+00:00",
-      "mensaje_id": 59493,
-      "url": "https://t.me/empresaelectricacienfuegos1/59493",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-73 Perseverancia, 1ro de Mayo.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-17T13:24:59+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-17T12:01:48+00:00",
-        "mensaje_id": 59488,
-        "url": "https://t.me/empresaelectricacienfuegos1/59488",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-62 Barajagua."
       },
       "lugares": []
     },
@@ -551,6 +558,60 @@
     ]
   },
   "evidencias": {
+    "C-82": {
+      "fecha": "2026-10-17T15:26:44+00:00",
+      "mensaje_id": 59495,
+      "url": "https://t.me/empresaelectricacienfuegos1/59495",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón."
+    },
+    "C-53": {
+      "fecha": "2026-10-17T15:26:44+00:00",
+      "mensaje_id": 59495,
+      "url": "https://t.me/empresaelectricacienfuegos1/59495",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-53 \"Potrerillo, El No, Peñasco, Lomitas."
+    },
+    "C-54": {
+      "fecha": "2026-10-17T15:26:44+00:00",
+      "mensaje_id": 59495,
+      "url": "https://t.me/empresaelectricacienfuegos1/59495",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola."
+    },
+    "C-52": {
+      "fecha": "2026-10-17T15:26:44+00:00",
+      "mensaje_id": 59495,
+      "url": "https://t.me/empresaelectricacienfuegos1/59495",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
+    },
+    "C-72": {
+      "fecha": "2026-10-17T15:26:44+00:00",
+      "mensaje_id": 59495,
+      "url": "https://t.me/empresaelectricacienfuegos1/59495",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)."
+    },
+    "C-50": {
+      "fecha": "2026-10-17T15:26:44+00:00",
+      "mensaje_id": 59495,
+      "url": "https://t.me/empresaelectricacienfuegos1/59495",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-50 Palmira (Norte)."
+    },
     "C-73": {
       "fecha": "2026-10-17T15:20:46+00:00",
       "mensaje_id": 59493,
@@ -974,6 +1035,15 @@
       "confianza": 100,
       "texto": "👉C-70 Aguada, Federal."
     },
+    "C-76": {
+      "fecha": "2026-10-17T15:26:44+00:00",
+      "mensaje_id": 59495,
+      "url": "https://t.me/empresaelectricacienfuegos1/59495",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
+    },
     "C-406": {
       "fecha": "2026-10-17T15:20:46+00:00",
       "mensaje_id": 59493,
@@ -1056,13 +1126,13 @@
       "texto": "👉C-405 Pueblo Griffo Nuevo."
     },
     "C-37": {
-      "fecha": "2026-10-17T14:07:10+00:00",
-      "mensaje_id": 59490,
-      "url": "https://t.me/empresaelectricacienfuegos1/59490",
+      "fecha": "2026-10-17T15:26:44+00:00",
+      "mensaje_id": 59495,
+      "url": "https://t.me/empresaelectricacienfuegos1/59495",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "⚠Se comunica a nuestros clientes que se encuentra en fallo el circuito C-37, a partir de la sección 3792, las zonas:"
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
     },
     "C-59": {
       "fecha": "2026-10-17T15:20:46+00:00",
@@ -1072,6 +1142,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
+    },
+    "C-62": {
+      "fecha": "2026-10-17T15:26:44+00:00",
+      "mensaje_id": 59495,
+      "url": "https://t.me/empresaelectricacienfuegos1/59495",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-62 Barajagua."
     },
     "C-26": {
       "fecha": "2026-10-17T15:00:38+00:00",
@@ -1175,30 +1254,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
-    "C-62": {
-      "fecha": "2026-10-17T15:20:46+00:00",
-      "mensaje_id": 59493,
-      "url": "https://t.me/empresaelectricacienfuegos1/59493",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-73 Perseverancia, 1ro de Mayo.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-17T13:24:59+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-17T12:01:48+00:00",
-        "mensaje_id": 59488,
-        "url": "https://t.me/empresaelectricacienfuegos1/59488",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-62 Barajagua."
       },
       "lugares": []
     },
@@ -1315,6 +1370,12 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-82": "avería",
+    "C-53": "avería",
+    "C-54": "avería",
+    "C-52": "avería",
+    "C-72": "avería",
+    "C-50": "avería",
     "C-73": "déficit",
     "C-42": "déficit",
     "C-78": "déficit",
@@ -1362,6 +1423,7 @@
     "C-63": "déficit",
     "C-90": "avería / déficit",
     "C-70": "déficit",
+    "C-76": "avería",
     "C-406": "déficit",
     "C-91": "déficit",
     "C-58": "déficit",
@@ -1372,17 +1434,11 @@
     "C-80": "déficit",
     "C-405": "déficit",
     "C-37": "avería",
-    "C-59": "déficit"
+    "C-59": "déficit",
+    "C-62": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
-      "id": 59407,
-      "url": "https://t.me/empresaelectricacienfuegos1/59407",
-      "fecha": "2026-10-15T22:09:24+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n80 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
@@ -1791,10 +1847,17 @@
       "id": 59494,
       "url": "https://t.me/empresaelectricacienfuegos1/59494",
       "fecha": "2026-10-17T15:22:46+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
+      "id": 59495,
+      "url": "https://t.me/empresaelectricacienfuegos1/59495",
+      "fecha": "2026-10-17T15:26:44+00:00"
     }
   ],
   "lectura": {
-    "texto": 74,
+    "texto": 75,
     "imagenes": 80,
     "pdf": 0,
     "no_leidos": 11
@@ -2770,9 +2833,9 @@
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-17T15:20:46+00:00",
-  "total_circuitos_afectados": 58,
+  "total_circuitos_afectados": 66,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 9,
+  "total_restablecimientos_probables": 8,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2785,9 +2848,10 @@
     "C-59",
     "C-60",
     "C-62",
+    "C-76",
     "C-92",
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-17T15:24:18.735740+00:00"
+  "actualizado": "2026-10-17T15:39:21.194317+00:00"
 }
