@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-17T15:26:44+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 154,
+  "programado_fecha": "2026-10-17T16:12:51+00:00",
+  "mensajes_leidos": 155,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -322,7 +322,9 @@
     "C-59": [],
     "C-62": []
   },
-  "programados": {},
+  "programados": {
+    "C-92": []
+  },
   "confirmados_con_servicio": {
     "C-26": {
       "fecha": "2026-10-17T15:00:38+00:00",
@@ -1152,6 +1154,15 @@
       "confianza": 100,
       "texto": "👉C-62 Barajagua."
     },
+    "C-92": {
+      "fecha": "2026-10-17T16:12:51+00:00",
+      "mensaje_id": 59496,
+      "url": "https://t.me/empresaelectricacienfuegos1/59496",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-92 Calzada Dolores, San Lázaro."
+    },
     "C-26": {
       "fecha": "2026-10-17T15:00:38+00:00",
       "mensaje_id": 59492,
@@ -1257,30 +1268,6 @@
       },
       "lugares": []
     },
-    "C-92": {
-      "fecha": "2026-10-17T15:20:46+00:00",
-      "mensaje_id": 59493,
-      "url": "https://t.me/empresaelectricacienfuegos1/59493",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-73 Perseverancia, 1ro de Mayo.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-17T13:24:59+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-17T12:01:48+00:00",
-        "mensaje_id": 59488,
-        "url": "https://t.me/empresaelectricacienfuegos1/59488",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-C-92 Calzada Dolores, San Lázaro."
-      },
-      "lugares": []
-    },
     "C-56": {
       "fecha": "2026-10-17T15:20:46+00:00",
       "mensaje_id": 59493,
@@ -1363,7 +1350,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-92": {
+      "inicio": null,
+      "fin": "2026-10-18T04:12:51+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 65.0,
   "hora_inicio": null,
@@ -1858,7 +1851,7 @@
   ],
   "lectura": {
     "texto": 75,
-    "imagenes": 79,
+    "imagenes": 80,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -2834,7 +2827,7 @@
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-17T15:20:46+00:00",
   "total_circuitos_afectados": 66,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 8,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2853,5 +2846,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-17T16:09:24.259004+00:00"
+  "actualizado": "2026-10-17T16:24:27.502083+00:00"
 }
