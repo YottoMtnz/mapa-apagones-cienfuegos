@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-17T14:52:53+00:00",
+  "reporte_fecha": "2026-10-17T15:00:38+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 151,
+  "mensajes_leidos": 152,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -237,12 +237,6 @@
       "Guaos",
       "Naranjito"
     ],
-    "C-26": [
-      "Caonao",
-      "Los Tanques",
-      "La Ceiba",
-      "El Paisíto"
-    ],
     "C-89": [],
     "C-407": [],
     "C-43": [],
@@ -340,7 +334,17 @@
     ]
   },
   "programados": {},
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-26": {
+      "fecha": "2026-10-17T15:00:38+00:00",
+      "mensaje_id": 59492,
+      "url": "https://t.me/empresaelectricacienfuegos1/59492",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
+    }
+  },
   "restablecimientos_probables": {
     "C-60": {
       "fecha": "2026-10-17T13:24:59+00:00",
@@ -937,15 +941,6 @@
       "confianza": 100,
       "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     },
-    "C-26": {
-      "fecha": "2026-10-17T11:00:16+00:00",
-      "mensaje_id": 59487,
-      "url": "https://t.me/empresaelectricacienfuegos1/59487",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paísíto."
-    },
     "C-89": {
       "fecha": "2026-10-17T13:24:59+00:00",
       "mensaje_id": 59489,
@@ -1152,6 +1147,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "⚠Se comunica a nuestros clientes que se encuentra en fallo el circuito C-37, a partir de la sección 3792, las zonas:"
+    },
+    "C-26": {
+      "fecha": "2026-10-17T15:00:38+00:00",
+      "mensaje_id": 59492,
+      "url": "https://t.me/empresaelectricacienfuegos1/59492",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
     },
     "C-60": {
       "fecha": "2026-10-17T13:24:59+00:00",
@@ -1374,7 +1378,6 @@
     "C-95": "déficit",
     "C-15": "avería",
     "C-67": "avería",
-    "C-26": "avería",
     "C-89": "déficit",
     "C-407": "avería",
     "C-43": "déficit",
@@ -1817,7 +1820,7 @@
     }
   ],
   "lectura": {
-    "texto": 71,
+    "texto": 72,
     "imagenes": 80,
     "pdf": 0,
     "no_leidos": 11
@@ -2769,11 +2772,20 @@
       "mensaje_id": 59489,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59488",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59489"
+    },
+    {
+      "circuito": "C-26",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-17T15:00:38+00:00",
+      "mensaje_id": 59492,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59487",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59492"
     }
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-17T13:24:59+00:00",
-  "total_circuitos_afectados": 69,
+  "total_circuitos_afectados": 68,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
@@ -2794,5 +2806,5 @@
     "C-95",
     "S-4820"
   ],
-  "actualizado": "2026-10-17T14:54:23.929092+00:00"
+  "actualizado": "2026-10-17T15:09:27.546467+00:00"
 }
