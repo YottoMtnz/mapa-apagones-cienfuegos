@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-17T20:16:55+00:00",
-  "mensajes_leidos": 152,
+  "mensajes_leidos": 150,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -161,15 +161,6 @@
       "La Leona",
       "Mijalito",
       "Matún"
-    ],
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
-    ],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
     ],
     "C-43": [],
     "C-65": [
@@ -823,24 +814,6 @@
       "confianza": 100,
       "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
     },
-    "C-15": {
-      "fecha": "2026-10-17T11:00:16+00:00",
-      "mensaje_id": 59487,
-      "url": "https://t.me/empresaelectricacienfuegos1/59487",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-15 Pepito Tey, Guabairo."
-    },
-    "C-67": {
-      "fecha": "2026-10-17T11:00:16+00:00",
-      "mensaje_id": 59487,
-      "url": "https://t.me/empresaelectricacienfuegos1/59487",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
-    },
     "C-43": {
       "fecha": "2026-10-17T22:27:21+00:00",
       "mensaje_id": 59507,
@@ -1402,15 +1375,13 @@
     "C-32": "déficit",
     "C-31": "déficit",
     "C-88": "déficit",
-    "C-15": "avería",
-    "C-67": "avería",
     "C-43": "déficit",
     "C-65": "déficit",
     "C-66": "déficit",
     "C-2": "déficit",
     "C-3": "déficit",
     "C-63": "déficit",
-    "C-90": "avería / déficit",
+    "C-90": "déficit",
     "C-70": "déficit",
     "C-76": "avería",
     "C-406": "déficit",
@@ -1863,8 +1834,8 @@
     }
   ],
   "lectura": {
-    "texto": 75,
-    "imagenes": 77,
+    "texto": 74,
+    "imagenes": 76,
     "pdf": 0,
     "no_leidos": 12
   },
@@ -2840,7 +2811,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-17T22:27:21+00:00",
-  "total_circuitos_afectados": 60,
+  "total_circuitos_afectados": 58,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
@@ -2858,5 +2829,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-17T22:54:22.540870+00:00"
+  "actualizado": "2026-10-17T23:09:30.599506+00:00"
 }
