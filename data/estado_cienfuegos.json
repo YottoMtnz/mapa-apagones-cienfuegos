@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-17T10:11:49+00:00",
+  "reporte_fecha": "2026-10-17T10:45:23+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 152,
+  "mensajes_leidos": 151,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -194,6 +194,8 @@
       "Rodas"
     ],
     "C-59": [],
+    "C-48": [],
+    "S-4820": [],
     "C-19": [
       "Tulipán"
     ],
@@ -401,15 +403,15 @@
           "La Pollera"
         ],
         "evidencia": {
-          "fecha": "2026-10-16T11:03:53+00:00",
-          "mensaje_id": 59436,
-          "url": "https://t.me/empresaelectricacienfuegos1/59436",
+          "fecha": "2026-10-17T10:45:23+00:00",
+          "mensaje_id": 59486,
+          "url": "https://t.me/empresaelectricacienfuegos1/59486",
           "medio": "texto",
           "editado": null,
           "confianza": 100,
           "texto": "👉C-90 (FW1558) La Pollera"
         },
-        "vigente": false
+        "vigente": true
       }
     ]
   },
@@ -728,6 +730,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
+    },
+    "C-48": {
+      "fecha": "2026-10-17T10:45:23+00:00",
+      "mensaje_id": 59486,
+      "url": "https://t.me/empresaelectricacienfuegos1/59486",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
+    },
+    "S-4820": {
+      "fecha": "2026-10-17T10:45:23+00:00",
+      "mensaje_id": 59486,
+      "url": "https://t.me/empresaelectricacienfuegos1/59486",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "C-19": {
       "fecha": "2026-10-17T10:11:49+00:00",
@@ -1108,6 +1128,8 @@
     "C-36": "déficit",
     "C-22": "déficit",
     "C-59": "déficit",
+    "C-48": "avería",
+    "S-4820": "avería",
     "C-19": "déficit",
     "C-29": "déficit",
     "C-6": "déficit",
@@ -1140,12 +1162,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "id": 59397,
-      "url": "https://t.me/empresaelectricacienfuegos1/59397",
-      "fecha": "2026-10-15T20:34:53+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
@@ -1553,10 +1569,17 @@
       "id": 59485,
       "url": "https://t.me/empresaelectricacienfuegos1/59485",
       "fecha": "2026-10-17T10:11:49+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
+      "id": 59486,
+      "url": "https://t.me/empresaelectricacienfuegos1/59486",
+      "fecha": "2026-10-17T10:45:23+00:00"
     }
   ],
   "lectura": {
-    "texto": 74,
+    "texto": 73,
     "imagenes": 78,
     "pdf": 0,
     "no_leidos": 10
@@ -2540,7 +2563,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-17T10:11:49+00:00",
-  "total_circuitos_afectados": 64,
+  "total_circuitos_afectados": 66,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 3,
   "circuitos_sin_catalogar": [
@@ -2550,12 +2573,14 @@
     "C-31",
     "C-407",
     "C-43",
+    "C-48",
     "C-58",
     "C-59",
     "C-60",
     "C-62",
     "C-92",
-    "C-94"
+    "C-94",
+    "S-4820"
   ],
-  "actualizado": "2026-10-17T10:44:20.755243+00:00"
+  "actualizado": "2026-10-17T10:59:22.225438+00:00"
 }
