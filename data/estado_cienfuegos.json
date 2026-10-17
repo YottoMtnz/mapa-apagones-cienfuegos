@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-17T20:16:55+00:00",
-  "mensajes_leidos": 152,
+  "mensajes_leidos": 153,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -1610,20 +1610,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠La Empresa Eléctrica Cienfuegos informa:\n\n\n👉Debido a la compleja situación que existe por  déficit de capacidad de generación no ha sido posible cumplir con la rotación de las 06:00 pm.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.\nao OF\nIMPORTANTE\n>\no",
-      "id": 59414,
-      "url": "https://t.me/empresaelectricacienfuegos1/59414",
-      "fecha": "2026-10-15T23:39:13+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n1\n90 MW\neo\nDEFICIT DE GENERACION\nmM\nas\nij\na\nHT]\nSee y\n+\nUNE\nEMPRESA ELECTRIC.\ny\nCIENFUEGOS\ny",
-      "id": 59415,
-      "url": "https://t.me/empresaelectricacienfuegos1/59415",
-      "fecha": "2026-10-15T23:52:56+00:00"
-    },
-    {
       "id": 59416,
       "url": "https://t.me/empresaelectricacienfuegos1/59416",
       "fecha": "2026-10-15T23:57:35+00:00",
@@ -2023,11 +2009,33 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59504",
       "fecha": "2026-10-17T20:36:25+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "estado_ambiguo",
+      "texto": "⚠Se comunica a nuestros clientes que  se encuentra restablecido el servicio en el C-33, quedando afectado a partir de la S-3389, afectadas las zonas:",
+      "circuitos": [
+        "C-33",
+        "S-3389"
+      ],
+      "id": 59506,
+      "url": "https://t.me/empresaelectricacienfuegos1/59506",
+      "fecha": "2026-10-17T21:29:17+00:00"
+    },
+    {
+      "motivo": "estado_ambiguo",
+      "texto": "⚠Se comunica a nuestros clientes que  se encuentra restablecido el servicio en el C-33, quedando afectado a partir de la S-3389, afectadas las zonas:",
+      "circuitos": [
+        "C-33",
+        "S-3389"
+      ],
+      "id": 59506,
+      "url": "https://t.me/empresaelectricacienfuegos1/59506",
+      "fecha": "2026-10-17T21:29:17+00:00"
     }
   ],
   "lectura": {
     "texto": 75,
-    "imagenes": 77,
+    "imagenes": 78,
     "pdf": 0,
     "no_leidos": 12
   },
@@ -3024,5 +3032,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-17T21:14:37.214053+00:00"
+  "actualizado": "2026-10-17T21:29:25.067773+00:00"
 }
