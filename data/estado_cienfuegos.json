@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-17T13:24:59+00:00",
+  "reporte_fecha": "2026-10-17T14:07:10+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 151,
+  "mensajes_leidos": 150,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -326,6 +326,16 @@
     "C-30": [
       "14 de Julio",
       "Batey 2 Hermanos"
+    ],
+    "C-37": [
+      "El Tablón",
+      "Los Coquitos",
+      "El Túnel",
+      "Jovero",
+      "El Mamey",
+      "Crucesitas",
+      "El Nicho",
+      "Vegueta"
     ]
   },
   "programados": {},
@@ -450,39 +460,6 @@
         "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
       },
       "lugares": []
-    },
-    "C-37": {
-      "fecha": "2026-10-17T13:24:59+00:00",
-      "mensaje_id": 59489,
-      "url": "https://t.me/empresaelectricacienfuegos1/59489",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-17T13:24:59+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-17T12:01:48+00:00",
-        "mensaje_id": 59488,
-        "url": "https://t.me/empresaelectricacienfuegos1/59488",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
-      },
-      "lugares": [
-        "El Tablón",
-        "Los Coquitos",
-        "El Túnel",
-        "Jovero",
-        "El Mamey",
-        "Crucesitas",
-        "El Nicho",
-        "Vegueta"
-      ]
     },
     "C-62": {
       "fecha": "2026-10-17T13:24:59+00:00",
@@ -1157,6 +1134,15 @@
       "confianza": 100,
       "texto": "👉C-30  14 de Julio, Batey 2 Hermanos."
     },
+    "C-37": {
+      "fecha": "2026-10-17T14:07:10+00:00",
+      "mensaje_id": 59490,
+      "url": "https://t.me/empresaelectricacienfuegos1/59490",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠Se comunica a nuestros clientes que se encuentra en fallo el circuito C-37, a partir de la sección 3792, las zonas:"
+    },
     "C-60": {
       "fecha": "2026-10-17T13:24:59+00:00",
       "mensaje_id": 59489,
@@ -1276,39 +1262,6 @@
         "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
       },
       "lugares": []
-    },
-    "C-37": {
-      "fecha": "2026-10-17T13:24:59+00:00",
-      "mensaje_id": 59489,
-      "url": "https://t.me/empresaelectricacienfuegos1/59489",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-17T13:24:59+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-17T12:01:48+00:00",
-        "mensaje_id": 59488,
-        "url": "https://t.me/empresaelectricacienfuegos1/59488",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
-      },
-      "lugares": [
-        "El Tablón",
-        "Los Coquitos",
-        "El Túnel",
-        "Jovero",
-        "El Mamey",
-        "Crucesitas",
-        "El Nicho",
-        "Vegueta"
-      ]
     },
     "C-62": {
       "fecha": "2026-10-17T13:24:59+00:00",
@@ -1432,17 +1385,11 @@
     "C-57": "déficit",
     "C-80": "déficit",
     "C-405": "déficit",
-    "C-30": "déficit"
+    "C-30": "déficit",
+    "C-37": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\n> | S y\nEl | a",
-      "id": 59399,
-      "url": "https://t.me/empresaelectricacienfuegos1/59399",
-      "fecha": "2026-10-15T20:41:45+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
@@ -1850,11 +1797,18 @@
       "id": 59488,
       "url": "https://t.me/empresaelectricacienfuegos1/59488",
       "fecha": "2026-10-17T12:01:48+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59490,
+      "url": "https://t.me/empresaelectricacienfuegos1/59490",
+      "fecha": "2026-10-17T14:07:10+00:00"
     }
   ],
   "lectura": {
-    "texto": 73,
-    "imagenes": 78,
+    "texto": 71,
+    "imagenes": 79,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -2069,15 +2023,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59358"
     },
     {
-      "circuito": "C-19",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-15T04:51:47+00:00",
-      "mensaje_id": 59360,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59358",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59360"
-    },
-    {
       "circuito": "C-65",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2097,6 +2042,15 @@
     },
     {
       "circuito": "C-80",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-15T04:51:47+00:00",
+      "mensaje_id": 59360,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59358",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59360"
+    },
+    {
+      "circuito": "C-19",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-15T04:51:47+00:00",
@@ -2809,9 +2763,9 @@
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-17T13:24:59+00:00",
-  "total_circuitos_afectados": 67,
+  "total_circuitos_afectados": 68,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 8,
+  "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2829,5 +2783,5 @@
     "C-95",
     "S-4820"
   ],
-  "actualizado": "2026-10-17T14:04:26.253517+00:00"
+  "actualizado": "2026-10-17T14:19:26.604731+00:00"
 }
