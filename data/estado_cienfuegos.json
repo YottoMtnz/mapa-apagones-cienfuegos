@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-17T20:06:38+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-17T16:12:51+00:00",
-  "mensajes_leidos": 153,
+  "programado_fecha": "2026-10-17T20:16:55+00:00",
+  "mensajes_leidos": 154,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -262,7 +262,9 @@
       "Callejón del Palmar"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-407": []
+  },
   "confirmados_con_servicio": {
     "C-26": {
       "fecha": "2026-10-17T15:00:38+00:00",
@@ -1236,6 +1238,15 @@
       "confianza": 100,
       "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     },
+    "C-407": {
+      "fecha": "2026-10-17T20:16:55+00:00",
+      "mensaje_id": 59503,
+      "url": "https://t.me/empresaelectricacienfuegos1/59503",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
+    },
     "C-26": {
       "fecha": "2026-10-17T15:00:38+00:00",
       "mensaje_id": 59492,
@@ -1244,15 +1255,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
-    },
-    "C-407": {
-      "fecha": "2026-10-17T16:49:48+00:00",
-      "mensaje_id": 59498,
-      "url": "https://t.me/empresaelectricacienfuegos1/59498",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
     },
     "C-37": {
       "fecha": "2026-10-17T16:56:28+00:00",
@@ -1672,7 +1674,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-407": {
+      "inicio": null,
+      "fin": "2026-10-18T08:16:55+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -2158,7 +2166,7 @@
   ],
   "lectura": {
     "texto": 76,
-    "imagenes": 77,
+    "imagenes": 78,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -3124,13 +3132,14 @@
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-17T19:17:14+00:00",
   "total_circuitos_afectados": 57,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
     "C-2",
     "C-31",
+    "C-407",
     "C-43",
     "C-48",
     "C-58",
@@ -3143,5 +3152,5 @@
     "C-94",
     "S-4820"
   ],
-  "actualizado": "2026-10-17T20:14:29.906008+00:00"
+  "actualizado": "2026-10-17T20:29:32.060687+00:00"
 }
