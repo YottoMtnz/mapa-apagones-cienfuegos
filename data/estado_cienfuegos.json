@@ -226,22 +226,6 @@
       "Mijalito",
       "Matún"
     ],
-    "C-95": [],
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
-    ],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
-    ],
-    "C-26": [
-      "Caonao",
-      "Los Tanques",
-      "La Ceiba",
-      "El Paisíto"
-    ],
     "C-401": [],
     "C-407": [],
     "C-62": [],
@@ -273,9 +257,6 @@
       "La Yuca",
       "Bagazal"
     ],
-    "C-90": [
-      "FW1558) La Pollera"
-    ],
     "C-37": [
       "El Tablón",
       "Los Coquitos",
@@ -286,7 +267,6 @@
       "El Nicho",
       "Vegueta"
     ],
-    "C-20": [],
     "C-70": [
       "Aguada",
       "Federal"
@@ -842,42 +822,6 @@
       "confianza": 100,
       "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
     },
-    "C-95": {
-      "fecha": "2026-10-16T13:39:55+00:00",
-      "mensaje_id": 59443,
-      "url": "https://t.me/empresaelectricacienfuegos1/59443",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-95 Refinería, Carolina."
-    },
-    "C-15": {
-      "fecha": "2026-10-16T13:39:55+00:00",
-      "mensaje_id": 59443,
-      "url": "https://t.me/empresaelectricacienfuegos1/59443",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-15 Pepito Tey, Guabairo."
-    },
-    "C-67": {
-      "fecha": "2026-10-16T13:39:55+00:00",
-      "mensaje_id": 59443,
-      "url": "https://t.me/empresaelectricacienfuegos1/59443",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
-    },
-    "C-26": {
-      "fecha": "2026-10-16T13:39:55+00:00",
-      "mensaje_id": 59443,
-      "url": "https://t.me/empresaelectricacienfuegos1/59443",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
-    },
     "C-401": {
       "fecha": "2026-10-16T15:55:15+00:00",
       "mensaje_id": 59458,
@@ -968,15 +912,6 @@
       "confianza": 100,
       "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
     },
-    "C-90": {
-      "fecha": "2026-10-16T13:39:55+00:00",
-      "mensaje_id": 59443,
-      "url": "https://t.me/empresaelectricacienfuegos1/59443",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
-    },
     "C-37": {
       "fecha": "2026-10-17T00:23:39+00:00",
       "mensaje_id": 59480,
@@ -985,15 +920,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
-    },
-    "C-20": {
-      "fecha": "2026-10-16T13:39:55+00:00",
-      "mensaje_id": 59443,
-      "url": "https://t.me/empresaelectricacienfuegos1/59443",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-20 Punta Gorda."
     },
     "C-70": {
       "fecha": "2026-10-17T00:23:39+00:00",
@@ -1280,23 +1206,17 @@
     "C-32": "déficit",
     "C-31": "déficit",
     "C-88": "déficit",
-    "C-95": "avería",
-    "C-15": "avería",
-    "C-67": "avería",
-    "C-26": "avería",
     "C-401": "avería",
-    "C-407": "avería / déficit",
+    "C-407": "déficit",
     "C-62": "avería / déficit",
-    "C-43": "déficit / emergencia",
-    "C-69": "déficit / emergencia",
-    "C-65": "déficit / avería",
-    "C-66": "déficit / avería",
+    "C-43": "déficit",
+    "C-69": "déficit",
+    "C-65": "déficit",
+    "C-66": "déficit",
     "C-2": "déficit",
     "C-3": "déficit",
-    "C-63": "avería / déficit",
-    "C-90": "avería",
+    "C-63": "déficit",
     "C-37": "avería / déficit",
-    "C-20": "avería",
     "C-70": "déficit",
     "C-408": "avería",
     "C-76": "avería",
@@ -2719,14 +2639,13 @@
   ],
   "lectura_incompleta_desde": "2026-10-15T19:26:03+00:00",
   "mw_fecha": "2026-10-17T00:23:39+00:00",
-  "total_circuitos_afectados": 72,
+  "total_circuitos_afectados": 66,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 4,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
     "C-2",
-    "C-20",
     "C-31",
     "C-401",
     "C-407",
@@ -2737,8 +2656,7 @@
     "C-60",
     "C-62",
     "C-76",
-    "C-94",
-    "C-95"
+    "C-94"
   ],
-  "actualizado": "2026-10-17T01:29:35.152559+00:00"
+  "actualizado": "2026-10-17T01:44:21.944383+00:00"
 }
