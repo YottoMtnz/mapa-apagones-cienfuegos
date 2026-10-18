@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-18T18:33:13+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 151,
+  "programado_fecha": "2026-10-18T19:05:48+00:00",
+  "mensajes_leidos": 150,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -230,7 +230,11 @@
     ],
     "C-408": []
   },
-  "programados": {},
+  "programados": {
+    "C-405": [
+      "Pueblo Griffo Nuevo"
+    ]
+  },
   "confirmados_con_servicio": {
     "C-405": {
       "fecha": "2026-10-18T16:42:52+00:00",
@@ -1366,9 +1370,9 @@
       "texto": "👉C-408 T15,Trébol, 4 Caminos, Universidad"
     },
     "C-405": {
-      "fecha": "2026-10-18T16:42:52+00:00",
-      "mensaje_id": 59535,
-      "url": "https://t.me/empresaelectricacienfuegos1/59535",
+      "fecha": "2026-10-18T19:05:48+00:00",
+      "mensaje_id": 59546,
+      "url": "https://t.me/empresaelectricacienfuegos1/59546",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -2016,7 +2020,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-405": {
+      "inicio": null,
+      "fin": "2026-10-19T07:05:48+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 45.0,
   "hora_inicio": null,
@@ -2511,7 +2521,7 @@
   ],
   "lectura": {
     "texto": 74,
-    "imagenes": 77,
+    "imagenes": 76,
     "pdf": 0,
     "no_leidos": 19
   },
@@ -3469,7 +3479,7 @@
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-18T18:16:17+00:00",
   "total_circuitos_afectados": 51,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 23,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3488,5 +3498,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-18T18:54:20.590268+00:00"
+  "actualizado": "2026-10-18T19:09:24.469894+00:00"
 }
