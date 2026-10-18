@@ -6,11 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 155,
+  "mensajes_leidos": 153,
   "afectados": {
-    "C-19": [
-      "Tulipán"
-    ],
     "C-82": [
       "Balboa",
       "La Pedrera",
@@ -227,6 +224,9 @@
     "C-65": [
       "Centro histórico",
       "Reina (Aduana"
+    ],
+    "C-19": [
+      "Tulipán"
     ],
     "C-39": [
       "La Sierrita",
@@ -760,15 +760,6 @@
     ]
   },
   "evidencias": {
-    "C-19": {
-      "fecha": "2026-10-18T14:15:00+00:00",
-      "mensaje_id": 59531,
-      "url": "https://t.me/empresaelectricacienfuegos1/59531",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-19 Tulipán"
-    },
     "C-82": {
       "fecha": "2026-10-18T14:15:00+00:00",
       "mensaje_id": 59531,
@@ -1182,6 +1173,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-65 Centro histórico, Reina (Aduana)."
+    },
+    "C-19": {
+      "fecha": "2026-10-18T14:15:00+00:00",
+      "mensaje_id": 59531,
+      "url": "https://t.me/empresaelectricacienfuegos1/59531",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán"
     },
     "C-39": {
       "fecha": "2026-10-18T12:33:36+00:00",
@@ -1747,7 +1747,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-19": "déficit",
     "C-82": "déficit",
     "C-53": "déficit",
     "C-54": "déficit",
@@ -1794,6 +1793,7 @@
     "C-73": "déficit",
     "C-66": "avería",
     "C-65": "avería",
+    "C-19": "déficit",
     "C-39": "avería",
     "C-75": "avería",
     "C-2": "déficit",
@@ -2233,8 +2233,8 @@
     }
   ],
   "lectura": {
-    "texto": 77,
-    "imagenes": 78,
+    "texto": 76,
+    "imagenes": 77,
     "pdf": 0,
     "no_leidos": 18
   },
@@ -2892,7 +2892,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59505"
     },
     {
-      "circuito": "C-19",
+      "circuito": "C-89",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-17T22:27:21+00:00",
@@ -2901,7 +2901,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59507"
     },
     {
-      "circuito": "C-89",
+      "circuito": "C-19",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-17T22:27:21+00:00",
@@ -3219,5 +3219,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-18T14:29:25.220322+00:00"
+  "actualizado": "2026-10-18T14:44:21.426369+00:00"
 }
