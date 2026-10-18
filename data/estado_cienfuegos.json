@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-18T21:42:31+00:00",
+  "reporte_fecha": "2026-10-18T22:04:53+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-18T20:46:10+00:00",
-  "mensajes_leidos": 153,
+  "mensajes_leidos": 155,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -64,6 +64,7 @@
       "Pepito Tey",
       "Guabairo"
     ],
+    "C-43": [],
     "C-69": [
       "Junco Sur",
       "Reparto de los médicos",
@@ -285,8 +286,12 @@
       "Caña Brava",
       "Dolores"
     ],
-    "C-19": [
-      "Tulipán"
+    "C-40": [],
+    "C-44": [
+      "Los Burros",
+      "El Conejito",
+      "El Desquite",
+      "Venero"
     ]
   },
   "programados": {
@@ -358,6 +363,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
+    },
+    "C-19": {
+      "fecha": "2026-10-18T22:00:28+00:00",
+      "mensaje_id": 59564,
+      "url": "https://t.me/empresaelectricacienfuegos1/59564",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉 C-19 Tulipán."
     }
   },
   "restablecimientos_probables": {
@@ -434,35 +448,6 @@
       "lugares": [
         "14 de Julio",
         "Batey 2 Hermanos"
-      ]
-    },
-    "C-44": {
-      "fecha": "2026-10-18T21:42:07+00:00",
-      "mensaje_id": 59562,
-      "url": "https://t.me/empresaelectricacienfuegos1/59562",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-18T14:15:00+00:00",
-      "listas_consecutivas": 7,
-      "aviso_anterior": {
-        "fecha": "2026-10-18T12:58:54+00:00",
-        "mensaje_id": 59529,
-        "url": "https://t.me/empresaelectricacienfuegos1/59529",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero."
-      },
-      "lugares": [
-        "Los Burros",
-        "El Conejito",
-        "El Desquite",
-        "Venero"
       ]
     },
     "C-6": {
@@ -715,6 +700,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
+    "C-43": {
+      "fecha": "2026-10-18T22:04:53+00:00",
+      "mensaje_id": 59565,
+      "url": "https://t.me/empresaelectricacienfuegos1/59565",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-43 Aguada (Pueblo), Autopista, Batey María Victoria."
     },
     "C-69": {
       "fecha": "2026-10-18T21:42:07+00:00",
@@ -1139,14 +1133,23 @@
       "confianza": 100,
       "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
-    "C-19": {
-      "fecha": "2026-10-18T21:42:31+00:00",
-      "mensaje_id": 59563,
-      "url": "https://t.me/empresaelectricacienfuegos1/59563",
+    "C-40": {
+      "fecha": "2026-10-18T22:04:53+00:00",
+      "mensaje_id": 59565,
+      "url": "https://t.me/empresaelectricacienfuegos1/59565",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉 C-19 Tulipán."
+      "texto": "👉C-40 Truebas."
+    },
+    "C-44": {
+      "fecha": "2026-10-18T22:04:53+00:00",
+      "mensaje_id": 59565,
+      "url": "https://t.me/empresaelectricacienfuegos1/59565",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero."
     },
     "C-65": {
       "fecha": "2026-10-18T19:42:34+00:00",
@@ -1210,6 +1213,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
+    },
+    "C-19": {
+      "fecha": "2026-10-18T22:00:28+00:00",
+      "mensaje_id": 59564,
+      "url": "https://t.me/empresaelectricacienfuegos1/59564",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉 C-19 Tulipán."
     },
     "C-60": {
       "fecha": "2026-10-18T21:42:07+00:00",
@@ -1284,35 +1296,6 @@
       "lugares": [
         "14 de Julio",
         "Batey 2 Hermanos"
-      ]
-    },
-    "C-44": {
-      "fecha": "2026-10-18T21:42:07+00:00",
-      "mensaje_id": 59562,
-      "url": "https://t.me/empresaelectricacienfuegos1/59562",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-18T14:15:00+00:00",
-      "listas_consecutivas": 7,
-      "aviso_anterior": {
-        "fecha": "2026-10-18T12:58:54+00:00",
-        "mensaje_id": 59529,
-        "url": "https://t.me/empresaelectricacienfuegos1/59529",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero."
-      },
-      "lugares": [
-        "Los Burros",
-        "El Conejito",
-        "El Desquite",
-        "Venero"
       ]
     },
     "C-6": {
@@ -1462,6 +1445,7 @@
     "C-88": "déficit",
     "C-67": "avería / déficit",
     "C-15": "avería / déficit",
+    "C-43": "avería",
     "C-69": "déficit",
     "C-63": "déficit",
     "C-90": "déficit",
@@ -1509,24 +1493,11 @@
     "C-28": "déficit",
     "C-27": "déficit",
     "C-35": "déficit",
-    "C-19": "emergencia"
+    "C-40": "avería",
+    "C-44": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠️La Empresa Eléctrica Cienfuegos informa:\n\n\n👉Debido a la compleja situación que existe por  déficit de capacidad de generación  no ha sido posible cumplir con la rotación de las 12:00 pm.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas\nANFORMACIÓN GC D\nIMPORTANTE\ny\nO) UNE\ne.",
-      "id": 59468,
-      "url": "https://t.me/empresaelectricacienfuegos1/59468",
-      "fecha": "2026-10-16T18:49:58+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠Se comunica a nuestros clientes que se encuentra restablecido el servicio en la Línea: \n\n\n👉Línea 1640 Zona Industrial\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
-      "id": 59469,
-      "url": "https://t.me/empresaelectricacienfuegos1/59469",
-      "fecha": "2026-10-16T19:15:40+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚠ Se comunica a nuestros clientes que se encuentra restablecido el servicio en la línea 1635 Cienfuegos-Rodas, la zona:\n \n\n👉Planta Potabilizadora Damují\n\n \n📌Ofrecemos disculpas por las molestias ocasionadas.",
@@ -1945,13 +1916,26 @@
       "id": 59563,
       "url": "https://t.me/empresaelectricacienfuegos1/59563",
       "fecha": "2026-10-18T21:42:31+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Líneas afectadas por\nq\n| > EN \\\nA | A k\n>] | = Ls S\n| | s SM\nel | N",
+      "id": 59565,
+      "url": "https://t.me/empresaelectricacienfuegos1/59565",
+      "fecha": "2026-10-18T22:04:53+00:00"
+    },
+    {
+      "id": 59566,
+      "url": "https://t.me/empresaelectricacienfuegos1/59566",
+      "fecha": "2026-10-18T22:07:00+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
-    "texto": 80,
-    "imagenes": 73,
+    "texto": 81,
+    "imagenes": 74,
     "pdf": 0,
-    "no_leidos": 14
+    "no_leidos": 15
   },
   "listas_completas": {
     "deficit": {
@@ -2017,15 +2001,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-59",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-17T13:24:59+00:00",
-      "mensaje_id": 59489,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59488",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59489"
-    },
     {
       "circuito": "C-407",
       "tipo": "salida_lista",
@@ -2916,25 +2891,36 @@
       "mensaje_id": 59559,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59554",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59559"
+    },
+    {
+      "circuito": "C-19",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-18T22:00:28+00:00",
+      "mensaje_id": 59564,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59563",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59564"
     }
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-18T21:42:07+00:00",
-  "total_circuitos_afectados": 60,
+  "total_circuitos_afectados": 62,
   "total_circuitos_programados": 1,
-  "total_restablecimientos_probables": 8,
+  "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
     "C-2",
     "C-20",
     "C-31",
+    "C-40",
     "C-407",
+    "C-43",
     "C-4904",
     "C-58",
     "C-59",
     "C-60",
     "C-92"
   ],
-  "actualizado": "2026-10-18T21:59:17.445071+00:00"
+  "actualizado": "2026-10-18T22:14:24.001219+00:00"
 }
