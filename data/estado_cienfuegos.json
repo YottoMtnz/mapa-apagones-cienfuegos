@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-18T18:16:17+00:00",
+  "reporte_fecha": "2026-10-18T18:33:13+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 149,
+  "mensajes_leidos": 151,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -212,28 +212,26 @@
       "Reina (Parque"
     ],
     "C-17": [],
-    "C-92": []
+    "C-92": [],
+    "C-4904": [],
+    "C-101": [
+      "Cartagena",
+      "La Modelo",
+      "Santa Rosa",
+      "La Piragua",
+      "El Bajío",
+      "California",
+      "El Salado"
+    ],
+    "C-401": [],
+    "C-91": [
+      "Buena Vista",
+      "La Esperanza"
+    ],
+    "C-408": []
   },
   "programados": {},
   "confirmados_con_servicio": {
-    "C-401": {
-      "fecha": "2026-10-18T16:42:52+00:00",
-      "mensaje_id": 59535,
-      "url": "https://t.me/empresaelectricacienfuegos1/59535",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-401 Zona Industrial 1, Almacenes Cimex, El Miedo, La 13."
-    },
-    "C-91": {
-      "fecha": "2026-10-18T16:42:52+00:00",
-      "mensaje_id": 59535,
-      "url": "https://t.me/empresaelectricacienfuegos1/59535",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-91 Buena Vista, La Esperanza."
-    },
     "C-405": {
       "fecha": "2026-10-18T16:42:52+00:00",
       "mensaje_id": 59535,
@@ -242,15 +240,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-405 Pueblo Griffo Nuevo."
-    },
-    "C-408": {
-      "fecha": "2026-10-18T16:42:52+00:00",
-      "mensaje_id": 59535,
-      "url": "https://t.me/empresaelectricacienfuegos1/59535",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-408 T15,Trébol, 4 Caminos, Universidad"
     }
   },
   "restablecimientos_probables": {
@@ -747,38 +736,6 @@
       },
       "lugares": [
         "La Ciruela"
-      ]
-    },
-    "C-101": {
-      "fecha": "2026-10-18T18:16:17+00:00",
-      "mensaje_id": 59542,
-      "url": "https://t.me/empresaelectricacienfuegos1/59542",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25  |  Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-18T16:47:14+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-18T14:15:00+00:00",
-        "mensaje_id": 59531,
-        "url": "https://t.me/empresaelectricacienfuegos1/59531",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-101 Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
-      },
-      "lugares": [
-        "Cartagena",
-        "La Modelo",
-        "Santa Rosa",
-        "La Piragua",
-        "El Bajío",
-        "California",
-        "El Salado"
       ]
     },
     "C-27": {
@@ -1363,23 +1320,50 @@
       "confianza": 100,
       "texto": "👉C-92 Calzada Dolores, San Lázaro."
     },
+    "C-4904": {
+      "fecha": "2026-10-18T18:25:12+00:00",
+      "mensaje_id": 59543,
+      "url": "https://t.me/empresaelectricacienfuegos1/59543",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠Se comunica a nuestros clientes que se encuentra en fallo el interruptor C-4904, del circuito 101, afectando las zonas:"
+    },
+    "C-101": {
+      "fecha": "2026-10-18T18:25:12+00:00",
+      "mensaje_id": 59543,
+      "url": "https://t.me/empresaelectricacienfuegos1/59543",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠Se comunica a nuestros clientes que se encuentra en fallo el interruptor C-4904, del circuito 101, afectando las zonas:"
+    },
     "C-401": {
-      "fecha": "2026-10-18T16:42:52+00:00",
-      "mensaje_id": 59535,
-      "url": "https://t.me/empresaelectricacienfuegos1/59535",
+      "fecha": "2026-10-18T18:33:13+00:00",
+      "mensaje_id": 59544,
+      "url": "https://t.me/empresaelectricacienfuegos1/59544",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-401 Zona Industrial 1, Almacenes Cimex, El Miedo, La 13."
     },
     "C-91": {
-      "fecha": "2026-10-18T16:42:52+00:00",
-      "mensaje_id": 59535,
-      "url": "https://t.me/empresaelectricacienfuegos1/59535",
+      "fecha": "2026-10-18T18:33:13+00:00",
+      "mensaje_id": 59544,
+      "url": "https://t.me/empresaelectricacienfuegos1/59544",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
+    "C-408": {
+      "fecha": "2026-10-18T18:33:13+00:00",
+      "mensaje_id": 59544,
+      "url": "https://t.me/empresaelectricacienfuegos1/59544",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-408 T15,Trébol, 4 Caminos, Universidad"
     },
     "C-405": {
       "fecha": "2026-10-18T16:42:52+00:00",
@@ -1389,15 +1373,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-405 Pueblo Griffo Nuevo."
-    },
-    "C-408": {
-      "fecha": "2026-10-18T16:42:52+00:00",
-      "mensaje_id": 59535,
-      "url": "https://t.me/empresaelectricacienfuegos1/59535",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-408 T15,Trébol, 4 Caminos, Universidad"
     },
     "C-60": {
       "fecha": "2026-10-18T18:16:17+00:00",
@@ -1894,38 +1869,6 @@
         "La Ciruela"
       ]
     },
-    "C-101": {
-      "fecha": "2026-10-18T18:16:17+00:00",
-      "mensaje_id": 59542,
-      "url": "https://t.me/empresaelectricacienfuegos1/59542",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25  |  Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-18T16:47:14+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-18T14:15:00+00:00",
-        "mensaje_id": 59531,
-        "url": "https://t.me/empresaelectricacienfuegos1/59531",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-101 Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
-      },
-      "lugares": [
-        "Cartagena",
-        "La Modelo",
-        "Santa Rosa",
-        "La Piragua",
-        "El Bajío",
-        "California",
-        "El Salado"
-      ]
-    },
     "C-27": {
       "fecha": "2026-10-18T18:16:17+00:00",
       "mensaje_id": 59542,
@@ -2125,33 +2068,15 @@
     "C-65": "avería",
     "C-66": "avería",
     "C-17": "déficit",
-    "C-92": "déficit"
+    "C-92": "déficit",
+    "C-4904": "avería",
+    "C-101": "avería",
+    "C-401": "avería",
+    "C-91": "avería",
+    "C-408": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠️Información importante \n\n\n👉A continuación la rotación de las afectaciones al servicio eléctrico por déficit de capacidad de generación en los circuitos  que constituyen la derivada del DAF de la ciudad de Cienfuegos.\n\n\n👉El resto de los circuitos de la ciudad se mantiene con la rotación publicada a",
-      "id": 59452,
-      "url": "https://t.me/empresaelectricacienfuegos1/59452",
-      "fecha": "2026-10-16T15:14:49+00:00"
-    },
-    {
-      "motivo": "OCR_circuito_no_catalogado",
-      "circuitos": [
-        "C-407"
-      ],
-      "id": 59453,
-      "url": "https://t.me/empresaelectricacienfuegos1/59453",
-      "fecha": "2026-10-16T15:14:58+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nDisparo Automático por Frecuencia\n> a | “<4\nel | EN",
-      "id": 59457,
-      "url": "https://t.me/empresaelectricacienfuegos1/59457",
-      "fecha": "2026-10-16T15:54:38+00:00"
-    },
     {
       "id": 59458,
       "url": "https://t.me/empresaelectricacienfuegos1/59458",
@@ -2561,11 +2486,32 @@
       "id": 59541,
       "url": "https://t.me/empresaelectricacienfuegos1/59541",
       "fecha": "2026-10-18T18:08:20+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59543,
+      "url": "https://t.me/empresaelectricacienfuegos1/59543",
+      "fecha": "2026-10-18T18:25:12+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nDisparo Automático por Frecuencia\n(DAF)\nMM\nq\nSS Ne\ny\n4%\nel",
+      "id": 59544,
+      "url": "https://t.me/empresaelectricacienfuegos1/59544",
+      "fecha": "2026-10-18T18:33:13+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠Terminología Eléctrica\n\n\n👉Disparo automático por frecuencia (DAF).\n\n\n📌Un disparo por frecuencia o Descarga Automática por Frecuencia, es una protección que posee el sistema eléctrico para cuando la frecuencia llega a valores mínimos permisibles que ponen en peligro la estabilidad de todo el sistema",
+      "id": 59545,
+      "url": "https://t.me/empresaelectricacienfuegos1/59545",
+      "fecha": "2026-10-18T18:34:17+00:00"
     }
   ],
   "lectura": {
     "texto": 74,
-    "imagenes": 75,
+    "imagenes": 77,
     "pdf": 0,
     "no_leidos": 19
   },
@@ -3522,22 +3468,25 @@
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-18T18:16:17+00:00",
-  "total_circuitos_afectados": 46,
+  "total_circuitos_afectados": 51,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 24,
+  "total_restablecimientos_probables": 23,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
     "C-2",
     "C-20",
     "C-31",
+    "C-401",
     "C-407",
+    "C-408",
     "C-43",
+    "C-4904",
     "C-58",
     "C-59",
     "C-60",
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-18T18:24:16.902864+00:00"
+  "actualizado": "2026-10-18T18:39:26.355594+00:00"
 }
