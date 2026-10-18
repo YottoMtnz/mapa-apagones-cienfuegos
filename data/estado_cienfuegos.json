@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-18T19:29:23+00:00",
+  "reporte_fecha": "2026-10-18T19:42:34+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-18T19:05:48+00:00",
-  "mensajes_leidos": 153,
+  "mensajes_leidos": 155,
   "afectados": {
     "C-15": [
       "Pepito Tey",
@@ -192,13 +192,6 @@
       "El Nicho",
       "Vegueta"
     ],
-    "C-65": [
-      "Centro histórico",
-      "Reina (Aduana"
-    ],
-    "C-66": [
-      "Reina (Parque"
-    ],
     "C-17": [],
     "C-92": [],
     "C-4904": [],
@@ -287,6 +280,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-19 Tulipán"
+    },
+    "C-65": {
+      "fecha": "2026-10-18T19:42:34+00:00",
+      "mensaje_id": 59552,
+      "url": "https://t.me/empresaelectricacienfuegos1/59552",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+    },
+    "C-66": {
+      "fecha": "2026-10-18T19:42:34+00:00",
+      "mensaje_id": 59552,
+      "url": "https://t.me/empresaelectricacienfuegos1/59552",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-66 Reina (Parque)"
     }
   },
   "restablecimientos_probables": {
@@ -1115,24 +1126,6 @@
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
     },
-    "C-65": {
-      "fecha": "2026-10-18T17:57:43+00:00",
-      "mensaje_id": 59539,
-      "url": "https://t.me/empresaelectricacienfuegos1/59539",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
-    },
-    "C-66": {
-      "fecha": "2026-10-18T17:57:43+00:00",
-      "mensaje_id": 59539,
-      "url": "https://t.me/empresaelectricacienfuegos1/59539",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-66 Reina (Parque)"
-    },
     "C-17": {
       "fecha": "2026-10-18T19:28:09+00:00",
       "mensaje_id": 59549,
@@ -1285,6 +1278,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-19 Tulipán"
+    },
+    "C-65": {
+      "fecha": "2026-10-18T19:42:34+00:00",
+      "mensaje_id": 59552,
+      "url": "https://t.me/empresaelectricacienfuegos1/59552",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+    },
+    "C-66": {
+      "fecha": "2026-10-18T19:42:34+00:00",
+      "mensaje_id": 59552,
+      "url": "https://t.me/empresaelectricacienfuegos1/59552",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-66 Reina (Parque)"
     },
     "C-60": {
       "fecha": "2026-10-18T19:28:09+00:00",
@@ -1783,8 +1794,6 @@
     "C-20": "avería",
     "C-80": "avería",
     "C-37": "avería",
-    "C-65": "avería",
-    "C-66": "avería",
     "C-17": "déficit",
     "C-92": "déficit",
     "C-4904": "avería",
@@ -1803,13 +1812,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n1\nNy\nY\n\\\n70 MW\naN\nDEFICIT DE GENERACION\nZi Sox\n“1\na\n-\nUNE\nCIENFUEGOS.\na EY",
-      "id": 59463,
-      "url": "https://t.me/empresaelectricacienfuegos1/59463",
-      "fecha": "2026-10-16T16:20:50+00:00"
-    },
     {
       "id": 59467,
       "url": "https://t.me/empresaelectricacienfuegos1/59467",
@@ -2234,11 +2236,18 @@
       "id": 59551,
       "url": "https://t.me/empresaelectricacienfuegos1/59551",
       "fecha": "2026-10-18T19:31:58+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n60 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 59553,
+      "url": "https://t.me/empresaelectricacienfuegos1/59553",
+      "fecha": "2026-10-18T19:50:31+00:00"
     }
   ],
   "lectura": {
-    "texto": 76,
-    "imagenes": 77,
+    "texto": 77,
+    "imagenes": 78,
     "pdf": 0,
     "no_leidos": 18
   },
@@ -2298,24 +2307,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-60",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-16T18:18:36+00:00",
-      "mensaje_id": 59466,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59447",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59466"
-    },
-    {
-      "circuito": "C-94",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-16T20:07:55+00:00",
-      "mensaje_id": 59471,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59466",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59471"
-    },
     {
       "circuito": "C-30",
       "tipo": "salida_lista",
@@ -3197,11 +3188,29 @@
       "mensaje_id": 59549,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59542",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59549"
+    },
+    {
+      "circuito": "C-65",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-18T19:42:34+00:00",
+      "mensaje_id": 59552,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59539",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59552"
+    },
+    {
+      "circuito": "C-66",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-18T19:42:34+00:00",
+      "mensaje_id": 59552,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59539",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59552"
     }
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-18T19:28:09+00:00",
-  "total_circuitos_afectados": 57,
+  "total_circuitos_afectados": 55,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
@@ -3221,5 +3230,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-18T19:39:24.612853+00:00"
+  "actualizado": "2026-10-18T19:54:24.175414+00:00"
 }
