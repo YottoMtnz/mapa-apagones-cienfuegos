@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-18T14:24:46+00:00",
+  "reporte_fecha": "2026-10-18T14:51:46+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 153,
+  "mensajes_leidos": 154,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -815,13 +815,13 @@
       "texto": "👉C-50 \"Palmira (Norte)."
     },
     "C-23": {
-      "fecha": "2026-10-18T14:15:00+00:00",
-      "mensaje_id": 59531,
-      "url": "https://t.me/empresaelectricacienfuegos1/59531",
+      "fecha": "2026-10-18T14:51:46+00:00",
+      "mensaje_id": 59534,
+      "url": "https://t.me/empresaelectricacienfuegos1/59534",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
+      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito."
     },
     "C-103": {
       "fecha": "2026-10-18T14:15:00+00:00",
@@ -1753,7 +1753,7 @@
     "C-52": "déficit",
     "C-72": "déficit",
     "C-50": "déficit",
-    "C-23": "déficit",
+    "C-23": "déficit / avería",
     "C-103": "déficit",
     "C-102": "déficit",
     "C-101": "déficit",
@@ -1807,13 +1807,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de         2094 MW a las 19:30 horas, superior a lo planificado por limitaciones de las unidades 3 y 4 de la CTE Cienfuegos y limitación en unidad 2 de la CTE Santa Cruz.",
-      "id": 59442,
-      "url": "https://t.me/empresaelectricacienfuegos1/59442",
-      "fecha": "2026-10-16T13:28:02+00:00"
-    },
     {
       "motivo": "resumen_historico",
       "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
@@ -2230,11 +2223,18 @@
       "id": 59533,
       "url": "https://t.me/empresaelectricacienfuegos1/59533",
       "fecha": "2026-10-18T14:26:18+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59534,
+      "url": "https://t.me/empresaelectricacienfuegos1/59534",
+      "fecha": "2026-10-18T14:51:46+00:00"
     }
   ],
   "lectura": {
     "texto": 76,
-    "imagenes": 77,
+    "imagenes": 78,
     "pdf": 0,
     "no_leidos": 18
   },
@@ -3219,5 +3219,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-18T14:44:21.426369+00:00"
+  "actualizado": "2026-10-18T14:59:19.352061+00:00"
 }
