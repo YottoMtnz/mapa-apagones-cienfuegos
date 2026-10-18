@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-18T02:19:29+00:00",
+  "reporte_fecha": "2026-10-18T03:14:53+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-17T20:16:55+00:00",
-  "mensajes_leidos": 151,
+  "mensajes_leidos": 152,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -190,12 +190,10 @@
     "C-90": [
       "FW1558) La Pollera"
     ],
-    "C-20": [],
     "C-70": [
       "Aguada",
       "Federal"
     ],
-    "C-76": [],
     "C-406": [
       "San Lázaro",
       "Calle 35 de Ave 58 hasta Ave 64",
@@ -224,7 +222,6 @@
     "C-57": [
       "Lajas (Pueblo"
     ],
-    "C-62": [],
     "C-17": [],
     "C-92": [],
     "C-33": [
@@ -303,7 +300,17 @@
     ]
   },
   "programados": {},
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-20": {
+      "fecha": "2026-10-18T03:14:53+00:00",
+      "mensaje_id": 59517,
+      "url": "https://t.me/empresaelectricacienfuegos1/59517",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-20 Punta Gorda."
+    }
+  },
   "restablecimientos_probables": {
     "C-60": {
       "fecha": "2026-10-18T01:43:12+00:00",
@@ -828,15 +835,6 @@
       "confianza": 100,
       "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
-    "C-20": {
-      "fecha": "2026-10-18T02:19:29+00:00",
-      "mensaje_id": 59515,
-      "url": "https://t.me/empresaelectricacienfuegos1/59515",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-20 Punta Gorda."
-    },
     "C-70": {
       "fecha": "2026-10-18T01:43:12+00:00",
       "mensaje_id": 59514,
@@ -845,15 +843,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-70 \"Aguada, Federal."
-    },
-    "C-76": {
-      "fecha": "2026-10-17T15:26:44+00:00",
-      "mensaje_id": 59495,
-      "url": "https://t.me/empresaelectricacienfuegos1/59495",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
     },
     "C-406": {
       "fecha": "2026-10-18T01:43:12+00:00",
@@ -908,15 +897,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-57 Lajas (Pueblo)."
-    },
-    "C-62": {
-      "fecha": "2026-10-17T15:26:44+00:00",
-      "mensaje_id": 59495,
-      "url": "https://t.me/empresaelectricacienfuegos1/59495",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-62 Barajagua."
     },
     "C-17": {
       "fecha": "2026-10-18T01:43:12+00:00",
@@ -1088,6 +1068,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-65 Reina (Aduana)."
+    },
+    "C-20": {
+      "fecha": "2026-10-18T03:14:53+00:00",
+      "mensaje_id": 59517,
+      "url": "https://t.me/empresaelectricacienfuegos1/59517",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-20 Punta Gorda."
     },
     "C-60": {
       "fecha": "2026-10-18T01:43:12+00:00",
@@ -1283,12 +1272,12 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-82": "avería / déficit",
-    "C-53": "avería / déficit",
-    "C-54": "avería / déficit",
-    "C-52": "avería / déficit",
-    "C-72": "avería / déficit",
-    "C-50": "avería / déficit",
+    "C-82": "déficit",
+    "C-53": "déficit",
+    "C-54": "déficit",
+    "C-52": "déficit",
+    "C-72": "déficit",
+    "C-50": "déficit",
     "C-42": "déficit",
     "C-78": "déficit",
     "C-44": "déficit",
@@ -1318,16 +1307,13 @@
     "C-3": "déficit",
     "C-63": "déficit",
     "C-90": "déficit",
-    "C-20": "avería",
     "C-70": "déficit",
-    "C-76": "avería",
     "C-406": "déficit",
     "C-58": "déficit",
     "C-5": "déficit",
     "C-7": "déficit",
     "C-41": "déficit",
     "C-57": "déficit",
-    "C-62": "avería",
     "C-17": "déficit",
     "C-92": "déficit",
     "C-33": "avería",
@@ -1779,7 +1765,7 @@
     }
   ],
   "lectura": {
-    "texto": 74,
+    "texto": 75,
     "imagenes": 77,
     "pdf": 0,
     "no_leidos": 15
@@ -1855,15 +1841,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-43",
-      "tipo": "restablecido",
-      "alcance": "general",
-      "fecha": "2026-10-15T21:16:49+00:00",
-      "mensaje_id": 59403,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59390",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59403"
-    },
     {
       "circuito": "C-63",
       "tipo": "restablecido",
@@ -2754,28 +2731,34 @@
       "mensaje_id": 59514,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59511",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59514"
+    },
+    {
+      "circuito": "C-20",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-18T03:14:53+00:00",
+      "mensaje_id": 59517,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59515",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59517"
     }
   ],
   "lectura_incompleta_desde": "2026-10-17T23:45:53+00:00",
   "mw_fecha": "2026-10-18T01:43:12+00:00",
-  "total_circuitos_afectados": 64,
+  "total_circuitos_afectados": 61,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
     "C-2",
-    "C-20",
     "C-31",
     "C-407",
     "C-43",
     "C-58",
     "C-59",
     "C-60",
-    "C-62",
-    "C-76",
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-18T03:14:22.348690+00:00"
+  "actualizado": "2026-10-18T03:29:22.327387+00:00"
 }
