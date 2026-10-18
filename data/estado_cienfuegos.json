@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-18T16:47:14+00:00",
+  "reporte_fecha": "2026-10-18T17:24:39+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 148,
+  "mensajes_leidos": 149,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -170,13 +170,6 @@
       "Perseverancia",
       "1ro de Mayo"
     ],
-    "C-66": [
-      "Reina (Parque"
-    ],
-    "C-65": [
-      "Centro histórico",
-      "Reina (Aduana"
-    ],
     "C-19": [
       "Tulipán"
     ],
@@ -263,6 +256,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-408 T15,Trébol, 4 Caminos, Universidad"
+    },
+    "C-65": {
+      "fecha": "2026-10-18T17:24:39+00:00",
+      "mensaje_id": 59538,
+      "url": "https://t.me/empresaelectricacienfuegos1/59538",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+    },
+    "C-66": {
+      "fecha": "2026-10-18T17:24:39+00:00",
+      "mensaje_id": 59538,
+      "url": "https://t.me/empresaelectricacienfuegos1/59538",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-66 Reina (Parque)"
     }
   },
   "restablecimientos_probables": {
@@ -1263,24 +1274,6 @@
       "confianza": 100,
       "texto": "👉C-73 \"Perseverancia, 1ro de Mayo."
     },
-    "C-66": {
-      "fecha": "2026-10-18T12:33:36+00:00",
-      "mensaje_id": 59528,
-      "url": "https://t.me/empresaelectricacienfuegos1/59528",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-66 Reina (Parque)."
-    },
-    "C-65": {
-      "fecha": "2026-10-18T12:33:36+00:00",
-      "mensaje_id": 59528,
-      "url": "https://t.me/empresaelectricacienfuegos1/59528",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-65 Centro histórico, Reina (Aduana)."
-    },
     "C-19": {
       "fecha": "2026-10-18T16:47:14+00:00",
       "mensaje_id": 59536,
@@ -1406,6 +1399,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-408 T15,Trébol, 4 Caminos, Universidad"
+    },
+    "C-65": {
+      "fecha": "2026-10-18T17:24:39+00:00",
+      "mensaje_id": 59538,
+      "url": "https://t.me/empresaelectricacienfuegos1/59538",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+    },
+    "C-66": {
+      "fecha": "2026-10-18T17:24:39+00:00",
+      "mensaje_id": 59538,
+      "url": "https://t.me/empresaelectricacienfuegos1/59538",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-66 Reina (Parque)"
     },
     "C-60": {
       "fecha": "2026-10-18T16:47:14+00:00",
@@ -2118,8 +2129,6 @@
     "C-11": "déficit",
     "C-36": "déficit",
     "C-73": "déficit",
-    "C-66": "avería",
-    "C-65": "avería",
     "C-19": "déficit",
     "C-39": "avería",
     "C-75": "avería",
@@ -2566,7 +2575,7 @@
     }
   ],
   "lectura": {
-    "texto": 73,
+    "texto": 74,
     "imagenes": 75,
     "pdf": 0,
     "no_leidos": 18
@@ -2622,24 +2631,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-41",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-16T18:18:36+00:00",
-      "mensaje_id": 59466,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59447",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59466"
-    },
-    {
-      "circuito": "C-57",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-16T18:18:36+00:00",
-      "mensaje_id": 59466,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59447",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59466"
-    },
     {
       "circuito": "C-72",
       "tipo": "salida_lista",
@@ -3521,11 +3512,29 @@
       "mensaje_id": 59536,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59531",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59536"
+    },
+    {
+      "circuito": "C-65",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-18T17:24:39+00:00",
+      "mensaje_id": 59538,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59528",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59538"
+    },
+    {
+      "circuito": "C-66",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-18T17:24:39+00:00",
+      "mensaje_id": 59538,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59528",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59538"
     }
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-18T16:47:14+00:00",
-  "total_circuitos_afectados": 45,
+  "total_circuitos_afectados": 43,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 24,
   "circuitos_sin_catalogar": [
@@ -3541,5 +3550,5 @@
     "C-60",
     "C-94"
   ],
-  "actualizado": "2026-10-18T17:24:24.886572+00:00"
+  "actualizado": "2026-10-18T17:39:34.600279+00:00"
 }
