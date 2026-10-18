@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-18T20:46:10+00:00",
-  "mensajes_leidos": 155,
+  "mensajes_leidos": 154,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -2100,7 +2100,7 @@
   ],
   "lectura": {
     "texto": 81,
-    "imagenes": 74,
+    "imagenes": 73,
     "pdf": 0,
     "no_leidos": 16
   },
@@ -2237,15 +2237,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59492"
     },
     {
-      "circuito": "C-89",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-17T15:20:46+00:00",
-      "mensaje_id": 59493,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59489",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59493"
-    },
-    {
       "circuito": "C-82",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2310,6 +2301,15 @@
     },
     {
       "circuito": "C-95",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-17T15:20:46+00:00",
+      "mensaje_id": 59493,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59489",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59493"
+    },
+    {
+      "circuito": "C-89",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-17T15:20:46+00:00",
@@ -3083,5 +3083,5 @@
     "C-60",
     "C-92"
   ],
-  "actualizado": "2026-10-18T20:54:26.902740+00:00"
+  "actualizado": "2026-10-18T21:09:20.501901+00:00"
 }
