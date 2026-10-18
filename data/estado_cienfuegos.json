@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-18T17:24:39+00:00",
+  "reporte_fecha": "2026-10-18T18:05:16+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 146,
+  "mensajes_leidos": 148,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -208,6 +208,13 @@
       "Crucesitas",
       "El Nicho",
       "Vegueta"
+    ],
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
+    ],
+    "C-66": [
+      "Reina (Parque"
     ]
   },
   "programados": {},
@@ -256,24 +263,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-408 T15,Trébol, 4 Caminos, Universidad"
-    },
-    "C-65": {
-      "fecha": "2026-10-18T17:24:39+00:00",
-      "mensaje_id": 59538,
-      "url": "https://t.me/empresaelectricacienfuegos1/59538",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
-    },
-    "C-66": {
-      "fecha": "2026-10-18T17:24:39+00:00",
-      "mensaje_id": 59538,
-      "url": "https://t.me/empresaelectricacienfuegos1/59538",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-66 Reina (Parque)"
     }
   },
   "restablecimientos_probables": {
@@ -1275,9 +1264,9 @@
       "texto": "👉C-73 \"Perseverancia, 1ro de Mayo."
     },
     "C-19": {
-      "fecha": "2026-10-18T16:47:14+00:00",
-      "mensaje_id": 59536,
-      "url": "https://t.me/empresaelectricacienfuegos1/59536",
+      "fecha": "2026-10-18T18:05:16+00:00",
+      "mensaje_id": 59540,
+      "url": "https://t.me/empresaelectricacienfuegos1/59540",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1355,6 +1344,24 @@
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
     },
+    "C-65": {
+      "fecha": "2026-10-18T17:57:43+00:00",
+      "mensaje_id": 59539,
+      "url": "https://t.me/empresaelectricacienfuegos1/59539",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+    },
+    "C-66": {
+      "fecha": "2026-10-18T17:57:43+00:00",
+      "mensaje_id": 59539,
+      "url": "https://t.me/empresaelectricacienfuegos1/59539",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-66 Reina (Parque)"
+    },
     "C-401": {
       "fecha": "2026-10-18T16:42:52+00:00",
       "mensaje_id": 59535,
@@ -1399,24 +1406,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-408 T15,Trébol, 4 Caminos, Universidad"
-    },
-    "C-65": {
-      "fecha": "2026-10-18T17:24:39+00:00",
-      "mensaje_id": 59538,
-      "url": "https://t.me/empresaelectricacienfuegos1/59538",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
-    },
-    "C-66": {
-      "fecha": "2026-10-18T17:24:39+00:00",
-      "mensaje_id": 59538,
-      "url": "https://t.me/empresaelectricacienfuegos1/59538",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-66 Reina (Parque)"
     },
     "C-60": {
       "fecha": "2026-10-18T16:47:14+00:00",
@@ -2129,7 +2118,7 @@
     "C-11": "déficit",
     "C-36": "déficit",
     "C-73": "déficit",
-    "C-19": "déficit",
+    "C-19": "déficit / emergencia",
     "C-39": "avería",
     "C-75": "avería",
     "C-2": "déficit",
@@ -2137,29 +2126,12 @@
     "C-26": "déficit",
     "C-20": "avería",
     "C-80": "avería / déficit",
-    "C-37": "avería"
+    "C-37": "avería",
+    "C-65": "avería",
+    "C-66": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "id": 59445,
-      "url": "https://t.me/empresaelectricacienfuegos1/59445",
-      "fecha": "2026-10-16T13:48:35+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n65 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
-      "id": 59446,
-      "url": "https://t.me/empresaelectricacienfuegos1/59446",
-      "fecha": "2026-10-16T14:01:21+00:00"
-    },
-    {
-      "id": 59448,
-      "url": "https://t.me/empresaelectricacienfuegos1/59448",
-      "fecha": "2026-10-16T14:42:04+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚠️Información importante \n\n\n👉A continuación la rotación de las afectaciones al servicio eléctrico por déficit de capacidad de generación en los circuitos  que constituyen la derivada del DAF de la ciudad de Cienfuegos.\n\n\n👉El resto de los circuitos de la ciudad se mantiene con la rotación publicada a",
@@ -2572,13 +2544,33 @@
       "id": 59537,
       "url": "https://t.me/empresaelectricacienfuegos1/59537",
       "fecha": "2026-10-18T17:04:46+00:00"
+    },
+    {
+      "id": 59539,
+      "url": "https://t.me/empresaelectricacienfuegos1/59539",
+      "fecha": "2026-10-18T17:57:43+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\n> | S y\nEl | a",
+      "id": 59540,
+      "url": "https://t.me/empresaelectricacienfuegos1/59540",
+      "fecha": "2026-10-18T18:05:16+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "¿Qué es una Vía Libre de Emergencia?\n\n⚠️Es un permiso de trabajo que se establece sobre un área determinada para realizar acciones en las redes eléctricas. \n\n\n👉Las vías libres de emergencia, como su nombre lo indica, no pueden ser programadas, pues se realizan ante averías.",
+      "id": 59541,
+      "url": "https://t.me/empresaelectricacienfuegos1/59541",
+      "fecha": "2026-10-18T18:08:20+00:00"
     }
   ],
   "lectura": {
     "texto": 73,
-    "imagenes": 73,
+    "imagenes": 75,
     "pdf": 0,
-    "no_leidos": 18
+    "no_leidos": 19
   },
   "listas_completas": {
     "deficit": {
@@ -3534,7 +3526,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-18T16:47:14+00:00",
-  "total_circuitos_afectados": 43,
+  "total_circuitos_afectados": 45,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 24,
   "circuitos_sin_catalogar": [
@@ -3550,5 +3542,5 @@
     "C-60",
     "C-94"
   ],
-  "actualizado": "2026-10-18T17:54:24.733281+00:00"
+  "actualizado": "2026-10-18T18:09:25.321408+00:00"
 }
