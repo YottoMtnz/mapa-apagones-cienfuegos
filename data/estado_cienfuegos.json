@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 148,
+  "mensajes_leidos": 149,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -310,151 +310,8 @@
     ]
   },
   "programados": {},
-  "confirmados_con_servicio": {
-    "C-20": {
-      "fecha": "2026-10-18T03:14:53+00:00",
-      "mensaje_id": 59517,
-      "url": "https://t.me/empresaelectricacienfuegos1/59517",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-20 Punta Gorda."
-    },
-    "C-80": {
-      "fecha": "2026-10-18T03:58:41+00:00",
-      "mensaje_id": 59518,
-      "url": "https://t.me/empresaelectricacienfuegos1/59518",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-80 Punta Cotica, Parque José Martí."
-    }
-  },
-  "restablecimientos_probables": {
-    "C-60": {
-      "fecha": "2026-10-18T11:29:05+00:00",
-      "mensaje_id": 59524,
-      "url": "https://t.me/empresaelectricacienfuegos1/59524",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-16T18:18:36+00:00",
-      "listas_consecutivas": 18,
-      "aviso_anterior": {
-        "fecha": "2026-10-16T14:41:38+00:00",
-        "mensaje_id": 59447,
-        "url": "https://t.me/empresaelectricacienfuegos1/59447",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉 C-60 La Tatagua, Camilo Cienfuegos, Villa Yaguanabo, Villa Guajimico."
-      },
-      "lugares": []
-    },
-    "C-18": {
-      "fecha": "2026-10-18T11:29:05+00:00",
-      "mensaje_id": 59524,
-      "url": "https://t.me/empresaelectricacienfuegos1/59524",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-17T13:24:59+00:00",
-      "listas_consecutivas": 13,
-      "aviso_anterior": {
-        "fecha": "2026-10-17T00:23:39+00:00",
-        "mensaje_id": 59480,
-        "url": "https://t.me/empresaelectricacienfuegos1/59480",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
-    "C-30": {
-      "fecha": "2026-10-18T11:29:05+00:00",
-      "mensaje_id": 59524,
-      "url": "https://t.me/empresaelectricacienfuegos1/59524",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-17T15:20:46+00:00",
-      "listas_consecutivas": 12,
-      "aviso_anterior": {
-        "fecha": "2026-10-17T13:24:59+00:00",
-        "mensaje_id": 59489,
-        "url": "https://t.me/empresaelectricacienfuegos1/59489",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-30  14 de Julio, Batey 2 Hermanos."
-      },
-      "lugares": [
-        "14 de Julio",
-        "Batey 2 Hermanos"
-      ]
-    },
-    "C-17": {
-      "fecha": "2026-10-18T11:29:05+00:00",
-      "mensaje_id": 59524,
-      "url": "https://t.me/empresaelectricacienfuegos1/59524",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-18T10:34:35+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-18T05:34:15+00:00",
-        "mensaje_id": 59520,
-        "url": "https://t.me/empresaelectricacienfuegos1/59520",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
-      },
-      "lugares": []
-    },
-    "C-92": {
-      "fecha": "2026-10-18T11:29:05+00:00",
-      "mensaje_id": 59524,
-      "url": "https://t.me/empresaelectricacienfuegos1/59524",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-18T11:29:05+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-18T10:34:35+00:00",
-        "mensaje_id": 59522,
-        "url": "https://t.me/empresaelectricacienfuegos1/59522",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
-      },
-      "lugares": []
-    }
-  },
+  "confirmados_con_servicio": {},
+  "restablecimientos_probables": {},
   "afectaciones_parciales": {
     "C-90": [
       {
@@ -1033,147 +890,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paísíto."
-    },
-    "C-20": {
-      "fecha": "2026-10-18T03:14:53+00:00",
-      "mensaje_id": 59517,
-      "url": "https://t.me/empresaelectricacienfuegos1/59517",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-20 Punta Gorda."
-    },
-    "C-80": {
-      "fecha": "2026-10-18T03:58:41+00:00",
-      "mensaje_id": 59518,
-      "url": "https://t.me/empresaelectricacienfuegos1/59518",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-80 Punta Cotica, Parque José Martí."
-    },
-    "C-60": {
-      "fecha": "2026-10-18T11:29:05+00:00",
-      "mensaje_id": 59524,
-      "url": "https://t.me/empresaelectricacienfuegos1/59524",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-16T18:18:36+00:00",
-      "listas_consecutivas": 18,
-      "aviso_anterior": {
-        "fecha": "2026-10-16T14:41:38+00:00",
-        "mensaje_id": 59447,
-        "url": "https://t.me/empresaelectricacienfuegos1/59447",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉 C-60 La Tatagua, Camilo Cienfuegos, Villa Yaguanabo, Villa Guajimico."
-      },
-      "lugares": []
-    },
-    "C-18": {
-      "fecha": "2026-10-18T11:29:05+00:00",
-      "mensaje_id": 59524,
-      "url": "https://t.me/empresaelectricacienfuegos1/59524",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-17T13:24:59+00:00",
-      "listas_consecutivas": 13,
-      "aviso_anterior": {
-        "fecha": "2026-10-17T00:23:39+00:00",
-        "mensaje_id": 59480,
-        "url": "https://t.me/empresaelectricacienfuegos1/59480",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
-    "C-30": {
-      "fecha": "2026-10-18T11:29:05+00:00",
-      "mensaje_id": 59524,
-      "url": "https://t.me/empresaelectricacienfuegos1/59524",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-17T15:20:46+00:00",
-      "listas_consecutivas": 12,
-      "aviso_anterior": {
-        "fecha": "2026-10-17T13:24:59+00:00",
-        "mensaje_id": 59489,
-        "url": "https://t.me/empresaelectricacienfuegos1/59489",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-30  14 de Julio, Batey 2 Hermanos."
-      },
-      "lugares": [
-        "14 de Julio",
-        "Batey 2 Hermanos"
-      ]
-    },
-    "C-17": {
-      "fecha": "2026-10-18T11:29:05+00:00",
-      "mensaje_id": 59524,
-      "url": "https://t.me/empresaelectricacienfuegos1/59524",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-18T10:34:35+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-18T05:34:15+00:00",
-        "mensaje_id": 59520,
-        "url": "https://t.me/empresaelectricacienfuegos1/59520",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
-      },
-      "lugares": []
-    },
-    "C-92": {
-      "fecha": "2026-10-18T11:29:05+00:00",
-      "mensaje_id": 59524,
-      "url": "https://t.me/empresaelectricacienfuegos1/59524",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-18T11:29:05+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-18T10:34:35+00:00",
-        "mensaje_id": 59522,
-        "url": "https://t.me/empresaelectricacienfuegos1/59522",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
-      },
-      "lugares": []
     }
   },
   "horarios": {},
@@ -1248,20 +964,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠Se comunica a nuestros clientes que continúan afectadas por disparo, las líneas:\n\n\n👉L-1640 Zona Industrial\n\n👉L-1620 Palmira\n\n👉L-1435 Rodas-Palmira-Cruces\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉 Ofrecemos disculpas por las molestias ocasionadas\nLíneas afectadas por\nq\n| > EN ",
-      "id": 59429,
-      "url": "https://t.me/empresaelectricacienfuegos1/59429",
-      "fecha": "2026-10-16T04:16:22+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
-      "id": 59431,
-      "url": "https://t.me/empresaelectricacienfuegos1/59431",
-      "fecha": "2026-10-16T04:51:18+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
@@ -1672,13 +1374,26 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59523",
       "fecha": "2026-10-18T10:39:53+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "id": 59525,
+      "url": "https://t.me/empresaelectricacienfuegos1/59525",
+      "fecha": "2026-10-18T12:01:33+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠️Se comunica a nuestros clientes que continúa la afectación por problemas técnicos en la línea de Atención a la población 18888.\n\n\n👉Se trabaja para dar solución lo antes posible.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas",
+      "id": 59525,
+      "url": "https://t.me/empresaelectricacienfuegos1/59525",
+      "fecha": "2026-10-18T12:01:33+00:00"
     }
   ],
   "lectura": {
     "texto": 73,
-    "imagenes": 75,
+    "imagenes": 76,
     "pdf": 0,
-    "no_leidos": 17
+    "no_leidos": 18
   },
   "listas_completas": {
     "deficit": {
@@ -2652,23 +2367,19 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59524"
     }
   ],
-  "lectura_incompleta_desde": "2026-10-17T23:45:53+00:00",
+  "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-18T11:29:05+00:00",
   "total_circuitos_afectados": 62,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 5,
+  "total_restablecimientos_probables": 0,
   "circuitos_sin_catalogar": [
-    "C-17",
-    "C-18",
     "C-2",
     "C-31",
     "C-407",
     "C-43",
     "C-58",
     "C-59",
-    "C-60",
-    "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-18T11:59:23.371585+00:00"
+  "actualizado": "2026-10-18T12:14:31.988990+00:00"
 }
