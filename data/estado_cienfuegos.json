@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 153,
+  "mensajes_leidos": 148,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -1675,8 +1675,8 @@
     }
   ],
   "lectura": {
-    "texto": 75,
-    "imagenes": 78,
+    "texto": 73,
+    "imagenes": 75,
     "pdf": 0,
     "no_leidos": 17
   },
@@ -1752,7 +1752,7 @@
   },
   "transiciones": [
     {
-      "circuito": "C-19",
+      "circuito": "C-80",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-16T00:05:00+00:00",
@@ -2670,5 +2670,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-18T11:29:23.118529+00:00"
+  "actualizado": "2026-10-18T11:44:20.965194+00:00"
 }
