@@ -2133,20 +2133,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
-      "id": 59443,
-      "url": "https://t.me/empresaelectricacienfuegos1/59443",
-      "fecha": "2026-10-16T13:39:55+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n4 Unión Eléctrica UNE sae\nUNE 11min: @\nO @ Informa UNE incendio de grandes\nproporciones en la sala de máquinas de la unidad\nnúmero 1 de la CTE Ernesto Guevara De La Serna,\nen Santa Cruz del Norte\nDetalles del suceso\n- Hora y causa: El siniestro se registró a las 06:55\n(hora local) dentro de la infr",
-      "id": 59444,
-      "url": "https://t.me/empresaelectricacienfuegos1/59444",
-      "fecha": "2026-10-16T13:48:35+00:00"
-    },
-    {
       "id": 59445,
       "url": "https://t.me/empresaelectricacienfuegos1/59445",
       "fecha": "2026-10-16T13:48:35+00:00",
@@ -2555,11 +2541,33 @@
       "id": 59534,
       "url": "https://t.me/empresaelectricacienfuegos1/59534",
       "fecha": "2026-10-18T14:51:46+00:00"
+    },
+    {
+      "motivo": "estado_ambiguo",
+      "texto": "⚠ Se comunica a nuestros clientes que se encuentra restablecido el servicio en el circuito C-23 Turquino, 5 de Septiembre, Guayabito, continúa en fallo la sección S-2382 las zonas:",
+      "circuitos": [
+        "C-23",
+        "S-2382"
+      ],
+      "id": 59537,
+      "url": "https://t.me/empresaelectricacienfuegos1/59537",
+      "fecha": "2026-10-18T17:04:46+00:00"
+    },
+    {
+      "motivo": "estado_ambiguo",
+      "texto": "⚠ Se comunica a nuestros clientes que se encuentra restablecido el servicio en el circuito C-23 Turquino, 5 de Septiembre, Guayabito, continúa en fallo la sección S-2382 las zonas:",
+      "circuitos": [
+        "C-23",
+        "S-2382"
+      ],
+      "id": 59537,
+      "url": "https://t.me/empresaelectricacienfuegos1/59537",
+      "fecha": "2026-10-18T17:04:46+00:00"
     }
   ],
   "lectura": {
-    "texto": 74,
-    "imagenes": 74,
+    "texto": 73,
+    "imagenes": 75,
     "pdf": 0,
     "no_leidos": 18
   },
@@ -3533,5 +3541,5 @@
     "C-60",
     "C-94"
   ],
-  "actualizado": "2026-10-18T16:57:22.401012+00:00"
+  "actualizado": "2026-10-18T17:09:22.620418+00:00"
 }
