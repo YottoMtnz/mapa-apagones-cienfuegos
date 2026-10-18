@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-18T01:43:12+00:00",
+  "reporte_fecha": "2026-10-18T02:19:29+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-17T20:16:55+00:00",
-  "mensajes_leidos": 150,
+  "mensajes_leidos": 151,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -190,6 +190,7 @@
     "C-90": [
       "FW1558) La Pollera"
     ],
+    "C-20": [],
     "C-70": [
       "Aguada",
       "Federal"
@@ -288,29 +289,21 @@
       "Pérez Leyva",
       "La Redonda",
       "El Limpio"
+    ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
+    ],
+    "C-66": [
+      "Reina (Parque"
+    ],
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
     ]
   },
   "programados": {},
-  "confirmados_con_servicio": {
-    "C-65": {
-      "fecha": "2026-10-18T01:39:16+00:00",
-      "mensaje_id": 59513,
-      "url": "https://t.me/empresaelectricacienfuegos1/59513",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
-    },
-    "C-66": {
-      "fecha": "2026-10-18T01:39:16+00:00",
-      "mensaje_id": 59513,
-      "url": "https://t.me/empresaelectricacienfuegos1/59513",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-66 Reina (Parque)"
-    }
-  },
+  "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-60": {
       "fecha": "2026-10-18T01:43:12+00:00",
@@ -468,33 +461,6 @@
       },
       "lugares": [
         "Pueblo Griffo Nuevo"
-      ]
-    },
-    "C-80": {
-      "fecha": "2026-10-18T01:43:12+00:00",
-      "mensaje_id": 59514,
-      "url": "https://t.me/empresaelectricacienfuegos1/59514",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-17T23:30:48+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-17T22:27:21+00:00",
-        "mensaje_id": 59507,
-        "url": "https://t.me/empresaelectricacienfuegos1/59507",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-80 Punta Cotica, Parque José Martí."
-      },
-      "lugares": [
-        "Punta Cotica",
-        "Parque José Martí"
       ]
     },
     "C-47": {
@@ -862,6 +828,15 @@
       "confianza": 100,
       "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
+    "C-20": {
+      "fecha": "2026-10-18T02:19:29+00:00",
+      "mensaje_id": 59515,
+      "url": "https://t.me/empresaelectricacienfuegos1/59515",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-20 Punta Gorda."
+    },
     "C-70": {
       "fecha": "2026-10-18T01:43:12+00:00",
       "mensaje_id": 59514,
@@ -1087,23 +1062,32 @@
       "confianza": 100,
       "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
     },
-    "C-65": {
-      "fecha": "2026-10-18T01:39:16+00:00",
-      "mensaje_id": 59513,
-      "url": "https://t.me/empresaelectricacienfuegos1/59513",
+    "C-80": {
+      "fecha": "2026-10-18T02:19:29+00:00",
+      "mensaje_id": 59515,
+      "url": "https://t.me/empresaelectricacienfuegos1/59515",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+      "texto": "👉C-80 Punta Cotica, Parque Martí."
     },
     "C-66": {
-      "fecha": "2026-10-18T01:39:16+00:00",
-      "mensaje_id": 59513,
-      "url": "https://t.me/empresaelectricacienfuegos1/59513",
+      "fecha": "2026-10-18T02:19:29+00:00",
+      "mensaje_id": 59515,
+      "url": "https://t.me/empresaelectricacienfuegos1/59515",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-66 Reina (Parque)"
+    },
+    "C-65": {
+      "fecha": "2026-10-18T02:19:29+00:00",
+      "mensaje_id": 59515,
+      "url": "https://t.me/empresaelectricacienfuegos1/59515",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Reina (Aduana)."
     },
     "C-60": {
       "fecha": "2026-10-18T01:43:12+00:00",
@@ -1263,33 +1247,6 @@
         "Pueblo Griffo Nuevo"
       ]
     },
-    "C-80": {
-      "fecha": "2026-10-18T01:43:12+00:00",
-      "mensaje_id": 59514,
-      "url": "https://t.me/empresaelectricacienfuegos1/59514",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-17T23:30:48+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-17T22:27:21+00:00",
-        "mensaje_id": 59507,
-        "url": "https://t.me/empresaelectricacienfuegos1/59507",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-80 Punta Cotica, Parque José Martí."
-      },
-      "lugares": [
-        "Punta Cotica",
-        "Parque José Martí"
-      ]
-    },
     "C-47": {
       "fecha": "2026-10-18T01:43:12+00:00",
       "mensaje_id": 59514,
@@ -1361,6 +1318,7 @@
     "C-3": "déficit",
     "C-63": "déficit",
     "C-90": "déficit",
+    "C-20": "avería",
     "C-70": "déficit",
     "C-76": "avería",
     "C-406": "déficit",
@@ -1385,17 +1343,13 @@
     "C-21": "déficit",
     "C-73": "déficit",
     "C-94": "déficit",
-    "C-24": "déficit"
+    "C-24": "déficit",
+    "C-80": "avería",
+    "C-66": "avería",
+    "C-65": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠ Se comunica a nuestros clientes que se encuentra restablecido el servicio en las zonas:\n \n\n👉Los 500.\n\n👉O'bourke.\n \n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
-      "id": 59423,
-      "url": "https://t.me/empresaelectricacienfuegos1/59423",
-      "fecha": "2026-10-16T02:39:35+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
@@ -1816,11 +1770,18 @@
       "id": 59512,
       "url": "https://t.me/empresaelectricacienfuegos1/59512",
       "fecha": "2026-10-17T23:45:53+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Líneas afectadas por\nDISPARO\nES\nA\nY\n-\na\nAN\nÑ\nry\nre\n= \\\ne?\nG",
+      "id": 59515,
+      "url": "https://t.me/empresaelectricacienfuegos1/59515",
+      "fecha": "2026-10-18T02:19:29+00:00"
     }
   ],
   "lectura": {
     "texto": 74,
-    "imagenes": 76,
+    "imagenes": 77,
     "pdf": 0,
     "no_leidos": 14
   },
@@ -2798,13 +2759,14 @@
   ],
   "lectura_incompleta_desde": "2026-10-17T23:45:53+00:00",
   "mw_fecha": "2026-10-18T01:43:12+00:00",
-  "total_circuitos_afectados": 60,
+  "total_circuitos_afectados": 64,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 8,
+  "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
     "C-2",
+    "C-20",
     "C-31",
     "C-407",
     "C-43",
@@ -2816,5 +2778,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-18T02:14:25.081612+00:00"
+  "actualizado": "2026-10-18T02:29:17.486753+00:00"
 }
