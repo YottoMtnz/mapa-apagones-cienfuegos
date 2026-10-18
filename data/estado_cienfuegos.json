@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-18T14:51:46+00:00",
+  "reporte_fecha": "2026-10-18T16:42:52+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 149,
+  "mensajes_leidos": 148,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -120,7 +120,6 @@
       "Guaos",
       "Naranjito"
     ],
-    "C-401": [],
     "C-43": [],
     "C-69": [
       "Junco Sur",
@@ -145,16 +144,11 @@
       "Aguada",
       "Federal"
     ],
-    "C-408": [],
     "C-406": [
       "San Lázaro",
       "Calle 35 de Ave 58 hasta Ave 64",
       "Ave 58 de Calle 47 hasta Calle 49",
       "Calle 47 de Ave 54 hasta Ave 58"
-    ],
-    "C-91": [
-      "Buena Vista",
-      "La Esperanza"
     ],
     "C-58": [],
     "C-7": [
@@ -263,14 +257,56 @@
       "Crucesitas",
       "El Nicho",
       "Vegueta"
-    ],
-    "C-92": [],
-    "C-405": [
-      "Pueblo Griffo Nuevo"
     ]
   },
   "programados": {},
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-401": {
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "url": "https://t.me/empresaelectricacienfuegos1/59535",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-401 Zona Industrial 1, Almacenes Cimex, El Miedo, La 13."
+    },
+    "C-92": {
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "url": "https://t.me/empresaelectricacienfuegos1/59535",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-92 Calzada Dolores, San Lázaro."
+    },
+    "C-91": {
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "url": "https://t.me/empresaelectricacienfuegos1/59535",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
+    "C-405": {
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "url": "https://t.me/empresaelectricacienfuegos1/59535",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-405 Pueblo Griffo Nuevo."
+    },
+    "C-408": {
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "url": "https://t.me/empresaelectricacienfuegos1/59535",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-408 T15,Trébol, 4 Caminos, Universidad"
+    }
+  },
   "restablecimientos_probables": {
     "C-60": {
       "fecha": "2026-10-18T14:15:00+00:00",
@@ -949,15 +985,6 @@
       "confianza": 100,
       "texto": "👉C-67 \"El Crucero, Guaos, Naranjito."
     },
-    "C-401": {
-      "fecha": "2026-10-18T14:24:46+00:00",
-      "mensaje_id": 59532,
-      "url": "https://t.me/empresaelectricacienfuegos1/59532",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-401 Zona Industrial 1, Almacenes Cimex, El Miedo, La 13."
-    },
     "C-43": {
       "fecha": "2026-10-18T14:15:00+00:00",
       "mensaje_id": 59531,
@@ -1003,15 +1030,6 @@
       "confianza": 100,
       "texto": "👉C-70 \"Aguada, Federal."
     },
-    "C-408": {
-      "fecha": "2026-10-18T14:24:46+00:00",
-      "mensaje_id": 59532,
-      "url": "https://t.me/empresaelectricacienfuegos1/59532",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-408 T15,Trébol, 4 Caminos, Universidad"
-    },
     "C-406": {
       "fecha": "2026-10-18T14:15:00+00:00",
       "mensaje_id": 59531,
@@ -1020,15 +1038,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
-    },
-    "C-91": {
-      "fecha": "2026-10-18T14:24:46+00:00",
-      "mensaje_id": 59532,
-      "url": "https://t.me/empresaelectricacienfuegos1/59532",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-91 Buena Vista, La Esperanza."
     },
     "C-58": {
       "fecha": "2026-10-18T14:15:00+00:00",
@@ -1255,23 +1264,50 @@
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
     },
+    "C-401": {
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "url": "https://t.me/empresaelectricacienfuegos1/59535",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-401 Zona Industrial 1, Almacenes Cimex, El Miedo, La 13."
+    },
     "C-92": {
-      "fecha": "2026-10-18T14:24:46+00:00",
-      "mensaje_id": 59532,
-      "url": "https://t.me/empresaelectricacienfuegos1/59532",
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "url": "https://t.me/empresaelectricacienfuegos1/59535",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-92 Calzada Dolores, San Lázaro."
     },
+    "C-91": {
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "url": "https://t.me/empresaelectricacienfuegos1/59535",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
     "C-405": {
-      "fecha": "2026-10-18T14:24:46+00:00",
-      "mensaje_id": 59532,
-      "url": "https://t.me/empresaelectricacienfuegos1/59532",
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "url": "https://t.me/empresaelectricacienfuegos1/59535",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-405 Pueblo Griffo Nuevo."
+    },
+    "C-408": {
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "url": "https://t.me/empresaelectricacienfuegos1/59535",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-408 T15,Trébol, 4 Caminos, Universidad"
     },
     "C-60": {
       "fecha": "2026-10-18T14:15:00+00:00",
@@ -1768,15 +1804,12 @@
     "C-88": "déficit",
     "C-15": "avería / déficit",
     "C-67": "avería / déficit",
-    "C-401": "avería",
     "C-43": "déficit",
     "C-69": "déficit",
     "C-63": "déficit",
     "C-90": "déficit",
     "C-70": "déficit",
-    "C-408": "avería",
     "C-406": "déficit",
-    "C-91": "avería",
     "C-58": "déficit",
     "C-7": "déficit",
     "C-41": "déficit",
@@ -1801,9 +1834,7 @@
     "C-26": "déficit",
     "C-20": "avería",
     "C-80": "avería / déficit",
-    "C-37": "avería",
-    "C-92": "avería",
-    "C-405": "avería"
+    "C-37": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2234,7 +2265,7 @@
   ],
   "lectura": {
     "texto": 74,
-    "imagenes": 75,
+    "imagenes": 74,
     "pdf": 0,
     "no_leidos": 18
   },
@@ -2297,51 +2328,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-2",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-16T10:12:06+00:00",
-      "mensaje_id": 59434,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59430",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59434"
-    },
-    {
-      "circuito": "C-3",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-16T10:12:06+00:00",
-      "mensaje_id": 59434,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59430",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59434"
-    },
-    {
-      "circuito": "C-70",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-16T11:19:23+00:00",
-      "mensaje_id": 59438,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59434",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59438"
-    },
-    {
-      "circuito": "C-17",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-16T11:19:23+00:00",
-      "mensaje_id": 59438,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59434",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59438"
-    },
-    {
-      "circuito": "C-11",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-16T14:41:38+00:00",
-      "mensaje_id": 59447,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59438",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59447"
-    },
     {
       "circuito": "C-30",
       "tipo": "salida_lista",
@@ -3196,11 +3182,56 @@
       "mensaje_id": 59531,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59529",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59531"
+    },
+    {
+      "circuito": "C-401",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59532",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59535"
+    },
+    {
+      "circuito": "C-92",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59532",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59535"
+    },
+    {
+      "circuito": "C-91",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59532",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59535"
+    },
+    {
+      "circuito": "C-405",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59532",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59535"
+    },
+    {
+      "circuito": "C-408",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-18T16:42:52+00:00",
+      "mensaje_id": 59535,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59532",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59535"
     }
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-18T14:15:00+00:00",
-  "total_circuitos_afectados": 57,
+  "total_circuitos_afectados": 52,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
@@ -3209,15 +3240,12 @@
     "C-2",
     "C-20",
     "C-31",
-    "C-401",
     "C-407",
-    "C-408",
     "C-43",
     "C-58",
     "C-59",
     "C-60",
-    "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-18T16:29:17.996934+00:00"
+  "actualizado": "2026-10-18T16:44:23.400474+00:00"
 }
