@@ -2,12 +2,21 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-18T18:33:13+00:00",
+  "reporte_fecha": "2026-10-18T19:17:47+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-18T19:05:48+00:00",
-  "mensajes_leidos": 150,
+  "mensajes_leidos": 151,
   "afectados": {
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
+    ],
     "C-82": [
       "Balboa",
       "La Pedrera",
@@ -63,15 +72,6 @@
       "La Leona",
       "Mijalito",
       "Matún"
-    ],
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
-    ],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
     ],
     "C-43": [],
     "C-69": [
@@ -165,9 +165,6 @@
       "Perseverancia",
       "1ro de Mayo"
     ],
-    "C-19": [
-      "Tulipán"
-    ],
     "C-39": [
       "La Sierrita",
       "El Brazo",
@@ -244,6 +241,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-405 Pueblo Griffo Nuevo."
+    },
+    "C-19": {
+      "fecha": "2026-10-18T19:17:47+00:00",
+      "mensaje_id": 59547,
+      "url": "https://t.me/empresaelectricacienfuegos1/59547",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán"
     }
   },
   "restablecimientos_probables": {
@@ -910,6 +916,24 @@
     ]
   },
   "evidencias": {
+    "C-15": {
+      "fecha": "2026-10-18T18:16:17+00:00",
+      "mensaje_id": 59542,
+      "url": "https://t.me/empresaelectricacienfuegos1/59542",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15  |  Pepito Tey, Guabairo."
+    },
+    "C-67": {
+      "fecha": "2026-10-18T18:16:17+00:00",
+      "mensaje_id": 59542,
+      "url": "https://t.me/empresaelectricacienfuegos1/59542",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67  |  El Crucero, Guaos, Naranjito."
+    },
     "C-82": {
       "fecha": "2026-10-18T18:16:17+00:00",
       "mensaje_id": 59542,
@@ -1008,24 +1032,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-88  |  San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
-    },
-    "C-15": {
-      "fecha": "2026-10-18T18:16:17+00:00",
-      "mensaje_id": 59542,
-      "url": "https://t.me/empresaelectricacienfuegos1/59542",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-15  |  Pepito Tey, Guabairo."
-    },
-    "C-67": {
-      "fecha": "2026-10-18T18:16:17+00:00",
-      "mensaje_id": 59542,
-      "url": "https://t.me/empresaelectricacienfuegos1/59542",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-67  |  El Crucero, Guaos, Naranjito."
     },
     "C-43": {
       "fecha": "2026-10-18T18:16:17+00:00",
@@ -1207,15 +1213,6 @@
       "confianza": 100,
       "texto": "👉C-73  |  Perseverancia, 1ro de Mayo."
     },
-    "C-19": {
-      "fecha": "2026-10-18T18:05:16+00:00",
-      "mensaje_id": 59540,
-      "url": "https://t.me/empresaelectricacienfuegos1/59540",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-19 Tulipán"
-    },
     "C-39": {
       "fecha": "2026-10-18T12:33:36+00:00",
       "mensaje_id": 59528,
@@ -1377,6 +1374,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-405 Pueblo Griffo Nuevo."
+    },
+    "C-19": {
+      "fecha": "2026-10-18T19:17:47+00:00",
+      "mensaje_id": 59547,
+      "url": "https://t.me/empresaelectricacienfuegos1/59547",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán"
     },
     "C-60": {
       "fecha": "2026-10-18T18:16:17+00:00",
@@ -2033,6 +2039,8 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-15": "avería / déficit",
+    "C-67": "avería / déficit",
     "C-82": "déficit",
     "C-53": "déficit",
     "C-54": "déficit",
@@ -2044,8 +2052,6 @@
     "C-29": "déficit",
     "C-31": "déficit",
     "C-88": "déficit",
-    "C-15": "avería / déficit",
-    "C-67": "avería / déficit",
     "C-43": "déficit",
     "C-69": "déficit",
     "C-63": "déficit",
@@ -2066,7 +2072,6 @@
     "C-11": "déficit",
     "C-36": "déficit",
     "C-73": "déficit",
-    "C-19": "emergencia",
     "C-39": "avería",
     "C-75": "avería",
     "C-2": "déficit",
@@ -2087,12 +2092,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "id": 59458,
-      "url": "https://t.me/empresaelectricacienfuegos1/59458",
-      "fecha": "2026-10-16T15:55:15+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Unión Eléctrica informa:\n\n10:24am | SOFOCADO INCENDIO EN LA CTE ERNESTO GUEVARA, SANTA CRUZ DEL NORTE\n\n🔥Gracias a la rápida intervención de las fuerzas de auxilio y la aplicación inmediata de los protocolos de seguridad, el incendio ocurrido en la Unidad #1 de la termoeléctrica Ernesto Guevara fue e",
@@ -2517,11 +2516,18 @@
       "id": 59545,
       "url": "https://t.me/empresaelectricacienfuegos1/59545",
       "fecha": "2026-10-18T18:34:17+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n02 MW > ¿ NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 59548,
+      "url": "https://t.me/empresaelectricacienfuegos1/59548",
+      "fecha": "2026-10-18T19:22:12+00:00"
     }
   ],
   "lectura": {
     "texto": 74,
-    "imagenes": 76,
+    "imagenes": 77,
     "pdf": 0,
     "no_leidos": 19
   },
@@ -2575,15 +2581,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-89",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-16T18:18:36+00:00",
-      "mensaje_id": 59466,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59447",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59466"
-    },
     {
       "circuito": "C-5",
       "tipo": "salida_lista",
@@ -2747,6 +2744,24 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59492"
     },
     {
+      "circuito": "C-95",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-17T15:20:46+00:00",
+      "mensaje_id": 59493,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59489",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59493"
+    },
+    {
+      "circuito": "C-89",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-17T15:20:46+00:00",
+      "mensaje_id": 59493,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59489",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59493"
+    },
+    {
       "circuito": "C-82",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2810,24 +2825,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59493"
     },
     {
-      "circuito": "C-95",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-17T15:20:46+00:00",
-      "mensaje_id": 59493,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59489",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59493"
-    },
-    {
-      "circuito": "C-89",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-17T15:20:46+00:00",
-      "mensaje_id": 59493,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59489",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59493"
-    },
-    {
       "circuito": "C-11",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2844,6 +2841,24 @@
       "mensaje_id": 59493,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59489",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59493"
+    },
+    {
+      "circuito": "C-15",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-17T16:39:29+00:00",
+      "mensaje_id": 59497,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59493",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59497"
+    },
+    {
+      "circuito": "C-67",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-17T16:39:29+00:00",
+      "mensaje_id": 59497,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59493",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59497"
     },
     {
       "circuito": "C-21",
@@ -2874,24 +2889,6 @@
     },
     {
       "circuito": "C-8",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-17T16:39:29+00:00",
-      "mensaje_id": 59497,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59493",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59497"
-    },
-    {
-      "circuito": "C-15",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-17T16:39:29+00:00",
-      "mensaje_id": 59497,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59493",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59497"
-    },
-    {
-      "circuito": "C-67",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-17T16:39:29+00:00",
@@ -3474,11 +3471,20 @@
       "mensaje_id": 59542,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59536",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59542"
+    },
+    {
+      "circuito": "C-19",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-18T19:17:47+00:00",
+      "mensaje_id": 59547,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59540",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59547"
     }
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-18T18:16:17+00:00",
-  "total_circuitos_afectados": 51,
+  "total_circuitos_afectados": 50,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 23,
   "circuitos_sin_catalogar": [
@@ -3498,5 +3504,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-18T19:09:24.469894+00:00"
+  "actualizado": "2026-10-18T19:24:26.286660+00:00"
 }
