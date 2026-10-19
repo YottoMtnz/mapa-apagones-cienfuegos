@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-19T20:44:43+00:00",
+  "reporte_fecha": "2026-10-19T21:07:59+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-19T20:32:49+00:00",
-  "mensajes_leidos": 135,
+  "mensajes_leidos": 136,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -264,7 +264,6 @@
     ],
     "C-408": [],
     "C-18": [],
-    "S-3793": [],
     "C-6": [
       "Rancho Luna",
       "Pasacaballo",
@@ -284,16 +283,6 @@
       "La Leona",
       "Mijalito",
       "Matún"
-    ],
-    "C-63": [
-      "Juraguá (Oeste",
-      "Las 500",
-      "Calicito",
-      "Bolivia",
-      "Comunidad Alejandro",
-      "Hondones",
-      "La Yuca",
-      "Bagazal"
     ],
     "C-406": [
       "San Lázaro",
@@ -342,6 +331,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-19 Tulipán"
+    },
+    "S-3793": {
+      "fecha": "2026-10-19T21:06:51+00:00",
+      "mensaje_id": 59607,
+      "url": "https://t.me/empresaelectricacienfuegos1/59607",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠ Se comunica a nuestros clientes que se encuentra restablecido el servicio en la sección S3793, las zonas:"
+    },
+    "C-63": {
+      "fecha": "2026-10-19T21:07:59+00:00",
+      "mensaje_id": 59608,
+      "url": "https://t.me/empresaelectricacienfuegos1/59608",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-63 Juraguá(Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
     }
   },
   "restablecimientos_probables": {
@@ -1112,15 +1119,6 @@
       "confianza": 100,
       "texto": "👉C-18  Arizona, La Juanita (Hospital de Especialidades 0-24)"
     },
-    "S-3793": {
-      "fecha": "2026-10-19T17:07:37+00:00",
-      "mensaje_id": 59594,
-      "url": "https://t.me/empresaelectricacienfuegos1/59594",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "Se afecta la sección S3793, las zonas:"
-    },
     "C-6": {
       "fecha": "2026-10-19T20:42:51+00:00",
       "mensaje_id": 59605,
@@ -1156,15 +1154,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-88  San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
-    },
-    "C-63": {
-      "fecha": "2026-10-19T19:09:46+00:00",
-      "mensaje_id": 59602,
-      "url": "https://t.me/empresaelectricacienfuegos1/59602",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-63 Juraguá(Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
     },
     "C-406": {
       "fecha": "2026-10-19T20:42:51+00:00",
@@ -1237,6 +1226,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-19 Tulipán"
+    },
+    "S-3793": {
+      "fecha": "2026-10-19T21:06:51+00:00",
+      "mensaje_id": 59607,
+      "url": "https://t.me/empresaelectricacienfuegos1/59607",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠ Se comunica a nuestros clientes que se encuentra restablecido el servicio en la sección S3793, las zonas:"
+    },
+    "C-63": {
+      "fecha": "2026-10-19T21:07:59+00:00",
+      "mensaje_id": 59608,
+      "url": "https://t.me/empresaelectricacienfuegos1/59608",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-63 Juraguá(Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
     },
     "C-17": {
       "fecha": "2026-10-19T20:42:51+00:00",
@@ -1428,12 +1435,10 @@
     "C-405": "avería",
     "C-408": "avería",
     "C-18": "déficit",
-    "S-3793": "sin precisar",
     "C-6": "déficit",
     "C-32": "déficit",
     "C-31": "déficit",
     "C-88": "déficit",
-    "C-63": "avería",
     "C-406": "déficit",
     "C-36": "déficit",
     "C-58": "déficit"
@@ -1875,8 +1880,8 @@
     }
   ],
   "lectura": {
-    "texto": 75,
-    "imagenes": 60,
+    "texto": 77,
+    "imagenes": 59,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -1948,24 +1953,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-19",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-17T22:27:21+00:00",
-      "mensaje_id": 59507,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59505",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59507"
-    },
-    {
-      "circuito": "C-69",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-17T22:27:21+00:00",
-      "mensaje_id": 59507,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59505",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59507"
-    },
     {
       "circuito": "C-89",
       "tipo": "salida_lista",
@@ -2847,11 +2834,29 @@
       "mensaje_id": 59606,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59603",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59606"
+    },
+    {
+      "circuito": "S-3793",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-19T21:06:51+00:00",
+      "mensaje_id": 59607,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59594",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59607"
+    },
+    {
+      "circuito": "C-63",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-19T21:07:59+00:00",
+      "mensaje_id": 59608,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59602",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59608"
     }
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-19T20:42:51+00:00",
-  "total_circuitos_afectados": 68,
+  "total_circuitos_afectados": 66,
   "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 8,
   "circuitos_sin_catalogar": [
@@ -2871,8 +2876,7 @@
     "C-94",
     "C-95",
     "S-2382",
-    "S-3793",
     "S-4820"
   ],
-  "actualizado": "2026-10-19T20:59:25.273975+00:00"
+  "actualizado": "2026-10-19T21:14:24.115325+00:00"
 }
