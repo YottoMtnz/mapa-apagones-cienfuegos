@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-19T14:33:11+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-19T13:46:38+00:00",
-  "mensajes_leidos": 137,
+  "programado_fecha": "2026-10-19T14:46:01+00:00",
+  "mensajes_leidos": 136,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -303,34 +303,11 @@
     "C-408": []
   },
   "programados": {
-    "C-18": []
+    "C-18": [],
+    "C-20": []
   },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
-    "C-60": {
-      "fecha": "2026-10-19T14:33:11+00:00",
-      "mensaje_id": 59585,
-      "url": "https://t.me/empresaelectricacienfuegos1/59585",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-63  Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-16T18:18:36+00:00",
-      "listas_consecutivas": 35,
-      "aviso_anterior": {
-        "fecha": "2026-10-16T14:41:38+00:00",
-        "mensaje_id": 59447,
-        "url": "https://t.me/empresaelectricacienfuegos1/59447",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉 C-60 La Tatagua, Camilo Cienfuegos, Villa Yaguanabo, Villa Guajimico."
-      },
-      "lugares": []
-    },
     "C-18": {
       "fecha": "2026-10-19T14:33:11+00:00",
       "mensaje_id": 59585,
@@ -1198,30 +1175,6 @@
       "confianza": 100,
       "texto": "👉C-20 Punta Gorda."
     },
-    "C-60": {
-      "fecha": "2026-10-19T14:33:11+00:00",
-      "mensaje_id": 59585,
-      "url": "https://t.me/empresaelectricacienfuegos1/59585",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-63  Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-16T18:18:36+00:00",
-      "listas_consecutivas": 35,
-      "aviso_anterior": {
-        "fecha": "2026-10-16T14:41:38+00:00",
-        "mensaje_id": 59447,
-        "url": "https://t.me/empresaelectricacienfuegos1/59447",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉 C-60 La Tatagua, Camilo Cienfuegos, Villa Yaguanabo, Villa Guajimico."
-      },
-      "lugares": []
-    },
     "C-6": {
       "fecha": "2026-10-19T14:33:11+00:00",
       "mensaje_id": 59585,
@@ -1418,6 +1371,11 @@
     "C-18": {
       "inicio": null,
       "fin": "2026-10-20T01:46:38+00:00",
+      "fecha_ambigua": false
+    },
+    "C-20": {
+      "inicio": null,
+      "fin": "2026-10-20T02:46:01+00:00",
       "fecha_ambigua": false
     }
   },
@@ -1933,10 +1891,10 @@
     }
   ],
   "lectura": {
-    "texto": 76,
+    "texto": 75,
     "imagenes": 61,
     "pdf": 0,
-    "no_leidos": 13
+    "no_leidos": 12
   },
   "listas_completas": {
     "deficit": {
@@ -2850,6 +2808,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59575"
     },
     {
+      "circuito": "C-406",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-19T13:52:36+00:00",
+      "mensaje_id": 59584,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59578",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59584"
+    },
+    {
       "circuito": "C-31",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2860,15 +2827,6 @@
     },
     {
       "circuito": "C-88",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-19T13:52:36+00:00",
-      "mensaje_id": 59584,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59578",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59584"
-    },
-    {
-      "circuito": "C-406",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-19T13:52:36+00:00",
@@ -2916,8 +2874,8 @@
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-19T14:33:11+00:00",
   "total_circuitos_afectados": 69,
-  "total_circuitos_programados": 1,
-  "total_restablecimientos_probables": 9,
+  "total_circuitos_programados": 2,
+  "total_restablecimientos_probables": 8,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2932,7 +2890,6 @@
     "C-4904",
     "C-58",
     "C-59",
-    "C-60",
     "C-89",
     "C-92",
     "C-94",
@@ -2940,5 +2897,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-19T14:34:27.286076+00:00"
+  "actualizado": "2026-10-19T14:49:23.087771+00:00"
 }
