@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-18T20:46:10+00:00",
-  "mensajes_leidos": 148,
+  "mensajes_leidos": 145,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -107,15 +107,6 @@
     "C-57": [
       "Lajas (Pueblo"
     ],
-    "C-33": [
-      "Arimao",
-      "Las Moscas",
-      "Vegas Viejas",
-      "Santa Martina",
-      "San Antón",
-      "Quesada",
-      "Callejón del Palmar"
-    ],
     "C-85": [
       "Cumanayagua (Centro"
     ],
@@ -132,7 +123,6 @@
       "La Lolita",
       "Parque Alto"
     ],
-    "C-407": [],
     "C-59": [],
     "C-11": [
       "Ariza",
@@ -151,17 +141,6 @@
       "Perseverancia",
       "1ro de Mayo"
     ],
-    "C-39": [
-      "La Sierrita",
-      "El Brazo",
-      "Cafetal",
-      "Faisanera"
-    ],
-    "C-75": [
-      "La Legua",
-      "Gavilán",
-      "Boca Ambuila"
-    ],
     "C-2": [],
     "C-3": [
       "Reparto Eléctrico"
@@ -172,20 +151,9 @@
       "La Ceiba",
       "El Paisíto"
     ],
-    "C-20": [],
     "C-80": [
       "Punta Cotica",
       "Parque José Martí"
-    ],
-    "C-37": [
-      "El Tablón",
-      "Los Coquitos",
-      "El Túnel",
-      "Jovero",
-      "El Mamey",
-      "Crucesitas",
-      "El Nicho",
-      "Vegueta"
     ],
     "C-17": [],
     "C-92": [],
@@ -667,15 +635,6 @@
       "confianza": 100,
       "texto": "👉C-57 Lajas (Pueblo)."
     },
-    "C-33": {
-      "fecha": "2026-10-18T12:33:36+00:00",
-      "mensaje_id": 59528,
-      "url": "https://t.me/empresaelectricacienfuegos1/59528",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
-    },
     "C-85": {
       "fecha": "2026-10-19T00:19:59+00:00",
       "mensaje_id": 59569,
@@ -711,15 +670,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-8  Congojas, La Lolita."
-    },
-    "C-407": {
-      "fecha": "2026-10-18T12:33:36+00:00",
-      "mensaje_id": 59528,
-      "url": "https://t.me/empresaelectricacienfuegos1/59528",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
     },
     "C-59": {
       "fecha": "2026-10-19T00:19:59+00:00",
@@ -757,24 +707,6 @@
       "confianza": 100,
       "texto": "👉C-73 Perseverancia, 1ro de Mayo."
     },
-    "C-39": {
-      "fecha": "2026-10-18T12:33:36+00:00",
-      "mensaje_id": 59528,
-      "url": "https://t.me/empresaelectricacienfuegos1/59528",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-39 La Sierrita, El Brazo, Cafetal, Faisanera."
-    },
-    "C-75": {
-      "fecha": "2026-10-18T12:33:36+00:00",
-      "mensaje_id": 59528,
-      "url": "https://t.me/empresaelectricacienfuegos1/59528",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-75 La Legua, Gavilán, Boca Ambuila."
-    },
     "C-2": {
       "fecha": "2026-10-19T00:19:59+00:00",
       "mensaje_id": 59569,
@@ -802,15 +734,6 @@
       "confianza": 100,
       "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
     },
-    "C-20": {
-      "fecha": "2026-10-18T12:33:36+00:00",
-      "mensaje_id": 59528,
-      "url": "https://t.me/empresaelectricacienfuegos1/59528",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-20 Punta Gorda."
-    },
     "C-80": {
       "fecha": "2026-10-19T00:19:59+00:00",
       "mensaje_id": 59569,
@@ -819,15 +742,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-80 Punta Cotica, Parque José Martí."
-    },
-    "C-37": {
-      "fecha": "2026-10-18T12:33:36+00:00",
-      "mensaje_id": 59528,
-      "url": "https://t.me/empresaelectricacienfuegos1/59528",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
     },
     "C-17": {
       "fecha": "2026-10-19T00:19:59+00:00",
@@ -1230,8 +1144,8 @@
     "C-31": "déficit",
     "C-88": "déficit",
     "C-95": "déficit",
-    "C-67": "avería / déficit",
-    "C-15": "avería / déficit",
+    "C-67": "déficit",
+    "C-15": "déficit",
     "C-43": "avería / déficit",
     "C-63": "déficit",
     "C-90": "déficit",
@@ -1241,24 +1155,18 @@
     "C-7": "déficit",
     "C-41": "déficit",
     "C-57": "déficit",
-    "C-33": "avería",
     "C-85": "déficit",
     "C-86": "déficit",
     "C-56": "déficit",
     "C-8": "déficit",
-    "C-407": "avería",
     "C-59": "déficit",
     "C-11": "déficit",
     "C-36": "déficit",
     "C-73": "déficit",
-    "C-39": "avería",
-    "C-75": "avería",
     "C-2": "déficit",
     "C-3": "déficit",
     "C-26": "déficit",
-    "C-20": "avería",
-    "C-80": "avería / déficit",
-    "C-37": "avería",
+    "C-80": "déficit",
     "C-17": "déficit",
     "C-92": "déficit",
     "C-4904": "avería",
@@ -1726,7 +1634,7 @@
   ],
   "lectura": {
     "texto": 78,
-    "imagenes": 70,
+    "imagenes": 67,
     "pdf": 0,
     "no_leidos": 14
   },
@@ -2708,17 +2616,15 @@
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-19T00:19:59+00:00",
-  "total_circuitos_afectados": 69,
+  "total_circuitos_afectados": 63,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 3,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
     "C-2",
-    "C-20",
     "C-31",
     "C-40",
-    "C-407",
     "C-43",
     "C-4904",
     "C-58",
@@ -2729,5 +2635,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-19T00:31:31.537233+00:00"
+  "actualizado": "2026-10-19T00:51:47.527549+00:00"
 }
