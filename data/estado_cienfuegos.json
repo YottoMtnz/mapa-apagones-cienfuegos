@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-19T05:03:37+00:00",
+  "reporte_fecha": "2026-10-19T07:57:02+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-19T03:07:37+00:00",
-  "mensajes_leidos": 136,
+  "mensajes_leidos": 137,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -289,6 +289,9 @@
     ],
     "C-66": [
       "Reina (Parque"
+    ],
+    "C-19": [
+      "Tulipán"
     ]
   },
   "programados": {},
@@ -528,32 +531,6 @@
       },
       "lugares": [
         "Pueblo Griffo Nuevo"
-      ]
-    },
-    "C-19": {
-      "fecha": "2026-10-19T05:03:37+00:00",
-      "mensaje_id": 59573,
-      "url": "https://t.me/empresaelectricacienfuegos1/59573",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-19T05:03:37+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-19T03:04:47+00:00",
-        "mensaje_id": 59571,
-        "url": "https://t.me/empresaelectricacienfuegos1/59571",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-19 Tulipán"
-      },
-      "lugares": [
-        "Tulipán"
       ]
     }
   },
@@ -1118,6 +1095,15 @@
       "confianza": 100,
       "texto": "👉C-66 Reina (Parque)"
     },
+    "C-19": {
+      "fecha": "2026-10-19T07:57:02+00:00",
+      "mensaje_id": 59574,
+      "url": "https://t.me/empresaelectricacienfuegos1/59574",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán"
+    },
     "C-401": {
       "fecha": "2026-10-18T20:39:58+00:00",
       "mensaje_id": 59555,
@@ -1352,32 +1338,6 @@
       "lugares": [
         "Pueblo Griffo Nuevo"
       ]
-    },
-    "C-19": {
-      "fecha": "2026-10-19T05:03:37+00:00",
-      "mensaje_id": 59573,
-      "url": "https://t.me/empresaelectricacienfuegos1/59573",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-19T05:03:37+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-19T03:04:47+00:00",
-        "mensaje_id": 59571,
-        "url": "https://t.me/empresaelectricacienfuegos1/59571",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-19 Tulipán"
-      },
-      "lugares": [
-        "Tulipán"
-      ]
     }
   },
   "horarios": {},
@@ -1446,17 +1406,11 @@
     "C-30": "déficit",
     "C-89": "déficit",
     "C-65": "déficit",
-    "C-66": "déficit"
+    "C-66": "déficit",
+    "C-19": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n80 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
-      "id": 59472,
-      "url": "https://t.me/empresaelectricacienfuegos1/59472",
-      "fecha": "2026-10-16T21:12:05+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n¡SY\nÚ\n90 MW |\nDEFICIT DE GENERACION\nA\nil\na\n|]\n¥\nUNE\nCIENFUEGOS\nEs",
@@ -1881,11 +1835,18 @@
       "id": 59568,
       "url": "https://t.me/empresaelectricacienfuegos1/59568",
       "fecha": "2026-10-18T23:09:41+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59574,
+      "url": "https://t.me/empresaelectricacienfuegos1/59574",
+      "fecha": "2026-10-19T07:57:02+00:00"
     }
   ],
   "lectura": {
     "texto": 75,
-    "imagenes": 61,
+    "imagenes": 62,
     "pdf": 0,
     "no_leidos": 14
   },
@@ -2865,9 +2826,9 @@
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-19T05:03:37+00:00",
-  "total_circuitos_afectados": 60,
+  "total_circuitos_afectados": 61,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 9,
+  "total_restablecimientos_probables": 8,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2884,5 +2845,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-19T07:49:27.329069+00:00"
+  "actualizado": "2026-10-19T08:04:25.258387+00:00"
 }
