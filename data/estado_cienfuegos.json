@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-19T20:42:51+00:00",
+  "reporte_fecha": "2026-10-19T20:44:43+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-19T20:32:49+00:00",
-  "mensajes_leidos": 134,
+  "mensajes_leidos": 135,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -235,9 +235,6 @@
       "Las Minas",
       "Playa Alegre"
     ],
-    "C-19": [
-      "Tulipán"
-    ],
     "C-2": [],
     "C-3": [
       "Reparto Eléctrico"
@@ -336,7 +333,17 @@
       "Lajas (Pueblo"
     ]
   },
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-19": {
+      "fecha": "2026-10-19T20:44:43+00:00",
+      "mensaje_id": 59606,
+      "url": "https://t.me/empresaelectricacienfuegos1/59606",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán"
+    }
+  },
   "restablecimientos_probables": {
     "C-17": {
       "fecha": "2026-10-19T20:42:51+00:00",
@@ -979,15 +986,6 @@
       "confianza": 100,
       "texto": "👉C-69  Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
-    "C-19": {
-      "fecha": "2026-10-19T19:24:29+00:00",
-      "mensaje_id": 59603,
-      "url": "https://t.me/empresaelectricacienfuegos1/59603",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-19 Tulipán"
-    },
     "C-2": {
       "fecha": "2026-10-19T20:42:51+00:00",
       "mensaje_id": 59605,
@@ -1231,6 +1229,15 @@
       "confianza": 100,
       "texto": "👉C-25 Abreus (Pueblo)."
     },
+    "C-19": {
+      "fecha": "2026-10-19T20:44:43+00:00",
+      "mensaje_id": 59606,
+      "url": "https://t.me/empresaelectricacienfuegos1/59606",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán"
+    },
     "C-17": {
       "fecha": "2026-10-19T20:42:51+00:00",
       "mensaje_id": 59605,
@@ -1407,7 +1414,6 @@
     "C-65": "avería",
     "C-66": "avería",
     "C-69": "déficit",
-    "C-19": "avería / emergencia",
     "C-2": "déficit",
     "C-3": "déficit",
     "C-26": "déficit",
@@ -1869,7 +1875,7 @@
     }
   ],
   "lectura": {
-    "texto": 74,
+    "texto": 75,
     "imagenes": 60,
     "pdf": 0,
     "no_leidos": 10
@@ -1942,15 +1948,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-405",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-17T20:41:51+00:00",
-      "mensaje_id": 59505,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59501",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59505"
-    },
     {
       "circuito": "C-19",
       "tipo": "salida_lista",
@@ -2841,11 +2838,20 @@
       "mensaje_id": 59605,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59601",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59605"
+    },
+    {
+      "circuito": "C-19",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-19T20:44:43+00:00",
+      "mensaje_id": 59606,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59603",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59606"
     }
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-19T20:42:51+00:00",
-  "total_circuitos_afectados": 69,
+  "total_circuitos_afectados": 68,
   "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 8,
   "circuitos_sin_catalogar": [
@@ -2868,5 +2874,5 @@
     "S-3793",
     "S-4820"
   ],
-  "actualizado": "2026-10-19T20:44:22.497968+00:00"
+  "actualizado": "2026-10-19T20:59:25.273975+00:00"
 }
