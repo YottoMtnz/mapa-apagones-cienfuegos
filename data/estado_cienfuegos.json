@@ -6,15 +6,13 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-19T20:32:49+00:00",
-  "mensajes_leidos": 133,
+  "mensajes_leidos": 134,
   "afectados": {
     "C-23": [
       "Turquino",
       "5 de Septiembre",
       "Guayabito"
     ],
-    "C-48": [],
-    "S-4820": [],
     "C-15": [
       "Pepito Tey",
       "Guabairo"
@@ -246,7 +244,6 @@
       "La Ceiba",
       "El Paisíto"
     ],
-    "S-2382": [],
     "C-89": [],
     "C-30": [
       "14 de Julio",
@@ -471,7 +468,7 @@
           "confianza": 100,
           "texto": "👉C-90 (FW1558) La Pollera"
         },
-        "vigente": true
+        "vigente": false
       }
     ]
   },
@@ -484,24 +481,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-23  Turquino, 5 de Septiembre, Guayabito"
-    },
-    "C-48": {
-      "fecha": "2026-10-19T10:56:22+00:00",
-      "mensaje_id": 59576,
-      "url": "https://t.me/empresaelectricacienfuegos1/59576",
-      "medio": "texto",
-      "editado": "2026-10-19T10:56:35+00:00",
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-4820": {
-      "fecha": "2026-10-19T10:56:22+00:00",
-      "mensaje_id": 59576,
-      "url": "https://t.me/empresaelectricacienfuegos1/59576",
-      "medio": "texto",
-      "editado": "2026-10-19T10:56:35+00:00",
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
     },
     "C-15": {
       "fecha": "2026-10-19T21:37:00+00:00",
@@ -917,15 +896,6 @@
       "confianza": 100,
       "texto": "👉C-26  Caonao, Los Tanques, La Ceiba, El Paisíto."
     },
-    "S-2382": {
-      "fecha": "2026-10-19T10:56:22+00:00",
-      "mensaje_id": 59576,
-      "url": "https://t.me/empresaelectricacienfuegos1/59576",
-      "medio": "texto",
-      "editado": "2026-10-19T10:56:35+00:00",
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
     "C-89": {
       "fecha": "2026-10-19T21:37:00+00:00",
       "mensaje_id": 59610,
@@ -1253,8 +1223,6 @@
   "tiempos": {},
   "causas": {
     "C-23": "avería / déficit",
-    "C-48": "avería",
-    "S-4820": "avería",
     "C-15": "avería / déficit",
     "C-67": "avería / déficit",
     "C-90": "déficit",
@@ -1301,7 +1269,6 @@
     "C-2": "déficit",
     "C-3": "déficit",
     "C-26": "déficit",
-    "S-2382": "avería",
     "C-89": "déficit / emergencia",
     "C-30": "déficit",
     "C-95": "déficit",
@@ -1326,13 +1293,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
-      "id": 59502,
-      "url": "https://t.me/empresaelectricacienfuegos1/59502",
-      "fecha": "2026-10-17T20:06:38+00:00"
-    },
     {
       "id": 59504,
       "url": "https://t.me/empresaelectricacienfuegos1/59504",
@@ -1757,11 +1717,18 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59609",
       "fecha": "2026-10-19T21:32:17+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n80 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 59611,
+      "url": "https://t.me/empresaelectricacienfuegos1/59611",
+      "fecha": "2026-10-19T22:49:40+00:00"
     }
   ],
   "lectura": {
     "texto": 76,
-    "imagenes": 57,
+    "imagenes": 58,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -2741,7 +2708,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-19T21:37:00+00:00",
-  "total_circuitos_afectados": 71,
+  "total_circuitos_afectados": 68,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 4,
   "circuitos_sin_catalogar": [
@@ -2753,16 +2720,13 @@
     "C-401",
     "C-408",
     "C-43",
-    "C-48",
     "C-4904",
     "C-58",
     "C-59",
     "C-89",
     "C-92",
     "C-94",
-    "C-95",
-    "S-2382",
-    "S-4820"
+    "C-95"
   ],
-  "actualizado": "2026-10-19T22:44:19.686423+00:00"
+  "actualizado": "2026-10-19T22:59:21.382312+00:00"
 }
