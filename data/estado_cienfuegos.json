@@ -2,41 +2,12 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-19T16:32:19+00:00",
+  "reporte_fecha": "2026-10-19T17:07:37+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-19T14:46:01+00:00",
   "mensajes_leidos": 130,
   "afectados": {
-    "C-82": [
-      "Balboa",
-      "La Pedrera",
-      "El Tropezón"
-    ],
-    "C-53": [
-      "Potrerillo",
-      "Peñasco",
-      "Lomitas"
-    ],
-    "C-54": [
-      "Batey Mal Tiempo",
-      "Loma de Tola"
-    ],
-    "C-52": [
-      "Paradero de Camarones",
-      "Vía Estrecha",
-      "Espartaco",
-      "La Macana",
-      "Cherepa"
-    ],
-    "C-72": [
-      "Porcino",
-      "La Caridad",
-      "Palmira (Sur"
-    ],
-    "C-50": [
-      "Palmira (Norte"
-    ],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
@@ -69,6 +40,35 @@
     ],
     "C-90": [
       "FW1558) La Pollera"
+    ],
+    "C-50": [
+      "Palmira (Norte"
+    ],
+    "C-52": [
+      "Paradero de Camarones",
+      "Vía Estrecha",
+      "Espartaco",
+      "La Macana",
+      "Cherepa"
+    ],
+    "C-53": [
+      "Potrerillo",
+      "Peñasco",
+      "Lomitas"
+    ],
+    "C-54": [
+      "Batey Mal Tiempo",
+      "Loma de Tola"
+    ],
+    "C-72": [
+      "Porcino",
+      "La Caridad",
+      "Palmira (Sur"
+    ],
+    "C-82": [
+      "Balboa",
+      "La Pedrera",
+      "El Tropezón"
     ],
     "C-33": [
       "Arimao",
@@ -117,6 +117,16 @@
       "Boca Ambuila"
     ],
     "C-20": [],
+    "C-37": [
+      "El Tablón",
+      "Los Coquitos",
+      "El Túnel",
+      "Jovero",
+      "El Mamey",
+      "Crucesitas",
+      "El Nicho",
+      "Vegueta"
+    ],
     "C-4904": [],
     "C-101": [
       "Cartagena",
@@ -272,7 +282,8 @@
       "Pueblo Griffo Nuevo"
     ],
     "C-408": [],
-    "C-18": []
+    "C-18": [],
+    "S-3793": []
   },
   "programados": {},
   "confirmados_con_servicio": {},
@@ -682,60 +693,6 @@
     ]
   },
   "evidencias": {
-    "C-82": {
-      "fecha": "2026-10-19T16:32:19+00:00",
-      "mensaje_id": 59591,
-      "url": "https://t.me/empresaelectricacienfuegos1/59591",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-82  Balboa, La Pedrera, El Tropezón."
-    },
-    "C-53": {
-      "fecha": "2026-10-19T16:32:19+00:00",
-      "mensaje_id": 59591,
-      "url": "https://t.me/empresaelectricacienfuegos1/59591",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-53  Potrerillo, El No, Peñasco, Lomitas."
-    },
-    "C-54": {
-      "fecha": "2026-10-19T16:32:19+00:00",
-      "mensaje_id": 59591,
-      "url": "https://t.me/empresaelectricacienfuegos1/59591",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-54  Batey Mal Tiempo, Carrasco, Loma de Tola."
-    },
-    "C-52": {
-      "fecha": "2026-10-19T16:32:19+00:00",
-      "mensaje_id": 59591,
-      "url": "https://t.me/empresaelectricacienfuegos1/59591",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-52  Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
-    },
-    "C-72": {
-      "fecha": "2026-10-19T16:32:19+00:00",
-      "mensaje_id": 59591,
-      "url": "https://t.me/empresaelectricacienfuegos1/59591",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-72  Porcino, La Caridad, Palmira (Sur)"
-    },
-    "C-50": {
-      "fecha": "2026-10-19T16:32:19+00:00",
-      "mensaje_id": 59591,
-      "url": "https://t.me/empresaelectricacienfuegos1/59591",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-50  \"Palmira (Norte)."
-    },
     "C-23": {
       "fecha": "2026-10-19T16:32:19+00:00",
       "mensaje_id": 59591,
@@ -807,6 +764,60 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-90  La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
+    },
+    "C-50": {
+      "fecha": "2026-10-19T16:32:19+00:00",
+      "mensaje_id": 59591,
+      "url": "https://t.me/empresaelectricacienfuegos1/59591",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-50  \"Palmira (Norte)."
+    },
+    "C-52": {
+      "fecha": "2026-10-19T16:32:19+00:00",
+      "mensaje_id": 59591,
+      "url": "https://t.me/empresaelectricacienfuegos1/59591",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-52  Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
+    },
+    "C-53": {
+      "fecha": "2026-10-19T16:32:19+00:00",
+      "mensaje_id": 59591,
+      "url": "https://t.me/empresaelectricacienfuegos1/59591",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-53  Potrerillo, El No, Peñasco, Lomitas."
+    },
+    "C-54": {
+      "fecha": "2026-10-19T16:32:19+00:00",
+      "mensaje_id": 59591,
+      "url": "https://t.me/empresaelectricacienfuegos1/59591",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-54  Batey Mal Tiempo, Carrasco, Loma de Tola."
+    },
+    "C-72": {
+      "fecha": "2026-10-19T16:32:19+00:00",
+      "mensaje_id": 59591,
+      "url": "https://t.me/empresaelectricacienfuegos1/59591",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-72  Porcino, La Caridad, Palmira (Sur)"
+    },
+    "C-82": {
+      "fecha": "2026-10-19T16:32:19+00:00",
+      "mensaje_id": 59591,
+      "url": "https://t.me/empresaelectricacienfuegos1/59591",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-82  Balboa, La Pedrera, El Tropezón."
     },
     "C-33": {
       "fecha": "2026-10-19T16:32:19+00:00",
@@ -906,6 +917,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-20  Punta Gorda (Hospital Provincial 0-24)"
+    },
+    "C-37": {
+      "fecha": "2026-10-19T17:07:37+00:00",
+      "mensaje_id": 59594,
+      "url": "https://t.me/empresaelectricacienfuegos1/59594",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠ Se comunica a nuestros clientes que se encuentra en fallo el circuito C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta"
     },
     "C-4904": {
       "fecha": "2026-10-19T13:37:41+00:00",
@@ -1248,6 +1268,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-18  Arizona, La Juanita (Hospital de Especialidades 0-24)"
+    },
+    "S-3793": {
+      "fecha": "2026-10-19T17:07:37+00:00",
+      "mensaje_id": 59594,
+      "url": "https://t.me/empresaelectricacienfuegos1/59594",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "Se afecta la sección S3793, las zonas:"
     },
     "C-6": {
       "fecha": "2026-10-19T16:32:19+00:00",
@@ -1640,12 +1669,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-82": "déficit",
-    "C-53": "déficit",
-    "C-54": "déficit",
-    "C-52": "déficit",
-    "C-72": "déficit",
-    "C-50": "déficit",
     "C-23": "avería / déficit",
     "C-70": "déficit",
     "C-63": "déficit",
@@ -1654,6 +1677,12 @@
     "C-15": "avería / déficit",
     "C-67": "avería / déficit",
     "C-90": "déficit",
+    "C-50": "déficit",
+    "C-52": "déficit",
+    "C-53": "déficit",
+    "C-54": "déficit",
+    "C-72": "déficit",
+    "C-82": "déficit",
     "C-33": "avería / déficit",
     "C-85": "déficit",
     "C-86": "déficit",
@@ -1665,6 +1694,7 @@
     "C-39": "avería / déficit",
     "C-75": "avería / déficit",
     "C-20": "déficit",
+    "C-37": "avería",
     "C-4904": "avería",
     "C-101": "avería / déficit",
     "C-55": "déficit",
@@ -1702,17 +1732,11 @@
     "C-91": "avería",
     "C-405": "avería / déficit",
     "C-408": "avería",
-    "C-18": "déficit"
+    "C-18": "déficit",
+    "S-3793": "sin precisar"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
-      "id": 59490,
-      "url": "https://t.me/empresaelectricacienfuegos1/59490",
-      "fecha": "2026-10-17T14:07:10+00:00"
-    },
     {
       "id": 59491,
       "url": "https://t.me/empresaelectricacienfuegos1/59491",
@@ -2137,6 +2161,13 @@
       "id": 59593,
       "url": "https://t.me/empresaelectricacienfuegos1/59593",
       "fecha": "2026-10-19T16:53:09+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59594,
+      "url": "https://t.me/empresaelectricacienfuegos1/59594",
+      "fecha": "2026-10-19T17:07:37+00:00"
     }
   ],
   "lectura": {
@@ -3114,7 +3145,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-19T16:32:19+00:00",
-  "total_circuitos_afectados": 63,
+  "total_circuitos_afectados": 65,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
@@ -3136,7 +3167,8 @@
     "C-94",
     "C-95",
     "S-2382",
+    "S-3793",
     "S-4820"
   ],
-  "actualizado": "2026-10-19T16:59:45.139134+00:00"
+  "actualizado": "2026-10-19T17:14:24.965359+00:00"
 }
