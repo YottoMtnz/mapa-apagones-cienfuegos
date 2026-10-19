@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-19T17:07:37+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-19T14:46:01+00:00",
-  "mensajes_leidos": 130,
+  "programado_fecha": "2026-10-19T17:28:17+00:00",
+  "mensajes_leidos": 131,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -285,7 +285,21 @@
     "C-18": [],
     "S-3793": []
   },
-  "programados": {},
+  "programados": {
+    "C-32": [
+      "Yaguaramas",
+      "Guayabales",
+      "Batey Diego. ( PSFV 0-24"
+    ],
+    "C-36": [
+      "Cumanayagua (Sur",
+      "La Guasasa",
+      "Ceibabo",
+      "La Furnia",
+      "Monasterio",
+      "El Concuní"
+    ]
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-6": {
@@ -1278,6 +1292,24 @@
       "confianza": 100,
       "texto": "Se afecta la sección S3793, las zonas:"
     },
+    "C-32": {
+      "fecha": "2026-10-19T17:28:17+00:00",
+      "mensaje_id": 59595,
+      "url": "https://t.me/empresaelectricacienfuegos1/59595",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego."
+    },
+    "C-36": {
+      "fecha": "2026-10-19T17:28:17+00:00",
+      "mensaje_id": 59595,
+      "url": "https://t.me/empresaelectricacienfuegos1/59595",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego."
+    },
     "C-6": {
       "fecha": "2026-10-19T16:32:19+00:00",
       "mensaje_id": 59591,
@@ -1437,65 +1469,6 @@
         "Calle 35 de Ave 58 hasta Ave 64",
         "Ave 58 de Calle 47 hasta Calle 49",
         "Calle 47 de Ave 54 hasta Ave 58"
-      ]
-    },
-    "C-32": {
-      "fecha": "2026-10-19T16:32:19+00:00",
-      "mensaje_id": 59591,
-      "url": "https://t.me/empresaelectricacienfuegos1/59591",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-63  Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-19T13:52:36+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-19T12:01:32+00:00",
-        "mensaje_id": 59578,
-        "url": "https://t.me/empresaelectricacienfuegos1/59578",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)"
-      },
-      "lugares": [
-        "Yaguaramas",
-        "Guayabales",
-        "Batey Diego. ( PSFV 0-24"
-      ]
-    },
-    "C-36": {
-      "fecha": "2026-10-19T16:32:19+00:00",
-      "mensaje_id": 59591,
-      "url": "https://t.me/empresaelectricacienfuegos1/59591",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-63  Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-19T14:33:11+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-19T13:52:36+00:00",
-        "mensaje_id": 59584,
-        "url": "https://t.me/empresaelectricacienfuegos1/59584",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-36  \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
-      },
-      "lugares": [
-        "Cumanayagua (Sur",
-        "La Guasasa",
-        "Ceibabo",
-        "La Furnia",
-        "Monasterio",
-        "El Concuní"
       ]
     },
     "C-25": {
@@ -1662,7 +1635,18 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-32": {
+      "inicio": null,
+      "fin": "2026-10-20T05:28:17+00:00",
+      "fecha_ambigua": false
+    },
+    "C-36": {
+      "inicio": null,
+      "fin": "2026-10-20T05:28:17+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -2172,7 +2156,7 @@
   ],
   "lectura": {
     "texto": 74,
-    "imagenes": 56,
+    "imagenes": 57,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -3146,7 +3130,7 @@
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-19T16:32:19+00:00",
   "total_circuitos_afectados": 65,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3170,5 +3154,5 @@
     "S-3793",
     "S-4820"
   ],
-  "actualizado": "2026-10-19T17:14:24.965359+00:00"
+  "actualizado": "2026-10-19T17:29:29.063413+00:00"
 }
