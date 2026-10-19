@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-19T19:09:46+00:00",
+  "reporte_fecha": "2026-10-19T19:24:29+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-19T19:00:30+00:00",
@@ -1042,9 +1042,9 @@
       "texto": "👉C-69  Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
     "C-19": {
-      "fecha": "2026-10-19T13:37:41+00:00",
-      "mensaje_id": 59582,
-      "url": "https://t.me/empresaelectricacienfuegos1/59582",
+      "fecha": "2026-10-19T19:24:29+00:00",
+      "mensaje_id": 59603,
+      "url": "https://t.me/empresaelectricacienfuegos1/59603",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1539,13 +1539,6 @@
   "pendientes_revision": [
     {
       "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de 2026 MW a las 19:20 horas.*",
-      "id": 59494,
-      "url": "https://t.me/empresaelectricacienfuegos1/59494",
-      "fecha": "2026-10-17T15:22:46+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
       "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
       "id": 59495,
       "url": "https://t.me/empresaelectricacienfuegos1/59495",
@@ -1969,11 +1962,18 @@
       "id": 59602,
       "url": "https://t.me/empresaelectricacienfuegos1/59602",
       "fecha": "2026-10-19T19:09:46+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59603,
+      "url": "https://t.me/empresaelectricacienfuegos1/59603",
+      "fecha": "2026-10-19T19:24:29+00:00"
     }
   ],
   "lectura": {
-    "texto": 76,
-    "imagenes": 58,
+    "texto": 75,
+    "imagenes": 59,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -2971,5 +2971,5 @@
     "S-3793",
     "S-4820"
   ],
-  "actualizado": "2026-10-19T19:14:22.658651+00:00"
+  "actualizado": "2026-10-19T19:29:28.553279+00:00"
 }
