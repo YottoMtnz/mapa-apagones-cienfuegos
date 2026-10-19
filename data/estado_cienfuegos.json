@@ -6,8 +6,18 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-18T20:46:10+00:00",
-  "mensajes_leidos": 143,
+  "mensajes_leidos": 142,
   "afectados": {
+    "C-95": [],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
+    ],
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
+    ],
     "C-82": [
       "Balboa",
       "La Pedrera",
@@ -54,16 +64,6 @@
       "La Leona",
       "Mijalito",
       "Matún"
-    ],
-    "C-95": [],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
-    ],
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
     ],
     "C-43": [],
     "C-63": [
@@ -495,6 +495,33 @@
     ]
   },
   "evidencias": {
+    "C-95": {
+      "fecha": "2026-10-19T01:48:36+00:00",
+      "mensaje_id": 59570,
+      "url": "https://t.me/empresaelectricacienfuegos1/59570",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-95 \"Refinería, Carolina."
+    },
+    "C-67": {
+      "fecha": "2026-10-19T01:48:36+00:00",
+      "mensaje_id": 59570,
+      "url": "https://t.me/empresaelectricacienfuegos1/59570",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 \"El Crucero, Guaos, Naranjito."
+    },
+    "C-15": {
+      "fecha": "2026-10-19T01:48:36+00:00",
+      "mensaje_id": 59570,
+      "url": "https://t.me/empresaelectricacienfuegos1/59570",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
     "C-82": {
       "fecha": "2026-10-19T01:48:36+00:00",
       "mensaje_id": 59570,
@@ -584,33 +611,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
-    },
-    "C-95": {
-      "fecha": "2026-10-19T01:48:36+00:00",
-      "mensaje_id": 59570,
-      "url": "https://t.me/empresaelectricacienfuegos1/59570",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-95 \"Refinería, Carolina."
-    },
-    "C-67": {
-      "fecha": "2026-10-19T01:48:36+00:00",
-      "mensaje_id": 59570,
-      "url": "https://t.me/empresaelectricacienfuegos1/59570",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-67 \"El Crucero, Guaos, Naranjito."
-    },
-    "C-15": {
-      "fecha": "2026-10-19T01:48:36+00:00",
-      "mensaje_id": 59570,
-      "url": "https://t.me/empresaelectricacienfuegos1/59570",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-15 Pepito Tey, Guabairo."
     },
     "C-43": {
       "fecha": "2026-10-19T01:48:36+00:00",
@@ -1241,19 +1241,19 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-95": "déficit",
+    "C-67": "déficit",
+    "C-15": "déficit",
     "C-82": "déficit",
     "C-53": "déficit",
     "C-54": "déficit",
     "C-52": "déficit",
     "C-72": "déficit",
     "C-50": "déficit",
-    "C-23": "avería / déficit",
+    "C-23": "déficit",
     "C-25": "déficit",
     "C-31": "déficit",
     "C-88": "déficit",
-    "C-95": "déficit",
-    "C-67": "déficit",
-    "C-15": "déficit",
     "C-43": "avería / déficit",
     "C-63": "déficit",
     "C-90": "déficit",
@@ -1740,7 +1740,7 @@
     }
   ],
   "lectura": {
-    "texto": 77,
+    "texto": 76,
     "imagenes": 66,
     "pdf": 0,
     "no_leidos": 14
@@ -1847,6 +1847,24 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59492"
     },
     {
+      "circuito": "C-89",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-17T15:20:46+00:00",
+      "mensaje_id": 59493,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59489",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59493"
+    },
+    {
+      "circuito": "C-95",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-17T15:20:46+00:00",
+      "mensaje_id": 59493,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59489",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59493"
+    },
+    {
       "circuito": "C-82",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -1910,24 +1928,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59493"
     },
     {
-      "circuito": "C-95",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-17T15:20:46+00:00",
-      "mensaje_id": 59493,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59489",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59493"
-    },
-    {
-      "circuito": "C-89",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-17T15:20:46+00:00",
-      "mensaje_id": 59493,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59489",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59493"
-    },
-    {
       "circuito": "C-11",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -1944,6 +1944,24 @@
       "mensaje_id": 59493,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59489",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59493"
+    },
+    {
+      "circuito": "C-67",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-17T16:39:29+00:00",
+      "mensaje_id": 59497,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59493",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59497"
+    },
+    {
+      "circuito": "C-15",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-17T16:39:29+00:00",
+      "mensaje_id": 59497,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59493",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59497"
     },
     {
       "circuito": "C-21",
@@ -1974,24 +1992,6 @@
     },
     {
       "circuito": "C-8",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-17T16:39:29+00:00",
-      "mensaje_id": 59497,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59493",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59497"
-    },
-    {
-      "circuito": "C-67",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-17T16:39:29+00:00",
-      "mensaje_id": 59497,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59493",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59497"
-    },
-    {
-      "circuito": "C-15",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-17T16:39:29+00:00",
@@ -2741,5 +2741,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-19T02:44:30.934136+00:00"
+  "actualizado": "2026-10-19T02:59:21.543027+00:00"
 }
