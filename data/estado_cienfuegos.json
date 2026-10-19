@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-19T18:09:58+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-19T17:40:31+00:00",
-  "mensajes_leidos": 131,
+  "programado_fecha": "2026-10-19T18:37:14+00:00",
+  "mensajes_leidos": 132,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -303,6 +303,19 @@
       "Rancho Luna",
       "Pasacaballo",
       "La Milpa"
+    ],
+    "C-31": [],
+    "C-88": [
+      "San Ignacio",
+      "Babiney",
+      "Carmelina",
+      "San Rafael",
+      "La Leona",
+      "Mijalito",
+      "Matún"
+    ],
+    "C-25": [
+      "Abreus (Pueblo"
     ]
   },
   "confirmados_con_servicio": {},
@@ -1324,6 +1337,33 @@
       "confianza": 100,
       "texto": "👉C-6 Rancho Luna, Pasacaballo, La Milpa"
     },
+    "C-31": {
+      "fecha": "2026-10-19T18:37:14+00:00",
+      "mensaje_id": 59599,
+      "url": "https://t.me/empresaelectricacienfuegos1/59599",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
+    },
+    "C-88": {
+      "fecha": "2026-10-19T18:37:14+00:00",
+      "mensaje_id": 59599,
+      "url": "https://t.me/empresaelectricacienfuegos1/59599",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
+    },
+    "C-25": {
+      "fecha": "2026-10-19T18:37:14+00:00",
+      "mensaje_id": 59599,
+      "url": "https://t.me/empresaelectricacienfuegos1/59599",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
+    },
     "C-17": {
       "fecha": "2026-10-19T18:09:58+00:00",
       "mensaje_id": 59598,
@@ -1347,62 +1387,6 @@
         "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
       },
       "lugares": []
-    },
-    "C-31": {
-      "fecha": "2026-10-19T18:09:58+00:00",
-      "mensaje_id": 59598,
-      "url": "https://t.me/empresaelectricacienfuegos1/59598",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-63  Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-19T13:52:36+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-10-19T12:01:32+00:00",
-        "mensaje_id": 59578,
-        "url": "https://t.me/empresaelectricacienfuegos1/59578",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
-      },
-      "lugares": []
-    },
-    "C-88": {
-      "fecha": "2026-10-19T18:09:58+00:00",
-      "mensaje_id": 59598,
-      "url": "https://t.me/empresaelectricacienfuegos1/59598",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-63  Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-19T13:52:36+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-10-19T12:01:32+00:00",
-        "mensaje_id": 59578,
-        "url": "https://t.me/empresaelectricacienfuegos1/59578",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
-      },
-      "lugares": [
-        "San Ignacio",
-        "Babiney",
-        "Carmelina",
-        "San Rafael",
-        "La Leona",
-        "Mijalito",
-        "Matún"
-      ]
     },
     "C-59": {
       "fecha": "2026-10-19T18:09:58+00:00",
@@ -1455,32 +1439,6 @@
         "Calle 35 de Ave 58 hasta Ave 64",
         "Ave 58 de Calle 47 hasta Calle 49",
         "Calle 47 de Ave 54 hasta Ave 58"
-      ]
-    },
-    "C-25": {
-      "fecha": "2026-10-19T18:09:58+00:00",
-      "mensaje_id": 59598,
-      "url": "https://t.me/empresaelectricacienfuegos1/59598",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-63  Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-19T15:36:59+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-19T14:33:11+00:00",
-        "mensaje_id": 59585,
-        "url": "https://t.me/empresaelectricacienfuegos1/59585",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-25  Abreus (Pueblo)."
-      },
-      "lugares": [
-        "Abreus (Pueblo"
       ]
     },
     "C-58": {
@@ -1635,6 +1593,21 @@
     "C-6": {
       "inicio": null,
       "fin": "2026-10-20T05:40:31+00:00",
+      "fecha_ambigua": false
+    },
+    "C-31": {
+      "inicio": null,
+      "fin": "2026-10-20T06:37:14+00:00",
+      "fecha_ambigua": false
+    },
+    "C-88": {
+      "inicio": null,
+      "fin": "2026-10-20T06:37:14+00:00",
+      "fecha_ambigua": false
+    },
+    "C-25": {
+      "inicio": null,
+      "fin": "2026-10-20T06:37:14+00:00",
       "fecha_ambigua": false
     }
   },
@@ -2148,7 +2121,7 @@
   ],
   "lectura": {
     "texto": 75,
-    "imagenes": 56,
+    "imagenes": 57,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -3122,7 +3095,7 @@
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-19T18:09:58+00:00",
   "total_circuitos_afectados": 65,
-  "total_circuitos_programados": 3,
+  "total_circuitos_programados": 6,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3146,5 +3119,5 @@
     "S-3793",
     "S-4820"
   ],
-  "actualizado": "2026-10-19T18:29:23.746526+00:00"
+  "actualizado": "2026-10-19T18:44:16.119407+00:00"
 }
