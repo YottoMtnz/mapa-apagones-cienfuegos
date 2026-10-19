@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-19T17:07:37+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-19T17:28:17+00:00",
-  "mensajes_leidos": 131,
+  "programado_fecha": "2026-10-19T17:40:31+00:00",
+  "mensajes_leidos": 132,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -298,6 +298,11 @@
       "La Furnia",
       "Monasterio",
       "El Concuní"
+    ],
+    "C-6": [
+      "Rancho Luna",
+      "Pasacaballo",
+      "La Milpa"
     ]
   },
   "confirmados_con_servicio": {},
@@ -1311,32 +1316,13 @@
       "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego."
     },
     "C-6": {
-      "fecha": "2026-10-19T16:32:19+00:00",
-      "mensaje_id": 59591,
-      "url": "https://t.me/empresaelectricacienfuegos1/59591",
+      "fecha": "2026-10-19T17:40:31+00:00",
+      "mensaje_id": 59596,
+      "url": "https://t.me/empresaelectricacienfuegos1/59596",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-63  Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-18T14:15:00+00:00",
-      "listas_consecutivas": 18,
-      "aviso_anterior": {
-        "fecha": "2026-10-18T12:58:54+00:00",
-        "mensaje_id": 59529,
-        "url": "https://t.me/empresaelectricacienfuegos1/59529",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-6 \"Rancho Luna, Pasacaballo, La Milpa."
-      },
-      "lugares": [
-        "Rancho Luna",
-        "Pasacaballo",
-        "La Milpa"
-      ]
+      "texto": "👉C-6 Rancho Luna, Pasacaballo, La Milpa"
     },
     "C-17": {
       "fecha": "2026-10-19T16:32:19+00:00",
@@ -1644,6 +1630,11 @@
     "C-36": {
       "inicio": null,
       "fin": "2026-10-20T05:28:17+00:00",
+      "fecha_ambigua": false
+    },
+    "C-6": {
+      "inicio": null,
+      "fin": "2026-10-20T05:40:31+00:00",
       "fecha_ambigua": false
     }
   },
@@ -2156,7 +2147,7 @@
   ],
   "lectura": {
     "texto": 74,
-    "imagenes": 57,
+    "imagenes": 58,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -3130,7 +3121,7 @@
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-19T16:32:19+00:00",
   "total_circuitos_afectados": 65,
-  "total_circuitos_programados": 2,
+  "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3154,5 +3145,5 @@
     "S-3793",
     "S-4820"
   ],
-  "actualizado": "2026-10-19T17:29:29.063413+00:00"
+  "actualizado": "2026-10-19T17:44:22.782784+00:00"
 }
