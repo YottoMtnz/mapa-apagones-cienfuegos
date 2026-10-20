@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-20T18:42:03+00:00",
+  "reporte_fecha": "2026-10-20T19:15:15+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-20T19:11:51+00:00",
@@ -36,7 +36,6 @@
     "C-102": [
       "La Ciruela"
     ],
-    "C-40": [],
     "C-43": [],
     "C-65": [
       "Centro histórico",
@@ -154,23 +153,6 @@
     "C-86": [
       "Cumanayagua",
       "emisora de radio"
-    ],
-    "C-42": [
-      "Viet Nam",
-      "Real Campiña",
-      "Guanito"
-    ],
-    "C-73": [
-      "Perseverancia",
-      "1ro de Mayo"
-    ],
-    "C-78": [
-      "Plan Arroz",
-      "La Paquita",
-      "Galeón",
-      "Batey Santana",
-      "Guevara",
-      "Aguada (Oeste"
     ]
   },
   "programados": {
@@ -229,7 +211,44 @@
       "Parque Martí"
     ]
   },
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-40": {
+      "fecha": "2026-10-20T19:15:15+00:00",
+      "mensaje_id": 59643,
+      "url": "https://t.me/empresaelectricacienfuegos1/59643",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-40 Truebas, Batey Cantera de Mármol, La Lima."
+    },
+    "C-42": {
+      "fecha": "2026-10-20T19:15:15+00:00",
+      "mensaje_id": 59643,
+      "url": "https://t.me/empresaelectricacienfuegos1/59643",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito."
+    },
+    "C-73": {
+      "fecha": "2026-10-20T19:15:15+00:00",
+      "mensaje_id": 59643,
+      "url": "https://t.me/empresaelectricacienfuegos1/59643",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-73 Perseverancia, 1ro de Mayo."
+    },
+    "C-78": {
+      "fecha": "2026-10-20T19:15:15+00:00",
+      "mensaje_id": 59643,
+      "url": "https://t.me/empresaelectricacienfuegos1/59643",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste)."
+    }
+  },
   "restablecimientos_probables": {
     "C-17": {
       "fecha": "2026-10-20T18:23:33+00:00",
@@ -933,15 +952,6 @@
       "confianza": 100,
       "texto": "👉C-102  La Ciruela"
     },
-    "C-40": {
-      "fecha": "2026-10-20T18:42:03+00:00",
-      "mensaje_id": 59641,
-      "url": "https://t.me/empresaelectricacienfuegos1/59641",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-40 Truebas, Batey Cantera de Mármol, La Lima."
-    },
     "C-43": {
       "fecha": "2026-10-20T18:23:33+00:00",
       "mensaje_id": 59640,
@@ -1230,33 +1240,6 @@
       "confianza": 100,
       "texto": "👉C-86 \"Cumanayagua, emisora de radio\""
     },
-    "C-42": {
-      "fecha": "2026-10-20T18:42:03+00:00",
-      "mensaje_id": 59641,
-      "url": "https://t.me/empresaelectricacienfuegos1/59641",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito."
-    },
-    "C-73": {
-      "fecha": "2026-10-20T18:42:03+00:00",
-      "mensaje_id": 59641,
-      "url": "https://t.me/empresaelectricacienfuegos1/59641",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-73 Perseverancia, 1ro de Mayo."
-    },
-    "C-78": {
-      "fecha": "2026-10-20T18:42:03+00:00",
-      "mensaje_id": 59641,
-      "url": "https://t.me/empresaelectricacienfuegos1/59641",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste)."
-    },
     "C-11": {
       "fecha": "2026-10-20T17:56:16+00:00",
       "mensaje_id": 59638,
@@ -1346,6 +1329,42 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-27 Barrio Matadero, Juraguá."
+    },
+    "C-40": {
+      "fecha": "2026-10-20T19:15:15+00:00",
+      "mensaje_id": 59643,
+      "url": "https://t.me/empresaelectricacienfuegos1/59643",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-40 Truebas, Batey Cantera de Mármol, La Lima."
+    },
+    "C-42": {
+      "fecha": "2026-10-20T19:15:15+00:00",
+      "mensaje_id": 59643,
+      "url": "https://t.me/empresaelectricacienfuegos1/59643",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito."
+    },
+    "C-73": {
+      "fecha": "2026-10-20T19:15:15+00:00",
+      "mensaje_id": 59643,
+      "url": "https://t.me/empresaelectricacienfuegos1/59643",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-73 Perseverancia, 1ro de Mayo."
+    },
+    "C-78": {
+      "fecha": "2026-10-20T19:15:15+00:00",
+      "mensaje_id": 59643,
+      "url": "https://t.me/empresaelectricacienfuegos1/59643",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste)."
     },
     "C-17": {
       "fecha": "2026-10-20T18:23:33+00:00",
@@ -1772,7 +1791,6 @@
     "C-49": "déficit",
     "C-103": "déficit",
     "C-102": "déficit",
-    "C-40": "avería",
     "C-43": "déficit",
     "C-65": "déficit",
     "C-66": "déficit",
@@ -1804,10 +1822,7 @@
     "C-53": "déficit",
     "C-54": "déficit",
     "C-20": "déficit",
-    "C-86": "déficit",
-    "C-42": "avería",
-    "C-73": "avería",
-    "C-78": "avería"
+    "C-86": "déficit"
   },
   "error": null,
   "pendientes_revision": [
@@ -2288,42 +2303,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-69",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-18T23:05:19+00:00",
-      "mensaje_id": 59567,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59562",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59567"
-    },
-    {
-      "circuito": "C-2",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-19T01:48:36+00:00",
-      "mensaje_id": 59570,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59569",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59570"
-    },
-    {
-      "circuito": "C-3",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-19T01:48:36+00:00",
-      "mensaje_id": 59570,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59569",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59570"
-    },
-    {
-      "circuito": "C-5",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-19T01:48:36+00:00",
-      "mensaje_id": 59570,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59569",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59570"
-    },
     {
       "circuito": "C-15",
       "tipo": "salida_lista",
@@ -3187,11 +3166,47 @@
       "mensaje_id": 59640,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59633",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59640"
+    },
+    {
+      "circuito": "C-40",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-20T19:15:15+00:00",
+      "mensaje_id": 59643,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59641",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59643"
+    },
+    {
+      "circuito": "C-42",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-20T19:15:15+00:00",
+      "mensaje_id": 59643,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59641",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59643"
+    },
+    {
+      "circuito": "C-73",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-20T19:15:15+00:00",
+      "mensaje_id": 59643,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59641",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59643"
+    },
+    {
+      "circuito": "C-78",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-20T19:15:15+00:00",
+      "mensaje_id": 59643,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59641",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59643"
     }
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-20T18:23:33+00:00",
-  "total_circuitos_afectados": 43,
+  "total_circuitos_afectados": 39,
   "total_circuitos_programados": 10,
   "total_restablecimientos_probables": 22,
   "circuitos_sin_catalogar": [
@@ -3200,7 +3215,6 @@
     "C-2",
     "C-20",
     "C-31",
-    "C-40",
     "C-407",
     "C-43",
     "C-48",
@@ -3211,5 +3225,5 @@
     "S-3793",
     "S-4820"
   ],
-  "actualizado": "2026-10-20T19:14:21.275180+00:00"
+  "actualizado": "2026-10-20T19:29:22.406351+00:00"
 }
