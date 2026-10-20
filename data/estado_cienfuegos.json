@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-20T23:02:04+00:00",
+  "reporte_fecha": "2026-10-20T23:33:21+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-20T21:37:31+00:00",
@@ -22,15 +22,6 @@
       "El Crucero",
       "Guaos",
       "Naranjito"
-    ],
-    "C-33": [
-      "Arimao",
-      "Las Moscas",
-      "Vegas Viejas",
-      "Santa Martina",
-      "San Antón",
-      "Quesada",
-      "Callejón del Palmar"
     ],
     "C-103": [
       "Santiago de Cartagena",
@@ -80,7 +71,6 @@
     "C-19": [
       "Tulipán"
     ],
-    "C-95": [],
     "C-90": [
       "FW1558) La Pollera"
     ],
@@ -274,6 +264,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-40 Truebas, Batey Cantera de Mármol, La Lima."
+    },
+    "C-33": {
+      "fecha": "2026-10-20T23:33:21+00:00",
+      "mensaje_id": 59654,
+      "url": "https://t.me/empresaelectricacienfuegos1/59654",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     }
   },
   "restablecimientos_probables": {
@@ -722,15 +721,6 @@
       "confianza": 100,
       "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     },
-    "C-33": {
-      "fecha": "2026-10-20T21:02:09+00:00",
-      "mensaje_id": 59648,
-      "url": "https://t.me/empresaelectricacienfuegos1/59648",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
-    },
     "C-103": {
       "fecha": "2026-10-20T23:02:04+00:00",
       "mensaje_id": 59653,
@@ -865,15 +855,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-19 Tulipán"
-    },
-    "C-95": {
-      "fecha": "2026-10-20T11:31:43+00:00",
-      "mensaje_id": 59623,
-      "url": "https://t.me/empresaelectricacienfuegos1/59623",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "⚠ Se comunica a nuestros clientes que se encuentra en avería por línea primaria dañada el circuito C-95 Refinería, Carolina"
     },
     "C-90": {
       "fecha": "2026-10-20T23:02:04+00:00",
@@ -1217,6 +1198,15 @@
       "confianza": 100,
       "texto": "👉C-40 Truebas, Batey Cantera de Mármol, La Lima."
     },
+    "C-33": {
+      "fecha": "2026-10-20T23:33:21+00:00",
+      "mensaje_id": 59654,
+      "url": "https://t.me/empresaelectricacienfuegos1/59654",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+    },
     "C-17": {
       "fecha": "2026-10-20T23:02:04+00:00",
       "mensaje_id": 59653,
@@ -1537,7 +1527,6 @@
     "C-407": "déficit",
     "C-15": "déficit",
     "C-67": "avería",
-    "C-33": "emergencia",
     "C-103": "déficit",
     "C-102": "déficit",
     "C-43": "déficit",
@@ -1553,7 +1542,6 @@
     "C-57": "déficit",
     "C-70": "déficit",
     "C-19": "avería",
-    "C-95": "avería",
     "C-90": "déficit",
     "S-3793": "avería",
     "C-63": "avería",
@@ -2076,15 +2064,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-94",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-19T10:46:23+00:00",
-      "mensaje_id": 59575,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59573",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59575"
-    },
     {
       "circuito": "C-30",
       "tipo": "salida_lista",
@@ -2975,11 +2954,20 @@
       "mensaje_id": 59653,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59651",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59653"
+    },
+    {
+      "circuito": "C-33",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-20T23:33:21+00:00",
+      "mensaje_id": 59654,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59648",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59654"
     }
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-20T23:02:04+00:00",
-  "total_circuitos_afectados": 52,
+  "total_circuitos_afectados": 50,
   "total_circuitos_programados": 6,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
@@ -2993,10 +2981,9 @@
     "C-48",
     "C-58",
     "C-59",
-    "C-95",
     "S-2382",
     "S-3793",
     "S-4820"
   ],
-  "actualizado": "2026-10-20T23:24:19.175515+00:00"
+  "actualizado": "2026-10-20T23:39:21.350234+00:00"
 }
