@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-20T18:42:03+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-20T17:56:16+00:00",
-  "mensajes_leidos": 141,
+  "programado_fecha": "2026-10-20T19:11:51+00:00",
+  "mensajes_leidos": 142,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -205,6 +205,28 @@
       "Congojas",
       "La Lolita",
       "Parque Alto"
+    ],
+    "C-27": [
+      "Barrio Matadero",
+      "Juraguá"
+    ],
+    "C-28": [
+      "CEN",
+      "Castillo de Jagua",
+      "La Loma"
+    ],
+    "C-84": [
+      "Espartaco (Este",
+      "Maleza",
+      "Dagame",
+      "Paso del Medio",
+      "San Fernando de Camarones",
+      "Jurisdicción",
+      "Manaquita"
+    ],
+    "C-5": [
+      "Boulevard",
+      "Parque Martí"
     ]
   },
   "confirmados_con_servicio": {},
@@ -1289,6 +1311,42 @@
       "confianza": 100,
       "texto": "👉C-11 Ariza, Silverita, Nuevo México."
     },
+    "C-27": {
+      "fecha": "2026-10-20T19:11:51+00:00",
+      "mensaje_id": 59642,
+      "url": "https://t.me/empresaelectricacienfuegos1/59642",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-27 Barrio Matadero, Juraguá."
+    },
+    "C-28": {
+      "fecha": "2026-10-20T19:11:51+00:00",
+      "mensaje_id": 59642,
+      "url": "https://t.me/empresaelectricacienfuegos1/59642",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-27 Barrio Matadero, Juraguá."
+    },
+    "C-84": {
+      "fecha": "2026-10-20T19:11:51+00:00",
+      "mensaje_id": 59642,
+      "url": "https://t.me/empresaelectricacienfuegos1/59642",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-27 Barrio Matadero, Juraguá."
+    },
+    "C-5": {
+      "fecha": "2026-10-20T19:11:51+00:00",
+      "mensaje_id": 59642,
+      "url": "https://t.me/empresaelectricacienfuegos1/59642",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-27 Barrio Matadero, Juraguá."
+    },
     "C-17": {
       "fecha": "2026-10-20T18:23:33+00:00",
       "mensaje_id": 59640,
@@ -1364,33 +1422,6 @@
         "Batey 2 Hermanos"
       ]
     },
-    "C-5": {
-      "fecha": "2026-10-20T18:23:33+00:00",
-      "mensaje_id": 59640,
-      "url": "https://t.me/empresaelectricacienfuegos1/59640",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-20T12:57:52+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-10-20T11:40:36+00:00",
-        "mensaje_id": 59624,
-        "url": "https://t.me/empresaelectricacienfuegos1/59624",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-5    Boulevard, Parque Martí"
-      },
-      "lugares": [
-        "Boulevard",
-        "Parque Martí"
-      ]
-    },
     "C-55": {
       "fecha": "2026-10-20T18:23:33+00:00",
       "mensaje_id": 59640,
@@ -1415,93 +1446,6 @@
       },
       "lugares": [
         "Cruces (Sur"
-      ]
-    },
-    "C-84": {
-      "fecha": "2026-10-20T18:23:33+00:00",
-      "mensaje_id": 59640,
-      "url": "https://t.me/empresaelectricacienfuegos1/59640",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-20T14:02:06+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-20T12:57:52+00:00",
-        "mensaje_id": 59628,
-        "url": "https://t.me/empresaelectricacienfuegos1/59628",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
-      },
-      "lugares": [
-        "Espartaco (Este",
-        "Maleza",
-        "Dagame",
-        "Paso del Medio",
-        "San Fernando de Camarones",
-        "Jurisdicción",
-        "Manaquita"
-      ]
-    },
-    "C-28": {
-      "fecha": "2026-10-20T18:23:33+00:00",
-      "mensaje_id": 59640,
-      "url": "https://t.me/empresaelectricacienfuegos1/59640",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-20T14:02:06+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-20T12:57:52+00:00",
-        "mensaje_id": 59628,
-        "url": "https://t.me/empresaelectricacienfuegos1/59628",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-28 CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)"
-      },
-      "lugares": [
-        "CEN",
-        "Castillo de Jagua",
-        "La Loma"
-      ]
-    },
-    "C-27": {
-      "fecha": "2026-10-20T18:23:33+00:00",
-      "mensaje_id": 59640,
-      "url": "https://t.me/empresaelectricacienfuegos1/59640",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-20T14:02:06+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-20T12:57:52+00:00",
-        "mensaje_id": 59628,
-        "url": "https://t.me/empresaelectricacienfuegos1/59628",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
-      },
-      "lugares": [
-        "Barrio Matadero",
-        "Juraguá"
       ]
     },
     "C-35": {
@@ -1792,6 +1736,26 @@
     "C-8": {
       "inicio": null,
       "fin": "2026-10-21T05:56:16+00:00",
+      "fecha_ambigua": false
+    },
+    "C-27": {
+      "inicio": null,
+      "fin": "2026-10-21T07:11:51+00:00",
+      "fecha_ambigua": false
+    },
+    "C-28": {
+      "inicio": null,
+      "fin": "2026-10-21T07:11:51+00:00",
+      "fecha_ambigua": false
+    },
+    "C-84": {
+      "inicio": null,
+      "fin": "2026-10-21T07:11:51+00:00",
+      "fecha_ambigua": false
+    },
+    "C-5": {
+      "inicio": null,
+      "fin": "2026-10-21T07:11:51+00:00",
       "fecha_ambigua": false
     }
   },
@@ -2273,7 +2237,7 @@
   ],
   "lectura": {
     "texto": 78,
-    "imagenes": 63,
+    "imagenes": 64,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -3228,7 +3192,7 @@
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-20T18:23:33+00:00",
   "total_circuitos_afectados": 43,
-  "total_circuitos_programados": 6,
+  "total_circuitos_programados": 10,
   "total_restablecimientos_probables": 22,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3247,5 +3211,5 @@
     "S-3793",
     "S-4820"
   ],
-  "actualizado": "2026-10-20T18:59:29.651231+00:00"
+  "actualizado": "2026-10-20T19:14:21.275180+00:00"
 }
