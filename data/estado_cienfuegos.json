@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-20T19:55:50+00:00",
-  "mensajes_leidos": 144,
+  "mensajes_leidos": 143,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -2340,7 +2340,7 @@
   ],
   "lectura": {
     "texto": 79,
-    "imagenes": 65,
+    "imagenes": 64,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -3040,15 +3040,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59629"
     },
     {
-      "circuito": "C-33",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-20T15:22:17+00:00",
-      "mensaje_id": 59630,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59629",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59630"
-    },
-    {
       "circuito": "C-15",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -3059,6 +3050,15 @@
     },
     {
       "circuito": "C-67",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-20T15:22:17+00:00",
+      "mensaje_id": 59630,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59629",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59630"
+    },
+    {
+      "circuito": "C-33",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-20T15:22:17+00:00",
@@ -3313,5 +3313,5 @@
     "S-3793",
     "S-4820"
   ],
-  "actualizado": "2026-10-20T19:59:31.803035+00:00"
+  "actualizado": "2026-10-20T20:07:45.037998+00:00"
 }
