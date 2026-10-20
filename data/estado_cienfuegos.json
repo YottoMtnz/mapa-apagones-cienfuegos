@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-20T15:22:17+00:00",
+  "reporte_fecha": "2026-10-20T16:15:04+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-20T16:10:39+00:00",
-  "mensajes_leidos": 135,
+  "mensajes_leidos": 136,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -186,7 +186,17 @@
       "Cumanayagua (Centro"
     ]
   },
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-20": {
+      "fecha": "2026-10-20T16:15:04+00:00",
+      "mensaje_id": 59632,
+      "url": "https://t.me/empresaelectricacienfuegos1/59632",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-20 Punta Gorda."
+    }
+  },
   "restablecimientos_probables": {
     "C-17": {
       "fecha": "2026-10-20T15:22:17+00:00",
@@ -1325,6 +1335,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
+    },
+    "C-20": {
+      "fecha": "2026-10-20T16:15:04+00:00",
+      "mensaje_id": 59632,
+      "url": "https://t.me/empresaelectricacienfuegos1/59632",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-20 Punta Gorda."
     },
     "C-17": {
       "fecha": "2026-10-20T15:22:17+00:00",
@@ -2484,7 +2503,7 @@
     }
   ],
   "lectura": {
-    "texto": 77,
+    "texto": 78,
     "imagenes": 58,
     "pdf": 0,
     "no_leidos": 10
@@ -2535,15 +2554,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-19",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-18T18:16:17+00:00",
-      "mensaje_id": 59542,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59540",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59542"
-    },
     {
       "circuito": "C-80",
       "tipo": "salida_lista",
@@ -3434,6 +3444,15 @@
       "mensaje_id": 59630,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59629",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59630"
+    },
+    {
+      "circuito": "C-20",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-20T16:15:04+00:00",
+      "mensaje_id": 59632,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59528",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59632"
     }
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
@@ -3456,5 +3475,5 @@
     "S-3793",
     "S-4820"
   ],
-  "actualizado": "2026-10-20T16:13:57.878839+00:00"
+  "actualizado": "2026-10-20T16:29:23.826476+00:00"
 }
