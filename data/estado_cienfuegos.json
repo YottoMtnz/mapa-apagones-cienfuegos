@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-20T03:31:11+00:00",
-  "mensajes_leidos": 135,
+  "mensajes_leidos": 136,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -88,16 +88,6 @@
       "Boca Ambuila"
     ],
     "C-20": [],
-    "C-37": [
-      "El Tablón",
-      "Los Coquitos",
-      "El Túnel",
-      "Jovero",
-      "El Mamey",
-      "Crucesitas",
-      "El Nicho",
-      "Vegueta"
-    ],
     "C-101": [
       "Cartagena",
       "La Modelo",
@@ -652,15 +642,6 @@
       "confianza": 100,
       "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
     },
-    "C-37": {
-      "fecha": "2026-10-19T17:07:37+00:00",
-      "mensaje_id": 59594,
-      "url": "https://t.me/empresaelectricacienfuegos1/59594",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "⚠ Se comunica a nuestros clientes que se encuentra en fallo el circuito C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta"
-    },
     "C-101": {
       "fecha": "2026-10-20T05:03:41+00:00",
       "mensaje_id": 59619,
@@ -1213,7 +1194,6 @@
     "C-39": "déficit",
     "C-75": "déficit",
     "C-20": "déficit",
-    "C-37": "avería",
     "C-101": "déficit",
     "C-55": "déficit",
     "C-78": "déficit",
@@ -1252,12 +1232,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "id": 59504,
-      "url": "https://t.me/empresaelectricacienfuegos1/59504",
-      "fecha": "2026-10-17T20:36:25+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "motivo": "estado_ambiguo",
       "texto": "⚠Se comunica a nuestros clientes que  se encuentra restablecido el servicio en el C-33, quedando afectado a partir de la S-3389, afectadas las zonas:",
@@ -1683,11 +1657,18 @@
       "id": 59611,
       "url": "https://t.me/empresaelectricacienfuegos1/59611",
       "fecha": "2026-10-19T22:49:40+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\ngall\nUnion Eléctrica UNE\neee\nUNE\n29 min: @\n© 22:06 || En linea la CTE Antonio Guiteras\nSubiendo carga\nE,\ni\n| be\n\\t\nRA\nI\nyi\n-\ntia\ntn\"\ni\nSC ee\nes\na!",
+      "id": 59620,
+      "url": "https://t.me/empresaelectricacienfuegos1/59620",
+      "fecha": "2026-10-20T05:07:39+00:00"
     }
   ],
   "lectura": {
     "texto": 77,
-    "imagenes": 58,
+    "imagenes": 59,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -2660,7 +2641,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-20T05:03:41+00:00",
-  "total_circuitos_afectados": 53,
+  "total_circuitos_afectados": 52,
   "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 6,
   "circuitos_sin_catalogar": [
@@ -2673,5 +2654,5 @@
     "C-59",
     "C-95"
   ],
-  "actualizado": "2026-10-20T05:04:20.753526+00:00"
+  "actualizado": "2026-10-20T05:19:23.929512+00:00"
 }
