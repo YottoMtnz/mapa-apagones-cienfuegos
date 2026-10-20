@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-10-20T21:02:09+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-20T19:55:50+00:00",
+  "programado_fecha": "2026-10-20T21:37:31+00:00",
   "mensajes_leidos": 143,
   "afectados": {
     "C-23": [
@@ -229,6 +229,26 @@
     "C-15": [
       "Pepito Tey",
       "Guabairo"
+    ],
+    "C-2": [],
+    "C-3": [
+      "Reparto Eléctrico"
+    ],
+    "C-31": [],
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
+    ],
+    "C-88": [
+      "San Ignacio",
+      "Babiney",
+      "Carmelina",
+      "San Rafael",
+      "La Leona",
+      "Mijalito",
+      "Matún"
     ]
   },
   "confirmados_con_servicio": {
@@ -1312,13 +1332,58 @@
       "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     },
     "C-15": {
-      "fecha": "2026-10-20T19:55:50+00:00",
-      "mensaje_id": 59645,
-      "url": "https://t.me/empresaelectricacienfuegos1/59645",
+      "fecha": "2026-10-20T21:37:31+00:00",
+      "mensaje_id": 59649,
+      "url": "https://t.me/empresaelectricacienfuegos1/59649",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+      "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
+    "C-2": {
+      "fecha": "2026-10-20T21:37:31+00:00",
+      "mensaje_id": 59649,
+      "url": "https://t.me/empresaelectricacienfuegos1/59649",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
+    "C-3": {
+      "fecha": "2026-10-20T21:37:31+00:00",
+      "mensaje_id": 59649,
+      "url": "https://t.me/empresaelectricacienfuegos1/59649",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
+    "C-31": {
+      "fecha": "2026-10-20T21:37:31+00:00",
+      "mensaje_id": 59649,
+      "url": "https://t.me/empresaelectricacienfuegos1/59649",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
+    "C-69": {
+      "fecha": "2026-10-20T21:37:31+00:00",
+      "mensaje_id": 59649,
+      "url": "https://t.me/empresaelectricacienfuegos1/59649",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
+    "C-88": {
+      "fecha": "2026-10-20T21:37:31+00:00",
+      "mensaje_id": 59649,
+      "url": "https://t.me/empresaelectricacienfuegos1/59649",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15 Pepito Tey, Guabairo."
     },
     "C-40": {
       "fecha": "2026-10-20T19:15:15+00:00",
@@ -1489,141 +1554,6 @@
         "Guasimal"
       ]
     },
-    "C-31": {
-      "fecha": "2026-10-20T20:56:34+00:00",
-      "mensaje_id": 59647,
-      "url": "https://t.me/empresaelectricacienfuegos1/59647",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-20T16:37:55+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-20T15:22:17+00:00",
-        "mensaje_id": 59630,
-        "url": "https://t.me/empresaelectricacienfuegos1/59630",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
-      },
-      "lugares": []
-    },
-    "C-88": {
-      "fecha": "2026-10-20T20:56:34+00:00",
-      "mensaje_id": 59647,
-      "url": "https://t.me/empresaelectricacienfuegos1/59647",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-20T16:37:55+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-20T15:22:17+00:00",
-        "mensaje_id": 59630,
-        "url": "https://t.me/empresaelectricacienfuegos1/59630",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
-      },
-      "lugares": [
-        "San Ignacio",
-        "Babiney",
-        "Carmelina",
-        "San Rafael",
-        "La Leona",
-        "Mijalito",
-        "Matún"
-      ]
-    },
-    "C-2": {
-      "fecha": "2026-10-20T20:56:34+00:00",
-      "mensaje_id": 59647,
-      "url": "https://t.me/empresaelectricacienfuegos1/59647",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-20T16:37:55+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-20T15:22:17+00:00",
-        "mensaje_id": 59630,
-        "url": "https://t.me/empresaelectricacienfuegos1/59630",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
-      },
-      "lugares": []
-    },
-    "C-3": {
-      "fecha": "2026-10-20T20:56:34+00:00",
-      "mensaje_id": 59647,
-      "url": "https://t.me/empresaelectricacienfuegos1/59647",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-20T16:37:55+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-20T15:22:17+00:00",
-        "mensaje_id": 59630,
-        "url": "https://t.me/empresaelectricacienfuegos1/59630",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-3 Reparto Eléctrico"
-      },
-      "lugares": [
-        "Reparto Eléctrico"
-      ]
-    },
-    "C-69": {
-      "fecha": "2026-10-20T20:56:34+00:00",
-      "mensaje_id": 59647,
-      "url": "https://t.me/empresaelectricacienfuegos1/59647",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-20T16:37:55+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-20T15:22:17+00:00",
-        "mensaje_id": 59630,
-        "url": "https://t.me/empresaelectricacienfuegos1/59630",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-      },
-      "lugares": [
-        "Junco Sur",
-        "Reparto de los médicos",
-        "Las Minas",
-        "Playa Alegre"
-      ]
-    },
     "C-38": {
       "fecha": "2026-10-20T20:56:34+00:00",
       "mensaje_id": 59647,
@@ -1787,7 +1717,32 @@
     },
     "C-15": {
       "inicio": null,
-      "fin": "2026-10-21T07:55:50+00:00",
+      "fin": "2026-10-21T09:37:31+00:00",
+      "fecha_ambigua": false
+    },
+    "C-2": {
+      "inicio": null,
+      "fin": "2026-10-21T09:37:31+00:00",
+      "fecha_ambigua": false
+    },
+    "C-3": {
+      "inicio": null,
+      "fin": "2026-10-21T09:37:31+00:00",
+      "fecha_ambigua": false
+    },
+    "C-31": {
+      "inicio": null,
+      "fin": "2026-10-21T09:37:31+00:00",
+      "fecha_ambigua": false
+    },
+    "C-69": {
+      "inicio": null,
+      "fin": "2026-10-21T09:37:31+00:00",
+      "fecha_ambigua": false
+    },
+    "C-88": {
+      "inicio": null,
+      "fin": "2026-10-21T09:37:31+00:00",
       "fecha_ambigua": false
     }
   },
@@ -3228,7 +3183,7 @@
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-20T20:56:34+00:00",
   "total_circuitos_afectados": 43,
-  "total_circuitos_programados": 9,
+  "total_circuitos_programados": 14,
   "total_restablecimientos_probables": 20,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3246,5 +3201,5 @@
     "S-3793",
     "S-4820"
   ],
-  "actualizado": "2026-10-20T21:24:24.415435+00:00"
+  "actualizado": "2026-10-20T21:39:27.696194+00:00"
 }
