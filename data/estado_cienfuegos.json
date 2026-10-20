@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-20T10:27:19+00:00",
+  "reporte_fecha": "2026-10-20T10:46:28+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-20T03:31:11+00:00",
@@ -209,6 +209,9 @@
     "C-66": [
       "Reina (Parque"
     ],
+    "C-48": [],
+    "S-4820": [],
+    "S-2382": [],
     "C-18": [],
     "C-32": [
       "Yaguaramas",
@@ -460,27 +463,27 @@
           "La Pollera"
         ],
         "evidencia": {
-          "fecha": "2026-10-19T10:56:22+00:00",
-          "mensaje_id": 59576,
-          "url": "https://t.me/empresaelectricacienfuegos1/59576",
+          "fecha": "2026-10-20T10:46:28+00:00",
+          "mensaje_id": 59622,
+          "url": "https://t.me/empresaelectricacienfuegos1/59622",
           "medio": "texto",
-          "editado": "2026-10-19T10:56:35+00:00",
+          "editado": null,
           "confianza": 100,
           "texto": "👉C-90 (FW1558) La Pollera"
         },
-        "vigente": false
+        "vigente": true
       }
     ]
   },
   "evidencias": {
     "C-23": {
-      "fecha": "2026-10-20T10:27:19+00:00",
-      "mensaje_id": 59621,
-      "url": "https://t.me/empresaelectricacienfuegos1/59621",
+      "fecha": "2026-10-20T10:46:28+00:00",
+      "mensaje_id": 59622,
+      "url": "https://t.me/empresaelectricacienfuegos1/59622",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-50": {
       "fecha": "2026-10-20T10:27:19+00:00",
@@ -823,6 +826,33 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-66 Reina (Parque)"
+    },
+    "C-48": {
+      "fecha": "2026-10-20T10:46:28+00:00",
+      "mensaje_id": 59622,
+      "url": "https://t.me/empresaelectricacienfuegos1/59622",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
+    },
+    "S-4820": {
+      "fecha": "2026-10-20T10:46:28+00:00",
+      "mensaje_id": 59622,
+      "url": "https://t.me/empresaelectricacienfuegos1/59622",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
+    },
+    "S-2382": {
+      "fecha": "2026-10-20T10:46:28+00:00",
+      "mensaje_id": 59622,
+      "url": "https://t.me/empresaelectricacienfuegos1/59622",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-18": {
       "fecha": "2026-10-20T10:27:19+00:00",
@@ -1170,7 +1200,7 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "déficit",
+    "C-23": "avería / déficit",
     "C-50": "déficit",
     "C-52": "déficit",
     "C-53": "déficit",
@@ -1209,6 +1239,9 @@
     "C-29": "déficit",
     "C-65": "déficit",
     "C-66": "déficit",
+    "C-48": "avería",
+    "S-4820": "avería",
+    "S-2382": "avería",
     "C-18": "déficit",
     "C-32": "déficit",
     "C-31": "déficit",
@@ -1229,17 +1262,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "estado_ambiguo",
-      "texto": "⚠Se comunica a nuestros clientes que  se encuentra restablecido el servicio en el C-33, quedando afectado a partir de la S-3389, afectadas las zonas:",
-      "circuitos": [
-        "C-33",
-        "S-3389"
-      ],
-      "id": 59506,
-      "url": "https://t.me/empresaelectricacienfuegos1/59506",
-      "fecha": "2026-10-17T21:29:17+00:00"
-    },
     {
       "motivo": "estado_ambiguo",
       "texto": "⚠Se comunica a nuestros clientes que  se encuentra restablecido el servicio en el C-33, quedando afectado a partir de la S-3389, afectadas las zonas:",
@@ -1661,6 +1683,13 @@
       "id": 59620,
       "url": "https://t.me/empresaelectricacienfuegos1/59620",
       "fecha": "2026-10-20T05:07:39+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
+      "id": 59622,
+      "url": "https://t.me/empresaelectricacienfuegos1/59622",
+      "fecha": "2026-10-20T10:46:28+00:00"
     }
   ],
   "lectura": {
@@ -2642,7 +2671,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-20T10:27:19+00:00",
-  "total_circuitos_afectados": 56,
+  "total_circuitos_afectados": 59,
   "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 6,
   "circuitos_sin_catalogar": [
@@ -2652,9 +2681,12 @@
     "C-31",
     "C-407",
     "C-43",
+    "C-48",
     "C-58",
     "C-59",
-    "C-95"
+    "C-95",
+    "S-2382",
+    "S-4820"
   ],
-  "actualizado": "2026-10-20T10:34:26.612482+00:00"
+  "actualizado": "2026-10-20T10:49:13.580164+00:00"
 }
