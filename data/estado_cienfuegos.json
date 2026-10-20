@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-20T10:46:28+00:00",
+  "reporte_fecha": "2026-10-20T11:31:43+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-20T03:31:11+00:00",
-  "mensajes_leidos": 135,
+  "mensajes_leidos": 136,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -283,7 +283,8 @@
     ],
     "C-19": [
       "Tulipán"
-    ]
+    ],
+    "C-95": []
   },
   "programados": {
     "C-15": [
@@ -372,30 +373,6 @@
         "14 de Julio",
         "Batey 2 Hermanos"
       ]
-    },
-    "C-95": {
-      "fecha": "2026-10-20T10:27:19+00:00",
-      "mensaje_id": 59621,
-      "url": "https://t.me/empresaelectricacienfuegos1/59621",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 \"Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-19T23:17:51+00:00",
-      "listas_consecutivas": 8,
-      "aviso_anterior": {
-        "fecha": "2026-10-19T21:37:00+00:00",
-        "mensaje_id": 59610,
-        "url": "https://t.me/empresaelectricacienfuegos1/59610",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-95  \"Refinería, Carolina."
-      },
-      "lugares": []
     },
     "C-6": {
       "fecha": "2026-10-20T10:27:19+00:00",
@@ -1007,6 +984,15 @@
       "confianza": 100,
       "texto": "👉C-19 Tulipán"
     },
+    "C-95": {
+      "fecha": "2026-10-20T11:31:43+00:00",
+      "mensaje_id": 59623,
+      "url": "https://t.me/empresaelectricacienfuegos1/59623",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠ Se comunica a nuestros clientes que se encuentra en avería por línea primaria dañada el circuito C-95 Refinería, Carolina"
+    },
     "C-15": {
       "fecha": "2026-10-20T03:31:11+00:00",
       "mensaje_id": 59617,
@@ -1099,30 +1085,6 @@
         "14 de Julio",
         "Batey 2 Hermanos"
       ]
-    },
-    "C-95": {
-      "fecha": "2026-10-20T10:27:19+00:00",
-      "mensaje_id": 59621,
-      "url": "https://t.me/empresaelectricacienfuegos1/59621",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 \"Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-19T23:17:51+00:00",
-      "listas_consecutivas": 8,
-      "aviso_anterior": {
-        "fecha": "2026-10-19T21:37:00+00:00",
-        "mensaje_id": 59610,
-        "url": "https://t.me/empresaelectricacienfuegos1/59610",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-95  \"Refinería, Carolina."
-      },
-      "lugares": []
     },
     "C-6": {
       "fecha": "2026-10-20T10:27:19+00:00",
@@ -1258,21 +1220,11 @@
     "C-3": "déficit",
     "C-70": "déficit",
     "C-69": "déficit",
-    "C-19": "déficit"
+    "C-19": "déficit",
+    "C-95": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "estado_ambiguo",
-      "texto": "⚠Se comunica a nuestros clientes que  se encuentra restablecido el servicio en el C-33, quedando afectado a partir de la S-3389, afectadas las zonas:",
-      "circuitos": [
-        "C-33",
-        "S-3389"
-      ],
-      "id": 59506,
-      "url": "https://t.me/empresaelectricacienfuegos1/59506",
-      "fecha": "2026-10-17T21:29:17+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n80 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
@@ -1690,11 +1642,18 @@
       "id": 59622,
       "url": "https://t.me/empresaelectricacienfuegos1/59622",
       "fecha": "2026-10-20T10:46:28+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
+      "id": 59623,
+      "url": "https://t.me/empresaelectricacienfuegos1/59623",
+      "fecha": "2026-10-20T11:31:43+00:00"
     }
   ],
   "lectura": {
     "texto": 77,
-    "imagenes": 58,
+    "imagenes": 59,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -2671,9 +2630,9 @@
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-20T10:27:19+00:00",
-  "total_circuitos_afectados": 59,
+  "total_circuitos_afectados": 60,
   "total_circuitos_programados": 2,
-  "total_restablecimientos_probables": 6,
+  "total_restablecimientos_probables": 5,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2688,5 +2647,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-20T11:19:20.228499+00:00"
+  "actualizado": "2026-10-20T11:34:20.542355+00:00"
 }
