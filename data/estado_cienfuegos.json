@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-20T19:46:05+00:00",
+  "reporte_fecha": "2026-10-20T20:08:03+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-20T19:55:50+00:00",
@@ -14,6 +14,11 @@
       "Guayabito"
     ],
     "C-407": [],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
+    ],
     "C-80": [
       "Punta Cotica",
       "Parque José Martí"
@@ -215,11 +220,6 @@
       "El Brazo",
       "Cafetal",
       "Faisanera"
-    ],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
     ],
     "C-75": [
       "La Legua",
@@ -925,6 +925,15 @@
       "confianza": 100,
       "texto": "👉C-407  \"Cocaleca, Poligráfico, Pastorita, O'bourke.\""
     },
+    "C-67": {
+      "fecha": "2026-10-20T20:08:03+00:00",
+      "mensaje_id": 59646,
+      "url": "https://t.me/empresaelectricacienfuegos1/59646",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
+    },
     "C-80": {
       "fecha": "2026-10-20T19:46:05+00:00",
       "mensaje_id": 59644,
@@ -1340,15 +1349,6 @@
       "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     },
     "C-39": {
-      "fecha": "2026-10-20T19:55:50+00:00",
-      "mensaje_id": 59645,
-      "url": "https://t.me/empresaelectricacienfuegos1/59645",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
-    },
-    "C-67": {
       "fecha": "2026-10-20T19:55:50+00:00",
       "mensaje_id": 59645,
       "url": "https://t.me/empresaelectricacienfuegos1/59645",
@@ -1850,11 +1850,6 @@
       "fin": "2026-10-21T07:55:50+00:00",
       "fecha_ambigua": false
     },
-    "C-67": {
-      "inicio": null,
-      "fin": "2026-10-21T07:55:50+00:00",
-      "fecha_ambigua": false
-    },
     "C-75": {
       "inicio": null,
       "fin": "2026-10-21T07:55:50+00:00",
@@ -1874,6 +1869,7 @@
   "causas": {
     "C-23": "avería / déficit",
     "C-407": "déficit",
+    "C-67": "avería",
     "C-80": "déficit",
     "C-47": "déficit",
     "C-49": "déficit",
@@ -1914,12 +1910,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "id": 59523,
-      "url": "https://t.me/empresaelectricacienfuegos1/59523",
-      "fecha": "2026-10-18T10:39:53+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "id": 59525,
       "url": "https://t.me/empresaelectricacienfuegos1/59525",
@@ -2336,13 +2326,19 @@
       "id": 59641,
       "url": "https://t.me/empresaelectricacienfuegos1/59641",
       "fecha": "2026-10-20T18:42:03+00:00"
+    },
+    {
+      "id": 59646,
+      "url": "https://t.me/empresaelectricacienfuegos1/59646",
+      "fecha": "2026-10-20T20:08:03+00:00",
+      "motivo": "FloodPremiumWaitError"
     }
   ],
   "lectura": {
     "texto": 79,
     "imagenes": 64,
     "pdf": 0,
-    "no_leidos": 10
+    "no_leidos": 11
   },
   "listas_completas": {
     "deficit": {
@@ -3294,8 +3290,8 @@
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-20T19:46:05+00:00",
-  "total_circuitos_afectados": 39,
-  "total_circuitos_programados": 13,
+  "total_circuitos_afectados": 40,
+  "total_circuitos_programados": 12,
   "total_restablecimientos_probables": 22,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3313,5 +3309,5 @@
     "S-3793",
     "S-4820"
   ],
-  "actualizado": "2026-10-20T20:07:45.037998+00:00"
+  "actualizado": "2026-10-20T20:24:19.731777+00:00"
 }
