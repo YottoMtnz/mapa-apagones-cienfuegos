@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-10-21T21:09:50+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-21T19:41:34+00:00",
+  "programado_fecha": "2026-10-21T21:31:12+00:00",
   "mensajes_leidos": 126,
   "afectados": {
     "C-101": [
@@ -290,7 +290,11 @@
     ],
     "C-18": []
   },
-  "programados": {},
+  "programados": {
+    "C-19": [
+      "Tulipán"
+    ]
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-17": {
@@ -1320,7 +1324,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-19": {
+      "inicio": null,
+      "fin": "2026-10-22T09:31:12+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 65.0,
   "hora_inicio": null,
@@ -1814,8 +1824,8 @@
     }
   ],
   "lectura": {
-    "texto": 66,
-    "imagenes": 60,
+    "texto": 65,
+    "imagenes": 61,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -2796,7 +2806,7 @@
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-21T21:09:50+00:00",
   "total_circuitos_afectados": 66,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2816,5 +2826,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-21T21:19:23.591707+00:00"
+  "actualizado": "2026-10-21T21:34:37.816419+00:00"
 }
