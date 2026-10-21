@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-10-21T19:33:58+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-21T18:20:02+00:00",
+  "programado_fecha": "2026-10-21T19:41:34+00:00",
   "mensajes_leidos": 132,
   "afectados": {
     "C-101": [
@@ -285,7 +285,12 @@
       "FW1558) La Pollera"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-18": [],
+    "C-405": [
+      "Pueblo Griffo Nuevo"
+    ]
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-17": {
@@ -1096,6 +1101,24 @@
       "confianza": 100,
       "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
+    "C-18": {
+      "fecha": "2026-10-21T19:41:34+00:00",
+      "mensaje_id": 59684,
+      "url": "https://t.me/empresaelectricacienfuegos1/59684",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
+    "C-405": {
+      "fecha": "2026-10-21T19:41:34+00:00",
+      "mensaje_id": 59684,
+      "url": "https://t.me/empresaelectricacienfuegos1/59684",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
     "C-17": {
       "fecha": "2026-10-21T19:23:56+00:00",
       "mensaje_id": 59682,
@@ -1265,33 +1288,20 @@
         "Las Minas",
         "Playa Alegre"
       ]
-    },
-    "C-18": {
-      "fecha": "2026-10-21T19:23:56+00:00",
-      "mensaje_id": 59682,
-      "url": "https://t.me/empresaelectricacienfuegos1/59682",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-21T19:23:56+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-21T18:13:36+00:00",
-        "mensaje_id": 59679,
-        "url": "https://t.me/empresaelectricacienfuegos1/59679",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-18": {
+      "inicio": null,
+      "fin": "2026-10-22T07:41:34+00:00",
+      "fecha_ambigua": false
+    },
+    "C-405": {
+      "inicio": null,
+      "fin": "2026-10-22T07:41:34+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -1783,8 +1793,8 @@
     }
   ],
   "lectura": {
-    "texto": 70,
-    "imagenes": 62,
+    "texto": 69,
+    "imagenes": 63,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -2764,7 +2774,7 @@
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-21T19:23:56+00:00",
   "total_circuitos_afectados": 64,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2784,5 +2794,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-21T19:34:20.554602+00:00"
+  "actualizado": "2026-10-21T19:49:24.183956+00:00"
 }
