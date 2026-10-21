@@ -6,13 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 143,
+  "mensajes_leidos": 142,
   "afectados": {
-    "C-23": [
-      "Turquino",
-      "5 de Septiembre",
-      "Guayabito"
-    ],
     "C-101": [
       "Cartagena",
       "La Modelo",
@@ -28,6 +23,11 @@
       "El Conejito",
       "El Desquite",
       "Venero"
+    ],
+    "C-23": [
+      "Turquino",
+      "5 de Septiembre",
+      "Guayabito"
     ],
     "C-65": [
       "Centro histórico",
@@ -561,15 +561,6 @@
     ]
   },
   "evidencias": {
-    "C-23": {
-      "fecha": "2026-10-21T14:15:39+00:00",
-      "mensaje_id": 59676,
-      "url": "https://t.me/empresaelectricacienfuegos1/59676",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
-    },
     "C-101": {
       "fecha": "2026-10-21T14:15:39+00:00",
       "mensaje_id": 59676,
@@ -596,6 +587,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero."
+    },
+    "C-23": {
+      "fecha": "2026-10-21T14:15:39+00:00",
+      "mensaje_id": 59676,
+      "url": "https://t.me/empresaelectricacienfuegos1/59676",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
     },
     "C-65": {
       "fecha": "2026-10-21T14:15:39+00:00",
@@ -1360,10 +1360,10 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "avería / déficit",
     "C-101": "déficit",
     "C-43": "déficit",
     "C-44": "déficit",
+    "C-23": "avería / déficit",
     "C-65": "emergencia / déficit",
     "C-66": "déficit",
     "C-75": "déficit",
@@ -1843,7 +1843,7 @@
   ],
   "lectura": {
     "texto": 76,
-    "imagenes": 67,
+    "imagenes": 66,
     "pdf": 0,
     "no_leidos": 5
   },
@@ -2692,15 +2692,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59655"
     },
     {
-      "circuito": "C-23",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-21T02:01:11+00:00",
-      "mensaje_id": 59656,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59655",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59656"
-    },
-    {
       "circuito": "C-103",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2711,6 +2702,15 @@
     },
     {
       "circuito": "C-102",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-21T02:01:11+00:00",
+      "mensaje_id": 59656,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59655",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59656"
+    },
+    {
+      "circuito": "C-23",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-21T02:01:11+00:00",
@@ -2840,5 +2840,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-21T14:32:07.588374+00:00"
+  "actualizado": "2026-10-21T15:35:56.524940+00:00"
 }
