@@ -6,8 +6,13 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-21T21:31:12+00:00",
-  "mensajes_leidos": 126,
+  "mensajes_leidos": 124,
   "afectados": {
+    "C-23": [
+      "Turquino",
+      "5 de Septiembre",
+      "Guayabito"
+    ],
     "C-101": [
       "Cartagena",
       "La Modelo",
@@ -16,11 +21,6 @@
       "El Bajío",
       "California",
       "El Salado"
-    ],
-    "C-23": [
-      "Turquino",
-      "5 de Septiembre",
-      "Guayabito"
     ],
     "C-65": [
       "Centro histórico",
@@ -45,9 +45,6 @@
       "Guaos",
       "Naranjito"
     ],
-    "C-48": [],
-    "S-4820": [],
-    "S-2382": [],
     "C-89": [],
     "C-405": [
       "Pueblo Griffo Nuevo"
@@ -587,15 +584,6 @@
     ]
   },
   "evidencias": {
-    "C-101": {
-      "fecha": "2026-10-21T22:59:52+00:00",
-      "mensaje_id": 59691,
-      "url": "https://t.me/empresaelectricacienfuegos1/59691",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-101 Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
-    },
     "C-23": {
       "fecha": "2026-10-21T22:59:52+00:00",
       "mensaje_id": 59691,
@@ -604,6 +592,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
+    },
+    "C-101": {
+      "fecha": "2026-10-21T22:59:52+00:00",
+      "mensaje_id": 59691,
+      "url": "https://t.me/empresaelectricacienfuegos1/59691",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-101 Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
     },
     "C-65": {
       "fecha": "2026-10-21T22:59:52+00:00",
@@ -649,33 +646,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-67 El Crucero, Guaos, Naranjito."
-    },
-    "C-48": {
-      "fecha": "2026-10-21T11:15:55+00:00",
-      "mensaje_id": 59669,
-      "url": "https://t.me/empresaelectricacienfuegos1/59669",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-4820": {
-      "fecha": "2026-10-21T11:15:55+00:00",
-      "mensaje_id": 59669,
-      "url": "https://t.me/empresaelectricacienfuegos1/59669",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-2382": {
-      "fecha": "2026-10-21T11:15:55+00:00",
-      "mensaje_id": 59669,
-      "url": "https://t.me/empresaelectricacienfuegos1/59669",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-89": {
       "fecha": "2026-10-21T22:59:52+00:00",
@@ -1429,16 +1399,13 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-23": "déficit",
     "C-101": "déficit",
-    "C-23": "avería / déficit",
     "C-65": "emergencia / déficit",
     "C-66": "déficit",
     "C-75": "déficit",
     "C-39": "déficit",
     "C-67": "avería",
-    "C-48": "avería",
-    "S-4820": "avería",
-    "S-2382": "avería",
     "C-89": "déficit",
     "C-405": "déficit",
     "C-43": "déficit",
@@ -1912,8 +1879,8 @@
     }
   ],
   "lectura": {
-    "texto": 66,
-    "imagenes": 60,
+    "texto": 65,
+    "imagenes": 59,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2582,7 +2549,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59656"
     },
     {
-      "circuito": "C-102",
+      "circuito": "C-23",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-21T02:01:11+00:00",
@@ -2591,7 +2558,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59656"
     },
     {
-      "circuito": "C-23",
+      "circuito": "C-102",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-21T02:01:11+00:00",
@@ -2890,7 +2857,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-21T22:59:52+00:00",
-  "total_circuitos_afectados": 61,
+  "total_circuitos_afectados": 58,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 10,
   "circuitos_sin_catalogar": [
@@ -2901,14 +2868,11 @@
     "C-31",
     "C-407",
     "C-43",
-    "C-48",
     "C-58",
     "C-59",
     "C-76",
     "C-89",
-    "C-95",
-    "S-2382",
-    "S-4820"
+    "C-95"
   ],
-  "actualizado": "2026-10-21T23:04:48.016885+00:00"
+  "actualizado": "2026-10-21T23:21:59.740164+00:00"
 }
