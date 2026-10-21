@@ -6,8 +6,9 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-21T21:31:12+00:00",
-  "mensajes_leidos": 126,
+  "mensajes_leidos": 124,
   "afectados": {
+    "C-43": [],
     "C-101": [
       "Cartagena",
       "La Modelo",
@@ -17,7 +18,6 @@
       "California",
       "El Salado"
     ],
-    "C-43": [],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
@@ -532,15 +532,6 @@
     ]
   },
   "evidencias": {
-    "C-101": {
-      "fecha": "2026-10-21T21:09:50+00:00",
-      "mensaje_id": 59686,
-      "url": "https://t.me/empresaelectricacienfuegos1/59686",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-101 Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
-    },
     "C-43": {
       "fecha": "2026-10-21T21:09:50+00:00",
       "mensaje_id": 59686,
@@ -549,6 +540,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
+    },
+    "C-101": {
+      "fecha": "2026-10-21T21:09:50+00:00",
+      "mensaje_id": 59686,
+      "url": "https://t.me/empresaelectricacienfuegos1/59686",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-101 Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
     },
     "C-23": {
       "fecha": "2026-10-21T21:09:50+00:00",
@@ -1337,8 +1337,8 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-101": "déficit",
     "C-43": "déficit",
+    "C-101": "déficit",
     "C-23": "avería / déficit",
     "C-65": "emergencia / déficit",
     "C-66": "déficit",
@@ -1824,8 +1824,8 @@
     }
   ],
   "lectura": {
-    "texto": 65,
-    "imagenes": 61,
+    "texto": 64,
+    "imagenes": 60,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -2299,6 +2299,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59630"
     },
     {
+      "circuito": "C-44",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-20T16:37:55+00:00",
+      "mensaje_id": 59633,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59630",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59633"
+    },
+    {
       "circuito": "C-42",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2309,15 +2318,6 @@
     },
     {
       "circuito": "C-24",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-20T16:37:55+00:00",
-      "mensaje_id": 59633,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59630",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59633"
-    },
-    {
-      "circuito": "C-44",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-20T16:37:55+00:00",
@@ -2826,5 +2826,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-21T21:34:37.816419+00:00"
+  "actualizado": "2026-10-21T21:47:19.218967+00:00"
 }
