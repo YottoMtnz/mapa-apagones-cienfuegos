@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-21T14:15:39+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 142,
+  "programado_fecha": "2026-10-21T16:29:28+00:00",
+  "mensajes_leidos": 143,
   "afectados": {
     "C-101": [
       "Cartagena",
@@ -278,7 +278,9 @@
     "C-2": [],
     "C-59": []
   },
-  "programados": {},
+  "programados": {
+    "C-18": []
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-17": {
@@ -1110,6 +1112,15 @@
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
     },
+    "C-18": {
+      "fecha": "2026-10-21T16:29:28+00:00",
+      "mensaje_id": 59677,
+      "url": "https://t.me/empresaelectricacienfuegos1/59677",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
     "C-17": {
       "fecha": "2026-10-21T14:15:39+00:00",
       "mensaje_id": 59676,
@@ -1250,30 +1261,6 @@
         "La Milpa"
       ]
     },
-    "C-18": {
-      "fecha": "2026-10-21T14:15:39+00:00",
-      "mensaje_id": 59676,
-      "url": "https://t.me/empresaelectricacienfuegos1/59676",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-21T12:49:03+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-21T10:19:37+00:00",
-        "mensaje_id": 59668,
-        "url": "https://t.me/empresaelectricacienfuegos1/59668",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
     "C-70": {
       "fecha": "2026-10-21T14:15:39+00:00",
       "mensaje_id": 59676,
@@ -1353,7 +1340,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-18": {
+      "inicio": null,
+      "fin": "2026-10-22T04:29:28+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -1843,7 +1836,7 @@
   ],
   "lectura": {
     "texto": 76,
-    "imagenes": 66,
+    "imagenes": 67,
     "pdf": 0,
     "no_leidos": 5
   },
@@ -2821,7 +2814,7 @@
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-21T14:15:39+00:00",
   "total_circuitos_afectados": 61,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2840,5 +2833,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-21T16:19:28.429912+00:00"
+  "actualizado": "2026-10-21T16:34:23.227906+00:00"
 }
