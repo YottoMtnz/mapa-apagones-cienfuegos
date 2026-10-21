@@ -6,9 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-21T21:31:12+00:00",
-  "mensajes_leidos": 123,
+  "mensajes_leidos": 122,
   "afectados": {
-    "C-43": [],
     "C-101": [
       "Cartagena",
       "La Modelo",
@@ -58,6 +57,7 @@
     "C-405": [
       "Pueblo Griffo Nuevo"
     ],
+    "C-43": [],
     "C-95": [],
     "C-63": [
       "Juraguá (Oeste",
@@ -354,6 +354,35 @@
         "Hervidero"
       ]
     },
+    "C-44": {
+      "fecha": "2026-10-21T21:09:50+00:00",
+      "mensaje_id": 59686,
+      "url": "https://t.me/empresaelectricacienfuegos1/59686",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-21T17:09:29+00:00",
+      "listas_consecutivas": 4,
+      "aviso_anterior": {
+        "fecha": "2026-10-21T14:15:39+00:00",
+        "mensaje_id": 59676,
+        "url": "https://t.me/empresaelectricacienfuegos1/59676",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero."
+      },
+      "lugares": [
+        "Los Burros",
+        "El Conejito",
+        "El Desquite",
+        "Venero"
+      ]
+    },
     "C-27": {
       "fecha": "2026-10-21T21:09:50+00:00",
       "mensaje_id": 59686,
@@ -532,15 +561,6 @@
     ]
   },
   "evidencias": {
-    "C-43": {
-      "fecha": "2026-10-21T21:09:50+00:00",
-      "mensaje_id": 59686,
-      "url": "https://t.me/empresaelectricacienfuegos1/59686",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
-    },
     "C-101": {
       "fecha": "2026-10-21T21:09:50+00:00",
       "mensaje_id": 59686,
@@ -666,6 +686,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-405 \"Pueblo Griffo Nuevo."
+    },
+    "C-43": {
+      "fecha": "2026-10-21T21:09:50+00:00",
+      "mensaje_id": 59686,
+      "url": "https://t.me/empresaelectricacienfuegos1/59686",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
     },
     "C-95": {
       "fecha": "2026-10-21T11:26:20+00:00",
@@ -1183,6 +1212,35 @@
         "Hervidero"
       ]
     },
+    "C-44": {
+      "fecha": "2026-10-21T21:09:50+00:00",
+      "mensaje_id": 59686,
+      "url": "https://t.me/empresaelectricacienfuegos1/59686",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-21T17:09:29+00:00",
+      "listas_consecutivas": 4,
+      "aviso_anterior": {
+        "fecha": "2026-10-21T14:15:39+00:00",
+        "mensaje_id": 59676,
+        "url": "https://t.me/empresaelectricacienfuegos1/59676",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero."
+      },
+      "lugares": [
+        "Los Burros",
+        "El Conejito",
+        "El Desquite",
+        "Venero"
+      ]
+    },
     "C-27": {
       "fecha": "2026-10-21T21:09:50+00:00",
       "mensaje_id": 59686,
@@ -1337,7 +1395,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-43": "déficit",
     "C-101": "déficit",
     "C-23": "avería / déficit",
     "C-65": "emergencia / déficit",
@@ -1352,6 +1409,7 @@
     "C-89": "déficit",
     "C-94": "déficit",
     "C-405": "déficit",
+    "C-43": "déficit",
     "C-95": "avería",
     "C-63": "déficit",
     "C-52": "déficit",
@@ -1406,19 +1464,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Líneas afectadas por\nq\n| > EN \\\nA | A k\n>] | = Ls S\n| | s SM\nel | N",
-      "id": 59565,
-      "url": "https://t.me/empresaelectricacienfuegos1/59565",
-      "fecha": "2026-10-18T22:04:53+00:00"
-    },
-    {
-      "id": 59566,
-      "url": "https://t.me/empresaelectricacienfuegos1/59566",
-      "fecha": "2026-10-18T22:07:00+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n80 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
@@ -1821,13 +1866,27 @@
       "id": 59685,
       "url": "https://t.me/empresaelectricacienfuegos1/59685",
       "fecha": "2026-10-21T21:09:46+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠Se comunica a nuestros clientes que se encuentra afectado el servicio por Disparo Automático por Frecuencia (DAF) la línea:\n\n\n👉L-1890 Juraguá- La Cen.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
+      "id": 59688,
+      "url": "https://t.me/empresaelectricacienfuegos1/59688",
+      "fecha": "2026-10-21T22:12:25+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠Se comunica a nuestros clientes que se encuentra afectado el servicio por Disparo Automático por Frecuencia (DAF) la línea:\n\n\n👉L-1890 Juraguá- La Cen.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas\nLíneas afectadas por\nDisparo Automático por Frecuencia\n(DAF)\nMM\nq\nSS Ne\ny\n4%\nel",
+      "id": 59688,
+      "url": "https://t.me/empresaelectricacienfuegos1/59688",
+      "fecha": "2026-10-21T22:12:25+00:00"
     }
   ],
   "lectura": {
     "texto": 63,
-    "imagenes": 60,
+    "imagenes": 59,
     "pdf": 0,
-    "no_leidos": 4
+    "no_leidos": 3
   },
   "listas_completas": {
     "deficit": {
@@ -2299,15 +2358,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59630"
     },
     {
-      "circuito": "C-44",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-20T16:37:55+00:00",
-      "mensaje_id": 59633,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59630",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59633"
-    },
-    {
       "circuito": "C-42",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2327,6 +2377,15 @@
     },
     {
       "circuito": "C-29",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-20T16:37:55+00:00",
+      "mensaje_id": 59633,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59630",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59633"
+    },
+    {
+      "circuito": "C-44",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-20T16:37:55+00:00",
@@ -2686,15 +2745,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59676"
     },
     {
-      "circuito": "C-44",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-21T17:09:29+00:00",
-      "mensaje_id": 59678,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59676",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59678"
-    },
-    {
       "circuito": "C-58",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2714,6 +2764,15 @@
     },
     {
       "circuito": "C-86",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-21T17:09:29+00:00",
+      "mensaje_id": 59678,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59676",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59678"
+    },
+    {
+      "circuito": "C-44",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-21T17:09:29+00:00",
@@ -2807,7 +2866,7 @@
   "mw_fecha": "2026-10-21T21:09:50+00:00",
   "total_circuitos_afectados": 66,
   "total_circuitos_programados": 1,
-  "total_restablecimientos_probables": 7,
+  "total_restablecimientos_probables": 8,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2826,5 +2885,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-21T22:04:25.334679+00:00"
+  "actualizado": "2026-10-21T22:27:07.334646+00:00"
 }
