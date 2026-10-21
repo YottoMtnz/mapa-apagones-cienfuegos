@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-21T02:19:27+00:00",
+  "reporte_fecha": "2026-10-21T02:47:22+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-21T02:20:12+00:00",
-  "mensajes_leidos": 144,
+  "mensajes_leidos": 145,
   "afectados": {
     "C-407": [],
     "C-15": [
@@ -36,9 +36,6 @@
     "C-70": [
       "Aguada",
       "Federal"
-    ],
-    "C-19": [
-      "Tulipán"
     ],
     "C-90": [
       "FW1558) La Pollera"
@@ -193,8 +190,7 @@
       "Ciego Montero",
       "La Amalia",
       "Ceiba Hueca"
-    ],
-    "C-76": []
+    ]
   },
   "programados": {
     "C-11": [
@@ -244,6 +240,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+    },
+    "C-76": {
+      "fecha": "2026-10-21T02:47:22+00:00",
+      "mensaje_id": 59660,
+      "url": "https://t.me/empresaelectricacienfuegos1/59660",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
+    },
+    "C-19": {
+      "fecha": "2026-10-21T02:47:22+00:00",
+      "mensaje_id": 59660,
+      "url": "https://t.me/empresaelectricacienfuegos1/59660",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
     }
   },
   "restablecimientos_probables": {
@@ -843,15 +857,6 @@
       "confianza": 100,
       "texto": "👉C-70 \"Aguada, Federal."
     },
-    "C-19": {
-      "fecha": "2026-10-21T02:19:27+00:00",
-      "mensaje_id": 59658,
-      "url": "https://t.me/empresaelectricacienfuegos1/59658",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-19 Tulipán."
-    },
     "C-90": {
       "fecha": "2026-10-21T02:01:11+00:00",
       "mensaje_id": 59656,
@@ -1131,15 +1136,6 @@
       "confianza": 100,
       "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
     },
-    "C-76": {
-      "fecha": "2026-10-21T02:19:27+00:00",
-      "mensaje_id": 59658,
-      "url": "https://t.me/empresaelectricacienfuegos1/59658",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
-    },
     "C-11": {
       "fecha": "2026-10-20T17:56:16+00:00",
       "mensaje_id": 59638,
@@ -1211,6 +1207,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+    },
+    "C-76": {
+      "fecha": "2026-10-21T02:47:22+00:00",
+      "mensaje_id": 59660,
+      "url": "https://t.me/empresaelectricacienfuegos1/59660",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
+    },
+    "C-19": {
+      "fecha": "2026-10-21T02:47:22+00:00",
+      "mensaje_id": 59660,
+      "url": "https://t.me/empresaelectricacienfuegos1/59660",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
     },
     "C-17": {
       "fecha": "2026-10-21T02:01:11+00:00",
@@ -1644,7 +1658,6 @@
     "C-405": "déficit",
     "C-58": "déficit",
     "C-70": "déficit",
-    "C-19": "avería",
     "C-90": "déficit",
     "C-18": "déficit",
     "C-52": "déficit",
@@ -1675,8 +1688,7 @@
     "C-31": "déficit",
     "C-88": "déficit",
     "C-35": "déficit",
-    "C-49": "déficit",
-    "C-76": "avería"
+    "C-49": "déficit"
   },
   "error": null,
   "pendientes_revision": [
@@ -2106,7 +2118,7 @@
     }
   ],
   "lectura": {
-    "texto": 79,
+    "texto": 80,
     "imagenes": 65,
     "pdf": 0,
     "no_leidos": 8
@@ -2163,24 +2175,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-32",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-19T13:52:36+00:00",
-      "mensaje_id": 59584,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59578",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59584"
-    },
-    {
-      "circuito": "C-19",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-19T13:52:36+00:00",
-      "mensaje_id": 59584,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59582",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59584"
-    },
     {
       "circuito": "C-36",
       "tipo": "salida_lista",
@@ -3062,11 +3056,29 @@
       "mensaje_id": 59656,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59655",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59656"
+    },
+    {
+      "circuito": "C-76",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-21T02:47:22+00:00",
+      "mensaje_id": 59660,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59658",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59660"
+    },
+    {
+      "circuito": "C-19",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-21T02:47:22+00:00",
+      "mensaje_id": 59660,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59658",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59660"
     }
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-21T02:01:11+00:00",
-  "total_circuitos_afectados": 42,
+  "total_circuitos_afectados": 40,
   "total_circuitos_programados": 6,
   "total_restablecimientos_probables": 18,
   "circuitos_sin_catalogar": [
@@ -3078,8 +3090,7 @@
     "C-407",
     "C-43",
     "C-58",
-    "C-59",
-    "C-76"
+    "C-59"
   ],
-  "actualizado": "2026-10-21T02:44:21.013469+00:00"
+  "actualizado": "2026-10-21T02:59:19.781138+00:00"
 }
