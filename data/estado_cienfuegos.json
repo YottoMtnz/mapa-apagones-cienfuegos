@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-21T02:20:12+00:00",
-  "mensajes_leidos": 145,
+  "mensajes_leidos": 146,
   "afectados": {
     "C-407": [],
     "C-15": [
@@ -1633,17 +1633,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "estado_ambiguo",
-      "texto": "⚠ Se comunica a nuestros clientes que se encuentra restablecido el servicio en el circuito C-23 Turquino, 5 de Septiembre, Guayabito, continúa en fallo la sección S-2382 las zonas:",
-      "circuitos": [
-        "C-23",
-        "S-2382"
-      ],
-      "id": 59537,
-      "url": "https://t.me/empresaelectricacienfuegos1/59537",
-      "fecha": "2026-10-18T17:04:46+00:00"
-    },
-    {
       "id": 59539,
       "url": "https://t.me/empresaelectricacienfuegos1/59539",
       "fecha": "2026-10-18T17:57:43+00:00",
@@ -2050,10 +2039,17 @@
       "id": 59663,
       "url": "https://t.me/empresaelectricacienfuegos1/59663",
       "fecha": "2026-10-21T04:10:36+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "🔴 22:11 || Fuera de servicio la CTE Antonio Guiteras, por causas pendientes a identificar.",
+      "id": 59665,
+      "url": "https://t.me/empresaelectricacienfuegos1/59665",
+      "fecha": "2026-10-21T05:04:50+00:00"
     }
   ],
   "lectura": {
-    "texto": 78,
+    "texto": 79,
     "imagenes": 67,
     "pdf": 0,
     "no_leidos": 8
@@ -3040,5 +3036,5 @@
     "C-76",
     "C-94"
   ],
-  "actualizado": "2026-10-21T04:59:22.007902+00:00"
+  "actualizado": "2026-10-21T05:14:17.873670+00:00"
 }
