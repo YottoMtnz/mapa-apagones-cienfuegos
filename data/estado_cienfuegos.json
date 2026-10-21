@@ -240,11 +240,6 @@
     ]
   },
   "programados": {
-    "C-28": [
-      "CEN",
-      "Castillo de Jagua",
-      "La Loma"
-    ],
     "C-2": []
   },
   "confirmados_con_servicio": {},
@@ -1166,15 +1161,6 @@
       "confianza": 100,
       "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     },
-    "C-28": {
-      "fecha": "2026-10-20T19:11:51+00:00",
-      "mensaje_id": 59642,
-      "url": "https://t.me/empresaelectricacienfuegos1/59642",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-27 Barrio Matadero, Juraguá."
-    },
     "C-2": {
       "fecha": "2026-10-20T21:37:31+00:00",
       "mensaje_id": 59649,
@@ -1311,6 +1297,34 @@
       },
       "lugares": [
         "Cruces (Sur"
+      ]
+    },
+    "C-28": {
+      "fecha": "2026-10-21T05:39:32+00:00",
+      "mensaje_id": 59666,
+      "url": "https://t.me/empresaelectricacienfuegos1/59666",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.\"",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-20T14:02:06+00:00",
+      "listas_consecutivas": 12,
+      "aviso_anterior": {
+        "fecha": "2026-10-20T12:57:52+00:00",
+        "mensaje_id": 59628,
+        "url": "https://t.me/empresaelectricacienfuegos1/59628",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-28 CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)"
+      },
+      "lugares": [
+        "CEN",
+        "Castillo de Jagua",
+        "La Loma"
       ]
     },
     "C-38": {
@@ -1570,11 +1584,6 @@
     }
   },
   "horarios": {
-    "C-28": {
-      "inicio": null,
-      "fin": "2026-10-21T07:11:51+00:00",
-      "fecha_ambigua": false
-    },
     "C-2": {
       "inicio": null,
       "fin": "2026-10-21T09:37:31+00:00",
@@ -3030,7 +3039,7 @@
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-21T05:39:32+00:00",
   "total_circuitos_afectados": 51,
-  "total_circuitos_programados": 2,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3045,5 +3054,5 @@
     "C-76",
     "C-94"
   ],
-  "actualizado": "2026-10-21T07:09:13.027212+00:00"
+  "actualizado": "2026-10-21T07:24:13.370299+00:00"
 }
