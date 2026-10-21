@@ -37,9 +37,6 @@
       "El Desquite",
       "Venero"
     ],
-    "C-48": [],
-    "S-4820": [],
-    "S-2382": [],
     "C-405": [
       "Pueblo Griffo Nuevo"
     ],
@@ -68,22 +65,8 @@
       "Aguada",
       "Federal"
     ],
-    "C-19": [
-      "Tulipán"
-    ],
     "C-90": [
       "FW1558) La Pollera"
-    ],
-    "S-3793": [],
-    "C-63": [
-      "Juraguá (Oeste",
-      "Las 500",
-      "Calicito",
-      "Bolivia",
-      "Comunidad Alejandro",
-      "Hondones",
-      "La Yuca",
-      "Bagazal"
     ],
     "C-18": [],
     "C-52": [
@@ -680,7 +663,7 @@
           "confianza": 100,
           "texto": "👉C-90 (FW1558) La Pollera"
         },
-        "vigente": true
+        "vigente": false
       }
     ]
   },
@@ -757,33 +740,6 @@
       "confianza": 100,
       "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero."
     },
-    "C-48": {
-      "fecha": "2026-10-20T12:10:07+00:00",
-      "mensaje_id": 59627,
-      "url": "https://t.me/empresaelectricacienfuegos1/59627",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-4820": {
-      "fecha": "2026-10-20T12:10:07+00:00",
-      "mensaje_id": 59627,
-      "url": "https://t.me/empresaelectricacienfuegos1/59627",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-2382": {
-      "fecha": "2026-10-20T12:10:07+00:00",
-      "mensaje_id": 59627,
-      "url": "https://t.me/empresaelectricacienfuegos1/59627",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
     "C-405": {
       "fecha": "2026-10-20T23:02:04+00:00",
       "mensaje_id": 59653,
@@ -847,15 +803,6 @@
       "confianza": 100,
       "texto": "👉C-70 \"Aguada, Federal."
     },
-    "C-19": {
-      "fecha": "2026-10-20T12:10:07+00:00",
-      "mensaje_id": 59627,
-      "url": "https://t.me/empresaelectricacienfuegos1/59627",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-19 Tulipán"
-    },
     "C-90": {
       "fecha": "2026-10-20T23:02:04+00:00",
       "mensaje_id": 59653,
@@ -864,24 +811,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
-    },
-    "S-3793": {
-      "fecha": "2026-10-20T12:10:07+00:00",
-      "mensaje_id": 59627,
-      "url": "https://t.me/empresaelectricacienfuegos1/59627",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S3793 Planta de Filtro, Centro de producción El Tablón, Vaquerías"
-    },
-    "C-63": {
-      "fecha": "2026-10-20T12:10:07+00:00",
-      "mensaje_id": 59627,
-      "url": "https://t.me/empresaelectricacienfuegos1/59627",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
     },
     "C-18": {
       "fecha": "2026-10-20T23:02:04+00:00",
@@ -1523,7 +1452,7 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "avería / déficit",
+    "C-23": "déficit",
     "C-407": "déficit",
     "C-15": "déficit",
     "C-67": "avería",
@@ -1531,9 +1460,6 @@
     "C-102": "déficit",
     "C-43": "déficit",
     "C-44": "déficit",
-    "C-48": "avería",
-    "S-4820": "avería",
-    "S-2382": "avería",
     "C-405": "déficit",
     "C-58": "déficit",
     "C-25": "déficit",
@@ -1541,10 +1467,7 @@
     "C-41": "déficit",
     "C-57": "déficit",
     "C-70": "déficit",
-    "C-19": "avería",
     "C-90": "déficit",
-    "S-3793": "avería",
-    "C-63": "avería",
     "C-18": "déficit",
     "C-52": "déficit",
     "C-56": "déficit",
@@ -2967,7 +2890,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-18T12:01:33+00:00",
   "mw_fecha": "2026-10-20T23:02:04+00:00",
-  "total_circuitos_afectados": 50,
+  "total_circuitos_afectados": 44,
   "total_circuitos_programados": 6,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
@@ -2978,12 +2901,8 @@
     "C-31",
     "C-407",
     "C-43",
-    "C-48",
     "C-58",
-    "C-59",
-    "S-2382",
-    "S-3793",
-    "S-4820"
+    "C-59"
   ],
-  "actualizado": "2026-10-21T00:09:24.556236+00:00"
+  "actualizado": "2026-10-21T00:24:24.349453+00:00"
 }
