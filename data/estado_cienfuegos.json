@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-21T02:20:12+00:00",
-  "mensajes_leidos": 144,
+  "mensajes_leidos": 145,
   "afectados": {
     "C-407": [],
     "C-15": [
@@ -742,24 +742,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
-      "id": 59534,
-      "url": "https://t.me/empresaelectricacienfuegos1/59534",
-      "fecha": "2026-10-18T14:51:46+00:00"
-    },
-    {
-      "motivo": "estado_ambiguo",
-      "texto": "⚠ Se comunica a nuestros clientes que se encuentra restablecido el servicio en el circuito C-23 Turquino, 5 de Septiembre, Guayabito, continúa en fallo la sección S-2382 las zonas:",
-      "circuitos": [
-        "C-23",
-        "S-2382"
-      ],
-      "id": 59537,
-      "url": "https://t.me/empresaelectricacienfuegos1/59537",
-      "fecha": "2026-10-18T17:04:46+00:00"
-    },
-    {
       "motivo": "estado_ambiguo",
       "texto": "⚠ Se comunica a nuestros clientes que se encuentra restablecido el servicio en el circuito C-23 Turquino, 5 de Septiembre, Guayabito, continúa en fallo la sección S-2382 las zonas:",
       "circuitos": [
@@ -1163,11 +1145,25 @@
       "id": 59662,
       "url": "https://t.me/empresaelectricacienfuegos1/59662",
       "fecha": "2026-10-21T03:39:17+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠️La Empresa Eléctrica Cienfuegos informa:\n\n\n👉Debido a la compleja situación que existe por  déficit de capacidad de generación  no ha sido posible cumplir con la rotación de las 12:00 am.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
+      "id": 59663,
+      "url": "https://t.me/empresaelectricacienfuegos1/59663",
+      "fecha": "2026-10-21T04:10:36+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠️La Empresa Eléctrica Cienfuegos informa:\n\n\n👉Debido a la compleja situación que existe por  déficit de capacidad de generación  no ha sido posible cumplir con la rotación de las 12:00 am.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas\nANFORMACIÓN GC D\nIMPORTANTE\ny\nO) UNE\ne.",
+      "id": 59663,
+      "url": "https://t.me/empresaelectricacienfuegos1/59663",
+      "fecha": "2026-10-21T04:10:36+00:00"
     }
   ],
   "lectura": {
     "texto": 78,
-    "imagenes": 66,
+    "imagenes": 67,
     "pdf": 0,
     "no_leidos": 8
   },
@@ -2138,5 +2134,5 @@
     "C-43",
     "C-58"
   ],
-  "actualizado": "2026-10-21T03:59:14.685973+00:00"
+  "actualizado": "2026-10-21T04:14:24.595546+00:00"
 }
