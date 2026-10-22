@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-10-22T19:04:55+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-22T16:32:04+00:00",
+  "programado_fecha": "2026-10-22T19:09:23+00:00",
   "mensajes_leidos": 112,
   "afectados": {
     "C-23": [
@@ -259,7 +259,14 @@
     ],
     "C-18": []
   },
-  "programados": {},
+  "programados": {
+    "C-406": [
+      "San Lázaro",
+      "Calle 35 de Ave 58 hasta Ave 64",
+      "Ave 58 de Calle 47 hasta Calle 49",
+      "Calle 47 de Ave 54 hasta Ave 58"
+    ]
+  },
   "confirmados_con_servicio": {
     "C-89": {
       "fecha": "2026-10-22T19:04:55+00:00",
@@ -1290,6 +1297,15 @@
       "confianza": 100,
       "texto": "📌Se afecta nuevamente el circuito C-69, hasta tanto termine la protección por abasto de agua del C-18."
     },
+    "C-406": {
+      "fecha": "2026-10-22T19:09:23+00:00",
+      "mensaje_id": 59714,
+      "url": "https://t.me/empresaelectricacienfuegos1/59714",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-406 San Lázaro, Calle 39 desde Ave 74 hasta 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta 49, Calle 47 de Ave 54 hasta Ave 58."
+    },
     "C-89": {
       "fecha": "2026-10-22T19:04:55+00:00",
       "mensaje_id": 59713,
@@ -1461,35 +1477,6 @@
         "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
       },
       "lugares": []
-    },
-    "C-406": {
-      "fecha": "2026-10-22T18:05:20+00:00",
-      "mensaje_id": 59710,
-      "url": "https://t.me/empresaelectricacienfuegos1/59710",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T12:17:58+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T10:52:03+00:00",
-        "mensaje_id": 59700,
-        "url": "https://t.me/empresaelectricacienfuegos1/59700",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
-      },
-      "lugares": [
-        "San Lázaro",
-        "Calle 35 de Ave 58 hasta Ave 64",
-        "Ave 58 de Calle 47 hasta Calle 49",
-        "Calle 47 de Ave 54 hasta Ave 58"
-      ]
     },
     "C-1770": {
       "fecha": "2026-10-22T18:05:20+00:00",
@@ -1785,7 +1772,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-406": {
+      "inicio": null,
+      "fin": "2026-10-23T07:09:23+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -1850,13 +1843,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
-      "id": 59602,
-      "url": "https://t.me/empresaelectricacienfuegos1/59602",
-      "fecha": "2026-10-19T19:09:46+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
@@ -3199,7 +3185,7 @@
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-22T18:05:20+00:00",
   "total_circuitos_afectados": 55,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 18,
   "circuitos_sin_catalogar": [
     "C-1770",
@@ -3218,5 +3204,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-22T19:08:02.837868+00:00"
+  "actualizado": "2026-10-22T19:19:32.431736+00:00"
 }
