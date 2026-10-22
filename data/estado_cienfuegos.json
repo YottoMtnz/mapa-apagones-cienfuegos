@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-10-22T15:32:29+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-22T11:37:57+00:00",
+  "programado_fecha": "2026-10-22T16:32:04+00:00",
   "mensajes_leidos": 118,
   "afectados": {
     "C-23": [
@@ -264,7 +264,9 @@
       "Palmira (Norte"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-20": []
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-38": {
@@ -1294,6 +1296,15 @@
       "confianza": 100,
       "texto": "👉C-50 Palmira (Norte)."
     },
+    "C-20": {
+      "fecha": "2026-10-22T16:32:04+00:00",
+      "mensaje_id": 59709,
+      "url": "https://t.me/empresaelectricacienfuegos1/59709",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-20 Punta Gorda."
+    },
     "C-38": {
       "fecha": "2026-10-22T15:32:29+00:00",
       "mensaje_id": 59708,
@@ -1780,7 +1791,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-20": {
+      "inicio": null,
+      "fin": "2026-10-23T04:32:04+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -2251,8 +2268,8 @@
     }
   ],
   "lectura": {
-    "texto": 63,
-    "imagenes": 55,
+    "texto": 62,
+    "imagenes": 56,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -3226,12 +3243,13 @@
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-22T15:32:29+00:00",
   "total_circuitos_afectados": 56,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 18,
   "circuitos_sin_catalogar": [
     "C-1770",
     "C-18",
     "C-2",
+    "C-20",
     "C-31",
     "C-407",
     "C-43",
@@ -3245,5 +3263,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-22T16:26:18.525084+00:00"
+  "actualizado": "2026-10-22T16:35:06.867857+00:00"
 }
