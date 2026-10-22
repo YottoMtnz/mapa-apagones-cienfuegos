@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-22T10:52:03+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 123,
+  "programado_fecha": "2026-10-22T11:37:57+00:00",
+  "mensajes_leidos": 125,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -283,7 +283,22 @@
       "Calle 47 de Ave 54 hasta Ave 58"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-19": [
+      "Tulipán"
+    ],
+    "C-66": [
+      "Reina (Parque"
+    ],
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
+    ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
+    ]
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-38": {
@@ -1070,6 +1085,42 @@
       "confianza": 100,
       "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
     },
+    "C-19": {
+      "fecha": "2026-10-22T11:35:33+00:00",
+      "mensaje_id": 59701,
+      "url": "https://t.me/empresaelectricacienfuegos1/59701",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-66": {
+      "fecha": "2026-10-22T11:35:33+00:00",
+      "mensaje_id": 59701,
+      "url": "https://t.me/empresaelectricacienfuegos1/59701",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-65": {
+      "fecha": "2026-10-22T11:35:33+00:00",
+      "mensaje_id": 59701,
+      "url": "https://t.me/empresaelectricacienfuegos1/59701",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-80": {
+      "fecha": "2026-10-22T11:37:57+00:00",
+      "mensaje_id": 59702,
+      "url": "https://t.me/empresaelectricacienfuegos1/59702",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-80 Punta Cotica, Parque Martí."
+    },
     "C-38": {
       "fecha": "2026-10-22T10:52:03+00:00",
       "mensaje_id": 59700,
@@ -1234,33 +1285,6 @@
       },
       "lugares": []
     },
-    "C-80": {
-      "fecha": "2026-10-22T10:52:03+00:00",
-      "mensaje_id": 59700,
-      "url": "https://t.me/empresaelectricacienfuegos1/59700",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T07:29:57+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T03:31:09+00:00",
-        "mensaje_id": 59695,
-        "url": "https://t.me/empresaelectricacienfuegos1/59695",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-80 Punta Cotica, Parque José Martí."
-      },
-      "lugares": [
-        "Punta Cotica",
-        "Parque José Martí"
-      ]
-    },
     "C-407": {
       "fecha": "2026-10-22T10:52:03+00:00",
       "mensaje_id": 59700,
@@ -1286,7 +1310,28 @@
       "lugares": []
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-19": {
+      "inicio": null,
+      "fin": "2026-10-22T23:35:33+00:00",
+      "fecha_ambigua": false
+    },
+    "C-66": {
+      "inicio": null,
+      "fin": "2026-10-22T23:35:33+00:00",
+      "fecha_ambigua": false
+    },
+    "C-65": {
+      "inicio": null,
+      "fin": "2026-10-22T23:35:33+00:00",
+      "fecha_ambigua": false
+    },
+    "C-80": {
+      "inicio": null,
+      "fin": "2026-10-22T23:37:57+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 55.0,
   "hora_inicio": null,
@@ -1775,7 +1820,7 @@
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 58,
+    "imagenes": 60,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2753,7 +2798,7 @@
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-22T10:52:03+00:00",
   "total_circuitos_afectados": 59,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 8,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -2770,5 +2815,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-22T11:30:51.011490+00:00"
+  "actualizado": "2026-10-22T11:44:18.388574+00:00"
 }
