@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-22T18:34:00+00:00",
+  "reporte_fecha": "2026-10-22T19:04:55+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-22T16:32:04+00:00",
-  "mensajes_leidos": 113,
+  "mensajes_leidos": 112,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -251,7 +251,6 @@
       "La Macana",
       "Cherepa"
     ],
-    "C-89": [],
     "C-69": [
       "Junco Sur",
       "Reparto de los médicos",
@@ -261,7 +260,17 @@
     "C-18": []
   },
   "programados": {},
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-89": {
+      "fecha": "2026-10-22T19:04:55+00:00",
+      "mensaje_id": 59713,
+      "url": "https://t.me/empresaelectricacienfuegos1/59713",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
+    }
+  },
   "restablecimientos_probables": {
     "C-38": {
       "fecha": "2026-10-22T18:05:20+00:00",
@@ -1263,15 +1272,6 @@
       "confianza": 100,
       "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
     },
-    "C-89": {
-      "fecha": "2026-10-22T18:28:27+00:00",
-      "mensaje_id": 59711,
-      "url": "https://t.me/empresaelectricacienfuegos1/59711",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
-    },
     "C-69": {
       "fecha": "2026-10-22T18:34:00+00:00",
       "mensaje_id": 59712,
@@ -1289,6 +1289,15 @@
       "editado": "2026-10-22T18:36:13+00:00",
       "confianza": 100,
       "texto": "📌Se afecta nuevamente el circuito C-69, hasta tanto termine la protección por abasto de agua del C-18."
+    },
+    "C-89": {
+      "fecha": "2026-10-22T19:04:55+00:00",
+      "mensaje_id": 59713,
+      "url": "https://t.me/empresaelectricacienfuegos1/59713",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
     },
     "C-38": {
       "fecha": "2026-10-22T18:05:20+00:00",
@@ -1836,7 +1845,6 @@
     "C-72": "déficit",
     "C-56": "déficit",
     "C-52": "déficit",
-    "C-89": "emergencia",
     "C-69": "sin precisar",
     "C-18": "sin precisar"
   },
@@ -2220,7 +2228,7 @@
   ],
   "lectura": {
     "texto": 60,
-    "imagenes": 53,
+    "imagenes": 52,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2287,15 +2295,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-29",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-20T16:37:55+00:00",
-      "mensaje_id": 59633,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59630",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59633"
-    },
     {
       "circuito": "C-44",
       "tipo": "salida_lista",
@@ -3186,11 +3185,20 @@
       "mensaje_id": 59712,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59710",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59712"
+    },
+    {
+      "circuito": "C-89",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-22T19:04:55+00:00",
+      "mensaje_id": 59713,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59711",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59713"
     }
   ],
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-22T18:05:20+00:00",
-  "total_circuitos_afectados": 56,
+  "total_circuitos_afectados": 55,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 18,
   "circuitos_sin_catalogar": [
@@ -3205,11 +3213,10 @@
     "C-58",
     "C-59",
     "C-60",
-    "C-89",
     "C-94",
     "C-95",
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-22T18:50:08.242169+00:00"
+  "actualizado": "2026-10-22T19:08:02.837868+00:00"
 }
