@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-22T18:05:20+00:00",
+  "reporte_fecha": "2026-10-22T18:34:00+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-22T16:32:04+00:00",
-  "mensajes_leidos": 112,
+  "mensajes_leidos": 114,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -236,7 +236,6 @@
       "Silverita",
       "Nuevo México"
     ],
-    "C-18": [],
     "C-72": [
       "Porcino",
       "La Caridad",
@@ -251,7 +250,15 @@
       "Espartaco",
       "La Macana",
       "Cherepa"
-    ]
+    ],
+    "C-89": [],
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
+    ],
+    "C-18": []
   },
   "programados": {},
   "confirmados_con_servicio": {},
@@ -364,30 +371,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
-      },
-      "lugares": []
-    },
-    "C-89": {
-      "fecha": "2026-10-22T18:05:20+00:00",
-      "mensaje_id": 59710,
-      "url": "https://t.me/empresaelectricacienfuegos1/59710",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T00:31:12+00:00",
-      "listas_consecutivas": 9,
-      "aviso_anterior": {
-        "fecha": "2026-10-21T22:59:52+00:00",
-        "mensaje_id": 59691,
-        "url": "https://t.me/empresaelectricacienfuegos1/59691",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
       },
       "lugares": []
     },
@@ -657,35 +640,6 @@
       "lugares": [
         "Boulevard",
         "Parque Martí"
-      ]
-    },
-    "C-69": {
-      "fecha": "2026-10-22T18:05:20+00:00",
-      "mensaje_id": 59710,
-      "url": "https://t.me/empresaelectricacienfuegos1/59710",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T18:05:20+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T15:32:29+00:00",
-        "mensaje_id": 59708,
-        "url": "https://t.me/empresaelectricacienfuegos1/59708",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-      },
-      "lugares": [
-        "Junco Sur",
-        "Reparto de los médicos",
-        "Las Minas",
-        "Playa Alegre"
       ]
     },
     "C-26": {
@@ -1282,15 +1236,6 @@
       "confianza": 100,
       "texto": "👉C-11 Ariza, Silverita, Nuevo México."
     },
-    "C-18": {
-      "fecha": "2026-10-22T18:05:20+00:00",
-      "mensaje_id": 59710,
-      "url": "https://t.me/empresaelectricacienfuegos1/59710",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-    },
     "C-72": {
       "fecha": "2026-10-22T18:05:20+00:00",
       "mensaje_id": 59710,
@@ -1317,6 +1262,33 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
+    },
+    "C-89": {
+      "fecha": "2026-10-22T18:28:27+00:00",
+      "mensaje_id": 59711,
+      "url": "https://t.me/empresaelectricacienfuegos1/59711",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
+    },
+    "C-69": {
+      "fecha": "2026-10-22T18:34:00+00:00",
+      "mensaje_id": 59712,
+      "url": "https://t.me/empresaelectricacienfuegos1/59712",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "📌Se afecta nuevamente el circuito C-69, hasta tanto termine la protección por abasto de agua del C-18."
+    },
+    "C-18": {
+      "fecha": "2026-10-22T18:34:00+00:00",
+      "mensaje_id": 59712,
+      "url": "https://t.me/empresaelectricacienfuegos1/59712",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "📌Se afecta nuevamente el circuito C-69, hasta tanto termine la protección por abasto de agua del C-18."
     },
     "C-38": {
       "fecha": "2026-10-22T18:05:20+00:00",
@@ -1426,30 +1398,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
-      },
-      "lugares": []
-    },
-    "C-89": {
-      "fecha": "2026-10-22T18:05:20+00:00",
-      "mensaje_id": 59710,
-      "url": "https://t.me/empresaelectricacienfuegos1/59710",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T00:31:12+00:00",
-      "listas_consecutivas": 9,
-      "aviso_anterior": {
-        "fecha": "2026-10-21T22:59:52+00:00",
-        "mensaje_id": 59691,
-        "url": "https://t.me/empresaelectricacienfuegos1/59691",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
       },
       "lugares": []
     },
@@ -1721,35 +1669,6 @@
         "Parque Martí"
       ]
     },
-    "C-69": {
-      "fecha": "2026-10-22T18:05:20+00:00",
-      "mensaje_id": 59710,
-      "url": "https://t.me/empresaelectricacienfuegos1/59710",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T18:05:20+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T15:32:29+00:00",
-        "mensaje_id": 59708,
-        "url": "https://t.me/empresaelectricacienfuegos1/59708",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-      },
-      "lugares": [
-        "Junco Sur",
-        "Reparto de los médicos",
-        "Las Minas",
-        "Playa Alegre"
-      ]
-    },
     "C-26": {
       "fecha": "2026-10-22T18:05:20+00:00",
       "mensaje_id": 59710,
@@ -1914,10 +1833,12 @@
     "C-88": "déficit",
     "C-50": "déficit",
     "C-11": "déficit",
-    "C-18": "déficit",
     "C-72": "déficit",
     "C-56": "déficit",
-    "C-52": "déficit"
+    "C-52": "déficit",
+    "C-89": "emergencia",
+    "C-69": "sin precisar",
+    "C-18": "sin precisar"
   },
   "error": null,
   "pendientes_revision": [
@@ -2288,11 +2209,18 @@
       "id": 59706,
       "url": "https://t.me/empresaelectricacienfuegos1/59706",
       "fecha": "2026-10-22T13:45:50+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\n> | S y\nEl | a",
+      "id": 59711,
+      "url": "https://t.me/empresaelectricacienfuegos1/59711",
+      "fecha": "2026-10-22T18:28:27+00:00"
     }
   ],
   "lectura": {
     "texto": 60,
-    "imagenes": 52,
+    "imagenes": 54,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2359,15 +2287,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-24",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-20T16:37:55+00:00",
-      "mensaje_id": 59633,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59630",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59633"
-    },
     {
       "circuito": "C-29",
       "tipo": "salida_lista",
@@ -3258,13 +3177,22 @@
       "mensaje_id": 59710,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59708",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59710"
+    },
+    {
+      "circuito": "C-18",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-22T18:34:00+00:00",
+      "mensaje_id": 59712,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59710",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59712"
     }
   ],
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-22T18:05:20+00:00",
-  "total_circuitos_afectados": 54,
+  "total_circuitos_afectados": 56,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 20,
+  "total_restablecimientos_probables": 18,
   "circuitos_sin_catalogar": [
     "C-1770",
     "C-18",
@@ -3283,5 +3211,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-22T18:21:03.786676+00:00"
+  "actualizado": "2026-10-22T18:35:12.308319+00:00"
 }
