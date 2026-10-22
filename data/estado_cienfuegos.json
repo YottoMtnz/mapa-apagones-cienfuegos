@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-22T19:04:55+00:00",
+  "reporte_fecha": "2026-10-22T19:40:27+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-22T19:09:23+00:00",
-  "mensajes_leidos": 111,
+  "mensajes_leidos": 112,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -16,7 +16,6 @@
     "C-48": [],
     "S-4820": [],
     "S-2382": [],
-    "C-95": [],
     "C-63": [
       "Juraguá (Oeste",
       "Las 500",
@@ -276,6 +275,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
+    },
+    "C-95": {
+      "fecha": "2026-10-22T19:40:27+00:00",
+      "mensaje_id": 59715,
+      "url": "https://t.me/empresaelectricacienfuegos1/59715",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-95 Refinería, Carolina."
     }
   },
   "restablecimientos_probables": {
@@ -838,15 +846,6 @@
       "confianza": 100,
       "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
-    "C-95": {
-      "fecha": "2026-10-22T10:46:10+00:00",
-      "mensaje_id": 59698,
-      "url": "https://t.me/empresaelectricacienfuegos1/59698",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "⚠️ Se comunica a nuestros clientes que continúa en avería el circuito C-95 Refinería, Carolina, afectada la sección FW5017, las zonas:"
-    },
     "C-63": {
       "fecha": "2026-10-22T18:05:20+00:00",
       "mensaje_id": 59710,
@@ -1314,6 +1313,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
+    },
+    "C-95": {
+      "fecha": "2026-10-22T19:40:27+00:00",
+      "mensaje_id": 59715,
+      "url": "https://t.me/empresaelectricacienfuegos1/59715",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-95 Refinería, Carolina."
     },
     "C-38": {
       "fecha": "2026-10-22T18:05:20+00:00",
@@ -1789,7 +1797,6 @@
     "C-48": "avería",
     "S-4820": "avería",
     "S-2382": "avería",
-    "C-95": "avería",
     "C-63": "déficit",
     "C-85": "déficit",
     "C-53": "déficit",
@@ -2206,7 +2213,7 @@
     }
   ],
   "lectura": {
-    "texto": 60,
+    "texto": 61,
     "imagenes": 51,
     "pdf": 0,
     "no_leidos": 3
@@ -2274,15 +2281,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-44",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-20T16:37:55+00:00",
-      "mensaje_id": 59633,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59630",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59633"
-    },
     {
       "circuito": "C-31",
       "tipo": "salida_lista",
@@ -3173,11 +3171,20 @@
       "mensaje_id": 59713,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59711",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59713"
+    },
+    {
+      "circuito": "C-95",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-22T19:40:27+00:00",
+      "mensaje_id": 59715,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59698",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59715"
     }
   ],
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-22T18:05:20+00:00",
-  "total_circuitos_afectados": 55,
+  "total_circuitos_afectados": 54,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 18,
   "circuitos_sin_catalogar": [
@@ -3193,9 +3200,8 @@
     "C-59",
     "C-60",
     "C-94",
-    "C-95",
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-22T19:34:25.586294+00:00"
+  "actualizado": "2026-10-22T19:53:57.183935+00:00"
 }
