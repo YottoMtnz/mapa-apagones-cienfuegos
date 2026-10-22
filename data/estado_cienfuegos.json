@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-22T12:17:58+00:00",
+  "reporte_fecha": "2026-10-22T12:47:55+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-22T11:37:57+00:00",
-  "mensajes_leidos": 124,
+  "mensajes_leidos": 126,
   "afectados": {
     "C-15": [
       "Pepito Tey",
@@ -1127,9 +1127,9 @@
       "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
     },
     "C-90": {
-      "fecha": "2026-10-22T12:17:58+00:00",
-      "mensaje_id": 59703,
-      "url": "https://t.me/empresaelectricacienfuegos1/59703",
+      "fecha": "2026-10-22T12:47:55+00:00",
+      "mensaje_id": 59705,
+      "url": "https://t.me/empresaelectricacienfuegos1/59705",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1626,7 +1626,7 @@
     "C-69": "déficit",
     "C-28": "déficit",
     "C-27": "déficit",
-    "C-90": "déficit",
+    "C-90": "déficit / avería",
     "C-26": "déficit",
     "C-2": "déficit",
     "C-3": "déficit",
@@ -1637,27 +1637,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de 1961         MW a las 19:10 horas",
-      "id": 59581,
-      "url": "https://t.me/empresaelectricacienfuegos1/59581",
-      "fecha": "2026-10-19T13:37:20+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
-      "id": 59582,
-      "url": "https://t.me/empresaelectricacienfuegos1/59582",
-      "fecha": "2026-10-19T13:37:41+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n60 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
-      "id": 59586,
-      "url": "https://t.me/empresaelectricacienfuegos1/59586",
-      "fecha": "2026-10-19T14:34:25+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚠Se comunica a nuestros clientes que se encuentra afectado el servicio por Disparo Automático por Frecuencia (DAF), en la línea:\n \n\n👉L-1410 Horquita, San Ignacio.\n \n \n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
@@ -2053,10 +2032,31 @@
       "id": 59699,
       "url": "https://t.me/empresaelectricacienfuegos1/59699",
       "fecha": "2026-10-22T10:50:09+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "👉En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
+      "id": 59704,
+      "url": "https://t.me/empresaelectricacienfuegos1/59704",
+      "fecha": "2026-10-22T12:41:23+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de 1891         MW a las 19:30 horas.",
+      "id": 59704,
+      "url": "https://t.me/empresaelectricacienfuegos1/59704",
+      "fecha": "2026-10-22T12:41:23+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
+      "id": 59705,
+      "url": "https://t.me/empresaelectricacienfuegos1/59705",
+      "fecha": "2026-10-22T12:47:55+00:00"
     }
   ],
   "lectura": {
-    "texto": 65,
+    "texto": 67,
     "imagenes": 59,
     "pdf": 0,
     "no_leidos": 3
@@ -3053,5 +3053,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-22T12:34:21.347832+00:00"
+  "actualizado": "2026-10-22T12:49:21.316063+00:00"
 }
