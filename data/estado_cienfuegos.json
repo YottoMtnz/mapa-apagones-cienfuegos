@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-10-22T20:36:07+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-22T19:09:23+00:00",
+  "programado_fecha": "2026-10-22T21:08:02+00:00",
   "mensajes_leidos": 109,
   "afectados": {
     "C-23": [
@@ -280,7 +280,34 @@
       "Calle 47 de Ave 54 hasta Ave 58"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-2": [],
+    "C-3": [
+      "Reparto Eléctrico"
+    ],
+    "C-5": [
+      "Boulevard",
+      "Parque Martí"
+    ],
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
+    ],
+    "C-26": [
+      "Caonao",
+      "Los Tanques",
+      "La Ceiba",
+      "El Paisíto"
+    ],
+    "C-90": [
+      "FW1558) La Pollera"
+    ]
+  },
   "confirmados_con_servicio": {
     "C-89": {
       "fecha": "2026-10-22T19:04:55+00:00",
@@ -1247,6 +1274,60 @@
       "confianza": 100,
       "texto": "👉C-406 San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
     },
+    "C-2": {
+      "fecha": "2026-10-22T21:08:02+00:00",
+      "mensaje_id": 59717,
+      "url": "https://t.me/empresaelectricacienfuegos1/59717",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
+    "C-3": {
+      "fecha": "2026-10-22T21:08:02+00:00",
+      "mensaje_id": 59717,
+      "url": "https://t.me/empresaelectricacienfuegos1/59717",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
+    "C-5": {
+      "fecha": "2026-10-22T21:08:02+00:00",
+      "mensaje_id": 59717,
+      "url": "https://t.me/empresaelectricacienfuegos1/59717",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
+    "C-15": {
+      "fecha": "2026-10-22T21:08:02+00:00",
+      "mensaje_id": 59717,
+      "url": "https://t.me/empresaelectricacienfuegos1/59717",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
+    "C-67": {
+      "fecha": "2026-10-22T21:08:02+00:00",
+      "mensaje_id": 59717,
+      "url": "https://t.me/empresaelectricacienfuegos1/59717",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
+    "C-26": {
+      "fecha": "2026-10-22T21:08:02+00:00",
+      "mensaje_id": 59717,
+      "url": "https://t.me/empresaelectricacienfuegos1/59717",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
     "C-89": {
       "fecha": "2026-10-22T19:04:55+00:00",
       "mensaje_id": 59713,
@@ -1476,139 +1557,6 @@
       },
       "lugares": []
     },
-    "C-5": {
-      "fecha": "2026-10-22T20:36:07+00:00",
-      "mensaje_id": 59716,
-      "url": "https://t.me/empresaelectricacienfuegos1/59716",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T18:05:20+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T15:32:29+00:00",
-        "mensaje_id": 59708,
-        "url": "https://t.me/empresaelectricacienfuegos1/59708",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-5 Boulevard, Parque Martí"
-      },
-      "lugares": [
-        "Boulevard",
-        "Parque Martí"
-      ]
-    },
-    "C-26": {
-      "fecha": "2026-10-22T20:36:07+00:00",
-      "mensaje_id": 59716,
-      "url": "https://t.me/empresaelectricacienfuegos1/59716",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T18:05:20+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T15:32:29+00:00",
-        "mensaje_id": 59708,
-        "url": "https://t.me/empresaelectricacienfuegos1/59708",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
-      },
-      "lugares": [
-        "Caonao",
-        "Los Tanques",
-        "La Ceiba",
-        "El Paisíto"
-      ]
-    },
-    "C-2": {
-      "fecha": "2026-10-22T20:36:07+00:00",
-      "mensaje_id": 59716,
-      "url": "https://t.me/empresaelectricacienfuegos1/59716",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T18:05:20+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T15:32:29+00:00",
-        "mensaje_id": 59708,
-        "url": "https://t.me/empresaelectricacienfuegos1/59708",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
-      },
-      "lugares": []
-    },
-    "C-3": {
-      "fecha": "2026-10-22T20:36:07+00:00",
-      "mensaje_id": 59716,
-      "url": "https://t.me/empresaelectricacienfuegos1/59716",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T18:05:20+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T15:32:29+00:00",
-        "mensaje_id": 59708,
-        "url": "https://t.me/empresaelectricacienfuegos1/59708",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-3 Reparto Eléctrico"
-      },
-      "lugares": [
-        "Reparto Eléctrico"
-      ]
-    },
-    "C-15": {
-      "fecha": "2026-10-22T20:36:07+00:00",
-      "mensaje_id": 59716,
-      "url": "https://t.me/empresaelectricacienfuegos1/59716",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T18:05:20+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T15:32:29+00:00",
-        "mensaje_id": 59708,
-        "url": "https://t.me/empresaelectricacienfuegos1/59708",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-15 Pepito Tey, Guabairo."
-      },
-      "lugares": [
-        "Pepito Tey",
-        "Guabairo"
-      ]
-    },
     "C-405": {
       "fecha": "2026-10-22T20:36:07+00:00",
       "mensaje_id": 59716,
@@ -1660,7 +1608,43 @@
       "lugares": []
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-2": {
+      "inicio": null,
+      "fin": "2026-10-23T09:08:02+00:00",
+      "fecha_ambigua": false
+    },
+    "C-3": {
+      "inicio": null,
+      "fin": "2026-10-23T09:08:02+00:00",
+      "fecha_ambigua": false
+    },
+    "C-5": {
+      "inicio": null,
+      "fin": "2026-10-23T09:08:02+00:00",
+      "fecha_ambigua": false
+    },
+    "C-15": {
+      "inicio": null,
+      "fin": "2026-10-23T09:08:02+00:00",
+      "fecha_ambigua": false
+    },
+    "C-67": {
+      "inicio": null,
+      "fin": "2026-10-23T09:08:02+00:00",
+      "fecha_ambigua": false
+    },
+    "C-26": {
+      "inicio": null,
+      "fin": "2026-10-23T09:08:02+00:00",
+      "fecha_ambigua": false
+    },
+    "C-90": {
+      "inicio": null,
+      "fin": "2026-10-23T09:08:02+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -2090,8 +2074,8 @@
     }
   ],
   "lectura": {
-    "texto": 59,
-    "imagenes": 50,
+    "texto": 58,
+    "imagenes": 51,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -3065,7 +3049,7 @@
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-22T20:36:07+00:00",
   "total_circuitos_afectados": 57,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 7,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-1770",
@@ -3083,5 +3067,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-22T21:07:47.750541+00:00"
+  "actualizado": "2026-10-22T21:19:20.071585+00:00"
 }
