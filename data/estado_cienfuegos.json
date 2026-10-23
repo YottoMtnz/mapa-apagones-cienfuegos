@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-23T17:27:45+00:00",
-  "mensajes_leidos": 102,
+  "mensajes_leidos": 101,
   "afectados": {
     "C-20": [],
     "C-32": [
@@ -110,9 +110,6 @@
       "5 de Septiembre",
       "Guayabito"
     ],
-    "C-48": [],
-    "S-4820": [],
-    "S-2382": [],
     "C-101": [
       "Cartagena",
       "La Modelo",
@@ -923,33 +920,6 @@
       "confianza": 100,
       "texto": "👉C-23  Turquino, 5 de Septiembre, Guayabito"
     },
-    "C-48": {
-      "fecha": "2026-10-23T11:00:51+00:00",
-      "mensaje_id": 59733,
-      "url": "https://t.me/empresaelectricacienfuegos1/59733",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S4820 hasta la SF4823 El Naranjo, Los Tornos, Poblado Las Minas (C-48)"
-    },
-    "S-4820": {
-      "fecha": "2026-10-23T11:00:51+00:00",
-      "mensaje_id": 59733,
-      "url": "https://t.me/empresaelectricacienfuegos1/59733",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S4820 hasta la SF4823 El Naranjo, Los Tornos, Poblado Las Minas (C-48)"
-    },
-    "S-2382": {
-      "fecha": "2026-10-23T11:00:51+00:00",
-      "mensaje_id": 59733,
-      "url": "https://t.me/empresaelectricacienfuegos1/59733",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
     "C-101": {
       "fecha": "2026-10-23T22:15:28+00:00",
       "mensaje_id": 59755,
@@ -1738,17 +1708,14 @@
     "C-25": "déficit",
     "C-102": "déficit",
     "C-103": "déficit",
-    "C-23": "déficit / avería",
-    "C-48": "avería",
-    "S-4820": "avería",
-    "S-2382": "avería",
+    "C-23": "déficit",
     "C-101": "déficit",
     "C-86": "déficit",
     "C-58": "déficit",
     "C-44": "déficit",
     "C-28": "déficit",
     "C-27": "déficit",
-    "C-90": "avería / déficit",
+    "C-90": "déficit",
     "C-31": "déficit",
     "C-88": "déficit",
     "C-50": "déficit",
@@ -2094,7 +2061,7 @@
     }
   ],
   "lectura": {
-    "texto": 55,
+    "texto": 54,
     "imagenes": 47,
     "pdf": 0,
     "no_leidos": 3
@@ -3068,7 +3035,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-23T22:15:28+00:00",
-  "total_circuitos_afectados": 57,
+  "total_circuitos_afectados": 54,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
@@ -3079,16 +3046,13 @@
     "C-31",
     "C-407",
     "C-43",
-    "C-48",
     "C-58",
     "C-59",
     "C-60",
     "C-89",
     "C-92",
     "C-94",
-    "C-95",
-    "S-2382",
-    "S-4820"
+    "C-95"
   ],
-  "actualizado": "2026-10-23T23:00:46.351110+00:00"
+  "actualizado": "2026-10-23T23:14:24.146942+00:00"
 }
