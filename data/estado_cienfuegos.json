@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-23T18:29:05+00:00",
+  "reporte_fecha": "2026-10-23T18:49:27+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-23T17:27:45+00:00",
-  "mensajes_leidos": 107,
+  "mensajes_leidos": 108,
   "afectados": {
     "C-53": [
       "Potrerillo",
@@ -17,6 +17,7 @@
       "Batey Mal Tiempo",
       "Loma de Tola"
     ],
+    "C-20": [],
     "C-67": [
       "El Crucero",
       "Guaos",
@@ -693,6 +694,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-54  Batey Mal Tiempo, Carrasco, Loma de Tola."
+    },
+    "C-20": {
+      "fecha": "2026-10-23T18:49:27+00:00",
+      "mensaje_id": 59750,
+      "url": "https://t.me/empresaelectricacienfuegos1/59750",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-20 Punta Gorda"
     },
     "C-67": {
       "fecha": "2026-10-23T18:29:05+00:00",
@@ -1527,6 +1537,7 @@
   "causas": {
     "C-53": "déficit",
     "C-54": "déficit",
+    "C-20": "sin precisar",
     "C-67": "déficit",
     "C-32": "déficit",
     "C-24": "déficit",
@@ -1913,11 +1924,18 @@
       "id": 59744,
       "url": "https://t.me/empresaelectricacienfuegos1/59744",
       "fecha": "2026-10-23T16:05:40+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nmanipulación en las redes eléctricas\nY\na\nrR\nY\n41\n= &\neL",
+      "id": 59750,
+      "url": "https://t.me/empresaelectricacienfuegos1/59750",
+      "fecha": "2026-10-23T18:49:27+00:00"
     }
   ],
   "lectura": {
     "texto": 56,
-    "imagenes": 51,
+    "imagenes": 52,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2894,13 +2912,14 @@
   ],
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-23T18:29:05+00:00",
-  "total_circuitos_afectados": 60,
+  "total_circuitos_afectados": 61,
   "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 13,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-1770",
     "C-2",
+    "C-20",
     "C-31",
     "C-407",
     "C-43",
@@ -2915,5 +2934,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-23T18:45:58.715015+00:00"
+  "actualizado": "2026-10-23T18:59:26.651109+00:00"
 }
