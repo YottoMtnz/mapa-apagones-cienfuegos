@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-23T12:11:47+00:00",
+  "reporte_fecha": "2026-10-23T12:47:01+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-23T11:11:04+00:00",
@@ -1104,9 +1104,9 @@
       "texto": "👉C-405 \"Pueblo Griffo Nuevo."
     },
     "C-80": {
-      "fecha": "2026-10-23T12:11:47+00:00",
-      "mensaje_id": 59736,
-      "url": "https://t.me/empresaelectricacienfuegos1/59736",
+      "fecha": "2026-10-23T12:47:01+00:00",
+      "mensaje_id": 59739,
+      "url": "https://t.me/empresaelectricacienfuegos1/59739",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1194,9 +1194,9 @@
       "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
     },
     "C-89": {
-      "fecha": "2026-10-23T12:11:47+00:00",
-      "mensaje_id": 59736,
-      "url": "https://t.me/empresaelectricacienfuegos1/59736",
+      "fecha": "2026-10-23T12:47:01+00:00",
+      "mensaje_id": 59739,
+      "url": "https://t.me/empresaelectricacienfuegos1/59739",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1544,7 +1544,7 @@
     "C-38": "déficit",
     "C-11": "déficit",
     "C-405": "déficit",
-    "C-80": "déficit",
+    "C-80": "déficit / avería",
     "C-43": "déficit",
     "C-66": "déficit",
     "C-2": "déficit",
@@ -1554,7 +1554,7 @@
     "C-70": "déficit",
     "C-95": "déficit",
     "C-30": "déficit",
-    "C-89": "déficit",
+    "C-89": "déficit / emergencia",
     "C-407": "déficit"
   },
   "error": null,
@@ -1905,6 +1905,13 @@
       "id": 59738,
       "url": "https://t.me/empresaelectricacienfuegos1/59738",
       "fecha": "2026-10-23T12:43:59+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
+      "id": 59739,
+      "url": "https://t.me/empresaelectricacienfuegos1/59739",
+      "fecha": "2026-10-23T12:47:01+00:00"
     }
   ],
   "lectura": {
@@ -2912,5 +2919,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-23T12:44:21.087093+00:00"
+  "actualizado": "2026-10-23T12:59:19.168689+00:00"
 }
