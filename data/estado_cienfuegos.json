@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-10-23T14:45:18+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-23T11:11:04+00:00",
+  "programado_fecha": "2026-10-23T15:23:47+00:00",
   "mensajes_leidos": 112,
   "afectados": {
     "C-53": [
@@ -299,7 +299,9 @@
     "C-5": [
       "Boulevard",
       "Parque Martí"
-    ]
+    ],
+    "C-17": [],
+    "C-92": []
   },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
@@ -1234,6 +1236,24 @@
       "confianza": 100,
       "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
+    "C-17": {
+      "fecha": "2026-10-23T15:23:47+00:00",
+      "mensaje_id": 59743,
+      "url": "https://t.me/empresaelectricacienfuegos1/59743",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17 Ave 5 de sept, Distrito Petrolero, Hermanas Giralt"
+    },
+    "C-92": {
+      "fecha": "2026-10-23T15:23:47+00:00",
+      "mensaje_id": 59743,
+      "url": "https://t.me/empresaelectricacienfuegos1/59743",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17 Ave 5 de sept, Distrito Petrolero, Hermanas Giralt"
+    },
     "C-91": {
       "fecha": "2026-10-23T14:45:18+00:00",
       "mensaje_id": 59742,
@@ -1335,54 +1355,6 @@
         "Rodas (Bombeo Agua Rodas 0-12",
         "Rodas"
       ]
-    },
-    "C-92": {
-      "fecha": "2026-10-23T14:45:18+00:00",
-      "mensaje_id": 59742,
-      "url": "https://t.me/empresaelectricacienfuegos1/59742",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-55  Cruces (Sur).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-23T10:34:25+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-10-23T07:34:14+00:00",
-        "mensaje_id": 59730,
-        "url": "https://t.me/empresaelectricacienfuegos1/59730",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
-      },
-      "lugares": []
-    },
-    "C-17": {
-      "fecha": "2026-10-23T14:45:18+00:00",
-      "mensaje_id": 59742,
-      "url": "https://t.me/empresaelectricacienfuegos1/59742",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-55  Cruces (Sur).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-23T10:34:25+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-10-23T07:34:14+00:00",
-        "mensaje_id": 59730,
-        "url": "https://t.me/empresaelectricacienfuegos1/59730",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
-      },
-      "lugares": []
     },
     "C-36": {
       "fecha": "2026-10-23T14:45:18+00:00",
@@ -1529,6 +1501,16 @@
     "C-5": {
       "inicio": null,
       "fin": "2026-10-23T19:38:20+00:00",
+      "fecha_ambigua": false
+    },
+    "C-17": {
+      "inicio": null,
+      "fin": "2026-10-24T03:23:47+00:00",
+      "fecha_ambigua": false
+    },
+    "C-92": {
+      "inicio": null,
+      "fin": "2026-10-24T03:23:47+00:00",
       "fecha_ambigua": false
     }
   },
@@ -1967,8 +1949,8 @@
     }
   ],
   "lectura": {
-    "texto": 58,
-    "imagenes": 54,
+    "texto": 57,
+    "imagenes": 55,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2950,7 +2932,7 @@
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-23T14:45:18+00:00",
   "total_circuitos_afectados": 63,
-  "total_circuitos_programados": 1,
+  "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 12,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2970,5 +2952,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-23T15:17:39.740095+00:00"
+  "actualizado": "2026-10-23T15:32:39.531862+00:00"
 }
