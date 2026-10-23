@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-23T02:20:55+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-23T01:11:02+00:00",
-  "mensajes_leidos": 112,
+  "programado_fecha": "2026-10-23T03:02:08+00:00",
+  "mensajes_leidos": 113,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -303,7 +303,25 @@
     "C-92": [],
     "C-17": []
   },
-  "programados": {},
+  "programados": {
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
+    ],
+    "C-66": [
+      "Reina (Parque"
+    ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
+    ],
+    "C-19": [
+      "Tulipán"
+    ],
+    "C-405": [
+      "Pueblo Griffo Nuevo"
+    ]
+  },
   "confirmados_con_servicio": {
     "C-89": {
       "fecha": "2026-10-22T19:04:55+00:00",
@@ -1114,6 +1132,51 @@
       "confianza": 100,
       "texto": "👉C-17 Ave 5 de sept, Distrito Petrolero, Hermanas Giralt"
     },
+    "C-65": {
+      "fecha": "2026-10-23T03:02:08+00:00",
+      "mensaje_id": 59729,
+      "url": "https://t.me/empresaelectricacienfuegos1/59729",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Casco histórico, Reina (Aduana)"
+    },
+    "C-66": {
+      "fecha": "2026-10-23T03:02:08+00:00",
+      "mensaje_id": 59729,
+      "url": "https://t.me/empresaelectricacienfuegos1/59729",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Casco histórico, Reina (Aduana)"
+    },
+    "C-80": {
+      "fecha": "2026-10-23T03:02:08+00:00",
+      "mensaje_id": 59729,
+      "url": "https://t.me/empresaelectricacienfuegos1/59729",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Casco histórico, Reina (Aduana)"
+    },
+    "C-19": {
+      "fecha": "2026-10-23T03:02:08+00:00",
+      "mensaje_id": 59729,
+      "url": "https://t.me/empresaelectricacienfuegos1/59729",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Casco histórico, Reina (Aduana)"
+    },
+    "C-405": {
+      "fecha": "2026-10-23T03:02:08+00:00",
+      "mensaje_id": 59729,
+      "url": "https://t.me/empresaelectricacienfuegos1/59729",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Casco histórico, Reina (Aduana)"
+    },
     "C-89": {
       "fecha": "2026-10-22T19:04:55+00:00",
       "mensaje_id": 59713,
@@ -1131,15 +1194,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-95 Refinería, Carolina."
-    },
-    "C-80": {
-      "fecha": "2026-10-23T01:08:36+00:00",
-      "mensaje_id": 59725,
-      "url": "https://t.me/empresaelectricacienfuegos1/59725",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-80 Punta Cotica, Parque José Martí."
     },
     "C-91": {
       "fecha": "2026-10-23T02:20:55+00:00",
@@ -1267,32 +1321,6 @@
       },
       "lugares": []
     },
-    "C-405": {
-      "fecha": "2026-10-23T02:20:55+00:00",
-      "mensaje_id": 59728,
-      "url": "https://t.me/empresaelectricacienfuegos1/59728",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 \"Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T20:36:07+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T18:05:20+00:00",
-        "mensaje_id": 59710,
-        "url": "https://t.me/empresaelectricacienfuegos1/59710",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-405 Pueblo Griffo Nuevo."
-      },
-      "lugares": [
-        "Pueblo Griffo Nuevo"
-      ]
-    },
     "C-43": {
       "fecha": "2026-10-23T02:20:55+00:00",
       "mensaje_id": 59728,
@@ -1316,35 +1344,35 @@
         "texto": "👉C-43 Aguada (Pueblo), Autopista, Batey María Victoria."
       },
       "lugares": []
-    },
-    "C-66": {
-      "fecha": "2026-10-23T02:20:55+00:00",
-      "mensaje_id": 59728,
-      "url": "https://t.me/empresaelectricacienfuegos1/59728",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 \"Cumanayagua (Centro).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T23:25:08+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T22:38:20+00:00",
-        "mensaje_id": 59721,
-        "url": "https://t.me/empresaelectricacienfuegos1/59721",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-66 Reina (Parque)"
-      },
-      "lugares": [
-        "Reina (Parque"
-      ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-65": {
+      "inicio": null,
+      "fin": "2026-10-23T15:02:08+00:00",
+      "fecha_ambigua": false
+    },
+    "C-66": {
+      "inicio": null,
+      "fin": "2026-10-23T15:02:08+00:00",
+      "fecha_ambigua": false
+    },
+    "C-80": {
+      "inicio": null,
+      "fin": "2026-10-23T15:02:08+00:00",
+      "fecha_ambigua": false
+    },
+    "C-19": {
+      "inicio": null,
+      "fin": "2026-10-23T15:02:08+00:00",
+      "fecha_ambigua": false
+    },
+    "C-405": {
+      "inicio": null,
+      "fin": "2026-10-23T15:02:08+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 70.0,
   "hora_inicio": null,
@@ -1785,7 +1813,7 @@
   ],
   "lectura": {
     "texto": 59,
-    "imagenes": 53,
+    "imagenes": 54,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2766,7 +2794,7 @@
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-23T02:20:55+00:00",
   "total_circuitos_afectados": 60,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 8,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2782,5 +2810,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-23T02:49:24.798690+00:00"
+  "actualizado": "2026-10-23T03:04:16.233815+00:00"
 }
