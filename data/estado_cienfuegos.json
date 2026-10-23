@@ -234,7 +234,6 @@
       "Las Minas",
       "Playa Alegre"
     ],
-    "C-18": [],
     "C-22": [
       "Rodas (Bombeo Agua Rodas 0-12",
       "Rodas"
@@ -979,15 +978,6 @@
       "confianza": 100,
       "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
-    "C-18": {
-      "fecha": "2026-10-22T18:34:00+00:00",
-      "mensaje_id": 59712,
-      "url": "https://t.me/empresaelectricacienfuegos1/59712",
-      "medio": "texto",
-      "editado": "2026-10-22T18:36:13+00:00",
-      "confianza": 100,
-      "texto": "📌Se afecta nuevamente el circuito C-69, hasta tanto termine la protección por abasto de agua del C-18."
-    },
     "C-22": {
       "fecha": "2026-10-23T02:20:55+00:00",
       "mensaje_id": 59728,
@@ -1421,8 +1411,7 @@
     "C-72": "déficit",
     "C-56": "déficit",
     "C-52": "déficit",
-    "C-69": "sin precisar / déficit",
-    "C-18": "sin precisar",
+    "C-69": "déficit",
     "C-22": "déficit",
     "C-21": "déficit",
     "C-82": "déficit",
@@ -2786,13 +2775,12 @@
   ],
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-23T02:20:55+00:00",
-  "total_circuitos_afectados": 60,
+  "total_circuitos_afectados": 59,
   "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 8,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-1770",
-    "C-18",
     "C-2",
     "C-31",
     "C-407",
@@ -2803,5 +2791,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-10-23T06:19:39.537880+00:00"
+  "actualizado": "2026-10-23T06:34:08.240577+00:00"
 }
