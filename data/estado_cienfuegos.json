@@ -1704,12 +1704,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "id": 59650,
-      "url": "https://t.me/empresaelectricacienfuegos1/59650",
-      "fecha": "2026-10-20T21:48:18+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
-    {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚠Se comunica a nuestros clientes que al momento de restablecer el servicio por déficit de capacidad de generación se encuentra en fallo la sección FW4791,afectadas las zonas:\n\n\n👉Centro de Acopio San Francisco\n\n👉Granja Elpidio Gómez\n\n👉Niebla 1 \n\n👉Niebla 2\n\n\n📌Se trabaja para restablecer el servicio lo",
       "id": 59652,
@@ -2021,13 +2015,20 @@
       "id": 59750,
       "url": "https://t.me/empresaelectricacienfuegos1/59750",
       "fecha": "2026-10-23T18:49:27+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n65 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 59753,
+      "url": "https://t.me/empresaelectricacienfuegos1/59753",
+      "fecha": "2026-10-23T21:48:22+00:00"
     }
   ],
   "lectura": {
     "texto": 55,
     "imagenes": 47,
     "pdf": 0,
-    "no_leidos": 3
+    "no_leidos": 2
   },
   "listas_completas": {
     "deficit": {
@@ -3022,5 +3023,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-23T21:37:51.215318+00:00"
+  "actualizado": "2026-10-23T21:49:20.915046+00:00"
 }
