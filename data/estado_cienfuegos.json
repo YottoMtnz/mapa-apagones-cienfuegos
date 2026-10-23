@@ -6,13 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-23T17:27:45+00:00",
-  "mensajes_leidos": 105,
+  "mensajes_leidos": 104,
   "afectados": {
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
-    ],
     "C-20": [],
     "C-32": [
       "Yaguaramas",
@@ -111,6 +106,11 @@
       "Turquino",
       "5 de Septiembre",
       "Guayabito"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
     ],
     "C-48": [],
     "S-4820": [],
@@ -708,15 +708,6 @@
     ]
   },
   "evidencias": {
-    "C-67": {
-      "fecha": "2026-10-23T19:36:31+00:00",
-      "mensaje_id": 59751,
-      "url": "https://t.me/empresaelectricacienfuegos1/59751",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-67  \"El Crucero, Guaos, Naranjito."
-    },
     "C-20": {
       "fecha": "2026-10-23T18:49:27+00:00",
       "mensaje_id": 59750,
@@ -878,6 +869,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-23  Turquino, 5 de Septiembre, Guayabito"
+    },
+    "C-67": {
+      "fecha": "2026-10-23T19:36:31+00:00",
+      "mensaje_id": 59751,
+      "url": "https://t.me/empresaelectricacienfuegos1/59751",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67  \"El Crucero, Guaos, Naranjito."
     },
     "C-48": {
       "fecha": "2026-10-23T11:00:51+00:00",
@@ -1642,7 +1642,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-67": "déficit",
     "C-20": "sin precisar",
     "C-32": "déficit",
     "C-29": "déficit",
@@ -1661,6 +1660,7 @@
     "C-102": "déficit",
     "C-103": "déficit",
     "C-23": "déficit / avería",
+    "C-67": "déficit",
     "C-48": "avería",
     "S-4820": "avería",
     "S-2382": "avería",
@@ -1704,13 +1704,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
-      "id": 59646,
-      "url": "https://t.me/empresaelectricacienfuegos1/59646",
-      "fecha": "2026-10-20T20:08:03+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\n> | S y\nEl | a",
@@ -2040,7 +2033,7 @@
   ],
   "lectura": {
     "texto": 55,
-    "imagenes": 50,
+    "imagenes": 49,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2230,15 +2223,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59690"
     },
     {
-      "circuito": "C-67",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-21T22:59:52+00:00",
-      "mensaje_id": 59691,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59686",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59691"
-    },
-    {
       "circuito": "C-3",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2258,6 +2242,15 @@
     },
     {
       "circuito": "C-94",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-21T22:59:52+00:00",
+      "mensaje_id": 59691,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59686",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59691"
+    },
+    {
+      "circuito": "C-67",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-21T22:59:52+00:00",
@@ -3037,5 +3030,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-23T19:59:21.239007+00:00"
+  "actualizado": "2026-10-23T20:19:17.613701+00:00"
 }
