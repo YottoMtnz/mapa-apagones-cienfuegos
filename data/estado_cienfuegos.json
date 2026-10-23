@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-23T10:34:25+00:00",
+  "reporte_fecha": "2026-10-23T11:00:51+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-23T07:38:20+00:00",
-  "mensajes_leidos": 109,
+  "mensajes_leidos": 110,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -23,6 +23,9 @@
       "La Yuca",
       "Bagazal"
     ],
+    "C-48": [],
+    "S-4820": [],
+    "S-2382": [],
     "C-85": [
       "Cumanayagua (Centro"
     ],
@@ -609,13 +612,13 @@
   },
   "evidencias": {
     "C-23": {
-      "fecha": "2026-10-23T10:34:25+00:00",
-      "mensaje_id": 59732,
-      "url": "https://t.me/empresaelectricacienfuegos1/59732",
+      "fecha": "2026-10-23T11:00:51+00:00",
+      "mensaje_id": 59733,
+      "url": "https://t.me/empresaelectricacienfuegos1/59733",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-63": {
       "fecha": "2026-10-23T10:34:25+00:00",
@@ -625,6 +628,33 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
+    },
+    "C-48": {
+      "fecha": "2026-10-23T11:00:51+00:00",
+      "mensaje_id": 59733,
+      "url": "https://t.me/empresaelectricacienfuegos1/59733",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S4820 hasta la SF4823 El Naranjo, Los Tornos, Poblado Las Minas (C-48)"
+    },
+    "S-4820": {
+      "fecha": "2026-10-23T11:00:51+00:00",
+      "mensaje_id": 59733,
+      "url": "https://t.me/empresaelectricacienfuegos1/59733",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S4820 hasta la SF4823 El Naranjo, Los Tornos, Poblado Las Minas (C-48)"
+    },
+    "S-2382": {
+      "fecha": "2026-10-23T11:00:51+00:00",
+      "mensaje_id": 59733,
+      "url": "https://t.me/empresaelectricacienfuegos1/59733",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-85": {
       "fecha": "2026-10-23T10:34:25+00:00",
@@ -924,22 +954,22 @@
       "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
     },
     "C-90": {
-      "fecha": "2026-10-23T10:34:25+00:00",
-      "mensaje_id": 59732,
-      "url": "https://t.me/empresaelectricacienfuegos1/59732",
+      "fecha": "2026-10-23T11:00:51+00:00",
+      "mensaje_id": 59733,
+      "url": "https://t.me/empresaelectricacienfuegos1/59733",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
+      "texto": "👉FW1558 La Pollera (C-90)"
     },
     "C-47": {
-      "fecha": "2026-10-23T10:34:25+00:00",
-      "mensaje_id": 59732,
-      "url": "https://t.me/empresaelectricacienfuegos1/59732",
+      "fecha": "2026-10-23T11:00:51+00:00",
+      "mensaje_id": 59733,
+      "url": "https://t.me/empresaelectricacienfuegos1/59733",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
+      "texto": "👉W4791 Centro de Acopio San Francisco, Granja Elpidio Gómez, Niebla 1, Niebla 2 (C-47)"
     },
     "C-31": {
       "fecha": "2026-10-23T10:34:25+00:00",
@@ -1386,8 +1416,11 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "déficit",
+    "C-23": "avería / déficit",
     "C-63": "déficit",
+    "C-48": "avería",
+    "S-4820": "avería",
+    "S-2382": "avería",
     "C-85": "déficit",
     "C-53": "déficit",
     "C-54": "déficit",
@@ -1421,8 +1454,8 @@
     "C-44": "déficit",
     "C-28": "déficit",
     "C-27": "déficit",
-    "C-90": "déficit",
-    "C-47": "déficit",
+    "C-90": "avería / déficit",
+    "C-47": "déficit / avería",
     "C-31": "déficit",
     "C-88": "déficit",
     "C-50": "déficit",
@@ -1802,11 +1835,18 @@
       "id": 59723,
       "url": "https://t.me/empresaelectricacienfuegos1/59723",
       "fecha": "2026-10-23T00:36:44+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
+      "id": 59733,
+      "url": "https://t.me/empresaelectricacienfuegos1/59733",
+      "fecha": "2026-10-23T11:00:51+00:00"
     }
   ],
   "lectura": {
     "texto": 57,
-    "imagenes": 52,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2787,7 +2827,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-23T10:34:25+00:00",
-  "total_circuitos_afectados": 60,
+  "total_circuitos_afectados": 63,
   "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 10,
   "circuitos_sin_catalogar": [
@@ -2797,11 +2837,14 @@
     "C-31",
     "C-407",
     "C-43",
+    "C-48",
     "C-58",
     "C-59",
     "C-60",
     "C-92",
-    "C-94"
+    "C-94",
+    "S-2382",
+    "S-4820"
   ],
-  "actualizado": "2026-10-23T10:51:59.208261+00:00"
+  "actualizado": "2026-10-23T11:04:23.545036+00:00"
 }
