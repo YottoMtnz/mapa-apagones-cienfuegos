@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-23T11:11:04+00:00",
-  "mensajes_leidos": 112,
+  "mensajes_leidos": 111,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -1483,13 +1483,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
-      "id": 59623,
-      "url": "https://t.me/empresaelectricacienfuegos1/59623",
-      "fecha": "2026-10-20T11:31:43+00:00"
-    },
-    {
       "motivo": "resumen_historico",
       "texto": "En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
       "id": 59626,
@@ -1846,7 +1839,7 @@
   ],
   "lectura": {
     "texto": 58,
-    "imagenes": 54,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2159,7 +2152,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59682"
     },
     {
-      "circuito": "C-95",
+      "circuito": "C-406",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-21T21:09:50+00:00",
@@ -2168,7 +2161,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59686"
     },
     {
-      "circuito": "C-406",
+      "circuito": "C-95",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-21T21:09:50+00:00",
@@ -2357,15 +2350,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59696"
     },
     {
-      "circuito": "C-95",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-22T12:17:58+00:00",
-      "mensaje_id": 59703,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59700",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59703"
-    },
-    {
       "circuito": "C-50",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2394,6 +2378,15 @@
     },
     {
       "circuito": "C-88",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-22T12:17:58+00:00",
+      "mensaje_id": 59703,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59700",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59703"
+    },
+    {
+      "circuito": "C-95",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-22T12:17:58+00:00",
@@ -2846,5 +2839,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-23T11:19:31.530998+00:00"
+  "actualizado": "2026-10-23T11:34:20.177794+00:00"
 }
