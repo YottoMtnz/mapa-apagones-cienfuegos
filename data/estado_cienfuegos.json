@@ -6,13 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-23T11:11:04+00:00",
-  "mensajes_leidos": 111,
+  "mensajes_leidos": 110,
   "afectados": {
-    "C-23": [
-      "Turquino",
-      "5 de Septiembre",
-      "Guayabito"
-    ],
     "C-63": [
       "Juraguá (Oeste",
       "Las 500",
@@ -26,6 +21,11 @@
     "C-48": [],
     "S-4820": [],
     "S-2382": [],
+    "C-23": [
+      "Turquino",
+      "5 de Septiembre",
+      "Guayabito"
+    ],
     "C-85": [
       "Cumanayagua (Centro"
     ],
@@ -611,15 +611,6 @@
     ]
   },
   "evidencias": {
-    "C-23": {
-      "fecha": "2026-10-23T11:08:42+00:00",
-      "mensaje_id": 59734,
-      "url": "https://t.me/empresaelectricacienfuegos1/59734",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
-    },
     "C-63": {
       "fecha": "2026-10-23T11:08:42+00:00",
       "mensaje_id": 59734,
@@ -655,6 +646,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
+    },
+    "C-23": {
+      "fecha": "2026-10-23T11:08:42+00:00",
+      "mensaje_id": 59734,
+      "url": "https://t.me/empresaelectricacienfuegos1/59734",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
     },
     "C-85": {
       "fecha": "2026-10-23T11:08:42+00:00",
@@ -1416,11 +1416,11 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "avería / déficit",
     "C-63": "déficit",
     "C-48": "avería",
     "S-4820": "avería",
     "S-2382": "avería",
+    "C-23": "avería / déficit",
     "C-85": "déficit",
     "C-53": "déficit",
     "C-54": "déficit",
@@ -1838,7 +1838,7 @@
     }
   ],
   "lectura": {
-    "texto": 58,
+    "texto": 57,
     "imagenes": 53,
     "pdf": 0,
     "no_leidos": 3
@@ -1936,7 +1936,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59655"
     },
     {
-      "circuito": "C-103",
+      "circuito": "C-23",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-21T02:01:11+00:00",
@@ -1945,7 +1945,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59656"
     },
     {
-      "circuito": "C-23",
+      "circuito": "C-103",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-21T02:01:11+00:00",
@@ -2839,5 +2839,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-23T11:34:20.177794+00:00"
+  "actualizado": "2026-10-23T11:49:15.383420+00:00"
 }
