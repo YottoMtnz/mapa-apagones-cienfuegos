@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T04:13:42+00:00",
+  "reporte_fecha": "2026-10-24T06:17:34+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-24T03:03:38+00:00",
-  "mensajes_leidos": 99,
+  "mensajes_leidos": 100,
   "afectados": {
     "C-20": [],
     "C-32": [
@@ -54,9 +54,6 @@
       "Ciego Montero",
       "La Amalia",
       "Ceiba Hueca"
-    ],
-    "C-19": [
-      "Tulipán"
     ],
     "C-39": [
       "La Sierrita",
@@ -285,7 +282,17 @@
       "El Paisíto"
     ]
   },
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-19": {
+      "fecha": "2026-10-24T06:17:34+00:00",
+      "mensaje_id": 59767,
+      "url": "https://t.me/empresaelectricacienfuegos1/59767",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C19 Tulipán."
+    }
+  },
   "restablecimientos_probables": {
     "C-1770": {
       "fecha": "2026-10-24T04:11:51+00:00",
@@ -782,15 +789,6 @@
       "confianza": 100,
       "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
     },
-    "C-19": {
-      "fecha": "2026-10-24T04:13:42+00:00",
-      "mensaje_id": 59766,
-      "url": "https://t.me/empresaelectricacienfuegos1/59766",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-19 Tulipán"
-    },
     "C-39": {
       "fecha": "2026-10-24T04:11:51+00:00",
       "mensaje_id": 59765,
@@ -1232,6 +1230,15 @@
       "confianza": 100,
       "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
     },
+    "C-19": {
+      "fecha": "2026-10-24T06:17:34+00:00",
+      "mensaje_id": 59767,
+      "url": "https://t.me/empresaelectricacienfuegos1/59767",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C19 Tulipán."
+    },
     "C-1770": {
       "fecha": "2026-10-24T04:11:51+00:00",
       "mensaje_id": 59765,
@@ -1592,7 +1599,6 @@
     "C-42": "déficit",
     "C-84": "déficit",
     "C-49": "déficit",
-    "C-19": "avería",
     "C-39": "déficit",
     "C-75": "déficit",
     "C-33": "déficit",
@@ -1948,7 +1954,7 @@
     }
   ],
   "lectura": {
-    "texto": 52,
+    "texto": 53,
     "imagenes": 47,
     "pdf": 0,
     "no_leidos": 2
@@ -2014,15 +2020,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-6",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-22T00:31:12+00:00",
-      "mensaje_id": 59693,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59691",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59693"
-    },
     {
       "circuito": "C-59",
       "tipo": "salida_lista",
@@ -2913,10 +2910,19 @@
       "mensaje_id": 59765,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59763",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59765"
+    },
+    {
+      "circuito": "C-19",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-24T06:17:34+00:00",
+      "mensaje_id": 59767,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59766",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59767"
     }
   ],
   "mw_fecha": "2026-10-24T04:11:51+00:00",
-  "total_circuitos_afectados": 53,
+  "total_circuitos_afectados": 52,
   "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
@@ -2934,5 +2940,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-24T05:54:19.507700+00:00"
+  "actualizado": "2026-10-24T06:19:20.259448+00:00"
 }
