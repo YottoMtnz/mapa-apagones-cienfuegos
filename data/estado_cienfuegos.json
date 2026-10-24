@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T21:31:33+00:00",
+  "reporte_fecha": "2026-10-24T22:37:36+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-24T21:20:16+00:00",
-  "mensajes_leidos": 115,
+  "mensajes_leidos": 116,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -263,6 +263,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-67 El Crucero, Guaos, Naranjito."
+    },
+    "C-88": {
+      "fecha": "2026-10-24T22:37:36+00:00",
+      "mensaje_id": 59807,
+      "url": "https://t.me/empresaelectricacienfuegos1/59807",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
     }
   },
   "restablecimientos_probables": {
@@ -582,38 +591,6 @@
         "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
       },
       "lugares": []
-    },
-    "C-88": {
-      "fecha": "2026-10-24T21:16:21+00:00",
-      "mensaje_id": 59803,
-      "url": "https://t.me/empresaelectricacienfuegos1/59803",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8  Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-24T14:21:26+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-10-24T12:36:24+00:00",
-        "mensaje_id": 59780,
-        "url": "https://t.me/empresaelectricacienfuegos1/59780",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
-      },
-      "lugares": [
-        "San Ignacio",
-        "Babiney",
-        "Carmelina",
-        "San Rafael",
-        "La Leona",
-        "Mijalito",
-        "Matún"
-      ]
     },
     "C-38": {
       "fecha": "2026-10-24T21:16:21+00:00",
@@ -1392,6 +1369,15 @@
       "confianza": 100,
       "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     },
+    "C-88": {
+      "fecha": "2026-10-24T22:37:36+00:00",
+      "mensaje_id": 59807,
+      "url": "https://t.me/empresaelectricacienfuegos1/59807",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
+    },
     "C-76": {
       "fecha": "2026-10-24T21:16:21+00:00",
       "mensaje_id": 59803,
@@ -1708,38 +1694,6 @@
         "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
       },
       "lugares": []
-    },
-    "C-88": {
-      "fecha": "2026-10-24T21:16:21+00:00",
-      "mensaje_id": 59803,
-      "url": "https://t.me/empresaelectricacienfuegos1/59803",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8  Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-24T14:21:26+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-10-24T12:36:24+00:00",
-        "mensaje_id": 59780,
-        "url": "https://t.me/empresaelectricacienfuegos1/59780",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
-      },
-      "lugares": [
-        "San Ignacio",
-        "Babiney",
-        "Carmelina",
-        "San Rafael",
-        "La Leona",
-        "Mijalito",
-        "Matún"
-      ]
     },
     "C-38": {
       "fecha": "2026-10-24T21:16:21+00:00",
@@ -2295,7 +2249,7 @@
     }
   ],
   "lectura": {
-    "texto": 65,
+    "texto": 66,
     "imagenes": 50,
     "pdf": 0,
     "no_leidos": 6
@@ -3261,7 +3215,7 @@
   "mw_fecha": "2026-10-24T21:16:21+00:00",
   "total_circuitos_afectados": 49,
   "total_circuitos_programados": 6,
-  "total_restablecimientos_probables": 22,
+  "total_restablecimientos_probables": 21,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-1770",
@@ -3281,5 +3235,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-24T22:34:32.289648+00:00"
+  "actualizado": "2026-10-24T22:49:16.461612+00:00"
 }
