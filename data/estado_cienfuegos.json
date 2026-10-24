@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T06:17:34+00:00",
+  "reporte_fecha": "2026-10-24T06:48:42+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-24T03:03:38+00:00",
-  "mensajes_leidos": 100,
+  "mensajes_leidos": 101,
   "afectados": {
     "C-20": [],
     "C-32": [
@@ -253,7 +253,18 @@
     "C-70": [
       "Aguada",
       "Federal"
-    ]
+    ],
+    "C-37": [
+      "El Tablón",
+      "Los Coquitos",
+      "El Túnel",
+      "Jovero",
+      "El Mamey",
+      "Crucesitas",
+      "El Nicho",
+      "Vegueta"
+    ],
+    "C-62": []
   },
   "programados": {
     "C-5": [
@@ -1185,6 +1196,24 @@
       "confianza": 100,
       "texto": "👉C-70 \"Aguada, Federal."
     },
+    "C-37": {
+      "fecha": "2026-10-24T06:48:42+00:00",
+      "mensaje_id": 59768,
+      "url": "https://t.me/empresaelectricacienfuegos1/59768",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
+    },
+    "C-62": {
+      "fecha": "2026-10-24T06:48:42+00:00",
+      "mensaje_id": 59768,
+      "url": "https://t.me/empresaelectricacienfuegos1/59768",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-62 Barajagua."
+    },
     "C-5": {
       "fecha": "2026-10-24T03:03:38+00:00",
       "mensaje_id": 59764,
@@ -1642,7 +1671,9 @@
     "C-405": "avería",
     "C-2": "déficit",
     "C-3": "déficit",
-    "C-70": "déficit"
+    "C-70": "déficit",
+    "C-37": "avería",
+    "C-62": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -1955,7 +1986,7 @@
   ],
   "lectura": {
     "texto": 53,
-    "imagenes": 47,
+    "imagenes": 48,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -2922,7 +2953,7 @@
     }
   ],
   "mw_fecha": "2026-10-24T04:11:51+00:00",
-  "total_circuitos_afectados": 52,
+  "total_circuitos_afectados": 54,
   "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
@@ -2936,9 +2967,10 @@
     "C-58",
     "C-59",
     "C-60",
+    "C-62",
     "C-92",
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-24T06:34:30.439143+00:00"
+  "actualizado": "2026-10-24T06:49:19.419922+00:00"
 }
