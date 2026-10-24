@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T17:31:17+00:00",
+  "reporte_fecha": "2026-10-24T17:46:52+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-24T15:35:46+00:00",
-  "mensajes_leidos": 114,
+  "mensajes_leidos": 115,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -130,7 +130,10 @@
     ],
     "C-407": [],
     "C-17": [],
-    "C-92": []
+    "C-92": [],
+    "C-25": [
+      "Abreus (Pueblo"
+    ]
   },
   "programados": {},
   "confirmados_con_servicio": {
@@ -514,32 +517,6 @@
         "San Antón",
         "Quesada",
         "Callejón del Palmar"
-      ]
-    },
-    "C-25": {
-      "fecha": "2026-10-24T17:08:07+00:00",
-      "mensaje_id": 59793,
-      "url": "https://t.me/empresaelectricacienfuegos1/59793",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-24T12:36:24+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-24T11:28:38+00:00",
-        "mensaje_id": 59776,
-        "url": "https://t.me/empresaelectricacienfuegos1/59776",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-25 Abreus (Pueblo)."
-      },
-      "lugares": [
-        "Abreus (Pueblo"
       ]
     },
     "C-59": {
@@ -1607,6 +1584,15 @@
       "confianza": 100,
       "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
     },
+    "C-25": {
+      "fecha": "2026-10-24T17:46:52+00:00",
+      "mensaje_id": 59795,
+      "url": "https://t.me/empresaelectricacienfuegos1/59795",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-25 Abreus (Pueblo)."
+    },
     "C-37": {
       "fecha": "2026-10-24T09:31:34+00:00",
       "mensaje_id": 59770,
@@ -1985,32 +1971,6 @@
         "San Antón",
         "Quesada",
         "Callejón del Palmar"
-      ]
-    },
-    "C-25": {
-      "fecha": "2026-10-24T17:08:07+00:00",
-      "mensaje_id": 59793,
-      "url": "https://t.me/empresaelectricacienfuegos1/59793",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-24T12:36:24+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-24T11:28:38+00:00",
-        "mensaje_id": 59776,
-        "url": "https://t.me/empresaelectricacienfuegos1/59776",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-25 Abreus (Pueblo)."
-      },
-      "lugares": [
-        "Abreus (Pueblo"
       ]
     },
     "C-59": {
@@ -2791,7 +2751,8 @@
     "C-35": "déficit",
     "C-407": "déficit",
     "C-17": "déficit",
-    "C-92": "déficit"
+    "C-92": "déficit",
+    "C-25": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -3100,13 +3061,19 @@
       "id": 59792,
       "url": "https://t.me/empresaelectricacienfuegos1/59792",
       "fecha": "2026-10-24T16:21:16+00:00"
+    },
+    {
+      "id": 59795,
+      "url": "https://t.me/empresaelectricacienfuegos1/59795",
+      "fecha": "2026-10-24T17:46:52+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 63,
-    "imagenes": 51,
+    "imagenes": 52,
     "pdf": 0,
-    "no_leidos": 2
+    "no_leidos": 3
   },
   "listas_completas": {
     "deficit": {
@@ -4049,9 +4016,9 @@
     }
   ],
   "mw_fecha": "2026-10-24T17:08:07+00:00",
-  "total_circuitos_afectados": 34,
+  "total_circuitos_afectados": 35,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 40,
+  "total_restablecimientos_probables": 39,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-1770",
@@ -4071,5 +4038,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-24T17:39:19.348828+00:00"
+  "actualizado": "2026-10-24T17:54:21.143347+00:00"
 }
