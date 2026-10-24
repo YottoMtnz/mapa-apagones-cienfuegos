@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-23T17:27:45+00:00",
-  "mensajes_leidos": 104,
+  "mensajes_leidos": 105,
   "afectados": {
     "C-20": [],
     "C-32": [
@@ -206,7 +206,6 @@
       "Parque José Martí"
     ],
     "C-43": [],
-    "C-89": [],
     "C-407": [],
     "C-92": [],
     "C-17": [],
@@ -1052,15 +1051,6 @@
       "confianza": 100,
       "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
     },
-    "C-89": {
-      "fecha": "2026-10-23T12:47:01+00:00",
-      "mensaje_id": 59739,
-      "url": "https://t.me/empresaelectricacienfuegos1/59739",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
-    },
     "C-407": {
       "fecha": "2026-10-24T00:43:12+00:00",
       "mensaje_id": 59760,
@@ -1631,9 +1621,8 @@
     "C-82": "déficit",
     "C-38": "déficit",
     "C-11": "déficit",
-    "C-80": "avería / déficit",
+    "C-80": "déficit",
     "C-43": "déficit",
-    "C-89": "emergencia",
     "C-407": "déficit",
     "C-92": "déficit",
     "C-17": "déficit",
@@ -1992,10 +1981,17 @@
       "id": 59759,
       "url": "https://t.me/empresaelectricacienfuegos1/59759",
       "fecha": "2026-10-24T00:34:31+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠️ Se comunica a nuestros clientes que se encuentra restablecido el servicio en  la línea L-1880 Juraguá, CEN,  la zona:\n\n\n👉Bombeo Damují\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
+      "id": 59761,
+      "url": "https://t.me/empresaelectricacienfuegos1/59761",
+      "fecha": "2026-10-24T00:46:41+00:00"
     }
   ],
   "lectura": {
-    "texto": 54,
+    "texto": 55,
     "imagenes": 50,
     "pdf": 0,
     "no_leidos": 3
@@ -2968,7 +2964,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-24T00:43:12+00:00",
-  "total_circuitos_afectados": 56,
+  "total_circuitos_afectados": 55,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
@@ -2982,10 +2978,9 @@
     "C-58",
     "C-59",
     "C-60",
-    "C-89",
     "C-92",
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-24T00:44:51.893138+00:00"
+  "actualizado": "2026-10-24T00:59:34.225553+00:00"
 }
