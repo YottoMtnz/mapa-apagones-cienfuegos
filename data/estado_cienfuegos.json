@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T10:43:11+00:00",
+  "reporte_fecha": "2026-10-24T11:13:43+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-24T03:03:38+00:00",
-  "mensajes_leidos": 103,
+  "mensajes_leidos": 104,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -129,9 +129,6 @@
       "El Conejito",
       "El Desquite",
       "Venero"
-    ],
-    "C-90": [
-      "FW1558) La Pollera"
     ],
     "C-31": [],
     "C-88": [
@@ -309,6 +306,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
+    },
+    "C-90": {
+      "fecha": "2026-10-24T11:13:43+00:00",
+      "mensaje_id": 59774,
+      "url": "https://t.me/empresaelectricacienfuegos1/59774",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     }
   },
   "restablecimientos_probables": {
@@ -736,26 +742,7 @@
       "lugares": []
     }
   },
-  "afectaciones_parciales": {
-    "C-90": [
-      {
-        "seccion": "C-90/FW-1558",
-        "lugares": [
-          "La Pollera"
-        ],
-        "evidencia": {
-          "fecha": "2026-10-22T10:41:06+00:00",
-          "mensaje_id": 59697,
-          "url": "https://t.me/empresaelectricacienfuegos1/59697",
-          "medio": "texto",
-          "editado": null,
-          "confianza": 100,
-          "texto": "👉C-90 (FW1558) La Pollera"
-        },
-        "vigente": false
-      }
-    ]
-  },
+  "afectaciones_parciales": {},
   "evidencias": {
     "C-23": {
       "fecha": "2026-10-24T10:43:11+00:00",
@@ -954,15 +941,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-44  Los Burros, El Conejito, El Desquite, Venero."
-    },
-    "C-90": {
-      "fecha": "2026-10-24T00:34:31+00:00",
-      "mensaje_id": 59759,
-      "url": "https://t.me/empresaelectricacienfuegos1/59759",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
     "C-31": {
       "fecha": "2026-10-24T10:43:11+00:00",
@@ -1296,6 +1274,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
+    },
+    "C-90": {
+      "fecha": "2026-10-24T11:13:43+00:00",
+      "mensaje_id": 59774,
+      "url": "https://t.me/empresaelectricacienfuegos1/59774",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
     "C-1770": {
       "fecha": "2026-10-24T10:43:11+00:00",
@@ -1688,7 +1675,6 @@
     "C-86": "déficit",
     "C-58": "déficit",
     "C-44": "déficit",
-    "C-90": "avería",
     "C-31": "déficit",
     "C-88": "déficit",
     "C-50": "déficit",
@@ -2017,7 +2003,7 @@
     }
   ],
   "lectura": {
-    "texto": 55,
+    "texto": 56,
     "imagenes": 48,
     "pdf": 0,
     "no_leidos": 2
@@ -2085,24 +2071,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-65",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-22T07:29:57+00:00",
-      "mensaje_id": 59696,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59695",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59696"
-    },
-    {
-      "circuito": "C-66",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-22T07:29:57+00:00",
-      "mensaje_id": 59696,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59695",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59696"
-    },
     {
       "circuito": "C-80",
       "tipo": "salida_lista",
@@ -2984,10 +2952,28 @@
       "mensaje_id": 59773,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59769",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59773"
+    },
+    {
+      "circuito": "C-90",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-24T11:13:43+00:00",
+      "mensaje_id": 59774,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59759",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59774"
+    },
+    {
+      "circuito": "C-90/FW-1558",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-24T11:13:43+00:00",
+      "mensaje_id": 59774,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59697",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59774"
     }
   ],
   "mw_fecha": "2026-10-24T10:43:11+00:00",
-  "total_circuitos_afectados": 54,
+  "total_circuitos_afectados": 53,
   "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
@@ -3005,5 +2991,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-24T10:59:33.740985+00:00"
+  "actualizado": "2026-10-24T11:14:22.676362+00:00"
 }
