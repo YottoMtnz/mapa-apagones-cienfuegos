@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-23T23:38:20+00:00",
+  "reporte_fecha": "2026-10-24T00:27:01+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-23T17:27:45+00:00",
-  "mensajes_leidos": 101,
+  "mensajes_leidos": 103,
   "afectados": {
     "C-20": [],
     "C-32": [
@@ -253,6 +253,15 @@
     ],
     "C-55": [
       "Cruces (Sur"
+    ],
+    "C-53": [
+      "Potrerillo",
+      "Peñasco",
+      "Lomitas"
+    ],
+    "C-54": [
+      "Batey Mal Tiempo",
+      "Loma de Tola"
     ]
   },
   "programados": {
@@ -398,61 +407,6 @@
         "Breñas",
         "Caña Brava",
         "Dolores"
-      ]
-    },
-    "C-53": {
-      "fecha": "2026-10-23T23:38:20+00:00",
-      "mensaje_id": 59756,
-      "url": "https://t.me/empresaelectricacienfuegos1/59756",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-23T19:36:31+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-23T18:29:05+00:00",
-        "mensaje_id": 59749,
-        "url": "https://t.me/empresaelectricacienfuegos1/59749",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-53  Potrerillo, El No, Peñasco, Lomitas."
-      },
-      "lugares": [
-        "Potrerillo",
-        "Peñasco",
-        "Lomitas"
-      ]
-    },
-    "C-54": {
-      "fecha": "2026-10-23T23:38:20+00:00",
-      "mensaje_id": 59756,
-      "url": "https://t.me/empresaelectricacienfuegos1/59756",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-23T19:36:31+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-23T18:29:05+00:00",
-        "mensaje_id": 59749,
-        "url": "https://t.me/empresaelectricacienfuegos1/59749",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-54  Batey Mal Tiempo, Carrasco, Loma de Tola."
-      },
-      "lugares": [
-        "Batey Mal Tiempo",
-        "Loma de Tola"
       ]
     },
     "C-24": {
@@ -1235,6 +1189,24 @@
       "confianza": 100,
       "texto": "👉C-55 Cruces (Sur)."
     },
+    "C-53": {
+      "fecha": "2026-10-24T00:27:01+00:00",
+      "mensaje_id": 59758,
+      "url": "https://t.me/empresaelectricacienfuegos1/59758",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-53 Potrerillo, El No, Peñasco, Lomitas."
+    },
+    "C-54": {
+      "fecha": "2026-10-24T00:27:01+00:00",
+      "mensaje_id": 59758,
+      "url": "https://t.me/empresaelectricacienfuegos1/59758",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola."
+    },
     "C-35": {
       "fecha": "2026-10-23T17:27:45+00:00",
       "mensaje_id": 59748,
@@ -1346,61 +1318,6 @@
         "Calle 35 de Ave 58 hasta Ave 64",
         "Ave 58 de Calle 47 hasta Calle 49",
         "Calle 47 de Ave 54 hasta Ave 58"
-      ]
-    },
-    "C-53": {
-      "fecha": "2026-10-23T23:38:20+00:00",
-      "mensaje_id": 59756,
-      "url": "https://t.me/empresaelectricacienfuegos1/59756",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-23T19:36:31+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-23T18:29:05+00:00",
-        "mensaje_id": 59749,
-        "url": "https://t.me/empresaelectricacienfuegos1/59749",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-53  Potrerillo, El No, Peñasco, Lomitas."
-      },
-      "lugares": [
-        "Potrerillo",
-        "Peñasco",
-        "Lomitas"
-      ]
-    },
-    "C-54": {
-      "fecha": "2026-10-23T23:38:20+00:00",
-      "mensaje_id": 59756,
-      "url": "https://t.me/empresaelectricacienfuegos1/59756",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-23T19:36:31+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-23T18:29:05+00:00",
-        "mensaje_id": 59749,
-        "url": "https://t.me/empresaelectricacienfuegos1/59749",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-54  Batey Mal Tiempo, Carrasco, Loma de Tola."
-      },
-      "lugares": [
-        "Batey Mal Tiempo",
-        "Loma de Tola"
       ]
     },
     "C-24": {
@@ -1758,7 +1675,9 @@
     "C-59": "déficit",
     "C-66": "déficit",
     "C-47": "déficit",
-    "C-55": "déficit"
+    "C-55": "déficit",
+    "C-53": "avería",
+    "C-54": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2073,11 +1992,32 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59754",
       "fecha": "2026-10-23T22:12:40+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠ Se comunica a nuestros clientes que se encuentra en fallo la línea L-1880 Juraguá, CEN, afectándose la zona:\n\n\n👉Bombeo Damují\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉 Ofrecemos disculpas por las molestias ocasionadas.",
+      "id": 59757,
+      "url": "https://t.me/empresaelectricacienfuegos1/59757",
+      "fecha": "2026-10-24T00:14:35+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠ Se comunica a nuestros clientes que se encuentra en fallo la línea L-1880 Juraguá, CEN, afectándose la zona:\n\n\n👉Bombeo Damují\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉 Ofrecemos disculpas por las molestias ocasionadas\nLineas\n_ enfalla\n| | d\na =áY a",
+      "id": 59757,
+      "url": "https://t.me/empresaelectricacienfuegos1/59757",
+      "fecha": "2026-10-24T00:14:35+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Líneas afectadas por\nq\n| > EN \\\nA | A k\n>] | = Ls S\n| | s SM\nel | N",
+      "id": 59758,
+      "url": "https://t.me/empresaelectricacienfuegos1/59758",
+      "fecha": "2026-10-24T00:27:01+00:00"
     }
   ],
   "lectura": {
     "texto": 54,
-    "imagenes": 47,
+    "imagenes": 49,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -3048,9 +2988,9 @@
   ],
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-23T23:38:20+00:00",
-  "total_circuitos_afectados": 52,
+  "total_circuitos_afectados": 54,
   "total_circuitos_programados": 1,
-  "total_restablecimientos_probables": 18,
+  "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-1770",
@@ -3067,5 +3007,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-24T00:14:16.531823+00:00"
+  "actualizado": "2026-10-24T00:29:25.608424+00:00"
 }
