@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T21:16:21+00:00",
+  "reporte_fecha": "2026-10-24T21:31:33+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-24T15:35:46+00:00",
-  "mensajes_leidos": 115,
+  "programado_fecha": "2026-10-24T21:20:16+00:00",
+  "mensajes_leidos": 116,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -60,11 +60,6 @@
     "C-43": [],
     "C-90": [
       "FW1558) La Pollera"
-    ],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
     ],
     "C-19": [
       "Tulipán"
@@ -226,17 +221,32 @@
       "El Salado"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-2": [],
+    "C-3": [
+      "Reparto Eléctrico"
+    ],
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
+    ],
+    "C-26": [
+      "Caonao",
+      "Los Tanques",
+      "La Ceiba",
+      "El Paisíto"
+    ],
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
+    ],
+    "C-90": [
+      "FW1558) La Pollera"
+    ]
+  },
   "confirmados_con_servicio": {
-    "C-37": {
-      "fecha": "2026-10-24T09:31:34+00:00",
-      "mensaje_id": 59770,
-      "url": "https://t.me/empresaelectricacienfuegos1/59770",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
-    },
     "C-405": {
       "fecha": "2026-10-24T15:34:26+00:00",
       "mensaje_id": 59789,
@@ -245,6 +255,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-405 Pueblo Griffo Nuevo."
+    },
+    "C-67": {
+      "fecha": "2026-10-24T21:31:33+00:00",
+      "mensaje_id": 59805,
+      "url": "https://t.me/empresaelectricacienfuegos1/59805",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     }
   },
   "restablecimientos_probables": {
@@ -1014,15 +1033,6 @@
       "confianza": 100,
       "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
-    "C-67": {
-      "fecha": "2026-10-24T11:47:43+00:00",
-      "mensaje_id": 59777,
-      "url": "https://t.me/empresaelectricacienfuegos1/59777",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
-    },
     "C-19": {
       "fecha": "2026-10-24T21:16:21+00:00",
       "mensaje_id": 59803,
@@ -1329,14 +1339,50 @@
       "confianza": 100,
       "texto": "👉C-101  Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
     },
-    "C-37": {
-      "fecha": "2026-10-24T09:31:34+00:00",
-      "mensaje_id": 59770,
-      "url": "https://t.me/empresaelectricacienfuegos1/59770",
+    "C-2": {
+      "fecha": "2026-10-24T21:20:16+00:00",
+      "mensaje_id": 59804,
+      "url": "https://t.me/empresaelectricacienfuegos1/59804",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
+    "C-3": {
+      "fecha": "2026-10-24T21:20:16+00:00",
+      "mensaje_id": 59804,
+      "url": "https://t.me/empresaelectricacienfuegos1/59804",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
+    "C-15": {
+      "fecha": "2026-10-24T21:20:16+00:00",
+      "mensaje_id": 59804,
+      "url": "https://t.me/empresaelectricacienfuegos1/59804",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
+    "C-26": {
+      "fecha": "2026-10-24T21:20:16+00:00",
+      "mensaje_id": 59804,
+      "url": "https://t.me/empresaelectricacienfuegos1/59804",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
+    "C-69": {
+      "fecha": "2026-10-24T21:20:16+00:00",
+      "mensaje_id": 59804,
+      "url": "https://t.me/empresaelectricacienfuegos1/59804",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
     },
     "C-405": {
       "fecha": "2026-10-24T15:34:26+00:00",
@@ -1346,6 +1392,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-405 Pueblo Griffo Nuevo."
+    },
+    "C-67": {
+      "fecha": "2026-10-24T21:31:33+00:00",
+      "mensaje_id": 59805,
+      "url": "https://t.me/empresaelectricacienfuegos1/59805",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     },
     "C-76": {
       "fecha": "2026-10-24T21:16:21+00:00",
@@ -1757,56 +1812,6 @@
         "Nuevo México"
       ]
     },
-    "C-2": {
-      "fecha": "2026-10-24T21:16:21+00:00",
-      "mensaje_id": 59803,
-      "url": "https://t.me/empresaelectricacienfuegos1/59803",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8  Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-24T17:08:07+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-24T15:54:45+00:00",
-        "mensaje_id": 59791,
-        "url": "https://t.me/empresaelectricacienfuegos1/59791",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
-      },
-      "lugares": []
-    },
-    "C-3": {
-      "fecha": "2026-10-24T21:16:21+00:00",
-      "mensaje_id": 59803,
-      "url": "https://t.me/empresaelectricacienfuegos1/59803",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8  Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-24T17:08:07+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-24T15:54:45+00:00",
-        "mensaje_id": 59791,
-        "url": "https://t.me/empresaelectricacienfuegos1/59791",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-3 Reparto Eléctrico"
-      },
-      "lugares": [
-        "Reparto Eléctrico"
-      ]
-    },
     "C-52": {
       "fecha": "2026-10-24T21:16:21+00:00",
       "mensaje_id": 59803,
@@ -1865,62 +1870,6 @@
         "El Tropezón"
       ]
     },
-    "C-26": {
-      "fecha": "2026-10-24T21:16:21+00:00",
-      "mensaje_id": 59803,
-      "url": "https://t.me/empresaelectricacienfuegos1/59803",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8  Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-24T18:20:05+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-24T17:08:07+00:00",
-        "mensaje_id": 59793,
-        "url": "https://t.me/empresaelectricacienfuegos1/59793",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
-      },
-      "lugares": [
-        "Caonao",
-        "Los Tanques",
-        "La Ceiba",
-        "El Paisíto"
-      ]
-    },
-    "C-15": {
-      "fecha": "2026-10-24T21:16:21+00:00",
-      "mensaje_id": 59803,
-      "url": "https://t.me/empresaelectricacienfuegos1/59803",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8  Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-24T18:20:05+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-24T17:08:07+00:00",
-        "mensaje_id": 59793,
-        "url": "https://t.me/empresaelectricacienfuegos1/59793",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-15 Pepito Tey, Guabairo."
-      },
-      "lugares": [
-        "Pepito Tey",
-        "Guabairo"
-      ]
-    },
     "C-85": {
       "fecha": "2026-10-24T21:16:21+00:00",
       "mensaje_id": 59803,
@@ -1948,7 +1897,38 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-2": {
+      "inicio": null,
+      "fin": "2026-10-25T09:20:16+00:00",
+      "fecha_ambigua": false
+    },
+    "C-3": {
+      "inicio": null,
+      "fin": "2026-10-25T09:20:16+00:00",
+      "fecha_ambigua": false
+    },
+    "C-15": {
+      "inicio": null,
+      "fin": "2026-10-25T09:20:16+00:00",
+      "fecha_ambigua": false
+    },
+    "C-26": {
+      "inicio": null,
+      "fin": "2026-10-25T09:20:16+00:00",
+      "fecha_ambigua": false
+    },
+    "C-69": {
+      "inicio": null,
+      "fin": "2026-10-25T09:20:16+00:00",
+      "fecha_ambigua": false
+    },
+    "C-90": {
+      "inicio": null,
+      "fin": "2026-10-25T09:20:16+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 65.0,
   "hora_inicio": null,
@@ -1971,7 +1951,6 @@
     "C-66": "déficit",
     "C-43": "déficit",
     "C-90": "avería",
-    "C-67": "avería",
     "C-19": "avería / déficit",
     "C-91": "déficit",
     "C-5": "déficit",
@@ -2342,7 +2321,7 @@
     }
   ],
   "lectura": {
-    "texto": 64,
+    "texto": 65,
     "imagenes": 51,
     "pdf": 0,
     "no_leidos": 5
@@ -2404,15 +2383,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-67",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-23T07:34:14+00:00",
-      "mensaje_id": 59730,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59728",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59730"
-    },
     {
       "circuito": "C-15",
       "tipo": "salida_lista",
@@ -3303,11 +3273,20 @@
       "mensaje_id": 59803,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59800",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59803"
+    },
+    {
+      "circuito": "C-67",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-24T21:31:33+00:00",
+      "mensaje_id": 59805,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59777",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59805"
     }
   ],
   "mw_fecha": "2026-10-24T21:16:21+00:00",
-  "total_circuitos_afectados": 51,
-  "total_circuitos_programados": 0,
+  "total_circuitos_afectados": 50,
+  "total_circuitos_programados": 6,
   "total_restablecimientos_probables": 22,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3329,5 +3308,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-24T21:19:24.949517+00:00"
+  "actualizado": "2026-10-24T21:34:11.814634+00:00"
 }
