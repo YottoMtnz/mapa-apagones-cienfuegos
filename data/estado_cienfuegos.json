@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T00:43:12+00:00",
+  "reporte_fecha": "2026-10-24T01:35:30+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-23T17:27:45+00:00",
-  "mensajes_leidos": 105,
+  "mensajes_leidos": 106,
   "afectados": {
     "C-20": [],
     "C-32": [
@@ -269,6 +269,9 @@
       "Pérez Leyva",
       "La Redonda",
       "El Limpio"
+    ],
+    "C-405": [
+      "Pueblo Griffo Nuevo"
     ]
   },
   "programados": {
@@ -414,32 +417,6 @@
         "Breñas",
         "Caña Brava",
         "Dolores"
-      ]
-    },
-    "C-405": {
-      "fecha": "2026-10-24T00:43:12+00:00",
-      "mensaje_id": 59760,
-      "url": "https://t.me/empresaelectricacienfuegos1/59760",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-23T20:40:21+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-23T19:36:31+00:00",
-        "mensaje_id": 59751,
-        "url": "https://t.me/empresaelectricacienfuegos1/59751",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-405               \"Pueblo Griffo Nuevo."
-      },
-      "lugares": [
-        "Pueblo Griffo Nuevo"
       ]
     },
     "C-6": {
@@ -1195,6 +1172,15 @@
       "confianza": 100,
       "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
     },
+    "C-405": {
+      "fecha": "2026-10-24T01:35:30+00:00",
+      "mensaje_id": 59762,
+      "url": "https://t.me/empresaelectricacienfuegos1/59762",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-405 Pueblo Griffo Nuevo."
+    },
     "C-35": {
       "fecha": "2026-10-23T17:27:45+00:00",
       "mensaje_id": 59748,
@@ -1306,32 +1292,6 @@
         "Calle 35 de Ave 58 hasta Ave 64",
         "Ave 58 de Calle 47 hasta Calle 49",
         "Calle 47 de Ave 54 hasta Ave 58"
-      ]
-    },
-    "C-405": {
-      "fecha": "2026-10-24T00:43:12+00:00",
-      "mensaje_id": 59760,
-      "url": "https://t.me/empresaelectricacienfuegos1/59760",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-23T20:40:21+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-23T19:36:31+00:00",
-        "mensaje_id": 59751,
-        "url": "https://t.me/empresaelectricacienfuegos1/59751",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-405               \"Pueblo Griffo Nuevo."
-      },
-      "lugares": [
-        "Pueblo Griffo Nuevo"
       ]
     },
     "C-6": {
@@ -1638,7 +1598,8 @@
     "C-55": "déficit",
     "C-53": "avería",
     "C-54": "avería",
-    "C-24": "déficit"
+    "C-24": "déficit",
+    "C-405": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -1988,11 +1949,18 @@
       "id": 59761,
       "url": "https://t.me/empresaelectricacienfuegos1/59761",
       "fecha": "2026-10-24T00:46:41+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59762,
+      "url": "https://t.me/empresaelectricacienfuegos1/59762",
+      "fecha": "2026-10-24T01:35:30+00:00"
     }
   ],
   "lectura": {
     "texto": 55,
-    "imagenes": 50,
+    "imagenes": 51,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2964,9 +2932,9 @@
   ],
   "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-24T00:43:12+00:00",
-  "total_circuitos_afectados": 55,
+  "total_circuitos_afectados": 56,
   "total_circuitos_programados": 1,
-  "total_restablecimientos_probables": 15,
+  "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-1770",
@@ -2982,5 +2950,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-24T01:25:25.796391+00:00"
+  "actualizado": "2026-10-24T01:39:39.967361+00:00"
 }
