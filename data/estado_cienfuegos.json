@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T15:54:45+00:00",
+  "reporte_fecha": "2026-10-24T16:21:16+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-24T15:35:46+00:00",
-  "mensajes_leidos": 113,
+  "mensajes_leidos": 114,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -142,7 +142,8 @@
       "Breñas",
       "Caña Brava",
       "Dolores"
-    ]
+    ],
+    "C-31": []
   },
   "programados": {
     "C-92": [],
@@ -157,15 +158,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
-    },
-    "C-31": {
-      "fecha": "2026-10-24T13:41:13+00:00",
-      "mensaje_id": 59784,
-      "url": "https://t.me/empresaelectricacienfuegos1/59784",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
     },
     "C-405": {
       "fecha": "2026-10-24T15:34:26+00:00",
@@ -1625,6 +1617,15 @@
       "confianza": 100,
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
+    "C-31": {
+      "fecha": "2026-10-24T16:21:16+00:00",
+      "mensaje_id": 59792,
+      "url": "https://t.me/empresaelectricacienfuegos1/59792",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
+    },
     "C-92": {
       "fecha": "2026-10-24T15:18:19+00:00",
       "mensaje_id": 59788,
@@ -1651,15 +1652,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
-    },
-    "C-31": {
-      "fecha": "2026-10-24T13:41:13+00:00",
-      "mensaje_id": 59784,
-      "url": "https://t.me/empresaelectricacienfuegos1/59784",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
     },
     "C-405": {
       "fecha": "2026-10-24T15:34:26+00:00",
@@ -2785,7 +2777,8 @@
     "C-58": "avería",
     "C-27": "déficit",
     "C-28": "déficit",
-    "C-35": "déficit"
+    "C-35": "déficit",
+    "C-31": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -3087,11 +3080,18 @@
       "id": 59785,
       "url": "https://t.me/empresaelectricacienfuegos1/59785",
       "fecha": "2026-10-24T13:57:50+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Líneas afectadas por\nDisparo Automático por Frecuencia\n(DAF)\nMM\nq\nSS Ne\ny\n4%\nel",
+      "id": 59792,
+      "url": "https://t.me/empresaelectricacienfuegos1/59792",
+      "fecha": "2026-10-24T16:21:16+00:00"
     }
   ],
   "lectura": {
     "texto": 62,
-    "imagenes": 51,
+    "imagenes": 52,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -4037,7 +4037,7 @@
     }
   ],
   "mw_fecha": "2026-10-24T15:54:45+00:00",
-  "total_circuitos_afectados": 35,
+  "total_circuitos_afectados": 36,
   "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 40,
   "circuitos_sin_catalogar": [
@@ -4045,6 +4045,7 @@
     "C-1770",
     "C-2",
     "C-20",
+    "C-31",
     "C-407",
     "C-43",
     "C-48",
@@ -4059,5 +4060,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-24T16:09:16.126372+00:00"
+  "actualizado": "2026-10-24T16:24:27.773676+00:00"
 }
