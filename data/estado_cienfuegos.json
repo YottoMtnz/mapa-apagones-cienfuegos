@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T17:08:07+00:00",
+  "reporte_fecha": "2026-10-24T17:31:17+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-24T15:35:46+00:00",
-  "mensajes_leidos": 113,
+  "mensajes_leidos": 114,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -128,7 +128,6 @@
       "Caña Brava",
       "Dolores"
     ],
-    "C-31": [],
     "C-407": [],
     "C-17": [],
     "C-92": []
@@ -152,6 +151,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-405 Pueblo Griffo Nuevo."
+    },
+    "C-31": {
+      "fecha": "2026-10-24T17:31:17+00:00",
+      "mensaje_id": 59794,
+      "url": "https://t.me/empresaelectricacienfuegos1/59794",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
     }
   },
   "restablecimientos_probables": {
@@ -1572,15 +1580,6 @@
       "confianza": 100,
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
-    "C-31": {
-      "fecha": "2026-10-24T16:21:16+00:00",
-      "mensaje_id": 59792,
-      "url": "https://t.me/empresaelectricacienfuegos1/59792",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
-    },
     "C-407": {
       "fecha": "2026-10-24T17:08:07+00:00",
       "mensaje_id": 59793,
@@ -1625,6 +1624,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-405 Pueblo Griffo Nuevo."
+    },
+    "C-31": {
+      "fecha": "2026-10-24T17:31:17+00:00",
+      "mensaje_id": 59794,
+      "url": "https://t.me/empresaelectricacienfuegos1/59794",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
     },
     "C-76": {
       "fecha": "2026-10-24T17:08:07+00:00",
@@ -2781,7 +2789,6 @@
     "C-27": "déficit",
     "C-28": "déficit",
     "C-35": "déficit",
-    "C-31": "avería",
     "C-407": "déficit",
     "C-17": "déficit",
     "C-92": "déficit"
@@ -3096,7 +3103,7 @@
     }
   ],
   "lectura": {
-    "texto": 62,
+    "texto": 63,
     "imagenes": 51,
     "pdf": 0,
     "no_leidos": 2
@@ -3140,15 +3147,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-66",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-22T23:25:08+00:00",
-      "mensaje_id": 59722,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59721",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59722"
-    },
     {
       "circuito": "C-80",
       "tipo": "restablecido",
@@ -4039,10 +4037,19 @@
       "mensaje_id": 59793,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59791",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59793"
+    },
+    {
+      "circuito": "C-31",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-24T17:31:17+00:00",
+      "mensaje_id": 59794,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59792",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59794"
     }
   ],
   "mw_fecha": "2026-10-24T17:08:07+00:00",
-  "total_circuitos_afectados": 35,
+  "total_circuitos_afectados": 34,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 40,
   "circuitos_sin_catalogar": [
@@ -4050,7 +4057,6 @@
     "C-1770",
     "C-2",
     "C-20",
-    "C-31",
     "C-407",
     "C-43",
     "C-48",
@@ -4065,5 +4071,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-24T17:23:49.511110+00:00"
+  "actualizado": "2026-10-24T17:39:19.348828+00:00"
 }
