@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T06:52:46+00:00",
+  "reporte_fecha": "2026-10-24T09:31:34+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-24T03:03:38+00:00",
-  "mensajes_leidos": 102,
+  "mensajes_leidos": 103,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -258,16 +258,6 @@
       "Aguada",
       "Federal"
     ],
-    "C-37": [
-      "El Tablón",
-      "Los Coquitos",
-      "El Túnel",
-      "Jovero",
-      "El Mamey",
-      "Crucesitas",
-      "El Nicho",
-      "Vegueta"
-    ],
     "C-62": []
   },
   "programados": {
@@ -300,6 +290,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C19 Tulipán."
+    },
+    "C-37": {
+      "fecha": "2026-10-24T09:31:34+00:00",
+      "mensaje_id": 59770,
+      "url": "https://t.me/empresaelectricacienfuegos1/59770",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
     }
   },
   "restablecimientos_probables": {
@@ -1209,15 +1208,6 @@
       "confianza": 100,
       "texto": "👉C-70 \"Aguada, Federal."
     },
-    "C-37": {
-      "fecha": "2026-10-24T06:48:42+00:00",
-      "mensaje_id": 59768,
-      "url": "https://t.me/empresaelectricacienfuegos1/59768",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
-    },
     "C-62": {
       "fecha": "2026-10-24T06:48:42+00:00",
       "mensaje_id": 59768,
@@ -1271,6 +1261,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C19 Tulipán."
+    },
+    "C-37": {
+      "fecha": "2026-10-24T09:31:34+00:00",
+      "mensaje_id": 59770,
+      "url": "https://t.me/empresaelectricacienfuegos1/59770",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
     },
     "C-1770": {
       "fecha": "2026-10-24T06:52:46+00:00",
@@ -1694,7 +1693,6 @@
     "C-2": "déficit",
     "C-3": "déficit",
     "C-70": "déficit",
-    "C-37": "avería",
     "C-62": "avería"
   },
   "error": null,
@@ -2007,7 +2005,7 @@
     }
   ],
   "lectura": {
-    "texto": 54,
+    "texto": 55,
     "imagenes": 48,
     "pdf": 0,
     "no_leidos": 2
@@ -2073,15 +2071,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-47",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-22T02:13:20+00:00",
-      "mensaje_id": 59694,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59693",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59694"
-    },
     {
       "circuito": "C-43",
       "tipo": "salida_lista",
@@ -2972,10 +2961,19 @@
       "mensaje_id": 59769,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59765",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59769"
+    },
+    {
+      "circuito": "C-37",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-24T09:31:34+00:00",
+      "mensaje_id": 59770,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59768",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59770"
     }
   ],
   "mw_fecha": "2026-10-24T06:52:46+00:00",
-  "total_circuitos_afectados": 53,
+  "total_circuitos_afectados": 52,
   "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
@@ -2993,5 +2991,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-24T09:19:27.221077+00:00"
+  "actualizado": "2026-10-24T09:34:21.664467+00:00"
 }
