@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T12:38:26+00:00",
+  "reporte_fecha": "2026-10-24T13:18:58+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-24T03:03:38+00:00",
-  "mensajes_leidos": 104,
+  "mensajes_leidos": 106,
   "afectados": {
     "C-73": [
       "Perseverancia",
@@ -1010,9 +1010,9 @@
       "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-31": {
-      "fecha": "2026-10-24T12:36:24+00:00",
-      "mensaje_id": 59780,
-      "url": "https://t.me/empresaelectricacienfuegos1/59780",
+      "fecha": "2026-10-24T13:18:58+00:00",
+      "mensaje_id": 59782,
+      "url": "https://t.me/empresaelectricacienfuegos1/59782",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1954,7 +1954,7 @@
     "C-48": "avería",
     "S-4820": "avería",
     "S-2382": "avería",
-    "C-31": "déficit",
+    "C-31": "déficit / avería",
     "C-88": "déficit",
     "C-50": "déficit",
     "C-72": "déficit",
@@ -2273,11 +2273,25 @@
       "id": 59779,
       "url": "https://t.me/empresaelectricacienfuegos1/59779",
       "fecha": "2026-10-24T12:20:02+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Líneas afectadas por\nDisparo Automático por Frecuencia\n(DAF)\nMM\nq\nSS Ne\ny\n4%\nel",
+      "id": 59782,
+      "url": "https://t.me/empresaelectricacienfuegos1/59782",
+      "fecha": "2026-10-24T13:18:58+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n👉Disparo automático por frecuencia (DAF).\n\n\n📌Un disparo por frecuencia o Descarga Automática por Frecuencia, es una protección que posee el sistema eléctrico para cuando la frecuencia llega a valores mínimos permisibles que ponen en peligro la estabilidad de todo el sistema en su conjunto y provoca",
+      "id": 59783,
+      "url": "https://t.me/empresaelectricacienfuegos1/59783",
+      "fecha": "2026-10-24T13:19:08+00:00"
     }
   ],
   "lectura": {
-    "texto": 57,
-    "imagenes": 47,
+    "texto": 58,
+    "imagenes": 48,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -3267,5 +3281,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-24T13:14:29.804857+00:00"
+  "actualizado": "2026-10-24T13:29:24.322841+00:00"
 }
