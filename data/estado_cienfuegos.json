@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-24T14:21:26+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 109,
+  "programado_fecha": "2026-10-24T15:18:19+00:00",
+  "mensajes_leidos": 110,
   "afectados": {
     "C-73": [
       "Perseverancia",
@@ -195,7 +195,9 @@
       "Dolores"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-92": []
+  },
   "confirmados_con_servicio": {
     "C-37": {
       "fecha": "2026-10-24T09:31:34+00:00",
@@ -1499,6 +1501,15 @@
       "confianza": 100,
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
+    "C-92": {
+      "fecha": "2026-10-24T15:18:19+00:00",
+      "mensaje_id": 59788,
+      "url": "https://t.me/empresaelectricacienfuegos1/59788",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-92 Calzada Dolores, San Lázaro."
+    },
     "C-37": {
       "fecha": "2026-10-24T09:31:34+00:00",
       "mensaje_id": 59770,
@@ -1718,30 +1729,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-94  Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
-      },
-      "lugares": []
-    },
-    "C-92": {
-      "fecha": "2026-10-24T14:21:26+00:00",
-      "mensaje_id": 59787,
-      "url": "https://t.me/empresaelectricacienfuegos1/59787",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-73 \"Perseverancia, 1ro de Mayo.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-24T10:43:11+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-24T06:52:46+00:00",
-        "mensaje_id": 59769,
-        "url": "https://t.me/empresaelectricacienfuegos1/59769",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
       },
       "lugares": []
     },
@@ -2373,7 +2360,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-92": {
+      "inicio": null,
+      "fin": "2026-10-25T03:18:19+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 50.0,
   "hora_inicio": null,
@@ -2730,7 +2723,7 @@
   ],
   "lectura": {
     "texto": 60,
-    "imagenes": 49,
+    "imagenes": 50,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -3687,7 +3680,7 @@
   ],
   "mw_fecha": "2026-10-24T14:21:26+00:00",
   "total_circuitos_afectados": 45,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 31,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3708,5 +3701,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-24T15:09:19.782505+00:00"
+  "actualizado": "2026-10-24T15:24:30.161378+00:00"
 }
