@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T11:28:38+00:00",
+  "reporte_fecha": "2026-10-24T11:47:43+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-24T03:03:38+00:00",
-  "mensajes_leidos": 103,
+  "mensajes_leidos": 104,
   "afectados": {
     "C-33": [
       "Arimao",
@@ -20,6 +20,11 @@
     "C-65": [
       "Centro histórico",
       "Reina (Aduana"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
     ],
     "C-32": [
       "Yaguaramas",
@@ -283,11 +288,6 @@
     "C-5": [
       "Boulevard",
       "Parque Martí"
-    ],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
     ],
     "C-15": [
       "Pepito Tey",
@@ -729,6 +729,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+    },
+    "C-67": {
+      "fecha": "2026-10-24T11:47:43+00:00",
+      "mensaje_id": 59777,
+      "url": "https://t.me/empresaelectricacienfuegos1/59777",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     },
     "C-32": {
       "fecha": "2026-10-24T11:28:38+00:00",
@@ -1243,15 +1252,6 @@
       "confianza": 100,
       "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
     },
-    "C-67": {
-      "fecha": "2026-10-24T03:03:38+00:00",
-      "mensaje_id": 59764,
-      "url": "https://t.me/empresaelectricacienfuegos1/59764",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
-    },
     "C-15": {
       "fecha": "2026-10-24T03:03:38+00:00",
       "mensaje_id": 59764,
@@ -1626,11 +1626,6 @@
       "fin": "2026-10-24T15:03:38+00:00",
       "fecha_ambigua": false
     },
-    "C-67": {
-      "inicio": null,
-      "fin": "2026-10-24T15:03:38+00:00",
-      "fecha_ambigua": false
-    },
     "C-15": {
       "inicio": null,
       "fin": "2026-10-24T15:03:38+00:00",
@@ -1645,6 +1640,7 @@
   "causas": {
     "C-33": "déficit",
     "C-65": "déficit",
+    "C-67": "avería",
     "C-32": "déficit",
     "C-29": "déficit",
     "C-73": "déficit",
@@ -1974,11 +1970,18 @@
       "id": 59775,
       "url": "https://t.me/empresaelectricacienfuegos1/59775",
       "fecha": "2026-10-24T11:22:59+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59777,
+      "url": "https://t.me/empresaelectricacienfuegos1/59777",
+      "fecha": "2026-10-24T11:47:43+00:00"
     }
   ],
   "lectura": {
     "texto": 57,
-    "imagenes": 46,
+    "imagenes": 47,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -2948,8 +2951,8 @@
     }
   ],
   "mw_fecha": "2026-10-24T11:28:38+00:00",
-  "total_circuitos_afectados": 58,
-  "total_circuitos_programados": 3,
+  "total_circuitos_afectados": 59,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2969,5 +2972,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-24T11:44:29.984039+00:00"
+  "actualizado": "2026-10-24T11:59:29.173346+00:00"
 }
