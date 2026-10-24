@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T22:37:36+00:00",
+  "reporte_fecha": "2026-10-24T22:51:53+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-24T21:20:16+00:00",
-  "mensajes_leidos": 116,
+  "mensajes_leidos": 115,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -218,6 +218,16 @@
       "El Bajío",
       "California",
       "El Salado"
+    ],
+    "C-38": [
+      "El Abra",
+      "Crespo",
+      "Quiñones",
+      "La Parra",
+      "El Granizo",
+      "El Jíbaro",
+      "La Jutía",
+      "Hervidero"
     ]
   },
   "programados": {
@@ -591,39 +601,6 @@
         "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
       },
       "lugares": []
-    },
-    "C-38": {
-      "fecha": "2026-10-24T21:16:21+00:00",
-      "mensaje_id": 59803,
-      "url": "https://t.me/empresaelectricacienfuegos1/59803",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8  Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-24T14:21:26+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-10-24T12:36:24+00:00",
-        "mensaje_id": 59780,
-        "url": "https://t.me/empresaelectricacienfuegos1/59780",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero."
-      },
-      "lugares": [
-        "El Abra",
-        "Crespo",
-        "Quiñones",
-        "La Parra",
-        "El Granizo",
-        "El Jíbaro",
-        "La Jutía",
-        "Hervidero"
-      ]
     },
     "C-11": {
       "fecha": "2026-10-24T21:16:21+00:00",
@@ -1306,6 +1283,15 @@
       "confianza": 100,
       "texto": "👉C-101  Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
     },
+    "C-38": {
+      "fecha": "2026-10-24T22:51:53+00:00",
+      "mensaje_id": 59808,
+      "url": "https://t.me/empresaelectricacienfuegos1/59808",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero."
+    },
     "C-2": {
       "fecha": "2026-10-24T21:20:16+00:00",
       "mensaje_id": 59804,
@@ -1695,39 +1681,6 @@
       },
       "lugares": []
     },
-    "C-38": {
-      "fecha": "2026-10-24T21:16:21+00:00",
-      "mensaje_id": 59803,
-      "url": "https://t.me/empresaelectricacienfuegos1/59803",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8  Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-24T14:21:26+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-10-24T12:36:24+00:00",
-        "mensaje_id": 59780,
-        "url": "https://t.me/empresaelectricacienfuegos1/59780",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero."
-      },
-      "lugares": [
-        "El Abra",
-        "Crespo",
-        "Quiñones",
-        "La Parra",
-        "El Granizo",
-        "El Jíbaro",
-        "La Jutía",
-        "Hervidero"
-      ]
-    },
     "C-11": {
       "fecha": "2026-10-24T21:16:21+00:00",
       "mensaje_id": 59803,
@@ -1927,17 +1880,11 @@
     "C-49": "déficit",
     "C-103": "déficit",
     "C-102": "déficit",
-    "C-101": "déficit"
+    "C-101": "déficit",
+    "C-38": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠Se comunica a nuestros clientes que se encuentra restablecido el servicio en la línea:\n\n\n👉L-1890 Juraguá- La Cen.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
-      "id": 59692,
-      "url": "https://t.me/empresaelectricacienfuegos1/59692",
-      "fecha": "2026-10-21T23:03:08+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
@@ -2246,13 +2193,30 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59806",
       "fecha": "2026-10-24T22:12:36+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "id": 59808,
+      "url": "https://t.me/empresaelectricacienfuegos1/59808",
+      "fecha": "2026-10-24T22:51:53+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "estado_ambiguo",
+      "texto": "⚠ Se comunica a nuestros clientes que se encuentra restablecido el circuito C-58 Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena quedando afectada la sección S-5814 las zonas:",
+      "circuitos": [
+        "C-58",
+        "S-5814"
+      ],
+      "id": 59809,
+      "url": "https://t.me/empresaelectricacienfuegos1/59809",
+      "fecha": "2026-10-24T22:58:07+00:00"
     }
   ],
   "lectura": {
-    "texto": 66,
-    "imagenes": 50,
+    "texto": 64,
+    "imagenes": 51,
     "pdf": 0,
-    "no_leidos": 6
+    "no_leidos": 7
   },
   "listas_completas": {
     "deficit": {
@@ -3213,9 +3177,9 @@
     }
   ],
   "mw_fecha": "2026-10-24T21:16:21+00:00",
-  "total_circuitos_afectados": 49,
+  "total_circuitos_afectados": 50,
   "total_circuitos_programados": 6,
-  "total_restablecimientos_probables": 21,
+  "total_restablecimientos_probables": 20,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-1770",
@@ -3235,5 +3199,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-24T22:49:16.461612+00:00"
+  "actualizado": "2026-10-24T23:04:24.415258+00:00"
 }
