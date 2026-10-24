@@ -259,13 +259,6 @@
     ]
   },
   "programados": {
-    "C-35": [
-      "Terraza",
-      "Codicia",
-      "Breñas",
-      "Caña Brava",
-      "Dolores"
-    ],
     "C-5": [
       "Boulevard",
       "Parque Martí"
@@ -1194,15 +1187,6 @@
       "confianza": 100,
       "texto": "👉C-70 \"Aguada, Federal."
     },
-    "C-35": {
-      "fecha": "2026-10-23T17:27:45+00:00",
-      "mensaje_id": 59748,
-      "url": "https://t.me/empresaelectricacienfuegos1/59748",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-22 Rodas"
-    },
     "C-5": {
       "fecha": "2026-10-24T03:03:38+00:00",
       "mensaje_id": 59764,
@@ -1323,6 +1307,36 @@
         "Calle 35 de Ave 58 hasta Ave 64",
         "Ave 58 de Calle 47 hasta Calle 49",
         "Calle 47 de Ave 54 hasta Ave 58"
+      ]
+    },
+    "C-35": {
+      "fecha": "2026-10-24T04:11:51+00:00",
+      "mensaje_id": 59765,
+      "url": "https://t.me/empresaelectricacienfuegos1/59765",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-23T13:47:11+00:00",
+      "listas_consecutivas": 12,
+      "aviso_anterior": {
+        "fecha": "2026-10-23T12:11:47+00:00",
+        "mensaje_id": 59736,
+        "url": "https://t.me/empresaelectricacienfuegos1/59736",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
+      },
+      "lugares": [
+        "Terraza",
+        "Codicia",
+        "Breñas",
+        "Caña Brava",
+        "Dolores"
       ]
     },
     "C-6": {
@@ -1538,11 +1552,6 @@
     }
   },
   "horarios": {
-    "C-35": {
-      "inicio": null,
-      "fin": "2026-10-24T05:27:45+00:00",
-      "fecha_ambigua": false
-    },
     "C-5": {
       "inicio": null,
       "fin": "2026-10-24T15:03:38+00:00",
@@ -2908,7 +2917,7 @@
   ],
   "mw_fecha": "2026-10-24T04:11:51+00:00",
   "total_circuitos_afectados": 53,
-  "total_circuitos_programados": 6,
+  "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2925,5 +2934,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-24T05:24:20.445918+00:00"
+  "actualizado": "2026-10-24T05:39:30.008251+00:00"
 }
