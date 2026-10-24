@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-24T03:03:38+00:00",
-  "mensajes_leidos": 102,
+  "mensajes_leidos": 101,
   "afectados": {
     "C-20": [],
     "C-32": [
@@ -1598,19 +1598,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "id": 59662,
-      "url": "https://t.me/empresaelectricacienfuegos1/59662",
-      "fecha": "2026-10-21T03:39:17+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠️La Empresa Eléctrica Cienfuegos informa:\n\n\n👉Debido a las condiciones del Sistema Electroenergético Nacional se afectó el servicio eléctrico a los circuitos que se encuentran esta semana designados como reserva para evitar la desconexión del Sistema Electroenergético Nacional.\n\n\n📌El restablecimient",
-      "id": 59662,
-      "url": "https://t.me/empresaelectricacienfuegos1/59662",
-      "fecha": "2026-10-21T03:39:17+00:00"
-    },
-    {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚠️La Empresa Eléctrica Cienfuegos informa:\n\n\n👉Debido a la compleja situación que existe por  déficit de capacidad de generación  no ha sido posible cumplir con la rotación de las 12:00 am.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
       "id": 59663,
@@ -1933,9 +1920,9 @@
   ],
   "lectura": {
     "texto": 54,
-    "imagenes": 48,
+    "imagenes": 47,
     "pdf": 0,
-    "no_leidos": 3
+    "no_leidos": 2
   },
   "listas_completas": {
     "deficit": {
@@ -2903,7 +2890,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59756"
     }
   ],
-  "lectura_incompleta_desde": "2026-10-21T03:39:17+00:00",
   "mw_fecha": "2026-10-24T01:55:03+00:00",
   "total_circuitos_afectados": 56,
   "total_circuitos_programados": 8,
@@ -2923,5 +2909,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-24T03:24:15.125231+00:00"
+  "actualizado": "2026-10-24T03:39:18.331565+00:00"
 }
