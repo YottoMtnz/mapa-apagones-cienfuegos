@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T23:05:53+00:00",
+  "reporte_fecha": "2026-10-24T23:47:58+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-24T21:20:16+00:00",
-  "mensajes_leidos": 117,
+  "mensajes_leidos": 118,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -222,16 +222,6 @@
       "California",
       "El Salado"
     ],
-    "C-38": [
-      "El Abra",
-      "Crespo",
-      "Quiñones",
-      "La Parra",
-      "El Granizo",
-      "El Jíbaro",
-      "La Jutía",
-      "Hervidero"
-    ],
     "C-82": [
       "Balboa",
       "La Pedrera",
@@ -307,6 +297,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
+    },
+    "C-38": {
+      "fecha": "2026-10-24T23:47:58+00:00",
+      "mensaje_id": 59812,
+      "url": "https://t.me/empresaelectricacienfuegos1/59812",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero."
     }
   },
   "restablecimientos_probables": {
@@ -1123,15 +1122,6 @@
       "confianza": 100,
       "texto": "👉C-101  Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
     },
-    "C-38": {
-      "fecha": "2026-10-24T22:51:53+00:00",
-      "mensaje_id": 59808,
-      "url": "https://t.me/empresaelectricacienfuegos1/59808",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero."
-    },
     "C-82": {
       "fecha": "2026-10-24T23:05:53+00:00",
       "mensaje_id": 59811,
@@ -1239,6 +1229,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
+    },
+    "C-38": {
+      "fecha": "2026-10-24T23:47:58+00:00",
+      "mensaje_id": 59812,
+      "url": "https://t.me/empresaelectricacienfuegos1/59812",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero."
     },
     "C-76": {
       "fecha": "2026-10-24T23:05:53+00:00",
@@ -1655,7 +1654,6 @@
     "C-103": "déficit",
     "C-102": "déficit",
     "C-101": "déficit",
-    "C-38": "avería",
     "C-82": "déficit",
     "C-39": "déficit",
     "C-75": "déficit",
@@ -2002,7 +2000,7 @@
     }
   ],
   "lectura": {
-    "texto": 65,
+    "texto": 66,
     "imagenes": 52,
     "pdf": 0,
     "no_leidos": 8
@@ -2072,15 +2070,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-22",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-23T10:34:25+00:00",
-      "mensaje_id": 59732,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59730",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59732"
-    },
     {
       "circuito": "C-92",
       "tipo": "salida_lista",
@@ -2971,10 +2960,19 @@
       "mensaje_id": 59811,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59803",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59811"
+    },
+    {
+      "circuito": "C-38",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-24T23:47:58+00:00",
+      "mensaje_id": 59812,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59808",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59812"
     }
   ],
   "mw_fecha": "2026-10-24T23:05:53+00:00",
-  "total_circuitos_afectados": 58,
+  "total_circuitos_afectados": 57,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
@@ -2996,5 +2994,5 @@
     "S-2382",
     "S-4820"
   ],
-  "actualizado": "2026-10-24T23:47:57.078166+00:00"
+  "actualizado": "2026-10-25T00:04:23.016501+00:00"
 }
