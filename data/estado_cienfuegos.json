@@ -13,9 +13,6 @@
       "5 de Septiembre",
       "Guayabito"
     ],
-    "S-4820": [],
-    "C-48": [],
-    "S-2382": [],
     "C-89": [],
     "C-53": [
       "Potrerillo",
@@ -197,7 +194,6 @@
       "Aguada",
       "Federal"
     ],
-    "S-5814": [],
     "C-69": [
       "Junco Sur",
       "Reparto de los médicos",
@@ -711,33 +707,6 @@
       "confianza": 100,
       "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
     },
-    "S-4820": {
-      "fecha": "2026-10-25T11:04:31+00:00",
-      "mensaje_id": 59825,
-      "url": "https://t.me/empresaelectricacienfuegos1/59825",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S4820 hasta la SF4823 El Naranjo, Los Tornos, Poblado Las Minas (C-48)"
-    },
-    "C-48": {
-      "fecha": "2026-10-25T11:04:31+00:00",
-      "mensaje_id": 59825,
-      "url": "https://t.me/empresaelectricacienfuegos1/59825",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S4820 hasta la SF4823 El Naranjo, Los Tornos, Poblado Las Minas (C-48)"
-    },
-    "S-2382": {
-      "fecha": "2026-10-25T11:04:31+00:00",
-      "mensaje_id": 59825,
-      "url": "https://t.me/empresaelectricacienfuegos1/59825",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
     "C-89": {
       "fecha": "2026-10-25T20:50:59+00:00",
       "mensaje_id": 59843,
@@ -1061,15 +1030,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-70 \"Aguada, Federal."
-    },
-    "S-5814": {
-      "fecha": "2026-10-25T11:04:31+00:00",
-      "mensaje_id": 59825,
-      "url": "https://t.me/empresaelectricacienfuegos1/59825",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
     },
     "C-69": {
       "fecha": "2026-10-25T20:50:59+00:00",
@@ -1637,14 +1597,11 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "avería / déficit",
-    "S-4820": "avería",
-    "C-48": "avería",
-    "S-2382": "avería",
+    "C-23": "déficit",
     "C-89": "déficit",
     "C-53": "déficit",
     "C-54": "déficit",
-    "C-90": "avería / déficit",
+    "C-90": "déficit",
     "C-58": "avería / déficit",
     "C-25": "avería / déficit",
     "C-29": "déficit",
@@ -1677,7 +1634,6 @@
     "C-88": "déficit",
     "C-19": "avería",
     "C-70": "déficit",
-    "S-5814": "avería",
     "C-69": "déficit",
     "C-43": "déficit",
     "C-67": "déficit / avería",
@@ -3022,7 +2978,7 @@
     }
   ],
   "mw_fecha": "2026-10-25T20:50:59+00:00",
-  "total_circuitos_afectados": 62,
+  "total_circuitos_afectados": 58,
   "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
@@ -3034,17 +2990,13 @@
     "C-407",
     "C-408",
     "C-43",
-    "C-48",
     "C-58",
     "C-59",
     "C-76",
     "C-89",
     "C-92",
     "C-94",
-    "C-95",
-    "S-2382",
-    "S-4820",
-    "S-5814"
+    "C-95"
   ],
-  "actualizado": "2026-10-25T23:04:29.078086+00:00"
+  "actualizado": "2026-10-25T23:19:21.320850+00:00"
 }
