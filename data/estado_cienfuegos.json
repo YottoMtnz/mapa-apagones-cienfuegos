@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-24T23:47:58+00:00",
+  "reporte_fecha": "2026-10-25T00:28:31+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-24T21:20:16+00:00",
@@ -13,16 +13,12 @@
       "5 de Septiembre",
       "Guayabito"
     ],
-    "C-48": [],
-    "S-4820": [],
-    "S-2382": [],
     "C-69": [
       "Junco Sur",
       "Reparto de los médicos",
       "Las Minas",
       "Playa Alegre"
     ],
-    "C-20": [],
     "C-8": [
       "El Pino",
       "Congojas",
@@ -267,7 +263,16 @@
     "C-2": [],
     "C-3": [
       "Reparto Eléctrico"
-    ]
+    ],
+    "C-76": [],
+    "C-406": [
+      "San Lázaro",
+      "Calle 35 de Ave 58 hasta Ave 64",
+      "Ave 58 de Calle 47 hasta Calle 49",
+      "Calle 47 de Ave 54 hasta Ave 58"
+    ],
+    "C-408": [],
+    "C-401": []
   },
   "programados": {},
   "confirmados_con_servicio": {
@@ -309,30 +314,6 @@
     }
   },
   "restablecimientos_probables": {
-    "C-76": {
-      "fecha": "2026-10-24T23:05:53+00:00",
-      "mensaje_id": 59811,
-      "url": "https://t.me/empresaelectricacienfuegos1/59811",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8  Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T14:11:30+00:00",
-      "listas_consecutivas": 36,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T12:17:58+00:00",
-        "mensaje_id": 59703,
-        "url": "https://t.me/empresaelectricacienfuegos1/59703",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-76 Punta la Cueva, Junco Viejo."
-      },
-      "lugares": []
-    },
     "C-1770": {
       "fecha": "2026-10-24T23:05:53+00:00",
       "mensaje_id": 59811,
@@ -380,35 +361,6 @@
         "texto": "👉C-60 La Tatagua, Camilo Cienfuegos, Villa Yaguanabo, Villa Guajimico."
       },
       "lugares": []
-    },
-    "C-406": {
-      "fecha": "2026-10-24T23:05:53+00:00",
-      "mensaje_id": 59811,
-      "url": "https://t.me/empresaelectricacienfuegos1/59811",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8  Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-23T12:11:47+00:00",
-      "listas_consecutivas": 24,
-      "aviso_anterior": {
-        "fecha": "2026-10-23T11:08:42+00:00",
-        "mensaje_id": 59734,
-        "url": "https://t.me/empresaelectricacienfuegos1/59734",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
-      },
-      "lugares": [
-        "San Lázaro",
-        "Calle 35 de Ave 58 hasta Ave 64",
-        "Ave 58 de Calle 47 hasta Calle 49",
-        "Calle 47 de Ave 54 hasta Ave 58"
-      ]
     },
     "C-6": {
       "fecha": "2026-10-24T23:05:53+00:00",
@@ -685,7 +637,7 @@
           "confianza": 100,
           "texto": "👉C-90 (FW1558) La Pollera"
         },
-        "vigente": true
+        "vigente": false
       }
     ]
   },
@@ -699,33 +651,6 @@
       "confianza": 100,
       "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
     },
-    "C-48": {
-      "fecha": "2026-10-24T12:20:02+00:00",
-      "mensaje_id": 59779,
-      "url": "https://t.me/empresaelectricacienfuegos1/59779",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-4820": {
-      "fecha": "2026-10-24T12:20:02+00:00",
-      "mensaje_id": 59779,
-      "url": "https://t.me/empresaelectricacienfuegos1/59779",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-48 El Naranjo, Los Tornos, Poblado Las Minas. (S4820 hasta la SF4823)"
-    },
-    "S-2382": {
-      "fecha": "2026-10-24T12:20:02+00:00",
-      "mensaje_id": 59779,
-      "url": "https://t.me/empresaelectricacienfuegos1/59779",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
     "C-69": {
       "fecha": "2026-10-24T23:05:53+00:00",
       "mensaje_id": 59811,
@@ -734,15 +659,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-    },
-    "C-20": {
-      "fecha": "2026-10-24T12:20:02+00:00",
-      "mensaje_id": 59779,
-      "url": "https://t.me/empresaelectricacienfuegos1/59779",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-20 Punta Gorda"
     },
     "C-8": {
       "fecha": "2026-10-24T23:05:53+00:00",
@@ -826,13 +742,13 @@
       "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
     "C-19": {
-      "fecha": "2026-10-24T12:20:02+00:00",
-      "mensaje_id": 59779,
-      "url": "https://t.me/empresaelectricacienfuegos1/59779",
+      "fecha": "2026-10-25T00:28:31+00:00",
+      "mensaje_id": 59813,
+      "url": "https://t.me/empresaelectricacienfuegos1/59813",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-19 Tulipán"
+      "texto": "👉C-19 Tulipán."
     },
     "C-91": {
       "fecha": "2026-10-24T23:05:53+00:00",
@@ -889,13 +805,13 @@
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
     "C-407": {
-      "fecha": "2026-10-24T23:05:53+00:00",
-      "mensaje_id": 59811,
-      "url": "https://t.me/empresaelectricacienfuegos1/59811",
+      "fecha": "2026-10-25T00:28:31+00:00",
+      "mensaje_id": 59813,
+      "url": "https://t.me/empresaelectricacienfuegos1/59813",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-407 \"Cocaleca, Poligráfico, Pastorita, O'bourke.\""
+      "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
     },
     "C-17": {
       "fecha": "2026-10-24T23:05:53+00:00",
@@ -1203,6 +1119,42 @@
       "confianza": 100,
       "texto": "👉C-3 Reparto Eléctrico"
     },
+    "C-76": {
+      "fecha": "2026-10-25T00:28:31+00:00",
+      "mensaje_id": 59813,
+      "url": "https://t.me/empresaelectricacienfuegos1/59813",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo"
+    },
+    "C-406": {
+      "fecha": "2026-10-25T00:28:31+00:00",
+      "mensaje_id": 59813,
+      "url": "https://t.me/empresaelectricacienfuegos1/59813",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-406 San Lázaro, Calle 39 desde Ave 74 hasta 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta 49, Calle 47 de Ave 54 hasta Ave 58."
+    },
+    "C-408": {
+      "fecha": "2026-10-25T00:28:31+00:00",
+      "mensaje_id": 59813,
+      "url": "https://t.me/empresaelectricacienfuegos1/59813",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-408 Baldosas, T15, Trébol, 4 Caminos, Universidad, Cantarrana, La Julia, Pepe Rivas."
+    },
+    "C-401": {
+      "fecha": "2026-10-25T00:28:31+00:00",
+      "mensaje_id": 59813,
+      "url": "https://t.me/empresaelectricacienfuegos1/59813",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-401 Zona Industrial 1, Almacenes CIMEX, El Miedo, La 13."
+    },
     "C-405": {
       "fecha": "2026-10-24T15:34:26+00:00",
       "mensaje_id": 59789,
@@ -1238,30 +1190,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero."
-    },
-    "C-76": {
-      "fecha": "2026-10-24T23:05:53+00:00",
-      "mensaje_id": 59811,
-      "url": "https://t.me/empresaelectricacienfuegos1/59811",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8  Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T14:11:30+00:00",
-      "listas_consecutivas": 36,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T12:17:58+00:00",
-        "mensaje_id": 59703,
-        "url": "https://t.me/empresaelectricacienfuegos1/59703",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-76 Punta la Cueva, Junco Viejo."
-      },
-      "lugares": []
     },
     "C-1770": {
       "fecha": "2026-10-24T23:05:53+00:00",
@@ -1310,35 +1238,6 @@
         "texto": "👉C-60 La Tatagua, Camilo Cienfuegos, Villa Yaguanabo, Villa Guajimico."
       },
       "lugares": []
-    },
-    "C-406": {
-      "fecha": "2026-10-24T23:05:53+00:00",
-      "mensaje_id": 59811,
-      "url": "https://t.me/empresaelectricacienfuegos1/59811",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8  Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-23T12:11:47+00:00",
-      "listas_consecutivas": 24,
-      "aviso_anterior": {
-        "fecha": "2026-10-23T11:08:42+00:00",
-        "mensaje_id": 59734,
-        "url": "https://t.me/empresaelectricacienfuegos1/59734",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
-      },
-      "lugares": [
-        "San Lázaro",
-        "Calle 35 de Ave 58 hasta Ave 64",
-        "Ave 58 de Calle 47 hasta Calle 49",
-        "Calle 47 de Ave 54 hasta Ave 58"
-      ]
     },
     "C-6": {
       "fecha": "2026-10-24T23:05:53+00:00",
@@ -1606,12 +1505,8 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "avería / déficit",
-    "C-48": "avería",
-    "S-4820": "avería",
-    "S-2382": "avería",
+    "C-23": "déficit",
     "C-69": "déficit",
-    "C-20": "sin precisar",
     "C-8": "déficit",
     "C-63": "déficit",
     "C-55": "déficit",
@@ -1620,7 +1515,7 @@
     "C-24": "déficit",
     "C-70": "déficit",
     "C-43": "déficit",
-    "C-90": "avería / déficit",
+    "C-90": "déficit",
     "C-19": "avería",
     "C-91": "déficit",
     "C-5": "déficit",
@@ -1628,7 +1523,7 @@
     "C-27": "déficit",
     "C-28": "déficit",
     "C-35": "déficit",
-    "C-407": "déficit",
+    "C-407": "déficit / avería",
     "C-17": "déficit",
     "C-92": "déficit",
     "C-25": "avería / déficit",
@@ -1662,7 +1557,11 @@
     "C-52": "déficit",
     "C-26": "déficit",
     "C-2": "déficit",
-    "C-3": "déficit"
+    "C-3": "déficit",
+    "C-76": "avería",
+    "C-406": "avería",
+    "C-408": "avería",
+    "C-401": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -1997,11 +1896,18 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59810",
       "fecha": "2026-10-24T23:05:50+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Líneas afectadas por\nDisparo Automático por Frecuencia\n(DAF)\nMM\nq\nSS Ne\ny\n4%\nel",
+      "id": 59813,
+      "url": "https://t.me/empresaelectricacienfuegos1/59813",
+      "fecha": "2026-10-25T00:28:31+00:00"
     }
   ],
   "lectura": {
-    "texto": 66,
-    "imagenes": 52,
+    "texto": 65,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 8
   },
@@ -2974,25 +2880,23 @@
   "mw_fecha": "2026-10-24T23:05:53+00:00",
   "total_circuitos_afectados": 57,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 14,
+  "total_restablecimientos_probables": 12,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-1770",
     "C-2",
-    "C-20",
     "C-31",
+    "C-401",
     "C-407",
+    "C-408",
     "C-43",
-    "C-48",
     "C-58",
     "C-59",
     "C-60",
     "C-76",
     "C-92",
     "C-94",
-    "C-95",
-    "S-2382",
-    "S-4820"
+    "C-95"
   ],
-  "actualizado": "2026-10-25T00:19:30.671972+00:00"
+  "actualizado": "2026-10-25T00:34:27.190740+00:00"
 }
