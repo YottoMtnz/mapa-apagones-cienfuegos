@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-25T21:16:16+00:00",
+  "reporte_fecha": "2026-10-25T22:09:21+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-25T20:57:27+00:00",
-  "mensajes_leidos": 124,
+  "mensajes_leidos": 125,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -268,15 +268,6 @@
     ],
     "C-55": [
       "Cruces (Sur"
-    ],
-    "C-84": [
-      "Espartaco (Este",
-      "Maleza",
-      "Dagame",
-      "Paso del Medio",
-      "San Fernando de Camarones",
-      "Jurisdicción",
-      "Manaquita"
     ]
   },
   "programados": {
@@ -299,7 +290,17 @@
       "Parque José Martí"
     ]
   },
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-84": {
+      "fecha": "2026-10-25T22:09:21+00:00",
+      "mensaje_id": 59847,
+      "url": "https://t.me/empresaelectricacienfuegos1/59847",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    }
+  },
   "restablecimientos_probables": {
     "C-18": {
       "fecha": "2026-10-25T20:50:59+00:00",
@@ -1259,15 +1260,6 @@
       "confianza": 100,
       "texto": "👉C-55 Cruces (Sur)."
     },
-    "C-84": {
-      "fecha": "2026-10-25T21:16:16+00:00",
-      "mensaje_id": 59846,
-      "url": "https://t.me/empresaelectricacienfuegos1/59846",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
-    },
     "C-5": {
       "fecha": "2026-10-25T20:57:27+00:00",
       "mensaje_id": 59845,
@@ -1303,6 +1295,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-19 Tulipán."
+    },
+    "C-84": {
+      "fecha": "2026-10-25T22:09:21+00:00",
+      "mensaje_id": 59847,
+      "url": "https://t.me/empresaelectricacienfuegos1/59847",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     },
     "C-18": {
       "fecha": "2026-10-25T20:50:59+00:00",
@@ -1697,8 +1698,7 @@
     "C-17": "déficit",
     "C-92": "déficit",
     "C-63": "déficit",
-    "C-55": "déficit",
-    "C-84": "avería"
+    "C-55": "déficit"
   },
   "error": null,
   "pendientes_revision": [
@@ -2049,7 +2049,7 @@
     }
   ],
   "lectura": {
-    "texto": 71,
+    "texto": 72,
     "imagenes": 53,
     "pdf": 0,
     "no_leidos": 9
@@ -2121,15 +2121,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-80",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-24T04:11:51+00:00",
-      "mensaje_id": 59765,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59763",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59765"
-    },
     {
       "circuito": "C-91",
       "tipo": "salida_lista",
@@ -3020,10 +3011,19 @@
       "mensaje_id": 59843,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59841",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59843"
+    },
+    {
+      "circuito": "C-84",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-25T22:09:21+00:00",
+      "mensaje_id": 59847,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59846",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59847"
     }
   ],
   "mw_fecha": "2026-10-25T20:50:59+00:00",
-  "total_circuitos_afectados": 63,
+  "total_circuitos_afectados": 62,
   "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
@@ -3047,5 +3047,5 @@
     "S-4820",
     "S-5814"
   ],
-  "actualizado": "2026-10-25T22:04:24.012606+00:00"
+  "actualizado": "2026-10-25T22:19:25.956435+00:00"
 }
