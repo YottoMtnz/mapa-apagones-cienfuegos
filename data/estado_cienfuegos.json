@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-10-25T20:50:59+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-25T19:58:37+00:00",
+  "programado_fecha": "2026-10-25T20:57:27+00:00",
   "mensajes_leidos": 125,
   "afectados": {
     "C-23": [
@@ -270,7 +270,26 @@
       "Cruces (Sur"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-19": [
+      "Tulipán"
+    ],
+    "C-5": [
+      "Boulevard",
+      "Parque Martí"
+    ],
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
+    ],
+    "C-66": [
+      "Reina (Parque"
+    ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
+    ]
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-18": {
@@ -1263,6 +1282,42 @@
       "confianza": 100,
       "texto": "👉C-55 Cruces (Sur)."
     },
+    "C-5": {
+      "fecha": "2026-10-25T20:57:27+00:00",
+      "mensaje_id": 59845,
+      "url": "https://t.me/empresaelectricacienfuegos1/59845",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-65": {
+      "fecha": "2026-10-25T20:57:27+00:00",
+      "mensaje_id": 59845,
+      "url": "https://t.me/empresaelectricacienfuegos1/59845",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-66": {
+      "fecha": "2026-10-25T20:57:27+00:00",
+      "mensaje_id": 59845,
+      "url": "https://t.me/empresaelectricacienfuegos1/59845",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-80": {
+      "fecha": "2026-10-25T20:57:27+00:00",
+      "mensaje_id": 59845,
+      "url": "https://t.me/empresaelectricacienfuegos1/59845",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
     "C-18": {
       "fecha": "2026-10-25T20:50:59+00:00",
       "mensaje_id": 59843,
@@ -1338,33 +1393,6 @@
         "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
       },
       "lugares": []
-    },
-    "C-5": {
-      "fecha": "2026-10-25T20:50:59+00:00",
-      "mensaje_id": 59843,
-      "url": "https://t.me/empresaelectricacienfuegos1/59843",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-29 Moncada, Constancia, Rosalía, Loma del Chivo, Simpatía, Charcas, Guasimal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-25T14:23:53+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-10-25T12:39:38+00:00",
-        "mensaje_id": 59827,
-        "url": "https://t.me/empresaelectricacienfuegos1/59827",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-5 Boulevard, Parque Martí"
-      },
-      "lugares": [
-        "Boulevard",
-        "Parque Martí"
-      ]
     },
     "C-56": {
       "fecha": "2026-10-25T20:50:59+00:00",
@@ -1536,59 +1564,6 @@
         "Dolores"
       ]
     },
-    "C-65": {
-      "fecha": "2026-10-25T20:50:59+00:00",
-      "mensaje_id": 59843,
-      "url": "https://t.me/empresaelectricacienfuegos1/59843",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-29 Moncada, Constancia, Rosalía, Loma del Chivo, Simpatía, Charcas, Guasimal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-25T17:33:18+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-25T16:30:20+00:00",
-        "mensaje_id": 59838,
-        "url": "https://t.me/empresaelectricacienfuegos1/59838",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-65 Centro histórico, Reina (Aduana)"
-      },
-      "lugares": [
-        "Centro histórico",
-        "Reina (Aduana"
-      ]
-    },
-    "C-66": {
-      "fecha": "2026-10-25T20:50:59+00:00",
-      "mensaje_id": 59843,
-      "url": "https://t.me/empresaelectricacienfuegos1/59843",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-29 Moncada, Constancia, Rosalía, Loma del Chivo, Simpatía, Charcas, Guasimal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-25T17:33:18+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-25T16:30:20+00:00",
-        "mensaje_id": 59838,
-        "url": "https://t.me/empresaelectricacienfuegos1/59838",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-66 Reina (Parque)"
-      },
-      "lugares": [
-        "Reina (Parque"
-      ]
-    },
     "C-8": {
       "fecha": "2026-10-25T20:50:59+00:00",
       "mensaje_id": 59843,
@@ -1674,7 +1649,33 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-19": {
+      "inicio": null,
+      "fin": "2026-10-26T08:57:27+00:00",
+      "fecha_ambigua": false
+    },
+    "C-5": {
+      "inicio": null,
+      "fin": "2026-10-26T08:57:27+00:00",
+      "fecha_ambigua": false
+    },
+    "C-65": {
+      "inicio": null,
+      "fin": "2026-10-26T08:57:27+00:00",
+      "fecha_ambigua": false
+    },
+    "C-66": {
+      "inicio": null,
+      "fin": "2026-10-26T08:57:27+00:00",
+      "fecha_ambigua": false
+    },
+    "C-80": {
+      "inicio": null,
+      "fin": "2026-10-26T08:57:27+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 55.0,
   "hora_inicio": null,
@@ -3068,7 +3069,7 @@
   ],
   "mw_fecha": "2026-10-25T20:50:59+00:00",
   "total_circuitos_afectados": 62,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3091,5 +3092,5 @@
     "S-4820",
     "S-5814"
   ],
-  "actualizado": "2026-10-25T20:54:18.439734+00:00"
+  "actualizado": "2026-10-25T21:09:30.668697+00:00"
 }
