@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-25T20:50:59+00:00",
+  "reporte_fecha": "2026-10-25T21:16:16+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-25T20:57:27+00:00",
-  "mensajes_leidos": 125,
+  "mensajes_leidos": 126,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -268,6 +268,15 @@
     ],
     "C-55": [
       "Cruces (Sur"
+    ],
+    "C-84": [
+      "Espartaco (Este",
+      "Maleza",
+      "Dagame",
+      "Paso del Medio",
+      "San Fernando de Camarones",
+      "Jurisdicción",
+      "Manaquita"
     ]
   },
   "programados": {
@@ -446,38 +455,6 @@
       "lugares": [
         "Pepito Tey",
         "Guabairo"
-      ]
-    },
-    "C-84": {
-      "fecha": "2026-10-25T20:50:59+00:00",
-      "mensaje_id": 59843,
-      "url": "https://t.me/empresaelectricacienfuegos1/59843",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-29 Moncada, Constancia, Rosalía, Loma del Chivo, Simpatía, Charcas, Guasimal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-25T16:30:20+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-25T15:21:56+00:00",
-        "mensaje_id": 59835,
-        "url": "https://t.me/empresaelectricacienfuegos1/59835",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
-      },
-      "lugares": [
-        "Espartaco (Este",
-        "Maleza",
-        "Dagame",
-        "Paso del Medio",
-        "San Fernando de Camarones",
-        "Jurisdicción",
-        "Manaquita"
       ]
     },
     "C-27": {
@@ -1282,6 +1259,15 @@
       "confianza": 100,
       "texto": "👉C-55 Cruces (Sur)."
     },
+    "C-84": {
+      "fecha": "2026-10-25T21:16:16+00:00",
+      "mensaje_id": 59846,
+      "url": "https://t.me/empresaelectricacienfuegos1/59846",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
     "C-5": {
       "fecha": "2026-10-25T20:57:27+00:00",
       "mensaje_id": 59845,
@@ -1445,38 +1431,6 @@
       "lugares": [
         "Pepito Tey",
         "Guabairo"
-      ]
-    },
-    "C-84": {
-      "fecha": "2026-10-25T20:50:59+00:00",
-      "mensaje_id": 59843,
-      "url": "https://t.me/empresaelectricacienfuegos1/59843",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-29 Moncada, Constancia, Rosalía, Loma del Chivo, Simpatía, Charcas, Guasimal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-25T16:30:20+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-25T15:21:56+00:00",
-        "mensaje_id": 59835,
-        "url": "https://t.me/empresaelectricacienfuegos1/59835",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
-      },
-      "lugares": [
-        "Espartaco (Este",
-        "Maleza",
-        "Dagame",
-        "Paso del Medio",
-        "San Fernando de Camarones",
-        "Jurisdicción",
-        "Manaquita"
       ]
     },
     "C-27": {
@@ -1743,7 +1697,8 @@
     "C-17": "déficit",
     "C-92": "déficit",
     "C-63": "déficit",
-    "C-55": "déficit"
+    "C-55": "déficit",
+    "C-84": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2091,13 +2046,19 @@
       "id": 59844,
       "url": "https://t.me/empresaelectricacienfuegos1/59844",
       "fecha": "2026-10-25T20:52:07+00:00"
+    },
+    {
+      "id": 59846,
+      "url": "https://t.me/empresaelectricacienfuegos1/59846",
+      "fecha": "2026-10-25T21:16:16+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 72,
-    "imagenes": 53,
+    "imagenes": 54,
     "pdf": 0,
-    "no_leidos": 9
+    "no_leidos": 10
   },
   "listas_completas": {
     "deficit": {
@@ -3068,9 +3029,9 @@
     }
   ],
   "mw_fecha": "2026-10-25T20:50:59+00:00",
-  "total_circuitos_afectados": 62,
+  "total_circuitos_afectados": 63,
   "total_circuitos_programados": 5,
-  "total_restablecimientos_probables": 15,
+  "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3092,5 +3053,5 @@
     "S-4820",
     "S-5814"
   ],
-  "actualizado": "2026-10-25T21:09:30.668697+00:00"
+  "actualizado": "2026-10-25T21:19:19.919055+00:00"
 }
