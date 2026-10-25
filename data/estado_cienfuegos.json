@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-25T09:11:39+00:00",
-  "mensajes_leidos": 122,
+  "mensajes_leidos": 121,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -347,54 +347,6 @@
     }
   },
   "restablecimientos_probables": {
-    "C-1770": {
-      "fecha": "2026-10-25T11:03:19+00:00",
-      "mensaje_id": 59824,
-      "url": "https://t.me/empresaelectricacienfuegos1/59824",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8 Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T14:11:30+00:00",
-      "listas_consecutivas": 42,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T12:17:58+00:00",
-        "mensaje_id": 59703,
-        "url": "https://t.me/empresaelectricacienfuegos1/59703",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-1770 Guanayara, 4 Vientos, Cien Rosas, Charco Azul, Aguacate, Grones, EL Nacimiento, Centro Cubano."
-      },
-      "lugares": []
-    },
-    "C-60": {
-      "fecha": "2026-10-25T11:03:19+00:00",
-      "mensaje_id": 59824,
-      "url": "https://t.me/empresaelectricacienfuegos1/59824",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8 Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T14:11:30+00:00",
-      "listas_consecutivas": 42,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T12:17:58+00:00",
-        "mensaje_id": 59703,
-        "url": "https://t.me/empresaelectricacienfuegos1/59703",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-60 La Tatagua, Camilo Cienfuegos, Villa Yaguanabo, Villa Guajimico."
-      },
-      "lugares": []
-    },
     "C-6": {
       "fecha": "2026-10-25T11:03:19+00:00",
       "mensaje_id": 59824,
@@ -1340,54 +1292,6 @@
       "confianza": 100,
       "texto": "👉C-62 Barajagua."
     },
-    "C-1770": {
-      "fecha": "2026-10-25T11:03:19+00:00",
-      "mensaje_id": 59824,
-      "url": "https://t.me/empresaelectricacienfuegos1/59824",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8 Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T14:11:30+00:00",
-      "listas_consecutivas": 42,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T12:17:58+00:00",
-        "mensaje_id": 59703,
-        "url": "https://t.me/empresaelectricacienfuegos1/59703",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-1770 Guanayara, 4 Vientos, Cien Rosas, Charco Azul, Aguacate, Grones, EL Nacimiento, Centro Cubano."
-      },
-      "lugares": []
-    },
-    "C-60": {
-      "fecha": "2026-10-25T11:03:19+00:00",
-      "mensaje_id": 59824,
-      "url": "https://t.me/empresaelectricacienfuegos1/59824",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-8 Congojas, La Lolita.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-22T14:11:30+00:00",
-      "listas_consecutivas": 42,
-      "aviso_anterior": {
-        "fecha": "2026-10-22T12:17:58+00:00",
-        "mensaje_id": 59703,
-        "url": "https://t.me/empresaelectricacienfuegos1/59703",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-60 La Tatagua, Camilo Cienfuegos, Villa Yaguanabo, Villa Guajimico."
-      },
-      "lugares": []
-    },
     "C-6": {
       "fecha": "2026-10-25T11:03:19+00:00",
       "mensaje_id": 59824,
@@ -2032,7 +1936,7 @@
     }
   ],
   "lectura": {
-    "texto": 69,
+    "texto": 68,
     "imagenes": 53,
     "pdf": 0,
     "no_leidos": 9
@@ -3007,10 +2911,9 @@
   "mw_fecha": "2026-10-25T11:03:19+00:00",
   "total_circuitos_afectados": 57,
   "total_circuitos_programados": 6,
-  "total_restablecimientos_probables": 14,
+  "total_restablecimientos_probables": 12,
   "circuitos_sin_catalogar": [
     "C-17",
-    "C-1770",
     "C-2",
     "C-31",
     "C-407",
@@ -3018,7 +2921,6 @@
     "C-48",
     "C-58",
     "C-59",
-    "C-60",
     "C-92",
     "C-94",
     "C-95",
@@ -3026,5 +2928,5 @@
     "S-4820",
     "S-5814"
   ],
-  "actualizado": "2026-10-25T12:07:54.329482+00:00"
+  "actualizado": "2026-10-25T12:24:33.241464+00:00"
 }
