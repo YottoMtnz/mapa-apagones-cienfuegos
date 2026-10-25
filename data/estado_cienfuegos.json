@@ -6,18 +6,18 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-25T15:33:05+00:00",
-  "mensajes_leidos": 127,
+  "mensajes_leidos": 126,
   "afectados": {
-    "C-23": [
-      "Turquino",
-      "5 de Septiembre",
-      "Guayabito"
-    ],
     "C-69": [
       "Junco Sur",
       "Reparto de los médicos",
       "Las Minas",
       "Playa Alegre"
+    ],
+    "C-23": [
+      "Turquino",
+      "5 de Septiembre",
+      "Guayabito"
     ],
     "S-4820": [],
     "C-48": [],
@@ -658,15 +658,6 @@
     ]
   },
   "evidencias": {
-    "C-23": {
-      "fecha": "2026-10-25T17:33:18+00:00",
-      "mensaje_id": 59839,
-      "url": "https://t.me/empresaelectricacienfuegos1/59839",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
-    },
     "C-69": {
       "fecha": "2026-10-25T17:33:18+00:00",
       "mensaje_id": 59839,
@@ -675,6 +666,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
+    "C-23": {
+      "fecha": "2026-10-25T17:33:18+00:00",
+      "mensaje_id": 59839,
+      "url": "https://t.me/empresaelectricacienfuegos1/59839",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
     },
     "S-4820": {
       "fecha": "2026-10-25T11:04:31+00:00",
@@ -1594,8 +1594,8 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "avería / déficit",
     "C-69": "déficit",
+    "C-23": "avería / déficit",
     "S-4820": "avería",
     "C-48": "avería",
     "S-2382": "avería",
@@ -2007,7 +2007,7 @@
     }
   ],
   "lectura": {
-    "texto": 72,
+    "texto": 71,
     "imagenes": 55,
     "pdf": 0,
     "no_leidos": 9
@@ -3004,5 +3004,5 @@
     "S-4820",
     "S-5814"
   ],
-  "actualizado": "2026-10-25T18:04:21.008818+00:00"
+  "actualizado": "2026-10-25T18:19:23.792108+00:00"
 }
