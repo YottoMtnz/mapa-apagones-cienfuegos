@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-25T18:58:00+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-25T15:33:05+00:00",
-  "mensajes_leidos": 123,
+  "programado_fecha": "2026-10-25T19:58:37+00:00",
+  "mensajes_leidos": 124,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -276,7 +276,9 @@
       "Bagazal"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-407": []
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-18": {
@@ -1631,7 +1633,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-407": {
+      "inicio": null,
+      "fin": "2026-10-26T07:58:37+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 55.0,
   "hora_inicio": null,
@@ -2045,7 +2053,7 @@
   ],
   "lectura": {
     "texto": 71,
-    "imagenes": 52,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 9
   },
@@ -3019,7 +3027,7 @@
   ],
   "mw_fecha": "2026-10-25T18:58:00+00:00",
   "total_circuitos_afectados": 63,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3042,5 +3050,5 @@
     "S-4820",
     "S-5814"
   ],
-  "actualizado": "2026-10-25T19:54:21.190153+00:00"
+  "actualizado": "2026-10-25T20:09:34.129630+00:00"
 }
