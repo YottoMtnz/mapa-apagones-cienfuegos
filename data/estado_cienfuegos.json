@@ -6,14 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-25T15:33:05+00:00",
-  "mensajes_leidos": 126,
+  "mensajes_leidos": 124,
   "afectados": {
-    "C-69": [
-      "Junco Sur",
-      "Reparto de los médicos",
-      "Las Minas",
-      "Playa Alegre"
-    ],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
@@ -219,6 +213,12 @@
       "Federal"
     ],
     "S-5814": [],
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
+    ],
     "C-43": [],
     "C-67": [
       "El Crucero",
@@ -275,6 +275,30 @@
   "programados": {},
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
+    "C-18": {
+      "fecha": "2026-10-25T17:33:18+00:00",
+      "mensaje_id": 59839,
+      "url": "https://t.me/empresaelectricacienfuegos1/59839",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-8  Congojas, La Lolita.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-23T02:20:55+00:00",
+      "listas_consecutivas": 39,
+      "aviso_anterior": {
+        "fecha": "2026-10-23T00:41:49+00:00",
+        "mensaje_id": 59724,
+        "url": "https://t.me/empresaelectricacienfuegos1/59724",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
+      },
+      "lugares": []
+    },
     "C-6": {
       "fecha": "2026-10-25T17:33:18+00:00",
       "mensaje_id": 59839,
@@ -658,15 +682,6 @@
     ]
   },
   "evidencias": {
-    "C-69": {
-      "fecha": "2026-10-25T17:33:18+00:00",
-      "mensaje_id": 59839,
-      "url": "https://t.me/empresaelectricacienfuegos1/59839",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-    },
     "C-23": {
       "fecha": "2026-10-25T17:33:18+00:00",
       "mensaje_id": 59839,
@@ -1063,6 +1078,15 @@
       "confianza": 100,
       "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
     },
+    "C-69": {
+      "fecha": "2026-10-25T17:33:18+00:00",
+      "mensaje_id": 59839,
+      "url": "https://t.me/empresaelectricacienfuegos1/59839",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
     "C-43": {
       "fecha": "2026-10-25T17:33:18+00:00",
       "mensaje_id": 59839,
@@ -1224,6 +1248,30 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
+    },
+    "C-18": {
+      "fecha": "2026-10-25T17:33:18+00:00",
+      "mensaje_id": 59839,
+      "url": "https://t.me/empresaelectricacienfuegos1/59839",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-8  Congojas, La Lolita.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-23T02:20:55+00:00",
+      "listas_consecutivas": 39,
+      "aviso_anterior": {
+        "fecha": "2026-10-23T00:41:49+00:00",
+        "mensaje_id": 59724,
+        "url": "https://t.me/empresaelectricacienfuegos1/59724",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
+      },
+      "lugares": []
     },
     "C-6": {
       "fecha": "2026-10-25T17:33:18+00:00",
@@ -1594,7 +1642,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-69": "déficit",
     "C-23": "avería / déficit",
     "S-4820": "avería",
     "C-48": "avería",
@@ -1639,6 +1686,7 @@
     "C-19": "avería",
     "C-70": "déficit",
     "S-5814": "avería",
+    "C-69": "déficit",
     "C-43": "déficit",
     "C-67": "déficit / avería",
     "C-26": "déficit",
@@ -1660,13 +1708,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\n> | S y\nEl | a",
-      "id": 59711,
-      "url": "https://t.me/empresaelectricacienfuegos1/59711",
-      "fecha": "2026-10-22T18:28:27+00:00"
-    },
     {
       "id": 59719,
       "url": "https://t.me/empresaelectricacienfuegos1/59719",
@@ -2008,7 +2049,7 @@
   ],
   "lectura": {
     "texto": 71,
-    "imagenes": 55,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 9
   },
@@ -2512,15 +2553,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59791"
     },
     {
-      "circuito": "C-69",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-24T17:08:07+00:00",
-      "mensaje_id": 59793,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59791",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59793"
-    },
-    {
       "circuito": "C-11",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2540,6 +2572,15 @@
     },
     {
       "circuito": "C-3",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-24T17:08:07+00:00",
+      "mensaje_id": 59793,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59791",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59793"
+    },
+    {
+      "circuito": "C-69",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-24T17:08:07+00:00",
@@ -2764,15 +2805,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59820"
     },
     {
-      "circuito": "C-69",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-25T05:33:35+00:00",
-      "mensaje_id": 59821,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59818",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59821"
-    },
-    {
       "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2810,6 +2842,15 @@
     },
     {
       "circuito": "C-3",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-25T05:33:35+00:00",
+      "mensaje_id": 59821,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59818",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59821"
+    },
+    {
+      "circuito": "C-69",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-25T05:33:35+00:00",
@@ -2983,9 +3024,10 @@
   "mw_fecha": "2026-10-25T17:33:18+00:00",
   "total_circuitos_afectados": 63,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 13,
+  "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
     "C-17",
+    "C-18",
     "C-2",
     "C-31",
     "C-401",
@@ -3004,5 +3046,5 @@
     "S-4820",
     "S-5814"
   ],
-  "actualizado": "2026-10-25T18:19:23.792108+00:00"
+  "actualizado": "2026-10-25T18:34:17.874258+00:00"
 }
