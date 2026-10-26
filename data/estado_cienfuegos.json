@@ -1,6 +1,6 @@
 {
   "schema": 4,
-  "estado_datos": "ok",
+  "estado_datos": "error",
   "fuente_afectados": true,
   "reporte_fecha": "2026-10-26T12:52:37+00:00",
   "reporte_vencido": false,
@@ -1750,7 +1750,7 @@
     "C-405": "déficit",
     "C-29": "déficit"
   },
-  "error": null,
+  "error": "ServerError",
   "pendientes_revision": [
     {
       "motivo": "sin_circuitos_identificables",
@@ -3106,5 +3106,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-26T13:15:45.657021+00:00"
+  "actualizado": "2026-10-26T13:34:20.947109+00:00"
 }
