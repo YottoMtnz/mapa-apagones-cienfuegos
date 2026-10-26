@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-26T16:05:53+00:00",
+  "reporte_fecha": "2026-10-26T18:12:35+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-26T16:12:11+00:00",
-  "mensajes_leidos": 122,
+  "mensajes_leidos": 123,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -219,7 +219,19 @@
       "Charcas",
       "Guasimal"
     ],
-    "C-43": []
+    "C-43": [],
+    "C-6": [
+      "Rancho Luna",
+      "Pasacaballo",
+      "La Milpa"
+    ],
+    "C-5": [
+      "Boulevard",
+      "Parque Martí"
+    ],
+    "C-3": [
+      "Reparto Eléctrico"
+    ]
   },
   "programados": {
     "C-18": [],
@@ -278,34 +290,6 @@
     }
   },
   "restablecimientos_probables": {
-    "C-6": {
-      "fecha": "2026-10-26T16:05:53+00:00",
-      "mensaje_id": 59868,
-      "url": "https://t.me/empresaelectricacienfuegos1/59868",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-23T22:15:28+00:00",
-      "listas_consecutivas": 38,
-      "aviso_anterior": {
-        "fecha": "2026-10-23T20:40:21+00:00",
-        "mensaje_id": 59752,
-        "url": "https://t.me/empresaelectricacienfuegos1/59752",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-6 \"Rancho Luna, Pasacaballo, La Milpa."
-      },
-      "lugares": [
-        "Rancho Luna",
-        "Pasacaballo",
-        "La Milpa"
-      ]
-    },
     "C-59": {
       "fecha": "2026-10-26T16:05:53+00:00",
       "mensaje_id": 59868,
@@ -763,59 +747,6 @@
         "El Concuní"
       ]
     },
-    "C-5": {
-      "fecha": "2026-10-26T16:05:53+00:00",
-      "mensaje_id": 59868,
-      "url": "https://t.me/empresaelectricacienfuegos1/59868",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-26T14:30:13+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-26T12:52:37+00:00",
-        "mensaje_id": 59863,
-        "url": "https://t.me/empresaelectricacienfuegos1/59863",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-5 Boulevard, Parque Martí"
-      },
-      "lugares": [
-        "Boulevard",
-        "Parque Martí"
-      ]
-    },
-    "C-3": {
-      "fecha": "2026-10-26T16:05:53+00:00",
-      "mensaje_id": 59868,
-      "url": "https://t.me/empresaelectricacienfuegos1/59868",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-26T14:30:13+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-26T12:52:37+00:00",
-        "mensaje_id": 59863,
-        "url": "https://t.me/empresaelectricacienfuegos1/59863",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-3 Reparto Eléctrico"
-      },
-      "lugares": [
-        "Reparto Eléctrico"
-      ]
-    },
     "C-32": {
       "fecha": "2026-10-26T16:05:53+00:00",
       "mensaje_id": 59868,
@@ -906,13 +837,13 @@
       "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
     },
     "C-20": {
-      "fecha": "2026-10-26T16:05:53+00:00",
-      "mensaje_id": 59868,
-      "url": "https://t.me/empresaelectricacienfuegos1/59868",
+      "fecha": "2026-10-26T18:12:35+00:00",
+      "mensaje_id": 59873,
+      "url": "https://t.me/empresaelectricacienfuegos1/59873",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
+      "texto": "👉C-20 Punta Gorda"
     },
     "C-53": {
       "fecha": "2026-10-26T16:05:53+00:00",
@@ -1257,31 +1188,31 @@
       "texto": "👉C-15 Pepito Tey, Guabairo."
     },
     "C-65": {
-      "fecha": "2026-10-26T16:05:53+00:00",
-      "mensaje_id": 59868,
-      "url": "https://t.me/empresaelectricacienfuegos1/59868",
+      "fecha": "2026-10-26T18:12:35+00:00",
+      "mensaje_id": 59873,
+      "url": "https://t.me/empresaelectricacienfuegos1/59873",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+      "texto": "👉C-65 Centro histórico,  Reina (Aduana)"
     },
     "C-66": {
-      "fecha": "2026-10-26T16:05:53+00:00",
-      "mensaje_id": 59868,
-      "url": "https://t.me/empresaelectricacienfuegos1/59868",
+      "fecha": "2026-10-26T18:12:35+00:00",
+      "mensaje_id": 59873,
+      "url": "https://t.me/empresaelectricacienfuegos1/59873",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-66 Reina (Parque)"
     },
     "C-80": {
-      "fecha": "2026-10-26T16:05:53+00:00",
-      "mensaje_id": 59868,
-      "url": "https://t.me/empresaelectricacienfuegos1/59868",
+      "fecha": "2026-10-26T18:12:35+00:00",
+      "mensaje_id": 59873,
+      "url": "https://t.me/empresaelectricacienfuegos1/59873",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-80 Punta Cotica, Parque José Martí."
+      "texto": "👉C-80 Punta Cotica, Parque José Martí"
     },
     "C-70": {
       "fecha": "2026-10-26T16:05:53+00:00",
@@ -1318,6 +1249,33 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-43 Aguada (Pueblo), Autopista, Batey María Victoria."
+    },
+    "C-6": {
+      "fecha": "2026-10-26T18:12:35+00:00",
+      "mensaje_id": 59873,
+      "url": "https://t.me/empresaelectricacienfuegos1/59873",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-6 Rancho Luna."
+    },
+    "C-5": {
+      "fecha": "2026-10-26T18:12:35+00:00",
+      "mensaje_id": 59873,
+      "url": "https://t.me/empresaelectricacienfuegos1/59873",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-5 Boulevar, Parque Martí."
+    },
+    "C-3": {
+      "fecha": "2026-10-26T18:12:35+00:00",
+      "mensaje_id": 59873,
+      "url": "https://t.me/empresaelectricacienfuegos1/59873",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-3 Reparto Eléctrico"
     },
     "C-18": {
       "fecha": "2026-10-26T15:48:40+00:00",
@@ -1399,34 +1357,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-25 Abreus (Pueblo)."
-    },
-    "C-6": {
-      "fecha": "2026-10-26T16:05:53+00:00",
-      "mensaje_id": 59868,
-      "url": "https://t.me/empresaelectricacienfuegos1/59868",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-23T22:15:28+00:00",
-      "listas_consecutivas": 38,
-      "aviso_anterior": {
-        "fecha": "2026-10-23T20:40:21+00:00",
-        "mensaje_id": 59752,
-        "url": "https://t.me/empresaelectricacienfuegos1/59752",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-6 \"Rancho Luna, Pasacaballo, La Milpa."
-      },
-      "lugares": [
-        "Rancho Luna",
-        "Pasacaballo",
-        "La Milpa"
-      ]
     },
     "C-59": {
       "fecha": "2026-10-26T16:05:53+00:00",
@@ -1712,59 +1642,6 @@
         "El Concuní"
       ]
     },
-    "C-5": {
-      "fecha": "2026-10-26T16:05:53+00:00",
-      "mensaje_id": 59868,
-      "url": "https://t.me/empresaelectricacienfuegos1/59868",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-26T14:30:13+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-26T12:52:37+00:00",
-        "mensaje_id": 59863,
-        "url": "https://t.me/empresaelectricacienfuegos1/59863",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-5 Boulevard, Parque Martí"
-      },
-      "lugares": [
-        "Boulevard",
-        "Parque Martí"
-      ]
-    },
-    "C-3": {
-      "fecha": "2026-10-26T16:05:53+00:00",
-      "mensaje_id": 59868,
-      "url": "https://t.me/empresaelectricacienfuegos1/59868",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-26T14:30:13+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-26T12:52:37+00:00",
-        "mensaje_id": 59863,
-        "url": "https://t.me/empresaelectricacienfuegos1/59863",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-3 Reparto Eléctrico"
-      },
-      "lugares": [
-        "Reparto Eléctrico"
-      ]
-    },
     "C-32": {
       "fecha": "2026-10-26T16:05:53+00:00",
       "mensaje_id": 59868,
@@ -1878,7 +1755,7 @@
   "tiempos": {},
   "causas": {
     "C-23": "avería / déficit",
-    "C-20": "déficit",
+    "C-20": "déficit / avería",
     "C-53": "déficit",
     "C-54": "déficit",
     "C-90": "avería / déficit",
@@ -1917,13 +1794,16 @@
     "C-69": "déficit",
     "C-26": "déficit",
     "C-15": "déficit",
-    "C-65": "déficit",
-    "C-66": "déficit",
-    "C-80": "déficit",
+    "C-65": "déficit / avería",
+    "C-66": "déficit / avería",
+    "C-80": "déficit / avería",
     "C-70": "déficit",
     "C-405": "déficit",
     "C-29": "déficit",
-    "C-43": "déficit"
+    "C-43": "déficit",
+    "C-6": "avería",
+    "C-5": "avería",
+    "C-3": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2307,7 +2187,7 @@
     }
   ],
   "lectura": {
-    "texto": 68,
+    "texto": 69,
     "imagenes": 54,
     "pdf": 0,
     "no_leidos": 11
@@ -3273,9 +3153,9 @@
     }
   ],
   "mw_fecha": "2026-10-26T16:05:53+00:00",
-  "total_circuitos_afectados": 47,
+  "total_circuitos_afectados": 50,
   "total_circuitos_programados": 9,
-  "total_restablecimientos_probables": 22,
+  "total_restablecimientos_probables": 19,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3293,5 +3173,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-26T17:59:45.482584+00:00"
+  "actualizado": "2026-10-26T18:17:02.634283+00:00"
 }
