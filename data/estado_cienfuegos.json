@@ -1,8 +1,8 @@
 {
   "schema": 4,
-  "estado_datos": "error",
+  "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-26T12:52:37+00:00",
+  "reporte_fecha": "2026-10-26T13:42:41+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-26T03:07:00+00:00",
@@ -248,6 +248,10 @@
       "Simpatía",
       "Charcas",
       "Guasimal"
+    ],
+    "C-22": [
+      "Rodas (Bombeo Agua Rodas 0-12",
+      "Rodas"
     ]
   },
   "programados": {},
@@ -589,33 +593,6 @@
         "Jabacoa",
         "Batey Nuevo",
         "Las Medidas"
-      ]
-    },
-    "C-22": {
-      "fecha": "2026-10-26T12:52:37+00:00",
-      "mensaje_id": 59863,
-      "url": "https://t.me/empresaelectricacienfuegos1/59863",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-86 \"Cumanayagua, emisora de radio",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-26T12:52:37+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-26T11:54:58+00:00",
-        "mensaje_id": 59859,
-        "url": "https://t.me/empresaelectricacienfuegos1/59859",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-22 Rodas (Bombeo Agua Rodas 0-12)"
-      },
-      "lugares": [
-        "Rodas (Bombeo Agua Rodas 0-12",
-        "Rodas"
       ]
     },
     "C-7": {
@@ -1212,6 +1189,15 @@
       "confianza": 100,
       "texto": "👉C-29 Moncada, Constancia, Rosalía, Loma del Chivo, Simpatía, Charcas, Guasimal."
     },
+    "C-22": {
+      "fecha": "2026-10-26T13:42:41+00:00",
+      "mensaje_id": 59864,
+      "url": "https://t.me/empresaelectricacienfuegos1/59864",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-22 Rodas"
+    },
     "C-6": {
       "fecha": "2026-10-26T12:52:37+00:00",
       "mensaje_id": 59863,
@@ -1550,33 +1536,6 @@
         "Las Medidas"
       ]
     },
-    "C-22": {
-      "fecha": "2026-10-26T12:52:37+00:00",
-      "mensaje_id": 59863,
-      "url": "https://t.me/empresaelectricacienfuegos1/59863",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-86 \"Cumanayagua, emisora de radio",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-26T12:52:37+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-26T11:54:58+00:00",
-        "mensaje_id": 59859,
-        "url": "https://t.me/empresaelectricacienfuegos1/59859",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-22 Rodas (Bombeo Agua Rodas 0-12)"
-      },
-      "lugares": [
-        "Rodas (Bombeo Agua Rodas 0-12",
-        "Rodas"
-      ]
-    },
     "C-7": {
       "fecha": "2026-10-26T12:52:37+00:00",
       "mensaje_id": 59863,
@@ -1748,9 +1707,10 @@
     "C-80": "déficit",
     "C-70": "déficit",
     "C-405": "déficit",
-    "C-29": "déficit"
+    "C-29": "déficit",
+    "C-22": "emergencia"
   },
-  "error": "ServerError",
+  "error": null,
   "pendientes_revision": [
     {
       "motivo": "sin_circuitos_identificables",
@@ -2115,11 +2075,18 @@
       "id": 59862,
       "url": "https://t.me/empresaelectricacienfuegos1/59862",
       "fecha": "2026-10-26T12:29:51+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "abet afectados por\nDE EMERGENCIA\n| > 3 ek % |",
+      "id": 59864,
+      "url": "https://t.me/empresaelectricacienfuegos1/59864",
+      "fecha": "2026-10-26T13:42:41+00:00"
     }
   ],
   "lectura": {
-    "texto": 70,
-    "imagenes": 52,
+    "texto": 69,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -3088,9 +3055,9 @@
     }
   ],
   "mw_fecha": "2026-10-26T12:52:37+00:00",
-  "total_circuitos_afectados": 51,
+  "total_circuitos_afectados": 52,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 18,
+  "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-2",
@@ -3106,5 +3073,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-26T13:54:57.989621+00:00"
+  "actualizado": "2026-10-26T14:07:46.392411+00:00"
 }
