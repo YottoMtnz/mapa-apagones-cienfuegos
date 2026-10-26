@@ -2,18 +2,17 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-26T18:12:35+00:00",
+  "reporte_fecha": "2026-10-26T18:27:00+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-26T16:12:11+00:00",
-  "mensajes_leidos": 123,
+  "mensajes_leidos": 124,
   "afectados": {
     "C-23": [
       "Turquino",
       "5 de Septiembre",
       "Guayabito"
     ],
-    "C-20": [],
     "C-53": [
       "Potrerillo",
       "Peñasco",
@@ -199,10 +198,6 @@
     "C-66": [
       "Reina (Parque"
     ],
-    "C-80": [
-      "Punta Cotica",
-      "Parque José Martí"
-    ],
     "C-70": [
       "Aguada",
       "Federal"
@@ -220,15 +215,6 @@
       "Guasimal"
     ],
     "C-43": [],
-    "C-6": [
-      "Rancho Luna",
-      "Pasacaballo",
-      "La Milpa"
-    ],
-    "C-5": [
-      "Boulevard",
-      "Parque Martí"
-    ],
     "C-3": [
       "Reparto Eléctrico"
     ]
@@ -287,6 +273,42 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-22 Rodas"
+    },
+    "C-6": {
+      "fecha": "2026-10-26T18:26:27+00:00",
+      "mensaje_id": 59874,
+      "url": "https://t.me/empresaelectricacienfuegos1/59874",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-6 Rancho Luna."
+    },
+    "C-5": {
+      "fecha": "2026-10-26T18:26:27+00:00",
+      "mensaje_id": 59874,
+      "url": "https://t.me/empresaelectricacienfuegos1/59874",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-5 Boulevar, Parque Martí."
+    },
+    "C-20": {
+      "fecha": "2026-10-26T18:27:00+00:00",
+      "mensaje_id": 59875,
+      "url": "https://t.me/empresaelectricacienfuegos1/59875",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠Se comunica a nuestros clientes que a solicitud de las autoridades de la provincia se encuentra restablecido el servicio en el circuito C-20 Punta Gorda, con el fin de garantizar el juego de béisbol en el estadio 5 de Septiembre."
+    },
+    "C-80": {
+      "fecha": "2026-10-26T18:26:27+00:00",
+      "mensaje_id": 59874,
+      "url": "https://t.me/empresaelectricacienfuegos1/59874",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-80 Punta Cotica, Parque José Martí"
     }
   },
   "restablecimientos_probables": {
@@ -836,15 +858,6 @@
       "confianza": 100,
       "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
     },
-    "C-20": {
-      "fecha": "2026-10-26T18:12:35+00:00",
-      "mensaje_id": 59873,
-      "url": "https://t.me/empresaelectricacienfuegos1/59873",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-20 Punta Gorda"
-    },
     "C-53": {
       "fecha": "2026-10-26T16:05:53+00:00",
       "mensaje_id": 59868,
@@ -1205,15 +1218,6 @@
       "confianza": 100,
       "texto": "👉C-66 Reina (Parque)"
     },
-    "C-80": {
-      "fecha": "2026-10-26T18:12:35+00:00",
-      "mensaje_id": 59873,
-      "url": "https://t.me/empresaelectricacienfuegos1/59873",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-80 Punta Cotica, Parque José Martí"
-    },
     "C-70": {
       "fecha": "2026-10-26T16:05:53+00:00",
       "mensaje_id": 59868,
@@ -1249,24 +1253,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-43 Aguada (Pueblo), Autopista, Batey María Victoria."
-    },
-    "C-6": {
-      "fecha": "2026-10-26T18:12:35+00:00",
-      "mensaje_id": 59873,
-      "url": "https://t.me/empresaelectricacienfuegos1/59873",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-6 Rancho Luna."
-    },
-    "C-5": {
-      "fecha": "2026-10-26T18:12:35+00:00",
-      "mensaje_id": 59873,
-      "url": "https://t.me/empresaelectricacienfuegos1/59873",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-5 Boulevar, Parque Martí."
     },
     "C-3": {
       "fecha": "2026-10-26T18:12:35+00:00",
@@ -1357,6 +1343,42 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-25 Abreus (Pueblo)."
+    },
+    "C-6": {
+      "fecha": "2026-10-26T18:26:27+00:00",
+      "mensaje_id": 59874,
+      "url": "https://t.me/empresaelectricacienfuegos1/59874",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-6 Rancho Luna."
+    },
+    "C-5": {
+      "fecha": "2026-10-26T18:26:27+00:00",
+      "mensaje_id": 59874,
+      "url": "https://t.me/empresaelectricacienfuegos1/59874",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-5 Boulevar, Parque Martí."
+    },
+    "C-20": {
+      "fecha": "2026-10-26T18:27:00+00:00",
+      "mensaje_id": 59875,
+      "url": "https://t.me/empresaelectricacienfuegos1/59875",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠Se comunica a nuestros clientes que a solicitud de las autoridades de la provincia se encuentra restablecido el servicio en el circuito C-20 Punta Gorda, con el fin de garantizar el juego de béisbol en el estadio 5 de Septiembre."
+    },
+    "C-80": {
+      "fecha": "2026-10-26T18:26:27+00:00",
+      "mensaje_id": 59874,
+      "url": "https://t.me/empresaelectricacienfuegos1/59874",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-80 Punta Cotica, Parque José Martí"
     },
     "C-59": {
       "fecha": "2026-10-26T16:05:53+00:00",
@@ -1755,7 +1777,6 @@
   "tiempos": {},
   "causas": {
     "C-23": "avería / déficit",
-    "C-20": "déficit / avería",
     "C-53": "déficit",
     "C-54": "déficit",
     "C-90": "avería / déficit",
@@ -1796,13 +1817,10 @@
     "C-15": "déficit",
     "C-65": "déficit / avería",
     "C-66": "déficit / avería",
-    "C-80": "déficit / avería",
     "C-70": "déficit",
     "C-405": "déficit",
     "C-29": "déficit",
     "C-43": "déficit",
-    "C-6": "avería",
-    "C-5": "avería",
     "C-3": "avería"
   },
   "error": null,
@@ -2188,7 +2206,7 @@
   ],
   "lectura": {
     "texto": 69,
-    "imagenes": 54,
+    "imagenes": 55,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -2251,42 +2269,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-101",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-24T15:54:45+00:00",
-      "mensaje_id": 59791,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59787",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59791"
-    },
-    {
-      "circuito": "C-102",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-24T15:54:45+00:00",
-      "mensaje_id": 59791,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59787",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59791"
-    },
-    {
-      "circuito": "C-103",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-24T15:54:45+00:00",
-      "mensaje_id": 59791,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59787",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59791"
-    },
-    {
-      "circuito": "C-23",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-24T15:54:45+00:00",
-      "mensaje_id": 59791,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59787",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59791"
-    },
     {
       "circuito": "C-47",
       "tipo": "salida_lista",
@@ -3150,17 +3132,52 @@
       "mensaje_id": 59868,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59866",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59868"
+    },
+    {
+      "circuito": "C-6",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-26T18:26:27+00:00",
+      "mensaje_id": 59874,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59873",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59874"
+    },
+    {
+      "circuito": "C-5",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-26T18:26:27+00:00",
+      "mensaje_id": 59874,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59873",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59874"
+    },
+    {
+      "circuito": "C-20",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-26T18:26:27+00:00",
+      "mensaje_id": 59874,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59873",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59874"
+    },
+    {
+      "circuito": "C-80",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-26T18:26:27+00:00",
+      "mensaje_id": 59874,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59873",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59874"
     }
   ],
   "mw_fecha": "2026-10-26T16:05:53+00:00",
-  "total_circuitos_afectados": 50,
+  "total_circuitos_afectados": 46,
   "total_circuitos_programados": 9,
   "total_restablecimientos_probables": 19,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
     "C-2",
-    "C-20",
     "C-31",
     "C-407",
     "C-43",
@@ -3173,5 +3190,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-26T18:17:02.634283+00:00"
+  "actualizado": "2026-10-26T18:29:23.647012+00:00"
 }
