@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-26T11:54:58+00:00",
+  "reporte_fecha": "2026-10-26T12:29:51+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-26T03:07:00+00:00",
-  "mensajes_leidos": 123,
+  "mensajes_leidos": 122,
   "afectados": {
     "C-80": [
       "Punta Cotica",
@@ -1055,13 +1055,13 @@
       "texto": "👉C-5 Boulevard, Parque Martí"
     },
     "C-84": {
-      "fecha": "2026-10-26T11:54:58+00:00",
-      "mensaje_id": 59859,
-      "url": "https://t.me/empresaelectricacienfuegos1/59859",
+      "fecha": "2026-10-26T12:29:51+00:00",
+      "mensaje_id": 59862,
+      "url": "https://t.me/empresaelectricacienfuegos1/59862",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     },
     "C-3": {
       "fecha": "2026-10-26T11:54:58+00:00",
@@ -1540,7 +1540,7 @@
     "C-27": "déficit",
     "C-28": "déficit",
     "C-5": "déficit",
-    "C-84": "déficit",
+    "C-84": "déficit / avería",
     "C-3": "déficit",
     "C-2": "déficit",
     "C-69": "déficit",
@@ -1553,20 +1553,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
-      "id": 59738,
-      "url": "https://t.me/empresaelectricacienfuegos1/59738",
-      "fecha": "2026-10-23T12:43:59+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de 1820         MW a las 19:30 horas",
-      "id": 59738,
-      "url": "https://t.me/empresaelectricacienfuegos1/59738",
-      "fecha": "2026-10-23T12:43:59+00:00"
-    },
     {
       "motivo": "resumen_historico",
       "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
@@ -1930,11 +1916,18 @@
       "id": 59861,
       "url": "https://t.me/empresaelectricacienfuegos1/59861",
       "fecha": "2026-10-26T12:26:33+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
+      "id": 59862,
+      "url": "https://t.me/empresaelectricacienfuegos1/59862",
+      "fecha": "2026-10-26T12:29:51+00:00"
     }
   ],
   "lectura": {
     "texto": 70,
-    "imagenes": 53,
+    "imagenes": 52,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -2925,5 +2918,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-26T12:28:20.319954+00:00"
+  "actualizado": "2026-10-26T12:44:22.310455+00:00"
 }
