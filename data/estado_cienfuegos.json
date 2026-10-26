@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-10-26T14:30:13+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
+  "programado_fecha": "2026-10-26T15:48:40+00:00",
   "mensajes_leidos": 122,
   "afectados": {
     "C-23": [
@@ -232,7 +232,9 @@
       "Guasimal"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-18": []
+  },
   "confirmados_con_servicio": {
     "C-22": {
       "fecha": "2026-10-26T14:24:45+00:00",
@@ -1261,6 +1263,15 @@
       "confianza": 100,
       "texto": "👉C-29  Moncada, Constancia, Rosalía, Loma del Chivo, Simpatía, Charcas, Guasimal."
     },
+    "C-18": {
+      "fecha": "2026-10-26T15:48:40+00:00",
+      "mensaje_id": 59867,
+      "url": "https://t.me/empresaelectricacienfuegos1/59867",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita"
+    },
     "C-22": {
       "fecha": "2026-10-26T14:24:45+00:00",
       "mensaje_id": 59865,
@@ -1833,7 +1844,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-18": {
+      "inicio": null,
+      "fin": "2026-10-27T03:48:40+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 50.0,
   "hora_inicio": null,
@@ -3225,10 +3242,11 @@
   ],
   "mw_fecha": "2026-10-26T14:30:13+00:00",
   "total_circuitos_afectados": 48,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 21,
   "circuitos_sin_catalogar": [
     "C-17",
+    "C-18",
     "C-2",
     "C-20",
     "C-31",
@@ -3243,5 +3261,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-26T15:22:48.851924+00:00"
+  "actualizado": "2026-10-26T15:52:18.244885+00:00"
 }
