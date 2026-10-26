@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-25T20:57:27+00:00",
-  "mensajes_leidos": 125,
+  "mensajes_leidos": 123,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -304,30 +304,6 @@
     }
   },
   "restablecimientos_probables": {
-    "C-18": {
-      "fecha": "2026-10-25T23:38:44+00:00",
-      "mensaje_id": 59850,
-      "url": "https://t.me/empresaelectricacienfuegos1/59850",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-29 Moncada, Constancia, Rosalía, Loma del Chivo, Simpatía, Charcas, Guasimal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-23T02:20:55+00:00",
-      "listas_consecutivas": 42,
-      "aviso_anterior": {
-        "fecha": "2026-10-23T00:41:49+00:00",
-        "mensaje_id": 59724,
-        "url": "https://t.me/empresaelectricacienfuegos1/59724",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
     "C-6": {
       "fecha": "2026-10-25T23:38:44+00:00",
       "mensaje_id": 59850,
@@ -1155,30 +1131,6 @@
       "confianza": 100,
       "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     },
-    "C-18": {
-      "fecha": "2026-10-25T23:38:44+00:00",
-      "mensaje_id": 59850,
-      "url": "https://t.me/empresaelectricacienfuegos1/59850",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-29 Moncada, Constancia, Rosalía, Loma del Chivo, Simpatía, Charcas, Guasimal.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-23T02:20:55+00:00",
-      "listas_consecutivas": 42,
-      "aviso_anterior": {
-        "fecha": "2026-10-23T00:41:49+00:00",
-        "mensaje_id": 59724,
-        "url": "https://t.me/empresaelectricacienfuegos1/59724",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
     "C-6": {
       "fecha": "2026-10-25T23:38:44+00:00",
       "mensaje_id": 59850,
@@ -1490,13 +1442,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Líneas afectadas por\nq\n| > EN \\\nA | A k\n>] | = Ls S\n| | s SM\nel | N",
-      "id": 59723,
-      "url": "https://t.me/empresaelectricacienfuegos1/59723",
-      "fecha": "2026-10-23T00:36:44+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
@@ -1843,8 +1788,8 @@
     }
   ],
   "lectura": {
-    "texto": 71,
-    "imagenes": 54,
+    "texto": 70,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -2822,10 +2767,9 @@
   "mw_fecha": "2026-10-25T23:38:44+00:00",
   "total_circuitos_afectados": 62,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 10,
+  "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
     "C-17",
-    "C-18",
     "C-2",
     "C-31",
     "C-401",
@@ -2840,5 +2784,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-26T00:34:22.062023+00:00"
+  "actualizado": "2026-10-26T00:49:18.032339+00:00"
 }
