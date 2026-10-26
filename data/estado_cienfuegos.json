@@ -6,16 +6,16 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-26T03:07:00+00:00",
-  "mensajes_leidos": 122,
+  "mensajes_leidos": 123,
   "afectados": {
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
+    ],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
       "Guayabito"
-    ],
-    "C-80": [
-      "Punta Cotica",
-      "Parque José Martí"
     ],
     "C-53": [
       "Potrerillo",
@@ -640,15 +640,6 @@
     ]
   },
   "evidencias": {
-    "C-23": {
-      "fecha": "2026-10-26T11:54:58+00:00",
-      "mensaje_id": 59859,
-      "url": "https://t.me/empresaelectricacienfuegos1/59859",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
-    },
     "C-80": {
       "fecha": "2026-10-26T11:54:58+00:00",
       "mensaje_id": 59859,
@@ -657,6 +648,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-80 Punta Cotica, Parque José Martí."
+    },
+    "C-23": {
+      "fecha": "2026-10-26T11:54:58+00:00",
+      "mensaje_id": 59859,
+      "url": "https://t.me/empresaelectricacienfuegos1/59859",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
     },
     "C-53": {
       "fecha": "2026-10-26T11:54:58+00:00",
@@ -1494,8 +1494,8 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "avería / déficit",
     "C-80": "déficit",
+    "C-23": "avería / déficit",
     "C-53": "déficit",
     "C-54": "déficit",
     "C-90": "avería / déficit",
@@ -1916,11 +1916,25 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59858",
       "fecha": "2026-10-26T11:46:19+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "⚡En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
+      "id": 59861,
+      "url": "https://t.me/empresaelectricacienfuegos1/59861",
+      "fecha": "2026-10-26T12:26:33+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de         1849 MW a las 19:30 horas.",
+      "id": 59861,
+      "url": "https://t.me/empresaelectricacienfuegos1/59861",
+      "fecha": "2026-10-26T12:26:33+00:00"
     }
   ],
   "lectura": {
     "texto": 70,
-    "imagenes": 52,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -2911,5 +2925,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-26T12:09:33.135582+00:00"
+  "actualizado": "2026-10-26T12:28:20.319954+00:00"
 }
