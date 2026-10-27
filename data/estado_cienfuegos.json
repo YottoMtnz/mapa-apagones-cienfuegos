@@ -6,17 +6,17 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-27T03:07:22+00:00",
-  "mensajes_leidos": 119,
+  "mensajes_leidos": 121,
   "afectados": {
+    "C-90": [
+      "FW1558) La Pollera"
+    ],
+    "S-2382": [],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
       "Guayabito"
     ],
-    "C-90": [
-      "FW1558) La Pollera"
-    ],
-    "S-2382": [],
     "C-58": [],
     "C-25": [
       "Abreus (Pueblo"
@@ -575,15 +575,6 @@
     ]
   },
   "evidencias": {
-    "C-23": {
-      "fecha": "2026-10-27T10:29:25+00:00",
-      "mensaje_id": 59895,
-      "url": "https://t.me/empresaelectricacienfuegos1/59895",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
     "C-90": {
       "fecha": "2026-10-27T10:29:25+00:00",
       "mensaje_id": 59895,
@@ -594,6 +585,15 @@
       "texto": "👉FW1558 La Pollera (C-90)"
     },
     "S-2382": {
+      "fecha": "2026-10-27T10:29:25+00:00",
+      "mensaje_id": 59895,
+      "url": "https://t.me/empresaelectricacienfuegos1/59895",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
+    },
+    "C-23": {
       "fecha": "2026-10-27T10:29:25+00:00",
       "mensaje_id": 59895,
       "url": "https://t.me/empresaelectricacienfuegos1/59895",
@@ -1381,9 +1381,9 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "avería / déficit",
     "C-90": "avería / déficit",
     "S-2382": "avería",
+    "C-23": "avería / déficit",
     "C-58": "avería / déficit",
     "C-25": "déficit",
     "C-49": "déficit",
@@ -1849,11 +1849,32 @@
       "id": 59895,
       "url": "https://t.me/empresaelectricacienfuegos1/59895",
       "fecha": "2026-10-27T10:29:25+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠Se comunica a nuestros clientes que ocurrió un Disparo Automático por Frecuencia (DAF) en la línea:\n\n\n👉L-1415 Aguada \n\n\n📌 Ofrecemos disculpas por las molestias ocasionadas\nLíneas afectadas por\nDisparo Automático por Frecuencia\n(DAF)\nMM\nq\nSS Ne\ny\n4%\nel",
+      "id": 59896,
+      "url": "https://t.me/empresaelectricacienfuegos1/59896",
+      "fecha": "2026-10-27T11:28:41+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠Terminología Eléctrica\n\n\n👉Disparo automático por frecuencia (DAF).\n\n\n📌Un disparo por frecuencia o Descarga Automática por Frecuencia, es una protección que posee el sistema eléctrico para cuando la frecuencia llega a valores mínimos permisibles que ponen en peligro la estabilidad de todo el sistema",
+      "id": 59897,
+      "url": "https://t.me/empresaelectricacienfuegos1/59897",
+      "fecha": "2026-10-27T11:36:05+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\nY\ny\n69 MW\n-\nDEFICIT DE GENERACION\nZi Sox\nil,\n1\nUNE\nCIENFUEGOS.\na EY",
+      "id": 59898,
+      "url": "https://t.me/empresaelectricacienfuegos1/59898",
+      "fecha": "2026-10-27T11:38:34+00:00"
     }
   ],
   "lectura": {
     "texto": 66,
-    "imagenes": 53,
+    "imagenes": 55,
     "pdf": 0,
     "no_leidos": 12
   },
@@ -2852,5 +2873,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-27T11:24:21.936270+00:00"
+  "actualizado": "2026-10-27T11:39:23.032941+00:00"
 }
