@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-27T03:07:22+00:00",
-  "mensajes_leidos": 121,
+  "mensajes_leidos": 119,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -1898,8 +1898,8 @@
     }
   ],
   "lectura": {
-    "texto": 68,
-    "imagenes": 53,
+    "texto": 67,
+    "imagenes": 52,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -1971,13 +1971,13 @@
   },
   "transiciones": [
     {
-      "circuito": "C-62",
-      "tipo": "restablecido",
-      "alcance": "general",
-      "fecha": "2026-10-25T03:20:56+00:00",
-      "mensaje_id": 59820,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59772",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59820"
+      "circuito": "C-70",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-25T03:13:49+00:00",
+      "mensaje_id": 59818,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59815",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59818"
     },
     {
       "circuito": "C-90",
@@ -2892,5 +2892,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-27T09:24:21.495406+00:00"
+  "actualizado": "2026-10-27T09:39:20.588100+00:00"
 }
