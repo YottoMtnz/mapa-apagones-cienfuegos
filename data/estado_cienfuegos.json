@@ -1343,12 +1343,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "id": 59806,
-      "url": "https://t.me/empresaelectricacienfuegos1/59806",
-      "fecha": "2026-10-24T22:12:36+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
-    {
       "id": 59808,
       "url": "https://t.me/empresaelectricacienfuegos1/59808",
       "fecha": "2026-10-24T22:51:53+00:00",
@@ -1768,13 +1762,20 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59923",
       "fecha": "2026-10-27T22:03:50+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n80 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 59924,
+      "url": "https://t.me/empresaelectricacienfuegos1/59924",
+      "fecha": "2026-10-27T22:21:21+00:00"
     }
   ],
   "lectura": {
     "texto": 63,
     "imagenes": 54,
     "pdf": 0,
-    "no_leidos": 12
+    "no_leidos": 11
   },
   "listas_completas": {
     "deficit": {
@@ -2769,5 +2770,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-27T22:09:22.521062+00:00"
+  "actualizado": "2026-10-27T22:24:33.965210+00:00"
 }
