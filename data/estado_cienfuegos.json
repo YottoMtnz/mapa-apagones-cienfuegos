@@ -6,9 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-27T03:07:22+00:00",
-  "mensajes_leidos": 120,
+  "mensajes_leidos": 118,
   "afectados": {
-    "C-58": [],
     "C-25": [
       "Abreus (Pueblo"
     ],
@@ -76,6 +75,7 @@
     "C-85": [
       "Cumanayagua (Centro"
     ],
+    "C-58": [],
     "C-31": [],
     "C-88": [
       "San Ignacio",
@@ -520,15 +520,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-58": {
-      "fecha": "2026-10-27T12:19:41+00:00",
-      "mensaje_id": 59900,
-      "url": "https://t.me/empresaelectricacienfuegos1/59900",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
     "C-25": {
       "fecha": "2026-10-27T12:19:41+00:00",
       "mensaje_id": 59900,
@@ -645,6 +636,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-85 \"Cumanayagua (Centro)."
+    },
+    "C-58": {
+      "fecha": "2026-10-27T12:19:41+00:00",
+      "mensaje_id": 59900,
+      "url": "https://t.me/empresaelectricacienfuegos1/59900",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-31": {
       "fecha": "2026-10-27T12:19:41+00:00",
@@ -1313,7 +1313,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-58": "avería / déficit",
     "C-25": "déficit",
     "C-49": "déficit",
     "C-23": "déficit / avería",
@@ -1327,6 +1326,7 @@
     "C-54": "déficit",
     "C-53": "déficit",
     "C-85": "déficit",
+    "C-58": "déficit / avería",
     "C-31": "déficit",
     "C-88": "déficit",
     "C-19": "déficit",
@@ -1782,8 +1782,8 @@
     }
   ],
   "lectura": {
-    "texto": 66,
-    "imagenes": 54,
+    "texto": 65,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 12
   },
@@ -2787,5 +2787,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-27T12:24:26.136497+00:00"
+  "actualizado": "2026-10-27T12:39:19.673586+00:00"
 }
