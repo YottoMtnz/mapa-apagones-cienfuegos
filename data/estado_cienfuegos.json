@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-27T18:06:33+00:00",
+  "reporte_fecha": "2026-10-27T18:21:56+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-27T15:47:42+00:00",
@@ -975,9 +975,9 @@
       "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
     },
     "C-15": {
-      "fecha": "2026-10-27T16:26:30+00:00",
-      "mensaje_id": 59913,
-      "url": "https://t.me/empresaelectricacienfuegos1/59913",
+      "fecha": "2026-10-27T18:21:56+00:00",
+      "mensaje_id": 59916,
+      "url": "https://t.me/empresaelectricacienfuegos1/59916",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1312,7 +1312,7 @@
     "C-59": "déficit",
     "C-69": "emergencia",
     "C-2": "déficit / avería",
-    "C-15": "déficit",
+    "C-15": "déficit / avería",
     "C-26": "déficit / avería",
     "C-70": "déficit",
     "C-80": "déficit / avería",
@@ -1328,12 +1328,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "id": 59799,
-      "url": "https://t.me/empresaelectricacienfuegos1/59799",
-      "fecha": "2026-10-24T19:44:17+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "id": 59801,
       "url": "https://t.me/empresaelectricacienfuegos1/59801",
@@ -1753,11 +1747,18 @@
       "id": 59915,
       "url": "https://t.me/empresaelectricacienfuegos1/59915",
       "fecha": "2026-10-27T18:06:33+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
+      "id": 59916,
+      "url": "https://t.me/empresaelectricacienfuegos1/59916",
+      "fecha": "2026-10-27T18:21:56+00:00"
     }
   ],
   "lectura": {
-    "texto": 64,
-    "imagenes": 55,
+    "texto": 63,
+    "imagenes": 56,
     "pdf": 0,
     "no_leidos": 13
   },
@@ -2760,5 +2761,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-27T18:19:22.973628+00:00"
+  "actualizado": "2026-10-27T18:35:10.704556+00:00"
 }
