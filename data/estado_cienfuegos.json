@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-27T15:11:35+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 118,
+  "programado_fecha": "2026-10-27T15:47:42+00:00",
+  "mensajes_leidos": 117,
   "afectados": {
     "C-25": [
       "Abreus (Pueblo"
@@ -313,7 +313,9 @@
     ],
     "C-20": []
   },
-  "programados": {},
+  "programados": {
+    "C-18": []
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-94": {
@@ -1119,6 +1121,15 @@
       "confianza": 100,
       "texto": "👉C-20 Punta Gorda"
     },
+    "C-18": {
+      "fecha": "2026-10-27T15:47:42+00:00",
+      "mensaje_id": 59908,
+      "url": "https://t.me/empresaelectricacienfuegos1/59908",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita"
+    },
     "C-94": {
       "fecha": "2026-10-27T15:11:35+00:00",
       "mensaje_id": 59907,
@@ -1220,30 +1231,6 @@
         "Parque Alto"
       ]
     },
-    "C-18": {
-      "fecha": "2026-10-27T15:11:35+00:00",
-      "mensaje_id": 59907,
-      "url": "https://t.me/empresaelectricacienfuegos1/59907",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-50  \"Palmira (Norte).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-27T11:42:00+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-27T10:27:37+00:00",
-        "mensaje_id": 59894,
-        "url": "https://t.me/empresaelectricacienfuegos1/59894",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
     "C-43": {
       "fecha": "2026-10-27T15:11:35+00:00",
       "mensaje_id": 59907,
@@ -1326,7 +1313,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-18": {
+      "inicio": null,
+      "fin": "2026-10-28T03:47:42+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 64.0,
   "hora_inicio": null,
@@ -1816,7 +1809,7 @@
     }
   ],
   "lectura": {
-    "texto": 65,
+    "texto": 64,
     "imagenes": 53,
     "pdf": 0,
     "no_leidos": 13
@@ -2800,7 +2793,7 @@
   "mw_fecha": "2026-10-27T15:11:35+00:00",
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "total_circuitos_afectados": 66,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 8,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2819,5 +2812,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-27T15:34:17.332617+00:00"
+  "actualizado": "2026-10-27T15:49:46.184553+00:00"
 }
