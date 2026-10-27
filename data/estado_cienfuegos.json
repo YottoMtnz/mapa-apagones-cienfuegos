@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-27T03:05:41+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-26T16:12:11+00:00",
-  "mensajes_leidos": 123,
+  "programado_fecha": "2026-10-27T03:07:22+00:00",
+  "mensajes_leidos": 124,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -281,7 +281,36 @@
     ],
     "C-59": []
   },
-  "programados": {},
+  "programados": {
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
+    ],
+    "C-26": [
+      "Caonao",
+      "Los Tanques",
+      "La Ceiba",
+      "El Paisíto"
+    ],
+    "C-90": [
+      "FW1558) La Pollera"
+    ],
+    "C-2": [],
+    "C-3": [
+      "Reparto Eléctrico"
+    ],
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
+    ]
+  },
   "confirmados_con_servicio": {
     "C-6": {
       "fecha": "2026-10-26T18:26:27+00:00",
@@ -1175,6 +1204,51 @@
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
     },
+    "C-69": {
+      "fecha": "2026-10-27T03:07:22+00:00",
+      "mensaje_id": 59890,
+      "url": "https://t.me/empresaelectricacienfuegos1/59890",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
+    "C-26": {
+      "fecha": "2026-10-27T03:07:22+00:00",
+      "mensaje_id": 59890,
+      "url": "https://t.me/empresaelectricacienfuegos1/59890",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
+    "C-2": {
+      "fecha": "2026-10-27T03:07:22+00:00",
+      "mensaje_id": 59890,
+      "url": "https://t.me/empresaelectricacienfuegos1/59890",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
+    "C-15": {
+      "fecha": "2026-10-27T03:07:22+00:00",
+      "mensaje_id": 59890,
+      "url": "https://t.me/empresaelectricacienfuegos1/59890",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
+    "C-67": {
+      "fecha": "2026-10-27T03:07:22+00:00",
+      "mensaje_id": 59890,
+      "url": "https://t.me/empresaelectricacienfuegos1/59890",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
     "C-6": {
       "fecha": "2026-10-26T18:26:27+00:00",
       "mensaje_id": 59874,
@@ -1255,115 +1329,6 @@
         "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
       },
       "lugares": []
-    },
-    "C-15": {
-      "fecha": "2026-10-27T03:05:41+00:00",
-      "mensaje_id": 59889,
-      "url": "https://t.me/empresaelectricacienfuegos1/59889",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-50 \"Palmira (Norte).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-26T23:02:25+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-10-26T21:14:10+00:00",
-        "mensaje_id": 59877,
-        "url": "https://t.me/empresaelectricacienfuegos1/59877",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-15 Pepito Tey, Guabairo."
-      },
-      "lugares": [
-        "Pepito Tey",
-        "Guabairo"
-      ]
-    },
-    "C-2": {
-      "fecha": "2026-10-27T03:05:41+00:00",
-      "mensaje_id": 59889,
-      "url": "https://t.me/empresaelectricacienfuegos1/59889",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-50 \"Palmira (Norte).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-26T23:41:34+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-10-26T23:02:25+00:00",
-        "mensaje_id": 59880,
-        "url": "https://t.me/empresaelectricacienfuegos1/59880",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
-      },
-      "lugares": []
-    },
-    "C-69": {
-      "fecha": "2026-10-27T03:05:41+00:00",
-      "mensaje_id": 59889,
-      "url": "https://t.me/empresaelectricacienfuegos1/59889",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-50 \"Palmira (Norte).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-26T23:41:34+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-10-26T23:02:25+00:00",
-        "mensaje_id": 59880,
-        "url": "https://t.me/empresaelectricacienfuegos1/59880",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-      },
-      "lugares": [
-        "Junco Sur",
-        "Reparto de los médicos",
-        "Las Minas",
-        "Playa Alegre"
-      ]
-    },
-    "C-26": {
-      "fecha": "2026-10-27T03:05:41+00:00",
-      "mensaje_id": 59889,
-      "url": "https://t.me/empresaelectricacienfuegos1/59889",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-50 \"Palmira (Norte).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-26T23:41:34+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-10-26T23:02:25+00:00",
-        "mensaje_id": 59880,
-        "url": "https://t.me/empresaelectricacienfuegos1/59880",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
-      },
-      "lugares": [
-        "Caonao",
-        "Los Tanques",
-        "La Ceiba",
-        "El Paisíto"
-      ]
     },
     "C-43": {
       "fecha": "2026-10-27T03:05:41+00:00",
@@ -1522,7 +1487,43 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-69": {
+      "inicio": null,
+      "fin": "2026-10-27T15:07:22+00:00",
+      "fecha_ambigua": false
+    },
+    "C-26": {
+      "inicio": null,
+      "fin": "2026-10-27T15:07:22+00:00",
+      "fecha_ambigua": false
+    },
+    "C-90": {
+      "inicio": null,
+      "fin": "2026-10-27T15:07:22+00:00",
+      "fecha_ambigua": false
+    },
+    "C-2": {
+      "inicio": null,
+      "fin": "2026-10-27T15:07:22+00:00",
+      "fecha_ambigua": false
+    },
+    "C-3": {
+      "inicio": null,
+      "fin": "2026-10-27T15:07:22+00:00",
+      "fecha_ambigua": false
+    },
+    "C-15": {
+      "inicio": null,
+      "fin": "2026-10-27T15:07:22+00:00",
+      "fecha_ambigua": false
+    },
+    "C-67": {
+      "inicio": null,
+      "fin": "2026-10-27T15:07:22+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 68.0,
   "hora_inicio": null,
@@ -1990,7 +1991,7 @@
   ],
   "lectura": {
     "texto": 69,
-    "imagenes": 54,
+    "imagenes": 55,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -2965,7 +2966,7 @@
   ],
   "mw_fecha": "2026-10-27T03:05:41+00:00",
   "total_circuitos_afectados": 58,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 7,
   "total_restablecimientos_probables": 13,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2984,5 +2985,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-27T03:06:48.484479+00:00"
+  "actualizado": "2026-10-27T03:19:17.791391+00:00"
 }
