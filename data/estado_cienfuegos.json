@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-27T19:42:25+00:00",
-  "mensajes_leidos": 121,
+  "mensajes_leidos": 119,
   "afectados": {
     "C-25": [
       "Abreus (Pueblo"
@@ -1825,10 +1825,10 @@
     }
   ],
   "lectura": {
-    "texto": 65,
-    "imagenes": 56,
+    "texto": 64,
+    "imagenes": 55,
     "pdf": 0,
-    "no_leidos": 13
+    "no_leidos": 12
   },
   "listas_completas": {
     "deficit": {
@@ -2206,6 +2206,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59859"
     },
     {
+      "circuito": "C-25",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-26T12:52:37+00:00",
+      "mensaje_id": 59863,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59859",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59863"
+    },
+    {
       "circuito": "C-21",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2243,15 +2252,6 @@
     },
     {
       "circuito": "C-57",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-26T12:52:37+00:00",
-      "mensaje_id": 59863,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59859",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59863"
-    },
-    {
-      "circuito": "C-25",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-26T12:52:37+00:00",
@@ -2821,5 +2821,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-27T19:42:28.500502+00:00"
+  "actualizado": "2026-10-27T19:54:20.875807+00:00"
 }
