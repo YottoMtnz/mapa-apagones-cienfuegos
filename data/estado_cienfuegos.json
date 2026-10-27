@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-26T23:41:34+00:00",
+  "reporte_fecha": "2026-10-27T00:24:00+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-26T16:12:11+00:00",
-  "mensajes_leidos": 125,
+  "mensajes_leidos": 126,
   "afectados": {
     "C-53": [
       "Potrerillo",
@@ -22,6 +22,10 @@
       "5 de Septiembre",
       "Guayabito"
     ],
+    "C-90": [
+      "FW1558) La Pollera"
+    ],
+    "S-2382": [],
     "C-58": [],
     "C-25": [
       "Abreus (Pueblo"
@@ -89,6 +93,7 @@
     "C-19": [
       "Tulipán"
     ],
+    "S-5814": [],
     "C-406": [
       "San Lázaro",
       "Calle 35 de Ave 58 hasta Ave 64",
@@ -586,22 +591,40 @@
       "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola."
     },
     "C-23": {
-      "fecha": "2026-10-26T23:41:34+00:00",
-      "mensaje_id": 59883,
-      "url": "https://t.me/empresaelectricacienfuegos1/59883",
+      "fecha": "2026-10-27T00:24:00+00:00",
+      "mensaje_id": 59884,
+      "url": "https://t.me/empresaelectricacienfuegos1/59884",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
+    },
+    "C-90": {
+      "fecha": "2026-10-27T00:24:00+00:00",
+      "mensaje_id": 59884,
+      "url": "https://t.me/empresaelectricacienfuegos1/59884",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉FW1558 La Pollera (C-90)"
+    },
+    "S-2382": {
+      "fecha": "2026-10-27T00:24:00+00:00",
+      "mensaje_id": 59884,
+      "url": "https://t.me/empresaelectricacienfuegos1/59884",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-58": {
-      "fecha": "2026-10-26T23:41:34+00:00",
-      "mensaje_id": 59883,
-      "url": "https://t.me/empresaelectricacienfuegos1/59883",
+      "fecha": "2026-10-27T00:24:00+00:00",
+      "mensaje_id": 59884,
+      "url": "https://t.me/empresaelectricacienfuegos1/59884",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
+      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
     },
     "C-25": {
       "fecha": "2026-10-26T23:41:34+00:00",
@@ -719,6 +742,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-19 Tulipán"
+    },
+    "S-5814": {
+      "fecha": "2026-10-27T00:24:00+00:00",
+      "mensaje_id": 59884,
+      "url": "https://t.me/empresaelectricacienfuegos1/59884",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
     },
     "C-406": {
       "fecha": "2026-10-26T23:41:34+00:00",
@@ -1361,8 +1393,10 @@
   "causas": {
     "C-53": "déficit",
     "C-54": "déficit",
-    "C-23": "déficit",
-    "C-58": "déficit",
+    "C-23": "avería / déficit",
+    "C-90": "avería",
+    "S-2382": "avería",
+    "C-58": "avería / déficit",
     "C-25": "déficit",
     "C-49": "déficit",
     "C-103": "déficit",
@@ -1376,6 +1410,7 @@
     "C-31": "déficit",
     "C-88": "déficit",
     "C-19": "déficit",
+    "S-5814": "avería",
     "C-406": "déficit",
     "C-407": "déficit",
     "C-38": "déficit",
@@ -1421,20 +1456,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠ Se comunica a nuestros clientes que se encuentra en fallo la línea L-1880 Juraguá, CEN, afectándose la zona:\n\n\n👉Bombeo Damují\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉 Ofrecemos disculpas por las molestias ocasionadas.",
-      "id": 59757,
-      "url": "https://t.me/empresaelectricacienfuegos1/59757",
-      "fecha": "2026-10-24T00:14:35+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠ Se comunica a nuestros clientes que se encuentra en fallo la línea L-1880 Juraguá, CEN, afectándose la zona:\n\n\n👉Bombeo Damují\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉 Ofrecemos disculpas por las molestias ocasionadas\nLineas\n_ enfalla\n| | d\na =áY a",
-      "id": 59757,
-      "url": "https://t.me/empresaelectricacienfuegos1/59757",
-      "fecha": "2026-10-24T00:14:35+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Líneas afectadas por\nq\n| > EN \\\nA | A k\n>] | = Ls S\n| | s SM\nel | N",
@@ -1838,11 +1859,32 @@
       "id": 59882,
       "url": "https://t.me/empresaelectricacienfuegos1/59882",
       "fecha": "2026-10-26T23:11:08+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
+      "id": 59884,
+      "url": "https://t.me/empresaelectricacienfuegos1/59884",
+      "fecha": "2026-10-27T00:24:00+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠️ Se comunica a nuestros clientes que continúa en fallo la línea 333 Cumanayagua, afectada  la zona:\n\n\n👉Bombeo Jíbaro\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉Ofrecemos disculpas por las molestias ocasionadas",
+      "id": 59885,
+      "url": "https://t.me/empresaelectricacienfuegos1/59885",
+      "fecha": "2026-10-27T00:25:33+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠️ Se comunica a nuestros clientes que continúa en fallo la línea 333 Cumanayagua, afectada  la zona:\n\n\n👉Bombeo Jíbaro\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉Ofrecemos disculpas por las molestias ocasionadas\nCircuitos\ne\n===\n. --\n-\n-\n=.\nfalla\n-\n7\nH\n3]\nAis\ny\n4%\ne?",
+      "id": 59885,
+      "url": "https://t.me/empresaelectricacienfuegos1/59885",
+      "fecha": "2026-10-27T00:25:33+00:00"
     }
   ],
   "lectura": {
     "texto": 68,
-    "imagenes": 57,
+    "imagenes": 58,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -2820,7 +2862,7 @@
     }
   ],
   "mw_fecha": "2026-10-26T23:41:34+00:00",
-  "total_circuitos_afectados": 59,
+  "total_circuitos_afectados": 62,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
@@ -2836,7 +2878,9 @@
     "C-89",
     "C-92",
     "C-94",
-    "C-95"
+    "C-95",
+    "S-2382",
+    "S-5814"
   ],
-  "actualizado": "2026-10-27T00:09:20.735264+00:00"
+  "actualizado": "2026-10-27T00:26:47.932479+00:00"
 }
