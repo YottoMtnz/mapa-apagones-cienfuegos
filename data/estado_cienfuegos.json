@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-27T22:25:59+00:00",
+  "reporte_fecha": "2026-10-27T23:03:50+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-27T19:42:25+00:00",
-  "mensajes_leidos": 116,
+  "mensajes_leidos": 114,
   "afectados": {
     "C-25": [
       "Abreus (Pueblo"
@@ -317,6 +317,17 @@
     "C-5": [
       "Boulevard",
       "Parque Martí"
+    ],
+    "C-62": [],
+    "C-37": [
+      "El Tablón",
+      "Los Coquitos",
+      "El Túnel",
+      "Jovero",
+      "El Mamey",
+      "Crucesitas",
+      "El Nicho",
+      "Vegueta"
     ]
   },
   "programados": {},
@@ -1077,6 +1088,24 @@
       "confianza": 100,
       "texto": "👉C-5 Boulevard, Parque Martí"
     },
+    "C-62": {
+      "fecha": "2026-10-27T23:03:50+00:00",
+      "mensaje_id": 59926,
+      "url": "https://t.me/empresaelectricacienfuegos1/59926",
+      "medio": "texto",
+      "editado": "2026-10-27T23:04:51+00:00",
+      "confianza": 100,
+      "texto": "👉C-62 Barajagua."
+    },
+    "C-37": {
+      "fecha": "2026-10-27T23:03:50+00:00",
+      "mensaje_id": 59926,
+      "url": "https://t.me/empresaelectricacienfuegos1/59926",
+      "medio": "texto",
+      "editado": "2026-10-27T23:04:51+00:00",
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
+    },
     "C-17": {
       "fecha": "2026-10-27T22:25:59+00:00",
       "mensaje_id": 59925,
@@ -1284,27 +1313,12 @@
     "C-43": "déficit",
     "C-2": "déficit",
     "C-3": "déficit",
-    "C-5": "déficit"
+    "C-5": "déficit",
+    "C-62": "déficit",
+    "C-37": "déficit"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "estado_ambiguo",
-      "texto": "⚠ Se comunica a nuestros clientes que se encuentra restablecido el circuito C-58 Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena quedando afectada la sección S-5814 las zonas:",
-      "circuitos": [
-        "C-58",
-        "S-5814"
-      ],
-      "id": 59809,
-      "url": "https://t.me/empresaelectricacienfuegos1/59809",
-      "fecha": "2026-10-24T22:58:07+00:00"
-    },
-    {
-      "id": 59810,
-      "url": "https://t.me/empresaelectricacienfuegos1/59810",
-      "fecha": "2026-10-24T23:05:50+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Líneas afectadas por\nDisparo Automático por Frecuencia\n(DAF)\nMM\nq\nSS Ne\ny\n4%\nel",
@@ -1712,10 +1726,10 @@
     }
   ],
   "lectura": {
-    "texto": 63,
+    "texto": 61,
     "imagenes": 53,
     "pdf": 0,
-    "no_leidos": 10
+    "no_leidos": 9
   },
   "listas_completas": {
     "deficit": {
@@ -2695,7 +2709,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-27T22:25:59+00:00",
-  "total_circuitos_afectados": 69,
+  "total_circuitos_afectados": 71,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 5,
   "circuitos_sin_catalogar": [
@@ -2708,6 +2722,7 @@
     "C-43",
     "C-58",
     "C-59",
+    "C-62",
     "C-89",
     "C-92",
     "C-94",
@@ -2715,5 +2730,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-27T22:54:24.141800+00:00"
+  "actualizado": "2026-10-27T23:09:33.648474+00:00"
 }
