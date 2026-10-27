@@ -6,17 +6,17 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-27T03:07:22+00:00",
-  "mensajes_leidos": 122,
+  "mensajes_leidos": 121,
   "afectados": {
+    "C-90": [
+      "FW1558) La Pollera"
+    ],
+    "S-2382": [],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
       "Guayabito"
     ],
-    "C-90": [
-      "FW1558) La Pollera"
-    ],
-    "S-2382": [],
     "C-58": [],
     "C-25": [
       "Abreus (Pueblo"
@@ -575,15 +575,6 @@
     ]
   },
   "evidencias": {
-    "C-23": {
-      "fecha": "2026-10-27T10:29:25+00:00",
-      "mensaje_id": 59895,
-      "url": "https://t.me/empresaelectricacienfuegos1/59895",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
     "C-90": {
       "fecha": "2026-10-27T10:29:25+00:00",
       "mensaje_id": 59895,
@@ -594,6 +585,15 @@
       "texto": "👉FW1558 La Pollera (C-90)"
     },
     "S-2382": {
+      "fecha": "2026-10-27T10:29:25+00:00",
+      "mensaje_id": 59895,
+      "url": "https://t.me/empresaelectricacienfuegos1/59895",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
+    },
+    "C-23": {
       "fecha": "2026-10-27T10:29:25+00:00",
       "mensaje_id": 59895,
       "url": "https://t.me/empresaelectricacienfuegos1/59895",
@@ -1381,9 +1381,9 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "avería / déficit",
     "C-90": "avería / déficit",
     "S-2382": "avería",
+    "C-23": "avería / déficit",
     "C-58": "avería / déficit",
     "C-25": "déficit",
     "C-49": "déficit",
@@ -1859,7 +1859,7 @@
     }
   ],
   "lectura": {
-    "texto": 68,
+    "texto": 67,
     "imagenes": 54,
     "pdf": 0,
     "no_leidos": 12
@@ -2859,5 +2859,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-27T10:39:22.521506+00:00"
+  "actualizado": "2026-10-27T10:54:25.799920+00:00"
 }
