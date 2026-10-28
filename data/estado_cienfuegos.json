@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-28T20:32:06+00:00",
+  "reporte_fecha": "2026-10-28T21:13:41+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T20:05:04+00:00",
-  "mensajes_leidos": 126,
+  "mensajes_leidos": 128,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -172,6 +172,15 @@
     ],
     "C-85": [
       "Cumanayagua (Centro"
+    ],
+    "C-33": [
+      "Arimao",
+      "Las Moscas",
+      "Vegas Viejas",
+      "Santa Martina",
+      "San Antón",
+      "Quesada",
+      "Callejón del Palmar"
     ]
   },
   "programados": {
@@ -202,15 +211,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
-    },
-    "C-33": {
-      "fecha": "2026-10-28T16:57:58+00:00",
-      "mensaje_id": 59962,
-      "url": "https://t.me/empresaelectricacienfuegos1/59962",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     },
     "C-39": {
       "fecha": "2026-10-28T16:57:58+00:00",
@@ -1310,6 +1310,15 @@
       "confianza": 100,
       "texto": "👉C-85 \"Cumanayagua (Centro)."
     },
+    "C-33": {
+      "fecha": "2026-10-28T21:13:41+00:00",
+      "mensaje_id": 59974,
+      "url": "https://t.me/empresaelectricacienfuegos1/59974",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+    },
     "C-47": {
       "fecha": "2026-10-28T16:48:24+00:00",
       "mensaje_id": 59961,
@@ -1345,15 +1354,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
-    },
-    "C-33": {
-      "fecha": "2026-10-28T16:57:58+00:00",
-      "mensaje_id": 59962,
-      "url": "https://t.me/empresaelectricacienfuegos1/59962",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     },
     "C-39": {
       "fecha": "2026-10-28T16:57:58+00:00",
@@ -2055,24 +2055,11 @@
     "C-82": "déficit",
     "C-53": "déficit",
     "C-36": "déficit",
-    "C-85": "déficit"
+    "C-85": "déficit",
+    "C-33": "emergencia"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n¡SY\nÚ\n18 MW |\nDEFICIT DE GENERACION\nA\nil\na\n|]\n¥\nUNE\nCIENFUEGOS\nEs",
-      "id": 59849,
-      "url": "https://t.me/empresaelectricacienfuegos1/59849",
-      "fecha": "2026-10-25T23:33:32+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
-      "id": 59856,
-      "url": "https://t.me/empresaelectricacienfuegos1/59856",
-      "fecha": "2026-10-26T10:24:21+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚠️ Se comunica a nuestros clientes que continúa en fallo la línea 333 Cumanayagua, afectada  la zona:\n\n\n👉Bombeo Jíbaro\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉Ofrecemos disculpas por las molestias ocasionadas.",
@@ -2480,11 +2467,25 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59969",
       "fecha": "2026-10-28T19:43:26+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n60 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 59973,
+      "url": "https://t.me/empresaelectricacienfuegos1/59973",
+      "fecha": "2026-10-28T21:09:47+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\n> | S y\nEl | a",
+      "id": 59974,
+      "url": "https://t.me/empresaelectricacienfuegos1/59974",
+      "fecha": "2026-10-28T21:13:41+00:00"
     }
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 61,
+    "imagenes": 63,
     "pdf": 0,
     "no_leidos": 15
   },
@@ -3443,7 +3444,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T20:23:32+00:00",
-  "total_circuitos_afectados": 42,
+  "total_circuitos_afectados": 43,
   "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 24,
   "circuitos_sin_catalogar": [
@@ -3463,5 +3464,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T20:59:44.870153+00:00"
+  "actualizado": "2026-10-28T21:14:22.640162+00:00"
 }
