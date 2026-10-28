@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-27T19:42:25+00:00",
-  "mensajes_leidos": 115,
+  "mensajes_leidos": 114,
   "afectados": {
     "C-25": [
       "Abreus (Pueblo"
@@ -16,11 +16,6 @@
       "Ciego Montero",
       "La Amalia",
       "Ceiba Hueca"
-    ],
-    "C-23": [
-      "Turquino",
-      "5 de Septiembre",
-      "Guayabito"
     ],
     "C-103": [
       "Santiago de Cartagena",
@@ -37,6 +32,11 @@
       "El Bajío",
       "California",
       "El Salado"
+    ],
+    "C-23": [
+      "Turquino",
+      "5 de Septiembre",
+      "Guayabito"
     ],
     "C-82": [
       "Balboa",
@@ -470,15 +470,6 @@
       "confianza": 100,
       "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
     },
-    "C-23": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
-    },
     "C-103": {
       "fecha": "2026-10-27T23:47:56+00:00",
       "mensaje_id": 59927,
@@ -505,6 +496,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-101 Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
+    },
+    "C-23": {
+      "fecha": "2026-10-27T23:47:56+00:00",
+      "mensaje_id": 59927,
+      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
     },
     "C-82": {
       "fecha": "2026-10-27T23:47:56+00:00",
@@ -1213,10 +1213,10 @@
   "causas": {
     "C-25": "déficit",
     "C-49": "déficit",
-    "C-23": "déficit / avería",
     "C-103": "déficit",
     "C-102": "déficit",
     "C-101": "déficit",
+    "C-23": "déficit / avería",
     "C-82": "déficit",
     "C-39": "déficit",
     "C-75": "déficit",
@@ -1691,7 +1691,7 @@
     }
   ],
   "lectura": {
-    "texto": 62,
+    "texto": 61,
     "imagenes": 53,
     "pdf": 0,
     "no_leidos": 9
@@ -2693,5 +2693,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T00:39:35.582113+00:00"
+  "actualizado": "2026-10-28T00:54:24.528051+00:00"
 }
