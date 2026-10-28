@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-28T19:43:26+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-28T16:48:24+00:00",
-  "mensajes_leidos": 126,
+  "programado_fecha": "2026-10-28T20:05:04+00:00",
+  "mensajes_leidos": 127,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -204,7 +204,8 @@
       "Congojas",
       "La Lolita",
       "Parque Alto"
-    ]
+    ],
+    "C-407": []
   },
   "confirmados_con_servicio": {
     "C-407": {
@@ -1334,9 +1335,9 @@
       "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
     },
     "C-407": {
-      "fecha": "2026-10-28T15:03:55+00:00",
-      "mensaje_id": 59956,
-      "url": "https://t.me/empresaelectricacienfuegos1/59956",
+      "fecha": "2026-10-28T20:05:04+00:00",
+      "mensaje_id": 59970,
+      "url": "https://t.me/empresaelectricacienfuegos1/59970",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1962,6 +1963,11 @@
       "inicio": null,
       "fin": "2026-10-29T04:48:24+00:00",
       "fecha_ambigua": false
+    },
+    "C-407": {
+      "inicio": null,
+      "fin": "2026-10-29T08:05:04+00:00",
+      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
@@ -2442,7 +2448,7 @@
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 61,
+    "imagenes": 62,
     "pdf": 0,
     "no_leidos": 15
   },
@@ -3403,7 +3409,7 @@
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T19:12:57+00:00",
   "total_circuitos_afectados": 44,
-  "total_circuitos_programados": 3,
+  "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 23,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3411,6 +3417,7 @@
     "C-2",
     "C-20",
     "C-31",
+    "C-407",
     "C-408",
     "C-43",
     "C-58",
@@ -3422,5 +3429,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T19:59:34.946263+00:00"
+  "actualizado": "2026-10-28T20:14:26.003733+00:00"
 }
