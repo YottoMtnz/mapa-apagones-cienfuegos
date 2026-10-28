@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-28T10:17:42+00:00",
+  "reporte_fecha": "2026-10-28T10:35:40+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T03:08:48+00:00",
-  "mensajes_leidos": 116,
+  "mensajes_leidos": 117,
   "afectados": {
     "C-25": [
       "Abreus (Pueblo"
@@ -89,6 +89,8 @@
     "C-19": [
       "Tulipán"
     ],
+    "S-2382": [],
+    "S-5814": [],
     "C-407": [],
     "C-38": [
       "El Abra",
@@ -283,6 +285,9 @@
     "C-70": [
       "Aguada",
       "Federal"
+    ],
+    "C-90": [
+      "FW1558) La Pollera"
     ]
   },
   "programados": {},
@@ -322,15 +327,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
-    },
-    "C-90": {
-      "fecha": "2026-10-28T04:26:51+00:00",
-      "mensaje_id": 59937,
-      "url": "https://t.me/empresaelectricacienfuegos1/59937",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
     "C-67": {
       "fecha": "2026-10-28T04:26:51+00:00",
@@ -640,13 +636,13 @@
       "texto": "👉C-101 Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
     },
     "C-23": {
-      "fecha": "2026-10-28T10:17:42+00:00",
-      "mensaje_id": 59941,
-      "url": "https://t.me/empresaelectricacienfuegos1/59941",
+      "fecha": "2026-10-28T10:35:40+00:00",
+      "mensaje_id": 59942,
+      "url": "https://t.me/empresaelectricacienfuegos1/59942",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-82": {
       "fecha": "2026-10-28T10:17:42+00:00",
@@ -712,13 +708,13 @@
       "texto": "👉C-85 \"Cumanayagua (Centro)."
     },
     "C-58": {
-      "fecha": "2026-10-28T10:17:42+00:00",
-      "mensaje_id": 59941,
-      "url": "https://t.me/empresaelectricacienfuegos1/59941",
+      "fecha": "2026-10-28T10:35:40+00:00",
+      "mensaje_id": 59942,
+      "url": "https://t.me/empresaelectricacienfuegos1/59942",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
+      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
     },
     "C-31": {
       "fecha": "2026-10-28T10:17:42+00:00",
@@ -746,6 +742,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-19 Tulipán"
+    },
+    "S-2382": {
+      "fecha": "2026-10-28T10:35:40+00:00",
+      "mensaje_id": 59942,
+      "url": "https://t.me/empresaelectricacienfuegos1/59942",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
+    },
+    "S-5814": {
+      "fecha": "2026-10-28T10:35:40+00:00",
+      "mensaje_id": 59942,
+      "url": "https://t.me/empresaelectricacienfuegos1/59942",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
     },
     "C-407": {
       "fecha": "2026-10-28T10:17:42+00:00",
@@ -1098,6 +1112,15 @@
       "confianza": 100,
       "texto": "👉C-70 \"Aguada, Federal."
     },
+    "C-90": {
+      "fecha": "2026-10-28T10:35:40+00:00",
+      "mensaje_id": 59942,
+      "url": "https://t.me/empresaelectricacienfuegos1/59942",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉FW1558 La Pollera (C-90)"
+    },
     "C-62": {
       "fecha": "2026-10-28T00:12:18+00:00",
       "mensaje_id": 59929,
@@ -1133,15 +1156,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
-    },
-    "C-90": {
-      "fecha": "2026-10-28T04:26:51+00:00",
-      "mensaje_id": 59937,
-      "url": "https://t.me/empresaelectricacienfuegos1/59937",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
     "C-67": {
       "fecha": "2026-10-28T04:26:51+00:00",
@@ -1413,7 +1427,7 @@
     "C-103": "déficit",
     "C-102": "déficit",
     "C-101": "déficit",
-    "C-23": "déficit",
+    "C-23": "déficit / avería",
     "C-82": "déficit",
     "C-39": "déficit",
     "C-75": "déficit",
@@ -1421,10 +1435,12 @@
     "C-54": "déficit",
     "C-53": "déficit",
     "C-85": "déficit",
-    "C-58": "déficit",
+    "C-58": "déficit / avería",
     "C-31": "déficit",
     "C-88": "déficit",
     "C-19": "déficit",
+    "S-2382": "avería",
+    "S-5814": "avería",
     "C-407": "déficit",
     "C-38": "déficit",
     "C-63": "déficit",
@@ -1463,7 +1479,8 @@
     "C-28": "déficit",
     "C-8": "déficit",
     "C-50": "déficit",
-    "C-70": "déficit"
+    "C-70": "déficit",
+    "C-90": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -1879,11 +1896,18 @@
       "id": 59939,
       "url": "https://t.me/empresaelectricacienfuegos1/59939",
       "fecha": "2026-10-28T04:34:36+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
+      "id": 59942,
+      "url": "https://t.me/empresaelectricacienfuegos1/59942",
+      "fecha": "2026-10-28T10:35:40+00:00"
     }
   ],
   "lectura": {
     "texto": 63,
-    "imagenes": 53,
+    "imagenes": 54,
     "pdf": 0,
     "no_leidos": 8
   },
@@ -2860,7 +2884,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T10:17:42+00:00",
-  "total_circuitos_afectados": 56,
+  "total_circuitos_afectados": 59,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 10,
   "circuitos_sin_catalogar": [
@@ -2876,7 +2900,9 @@
     "C-89",
     "C-92",
     "C-94",
-    "C-95"
+    "C-95",
+    "S-2382",
+    "S-5814"
   ],
-  "actualizado": "2026-10-28T10:24:35.867031+00:00"
+  "actualizado": "2026-10-28T10:39:33.453474+00:00"
 }
