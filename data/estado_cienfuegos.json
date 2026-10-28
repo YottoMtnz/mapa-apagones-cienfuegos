@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-28T00:57:18+00:00",
+  "reporte_fecha": "2026-10-28T01:19:41+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-27T19:42:25+00:00",
-  "mensajes_leidos": 115,
+  "mensajes_leidos": 116,
   "afectados": {
     "C-25": [
       "Abreus (Pueblo"
@@ -268,10 +268,6 @@
       "La Ceiba",
       "El Paisíto"
     ],
-    "C-80": [
-      "Punta Cotica",
-      "Parque José Martí"
-    ],
     "C-11": [
       "Ariza",
       "Silverita",
@@ -336,6 +332,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
+    },
+    "C-80": {
+      "fecha": "2026-10-28T01:19:41+00:00",
+      "mensaje_id": 59931,
+      "url": "https://t.me/empresaelectricacienfuegos1/59931",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-80 Punta Cotica, Parque José Martí."
     }
   },
   "restablecimientos_probables": {
@@ -986,15 +991,6 @@
       "confianza": 100,
       "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
     },
-    "C-80": {
-      "fecha": "2026-10-28T00:57:18+00:00",
-      "mensaje_id": 59930,
-      "url": "https://t.me/empresaelectricacienfuegos1/59930",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-80 Punta Cotica, Parque José Martí."
-    },
     "C-11": {
       "fecha": "2026-10-28T00:57:18+00:00",
       "mensaje_id": 59930,
@@ -1129,6 +1125,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
+    },
+    "C-80": {
+      "fecha": "2026-10-28T01:19:41+00:00",
+      "mensaje_id": 59931,
+      "url": "https://t.me/empresaelectricacienfuegos1/59931",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-80 Punta Cotica, Parque José Martí."
     },
     "C-17": {
       "fecha": "2026-10-28T00:57:18+00:00",
@@ -1366,7 +1371,6 @@
     "C-69": "emergencia / déficit",
     "C-15": "avería / déficit",
     "C-26": "avería",
-    "C-80": "déficit / avería",
     "C-11": "déficit",
     "C-6": "avería / déficit",
     "C-18": "déficit",
@@ -1790,7 +1794,7 @@
     }
   ],
   "lectura": {
-    "texto": 62,
+    "texto": 63,
     "imagenes": 53,
     "pdf": 0,
     "no_leidos": 9
@@ -1866,15 +1870,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-69",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-25T23:38:44+00:00",
-      "mensaje_id": 59850,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59843",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59850"
-    },
     {
       "circuito": "C-67",
       "tipo": "salida_lista",
@@ -2765,11 +2760,20 @@
       "mensaje_id": 59930,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59927",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59930"
+    },
+    {
+      "circuito": "C-80",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-28T01:19:41+00:00",
+      "mensaje_id": 59931,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59930",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59931"
     }
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T00:57:18+00:00",
-  "total_circuitos_afectados": 66,
+  "total_circuitos_afectados": 65,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
@@ -2789,5 +2793,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T01:09:20.275389+00:00"
+  "actualizado": "2026-10-28T01:24:27.160703+00:00"
 }
