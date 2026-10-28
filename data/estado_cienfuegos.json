@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T21:48:35+00:00",
-  "mensajes_leidos": 133,
+  "mensajes_leidos": 134,
   "afectados": {
     "C-58": [],
     "C-27": [
@@ -1780,13 +1780,6 @@
   "pendientes_revision": [
     {
       "motivo": "sin_circuitos_identificables",
-      "texto": "\nY\ny\n30 MW\n-\nDEFICIT DE GENERACION\nZi Sox\nil,\n1\nUNE\nCIENFUEGOS.\na EY",
-      "id": 59869,
-      "url": "https://t.me/empresaelectricacienfuegos1/59869",
-      "fecha": "2026-10-26T16:06:00+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
       "texto": "\n1\nNy\nY\n\\\n39 MW\naN\nDEFICIT DE GENERACION\nZi Sox\n“1\na\n-\nUNE\nCIENFUEGOS.\na EY",
       "id": 59870,
       "url": "https://t.me/empresaelectricacienfuegos1/59870",
@@ -2200,10 +2193,21 @@
       "id": 59982,
       "url": "https://t.me/empresaelectricacienfuegos1/59982",
       "fecha": "2026-10-28T22:49:01+00:00"
+    },
+    {
+      "motivo": "estado_ambiguo",
+      "texto": "⚠Se comunica a nuestros clientes que se encuentra restablecido el servicio en el circuito C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar. , quedando afectada la sección S-3389, las zonas:",
+      "circuitos": [
+        "C-33",
+        "S-3389"
+      ],
+      "id": 59983,
+      "url": "https://t.me/empresaelectricacienfuegos1/59983",
+      "fecha": "2026-10-28T23:13:46+00:00"
     }
   ],
   "lectura": {
-    "texto": 67,
+    "texto": 68,
     "imagenes": 66,
     "pdf": 0,
     "no_leidos": 13
@@ -3188,5 +3192,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-28T22:59:18.491752+00:00"
+  "actualizado": "2026-10-28T23:14:23.113262+00:00"
 }
