@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T20:05:04+00:00",
-  "mensajes_leidos": 129,
+  "mensajes_leidos": 126,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -259,30 +259,6 @@
     }
   },
   "restablecimientos_probables": {
-    "C-408": {
-      "fecha": "2026-10-28T20:23:32+00:00",
-      "mensaje_id": 59971,
-      "url": "https://t.me/empresaelectricacienfuegos1/59971",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-56 \"Cruces (Norte).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-25T23:38:44+00:00",
-      "listas_consecutivas": 43,
-      "aviso_anterior": {
-        "fecha": "2026-10-25T20:50:59+00:00",
-        "mensaje_id": 59843,
-        "url": "https://t.me/empresaelectricacienfuegos1/59843",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-408 Baldosas,  Cantarrana, La Julia, Pepe Rivas."
-      },
-      "lugares": []
-    },
     "C-17": {
       "fecha": "2026-10-28T20:23:32+00:00",
       "mensaje_id": 59971,
@@ -1424,30 +1400,6 @@
       "confianza": 100,
       "texto": "👉C-101\"Cartagena, La Modelo, Sta Rosa, La Piragua, El Bajío, California, El Salado."
     },
-    "C-408": {
-      "fecha": "2026-10-28T20:23:32+00:00",
-      "mensaje_id": 59971,
-      "url": "https://t.me/empresaelectricacienfuegos1/59971",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-56 \"Cruces (Norte).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-25T23:38:44+00:00",
-      "listas_consecutivas": 43,
-      "aviso_anterior": {
-        "fecha": "2026-10-25T20:50:59+00:00",
-        "mensaje_id": 59843,
-        "url": "https://t.me/empresaelectricacienfuegos1/59843",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-408 Baldosas,  Cantarrana, La Julia, Pepe Rivas."
-      },
-      "lugares": []
-    },
     "C-17": {
       "fecha": "2026-10-28T20:23:32+00:00",
       "mensaje_id": 59971,
@@ -2531,8 +2483,8 @@
     }
   ],
   "lectura": {
-    "texto": 67,
-    "imagenes": 62,
+    "texto": 65,
+    "imagenes": 61,
     "pdf": 0,
     "no_leidos": 15
   },
@@ -3493,7 +3445,7 @@
   "mw_fecha": "2026-10-28T20:23:32+00:00",
   "total_circuitos_afectados": 42,
   "total_circuitos_programados": 4,
-  "total_restablecimientos_probables": 25,
+  "total_restablecimientos_probables": 24,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3501,7 +3453,6 @@
     "C-20",
     "C-31",
     "C-407",
-    "C-408",
     "C-43",
     "C-58",
     "C-59",
@@ -3512,5 +3463,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T20:44:32.495372+00:00"
+  "actualizado": "2026-10-28T20:59:44.870153+00:00"
 }
