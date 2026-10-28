@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-28T02:23:44+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-27T19:42:25+00:00",
-  "mensajes_leidos": 115,
+  "programado_fecha": "2026-10-28T03:08:48+00:00",
+  "mensajes_leidos": 116,
   "afectados": {
     "C-25": [
       "Abreus (Pueblo"
@@ -299,7 +299,16 @@
       "Palmira (Norte"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
+    ],
+    "C-66": [
+      "Reina (Parque"
+    ],
+    "C-407": []
+  },
   "confirmados_con_servicio": {
     "C-62": {
       "fecha": "2026-10-28T00:12:18+00:00",
@@ -1038,6 +1047,33 @@
       "confianza": 100,
       "texto": "👉C-50 \"Palmira (Norte)."
     },
+    "C-65": {
+      "fecha": "2026-10-28T03:08:48+00:00",
+      "mensaje_id": 59934,
+      "url": "https://t.me/empresaelectricacienfuegos1/59934",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+    },
+    "C-66": {
+      "fecha": "2026-10-28T03:08:48+00:00",
+      "mensaje_id": 59934,
+      "url": "https://t.me/empresaelectricacienfuegos1/59934",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+    },
+    "C-407": {
+      "fecha": "2026-10-28T03:08:48+00:00",
+      "mensaje_id": 59934,
+      "url": "https://t.me/empresaelectricacienfuegos1/59934",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+    },
     "C-62": {
       "fecha": "2026-10-28T00:12:18+00:00",
       "mensaje_id": 59929,
@@ -1240,7 +1276,23 @@
       "lugares": []
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-65": {
+      "inicio": null,
+      "fin": "2026-10-28T15:08:48+00:00",
+      "fecha_ambigua": false
+    },
+    "C-66": {
+      "inicio": null,
+      "fin": "2026-10-28T15:08:48+00:00",
+      "fecha_ambigua": false
+    },
+    "C-407": {
+      "inicio": null,
+      "fin": "2026-10-28T15:08:48+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 66.0,
   "hora_inicio": null,
@@ -1718,7 +1770,7 @@
   ],
   "lectura": {
     "texto": 62,
-    "imagenes": 53,
+    "imagenes": 54,
     "pdf": 0,
     "no_leidos": 8
   },
@@ -2696,7 +2748,7 @@
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T02:23:44+00:00",
   "total_circuitos_afectados": 59,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2704,6 +2756,7 @@
     "C-2",
     "C-20",
     "C-31",
+    "C-407",
     "C-43",
     "C-58",
     "C-59",
@@ -2712,5 +2765,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-28T02:54:23.367557+00:00"
+  "actualizado": "2026-10-28T03:09:17.613621+00:00"
 }
