@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-28T00:09:15+00:00",
+  "reporte_fecha": "2026-10-28T00:12:18+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-27T19:42:25+00:00",
-  "mensajes_leidos": 115,
+  "mensajes_leidos": 116,
   "afectados": {
     "C-25": [
       "Abreus (Pueblo"
@@ -325,7 +325,26 @@
     ]
   },
   "programados": {},
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-62": {
+      "fecha": "2026-10-28T00:12:18+00:00",
+      "mensaje_id": 59929,
+      "url": "https://t.me/empresaelectricacienfuegos1/59929",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-62 Barajagua."
+    },
+    "C-37": {
+      "fecha": "2026-10-28T00:12:18+00:00",
+      "mensaje_id": 59929,
+      "url": "https://t.me/empresaelectricacienfuegos1/59929",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
+    }
+  },
   "restablecimientos_probables": {
     "C-17": {
       "fecha": "2026-10-27T23:47:56+00:00",
@@ -428,63 +447,6 @@
       },
       "lugares": [
         "Palmira (Norte"
-      ]
-    },
-    "C-62": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-27T23:47:56+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-27T23:03:50+00:00",
-        "mensaje_id": 59926,
-        "url": "https://t.me/empresaelectricacienfuegos1/59926",
-        "medio": "texto",
-        "editado": "2026-10-27T23:04:51+00:00",
-        "confianza": 100,
-        "texto": "👉C-62 Barajagua."
-      },
-      "lugares": []
-    },
-    "C-37": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-27T23:47:56+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-27T23:03:50+00:00",
-        "mensaje_id": 59926,
-        "url": "https://t.me/empresaelectricacienfuegos1/59926",
-        "medio": "texto",
-        "editado": "2026-10-27T23:04:51+00:00",
-        "confianza": 100,
-        "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
-      },
-      "lugares": [
-        "El Tablón",
-        "Los Coquitos",
-        "El Túnel",
-        "Jovero",
-        "El Mamey",
-        "Crucesitas",
-        "El Nicho",
-        "Vegueta"
       ]
     }
   },
@@ -1120,6 +1082,24 @@
       "confianza": 100,
       "texto": "👉C-28 CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)"
     },
+    "C-62": {
+      "fecha": "2026-10-28T00:12:18+00:00",
+      "mensaje_id": 59929,
+      "url": "https://t.me/empresaelectricacienfuegos1/59929",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-62 Barajagua."
+    },
+    "C-37": {
+      "fecha": "2026-10-28T00:12:18+00:00",
+      "mensaje_id": 59929,
+      "url": "https://t.me/empresaelectricacienfuegos1/59929",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
+    },
     "C-17": {
       "fecha": "2026-10-27T23:47:56+00:00",
       "mensaje_id": 59927,
@@ -1221,63 +1201,6 @@
       },
       "lugares": [
         "Palmira (Norte"
-      ]
-    },
-    "C-62": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-27T23:47:56+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-27T23:03:50+00:00",
-        "mensaje_id": 59926,
-        "url": "https://t.me/empresaelectricacienfuegos1/59926",
-        "medio": "texto",
-        "editado": "2026-10-27T23:04:51+00:00",
-        "confianza": 100,
-        "texto": "👉C-62 Barajagua."
-      },
-      "lugares": []
-    },
-    "C-37": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-27T23:47:56+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-27T23:03:50+00:00",
-        "mensaje_id": 59926,
-        "url": "https://t.me/empresaelectricacienfuegos1/59926",
-        "medio": "texto",
-        "editado": "2026-10-27T23:04:51+00:00",
-        "confianza": 100,
-        "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
-      },
-      "lugares": [
-        "El Tablón",
-        "Los Coquitos",
-        "El Túnel",
-        "Jovero",
-        "El Mamey",
-        "Crucesitas",
-        "El Nicho",
-        "Vegueta"
       ]
     }
   },
@@ -1775,7 +1698,7 @@
     }
   ],
   "lectura": {
-    "texto": 61,
+    "texto": 62,
     "imagenes": 54,
     "pdf": 0,
     "no_leidos": 9
@@ -2759,7 +2682,7 @@
   "mw_fecha": "2026-10-27T23:47:56+00:00",
   "total_circuitos_afectados": 70,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 6,
+  "total_restablecimientos_probables": 4,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2770,7 +2693,6 @@
     "C-43",
     "C-58",
     "C-59",
-    "C-62",
     "C-89",
     "C-92",
     "C-94",
@@ -2778,5 +2700,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T00:09:22.828301+00:00"
+  "actualizado": "2026-10-28T00:24:33.416153+00:00"
 }
