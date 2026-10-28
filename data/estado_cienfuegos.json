@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-28T18:30:55+00:00",
+  "reporte_fecha": "2026-10-28T18:56:44+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T16:48:24+00:00",
@@ -200,10 +200,7 @@
     "C-89": [],
     "C-18": [],
     "C-94": [],
-    "C-43": [],
-    "C-25": [
-      "Abreus (Pueblo"
-    ]
+    "C-43": []
   },
   "programados": {
     "C-67": [
@@ -283,6 +280,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-75 La Legua, Gavilán, Boca Ambuila."
+    },
+    "C-25": {
+      "fecha": "2026-10-28T18:56:44+00:00",
+      "mensaje_id": 59966,
+      "url": "https://t.me/empresaelectricacienfuegos1/59966",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-25 Abreus (Pueblo)."
     }
   },
   "restablecimientos_probables": {
@@ -1279,15 +1285,6 @@
       "confianza": 100,
       "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
     },
-    "C-25": {
-      "fecha": "2026-10-28T18:30:55+00:00",
-      "mensaje_id": 59965,
-      "url": "https://t.me/empresaelectricacienfuegos1/59965",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-25 Abreus (Pueblo)."
-    },
     "C-24": {
       "fecha": "2026-10-28T16:48:24+00:00",
       "mensaje_id": 59961,
@@ -1368,6 +1365,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-75 La Legua, Gavilán, Boca Ambuila."
+    },
+    "C-25": {
+      "fecha": "2026-10-28T18:56:44+00:00",
+      "mensaje_id": 59966,
+      "url": "https://t.me/empresaelectricacienfuegos1/59966",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-25 Abreus (Pueblo)."
     },
     "C-408": {
       "fecha": "2026-10-28T17:50:14+00:00",
@@ -1921,8 +1927,7 @@
     "C-89": "déficit",
     "C-18": "sin precisar / déficit",
     "C-94": "déficit",
-    "C-43": "déficit",
-    "C-25": "avería"
+    "C-43": "déficit"
   },
   "error": null,
   "pendientes_revision": [
@@ -2407,15 +2412,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-42",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-26T21:14:10+00:00",
-      "mensaje_id": 59877,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59868",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59877"
-    },
     {
       "circuito": "C-50",
       "tipo": "salida_lista",
@@ -3306,11 +3302,20 @@
       "mensaje_id": 59964,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59959",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59964"
+    },
+    {
+      "circuito": "C-25",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-28T18:56:44+00:00",
+      "mensaje_id": 59966,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59965",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59966"
     }
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T17:50:14+00:00",
-  "total_circuitos_afectados": 47,
+  "total_circuitos_afectados": 46,
   "total_circuitos_programados": 7,
   "total_restablecimientos_probables": 21,
   "circuitos_sin_catalogar": [
@@ -3330,5 +3335,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T18:54:19.235897+00:00"
+  "actualizado": "2026-10-28T19:09:37.200577+00:00"
 }
