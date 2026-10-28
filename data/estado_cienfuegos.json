@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-28T03:44:49+00:00",
+  "reporte_fecha": "2026-10-28T04:05:49+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T03:08:48+00:00",
-  "mensajes_leidos": 114,
+  "mensajes_leidos": 115,
   "afectados": {
     "C-25": [
       "Abreus (Pueblo"
@@ -242,10 +242,6 @@
       "Las Minas",
       "Playa Alegre"
     ],
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
-    ],
     "C-26": [
       "Caonao",
       "Los Tanques",
@@ -336,6 +332,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-80 Punta Cotica, Parque José Martí."
+    },
+    "C-15": {
+      "fecha": "2026-10-28T04:05:49+00:00",
+      "mensaje_id": 59936,
+      "url": "https://t.me/empresaelectricacienfuegos1/59936",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15 Pepito Tey, Guabairo."
     }
   },
   "restablecimientos_probables": {
@@ -912,15 +917,6 @@
       "confianza": 100,
       "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
-    "C-15": {
-      "fecha": "2026-10-28T03:44:49+00:00",
-      "mensaje_id": 59935,
-      "url": "https://t.me/empresaelectricacienfuegos1/59935",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-15 Pepito Tey, Guabairo."
-    },
     "C-26": {
       "fecha": "2026-10-28T01:37:36+00:00",
       "mensaje_id": 59932,
@@ -1100,6 +1096,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-80 Punta Cotica, Parque José Martí."
+    },
+    "C-15": {
+      "fecha": "2026-10-28T04:05:49+00:00",
+      "mensaje_id": 59936,
+      "url": "https://t.me/empresaelectricacienfuegos1/59936",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15 Pepito Tey, Guabairo."
     },
     "C-17": {
       "fecha": "2026-10-28T03:44:49+00:00",
@@ -1343,7 +1348,6 @@
     "C-52": "déficit",
     "C-59": "déficit",
     "C-69": "déficit",
-    "C-15": "avería / déficit",
     "C-26": "avería",
     "C-11": "déficit",
     "C-6": "déficit",
@@ -1769,7 +1773,7 @@
     }
   ],
   "lectura": {
-    "texto": 61,
+    "texto": 62,
     "imagenes": 53,
     "pdf": 0,
     "no_leidos": 8
@@ -1844,15 +1848,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-26",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-25T23:38:44+00:00",
-      "mensaje_id": 59850,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59843",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59850"
-    },
     {
       "circuito": "C-2",
       "tipo": "salida_lista",
@@ -2743,11 +2738,20 @@
       "mensaje_id": 59933,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59930",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59933"
+    },
+    {
+      "circuito": "C-15",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-28T04:05:49+00:00",
+      "mensaje_id": 59936,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59935",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59936"
     }
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T03:44:49+00:00",
-  "total_circuitos_afectados": 59,
+  "total_circuitos_afectados": 58,
   "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
@@ -2765,5 +2769,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-28T03:54:21.266484+00:00"
+  "actualizado": "2026-10-28T04:09:34.225745+00:00"
 }
