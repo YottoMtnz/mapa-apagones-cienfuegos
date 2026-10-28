@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-28T14:38:28+00:00",
+  "reporte_fecha": "2026-10-28T14:44:39+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T13:43:27+00:00",
-  "mensajes_leidos": 118,
+  "mensajes_leidos": 119,
   "afectados": {
     "C-49": [
       "Arriete",
@@ -178,6 +178,7 @@
       "Guayabales",
       "Batey Diego. ( PSFV 0-24"
     ],
+    "C-407": [],
     "C-73": [
       "Perseverancia",
       "1ro de Mayo"
@@ -906,6 +907,15 @@
       "confianza": 100,
       "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)"
     },
+    "C-407": {
+      "fecha": "2026-10-28T14:44:39+00:00",
+      "mensaje_id": 59954,
+      "url": "https://t.me/empresaelectricacienfuegos1/59954",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
+    },
     "C-73": {
       "fecha": "2026-10-28T13:43:56+00:00",
       "mensaje_id": 59951,
@@ -1485,6 +1495,7 @@
     "C-86": "déficit",
     "C-38": "déficit",
     "C-32": "déficit",
+    "C-407": "avería",
     "C-73": "déficit",
     "C-78": "déficit",
     "C-44": "déficit",
@@ -1933,13 +1944,19 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59953",
       "fecha": "2026-10-28T14:38:28+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "id": 59954,
+      "url": "https://t.me/empresaelectricacienfuegos1/59954",
+      "fecha": "2026-10-28T14:44:39+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 62,
-    "imagenes": 56,
+    "imagenes": 57,
     "pdf": 0,
-    "no_leidos": 10
+    "no_leidos": 11
   },
   "listas_completas": {
     "deficit": {
@@ -2913,7 +2930,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T13:43:56+00:00",
-  "total_circuitos_afectados": 62,
+  "total_circuitos_afectados": 63,
   "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 11,
   "circuitos_sin_catalogar": [
@@ -2922,6 +2939,7 @@
     "C-2",
     "C-20",
     "C-31",
+    "C-407",
     "C-408",
     "C-43",
     "C-58",
@@ -2933,5 +2951,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T14:39:18.484842+00:00"
+  "actualizado": "2026-10-28T14:54:18.176050+00:00"
 }
