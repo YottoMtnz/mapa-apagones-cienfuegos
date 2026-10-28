@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-28T00:12:18+00:00",
+  "reporte_fecha": "2026-10-28T00:57:18+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-27T19:42:25+00:00",
-  "mensajes_leidos": 114,
+  "mensajes_leidos": 115,
   "afectados": {
     "C-25": [
       "Abreus (Pueblo"
@@ -85,9 +85,6 @@
       "La Leona",
       "Mijalito",
       "Matún"
-    ],
-    "C-19": [
-      "Tulipán"
     ],
     "C-90": [
       "FW1558) La Pollera"
@@ -271,10 +268,6 @@
       "La Ceiba",
       "El Paisíto"
     ],
-    "C-70": [
-      "Aguada",
-      "Federal"
-    ],
     "C-80": [
       "Punta Cotica",
       "Parque José Martí"
@@ -284,12 +277,6 @@
       "Silverita",
       "Nuevo México"
     ],
-    "C-30": [
-      "14 de Julio",
-      "Batey 2 Hermanos"
-    ],
-    "C-95": [],
-    "C-89": [],
     "C-6": [
       "Rancho Luna",
       "Pasacaballo",
@@ -322,6 +309,12 @@
       "CEN",
       "Castillo de Jagua",
       "La Loma"
+    ],
+    "C-8": [
+      "El Pino",
+      "Congojas",
+      "La Lolita",
+      "Parque Alto"
     ]
   },
   "programados": {},
@@ -347,9 +340,9 @@
   },
   "restablecimientos_probables": {
     "C-17": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -358,7 +351,7 @@
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-26T10:18:23+00:00",
-      "listas_consecutivas": 25,
+      "listas_consecutivas": 26,
       "aviso_anterior": {
         "fecha": "2026-10-26T05:26:52+00:00",
         "mensaje_id": 59854,
@@ -371,9 +364,9 @@
       "lugares": []
     },
     "C-92": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -382,7 +375,7 @@
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-26T10:18:23+00:00",
-      "listas_consecutivas": 25,
+      "listas_consecutivas": 26,
       "aviso_anterior": {
         "fecha": "2026-10-26T05:26:52+00:00",
         "mensaje_id": 59854,
@@ -394,39 +387,10 @@
       },
       "lugares": []
     },
-    "C-8": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-27T03:05:41+00:00",
-      "listas_consecutivas": 14,
-      "aviso_anterior": {
-        "fecha": "2026-10-27T01:49:53+00:00",
-        "mensaje_id": 59888,
-        "url": "https://t.me/empresaelectricacienfuegos1/59888",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-8  Congojas, La Lolita."
-      },
-      "lugares": [
-        "El Pino",
-        "Congojas",
-        "La Lolita",
-        "Parque Alto"
-      ]
-    },
     "C-50": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -435,7 +399,7 @@
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-27T19:34:11+00:00",
-      "listas_consecutivas": 4,
+      "listas_consecutivas": 5,
       "aviso_anterior": {
         "fecha": "2026-10-27T18:36:46+00:00",
         "mensaje_id": 59917,
@@ -448,162 +412,255 @@
       "lugares": [
         "Palmira (Norte"
       ]
+    },
+    "C-70": {
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-28T00:57:18+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-27T23:47:56+00:00",
+        "mensaje_id": 59927,
+        "url": "https://t.me/empresaelectricacienfuegos1/59927",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-70 \"Aguada, Federal."
+      },
+      "lugares": [
+        "Aguada",
+        "Federal"
+      ]
+    },
+    "C-30": {
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-28T00:57:18+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-27T23:47:56+00:00",
+        "mensaje_id": 59927,
+        "url": "https://t.me/empresaelectricacienfuegos1/59927",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
+      },
+      "lugares": [
+        "14 de Julio",
+        "Batey 2 Hermanos"
+      ]
+    },
+    "C-95": {
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-28T00:57:18+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-27T23:47:56+00:00",
+        "mensaje_id": 59927,
+        "url": "https://t.me/empresaelectricacienfuegos1/59927",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-95 \"Refinería, Carolina."
+      },
+      "lugares": []
+    },
+    "C-89": {
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-28T00:57:18+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-27T23:47:56+00:00",
+        "mensaje_id": 59927,
+        "url": "https://t.me/empresaelectricacienfuegos1/59927",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
+      },
+      "lugares": []
     }
   },
   "afectaciones_parciales": {},
   "evidencias": {
     "C-25": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-25 Abreus (Pueblo)."
     },
     "C-49": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
     },
     "C-103": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-103 \"Santiago de Cartagena,  Lequeito"
     },
     "C-102": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-102 La Ciruela"
     },
     "C-101": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-101 Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
     },
     "C-23": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
     },
     "C-82": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-82 Balboa, La Pedrera, El Tropezón."
     },
     "C-39": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-39 La Sierrita, El Brazo, Cafetal, Faisanera."
     },
     "C-75": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-75 La Legua, Gavilán, Boca Ambuila."
     },
     "C-33": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     },
     "C-54": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-54 Batey Mal Tiempo, Carrasco, Loma de Tola."
     },
     "C-53": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-53 Potrerillo, El No, Peñasco, Lomitas."
     },
     "C-85": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-85 \"Cumanayagua (Centro)."
     },
     "C-58": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-31": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
     },
     "C-88": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-88 San Ignacio, Babiney, Carmelina, San Rafael, La Leona, Mijalito, Matún."
-    },
-    "C-19": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-19 Tulipán"
     },
     "C-90": {
       "fecha": "2026-10-27T18:06:33+00:00",
@@ -660,63 +717,63 @@
       "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, Termoeléctrica, O'bourke."
     },
     "C-38": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero."
     },
     "C-63": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
     },
     "C-55": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-55 Cruces (Sur)."
     },
     "C-56": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-56 \"Cruces (Norte)."
     },
     "C-35": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
     "C-27": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
     },
     "C-84": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -741,180 +798,180 @@
       "texto": "👉C-66 Reina (Parque)"
     },
     "C-29": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-29 Moncada, Constancia, Rosalía, Loma del Chivo, Simpatía, Charcas, Guasimal."
     },
     "C-7": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa."
     },
     "C-41": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-41 \"Caracas, Mora, San Isidro."
     },
     "C-57": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-57 Lajas (Pueblo)."
     },
     "C-22": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-22 Rodas (Bombeo Agua Rodas 0-12)"
     },
     "C-21": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas."
     },
     "C-86": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-86 \"Cumanayagua, emisora de radio"
     },
     "C-24": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
     },
     "C-32": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)"
     },
     "C-91": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-91 Buena Vista, La Esperanza."
     },
     "C-72": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)"
     },
     "C-47": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
     },
     "C-73": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-73 \"Perseverancia, 1ro de Mayo."
     },
     "C-78": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste)."
     },
     "C-44": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero."
     },
     "C-42": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-42 Viet Nam, Real Campiña, Guanito."
     },
     "C-52": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
     },
     "C-59": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
     },
     "C-69": {
-      "fecha": "2026-10-27T13:33:07+00:00",
-      "mensaje_id": 59903,
-      "url": "https://t.me/empresaelectricacienfuegos1/59903",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
     "C-15": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -929,158 +986,131 @@
       "confianza": 100,
       "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
     },
-    "C-70": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-70 \"Aguada, Federal."
-    },
     "C-80": {
-      "fecha": "2026-10-28T00:09:15+00:00",
-      "mensaje_id": 59928,
-      "url": "https://t.me/empresaelectricacienfuegos1/59928",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-80 Punta Cotica, Parque José Martí."
     },
     "C-11": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-11 Ariza, Silverita, Nuevo México."
     },
-    "C-30": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
-    },
-    "C-95": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-95 \"Refinería, Carolina."
-    },
-    "C-89": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
-    },
     "C-6": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-6 \"Rancho Luna, Pasacaballo, La Milpa."
     },
     "C-18": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
     },
     "C-94": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
     },
     "C-36": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
     },
     "C-20": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
     },
     "C-405": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-405 \"Pueblo Griffo Nuevo."
     },
     "C-43": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
     },
     "C-2": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
     },
     "C-3": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-3 Reparto Eléctrico"
     },
     "C-5": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-5 Boulevard, Parque Martí"
     },
     "C-28": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-28 CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)"
+    },
+    "C-8": {
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-8  Congojas, La Lolita."
     },
     "C-62": {
       "fecha": "2026-10-28T00:12:18+00:00",
@@ -1101,9 +1131,9 @@
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero,El Mamey,  Crucesitas, El Nicho, Vegueta."
     },
     "C-17": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1112,7 +1142,7 @@
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-26T10:18:23+00:00",
-      "listas_consecutivas": 25,
+      "listas_consecutivas": 26,
       "aviso_anterior": {
         "fecha": "2026-10-26T05:26:52+00:00",
         "mensaje_id": 59854,
@@ -1125,9 +1155,9 @@
       "lugares": []
     },
     "C-92": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1136,7 +1166,7 @@
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-26T10:18:23+00:00",
-      "listas_consecutivas": 25,
+      "listas_consecutivas": 26,
       "aviso_anterior": {
         "fecha": "2026-10-26T05:26:52+00:00",
         "mensaje_id": 59854,
@@ -1148,39 +1178,10 @@
       },
       "lugares": []
     },
-    "C-8": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-27T03:05:41+00:00",
-      "listas_consecutivas": 14,
-      "aviso_anterior": {
-        "fecha": "2026-10-27T01:49:53+00:00",
-        "mensaje_id": 59888,
-        "url": "https://t.me/empresaelectricacienfuegos1/59888",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-8  Congojas, La Lolita."
-      },
-      "lugares": [
-        "El Pino",
-        "Congojas",
-        "La Lolita",
-        "Parque Alto"
-      ]
-    },
     "C-50": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1189,7 +1190,7 @@
       "motivo": "ausente_en_lista_completa",
       "alcance": "deficit",
       "primera_salida": "2026-10-27T19:34:11+00:00",
-      "listas_consecutivas": 4,
+      "listas_consecutivas": 5,
       "aviso_anterior": {
         "fecha": "2026-10-27T18:36:46+00:00",
         "mensaje_id": 59917,
@@ -1202,11 +1203,113 @@
       "lugares": [
         "Palmira (Norte"
       ]
+    },
+    "C-70": {
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-28T00:57:18+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-27T23:47:56+00:00",
+        "mensaje_id": 59927,
+        "url": "https://t.me/empresaelectricacienfuegos1/59927",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-70 \"Aguada, Federal."
+      },
+      "lugares": [
+        "Aguada",
+        "Federal"
+      ]
+    },
+    "C-30": {
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-28T00:57:18+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-27T23:47:56+00:00",
+        "mensaje_id": 59927,
+        "url": "https://t.me/empresaelectricacienfuegos1/59927",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
+      },
+      "lugares": [
+        "14 de Julio",
+        "Batey 2 Hermanos"
+      ]
+    },
+    "C-95": {
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-28T00:57:18+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-27T23:47:56+00:00",
+        "mensaje_id": 59927,
+        "url": "https://t.me/empresaelectricacienfuegos1/59927",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-95 \"Refinería, Carolina."
+      },
+      "lugares": []
+    },
+    "C-89": {
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-28T00:57:18+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-10-27T23:47:56+00:00",
+        "mensaje_id": 59927,
+        "url": "https://t.me/empresaelectricacienfuegos1/59927",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
+      },
+      "lugares": []
     }
   },
   "horarios": {},
   "cobertura": "parcial",
-  "mw": 80.0,
+  "mw": 70.0,
   "hora_inicio": null,
   "cierre": null,
   "tiempos": {},
@@ -1227,7 +1330,6 @@
     "C-58": "déficit / avería",
     "C-31": "déficit",
     "C-88": "déficit",
-    "C-19": "déficit",
     "C-90": "avería",
     "S-2382": "avería",
     "S-5814": "avería",
@@ -1261,15 +1363,11 @@
     "C-42": "déficit",
     "C-52": "déficit",
     "C-59": "déficit",
-    "C-69": "emergencia",
+    "C-69": "emergencia / déficit",
     "C-15": "avería / déficit",
     "C-26": "avería",
-    "C-70": "déficit",
     "C-80": "déficit / avería",
     "C-11": "déficit",
-    "C-30": "déficit",
-    "C-95": "déficit",
-    "C-89": "déficit",
     "C-6": "avería / déficit",
     "C-18": "déficit",
     "C-94": "déficit",
@@ -1280,7 +1378,8 @@
     "C-2": "déficit",
     "C-3": "déficit",
     "C-5": "déficit",
-    "C-28": "déficit"
+    "C-28": "déficit",
+    "C-8": "déficit"
   },
   "error": null,
   "pendientes_revision": [
@@ -1691,16 +1790,16 @@
     }
   ],
   "lectura": {
-    "texto": 61,
+    "texto": 62,
     "imagenes": 53,
     "pdf": 0,
     "no_leidos": 9
   },
   "listas_completas": {
     "deficit": {
-      "fecha": "2026-10-27T23:47:56+00:00",
-      "mensaje_id": 59927,
-      "url": "https://t.me/empresaelectricacienfuegos1/59927",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "url": "https://t.me/empresaelectricacienfuegos1/59930",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1748,13 +1847,8 @@
         "C-52",
         "C-59",
         "C-15",
-        "C-19",
-        "C-70",
         "C-80",
         "C-11",
-        "C-30",
-        "C-95",
-        "C-89",
         "C-6",
         "C-18",
         "C-94",
@@ -1765,56 +1859,13 @@
         "C-2",
         "C-3",
         "C-5",
-        "C-28"
+        "C-8",
+        "C-28",
+        "C-69"
       ]
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-8",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-25T18:58:00+00:00",
-      "mensaje_id": 59841,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59839",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59841"
-    },
-    {
-      "circuito": "C-24",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-25T20:50:59+00:00",
-      "mensaje_id": 59843,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59841",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59843"
-    },
-    {
-      "circuito": "C-91",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-25T20:50:59+00:00",
-      "mensaje_id": 59843,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59841",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59843"
-    },
-    {
-      "circuito": "C-84",
-      "tipo": "restablecido",
-      "alcance": "general",
-      "fecha": "2026-10-25T22:09:21+00:00",
-      "mensaje_id": 59847,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59846",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59847"
-    },
-    {
-      "circuito": "C-90",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-25T23:38:44+00:00",
-      "mensaje_id": 59850,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59843",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59850"
-    },
     {
       "circuito": "C-69",
       "tipo": "salida_lista",
@@ -2669,13 +2720,58 @@
       "mensaje_id": 59927,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59926",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59927"
+    },
+    {
+      "circuito": "C-19",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59927",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59930"
+    },
+    {
+      "circuito": "C-70",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59927",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59930"
+    },
+    {
+      "circuito": "C-30",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59927",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59930"
+    },
+    {
+      "circuito": "C-95",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59927",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59930"
+    },
+    {
+      "circuito": "C-89",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-28T00:57:18+00:00",
+      "mensaje_id": 59930,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59927",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59930"
     }
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
-  "mw_fecha": "2026-10-27T23:47:56+00:00",
-  "total_circuitos_afectados": 70,
+  "mw_fecha": "2026-10-28T00:57:18+00:00",
+  "total_circuitos_afectados": 66,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 4,
+  "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2693,5 +2789,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T00:54:24.528051+00:00"
+  "actualizado": "2026-10-28T01:09:20.275389+00:00"
 }
