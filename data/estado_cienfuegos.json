@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T03:08:48+00:00",
-  "mensajes_leidos": 117,
+  "mensajes_leidos": 115,
   "afectados": {
     "C-25": [
       "Abreus (Pueblo"
@@ -89,8 +89,6 @@
     "C-19": [
       "Tulipán"
     ],
-    "S-2382": [],
-    "S-5814": [],
     "C-407": [],
     "C-38": [
       "El Abra",
@@ -145,6 +143,8 @@
     "C-66": [
       "Reina (Parque"
     ],
+    "S-2382": [],
+    "S-5814": [],
     "C-29": [
       "Moncada",
       "Constancia",
@@ -743,24 +743,6 @@
       "confianza": 100,
       "texto": "👉C-19 Tulipán"
     },
-    "S-2382": {
-      "fecha": "2026-10-28T10:35:40+00:00",
-      "mensaje_id": 59942,
-      "url": "https://t.me/empresaelectricacienfuegos1/59942",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
-    "S-5814": {
-      "fecha": "2026-10-28T10:35:40+00:00",
-      "mensaje_id": 59942,
-      "url": "https://t.me/empresaelectricacienfuegos1/59942",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
-    },
     "C-407": {
       "fecha": "2026-10-28T10:17:42+00:00",
       "mensaje_id": 59941,
@@ -850,6 +832,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-66 Reina (Parque)"
+    },
+    "S-2382": {
+      "fecha": "2026-10-28T10:35:40+00:00",
+      "mensaje_id": 59942,
+      "url": "https://t.me/empresaelectricacienfuegos1/59942",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
+    },
+    "S-5814": {
+      "fecha": "2026-10-28T10:35:40+00:00",
+      "mensaje_id": 59942,
+      "url": "https://t.me/empresaelectricacienfuegos1/59942",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
     },
     "C-29": {
       "fecha": "2026-10-28T10:17:42+00:00",
@@ -1439,8 +1439,6 @@
     "C-31": "déficit",
     "C-88": "déficit",
     "C-19": "déficit",
-    "S-2382": "avería",
-    "S-5814": "avería",
     "C-407": "déficit",
     "C-38": "déficit",
     "C-63": "déficit",
@@ -1451,6 +1449,8 @@
     "C-84": "déficit",
     "C-65": "déficit",
     "C-66": "déficit",
+    "S-2382": "avería",
+    "S-5814": "avería",
     "C-29": "déficit",
     "C-7": "déficit",
     "C-41": "déficit",
@@ -1484,13 +1484,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
-      "id": 59825,
-      "url": "https://t.me/empresaelectricacienfuegos1/59825",
-      "fecha": "2026-10-25T11:04:31+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚠️ Se comunica a nuestros clientes que continúa en fallo la línea 333 Cumanayagua, afectándose  la zona:\n\n\n👉Bombeo Jíbaro\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉 Ofrecemos disculpas por las molestias ocasionadas.",
@@ -1906,8 +1899,8 @@
     }
   ],
   "lectura": {
-    "texto": 63,
-    "imagenes": 54,
+    "texto": 62,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 8
   },
@@ -2369,15 +2362,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59880"
     },
     {
-      "circuito": "C-90",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-26T23:41:34+00:00",
-      "mensaje_id": 59883,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59880",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59883"
-    },
-    {
       "circuito": "C-2",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2388,6 +2372,15 @@
     },
     {
       "circuito": "C-69",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-26T23:41:34+00:00",
+      "mensaje_id": 59883,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59880",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59883"
+    },
+    {
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-26T23:41:34+00:00",
@@ -2594,15 +2587,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59913"
     },
     {
-      "circuito": "C-90",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-27T18:36:46+00:00",
-      "mensaje_id": 59917,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59915",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59917"
-    },
-    {
       "circuito": "C-67",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2618,6 +2602,15 @@
       "fecha": "2026-10-27T18:36:46+00:00",
       "mensaje_id": 59917,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59913",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59917"
+    },
+    {
+      "circuito": "C-90",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-27T18:36:46+00:00",
+      "mensaje_id": 59917,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59915",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59917"
     },
     {
@@ -2904,5 +2897,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T10:54:21.018074+00:00"
+  "actualizado": "2026-10-28T11:09:13.837912+00:00"
 }
