@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-28T17:50:14+00:00",
+  "reporte_fecha": "2026-10-28T18:30:55+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T16:48:24+00:00",
-  "mensajes_leidos": 124,
+  "mensajes_leidos": 125,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -200,7 +200,10 @@
     "C-89": [],
     "C-18": [],
     "C-94": [],
-    "C-43": []
+    "C-43": [],
+    "C-25": [
+      "Abreus (Pueblo"
+    ]
   },
   "programados": {
     "C-67": [
@@ -831,32 +834,6 @@
         "Bagazal"
       ]
     },
-    "C-25": {
-      "fecha": "2026-10-28T17:50:14+00:00",
-      "mensaje_id": 59964,
-      "url": "https://t.me/empresaelectricacienfuegos1/59964",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-55 Cruces (Sur).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T17:50:14+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T16:21:55+00:00",
-        "mensaje_id": 59959,
-        "url": "https://t.me/empresaelectricacienfuegos1/59959",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-25 Abreus (Pueblo)."
-      },
-      "lugares": [
-        "Abreus (Pueblo"
-      ]
-    },
     "C-32": {
       "fecha": "2026-10-28T17:50:14+00:00",
       "mensaje_id": 59964,
@@ -1301,6 +1278,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
+    },
+    "C-25": {
+      "fecha": "2026-10-28T18:30:55+00:00",
+      "mensaje_id": 59965,
+      "url": "https://t.me/empresaelectricacienfuegos1/59965",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-25 Abreus (Pueblo)."
     },
     "C-24": {
       "fecha": "2026-10-28T16:48:24+00:00",
@@ -1818,32 +1804,6 @@
         "Bagazal"
       ]
     },
-    "C-25": {
-      "fecha": "2026-10-28T17:50:14+00:00",
-      "mensaje_id": 59964,
-      "url": "https://t.me/empresaelectricacienfuegos1/59964",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-55 Cruces (Sur).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T17:50:14+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T16:21:55+00:00",
-        "mensaje_id": 59959,
-        "url": "https://t.me/empresaelectricacienfuegos1/59959",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-25 Abreus (Pueblo)."
-      },
-      "lugares": [
-        "Abreus (Pueblo"
-      ]
-    },
     "C-32": {
       "fecha": "2026-10-28T17:50:14+00:00",
       "mensaje_id": 59964,
@@ -1961,16 +1921,11 @@
     "C-89": "déficit",
     "C-18": "sin precisar / déficit",
     "C-94": "déficit",
-    "C-43": "déficit"
+    "C-43": "déficit",
+    "C-25": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "id": 59846,
-      "url": "https://t.me/empresaelectricacienfuegos1/59846",
-      "fecha": "2026-10-25T21:16:16+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "id": 59848,
       "url": "https://t.me/empresaelectricacienfuegos1/59848",
@@ -2386,13 +2341,19 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59963",
       "fecha": "2026-10-28T17:46:48+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "id": 59965,
+      "url": "https://t.me/empresaelectricacienfuegos1/59965",
+      "fecha": "2026-10-28T18:30:55+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 64,
-    "imagenes": 60,
+    "imagenes": 61,
     "pdf": 0,
-    "no_leidos": 13
+    "no_leidos": 14
   },
   "listas_completas": {
     "deficit": {
@@ -3349,9 +3310,9 @@
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T17:50:14+00:00",
-  "total_circuitos_afectados": 46,
+  "total_circuitos_afectados": 47,
   "total_circuitos_programados": 7,
-  "total_restablecimientos_probables": 22,
+  "total_restablecimientos_probables": 21,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3369,5 +3330,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T18:24:23.094832+00:00"
+  "actualizado": "2026-10-28T18:39:27.486921+00:00"
 }
