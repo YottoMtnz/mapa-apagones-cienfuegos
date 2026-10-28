@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-28T19:12:57+00:00",
+  "reporte_fecha": "2026-10-28T19:43:26+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T16:48:24+00:00",
-  "mensajes_leidos": 125,
+  "mensajes_leidos": 127,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -151,16 +151,6 @@
       "Punta Cotica",
       "Parque José Martí"
     ],
-    "C-37": [
-      "El Tablón",
-      "Los Coquitos",
-      "El Túnel",
-      "Jovero",
-      "El Mamey",
-      "Crucesitas",
-      "El Nicho",
-      "Vegueta"
-    ],
     "C-91": [
       "Buena Vista",
       "La Esperanza"
@@ -187,6 +177,15 @@
       "Potrerillo",
       "Peñasco",
       "Lomitas"
+    ],
+    "C-101": [
+      "Cartagena",
+      "La Modelo",
+      "Santa Rosa",
+      "La Piragua",
+      "El Bajío",
+      "California",
+      "El Salado"
     ]
   },
   "programados": {
@@ -261,6 +260,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-25 Abreus (Pueblo)."
+    },
+    "C-37": {
+      "fecha": "2026-10-28T19:40:12+00:00",
+      "mensaje_id": 59968,
+      "url": "https://t.me/empresaelectricacienfuegos1/59968",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
     }
   },
   "restablecimientos_probables": {
@@ -552,38 +560,6 @@
       },
       "lugares": [
         "La Ciruela"
-      ]
-    },
-    "C-101": {
-      "fecha": "2026-10-28T19:12:57+00:00",
-      "mensaje_id": 59967,
-      "url": "https://t.me/empresaelectricacienfuegos1/59967",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-56 \"Cruces (Norte).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T16:21:55+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T15:09:01+00:00",
-        "mensaje_id": 59957,
-        "url": "https://t.me/empresaelectricacienfuegos1/59957",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-101  Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
-      },
-      "lugares": [
-        "Cartagena",
-        "La Modelo",
-        "Santa Rosa",
-        "La Piragua",
-        "El Bajío",
-        "California",
-        "El Salado"
       ]
     },
     "C-85": {
@@ -1240,15 +1216,6 @@
       "confianza": 100,
       "texto": "👉C-80 Punta Cotica, Parque José Martí."
     },
-    "C-37": {
-      "fecha": "2026-10-28T12:03:06+00:00",
-      "mensaje_id": 59947,
-      "url": "https://t.me/empresaelectricacienfuegos1/59947",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
-    },
     "C-91": {
       "fecha": "2026-10-28T19:12:57+00:00",
       "mensaje_id": 59967,
@@ -1330,6 +1297,15 @@
       "confianza": 100,
       "texto": "👉C-53 Potrerillo, El No, Peñasco, Lomitas."
     },
+    "C-101": {
+      "fecha": "2026-10-28T19:43:26+00:00",
+      "mensaje_id": 59969,
+      "url": "https://t.me/empresaelectricacienfuegos1/59969",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-101\"Cartagena, La Modelo, Sta Rosa, La Piragua, El Bajío, California, El Salado."
+    },
     "C-47": {
       "fecha": "2026-10-28T16:48:24+00:00",
       "mensaje_id": 59961,
@@ -1410,6 +1386,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-25 Abreus (Pueblo)."
+    },
+    "C-37": {
+      "fecha": "2026-10-28T19:40:12+00:00",
+      "mensaje_id": 59968,
+      "url": "https://t.me/empresaelectricacienfuegos1/59968",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
     },
     "C-408": {
       "fecha": "2026-10-28T19:12:57+00:00",
@@ -1614,38 +1599,6 @@
       },
       "lugares": [
         "La Ciruela"
-      ]
-    },
-    "C-101": {
-      "fecha": "2026-10-28T19:12:57+00:00",
-      "mensaje_id": 59967,
-      "url": "https://t.me/empresaelectricacienfuegos1/59967",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-56 \"Cruces (Norte).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T16:21:55+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T15:09:01+00:00",
-        "mensaje_id": 59957,
-        "url": "https://t.me/empresaelectricacienfuegos1/59957",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-101  Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
-      },
-      "lugares": [
-        "Cartagena",
-        "La Modelo",
-        "Santa Rosa",
-        "La Piragua",
-        "El Bajío",
-        "California",
-        "El Salado"
       ]
     },
     "C-85": {
@@ -2051,7 +2004,6 @@
     "C-2": "avería / déficit",
     "C-3": "avería / déficit",
     "C-80": "avería / déficit",
-    "C-37": "avería",
     "C-91": "déficit",
     "C-89": "déficit",
     "C-18": "sin precisar / déficit",
@@ -2060,16 +2012,11 @@
     "C-24": "déficit",
     "C-54": "déficit",
     "C-82": "déficit",
-    "C-53": "déficit"
+    "C-53": "déficit",
+    "C-101": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "id": 59848,
-      "url": "https://t.me/empresaelectricacienfuegos1/59848",
-      "fecha": "2026-10-25T22:30:42+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n¡SY\nÚ\n18 MW |\nDEFICIT DE GENERACION\nA\nil\na\n|]\n¥\nUNE\nCIENFUEGOS\nEs",
@@ -2485,13 +2432,19 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59965",
       "fecha": "2026-10-28T18:30:55+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "id": 59969,
+      "url": "https://t.me/empresaelectricacienfuegos1/59969",
+      "fecha": "2026-10-28T19:43:26+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
-    "texto": 64,
-    "imagenes": 61,
+    "texto": 65,
+    "imagenes": 62,
     "pdf": 0,
-    "no_leidos": 14
+    "no_leidos": 15
   },
   "listas_completas": {
     "deficit": {
@@ -2546,15 +2499,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-2",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-26T23:41:34+00:00",
-      "mensaje_id": 59883,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59880",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59883"
-    },
     {
       "circuito": "C-69",
       "tipo": "salida_lista",
@@ -3445,13 +3389,22 @@
       "mensaje_id": 59967,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59964",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59967"
+    },
+    {
+      "circuito": "C-37",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-28T19:40:12+00:00",
+      "mensaje_id": 59968,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59947",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59968"
     }
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T19:12:57+00:00",
   "total_circuitos_afectados": 44,
   "total_circuitos_programados": 3,
-  "total_restablecimientos_probables": 24,
+  "total_restablecimientos_probables": 23,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3469,5 +3422,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T19:24:28.333074+00:00"
+  "actualizado": "2026-10-28T19:44:24.838688+00:00"
 }
