@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-28T16:29:44+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-28T16:17:19+00:00",
-  "mensajes_leidos": 121,
+  "programado_fecha": "2026-10-28T16:48:24+00:00",
+  "mensajes_leidos": 122,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -276,7 +276,29 @@
       "Guabairo"
     ],
     "C-18": [],
-    "C-20": []
+    "C-20": [],
+    "C-24": [
+      "Pérez Leyva",
+      "La Redonda",
+      "El Limpio"
+    ],
+    "C-47": [
+      "Elpidio Gómez",
+      "Altamira",
+      "La Peseta"
+    ],
+    "C-58": [],
+    "C-72": [
+      "Porcino",
+      "La Caridad",
+      "Palmira (Sur"
+    ],
+    "C-8": [
+      "El Pino",
+      "Congojas",
+      "La Lolita",
+      "Parque Alto"
+    ]
   },
   "confirmados_con_servicio": {
     "C-407": {
@@ -1239,6 +1261,42 @@
       "confianza": 100,
       "texto": "👉C-75 La Legua, Gavilán, Boca Ambuila."
     },
+    "C-24": {
+      "fecha": "2026-10-28T16:48:24+00:00",
+      "mensaje_id": 59961,
+      "url": "https://t.me/empresaelectricacienfuegos1/59961",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
+    },
+    "C-47": {
+      "fecha": "2026-10-28T16:48:24+00:00",
+      "mensaje_id": 59961,
+      "url": "https://t.me/empresaelectricacienfuegos1/59961",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
+    },
+    "C-72": {
+      "fecha": "2026-10-28T16:48:24+00:00",
+      "mensaje_id": 59961,
+      "url": "https://t.me/empresaelectricacienfuegos1/59961",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
+    },
+    "C-8": {
+      "fecha": "2026-10-28T16:48:24+00:00",
+      "mensaje_id": 59961,
+      "url": "https://t.me/empresaelectricacienfuegos1/59961",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-24 Pérez Leyva, La Redonda, El Limpio."
+    },
     "C-407": {
       "fecha": "2026-10-28T15:03:55+00:00",
       "mensaje_id": 59956,
@@ -1370,119 +1428,6 @@
         "texto": "👉C-95 \"Refinería, Carolina."
       },
       "lugares": []
-    },
-    "C-24": {
-      "fecha": "2026-10-28T16:21:55+00:00",
-      "mensaje_id": 59959,
-      "url": "https://t.me/empresaelectricacienfuegos1/59959",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T12:51:35+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T11:35:37+00:00",
-        "mensaje_id": 59944,
-        "url": "https://t.me/empresaelectricacienfuegos1/59944",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-24  Pérez Leyva, La Redonda, El Limpio."
-      },
-      "lugares": [
-        "Pérez Leyva",
-        "La Redonda",
-        "El Limpio"
-      ]
-    },
-    "C-8": {
-      "fecha": "2026-10-28T16:21:55+00:00",
-      "mensaje_id": 59959,
-      "url": "https://t.me/empresaelectricacienfuegos1/59959",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T12:51:35+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T11:35:37+00:00",
-        "mensaje_id": 59944,
-        "url": "https://t.me/empresaelectricacienfuegos1/59944",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-8    Congojas, La Lolita."
-      },
-      "lugares": [
-        "El Pino",
-        "Congojas",
-        "La Lolita",
-        "Parque Alto"
-      ]
-    },
-    "C-72": {
-      "fecha": "2026-10-28T16:21:55+00:00",
-      "mensaje_id": 59959,
-      "url": "https://t.me/empresaelectricacienfuegos1/59959",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T13:43:56+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T12:51:35+00:00",
-        "mensaje_id": 59948,
-        "url": "https://t.me/empresaelectricacienfuegos1/59948",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)"
-      },
-      "lugares": [
-        "Porcino",
-        "La Caridad",
-        "Palmira (Sur"
-      ]
-    },
-    "C-47": {
-      "fecha": "2026-10-28T16:21:55+00:00",
-      "mensaje_id": 59959,
-      "url": "https://t.me/empresaelectricacienfuegos1/59959",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T13:43:56+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T12:51:35+00:00",
-        "mensaje_id": 59948,
-        "url": "https://t.me/empresaelectricacienfuegos1/59948",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
-      },
-      "lugares": [
-        "Elpidio Gómez",
-        "Altamira",
-        "La Peseta"
-      ]
     },
     "C-82": {
       "fecha": "2026-10-28T16:21:55+00:00",
@@ -1701,6 +1646,31 @@
     "C-20": {
       "inicio": null,
       "fin": "2026-10-29T04:17:19+00:00",
+      "fecha_ambigua": false
+    },
+    "C-24": {
+      "inicio": null,
+      "fin": "2026-10-29T04:48:24+00:00",
+      "fecha_ambigua": false
+    },
+    "C-47": {
+      "inicio": null,
+      "fin": "2026-10-29T04:48:24+00:00",
+      "fecha_ambigua": false
+    },
+    "C-58": {
+      "inicio": null,
+      "fin": "2026-10-29T04:48:24+00:00",
+      "fecha_ambigua": false
+    },
+    "C-72": {
+      "inicio": null,
+      "fin": "2026-10-29T04:48:24+00:00",
+      "fecha_ambigua": false
+    },
+    "C-8": {
+      "inicio": null,
+      "fin": "2026-10-29T04:48:24+00:00",
       "fecha_ambigua": false
     }
   },
@@ -2196,7 +2166,7 @@
   ],
   "lectura": {
     "texto": 63,
-    "imagenes": 58,
+    "imagenes": 59,
     "pdf": 0,
     "no_leidos": 12
   },
@@ -3163,7 +3133,7 @@
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T16:21:55+00:00",
   "total_circuitos_afectados": 57,
-  "total_circuitos_programados": 4,
+  "total_circuitos_programados": 9,
   "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3182,5 +3152,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T16:39:35.063535+00:00"
+  "actualizado": "2026-10-28T16:54:22.553279+00:00"
 }
