@@ -89,10 +89,6 @@
       "La Milpa"
     ],
     "C-20": [],
-    "C-5": [
-      "Boulevard",
-      "Parque Martí"
-    ],
     "C-28": [
       "CEN",
       "Castillo de Jagua",
@@ -108,23 +104,10 @@
       "Aguada",
       "Federal"
     ],
-    "C-90": [
-      "FW1558) La Pollera"
-    ],
-    "C-26": [
-      "Caonao",
-      "Los Tanques",
-      "La Ceiba",
-      "El Paisíto"
-    ],
     "C-67": [
       "El Crucero",
       "Guaos",
       "Naranjito"
-    ],
-    "C-2": [],
-    "C-3": [
-      "Reparto Eléctrico"
     ],
     "C-80": [
       "Punta Cotica",
@@ -808,15 +791,6 @@
       "confianza": 100,
       "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
     },
-    "C-5": {
-      "fecha": "2026-10-28T11:53:47+00:00",
-      "mensaje_id": 59946,
-      "url": "https://t.me/empresaelectricacienfuegos1/59946",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-5 Boulevard, Parque Martí"
-    },
     "C-28": {
       "fecha": "2026-10-28T23:20:22+00:00",
       "mensaje_id": 59984,
@@ -853,24 +827,6 @@
       "confianza": 100,
       "texto": "👉C-70 \"Aguada, Federal."
     },
-    "C-90": {
-      "fecha": "2026-10-28T11:53:47+00:00",
-      "mensaje_id": 59946,
-      "url": "https://t.me/empresaelectricacienfuegos1/59946",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
-    },
-    "C-26": {
-      "fecha": "2026-10-28T11:53:47+00:00",
-      "mensaje_id": 59946,
-      "url": "https://t.me/empresaelectricacienfuegos1/59946",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
-    },
     "C-67": {
       "fecha": "2026-10-28T23:20:22+00:00",
       "mensaje_id": 59984,
@@ -879,24 +835,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-67 \"El Crucero, Guaos, Naranjito."
-    },
-    "C-2": {
-      "fecha": "2026-10-28T11:53:47+00:00",
-      "mensaje_id": 59946,
-      "url": "https://t.me/empresaelectricacienfuegos1/59946",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
-    },
-    "C-3": {
-      "fecha": "2026-10-28T11:53:47+00:00",
-      "mensaje_id": 59946,
-      "url": "https://t.me/empresaelectricacienfuegos1/59946",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-3 Reparto Eléctrico"
     },
     "C-80": {
       "fecha": "2026-10-28T23:20:22+00:00",
@@ -1499,21 +1437,16 @@
     "C-44": "déficit",
     "C-52": "déficit",
     "C-69": "déficit",
-    "C-15": "avería / déficit",
+    "C-15": "déficit",
     "C-11": "déficit",
     "C-6": "déficit",
-    "C-20": "avería / sin precisar / déficit",
-    "C-5": "avería",
+    "C-20": "sin precisar / déficit",
     "C-28": "déficit",
     "C-50": "déficit",
     "C-19": "déficit",
     "C-70": "déficit",
-    "C-90": "avería",
-    "C-26": "avería",
-    "C-67": "avería / déficit",
-    "C-2": "avería",
-    "C-3": "avería",
-    "C-80": "avería / déficit",
+    "C-67": "déficit",
+    "C-80": "déficit",
     "C-91": "déficit",
     "C-89": "déficit",
     "C-18": "sin precisar / déficit",
@@ -2948,13 +2881,12 @@
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T23:20:22+00:00",
-  "total_circuitos_afectados": 57,
+  "total_circuitos_afectados": 52,
   "total_circuitos_programados": 6,
   "total_restablecimientos_probables": 12,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
-    "C-2",
     "C-20",
     "C-31",
     "C-407",
@@ -2966,5 +2898,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-28T23:39:21.202635+00:00"
+  "actualizado": "2026-10-28T23:54:27.560603+00:00"
 }
