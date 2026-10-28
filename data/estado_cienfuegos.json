@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-28T20:23:32+00:00",
+  "reporte_fecha": "2026-10-28T20:32:06+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T20:05:04+00:00",
-  "mensajes_leidos": 128,
+  "mensajes_leidos": 129,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -162,15 +162,6 @@
       "Peñasco",
       "Lomitas"
     ],
-    "C-101": [
-      "Cartagena",
-      "La Modelo",
-      "Santa Rosa",
-      "La Piragua",
-      "El Bajío",
-      "California",
-      "El Salado"
-    ],
     "C-36": [
       "Cumanayagua (Sur",
       "La Guasasa",
@@ -256,6 +247,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
+    },
+    "C-101": {
+      "fecha": "2026-10-28T20:32:06+00:00",
+      "mensaje_id": 59972,
+      "url": "https://t.me/empresaelectricacienfuegos1/59972",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-101\"Cartagena, La Modelo, Sta Rosa, La Piragua, El Bajío, California, El Salado."
     }
   },
   "restablecimientos_probables": {
@@ -1316,15 +1316,6 @@
       "confianza": 100,
       "texto": "👉C-53 Potrerillo, El No, Peñasco, Lomitas."
     },
-    "C-101": {
-      "fecha": "2026-10-28T19:43:26+00:00",
-      "mensaje_id": 59969,
-      "url": "https://t.me/empresaelectricacienfuegos1/59969",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-101\"Cartagena, La Modelo, Sta Rosa, La Piragua, El Bajío, California, El Salado."
-    },
     "C-36": {
       "fecha": "2026-10-28T20:23:32+00:00",
       "mensaje_id": 59971,
@@ -1423,6 +1414,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
+    },
+    "C-101": {
+      "fecha": "2026-10-28T20:32:06+00:00",
+      "mensaje_id": 59972,
+      "url": "https://t.me/empresaelectricacienfuegos1/59972",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-101\"Cartagena, La Modelo, Sta Rosa, La Piragua, El Bajío, California, El Salado."
     },
     "C-408": {
       "fecha": "2026-10-28T20:23:32+00:00",
@@ -2102,7 +2102,6 @@
     "C-54": "déficit",
     "C-82": "déficit",
     "C-53": "déficit",
-    "C-101": "avería",
     "C-36": "déficit",
     "C-85": "déficit"
   },
@@ -2532,7 +2531,7 @@
     }
   ],
   "lectura": {
-    "texto": 66,
+    "texto": 67,
     "imagenes": 62,
     "pdf": 0,
     "no_leidos": 15
@@ -2589,15 +2588,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-3",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-26T23:41:34+00:00",
-      "mensaje_id": 59883,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59880",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59883"
-    },
     {
       "circuito": "C-43",
       "tipo": "salida_lista",
@@ -3488,11 +3478,20 @@
       "mensaje_id": 59971,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59967",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59971"
+    },
+    {
+      "circuito": "C-101",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-28T20:32:06+00:00",
+      "mensaje_id": 59972,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59969",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59972"
     }
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T20:23:32+00:00",
-  "total_circuitos_afectados": 43,
+  "total_circuitos_afectados": 42,
   "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 25,
   "circuitos_sin_catalogar": [
@@ -3513,5 +3512,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T20:29:37.655623+00:00"
+  "actualizado": "2026-10-28T20:44:32.495372+00:00"
 }
