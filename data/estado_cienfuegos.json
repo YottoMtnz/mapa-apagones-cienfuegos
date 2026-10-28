@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-28T16:21:55+00:00",
+  "reporte_fecha": "2026-10-28T16:29:44+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T16:17:19+00:00",
@@ -235,7 +235,35 @@
     "C-89": [],
     "C-18": [],
     "C-94": [],
-    "C-43": []
+    "C-43": [],
+    "C-33": [
+      "Arimao",
+      "Las Moscas",
+      "Vegas Viejas",
+      "Santa Martina",
+      "San Antón",
+      "Quesada",
+      "Callejón del Palmar"
+    ],
+    "C-36": [
+      "Cumanayagua (Sur",
+      "La Guasasa",
+      "Ceibabo",
+      "La Furnia",
+      "Monasterio",
+      "El Concuní"
+    ],
+    "C-39": [
+      "La Sierrita",
+      "El Brazo",
+      "Cafetal",
+      "Faisanera"
+    ],
+    "C-75": [
+      "La Legua",
+      "Gavilán",
+      "Boca Ambuila"
+    ]
   },
   "programados": {
     "C-67": [
@@ -581,37 +609,6 @@
         "Lomitas"
       ]
     },
-    "C-36": {
-      "fecha": "2026-10-28T16:21:55+00:00",
-      "mensaje_id": 59959,
-      "url": "https://t.me/empresaelectricacienfuegos1/59959",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T15:09:01+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T13:43:56+00:00",
-        "mensaje_id": 59951,
-        "url": "https://t.me/empresaelectricacienfuegos1/59951",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
-      },
-      "lugares": [
-        "Cumanayagua (Sur",
-        "La Guasasa",
-        "Ceibabo",
-        "La Furnia",
-        "Monasterio",
-        "El Concuní"
-      ]
-    },
     "C-49": {
       "fecha": "2026-10-28T16:21:55+00:00",
       "mensaje_id": 59959,
@@ -724,95 +721,6 @@
         "El Bajío",
         "California",
         "El Salado"
-      ]
-    },
-    "C-39": {
-      "fecha": "2026-10-28T16:21:55+00:00",
-      "mensaje_id": 59959,
-      "url": "https://t.me/empresaelectricacienfuegos1/59959",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T16:21:55+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T15:09:01+00:00",
-        "mensaje_id": 59957,
-        "url": "https://t.me/empresaelectricacienfuegos1/59957",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-39 La Sierrita, El Brazo, Cafetal, Faisanera."
-      },
-      "lugares": [
-        "La Sierrita",
-        "El Brazo",
-        "Cafetal",
-        "Faisanera"
-      ]
-    },
-    "C-75": {
-      "fecha": "2026-10-28T16:21:55+00:00",
-      "mensaje_id": 59959,
-      "url": "https://t.me/empresaelectricacienfuegos1/59959",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T16:21:55+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T15:09:01+00:00",
-        "mensaje_id": 59957,
-        "url": "https://t.me/empresaelectricacienfuegos1/59957",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-75 La Legua, Gavilán, Boca Ambuila."
-      },
-      "lugares": [
-        "La Legua",
-        "Gavilán",
-        "Boca Ambuila"
-      ]
-    },
-    "C-33": {
-      "fecha": "2026-10-28T16:21:55+00:00",
-      "mensaje_id": 59959,
-      "url": "https://t.me/empresaelectricacienfuegos1/59959",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T16:21:55+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T15:09:01+00:00",
-        "mensaje_id": 59957,
-        "url": "https://t.me/empresaelectricacienfuegos1/59957",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
-      },
-      "lugares": [
-        "Arimao",
-        "Las Moscas",
-        "Vegas Viejas",
-        "Santa Martina",
-        "San Antón",
-        "Quesada",
-        "Callejón del Palmar"
       ]
     }
   },
@@ -1295,6 +1203,42 @@
       "confianza": 100,
       "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
     },
+    "C-33": {
+      "fecha": "2026-10-28T16:29:44+00:00",
+      "mensaje_id": 59960,
+      "url": "https://t.me/empresaelectricacienfuegos1/59960",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+    },
+    "C-36": {
+      "fecha": "2026-10-28T16:29:44+00:00",
+      "mensaje_id": 59960,
+      "url": "https://t.me/empresaelectricacienfuegos1/59960",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+    },
+    "C-39": {
+      "fecha": "2026-10-28T16:29:44+00:00",
+      "mensaje_id": 59960,
+      "url": "https://t.me/empresaelectricacienfuegos1/59960",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-39 La Sierrita, El Brazo, Cafetal, Faisanera."
+    },
+    "C-75": {
+      "fecha": "2026-10-28T16:29:44+00:00",
+      "mensaje_id": 59960,
+      "url": "https://t.me/empresaelectricacienfuegos1/59960",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-75 La Legua, Gavilán, Boca Ambuila."
+    },
     "C-407": {
       "fecha": "2026-10-28T15:03:55+00:00",
       "mensaje_id": 59956,
@@ -1623,37 +1567,6 @@
         "Lomitas"
       ]
     },
-    "C-36": {
-      "fecha": "2026-10-28T16:21:55+00:00",
-      "mensaje_id": 59959,
-      "url": "https://t.me/empresaelectricacienfuegos1/59959",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T15:09:01+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T13:43:56+00:00",
-        "mensaje_id": 59951,
-        "url": "https://t.me/empresaelectricacienfuegos1/59951",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
-      },
-      "lugares": [
-        "Cumanayagua (Sur",
-        "La Guasasa",
-        "Ceibabo",
-        "La Furnia",
-        "Monasterio",
-        "El Concuní"
-      ]
-    },
     "C-49": {
       "fecha": "2026-10-28T16:21:55+00:00",
       "mensaje_id": 59959,
@@ -1767,95 +1680,6 @@
         "California",
         "El Salado"
       ]
-    },
-    "C-39": {
-      "fecha": "2026-10-28T16:21:55+00:00",
-      "mensaje_id": 59959,
-      "url": "https://t.me/empresaelectricacienfuegos1/59959",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T16:21:55+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T15:09:01+00:00",
-        "mensaje_id": 59957,
-        "url": "https://t.me/empresaelectricacienfuegos1/59957",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-39 La Sierrita, El Brazo, Cafetal, Faisanera."
-      },
-      "lugares": [
-        "La Sierrita",
-        "El Brazo",
-        "Cafetal",
-        "Faisanera"
-      ]
-    },
-    "C-75": {
-      "fecha": "2026-10-28T16:21:55+00:00",
-      "mensaje_id": 59959,
-      "url": "https://t.me/empresaelectricacienfuegos1/59959",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T16:21:55+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T15:09:01+00:00",
-        "mensaje_id": 59957,
-        "url": "https://t.me/empresaelectricacienfuegos1/59957",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-75 La Legua, Gavilán, Boca Ambuila."
-      },
-      "lugares": [
-        "La Legua",
-        "Gavilán",
-        "Boca Ambuila"
-      ]
-    },
-    "C-33": {
-      "fecha": "2026-10-28T16:21:55+00:00",
-      "mensaje_id": 59959,
-      "url": "https://t.me/empresaelectricacienfuegos1/59959",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-28T16:21:55+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-10-28T15:09:01+00:00",
-        "mensaje_id": 59957,
-        "url": "https://t.me/empresaelectricacienfuegos1/59957",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
-      },
-      "lugares": [
-        "Arimao",
-        "Las Moscas",
-        "Vegas Viejas",
-        "Santa Martina",
-        "San Antón",
-        "Quesada",
-        "Callejón del Palmar"
-      ]
     }
   },
   "horarios": {
@@ -1938,7 +1762,11 @@
     "C-89": "déficit",
     "C-18": "sin precisar",
     "C-94": "déficit",
-    "C-43": "déficit"
+    "C-43": "déficit",
+    "C-33": "avería",
+    "C-36": "avería",
+    "C-39": "avería",
+    "C-75": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2358,13 +2186,19 @@
       "url": "https://t.me/empresaelectricacienfuegos1/59954",
       "fecha": "2026-10-28T14:44:39+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "id": 59960,
+      "url": "https://t.me/empresaelectricacienfuegos1/59960",
+      "fecha": "2026-10-28T16:29:44+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
-    "texto": 64,
-    "imagenes": 57,
+    "texto": 63,
+    "imagenes": 58,
     "pdf": 0,
-    "no_leidos": 11
+    "no_leidos": 12
   },
   "listas_completas": {
     "deficit": {
@@ -3328,9 +3162,9 @@
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T16:21:55+00:00",
-  "total_circuitos_afectados": 53,
+  "total_circuitos_afectados": 57,
   "total_circuitos_programados": 4,
-  "total_restablecimientos_probables": 20,
+  "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3348,5 +3182,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-10-28T16:24:20.498238+00:00"
+  "actualizado": "2026-10-28T16:39:35.063535+00:00"
 }
