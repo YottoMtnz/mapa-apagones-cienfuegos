@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-29T01:12:30+00:00",
+  "reporte_fecha": "2026-10-29T01:37:19+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T21:48:35+00:00",
@@ -67,6 +67,12 @@
       "Espartaco",
       "La Macana",
       "Cherepa"
+    ],
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
     ],
     "C-15": [
       "Pepito Tey",
@@ -724,6 +730,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
+    },
+    "C-69": {
+      "fecha": "2026-10-29T01:37:19+00:00",
+      "mensaje_id": 59989,
+      "url": "https://t.me/empresaelectricacienfuegos1/59989",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
     "C-15": {
       "fecha": "2026-10-29T00:40:27+00:00",
@@ -1391,6 +1406,7 @@
     "C-38": "déficit",
     "C-44": "déficit",
     "C-52": "déficit",
+    "C-69": "sin precisar",
     "C-15": "déficit",
     "C-11": "déficit",
     "C-6": "déficit",
@@ -1434,12 +1450,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "id": 59876,
-      "url": "https://t.me/empresaelectricacienfuegos1/59876",
-      "fecha": "2026-10-26T20:51:06+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n80 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
@@ -1860,11 +1870,18 @@
       "id": 59986,
       "url": "https://t.me/empresaelectricacienfuegos1/59986",
       "fecha": "2026-10-28T23:58:03+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nmanipulación en las redes eléctricas\nY\na\nrR\nY\n41\n= &\neL",
+      "id": 59989,
+      "url": "https://t.me/empresaelectricacienfuegos1/59989",
+      "fecha": "2026-10-29T01:37:19+00:00"
     }
   ],
   "lectura": {
-    "texto": 71,
-    "imagenes": 66,
+    "texto": 70,
+    "imagenes": 67,
     "pdf": 0,
     "no_leidos": 13
   },
@@ -2834,7 +2851,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-29T00:40:27+00:00",
-  "total_circuitos_afectados": 51,
+  "total_circuitos_afectados": 52,
   "total_circuitos_programados": 6,
   "total_restablecimientos_probables": 11,
   "circuitos_sin_catalogar": [
@@ -2850,5 +2867,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-29T01:24:23.648068+00:00"
+  "actualizado": "2026-10-29T01:39:28.502186+00:00"
 }
