@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-29T19:34:30+00:00",
-  "mensajes_leidos": 145,
+  "mensajes_leidos": 146,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -1069,33 +1069,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
-      "id": 59903,
-      "url": "https://t.me/empresaelectricacienfuegos1/59903",
-      "fecha": "2026-10-27T13:33:07+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n60 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
-      "id": 59904,
-      "url": "https://t.me/empresaelectricacienfuegos1/59904",
-      "fecha": "2026-10-27T14:04:01+00:00"
-    },
-    {
-      "id": 59905,
-      "url": "https://t.me/empresaelectricacienfuegos1/59905",
-      "fecha": "2026-10-27T14:05:57+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠Terminología Eléctrica\n\n\n👉Disparo automático por frecuencia (DAF).\n\n\n📌Un disparo por frecuencia o Descarga Automática por Frecuencia, es una protección que posee el sistema eléctrico para cuando la frecuencia llega a valores mínimos permisibles que ponen en peligro la estabilidad de todo el sistema",
-      "id": 59909,
-      "url": "https://t.me/empresaelectricacienfuegos1/59909",
-      "fecha": "2026-10-27T15:53:41+00:00"
-    },
-    {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚠Se comunica a nuestros clientes que se encuentra afectado el servicio por Disparo Automático por Frecuencia (DAF), en la línea:\n\n\n👉L-1415 Aguada\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
       "id": 59910,
@@ -1483,11 +1456,51 @@
       "id": 60027,
       "url": "https://t.me/empresaelectricacienfuegos1/60027",
       "fecha": "2026-10-29T21:33:34+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-405 Pueblo Griffo Nuevo.",
+      "circuitos": [
+        "C-405"
+      ],
+      "id": 60029,
+      "url": "https://t.me/empresaelectricacienfuegos1/60029",
+      "fecha": "2026-10-29T23:34:11+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-406 San Lázaro, Calle 39 desde Ave 74 hasta 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta 49, Calle 47 de Ave 54 hasta Ave 58.",
+      "circuitos": [
+        "C-406"
+      ],
+      "id": 60029,
+      "url": "https://t.me/empresaelectricacienfuegos1/60029",
+      "fecha": "2026-10-29T23:34:11+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-405 Pueblo Griffo Nuevo.",
+      "circuitos": [
+        "C-405"
+      ],
+      "id": 60029,
+      "url": "https://t.me/empresaelectricacienfuegos1/60029",
+      "fecha": "2026-10-29T23:34:11+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-406 San Lázaro, Calle 39 desde Ave 74 hasta 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta 49, Calle 47 de Ave 54 hasta Ave 58.",
+      "circuitos": [
+        "C-406"
+      ],
+      "id": 60029,
+      "url": "https://t.me/empresaelectricacienfuegos1/60029",
+      "fecha": "2026-10-29T23:34:11+00:00"
     }
   ],
   "lectura": {
     "texto": 80,
-    "imagenes": 65,
+    "imagenes": 66,
     "pdf": 0,
     "no_leidos": 12
   },
@@ -2487,5 +2500,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-29T23:19:27.062523+00:00"
+  "actualizado": "2026-10-29T23:34:21.386997+00:00"
 }
