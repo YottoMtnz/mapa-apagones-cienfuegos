@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-29T00:40:27+00:00",
+  "reporte_fecha": "2026-10-29T01:12:30+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T21:48:35+00:00",
-  "mensajes_leidos": 136,
+  "mensajes_leidos": 137,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -241,8 +241,7 @@
       "Breñas",
       "Caña Brava",
       "Dolores"
-    ],
-    "C-17": []
+    ]
   },
   "programados": {
     "C-39": [
@@ -310,6 +309,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
+    },
+    "C-17": {
+      "fecha": "2026-10-29T01:12:30+00:00",
+      "mensaje_id": 59988,
+      "url": "https://t.me/empresaelectricacienfuegos1/59988",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt."
     }
   },
   "restablecimientos_probables": {
@@ -1077,15 +1085,6 @@
       "confianza": 100,
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
-    "C-17": {
-      "fecha": "2026-10-28T23:58:03+00:00",
-      "mensaje_id": 59986,
-      "url": "https://t.me/empresaelectricacienfuegos1/59986",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt."
-    },
     "C-39": {
       "fecha": "2026-10-28T21:48:35+00:00",
       "mensaje_id": 59979,
@@ -1148,6 +1147,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
+    },
+    "C-17": {
+      "fecha": "2026-10-29T01:12:30+00:00",
+      "mensaje_id": 59988,
+      "url": "https://t.me/empresaelectricacienfuegos1/59988",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt."
     },
     "C-92": {
       "fecha": "2026-10-29T00:40:27+00:00",
@@ -1422,8 +1430,7 @@
     "C-7": "déficit",
     "C-57": "déficit",
     "C-8": "déficit",
-    "C-35": "déficit",
-    "C-17": "emergencia"
+    "C-35": "déficit"
   },
   "error": null,
   "pendientes_revision": [
@@ -1856,7 +1863,7 @@
     }
   ],
   "lectura": {
-    "texto": 70,
+    "texto": 71,
     "imagenes": 66,
     "pdf": 0,
     "no_leidos": 13
@@ -1924,15 +1931,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-70",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-27T06:10:02+00:00",
-      "mensaje_id": 59892,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59891",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59892"
-    },
     {
       "circuito": "C-19",
       "tipo": "salida_lista",
@@ -2823,15 +2821,23 @@
       "mensaje_id": 59987,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59984",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59987"
+    },
+    {
+      "circuito": "C-17",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-29T01:12:30+00:00",
+      "mensaje_id": 59988,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59986",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59988"
     }
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-29T00:40:27+00:00",
-  "total_circuitos_afectados": 52,
+  "total_circuitos_afectados": 51,
   "total_circuitos_programados": 6,
   "total_restablecimientos_probables": 11,
   "circuitos_sin_catalogar": [
-    "C-17",
     "C-18",
     "C-20",
     "C-31",
@@ -2844,5 +2850,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-29T01:09:24.293801+00:00"
+  "actualizado": "2026-10-29T01:24:23.648068+00:00"
 }
