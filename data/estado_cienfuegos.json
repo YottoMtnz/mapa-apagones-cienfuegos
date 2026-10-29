@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-29T19:34:30+00:00",
-  "mensajes_leidos": 148,
+  "mensajes_leidos": 147,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -22,8 +22,6 @@
       "Rodas (Bombeo Agua Rodas 0-12",
       "Rodas"
     ],
-    "S-2382": [],
-    "S-5814": [],
     "C-52": [
       "Paradero de Camarones",
       "Vía Estrecha",
@@ -55,9 +53,6 @@
     ],
     "C-50": [
       "Palmira (Norte"
-    ],
-    "C-90": [
-      "FW1558) La Pollera"
     ],
     "C-80": [
       "Punta Cotica",
@@ -243,7 +238,6 @@
       "Gavilán",
       "Boca Ambuila"
     ],
-    "S-3389": [],
     "C-21": [
       "Santa Elena",
       "La Candita",
@@ -405,24 +399,6 @@
       "confianza": 100,
       "texto": "👉C-22 Rodas (Bombeo Agua Rodas 0-12)"
     },
-    "S-2382": {
-      "fecha": "2026-10-29T11:04:10+00:00",
-      "mensaje_id": 60001,
-      "url": "https://t.me/empresaelectricacienfuegos1/60001",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
-    "S-5814": {
-      "fecha": "2026-10-29T11:04:10+00:00",
-      "mensaje_id": 60001,
-      "url": "https://t.me/empresaelectricacienfuegos1/60001",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
-    },
     "C-52": {
       "fecha": "2026-10-29T21:39:17+00:00",
       "mensaje_id": 60028,
@@ -494,15 +470,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-50 \"Palmira (Norte)."
-    },
-    "C-90": {
-      "fecha": "2026-10-29T11:04:10+00:00",
-      "mensaje_id": 60001,
-      "url": "https://t.me/empresaelectricacienfuegos1/60001",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉FW1558 La Pollera (C-90)"
     },
     "C-80": {
       "fecha": "2026-10-29T21:39:17+00:00",
@@ -819,15 +786,6 @@
       "confianza": 100,
       "texto": "👉C-75 La Legua, Gavilán, Boca Ambuila."
     },
-    "S-3389": {
-      "fecha": "2026-10-29T11:04:10+00:00",
-      "mensaje_id": 60001,
-      "url": "https://t.me/empresaelectricacienfuegos1/60001",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉 S-3389 San Antón, Callejón del Palmar, Quesada(C-33)"
-    },
     "C-21": {
       "fecha": "2026-10-29T21:39:17+00:00",
       "mensaje_id": 60028,
@@ -1042,12 +1000,10 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "avería / déficit",
-    "C-58": "avería / déficit",
+    "C-23": "déficit",
+    "C-58": "déficit",
     "C-27": "déficit",
     "C-22": "déficit",
-    "S-2382": "avería",
-    "S-5814": "avería",
     "C-52": "déficit",
     "C-65": "déficit",
     "C-66": "déficit",
@@ -1056,7 +1012,6 @@
     "C-5": "déficit",
     "C-28": "déficit",
     "C-50": "déficit",
-    "C-90": "avería",
     "C-80": "déficit",
     "C-18": "déficit",
     "C-24": "déficit",
@@ -1092,7 +1047,6 @@
     "C-29": "déficit",
     "C-39": "déficit / avería",
     "C-75": "déficit / avería",
-    "S-3389": "avería",
     "C-21": "avería / déficit",
     "C-37": "avería",
     "C-17": "emergencia",
@@ -1532,7 +1486,7 @@
     }
   ],
   "lectura": {
-    "texto": 81,
+    "texto": 80,
     "imagenes": 67,
     "pdf": 0,
     "no_leidos": 12
@@ -2516,7 +2470,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-29T15:50:19+00:00",
   "mw_fecha": "2026-10-29T21:39:17+00:00",
-  "total_circuitos_afectados": 69,
+  "total_circuitos_afectados": 65,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 1,
   "circuitos_sin_catalogar": [
@@ -2531,10 +2485,7 @@
     "C-59",
     "C-89",
     "C-94",
-    "C-95",
-    "S-2382",
-    "S-3389",
-    "S-5814"
+    "C-95"
   ],
-  "actualizado": "2026-10-29T22:49:23.378608+00:00"
+  "actualizado": "2026-10-29T23:04:29.850516+00:00"
 }
