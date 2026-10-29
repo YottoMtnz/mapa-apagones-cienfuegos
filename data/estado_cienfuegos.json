@@ -2,21 +2,12 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-29T11:04:10+00:00",
+  "reporte_fecha": "2026-10-29T12:26:37+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-29T10:14:38+00:00",
   "mensajes_leidos": 141,
   "afectados": {
-    "C-84": [
-      "Espartaco (Este",
-      "Maleza",
-      "Dagame",
-      "Paso del Medio",
-      "San Fernando de Camarones",
-      "Jurisdicción",
-      "Manaquita"
-    ],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
@@ -115,6 +106,15 @@
       "Potrerillo",
       "Peñasco",
       "Lomitas"
+    ],
+    "C-84": [
+      "Espartaco (Este",
+      "Maleza",
+      "Dagame",
+      "Paso del Medio",
+      "San Fernando de Camarones",
+      "Jurisdicción",
+      "Manaquita"
     ],
     "C-36": [
       "Cumanayagua (Sur",
@@ -273,7 +273,26 @@
       "Gavilán",
       "Boca Ambuila"
     ],
-    "S-3389": []
+    "S-3389": [],
+    "C-21": [
+      "Santa Elena",
+      "La Candita",
+      "Jabacoa",
+      "Batey Nuevo",
+      "Las Medidas"
+    ],
+    "C-37": [
+      "El Tablón",
+      "Los Coquitos",
+      "El Túnel",
+      "Jovero",
+      "El Mamey",
+      "Crucesitas",
+      "El Nicho",
+      "Vegueta"
+    ],
+    "C-76": [],
+    "C-17": []
   },
   "programados": {
     "C-65": [
@@ -291,35 +310,7 @@
       "Tulipán"
     ]
   },
-  "confirmados_con_servicio": {
-    "C-17": {
-      "fecha": "2026-10-29T01:12:30+00:00",
-      "mensaje_id": 59988,
-      "url": "https://t.me/empresaelectricacienfuegos1/59988",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt."
-    },
-    "C-21": {
-      "fecha": "2026-10-29T02:36:48+00:00",
-      "mensaje_id": 59993,
-      "url": "https://t.me/empresaelectricacienfuegos1/59993",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas."
-    },
-    "C-76": {
-      "fecha": "2026-10-29T02:39:32+00:00",
-      "mensaje_id": 59994,
-      "url": "https://t.me/empresaelectricacienfuegos1/59994",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
-    }
-  },
+  "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-30": {
       "fecha": "2026-10-29T10:34:27+00:00",
@@ -566,15 +557,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-84": {
-      "fecha": "2026-10-29T10:34:27+00:00",
-      "mensaje_id": 60000,
-      "url": "https://t.me/empresaelectricacienfuegos1/60000",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
-    },
     "C-23": {
       "fecha": "2026-10-29T11:04:10+00:00",
       "mensaje_id": 60001,
@@ -818,14 +800,23 @@
       "confianza": 100,
       "texto": "👉C-53 Potrerillo, El No, Peñasco, Lomitas."
     },
-    "C-36": {
+    "C-84": {
       "fecha": "2026-10-29T10:34:27+00:00",
       "mensaje_id": 60000,
       "url": "https://t.me/empresaelectricacienfuegos1/60000",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
+    "C-36": {
+      "fecha": "2026-10-29T12:26:37+00:00",
+      "mensaje_id": 60004,
+      "url": "https://t.me/empresaelectricacienfuegos1/60004",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
     },
     "C-85": {
       "fecha": "2026-10-29T10:34:27+00:00",
@@ -837,18 +828,18 @@
       "texto": "👉C-85 \"Cumanayagua (Centro)."
     },
     "C-33": {
-      "fecha": "2026-10-29T11:04:10+00:00",
-      "mensaje_id": 60001,
-      "url": "https://t.me/empresaelectricacienfuegos1/60001",
+      "fecha": "2026-10-29T12:26:37+00:00",
+      "mensaje_id": 60004,
+      "url": "https://t.me/empresaelectricacienfuegos1/60004",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉 S-3389 San Antón, Callejón del Palmar, Quesada(C-33)"
+      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     },
     "C-31": {
-      "fecha": "2026-10-29T10:34:27+00:00",
-      "mensaje_id": 60000,
-      "url": "https://t.me/empresaelectricacienfuegos1/60000",
+      "fecha": "2026-10-29T12:26:37+00:00",
+      "mensaje_id": 60004,
+      "url": "https://t.me/empresaelectricacienfuegos1/60004",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -882,13 +873,13 @@
       "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
     },
     "C-407": {
-      "fecha": "2026-10-29T10:34:27+00:00",
-      "mensaje_id": 60000,
-      "url": "https://t.me/empresaelectricacienfuegos1/60000",
+      "fecha": "2026-10-29T12:26:37+00:00",
+      "mensaje_id": 60004,
+      "url": "https://t.me/empresaelectricacienfuegos1/60004",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-407  \"Cocaleca, Poligráfico, Pastorita, O'bourke.\""
+      "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
     },
     "C-32": {
       "fecha": "2026-10-29T10:34:27+00:00",
@@ -900,9 +891,9 @@
       "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)"
     },
     "C-25": {
-      "fecha": "2026-10-29T10:34:27+00:00",
-      "mensaje_id": 60000,
-      "url": "https://t.me/empresaelectricacienfuegos1/60000",
+      "fecha": "2026-10-29T12:26:37+00:00",
+      "mensaje_id": 60004,
+      "url": "https://t.me/empresaelectricacienfuegos1/60004",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -936,13 +927,13 @@
       "texto": "👉C-102  La Ciruela"
     },
     "C-101": {
-      "fecha": "2026-10-29T10:34:27+00:00",
-      "mensaje_id": 60000,
-      "url": "https://t.me/empresaelectricacienfuegos1/60000",
+      "fecha": "2026-10-29T12:26:37+00:00",
+      "mensaje_id": 60004,
+      "url": "https://t.me/empresaelectricacienfuegos1/60004",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-101  Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
+      "texto": "👉C-101\"Cartagena, La Modelo, Sta Rosa, La Piragua, El Bajío, California, El Salado."
     },
     "C-103": {
       "fecha": "2026-10-29T10:34:27+00:00",
@@ -1053,9 +1044,9 @@
       "texto": "👉C-405 \"Pueblo Griffo Nuevo.\""
     },
     "C-69": {
-      "fecha": "2026-10-29T10:34:27+00:00",
-      "mensaje_id": 60000,
-      "url": "https://t.me/empresaelectricacienfuegos1/60000",
+      "fecha": "2026-10-29T12:26:37+00:00",
+      "mensaje_id": 60004,
+      "url": "https://t.me/empresaelectricacienfuegos1/60004",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1071,18 +1062,18 @@
       "texto": "👉C-29 Moncada, Constancia, Rosalía, Loma del Chivo, Simpatía, Charcas, Guasimal."
     },
     "C-39": {
-      "fecha": "2026-10-29T10:34:27+00:00",
-      "mensaje_id": 60000,
-      "url": "https://t.me/empresaelectricacienfuegos1/60000",
+      "fecha": "2026-10-29T12:26:37+00:00",
+      "mensaje_id": 60004,
+      "url": "https://t.me/empresaelectricacienfuegos1/60004",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-39 La Sierrita, El Brazo, Cafetal, Faisanera."
     },
     "C-75": {
-      "fecha": "2026-10-29T10:34:27+00:00",
-      "mensaje_id": 60000,
-      "url": "https://t.me/empresaelectricacienfuegos1/60000",
+      "fecha": "2026-10-29T12:26:37+00:00",
+      "mensaje_id": 60004,
+      "url": "https://t.me/empresaelectricacienfuegos1/60004",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1096,6 +1087,42 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉 S-3389 San Antón, Callejón del Palmar, Quesada(C-33)"
+    },
+    "C-21": {
+      "fecha": "2026-10-29T12:26:37+00:00",
+      "mensaje_id": 60004,
+      "url": "https://t.me/empresaelectricacienfuegos1/60004",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas."
+    },
+    "C-37": {
+      "fecha": "2026-10-29T12:26:37+00:00",
+      "mensaje_id": 60004,
+      "url": "https://t.me/empresaelectricacienfuegos1/60004",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
+    },
+    "C-76": {
+      "fecha": "2026-10-29T12:26:37+00:00",
+      "mensaje_id": 60004,
+      "url": "https://t.me/empresaelectricacienfuegos1/60004",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
+    },
+    "C-17": {
+      "fecha": "2026-10-29T12:26:37+00:00",
+      "mensaje_id": 60004,
+      "url": "https://t.me/empresaelectricacienfuegos1/60004",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt."
     },
     "C-65": {
       "fecha": "2026-10-29T10:14:38+00:00",
@@ -1132,33 +1159,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-65 Centro histórico, Reina (Aduana)."
-    },
-    "C-17": {
-      "fecha": "2026-10-29T01:12:30+00:00",
-      "mensaje_id": 59988,
-      "url": "https://t.me/empresaelectricacienfuegos1/59988",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt."
-    },
-    "C-21": {
-      "fecha": "2026-10-29T02:36:48+00:00",
-      "mensaje_id": 59993,
-      "url": "https://t.me/empresaelectricacienfuegos1/59993",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas."
-    },
-    "C-76": {
-      "fecha": "2026-10-29T02:39:32+00:00",
-      "mensaje_id": 59994,
-      "url": "https://t.me/empresaelectricacienfuegos1/59994",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
     },
     "C-30": {
       "fecha": "2026-10-29T10:34:27+00:00",
@@ -1405,7 +1405,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-84": "déficit",
     "C-23": "avería / déficit",
     "C-58": "avería / déficit",
     "C-27": "déficit",
@@ -1433,20 +1432,21 @@
     "C-54": "déficit",
     "C-82": "déficit",
     "C-53": "déficit",
-    "C-36": "déficit",
+    "C-84": "déficit",
+    "C-36": "déficit / avería",
     "C-85": "déficit",
-    "C-33": "déficit / avería",
-    "C-31": "déficit",
+    "C-33": "emergencia / déficit / avería",
+    "C-31": "emergencia / déficit",
     "C-88": "déficit",
     "C-72": "déficit",
     "C-47": "déficit",
-    "C-407": "déficit",
+    "C-407": "déficit / avería",
     "C-32": "déficit",
-    "C-25": "déficit",
+    "C-25": "déficit / avería",
     "C-55": "déficit",
     "C-49": "déficit",
     "C-102": "déficit",
-    "C-101": "déficit",
+    "C-101": "déficit / avería",
     "C-103": "déficit",
     "C-86": "déficit",
     "C-41": "déficit",
@@ -1459,44 +1459,18 @@
     "C-56": "déficit",
     "C-78": "déficit",
     "C-405": "déficit",
-    "C-69": "déficit",
+    "C-69": "déficit / avería",
     "C-29": "déficit",
-    "C-39": "déficit",
-    "C-75": "déficit",
-    "S-3389": "avería"
+    "C-39": "déficit / avería",
+    "C-75": "déficit / avería",
+    "S-3389": "avería",
+    "C-21": "avería",
+    "C-37": "avería",
+    "C-76": "avería",
+    "C-17": "emergencia"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_estado_explicito",
-      "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, Termoeléctrica, O'bourke.",
-      "circuitos": [
-        "C-407"
-      ],
-      "id": 59879,
-      "url": "https://t.me/empresaelectricacienfuegos1/59879",
-      "fecha": "2026-10-26T22:42:45+00:00"
-    },
-    {
-      "motivo": "sin_estado_explicito",
-      "texto": "👉C-406 San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58.",
-      "circuitos": [
-        "C-406"
-      ],
-      "id": 59881,
-      "url": "https://t.me/empresaelectricacienfuegos1/59881",
-      "fecha": "2026-10-26T23:08:35+00:00"
-    },
-    {
-      "motivo": "sin_estado_explicito",
-      "texto": "👉C-406 San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58.",
-      "circuitos": [
-        "C-406"
-      ],
-      "id": 59881,
-      "url": "https://t.me/empresaelectricacienfuegos1/59881",
-      "fecha": "2026-10-26T23:08:35+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\nYa\n1\n90 MW\neo\nDEFICIT DE GENERACION\na\nas\ni}\na\nHT]\n+\nUNE\nEMPRESA ELECTRIC.\ny\nCIENFUEGOS.\n»",
@@ -1891,6 +1865,27 @@
       "id": 60001,
       "url": "https://t.me/empresaelectricacienfuegos1/60001",
       "fecha": "2026-10-29T11:04:10+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "⚡En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
+      "id": 60003,
+      "url": "https://t.me/empresaelectricacienfuegos1/60003",
+      "fecha": "2026-10-29T12:24:21+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de 1928 MW a las 19:10 horas.",
+      "id": 60003,
+      "url": "https://t.me/empresaelectricacienfuegos1/60003",
+      "fecha": "2026-10-29T12:24:21+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
+      "id": 60004,
+      "url": "https://t.me/empresaelectricacienfuegos1/60004",
+      "fecha": "2026-10-29T12:26:37+00:00"
     }
   ],
   "lectura": {
@@ -2872,10 +2867,11 @@
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-29T10:34:27+00:00",
-  "total_circuitos_afectados": 59,
+  "total_circuitos_afectados": 63,
   "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
+    "C-17",
     "C-18",
     "C-2",
     "C-20",
@@ -2884,6 +2880,7 @@
     "C-43",
     "C-58",
     "C-59",
+    "C-76",
     "C-89",
     "C-94",
     "C-95",
@@ -2891,5 +2888,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-29T12:19:17.930359+00:00"
+  "actualizado": "2026-10-29T12:34:21.980199+00:00"
 }
