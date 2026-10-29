@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-29T10:14:38+00:00",
-  "mensajes_leidos": 143,
+  "mensajes_leidos": 141,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -1881,7 +1881,7 @@
   ],
   "lectura": {
     "texto": 74,
-    "imagenes": 69,
+    "imagenes": 67,
     "pdf": 0,
     "no_leidos": 13
   },
@@ -1952,16 +1952,16 @@
   },
   "transiciones": [
     {
-      "circuito": "C-28",
+      "circuito": "C-3",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-27T18:36:46+00:00",
       "mensaje_id": 59917,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59913",
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59915",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59917"
     },
     {
-      "circuito": "C-3",
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-27T18:36:46+00:00",
@@ -2321,15 +2321,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59956"
     },
     {
-      "circuito": "C-58",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-28T15:09:01+00:00",
-      "mensaje_id": 59957,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59951",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59957"
-    },
-    {
       "circuito": "C-82",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2349,6 +2340,15 @@
     },
     {
       "circuito": "C-53",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-28T15:09:01+00:00",
+      "mensaje_id": 59957,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59951",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59957"
+    },
+    {
+      "circuito": "C-58",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T15:09:01+00:00",
@@ -2870,5 +2870,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-29T10:19:24.256639+00:00"
+  "actualizado": "2026-10-29T10:34:21.124137+00:00"
 }
