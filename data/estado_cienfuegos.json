@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-29T02:27:12+00:00",
+  "reporte_fecha": "2026-10-29T02:39:32+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T21:48:35+00:00",
-  "mensajes_leidos": 140,
+  "mensajes_leidos": 141,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -37,13 +37,6 @@
     "C-22": [
       "Rodas (Bombeo Agua Rodas 0-12",
       "Rodas"
-    ],
-    "C-21": [
-      "Santa Elena",
-      "La Candita",
-      "Jabacoa",
-      "Batey Nuevo",
-      "Las Medidas"
     ],
     "C-38": [
       "El Abra",
@@ -239,8 +232,7 @@
       "Breñas",
       "Caña Brava",
       "Dolores"
-    ],
-    "C-76": []
+    ]
   },
   "programados": {
     "C-39": [
@@ -326,6 +318,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
+    "C-21": {
+      "fecha": "2026-10-29T02:36:48+00:00",
+      "mensaje_id": 59993,
+      "url": "https://t.me/empresaelectricacienfuegos1/59993",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas."
+    },
+    "C-76": {
+      "fecha": "2026-10-29T02:39:32+00:00",
+      "mensaje_id": 59994,
+      "url": "https://t.me/empresaelectricacienfuegos1/59994",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
     }
   },
   "restablecimientos_probables": {
@@ -745,15 +755,6 @@
       "confianza": 100,
       "texto": "👉C-22 Rodas (Bombeo Agua Rodas 0-12)"
     },
-    "C-21": {
-      "fecha": "2026-10-28T17:46:48+00:00",
-      "mensaje_id": 59963,
-      "url": "https://t.me/empresaelectricacienfuegos1/59963",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas."
-    },
     "C-38": {
       "fecha": "2026-10-29T02:27:12+00:00",
       "mensaje_id": 59992,
@@ -1123,15 +1124,6 @@
       "confianza": 100,
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
-    "C-76": {
-      "fecha": "2026-10-29T02:20:13+00:00",
-      "mensaje_id": 59991,
-      "url": "https://t.me/empresaelectricacienfuegos1/59991",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
-    },
     "C-39": {
       "fecha": "2026-10-28T21:48:35+00:00",
       "mensaje_id": 59979,
@@ -1212,6 +1204,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
+    "C-21": {
+      "fecha": "2026-10-29T02:36:48+00:00",
+      "mensaje_id": 59993,
+      "url": "https://t.me/empresaelectricacienfuegos1/59993",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas."
+    },
+    "C-76": {
+      "fecha": "2026-10-29T02:39:32+00:00",
+      "mensaje_id": 59994,
+      "url": "https://t.me/empresaelectricacienfuegos1/59994",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
     },
     "C-92": {
       "fecha": "2026-10-29T02:27:12+00:00",
@@ -1491,14 +1501,13 @@
     "C-65": "déficit",
     "C-66": "déficit",
     "C-22": "déficit",
-    "C-21": "avería",
     "C-38": "déficit",
     "C-44": "déficit",
     "C-52": "déficit",
     "C-15": "déficit",
     "C-11": "déficit",
     "C-6": "déficit",
-    "C-20": "sin precisar / déficit",
+    "C-20": "déficit",
     "C-28": "déficit",
     "C-50": "déficit",
     "C-19": "déficit",
@@ -1506,7 +1515,7 @@
     "C-67": "déficit",
     "C-80": "déficit",
     "C-91": "déficit",
-    "C-18": "sin precisar / déficit",
+    "C-18": "déficit",
     "C-43": "déficit",
     "C-24": "déficit",
     "C-54": "déficit",
@@ -1532,8 +1541,7 @@
     "C-7": "déficit",
     "C-57": "déficit",
     "C-8": "déficit",
-    "C-35": "déficit",
-    "C-76": "sin precisar"
+    "C-35": "déficit"
   },
   "error": null,
   "pendientes_revision": [
@@ -1967,7 +1975,7 @@
     }
   ],
   "lectura": {
-    "texto": 72,
+    "texto": 73,
     "imagenes": 68,
     "pdf": 0,
     "no_leidos": 13
@@ -2033,24 +2041,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-20",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-27T11:42:00+00:00",
-      "mensaje_id": 59899,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59894",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59899"
-    },
-    {
-      "circuito": "C-43",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-27T11:42:00+00:00",
-      "mensaje_id": 59899,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59894",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59899"
-    },
     {
       "circuito": "C-5",
       "tipo": "salida_lista",
@@ -2529,7 +2519,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59959"
     },
     {
-      "circuito": "C-103",
+      "circuito": "C-101",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T16:21:55+00:00",
@@ -2547,7 +2537,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59959"
     },
     {
-      "circuito": "C-101",
+      "circuito": "C-103",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T16:21:55+00:00",
@@ -2932,11 +2922,29 @@
       "mensaje_id": 59992,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59987",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59992"
+    },
+    {
+      "circuito": "C-21",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-29T02:36:48+00:00",
+      "mensaje_id": 59993,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59963",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59993"
+    },
+    {
+      "circuito": "C-76",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-10-29T02:39:32+00:00",
+      "mensaje_id": 59994,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59991",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59994"
     }
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-29T02:27:12+00:00",
-  "total_circuitos_afectados": 50,
+  "total_circuitos_afectados": 48,
   "total_circuitos_programados": 6,
   "total_restablecimientos_probables": 13,
   "circuitos_sin_catalogar": [
@@ -2947,11 +2955,10 @@
     "C-43",
     "C-58",
     "C-59",
-    "C-76",
     "C-89",
     "C-92",
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-29T02:34:36.670927+00:00"
+  "actualizado": "2026-10-29T02:49:30.903655+00:00"
 }
