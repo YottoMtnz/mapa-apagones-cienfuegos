@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-29T20:18:56+00:00",
+  "reporte_fecha": "2026-10-29T20:33:07+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-29T19:34:30+00:00",
-  "mensajes_leidos": 147,
+  "mensajes_leidos": 148,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -302,7 +302,8 @@
     ],
     "C-56": [
       "Cruces (Norte"
-    ]
+    ],
+    "C-76": []
   },
   "programados": {
     "C-91": [
@@ -311,15 +312,6 @@
     ]
   },
   "confirmados_con_servicio": {
-    "C-76": {
-      "fecha": "2026-10-29T16:52:56+00:00",
-      "mensaje_id": 60016,
-      "url": "https://t.me/empresaelectricacienfuegos1/60016",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
-    },
     "C-62": {
       "fecha": "2026-10-29T18:49:41+00:00",
       "mensaje_id": 60020,
@@ -1023,6 +1015,15 @@
       "confianza": 100,
       "texto": "👉C-56 \"Cruces (Norte)."
     },
+    "C-76": {
+      "fecha": "2026-10-29T20:33:07+00:00",
+      "mensaje_id": 60024,
+      "url": "https://t.me/empresaelectricacienfuegos1/60024",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
+    },
     "C-91": {
       "fecha": "2026-10-29T19:34:30+00:00",
       "mensaje_id": 60021,
@@ -1031,15 +1032,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-91 Buena Vista, La Esperanza."
-    },
-    "C-76": {
-      "fecha": "2026-10-29T16:52:56+00:00",
-      "mensaje_id": 60016,
-      "url": "https://t.me/empresaelectricacienfuegos1/60016",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
     },
     "C-62": {
       "fecha": "2026-10-29T18:49:41+00:00",
@@ -1189,17 +1181,11 @@
     "C-30": "déficit",
     "C-95": "déficit",
     "C-44": "déficit",
-    "C-56": "déficit"
+    "C-56": "déficit",
+    "C-76": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\nY\ny\n69 MW\n-\nDEFICIT DE GENERACION\nZi Sox\nil,\n1\nUNE\nCIENFUEGOS.\na EY",
-      "id": 59898,
-      "url": "https://t.me/empresaelectricacienfuegos1/59898",
-      "fecha": "2026-10-27T11:38:34+00:00"
-    },
     {
       "motivo": "resumen_historico",
       "texto": "👉🏻En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
@@ -1608,11 +1594,18 @@
       "id": 60022,
       "url": "https://t.me/empresaelectricacienfuegos1/60022",
       "fecha": "2026-10-29T19:41:13+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nDisparo Automático por Frecuencia\n(DAF)\nMM\nq\nSS Ne\ny\n4%\nel",
+      "id": 60024,
+      "url": "https://t.me/empresaelectricacienfuegos1/60024",
+      "fecha": "2026-10-29T20:33:07+00:00"
     }
   ],
   "lectura": {
     "texto": 79,
-    "imagenes": 68,
+    "imagenes": 69,
     "pdf": 0,
     "no_leidos": 13
   },
@@ -2593,7 +2586,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-29T15:50:19+00:00",
   "mw_fecha": "2026-10-29T20:18:56+00:00",
-  "total_circuitos_afectados": 67,
+  "total_circuitos_afectados": 68,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 3,
   "circuitos_sin_catalogar": [
@@ -2606,6 +2599,7 @@
     "C-43",
     "C-58",
     "C-59",
+    "C-76",
     "C-89",
     "C-94",
     "C-95",
@@ -2613,5 +2607,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-29T20:24:31.941210+00:00"
+  "actualizado": "2026-10-29T20:33:23.228579+00:00"
 }
