@@ -6,8 +6,17 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-29T10:14:38+00:00",
-  "mensajes_leidos": 142,
+  "mensajes_leidos": 141,
   "afectados": {
+    "C-84": [
+      "Espartaco (Este",
+      "Maleza",
+      "Dagame",
+      "Paso del Medio",
+      "San Fernando de Camarones",
+      "Jurisdicción",
+      "Manaquita"
+    ],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
@@ -17,15 +26,6 @@
     "C-27": [
       "Barrio Matadero",
       "Juraguá"
-    ],
-    "C-84": [
-      "Espartaco (Este",
-      "Maleza",
-      "Dagame",
-      "Paso del Medio",
-      "San Fernando de Camarones",
-      "Jurisdicción",
-      "Manaquita"
     ],
     "C-22": [
       "Rodas (Bombeo Agua Rodas 0-12",
@@ -566,6 +566,15 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
+    "C-84": {
+      "fecha": "2026-10-29T10:34:27+00:00",
+      "mensaje_id": 60000,
+      "url": "https://t.me/empresaelectricacienfuegos1/60000",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
     "C-23": {
       "fecha": "2026-10-29T11:04:10+00:00",
       "mensaje_id": 60001,
@@ -592,15 +601,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
-    },
-    "C-84": {
-      "fecha": "2026-10-29T10:34:27+00:00",
-      "mensaje_id": 60000,
-      "url": "https://t.me/empresaelectricacienfuegos1/60000",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-84 \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     },
     "C-22": {
       "fecha": "2026-10-29T10:34:27+00:00",
@@ -1405,10 +1405,10 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-84": "déficit",
     "C-23": "avería / déficit",
     "C-58": "avería / déficit",
     "C-27": "déficit",
-    "C-84": "déficit",
     "C-22": "déficit",
     "C-44": "déficit",
     "S-2382": "avería",
@@ -1894,7 +1894,7 @@
     }
   ],
   "lectura": {
-    "texto": 75,
+    "texto": 74,
     "imagenes": 67,
     "pdf": 0,
     "no_leidos": 12
@@ -2078,7 +2078,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59922"
     },
     {
-      "circuito": "C-65",
+      "circuito": "C-66",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-27T23:47:56+00:00",
@@ -2087,7 +2087,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59927"
     },
     {
-      "circuito": "C-66",
+      "circuito": "C-65",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-27T23:47:56+00:00",
@@ -2348,7 +2348,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59957"
     },
     {
-      "circuito": "C-54",
+      "circuito": "C-53",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T15:09:01+00:00",
@@ -2357,7 +2357,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59957"
     },
     {
-      "circuito": "C-53",
+      "circuito": "C-54",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T15:09:01+00:00",
@@ -2393,7 +2393,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59959"
     },
     {
-      "circuito": "C-103",
+      "circuito": "C-101",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T16:21:55+00:00",
@@ -2411,7 +2411,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59959"
     },
     {
-      "circuito": "C-101",
+      "circuito": "C-103",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T16:21:55+00:00",
@@ -2420,7 +2420,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59959"
     },
     {
-      "circuito": "C-39",
+      "circuito": "C-33",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T16:21:55+00:00",
@@ -2438,7 +2438,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59959"
     },
     {
-      "circuito": "C-33",
+      "circuito": "C-39",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T16:21:55+00:00",
@@ -2501,7 +2501,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59964"
     },
     {
-      "circuito": "C-31",
+      "circuito": "C-88",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T17:50:14+00:00",
@@ -2510,7 +2510,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59964"
     },
     {
-      "circuito": "C-88",
+      "circuito": "C-31",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T17:50:14+00:00",
@@ -2825,7 +2825,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59996"
     },
     {
-      "circuito": "C-65",
+      "circuito": "C-66",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-29T05:25:11+00:00",
@@ -2834,7 +2834,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59997"
     },
     {
-      "circuito": "C-66",
+      "circuito": "C-65",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-29T05:25:11+00:00",
@@ -2891,5 +2891,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-29T11:49:13.761329+00:00"
+  "actualizado": "2026-10-29T12:04:36.159326+00:00"
 }
