@@ -6,15 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-29T16:28:03+00:00",
-  "mensajes_leidos": 144,
+  "mensajes_leidos": 143,
   "afectados": {
-    "C-65": [
-      "Centro histórico",
-      "Reina (Aduana"
-    ],
-    "C-66": [
-      "Reina (Parque"
-    ],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
@@ -41,6 +34,13 @@
     "C-15": [
       "Pepito Tey",
       "Guabairo"
+    ],
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
+    ],
+    "C-66": [
+      "Reina (Parque"
     ],
     "C-6": [
       "Rancho Luna",
@@ -487,24 +487,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-65": {
-      "fecha": "2026-10-29T17:40:40+00:00",
-      "mensaje_id": 60017,
-      "url": "https://t.me/empresaelectricacienfuegos1/60017",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
-    },
-    "C-66": {
-      "fecha": "2026-10-29T17:40:40+00:00",
-      "mensaje_id": 60017,
-      "url": "https://t.me/empresaelectricacienfuegos1/60017",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-66 Reina (Parque)"
-    },
     "C-23": {
       "fecha": "2026-10-29T17:40:40+00:00",
       "mensaje_id": 60017,
@@ -576,6 +558,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
+    "C-65": {
+      "fecha": "2026-10-29T17:40:40+00:00",
+      "mensaje_id": 60017,
+      "url": "https://t.me/empresaelectricacienfuegos1/60017",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-65 Centro histórico, Reina (Aduana)"
+    },
+    "C-66": {
+      "fecha": "2026-10-29T17:40:40+00:00",
+      "mensaje_id": 60017,
+      "url": "https://t.me/empresaelectricacienfuegos1/60017",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-66 Reina (Parque)"
     },
     "C-6": {
       "fecha": "2026-10-29T17:40:40+00:00",
@@ -1272,8 +1272,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-65": "déficit",
-    "C-66": "déficit",
     "C-23": "avería / déficit",
     "C-58": "avería / déficit",
     "C-27": "déficit",
@@ -1282,6 +1280,8 @@
     "S-5814": "avería",
     "C-52": "déficit",
     "C-15": "déficit",
+    "C-65": "déficit",
+    "C-66": "déficit",
     "C-6": "déficit",
     "C-20": "déficit",
     "C-28": "déficit",
@@ -1760,7 +1760,7 @@
     }
   ],
   "lectura": {
-    "texto": 77,
+    "texto": 76,
     "imagenes": 67,
     "pdf": 0,
     "no_leidos": 13
@@ -2761,5 +2761,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-29T18:09:23.073768+00:00"
+  "actualizado": "2026-10-29T18:24:22.001906+00:00"
 }
