@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-29T19:34:30+00:00",
-  "mensajes_leidos": 148,
+  "mensajes_leidos": 149,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -1195,13 +1195,6 @@
   "pendientes_revision": [
     {
       "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de         1983 MW a las 19:10 horas.",
-      "id": 59902,
-      "url": "https://t.me/empresaelectricacienfuegos1/59902",
-      "fecha": "2026-10-27T13:28:02+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
       "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
       "id": 59903,
       "url": "https://t.me/empresaelectricacienfuegos1/59903",
@@ -1608,11 +1601,18 @@
       "id": 60025,
       "url": "https://t.me/empresaelectricacienfuegos1/60025",
       "fecha": "2026-10-29T20:33:39+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\nGENERACIÓN Bf a. 4\nDEFICIT DE Nine 2\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 60027,
+      "url": "https://t.me/empresaelectricacienfuegos1/60027",
+      "fecha": "2026-10-29T21:33:34+00:00"
     }
   ],
   "lectura": {
     "texto": 80,
-    "imagenes": 68,
+    "imagenes": 69,
     "pdf": 0,
     "no_leidos": 12
   },
@@ -2613,5 +2613,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-29T21:19:23.456444+00:00"
+  "actualizado": "2026-10-29T21:34:19.800119+00:00"
 }
