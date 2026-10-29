@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-29T18:49:41+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-10-29T16:28:03+00:00",
-  "mensajes_leidos": 144,
+  "programado_fecha": "2026-10-29T19:34:30+00:00",
+  "mensajes_leidos": 145,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -284,7 +284,12 @@
     "C-59": [],
     "C-43": []
   },
-  "programados": {},
+  "programados": {
+    "C-91": [
+      "Buena Vista",
+      "La Esperanza"
+    ]
+  },
   "confirmados_con_servicio": {
     "C-76": {
       "fecha": "2026-10-29T16:52:56+00:00",
@@ -1041,6 +1046,15 @@
       "confianza": 100,
       "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
     },
+    "C-91": {
+      "fecha": "2026-10-29T19:34:30+00:00",
+      "mensaje_id": 60021,
+      "url": "https://t.me/empresaelectricacienfuegos1/60021",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
     "C-76": {
       "fecha": "2026-10-29T16:52:56+00:00",
       "mensaje_id": 60016,
@@ -1205,36 +1219,15 @@
       "lugares": [
         "Cruces (Norte"
       ]
-    },
-    "C-91": {
-      "fecha": "2026-10-29T18:47:22+00:00",
-      "mensaje_id": 60019,
-      "url": "https://t.me/empresaelectricacienfuegos1/60019",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-28 CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-29T17:40:40+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-10-29T16:33:56+00:00",
-        "mensaje_id": 60013,
-        "url": "https://t.me/empresaelectricacienfuegos1/60013",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-91 Buena Vista, La Esperanza."
-      },
-      "lugares": [
-        "Buena Vista",
-        "La Esperanza"
-      ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-91": {
+      "inicio": null,
+      "fin": "2026-10-30T07:34:30+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 65.0,
   "hora_inicio": null,
@@ -1725,7 +1718,7 @@
   ],
   "lectura": {
     "texto": 78,
-    "imagenes": 66,
+    "imagenes": 67,
     "pdf": 0,
     "no_leidos": 13
   },
@@ -2701,7 +2694,7 @@
   "lectura_incompleta_desde": "2026-10-29T15:50:19+00:00",
   "mw_fecha": "2026-10-29T18:47:22+00:00",
   "total_circuitos_afectados": 62,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 6,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2720,5 +2713,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-29T19:24:25.162926+00:00"
+  "actualizado": "2026-10-29T19:39:24.636463+00:00"
 }
