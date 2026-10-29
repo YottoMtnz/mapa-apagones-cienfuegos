@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-28T23:20:22+00:00",
+  "reporte_fecha": "2026-10-28T23:58:03+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-28T21:48:35+00:00",
-  "mensajes_leidos": 134,
+  "mensajes_leidos": 135,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -247,7 +247,8 @@
       "Breñas",
       "Caña Brava",
       "Dolores"
-    ]
+    ],
+    "C-17": []
   },
   "programados": {
     "C-39": [
@@ -318,30 +319,6 @@
     }
   },
   "restablecimientos_probables": {
-    "C-17": {
-      "fecha": "2026-10-28T23:20:22+00:00",
-      "mensaje_id": 59984,
-      "url": "https://t.me/empresaelectricacienfuegos1/59984",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-26T10:18:23+00:00",
-      "listas_consecutivas": 41,
-      "aviso_anterior": {
-        "fecha": "2026-10-26T05:26:52+00:00",
-        "mensaje_id": 59854,
-        "url": "https://t.me/empresaelectricacienfuegos1/59854",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
-      },
-      "lugares": []
-    },
     "C-92": {
       "fecha": "2026-10-28T23:20:22+00:00",
       "mensaje_id": 59984,
@@ -1115,6 +1092,15 @@
       "confianza": 100,
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
+    "C-17": {
+      "fecha": "2026-10-28T23:58:03+00:00",
+      "mensaje_id": 59986,
+      "url": "https://t.me/empresaelectricacienfuegos1/59986",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt."
+    },
     "C-39": {
       "fecha": "2026-10-28T21:48:35+00:00",
       "mensaje_id": 59979,
@@ -1177,30 +1163,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
-    },
-    "C-17": {
-      "fecha": "2026-10-28T23:20:22+00:00",
-      "mensaje_id": 59984,
-      "url": "https://t.me/empresaelectricacienfuegos1/59984",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-38 El Abra, Crespo, Quiñones, La Parra, El Granizo, El Jíbaro, La Jutía, Hervidero.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-10-26T10:18:23+00:00",
-      "listas_consecutivas": 41,
-      "aviso_anterior": {
-        "fecha": "2026-10-26T05:26:52+00:00",
-        "mensaje_id": 59854,
-        "url": "https://t.me/empresaelectricacienfuegos1/59854",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
-      },
-      "lugares": []
     },
     "C-92": {
       "fecha": "2026-10-28T23:20:22+00:00",
@@ -1476,17 +1438,11 @@
     "C-7": "déficit",
     "C-57": "déficit",
     "C-8": "déficit",
-    "C-35": "déficit"
+    "C-35": "déficit",
+    "C-17": "emergencia"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n1\nNy\nY\n\\\n39 MW\naN\nDEFICIT DE GENERACION\nZi Sox\n“1\na\n-\nUNE\nCIENFUEGOS.\na EY",
-      "id": 59871,
-      "url": "https://t.me/empresaelectricacienfuegos1/59871",
-      "fecha": "2026-10-26T16:06:01+00:00"
-    },
     {
       "id": 59876,
       "url": "https://t.me/empresaelectricacienfuegos1/59876",
@@ -1906,11 +1862,18 @@
       "id": 59985,
       "url": "https://t.me/empresaelectricacienfuegos1/59985",
       "fecha": "2026-10-28T23:23:33+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\n> | S y\nEl | a",
+      "id": 59986,
+      "url": "https://t.me/empresaelectricacienfuegos1/59986",
+      "fecha": "2026-10-28T23:58:03+00:00"
     }
   ],
   "lectura": {
     "texto": 69,
-    "imagenes": 65,
+    "imagenes": 66,
     "pdf": 0,
     "no_leidos": 13
   },
@@ -2881,9 +2844,9 @@
   ],
   "lectura_incompleta_desde": "2026-10-27T10:24:37+00:00",
   "mw_fecha": "2026-10-28T23:20:22+00:00",
-  "total_circuitos_afectados": 52,
+  "total_circuitos_afectados": 53,
   "total_circuitos_programados": 6,
-  "total_restablecimientos_probables": 12,
+  "total_restablecimientos_probables": 11,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2898,5 +2861,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-28T23:54:27.560603+00:00"
+  "actualizado": "2026-10-29T00:10:02.260959+00:00"
 }
