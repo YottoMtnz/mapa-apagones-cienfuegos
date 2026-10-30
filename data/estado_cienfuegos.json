@@ -6,12 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 131,
+  "mensajes_leidos": 130,
   "afectados": {
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
-    ],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
@@ -24,6 +20,10 @@
       "Espartaco",
       "La Macana",
       "Cherepa"
+    ],
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
     ],
     "C-90": [
       "FW1558) La Pollera"
@@ -443,15 +443,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-15": {
-      "fecha": "2026-10-30T17:25:43+00:00",
-      "mensaje_id": 60047,
-      "url": "https://t.me/empresaelectricacienfuegos1/60047",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-15  Pepito Tey, Guabairo."
-    },
     "C-23": {
       "fecha": "2026-10-30T17:25:43+00:00",
       "mensaje_id": 60047,
@@ -478,6 +469,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-52  Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
+    },
+    "C-15": {
+      "fecha": "2026-10-30T17:25:43+00:00",
+      "mensaje_id": 60047,
+      "url": "https://t.me/empresaelectricacienfuegos1/60047",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15  Pepito Tey, Guabairo."
     },
     "C-90": {
       "fecha": "2026-10-30T17:25:43+00:00",
@@ -1207,10 +1207,10 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-15": "déficit",
     "C-23": "avería / déficit",
     "C-58": "avería / déficit",
     "C-52": "déficit",
+    "C-15": "déficit",
     "C-90": "avería / déficit",
     "S-2382": "avería",
     "S-5814": "avería",
@@ -1725,7 +1725,7 @@
   ],
   "lectura": {
     "texto": 74,
-    "imagenes": 57,
+    "imagenes": 56,
     "pdf": 0,
     "no_leidos": 9
   },
@@ -2732,5 +2732,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-30T18:19:35.393334+00:00"
+  "actualizado": "2026-10-30T18:34:19.121713+00:00"
 }
