@@ -6,8 +6,12 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 134,
+  "mensajes_leidos": 132,
   "afectados": {
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
+    ],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
@@ -20,10 +24,6 @@
       "Espartaco",
       "La Macana",
       "Cherepa"
-    ],
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
     ],
     "C-90": [
       "FW1558) La Pollera"
@@ -422,6 +422,15 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
+    "C-15": {
+      "fecha": "2026-10-30T16:13:22+00:00",
+      "mensaje_id": 60046,
+      "url": "https://t.me/empresaelectricacienfuegos1/60046",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15  Pepito Tey, Guabairo."
+    },
     "C-23": {
       "fecha": "2026-10-30T16:13:22+00:00",
       "mensaje_id": 60046,
@@ -448,15 +457,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-52  Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
-    },
-    "C-15": {
-      "fecha": "2026-10-30T16:13:22+00:00",
-      "mensaje_id": 60046,
-      "url": "https://t.me/empresaelectricacienfuegos1/60046",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-15  Pepito Tey, Guabairo."
     },
     "C-90": {
       "fecha": "2026-10-30T16:13:22+00:00",
@@ -1160,10 +1160,10 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-15": "déficit",
     "C-23": "avería / déficit",
     "C-58": "avería / déficit",
     "C-52": "déficit",
-    "C-15": "déficit",
     "C-90": "avería / déficit",
     "S-2382": "avería",
     "S-5814": "avería",
@@ -1677,10 +1677,10 @@
     }
   ],
   "lectura": {
-    "texto": 74,
-    "imagenes": 60,
+    "texto": 73,
+    "imagenes": 59,
     "pdf": 0,
-    "no_leidos": 10
+    "no_leidos": 9
   },
   "listas_completas": {
     "deficit": {
@@ -1760,7 +1760,7 @@
   },
   "transiciones": [
     {
-      "circuito": "C-101",
+      "circuito": "C-103",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T16:21:55+00:00",
@@ -1949,7 +1949,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59967"
     },
     {
-      "circuito": "C-7",
+      "circuito": "C-57",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T19:12:57+00:00",
@@ -1967,7 +1967,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59967"
     },
     {
-      "circuito": "C-57",
+      "circuito": "C-7",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T19:12:57+00:00",
@@ -2683,5 +2683,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-30T16:14:13.758922+00:00"
+  "actualizado": "2026-10-30T16:29:19.210533+00:00"
 }
