@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 136,
+  "mensajes_leidos": 137,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -1332,12 +1332,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "id": 59923,
-      "url": "https://t.me/empresaelectricacienfuegos1/59923",
-      "fecha": "2026-10-27T22:03:50+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
-    {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n80 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
       "id": 59924,
@@ -1772,11 +1766,18 @@
       "id": 60043,
       "url": "https://t.me/empresaelectricacienfuegos1/60043",
       "fecha": "2026-10-30T12:59:45+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\nGENERACIÓN Bf a. 4\nDEFICIT DE Nine 2\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 60044,
+      "url": "https://t.me/empresaelectricacienfuegos1/60044",
+      "fecha": "2026-10-30T14:58:29+00:00"
     }
   ],
   "lectura": {
     "texto": 75,
-    "imagenes": 61,
+    "imagenes": 62,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -2781,5 +2782,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-30T14:44:24.718725+00:00"
+  "actualizado": "2026-10-30T14:59:24.793872+00:00"
 }
