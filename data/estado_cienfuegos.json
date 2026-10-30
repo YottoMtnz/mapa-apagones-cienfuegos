@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 132,
+  "mensajes_leidos": 131,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -28,8 +28,6 @@
     "C-90": [
       "FW1558) La Pollera"
     ],
-    "S-2382": [],
-    "S-5814": [],
     "C-26": [
       "Caonao",
       "Los Tanques",
@@ -214,7 +212,6 @@
       "Gavilán",
       "Boca Ambuila"
     ],
-    "S-3389": [],
     "C-21": [
       "Santa Elena",
       "La Candita",
@@ -509,24 +506,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-90  La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
-    },
-    "S-2382": {
-      "fecha": "2026-10-30T11:14:00+00:00",
-      "mensaje_id": 60039,
-      "url": "https://t.me/empresaelectricacienfuegos1/60039",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
-    "S-5814": {
-      "fecha": "2026-10-30T11:14:00+00:00",
-      "mensaje_id": 60039,
-      "url": "https://t.me/empresaelectricacienfuegos1/60039",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
     },
     "C-26": {
       "fecha": "2026-10-30T22:40:29+00:00",
@@ -842,15 +821,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-75  La Legua, Gavilán, Boca Ambuila."
-    },
-    "S-3389": {
-      "fecha": "2026-10-30T11:14:00+00:00",
-      "mensaje_id": 60039,
-      "url": "https://t.me/empresaelectricacienfuegos1/60039",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-3389 San Antón, Callejón del Palmar, Quesada(C-33)"
     },
     "C-21": {
       "fecha": "2026-10-30T22:40:29+00:00",
@@ -1235,13 +1205,11 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "avería / déficit",
-    "C-58": "avería / déficit",
+    "C-23": "déficit",
+    "C-58": "déficit",
     "C-52": "déficit",
     "C-15": "déficit",
-    "C-90": "avería / déficit",
-    "S-2382": "avería",
-    "S-5814": "avería",
+    "C-90": "déficit",
     "C-26": "déficit",
     "C-67": "déficit",
     "C-2": "déficit",
@@ -1252,7 +1220,7 @@
     "C-53": "déficit",
     "C-84": "déficit / avería",
     "C-85": "déficit",
-    "C-33": "déficit / avería",
+    "C-33": "déficit",
     "C-31": "déficit",
     "C-88": "déficit",
     "C-72": "déficit",
@@ -1277,7 +1245,6 @@
     "C-29": "déficit",
     "C-39": "déficit",
     "C-75": "déficit",
-    "S-3389": "avería",
     "C-21": "déficit",
     "C-17": "déficit",
     "C-38": "déficit",
@@ -1836,7 +1803,7 @@
   ],
   "lectura": {
     "texto": 76,
-    "imagenes": 56,
+    "imagenes": 55,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -2817,7 +2784,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-10-30T18:43:25+00:00",
-  "total_circuitos_afectados": 67,
+  "total_circuitos_afectados": 64,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 6,
   "circuitos_sin_catalogar": [
@@ -2834,10 +2801,7 @@
     "C-89",
     "C-92",
     "C-94",
-    "C-95",
-    "S-2382",
-    "S-3389",
-    "S-5814"
+    "C-95"
   ],
-  "actualizado": "2026-10-30T22:59:22.002257+00:00"
+  "actualizado": "2026-10-30T23:14:23.074762+00:00"
 }
