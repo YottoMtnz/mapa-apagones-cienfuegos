@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-30T18:43:25+00:00",
+  "reporte_fecha": "2026-10-30T19:56:30+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 127,
+  "mensajes_leidos": 129,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -587,13 +587,13 @@
       "texto": "👉C-53  Potrerillo, El No, Peñasco, Lomitas."
     },
     "C-84": {
-      "fecha": "2026-10-30T18:43:25+00:00",
-      "mensaje_id": 60048,
-      "url": "https://t.me/empresaelectricacienfuegos1/60048",
+      "fecha": "2026-10-30T19:56:30+00:00",
+      "mensaje_id": 60049,
+      "url": "https://t.me/empresaelectricacienfuegos1/60049",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-84  \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     },
     "C-36": {
       "fecha": "2026-10-30T18:43:25+00:00",
@@ -1239,7 +1239,7 @@
     "C-54": "déficit",
     "C-82": "déficit",
     "C-53": "déficit",
-    "C-84": "déficit",
+    "C-84": "déficit / avería",
     "C-36": "déficit",
     "C-85": "déficit",
     "C-33": "déficit / avería",
@@ -1297,20 +1297,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n80 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
-      "id": 59924,
-      "url": "https://t.me/empresaelectricacienfuegos1/59924",
-      "fecha": "2026-10-27T22:21:21+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
-      "id": 59928,
-      "url": "https://t.me/empresaelectricacienfuegos1/59928",
-      "fecha": "2026-10-28T00:09:15+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
@@ -1739,13 +1725,26 @@
       "id": 60044,
       "url": "https://t.me/empresaelectricacienfuegos1/60044",
       "fecha": "2026-10-30T14:58:29+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nee",
+      "id": 60049,
+      "url": "https://t.me/empresaelectricacienfuegos1/60049",
+      "fecha": "2026-10-30T19:56:30+00:00"
+    },
+    {
+      "id": 60050,
+      "url": "https://t.me/empresaelectricacienfuegos1/60050",
+      "fecha": "2026-10-30T19:58:03+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 72,
-    "imagenes": 55,
+    "imagenes": 57,
     "pdf": 0,
-    "no_leidos": 9
+    "no_leidos": 10
   },
   "listas_completas": {
     "deficit": {
@@ -2751,5 +2750,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-30T19:49:14.048127+00:00"
+  "actualizado": "2026-10-30T20:04:28.308133+00:00"
 }
