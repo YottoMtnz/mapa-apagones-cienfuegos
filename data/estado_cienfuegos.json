@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-30T12:53:16+00:00",
+  "reporte_fecha": "2026-10-30T12:59:45+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 139,
+  "mensajes_leidos": 142,
   "afectados": {
     "C-22": [
       "Rodas (Bombeo Agua Rodas 0-12",
@@ -319,8 +319,10 @@
     "C-405": [
       "Pueblo Griffo Nuevo"
     ],
+    "C-401": [],
     "C-92": [],
-    "C-62": []
+    "C-62": [],
+    "C-76": []
   },
   "programados": {},
   "confirmados_con_servicio": {},
@@ -515,13 +517,13 @@
       "texto": "👉C-66 Reina (Parque)"
     },
     "C-406": {
-      "fecha": "2026-10-30T12:53:16+00:00",
-      "mensaje_id": 60040,
-      "url": "https://t.me/empresaelectricacienfuegos1/60040",
+      "fecha": "2026-10-30T12:59:45+00:00",
+      "mensaje_id": 60043,
+      "url": "https://t.me/empresaelectricacienfuegos1/60043",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-406          \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
+      "texto": "👉C-406 San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
     },
     "S-2382": {
       "fecha": "2026-10-30T11:14:00+00:00",
@@ -1019,9 +1021,9 @@
       "texto": "👉C-11 Ariza, Silverita, Nuevo México."
     },
     "C-44": {
-      "fecha": "2026-10-30T12:53:16+00:00",
-      "mensaje_id": 60040,
-      "url": "https://t.me/empresaelectricacienfuegos1/60040",
+      "fecha": "2026-10-30T12:59:45+00:00",
+      "mensaje_id": 60043,
+      "url": "https://t.me/empresaelectricacienfuegos1/60043",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1055,31 +1057,49 @@
       "texto": "👉C-91 Buena Vista, La Esperanza."
     },
     "C-405": {
-      "fecha": "2026-10-30T12:53:16+00:00",
-      "mensaje_id": 60040,
-      "url": "https://t.me/empresaelectricacienfuegos1/60040",
+      "fecha": "2026-10-30T12:59:45+00:00",
+      "mensaje_id": 60043,
+      "url": "https://t.me/empresaelectricacienfuegos1/60043",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-405          \"Pueblo Griffo Nuevo."
+      "texto": "👉C-405 Pueblo Griffo Nuevo."
+    },
+    "C-401": {
+      "fecha": "2026-10-30T12:59:45+00:00",
+      "mensaje_id": 60043,
+      "url": "https://t.me/empresaelectricacienfuegos1/60043",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-401 Zona Industrial 1, Almacenes CIMEX, El Miedo, La 13."
     },
     "C-92": {
-      "fecha": "2026-10-30T03:22:39+00:00",
-      "mensaje_id": 60036,
-      "url": "https://t.me/empresaelectricacienfuegos1/60036",
+      "fecha": "2026-10-30T12:59:45+00:00",
+      "mensaje_id": 60043,
+      "url": "https://t.me/empresaelectricacienfuegos1/60043",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-92 Calzada Dolores, San Lázaro."
     },
     "C-62": {
-      "fecha": "2026-10-30T12:53:16+00:00",
-      "mensaje_id": 60040,
-      "url": "https://t.me/empresaelectricacienfuegos1/60040",
+      "fecha": "2026-10-30T12:59:45+00:00",
+      "mensaje_id": 60043,
+      "url": "https://t.me/empresaelectricacienfuegos1/60043",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
       "texto": "👉C-62 Barajagua."
+    },
+    "C-76": {
+      "fecha": "2026-10-30T12:59:45+00:00",
+      "mensaje_id": 60043,
+      "url": "https://t.me/empresaelectricacienfuegos1/60043",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
     },
     "C-89": {
       "fecha": "2026-10-30T12:53:16+00:00",
@@ -1243,7 +1263,7 @@
     "C-6": "déficit",
     "C-65": "déficit",
     "C-66": "déficit",
-    "C-406": "déficit",
+    "C-406": "emergencia / déficit",
     "S-2382": "avería",
     "C-23": "avería / déficit",
     "S-5814": "avería",
@@ -1299,37 +1319,18 @@
     "C-59": "déficit",
     "C-43": "déficit",
     "C-11": "déficit",
-    "C-44": "déficit",
+    "C-44": "déficit / avería",
     "C-56": "déficit",
     "C-63": "déficit",
     "C-91": "déficit",
-    "C-405": "déficit",
+    "C-405": "déficit / emergencia",
+    "C-401": "emergencia",
     "C-92": "emergencia",
-    "C-62": "déficit"
+    "C-62": "déficit / emergencia",
+    "C-76": "avería"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
-      "id": 59915,
-      "url": "https://t.me/empresaelectricacienfuegos1/59915",
-      "fecha": "2026-10-27T18:06:33+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\nA\n|\noo\nS\nN\nY\ny\n4%\ne?\n- &@",
-      "id": 59916,
-      "url": "https://t.me/empresaelectricacienfuegos1/59916",
-      "fecha": "2026-10-27T18:21:56+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n68 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
-      "id": 59921,
-      "url": "https://t.me/empresaelectricacienfuegos1/59921",
-      "fecha": "2026-10-27T21:09:45+00:00"
-    },
     {
       "id": 59923,
       "url": "https://t.me/empresaelectricacienfuegos1/59923",
@@ -1750,11 +1751,32 @@
       "id": 60039,
       "url": "https://t.me/empresaelectricacienfuegos1/60039",
       "fecha": "2026-10-30T11:14:00+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "👉🏻En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
+      "id": 60042,
+      "url": "https://t.me/empresaelectricacienfuegos1/60042",
+      "fecha": "2026-10-30T12:57:59+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de         2004 MW a las 19:10 horas.",
+      "id": 60042,
+      "url": "https://t.me/empresaelectricacienfuegos1/60042",
+      "fecha": "2026-10-30T12:57:59+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
+      "id": 60043,
+      "url": "https://t.me/empresaelectricacienfuegos1/60043",
+      "fecha": "2026-10-30T12:59:45+00:00"
     }
   ],
   "lectura": {
-    "texto": 76,
-    "imagenes": 63,
+    "texto": 78,
+    "imagenes": 64,
     "pdf": 0,
     "no_leidos": 11
   },
@@ -2738,17 +2760,19 @@
   ],
   "lectura_incompleta_desde": "2026-10-29T15:50:19+00:00",
   "mw_fecha": "2026-10-30T12:53:16+00:00",
-  "total_circuitos_afectados": 67,
+  "total_circuitos_afectados": 69,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 6,
   "circuitos_sin_catalogar": [
     "C-2",
     "C-31",
+    "C-401",
     "C-408",
     "C-43",
     "C-58",
     "C-59",
     "C-62",
+    "C-76",
     "C-89",
     "C-92",
     "C-94",
@@ -2757,5 +2781,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-30T12:54:17.718539+00:00"
+  "actualizado": "2026-10-30T13:09:13.201372+00:00"
 }
