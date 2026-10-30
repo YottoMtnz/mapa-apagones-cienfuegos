@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-29T23:38:54+00:00",
+  "reporte_fecha": "2026-10-30T00:20:31+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-29T19:34:30+00:00",
-  "mensajes_leidos": 147,
+  "mensajes_leidos": 145,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -222,12 +222,6 @@
       "Guevara",
       "Aguada (Oeste"
     ],
-    "C-69": [
-      "Junco Sur",
-      "Reparto de los médicos",
-      "Las Minas",
-      "Playa Alegre"
-    ],
     "C-29": [
       "Moncada",
       "Constancia",
@@ -255,17 +249,6 @@
       "Batey Nuevo",
       "Las Medidas"
     ],
-    "C-37": [
-      "El Tablón",
-      "Los Coquitos",
-      "El Túnel",
-      "Jovero",
-      "El Mamey",
-      "Crucesitas",
-      "El Nicho",
-      "Vegueta"
-    ],
-    "C-17": [],
     "C-70": [
       "Aguada",
       "Federal"
@@ -323,7 +306,9 @@
     ],
     "C-405": [
       "Pueblo Griffo Nuevo"
-    ]
+    ],
+    "C-401": [],
+    "C-92": []
   },
   "programados": {},
   "confirmados_con_servicio": {
@@ -763,15 +748,6 @@
       "confianza": 100,
       "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste)."
     },
-    "C-69": {
-      "fecha": "2026-10-29T12:26:37+00:00",
-      "mensaje_id": 60004,
-      "url": "https://t.me/empresaelectricacienfuegos1/60004",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-    },
     "C-29": {
       "fecha": "2026-10-29T23:38:54+00:00",
       "mensaje_id": 60030,
@@ -807,24 +783,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas."
-    },
-    "C-37": {
-      "fecha": "2026-10-29T12:26:37+00:00",
-      "mensaje_id": 60004,
-      "url": "https://t.me/empresaelectricacienfuegos1/60004",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
-    },
-    "C-17": {
-      "fecha": "2026-10-29T12:26:37+00:00",
-      "mensaje_id": 60004,
-      "url": "https://t.me/empresaelectricacienfuegos1/60004",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt."
     },
     "C-70": {
       "fecha": "2026-10-29T23:38:54+00:00",
@@ -970,6 +928,24 @@
       "confianza": 100,
       "texto": "👉C-405 \"Pueblo Griffo Nuevo."
     },
+    "C-401": {
+      "fecha": "2026-10-30T00:20:31+00:00",
+      "mensaje_id": 60032,
+      "url": "https://t.me/empresaelectricacienfuegos1/60032",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-401 Zona Industrial 1, Almacenes CIMEX, El Miedo, La 13."
+    },
+    "C-92": {
+      "fecha": "2026-10-30T00:20:31+00:00",
+      "mensaje_id": 60032,
+      "url": "https://t.me/empresaelectricacienfuegos1/60032",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-92 Calzada Dolores, San Lázaro."
+    },
     "C-62": {
       "fecha": "2026-10-29T18:49:41+00:00",
       "mensaje_id": 60020,
@@ -1018,20 +994,20 @@
     "C-82": "déficit",
     "C-53": "déficit",
     "C-84": "déficit",
-    "C-36": "avería / déficit",
+    "C-36": "déficit",
     "C-85": "déficit",
-    "C-33": "emergencia / déficit / avería",
-    "C-31": "emergencia / déficit",
+    "C-33": "déficit",
+    "C-31": "déficit",
     "C-88": "déficit",
     "C-72": "déficit",
     "C-47": "déficit",
-    "C-407": "déficit / avería",
+    "C-407": "déficit",
     "C-32": "déficit",
-    "C-25": "déficit / avería",
+    "C-25": "déficit",
     "C-55": "déficit",
     "C-49": "déficit",
     "C-102": "déficit",
-    "C-101": "déficit / avería",
+    "C-101": "déficit",
     "C-103": "déficit",
     "C-86": "déficit",
     "C-41": "déficit",
@@ -1042,13 +1018,10 @@
     "C-42": "déficit",
     "C-73": "déficit",
     "C-78": "déficit",
-    "C-69": "avería",
     "C-29": "déficit",
-    "C-39": "déficit / avería",
-    "C-75": "déficit / avería",
-    "C-21": "avería / déficit",
-    "C-37": "avería",
-    "C-17": "emergencia",
+    "C-39": "déficit",
+    "C-75": "déficit",
+    "C-21": "déficit",
     "C-70": "déficit",
     "C-38": "déficit",
     "C-19": "déficit",
@@ -1064,7 +1037,9 @@
     "C-56": "déficit",
     "C-63": "déficit",
     "C-91": "déficit",
-    "C-405": "déficit"
+    "C-405": "déficit",
+    "C-401": "emergencia",
+    "C-92": "emergencia"
   },
   "error": null,
   "pendientes_revision": [
@@ -1512,8 +1487,8 @@
     }
   ],
   "lectura": {
-    "texto": 81,
-    "imagenes": 66,
+    "texto": 80,
+    "imagenes": 65,
     "pdf": 0,
     "no_leidos": 12
   },
@@ -1760,15 +1735,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59956"
     },
     {
-      "circuito": "C-58",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-28T15:09:01+00:00",
-      "mensaje_id": 59957,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59951",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59957"
-    },
-    {
       "circuito": "C-82",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -1788,6 +1754,15 @@
     },
     {
       "circuito": "C-53",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-28T15:09:01+00:00",
+      "mensaje_id": 59957,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59951",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59957"
+    },
+    {
+      "circuito": "C-58",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T15:09:01+00:00",
@@ -2500,23 +2475,24 @@
   ],
   "lectura_incompleta_desde": "2026-10-29T15:50:19+00:00",
   "mw_fecha": "2026-10-29T21:39:17+00:00",
-  "total_circuitos_afectados": 69,
+  "total_circuitos_afectados": 68,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 0,
   "circuitos_sin_catalogar": [
-    "C-17",
     "C-18",
     "C-2",
     "C-20",
     "C-31",
+    "C-401",
     "C-407",
     "C-408",
     "C-43",
     "C-58",
     "C-59",
     "C-89",
+    "C-92",
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-30T00:04:24.131833+00:00"
+  "actualizado": "2026-10-30T00:29:24.930701+00:00"
 }
