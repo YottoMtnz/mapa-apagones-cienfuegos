@@ -6,28 +6,16 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 139,
+  "mensajes_leidos": 138,
   "afectados": {
-    "C-23": [
-      "Turquino",
-      "5 de Septiembre",
-      "Guayabito"
-    ],
-    "C-58": [],
-    "C-27": [
-      "Barrio Matadero",
-      "Juraguá"
-    ],
     "C-22": [
       "Rodas (Bombeo Agua Rodas 0-12",
       "Rodas"
     ],
-    "C-52": [
-      "Paradero de Camarones",
-      "Vía Estrecha",
-      "Espartaco",
-      "La Macana",
-      "Cherepa"
+    "C-6": [
+      "Rancho Luna",
+      "Pasacaballo",
+      "La Milpa"
     ],
     "C-65": [
       "Centro histórico",
@@ -36,13 +24,25 @@
     "C-66": [
       "Reina (Parque"
     ],
-    "C-6": [
-      "Rancho Luna",
-      "Pasacaballo",
-      "La Milpa"
-    ],
     "S-2382": [],
+    "C-23": [
+      "Turquino",
+      "5 de Septiembre",
+      "Guayabito"
+    ],
     "S-5814": [],
+    "C-58": [],
+    "C-27": [
+      "Barrio Matadero",
+      "Juraguá"
+    ],
+    "C-52": [
+      "Paradero de Camarones",
+      "Vía Estrecha",
+      "Espartaco",
+      "La Macana",
+      "Cherepa"
+    ],
     "C-5": [
       "Boulevard",
       "Parque Martí"
@@ -300,7 +300,6 @@
     "C-405": [
       "Pueblo Griffo Nuevo"
     ],
-    "C-401": [],
     "C-92": [],
     "C-62": [],
     "C-70": [
@@ -413,33 +412,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-23": {
-      "fecha": "2026-10-30T11:14:00+00:00",
-      "mensaje_id": 60039,
-      "url": "https://t.me/empresaelectricacienfuegos1/60039",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
-    "C-58": {
-      "fecha": "2026-10-30T11:14:00+00:00",
-      "mensaje_id": 60039,
-      "url": "https://t.me/empresaelectricacienfuegos1/60039",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
-    },
-    "C-27": {
-      "fecha": "2026-10-30T11:07:37+00:00",
-      "mensaje_id": 60038,
-      "url": "https://t.me/empresaelectricacienfuegos1/60038",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
-    },
     "C-22": {
       "fecha": "2026-10-30T11:07:37+00:00",
       "mensaje_id": 60038,
@@ -449,14 +421,14 @@
       "confianza": 100,
       "texto": "👉C-22 Rodas (Bombeo Agua Rodas 0-12)"
     },
-    "C-52": {
+    "C-6": {
       "fecha": "2026-10-30T11:07:37+00:00",
       "mensaje_id": 60038,
       "url": "https://t.me/empresaelectricacienfuegos1/60038",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
+      "texto": "👉C-6  \"Rancho Luna, Pasacaballo, La Milpa."
     },
     "C-65": {
       "fecha": "2026-10-30T11:07:37+00:00",
@@ -476,16 +448,16 @@
       "confianza": 100,
       "texto": "👉C-66 Reina (Parque)"
     },
-    "C-6": {
-      "fecha": "2026-10-30T11:07:37+00:00",
-      "mensaje_id": 60038,
-      "url": "https://t.me/empresaelectricacienfuegos1/60038",
+    "S-2382": {
+      "fecha": "2026-10-30T11:14:00+00:00",
+      "mensaje_id": 60039,
+      "url": "https://t.me/empresaelectricacienfuegos1/60039",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-6  \"Rancho Luna, Pasacaballo, La Milpa."
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
-    "S-2382": {
+    "C-23": {
       "fecha": "2026-10-30T11:14:00+00:00",
       "mensaje_id": 60039,
       "url": "https://t.me/empresaelectricacienfuegos1/60039",
@@ -502,6 +474,33 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
+    },
+    "C-58": {
+      "fecha": "2026-10-30T11:14:00+00:00",
+      "mensaje_id": 60039,
+      "url": "https://t.me/empresaelectricacienfuegos1/60039",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
+    },
+    "C-27": {
+      "fecha": "2026-10-30T11:07:37+00:00",
+      "mensaje_id": 60038,
+      "url": "https://t.me/empresaelectricacienfuegos1/60038",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
+    },
+    "C-52": {
+      "fecha": "2026-10-30T11:07:37+00:00",
+      "mensaje_id": 60038,
+      "url": "https://t.me/empresaelectricacienfuegos1/60038",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
     },
     "C-5": {
       "fecha": "2026-10-30T11:07:37+00:00",
@@ -980,15 +979,6 @@
       "confianza": 100,
       "texto": "👉C-405          \"Pueblo Griffo Nuevo."
     },
-    "C-401": {
-      "fecha": "2026-10-30T00:20:31+00:00",
-      "mensaje_id": 60032,
-      "url": "https://t.me/empresaelectricacienfuegos1/60032",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-401 Zona Industrial 1, Almacenes CIMEX, El Miedo, La 13."
-    },
     "C-92": {
       "fecha": "2026-10-30T03:22:39+00:00",
       "mensaje_id": 60036,
@@ -1123,16 +1113,16 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "avería / déficit",
-    "C-58": "avería / déficit",
-    "C-27": "déficit",
     "C-22": "déficit",
-    "C-52": "déficit",
+    "C-6": "déficit",
     "C-65": "déficit",
     "C-66": "déficit",
-    "C-6": "déficit",
     "S-2382": "avería",
+    "C-23": "avería / déficit",
     "S-5814": "avería",
+    "C-58": "avería / déficit",
+    "C-27": "déficit",
+    "C-52": "déficit",
     "C-5": "déficit",
     "C-28": "déficit",
     "C-50": "déficit",
@@ -1186,7 +1176,6 @@
     "C-63": "déficit",
     "C-91": "déficit",
     "C-405": "déficit",
-    "C-401": "emergencia",
     "C-92": "emergencia",
     "C-62": "déficit",
     "C-70": "déficit"
@@ -1637,7 +1626,7 @@
     }
   ],
   "lectura": {
-    "texto": 76,
+    "texto": 75,
     "imagenes": 63,
     "pdf": 0,
     "no_leidos": 11
@@ -1727,6 +1716,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59956"
     },
     {
+      "circuito": "C-58",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-28T15:09:01+00:00",
+      "mensaje_id": 59957,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59951",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59957"
+    },
+    {
       "circuito": "C-82",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -1746,15 +1744,6 @@
     },
     {
       "circuito": "C-53",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-28T15:09:01+00:00",
-      "mensaje_id": 59957,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59951",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59957"
-    },
-    {
-      "circuito": "C-58",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T15:09:01+00:00",
@@ -1871,6 +1860,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59962"
     },
     {
+      "circuito": "C-22",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-28T17:50:14+00:00",
+      "mensaje_id": 59964,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59959",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59964"
+    },
+    {
       "circuito": "C-23",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -1908,15 +1906,6 @@
     },
     {
       "circuito": "C-63",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-28T17:50:14+00:00",
-      "mensaje_id": 59964,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59959",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59964"
-    },
-    {
-      "circuito": "C-22",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T17:50:14+00:00",
@@ -2294,6 +2283,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60005"
     },
     {
+      "circuito": "C-6",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-29T14:45:12+00:00",
+      "mensaje_id": 60007,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60005",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60007"
+    },
+    {
       "circuito": "C-44",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2304,15 +2302,6 @@
     },
     {
       "circuito": "C-11",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-29T14:45:12+00:00",
-      "mensaje_id": 60007,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60005",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60007"
-    },
-    {
-      "circuito": "C-6",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-29T14:45:12+00:00",
@@ -2555,7 +2544,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60037"
     },
     {
-      "circuito": "C-15",
+      "circuito": "C-406",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-30T11:07:37+00:00",
@@ -2564,7 +2553,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60038"
     },
     {
-      "circuito": "C-406",
+      "circuito": "C-15",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-30T11:07:37+00:00",
@@ -2620,13 +2609,12 @@
   ],
   "lectura_incompleta_desde": "2026-10-29T15:50:19+00:00",
   "mw_fecha": "2026-10-30T11:07:37+00:00",
-  "total_circuitos_afectados": 67,
+  "total_circuitos_afectados": 66,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 4,
   "circuitos_sin_catalogar": [
     "C-2",
     "C-31",
-    "C-401",
     "C-407",
     "C-408",
     "C-43",
@@ -2641,5 +2629,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-30T12:09:14.592119+00:00"
+  "actualizado": "2026-10-30T12:24:20.831101+00:00"
 }
