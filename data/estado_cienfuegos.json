@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-10-31T15:35:15+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 123,
+  "programado_fecha": "2026-10-31T16:18:35+00:00",
+  "mensajes_leidos": 122,
   "afectados": {
     "C-52": [
       "Paradero de Camarones",
@@ -312,7 +312,10 @@
       "La Esperanza"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-17": [],
+    "C-92": []
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-18": {
@@ -1100,6 +1103,24 @@
       "confianza": 100,
       "texto": "👉C-91 Buena Vista, La Esperanza."
     },
+    "C-17": {
+      "fecha": "2026-10-31T16:18:35+00:00",
+      "mensaje_id": 60081,
+      "url": "https://t.me/empresaelectricacienfuegos1/60081",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17  Ave 5 de sept, Distrito Petrolero, Hermanas Giralt"
+    },
+    "C-92": {
+      "fecha": "2026-10-31T16:18:35+00:00",
+      "mensaje_id": 60081,
+      "url": "https://t.me/empresaelectricacienfuegos1/60081",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17  Ave 5 de sept, Distrito Petrolero, Hermanas Giralt"
+    },
     "C-18": {
       "fecha": "2026-10-31T15:35:15+00:00",
       "mensaje_id": 60080,
@@ -1280,7 +1301,18 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-17": {
+      "inicio": null,
+      "fin": "2026-11-01T04:18:35+00:00",
+      "fecha_ambigua": false
+    },
+    "C-92": {
+      "inicio": null,
+      "fin": "2026-11-01T04:18:35+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 66.0,
   "hora_inicio": null,
@@ -1885,7 +1917,7 @@
     }
   ],
   "lectura": {
-    "texto": 74,
+    "texto": 73,
     "imagenes": 49,
     "pdf": 0,
     "no_leidos": 7
@@ -2869,9 +2901,10 @@
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-10-31T15:35:15+00:00",
   "total_circuitos_afectados": 67,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 7,
   "circuitos_sin_catalogar": [
+    "C-17",
     "C-18",
     "C-2",
     "C-20",
@@ -2883,11 +2916,12 @@
     "C-59",
     "C-62",
     "C-89",
+    "C-92",
     "C-94",
     "C-95",
     "S-2382",
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-31T16:09:14.346402+00:00"
+  "actualizado": "2026-10-31T16:24:17.028644+00:00"
 }
