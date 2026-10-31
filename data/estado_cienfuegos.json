@@ -6,14 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 126,
+  "mensajes_leidos": 125,
   "afectados": {
-    "C-23": [
-      "Turquino",
-      "5 de Septiembre",
-      "Guayabito"
-    ],
-    "C-58": [],
     "C-52": [
       "Paradero de Camarones",
       "Vía Estrecha",
@@ -38,6 +32,7 @@
       "Punta Cotica",
       "Parque José Martí"
     ],
+    "C-58": [],
     "C-24": [
       "Pérez Leyva",
       "La Redonda",
@@ -121,6 +116,11 @@
       "El Bajío",
       "California",
       "El Salado"
+    ],
+    "C-23": [
+      "Turquino",
+      "5 de Septiembre",
+      "Guayabito"
     ],
     "C-103": [
       "Santiago de Cartagena",
@@ -431,24 +431,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-23": {
-      "fecha": "2026-10-31T07:03:36+00:00",
-      "mensaje_id": 60067,
-      "url": "https://t.me/empresaelectricacienfuegos1/60067",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23  Turquino, 5 de Septiembre, Guayabito"
-    },
-    "C-58": {
-      "fecha": "2026-10-31T07:03:36+00:00",
-      "mensaje_id": 60067,
-      "url": "https://t.me/empresaelectricacienfuegos1/60067",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58  \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
     "C-52": {
       "fecha": "2026-10-31T07:03:36+00:00",
       "mensaje_id": 60067,
@@ -493,6 +475,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-80  Punta Cotica, Parque José Martí."
+    },
+    "C-58": {
+      "fecha": "2026-10-31T07:03:36+00:00",
+      "mensaje_id": 60067,
+      "url": "https://t.me/empresaelectricacienfuegos1/60067",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-58  \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-24": {
       "fecha": "2026-10-31T07:03:36+00:00",
@@ -646,6 +637,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-101               Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
+    },
+    "C-23": {
+      "fecha": "2026-10-31T07:03:36+00:00",
+      "mensaje_id": 60067,
+      "url": "https://t.me/empresaelectricacienfuegos1/60067",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-23  Turquino, 5 de Septiembre, Guayabito"
     },
     "C-103": {
       "fecha": "2026-10-31T07:03:36+00:00",
@@ -1111,13 +1111,12 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "déficit",
-    "C-58": "déficit",
     "C-52": "déficit",
     "C-5": "déficit",
     "C-67": "déficit",
     "C-15": "déficit",
     "C-80": "déficit",
+    "C-58": "déficit",
     "C-24": "déficit",
     "C-54": "déficit",
     "C-82": "déficit",
@@ -1135,6 +1134,7 @@
     "C-49": "déficit",
     "C-102": "déficit",
     "C-101": "déficit",
+    "C-23": "déficit",
     "C-103": "déficit",
     "C-22": "déficit",
     "C-86": "déficit",
@@ -1706,7 +1706,7 @@
   ],
   "lectura": {
     "texto": 73,
-    "imagenes": 53,
+    "imagenes": 52,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -1912,15 +1912,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59981"
     },
     {
-      "circuito": "C-90",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-28T23:20:22+00:00",
-      "mensaje_id": 59984,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59981",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59984"
-    },
-    {
       "circuito": "C-59",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -1931,6 +1922,15 @@
     },
     {
       "circuito": "C-5",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-28T23:20:22+00:00",
+      "mensaje_id": 59984,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59981",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59984"
+    },
+    {
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T23:20:22+00:00",
@@ -2704,5 +2704,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-31T10:29:17.622132+00:00"
+  "actualizado": "2026-10-31T10:44:16.690570+00:00"
 }
