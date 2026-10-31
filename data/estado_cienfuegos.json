@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-31T16:18:35+00:00",
-  "mensajes_leidos": 124,
+  "mensajes_leidos": 122,
   "afectados": {
     "C-52": [
       "Paradero de Camarones",
@@ -2211,10 +2211,10 @@
     }
   ],
   "lectura": {
-    "texto": 76,
-    "imagenes": 48,
+    "texto": 75,
+    "imagenes": 47,
     "pdf": 0,
-    "no_leidos": 6
+    "no_leidos": 5
   },
   "listas_completas": {
     "deficit": {
@@ -2285,6 +2285,15 @@
   },
   "transiciones": [
     {
+      "circuito": "C-26",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-28T23:20:22+00:00",
+      "mensaje_id": 59984,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59981",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59984"
+    },
+    {
       "circuito": "C-2",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2346,15 +2355,6 @@
       "mensaje_id": 59992,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59987",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59992"
-    },
-    {
-      "circuito": "C-21",
-      "tipo": "restablecido",
-      "alcance": "general",
-      "fecha": "2026-10-29T02:36:48+00:00",
-      "mensaje_id": 59993,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59963",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59993"
     },
     {
       "circuito": "C-76",
@@ -3210,5 +3210,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-31T17:39:17.131492+00:00"
+  "actualizado": "2026-10-31T17:54:19.150552+00:00"
 }
