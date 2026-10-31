@@ -6,8 +6,18 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-31T19:02:00+00:00",
-  "mensajes_leidos": 120,
+  "mensajes_leidos": 119,
   "afectados": {
+    "C-33": [
+      "Arimao",
+      "Las Moscas",
+      "Vegas Viejas",
+      "Santa Martina",
+      "San Antón",
+      "Quesada",
+      "Callejón del Palmar"
+    ],
+    "C-31": [],
     "C-52": [
       "Paradero de Camarones",
       "Vía Estrecha",
@@ -33,16 +43,6 @@
       "Monasterio",
       "El Concuní"
     ],
-    "C-33": [
-      "Arimao",
-      "Las Moscas",
-      "Vegas Viejas",
-      "Santa Martina",
-      "San Antón",
-      "Quesada",
-      "Callejón del Palmar"
-    ],
-    "C-31": [],
     "C-88": [
       "San Ignacio",
       "Babiney",
@@ -613,6 +613,24 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
+    "C-33": {
+      "fecha": "2026-10-31T19:52:34+00:00",
+      "mensaje_id": 60090,
+      "url": "https://t.me/empresaelectricacienfuegos1/60090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+    },
+    "C-31": {
+      "fecha": "2026-10-31T19:52:34+00:00",
+      "mensaje_id": 60090,
+      "url": "https://t.me/empresaelectricacienfuegos1/60090",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
+    },
     "C-52": {
       "fecha": "2026-10-31T19:52:34+00:00",
       "mensaje_id": 60090,
@@ -648,24 +666,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
-    },
-    "C-33": {
-      "fecha": "2026-10-31T19:52:34+00:00",
-      "mensaje_id": 60090,
-      "url": "https://t.me/empresaelectricacienfuegos1/60090",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
-    },
-    "C-31": {
-      "fecha": "2026-10-31T19:52:34+00:00",
-      "mensaje_id": 60090,
-      "url": "https://t.me/empresaelectricacienfuegos1/60090",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
     },
     "C-88": {
       "fecha": "2026-10-31T19:52:34+00:00",
@@ -1501,12 +1501,12 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-33": "déficit / avería",
+    "C-31": "déficit",
     "C-52": "déficit",
     "C-58": "avería",
     "C-84": "avería",
     "C-36": "déficit",
-    "C-33": "déficit / avería",
-    "C-31": "déficit",
     "C-88": "déficit",
     "C-72": "déficit",
     "C-47": "déficit",
@@ -2097,7 +2097,7 @@
     }
   ],
   "lectura": {
-    "texto": 74,
+    "texto": 73,
     "imagenes": 46,
     "pdf": 0,
     "no_leidos": 3
@@ -2174,7 +2174,7 @@
   },
   "transiciones": [
     {
-      "circuito": "C-2",
+      "circuito": "C-3",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T23:20:22+00:00",
@@ -2183,7 +2183,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59984"
     },
     {
-      "circuito": "C-3",
+      "circuito": "C-2",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T23:20:22+00:00",
@@ -2255,7 +2255,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59996"
     },
     {
-      "circuito": "C-65",
+      "circuito": "C-66",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-29T05:25:11+00:00",
@@ -2264,7 +2264,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59997"
     },
     {
-      "circuito": "C-66",
+      "circuito": "C-65",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-29T05:25:11+00:00",
@@ -3099,5 +3099,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-31T20:09:20.659863+00:00"
+  "actualizado": "2026-10-31T20:24:26.604831+00:00"
 }
