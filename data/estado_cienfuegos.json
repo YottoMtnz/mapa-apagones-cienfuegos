@@ -6,18 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-31T19:02:00+00:00",
-  "mensajes_leidos": 119,
+  "mensajes_leidos": 115,
   "afectados": {
-    "C-33": [
-      "Arimao",
-      "Las Moscas",
-      "Vegas Viejas",
-      "Santa Martina",
-      "San Antón",
-      "Quesada",
-      "Callejón del Palmar"
-    ],
-    "C-31": [],
     "C-52": [
       "Paradero de Camarones",
       "Vía Estrecha",
@@ -43,6 +33,7 @@
       "Monasterio",
       "El Concuní"
     ],
+    "C-31": [],
     "C-88": [
       "San Ignacio",
       "Babiney",
@@ -170,6 +161,15 @@
       "La Legua",
       "Gavilán",
       "Boca Ambuila"
+    ],
+    "C-33": [
+      "Arimao",
+      "Las Moscas",
+      "Vegas Viejas",
+      "Santa Martina",
+      "San Antón",
+      "Quesada",
+      "Callejón del Palmar"
     ],
     "C-90": [
       "FW1558) La Pollera"
@@ -613,24 +613,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-33": {
-      "fecha": "2026-10-31T20:50:10+00:00",
-      "mensaje_id": 60091,
-      "url": "https://t.me/empresaelectricacienfuegos1/60091",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
-    },
-    "C-31": {
-      "fecha": "2026-10-31T20:50:10+00:00",
-      "mensaje_id": 60091,
-      "url": "https://t.me/empresaelectricacienfuegos1/60091",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
-    },
     "C-52": {
       "fecha": "2026-10-31T20:50:10+00:00",
       "mensaje_id": 60091,
@@ -666,6 +648,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+    },
+    "C-31": {
+      "fecha": "2026-10-31T20:50:10+00:00",
+      "mensaje_id": 60091,
+      "url": "https://t.me/empresaelectricacienfuegos1/60091",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal."
     },
     "C-88": {
       "fecha": "2026-10-31T20:50:10+00:00",
@@ -882,6 +873,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-75 La Legua, Gavilán, Boca Ambuila."
+    },
+    "C-33": {
+      "fecha": "2026-10-31T20:50:10+00:00",
+      "mensaje_id": 60091,
+      "url": "https://t.me/empresaelectricacienfuegos1/60091",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     },
     "C-90": {
       "fecha": "2026-10-31T12:12:43+00:00",
@@ -1496,12 +1496,11 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-33": "déficit / avería",
-    "C-31": "déficit",
     "C-52": "déficit",
     "C-58": "avería / déficit",
     "C-84": "avería",
     "C-36": "déficit",
+    "C-31": "déficit",
     "C-88": "déficit",
     "C-72": "déficit",
     "C-47": "déficit",
@@ -1526,6 +1525,7 @@
     "C-29": "déficit",
     "C-39": "déficit",
     "C-75": "déficit",
+    "C-33": "déficit / avería",
     "C-90": "avería",
     "S-2382": "avería",
     "S-5814": "avería",
@@ -2093,8 +2093,8 @@
     }
   ],
   "lectura": {
-    "texto": 73,
-    "imagenes": 46,
+    "texto": 72,
+    "imagenes": 43,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -3097,5 +3097,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-31T21:04:29.076291+00:00"
+  "actualizado": "2026-10-31T21:19:12.205569+00:00"
 }
