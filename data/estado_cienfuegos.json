@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 130,
+  "mensajes_leidos": 127,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -21,10 +21,6 @@
       "La Macana",
       "Cherepa"
     ],
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
-    ],
     "C-5": [
       "Boulevard",
       "Parque Martí"
@@ -33,6 +29,10 @@
       "El Crucero",
       "Guaos",
       "Naranjito"
+    ],
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
     ],
     "C-80": [
       "Punta Cotica",
@@ -471,15 +471,6 @@
       "confianza": 100,
       "texto": "👉C-52  Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
     },
-    "C-15": {
-      "fecha": "2026-10-31T03:46:48+00:00",
-      "mensaje_id": 60066,
-      "url": "https://t.me/empresaelectricacienfuegos1/60066",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-15  Pepito Tey, Guabairo."
-    },
     "C-5": {
       "fecha": "2026-10-31T03:46:48+00:00",
       "mensaje_id": 60066,
@@ -497,6 +488,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-67  \"El Crucero, Guaos, Naranjito."
+    },
+    "C-15": {
+      "fecha": "2026-10-31T03:46:48+00:00",
+      "mensaje_id": 60066,
+      "url": "https://t.me/empresaelectricacienfuegos1/60066",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15  Pepito Tey, Guabairo."
     },
     "C-80": {
       "fecha": "2026-10-31T03:46:48+00:00",
@@ -1136,9 +1136,9 @@
     "C-23": "déficit",
     "C-58": "déficit",
     "C-52": "déficit",
-    "C-15": "déficit",
     "C-5": "déficit",
     "C-67": "déficit",
+    "C-15": "déficit",
     "C-80": "déficit",
     "C-24": "déficit",
     "C-54": "déficit",
@@ -1727,8 +1727,8 @@
     }
   ],
   "lectura": {
-    "texto": 76,
-    "imagenes": 54,
+    "texto": 74,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -2248,15 +2248,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60018"
     },
     {
-      "circuito": "C-15",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-29T18:47:22+00:00",
-      "mensaje_id": 60019,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60017",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60019"
-    },
-    {
       "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2276,6 +2267,15 @@
     },
     {
       "circuito": "C-67",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-29T18:47:22+00:00",
+      "mensaje_id": 60019,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60017",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60019"
+    },
+    {
+      "circuito": "C-15",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-29T18:47:22+00:00",
@@ -2401,15 +2401,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60037"
     },
     {
-      "circuito": "C-15",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-30T11:07:37+00:00",
-      "mensaje_id": 60038,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60037",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60038"
-    },
-    {
       "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2429,6 +2420,15 @@
     },
     {
       "circuito": "C-67",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-30T11:07:37+00:00",
+      "mensaje_id": 60038,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60037",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60038"
+    },
+    {
+      "circuito": "C-15",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-30T11:07:37+00:00",
@@ -2725,5 +2725,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-31T04:24:19.659716+00:00"
+  "actualizado": "2026-10-31T04:39:13.325193+00:00"
 }
