@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-31T16:39:23+00:00",
+  "reporte_fecha": "2026-10-31T16:55:39+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-31T16:18:35+00:00",
-  "mensajes_leidos": 121,
+  "mensajes_leidos": 122,
   "afectados": {
     "C-52": [
       "Paradero de Camarones",
@@ -245,6 +245,7 @@
       "Guaos",
       "Naranjito"
     ],
+    "C-76": [],
     "C-70": [
       "Aguada",
       "Federal"
@@ -1056,6 +1057,15 @@
       "confianza": 100,
       "texto": "👉C-67 \"El Crucero, Guaos, Naranjito."
     },
+    "C-76": {
+      "fecha": "2026-10-31T16:55:39+00:00",
+      "mensaje_id": 60083,
+      "url": "https://t.me/empresaelectricacienfuegos1/60083",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
+    },
     "C-70": {
       "fecha": "2026-10-31T16:39:23+00:00",
       "mensaje_id": 60082,
@@ -1569,6 +1579,7 @@
     "C-66": "déficit",
     "C-15": "déficit",
     "C-67": "déficit",
+    "C-76": "avería",
     "C-70": "déficit",
     "C-28": "déficit",
     "C-27": "déficit",
@@ -1585,20 +1596,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nDisparo Automático por Frecuencia\n(DAF)\nMM\nq\nSS Ne\ny\n4%\nel",
-      "id": 60024,
-      "url": "https://t.me/empresaelectricacienfuegos1/60024",
-      "fecha": "2026-10-29T20:33:07+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠Terminología Eléctrica\n\n\n👉Disparo automático por frecuencia (DAF).\n\n\n📌Un disparo por frecuencia o Descarga Automática por Frecuencia, es una protección que posee el sistema eléctrico para cuando la frecuencia llega a valores mínimos permisibles que ponen en peligro la estabilidad de todo el sistema",
-      "id": 60025,
-      "url": "https://t.me/empresaelectricacienfuegos1/60025",
-      "fecha": "2026-10-29T20:33:39+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\nGENERACIÓN Bf a. 4\nDEFICIT DE Nine 2\n| ¥ 4 | he\nUNE v |\nees Z Y A",
@@ -2110,11 +2107,25 @@
       "id": 60078,
       "url": "https://t.me/empresaelectricacienfuegos1/60078",
       "fecha": "2026-10-31T15:10:26+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Líneas afectadas por\nDisparo Automático por Frecuencia\n(DAF)\nMM\nq\nSS Ne\ny\n4%\nel",
+      "id": 60083,
+      "url": "https://t.me/empresaelectricacienfuegos1/60083",
+      "fecha": "2026-10-31T16:55:39+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠Terminología Eléctrica\n\n\n👉Disparo automático por frecuencia (DAF).\n\n\n📌Un disparo por frecuencia o Descarga Automática por Frecuencia, es una protección que posee el sistema eléctrico para cuando la frecuencia llega a valores mínimos permisibles que ponen en peligro la estabilidad de todo el sistema",
+      "id": 60084,
+      "url": "https://t.me/empresaelectricacienfuegos1/60084",
+      "fecha": "2026-10-31T16:56:45+00:00"
     }
   ],
   "lectura": {
     "texto": 74,
-    "imagenes": 47,
+    "imagenes": 48,
     "pdf": 0,
     "no_leidos": 6
   },
@@ -3091,7 +3102,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-10-31T16:39:23+00:00",
-  "total_circuitos_afectados": 62,
+  "total_circuitos_afectados": 63,
   "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 12,
   "circuitos_sin_catalogar": [
@@ -3106,6 +3117,7 @@
     "C-58",
     "C-59",
     "C-62",
+    "C-76",
     "C-89",
     "C-92",
     "C-94",
@@ -3114,5 +3126,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-31T16:54:19.843938+00:00"
+  "actualizado": "2026-10-31T17:09:31.445176+00:00"
 }
