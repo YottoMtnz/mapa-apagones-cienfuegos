@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 125,
+  "mensajes_leidos": 124,
   "afectados": {
     "C-52": [
       "Paradero de Camarones",
@@ -324,6 +324,54 @@
   "programados": {},
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
+    "C-18": {
+      "fecha": "2026-10-31T14:10:48+00:00",
+      "mensaje_id": 60077,
+      "url": "https://t.me/empresaelectricacienfuegos1/60077",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-30T03:18:47+00:00",
+      "listas_consecutivas": 19,
+      "aviso_anterior": {
+        "fecha": "2026-10-30T01:12:40+00:00",
+        "mensaje_id": 60033,
+        "url": "https://t.me/empresaelectricacienfuegos1/60033",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
+      },
+      "lugares": []
+    },
+    "C-20": {
+      "fecha": "2026-10-31T14:10:48+00:00",
+      "mensaje_id": 60077,
+      "url": "https://t.me/empresaelectricacienfuegos1/60077",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-30T03:18:47+00:00",
+      "listas_consecutivas": 19,
+      "aviso_anterior": {
+        "fecha": "2026-10-30T01:12:40+00:00",
+        "mensaje_id": 60033,
+        "url": "https://t.me/empresaelectricacienfuegos1/60033",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
+      },
+      "lugares": []
+    },
     "C-408": {
       "fecha": "2026-10-31T14:10:48+00:00",
       "mensaje_id": 60077,
@@ -1024,6 +1072,54 @@
       "confianza": 100,
       "texto": "👉C-91 Buena Vista, La Esperanza."
     },
+    "C-18": {
+      "fecha": "2026-10-31T14:10:48+00:00",
+      "mensaje_id": 60077,
+      "url": "https://t.me/empresaelectricacienfuegos1/60077",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-30T03:18:47+00:00",
+      "listas_consecutivas": 19,
+      "aviso_anterior": {
+        "fecha": "2026-10-30T01:12:40+00:00",
+        "mensaje_id": 60033,
+        "url": "https://t.me/empresaelectricacienfuegos1/60033",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
+      },
+      "lugares": []
+    },
+    "C-20": {
+      "fecha": "2026-10-31T14:10:48+00:00",
+      "mensaje_id": 60077,
+      "url": "https://t.me/empresaelectricacienfuegos1/60077",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-30T03:18:47+00:00",
+      "listas_consecutivas": 19,
+      "aviso_anterior": {
+        "fecha": "2026-10-30T01:12:40+00:00",
+        "mensaje_id": 60033,
+        "url": "https://t.me/empresaelectricacienfuegos1/60033",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
+      },
+      "lugares": []
+    },
     "C-408": {
       "fecha": "2026-10-31T14:10:48+00:00",
       "mensaje_id": 60077,
@@ -1709,9 +1805,9 @@
   ],
   "lectura": {
     "texto": 74,
-    "imagenes": 51,
+    "imagenes": 50,
     "pdf": 0,
-    "no_leidos": 9
+    "no_leidos": 8
   },
   "listas_completas": {
     "deficit": {
@@ -2035,7 +2131,16 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59997"
     },
     {
-      "circuito": "C-18",
+      "circuito": "C-91",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-29T13:00:34+00:00",
+      "mensaje_id": 60005,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60000",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60005"
+    },
+    {
+      "circuito": "C-43",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-29T13:00:34+00:00",
@@ -2053,16 +2158,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60005"
     },
     {
-      "circuito": "C-91",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-29T13:00:34+00:00",
-      "mensaje_id": 60005,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60000",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60005"
-    },
-    {
-      "circuito": "C-43",
+      "circuito": "C-18",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-29T13:00:34+00:00",
@@ -2278,24 +2374,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60033"
     },
     {
-      "circuito": "C-18",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-30T03:18:47+00:00",
-      "mensaje_id": 60035,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60033",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60035"
-    },
-    {
-      "circuito": "C-20",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-30T03:18:47+00:00",
-      "mensaje_id": 60035,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60033",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60035"
-    },
-    {
       "circuito": "C-65",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2315,6 +2393,24 @@
     },
     {
       "circuito": "C-66",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-30T03:18:47+00:00",
+      "mensaje_id": 60035,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60033",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60035"
+    },
+    {
+      "circuito": "C-18",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-30T03:18:47+00:00",
+      "mensaje_id": 60035,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60033",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60035"
+    },
+    {
+      "circuito": "C-20",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-30T03:18:47+00:00",
@@ -2696,9 +2792,11 @@
   "mw_fecha": "2026-10-31T14:10:48+00:00",
   "total_circuitos_afectados": 69,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 3,
+  "total_restablecimientos_probables": 5,
   "circuitos_sin_catalogar": [
+    "C-18",
     "C-2",
+    "C-20",
     "C-31",
     "C-407",
     "C-408",
@@ -2713,5 +2811,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-31T14:24:15.768320+00:00"
+  "actualizado": "2026-10-31T14:39:09.512008+00:00"
 }
