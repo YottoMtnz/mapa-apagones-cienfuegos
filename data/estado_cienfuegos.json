@@ -6,27 +6,16 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 129,
+  "mensajes_leidos": 127,
   "afectados": {
-    "C-52": [
-      "Paradero de Camarones",
-      "Vía Estrecha",
-      "Espartaco",
-      "La Macana",
-      "Cherepa"
-    ],
-    "C-5": [
-      "Boulevard",
-      "Parque Martí"
-    ],
-    "C-90": [
-      "FW1558) La Pollera"
-    ],
     "C-26": [
       "Caonao",
       "Los Tanques",
       "La Ceiba",
       "El Paisíto"
+    ],
+    "C-90": [
+      "FW1558) La Pollera"
     ],
     "C-67": [
       "El Crucero",
@@ -37,6 +26,10 @@
       "Pepito Tey",
       "Guabairo"
     ],
+    "C-5": [
+      "Boulevard",
+      "Parque Martí"
+    ],
     "C-2": [],
     "C-3": [
       "Reparto Eléctrico"
@@ -44,6 +37,13 @@
     "C-80": [
       "Punta Cotica",
       "Parque José Martí"
+    ],
+    "C-52": [
+      "Paradero de Camarones",
+      "Vía Estrecha",
+      "Espartaco",
+      "La Macana",
+      "Cherepa"
     ],
     "C-58": [],
     "C-24": [
@@ -475,23 +475,14 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-52": {
+    "C-26": {
       "fecha": "2026-10-31T11:17:13+00:00",
       "mensaje_id": 60070,
       "url": "https://t.me/empresaelectricacienfuegos1/60070",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-52  Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
-    },
-    "C-5": {
-      "fecha": "2026-10-31T11:17:13+00:00",
-      "mensaje_id": 60070,
-      "url": "https://t.me/empresaelectricacienfuegos1/60070",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-5    Boulevard, Parque Martí"
+      "texto": "👉C-26  Caonao, Los Tanques, La Ceiba, El Paisíto."
     },
     "C-90": {
       "fecha": "2026-10-31T11:17:13+00:00",
@@ -501,15 +492,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-90  La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
-    },
-    "C-26": {
-      "fecha": "2026-10-31T11:17:13+00:00",
-      "mensaje_id": 60070,
-      "url": "https://t.me/empresaelectricacienfuegos1/60070",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-26  Caonao, Los Tanques, La Ceiba, El Paisíto."
     },
     "C-67": {
       "fecha": "2026-10-31T11:17:13+00:00",
@@ -528,6 +510,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-15  Pepito Tey, Guabairo."
+    },
+    "C-5": {
+      "fecha": "2026-10-31T11:17:13+00:00",
+      "mensaje_id": 60070,
+      "url": "https://t.me/empresaelectricacienfuegos1/60070",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-5    Boulevard, Parque Martí"
     },
     "C-2": {
       "fecha": "2026-10-31T11:17:13+00:00",
@@ -555,6 +546,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-80  Punta Cotica, Parque José Martí."
+    },
+    "C-52": {
+      "fecha": "2026-10-31T11:17:13+00:00",
+      "mensaje_id": 60070,
+      "url": "https://t.me/empresaelectricacienfuegos1/60070",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-52  Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
     },
     "C-58": {
       "fecha": "2026-10-31T11:17:13+00:00",
@@ -1227,15 +1227,15 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-52": "déficit",
-    "C-5": "déficit",
-    "C-90": "avería / déficit",
     "C-26": "déficit",
+    "C-90": "avería / déficit",
     "C-67": "déficit",
     "C-15": "déficit",
+    "C-5": "déficit",
     "C-2": "déficit",
     "C-3": "déficit",
     "C-80": "déficit",
+    "C-52": "déficit",
     "C-58": "déficit / avería",
     "C-24": "déficit",
     "C-54": "déficit",
@@ -1827,8 +1827,8 @@
     }
   ],
   "lectura": {
-    "texto": 75,
-    "imagenes": 54,
+    "texto": 74,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -1999,16 +1999,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59981"
     },
     {
-      "circuito": "C-59",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-28T23:20:22+00:00",
-      "mensaje_id": 59984,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59981",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59984"
-    },
-    {
-      "circuito": "C-5",
+      "circuito": "C-26",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T23:20:22+00:00",
@@ -2026,7 +2017,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59984"
     },
     {
-      "circuito": "C-26",
+      "circuito": "C-5",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T23:20:22+00:00",
@@ -2045,6 +2036,15 @@
     },
     {
       "circuito": "C-3",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-28T23:20:22+00:00",
+      "mensaje_id": 59984,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59981",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59984"
+    },
+    {
+      "circuito": "C-59",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-28T23:20:22+00:00",
@@ -2125,6 +2125,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59996"
     },
     {
+      "circuito": "C-80",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-29T05:25:11+00:00",
+      "mensaje_id": 59997,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59996",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59997"
+    },
+    {
       "circuito": "C-65",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2153,15 +2162,6 @@
     },
     {
       "circuito": "C-70",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-29T05:25:11+00:00",
-      "mensaje_id": 59997,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/59996",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/59997"
-    },
-    {
-      "circuito": "C-80",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-29T05:25:11+00:00",
@@ -2314,7 +2314,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60018"
     },
     {
-      "circuito": "C-90",
+      "circuito": "C-26",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-29T18:47:22+00:00",
@@ -2323,7 +2323,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60019"
     },
     {
-      "circuito": "C-26",
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-29T18:47:22+00:00",
@@ -2467,7 +2467,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60037"
     },
     {
-      "circuito": "C-90",
+      "circuito": "C-26",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-30T11:07:37+00:00",
@@ -2476,7 +2476,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60038"
     },
     {
-      "circuito": "C-26",
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-30T11:07:37+00:00",
@@ -2557,7 +2557,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60040"
     },
     {
-      "circuito": "C-27",
+      "circuito": "C-28",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-30T15:22:20+00:00",
@@ -2566,7 +2566,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60045"
     },
     {
-      "circuito": "C-28",
+      "circuito": "C-27",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-30T15:22:20+00:00",
@@ -2674,7 +2674,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60051"
     },
     {
-      "circuito": "C-90",
+      "circuito": "C-26",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-31T00:04:08+00:00",
@@ -2683,7 +2683,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60059"
     },
     {
-      "circuito": "C-26",
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-31T00:04:08+00:00",
@@ -2830,5 +2830,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-10-31T11:29:16.173855+00:00"
+  "actualizado": "2026-10-31T11:44:28.796876+00:00"
 }
