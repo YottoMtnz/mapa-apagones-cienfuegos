@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 132,
+  "mensajes_leidos": 131,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -272,9 +272,7 @@
     "C-405": [
       "Pueblo Griffo Nuevo"
     ],
-    "C-401": [],
     "C-92": [],
-    "C-62": [],
     "C-65": [
       "Centro histórico",
       "Reina (Aduana"
@@ -288,7 +286,6 @@
       "Ave 58 de Calle 47 hasta Calle 49",
       "Calle 47 de Ave 54 hasta Ave 58"
     ],
-    "C-76": [],
     "C-70": [
       "Aguada",
       "Federal"
@@ -911,15 +908,6 @@
       "confianza": 100,
       "texto": "👉C-405               \"Pueblo Griffo Nuevo."
     },
-    "C-401": {
-      "fecha": "2026-10-30T12:59:45+00:00",
-      "mensaje_id": 60043,
-      "url": "https://t.me/empresaelectricacienfuegos1/60043",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-401 Zona Industrial 1, Almacenes CIMEX, El Miedo, La 13."
-    },
     "C-92": {
       "fecha": "2026-10-31T00:04:08+00:00",
       "mensaje_id": 60059,
@@ -928,15 +916,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-92  \"Calzada Dolores, San Lázaro."
-    },
-    "C-62": {
-      "fecha": "2026-10-30T12:59:45+00:00",
-      "mensaje_id": 60043,
-      "url": "https://t.me/empresaelectricacienfuegos1/60043",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-62 Barajagua."
     },
     "C-65": {
       "fecha": "2026-10-31T00:04:08+00:00",
@@ -964,15 +943,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-406               \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
-    },
-    "C-76": {
-      "fecha": "2026-10-30T12:59:45+00:00",
-      "mensaje_id": 60043,
-      "url": "https://t.me/empresaelectricacienfuegos1/60043",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
     },
     "C-70": {
       "fecha": "2026-10-31T00:04:08+00:00",
@@ -1206,18 +1176,15 @@
     "C-6": "déficit",
     "C-43": "déficit",
     "C-11": "déficit",
-    "C-44": "déficit / avería",
+    "C-44": "déficit",
     "C-56": "déficit",
     "C-63": "déficit",
     "C-91": "déficit",
-    "C-405": "emergencia / déficit",
-    "C-401": "emergencia",
-    "C-92": "emergencia / déficit",
-    "C-62": "emergencia",
+    "C-405": "déficit",
+    "C-92": "déficit",
     "C-65": "déficit",
     "C-66": "déficit",
-    "C-406": "déficit / emergencia",
-    "C-76": "avería",
+    "C-406": "déficit",
     "C-70": "déficit",
     "C-28": "déficit",
     "C-27": "déficit",
@@ -1757,7 +1724,7 @@
     }
   ],
   "lectura": {
-    "texto": 76,
+    "texto": 75,
     "imagenes": 56,
     "pdf": 0,
     "no_leidos": 10
@@ -2740,24 +2707,21 @@
   ],
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-10-31T00:04:08+00:00",
-  "total_circuitos_afectados": 65,
+  "total_circuitos_afectados": 62,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 5,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-31",
-    "C-401",
     "C-407",
     "C-408",
     "C-43",
     "C-58",
     "C-59",
-    "C-62",
-    "C-76",
     "C-89",
     "C-92",
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-31T00:56:38.140992+00:00"
+  "actualizado": "2026-10-31T01:09:21.341296+00:00"
 }
