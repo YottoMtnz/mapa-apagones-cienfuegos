@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 131,
+  "mensajes_leidos": 132,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -1228,20 +1228,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
-      "id": 60004,
-      "url": "https://t.me/empresaelectricacienfuegos1/60004",
-      "fecha": "2026-10-29T12:26:37+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n60 MW > i NY\nGENERACION Bf a. 4\nDEFICIT DE Nine 2\nzai > er >,\n| ¥ 4 | he\nUNE v |\nees Z Y A",
-      "id": 60006,
-      "url": "https://t.me/empresaelectricacienfuegos1/60006",
-      "fecha": "2026-10-29T14:07:28+00:00"
-    },
-    {
       "motivo": "sin_circuitos_identificables",
       "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\n> | S y\nEl | a",
       "id": 60008,
@@ -1754,11 +1740,25 @@
       "id": 60061,
       "url": "https://t.me/empresaelectricacienfuegos1/60061",
       "fecha": "2026-10-31T00:14:09+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠Se comunica a nuestros clientes se encuentra en fallo la línea L-333 Cumanayagua, afectada la zona:\n\n\n👉Bombeo Paso Bonito.\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉Ofrecemos disculpas por las molestias ocasionadas.",
+      "id": 60062,
+      "url": "https://t.me/empresaelectricacienfuegos1/60062",
+      "fecha": "2026-10-31T00:54:08+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠Se comunica a nuestros clientes se encuentra en fallo la línea L-333 Cumanayagua, afectada la zona:\n\n\n👉Bombeo Paso Bonito.\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉Ofrecemos disculpas por las molestias ocasionadas\nLineas\n_ enfalla",
+      "id": 60062,
+      "url": "https://t.me/empresaelectricacienfuegos1/60062",
+      "fecha": "2026-10-31T00:54:08+00:00"
     }
   ],
   "lectura": {
     "texto": 76,
-    "imagenes": 55,
+    "imagenes": 56,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -2759,5 +2759,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-10-31T00:44:16.867177+00:00"
+  "actualizado": "2026-10-31T00:56:38.140992+00:00"
 }
