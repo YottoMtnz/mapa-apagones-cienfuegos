@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-10-31T07:03:36+00:00",
+  "reporte_fecha": "2026-10-31T11:09:07+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 125,
+  "mensajes_leidos": 127,
   "afectados": {
     "C-52": [
       "Paradero de Camarones",
@@ -18,6 +18,9 @@
     "C-5": [
       "Boulevard",
       "Parque Martí"
+    ],
+    "C-90": [
+      "FW1558) La Pollera"
     ],
     "C-67": [
       "El Crucero",
@@ -51,6 +54,15 @@
       "Potrerillo",
       "Peñasco",
       "Lomitas"
+    ],
+    "C-84": [
+      "Espartaco (Este",
+      "Maleza",
+      "Dagame",
+      "Paso del Medio",
+      "San Fernando de Camarones",
+      "Jurisdicción",
+      "Manaquita"
     ],
     "C-36": [
       "Cumanayagua (Sur",
@@ -201,6 +213,9 @@
       "Gavilán",
       "Boca Ambuila"
     ],
+    "S-2382": [],
+    "S-5814": [],
+    "S-3389": [],
     "C-21": [
       "Santa Elena",
       "La Candita",
@@ -449,6 +464,15 @@
       "confianza": 100,
       "texto": "👉C-5    Boulevard, Parque Martí"
     },
+    "C-90": {
+      "fecha": "2026-10-31T11:09:07+00:00",
+      "mensaje_id": 60069,
+      "url": "https://t.me/empresaelectricacienfuegos1/60069",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉FW1558 La Pollera (C-90)"
+    },
     "C-67": {
       "fecha": "2026-10-31T07:03:36+00:00",
       "mensaje_id": 60067,
@@ -477,13 +501,13 @@
       "texto": "👉C-80  Punta Cotica, Parque José Martí."
     },
     "C-58": {
-      "fecha": "2026-10-31T07:03:36+00:00",
-      "mensaje_id": 60067,
-      "url": "https://t.me/empresaelectricacienfuegos1/60067",
+      "fecha": "2026-10-31T11:09:07+00:00",
+      "mensaje_id": 60069,
+      "url": "https://t.me/empresaelectricacienfuegos1/60069",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-58  \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
+      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
     },
     "C-24": {
       "fecha": "2026-10-31T07:03:36+00:00",
@@ -521,6 +545,15 @@
       "confianza": 100,
       "texto": "👉C-53  Potrerillo, El No, Peñasco, Lomitas."
     },
+    "C-84": {
+      "fecha": "2026-10-31T11:09:07+00:00",
+      "mensaje_id": 60069,
+      "url": "https://t.me/empresaelectricacienfuegos1/60069",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+    },
     "C-36": {
       "fecha": "2026-10-31T07:03:36+00:00",
       "mensaje_id": 60067,
@@ -540,13 +573,13 @@
       "texto": "👉C-85  \"Cumanayagua (Centro)."
     },
     "C-33": {
-      "fecha": "2026-10-31T07:03:36+00:00",
-      "mensaje_id": 60067,
-      "url": "https://t.me/empresaelectricacienfuegos1/60067",
+      "fecha": "2026-10-31T11:09:07+00:00",
+      "mensaje_id": 60069,
+      "url": "https://t.me/empresaelectricacienfuegos1/60069",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-33  Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+      "texto": "👉S-3389 San Antón, Callejón del Palmar, Quesada(C-33)"
     },
     "C-31": {
       "fecha": "2026-10-31T07:03:36+00:00",
@@ -639,13 +672,13 @@
       "texto": "👉C-101               Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
     },
     "C-23": {
-      "fecha": "2026-10-31T07:03:36+00:00",
-      "mensaje_id": 60067,
-      "url": "https://t.me/empresaelectricacienfuegos1/60067",
+      "fecha": "2026-10-31T11:09:07+00:00",
+      "mensaje_id": 60069,
+      "url": "https://t.me/empresaelectricacienfuegos1/60069",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-23  Turquino, 5 de Septiembre, Guayabito"
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-103": {
       "fecha": "2026-10-31T07:03:36+00:00",
@@ -772,6 +805,33 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-75  La Legua, Gavilán, Boca Ambuila."
+    },
+    "S-2382": {
+      "fecha": "2026-10-31T11:09:07+00:00",
+      "mensaje_id": 60069,
+      "url": "https://t.me/empresaelectricacienfuegos1/60069",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
+    },
+    "S-5814": {
+      "fecha": "2026-10-31T11:09:07+00:00",
+      "mensaje_id": 60069,
+      "url": "https://t.me/empresaelectricacienfuegos1/60069",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
+    },
+    "S-3389": {
+      "fecha": "2026-10-31T11:09:07+00:00",
+      "mensaje_id": 60069,
+      "url": "https://t.me/empresaelectricacienfuegos1/60069",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-3389 San Antón, Callejón del Palmar, Quesada(C-33)"
     },
     "C-21": {
       "fecha": "2026-10-31T07:03:36+00:00",
@@ -1113,17 +1173,19 @@
   "causas": {
     "C-52": "déficit",
     "C-5": "déficit",
+    "C-90": "avería",
     "C-67": "déficit",
     "C-15": "déficit",
     "C-80": "déficit",
-    "C-58": "déficit",
+    "C-58": "déficit / avería",
     "C-24": "déficit",
     "C-54": "déficit",
     "C-82": "déficit",
     "C-53": "déficit",
+    "C-84": "avería",
     "C-36": "déficit",
     "C-85": "déficit",
-    "C-33": "déficit",
+    "C-33": "déficit / avería",
     "C-31": "déficit",
     "C-88": "déficit",
     "C-72": "déficit",
@@ -1134,7 +1196,7 @@
     "C-49": "déficit",
     "C-102": "déficit",
     "C-101": "déficit",
-    "C-23": "déficit",
+    "C-23": "déficit / avería",
     "C-103": "déficit",
     "C-22": "déficit",
     "C-86": "déficit",
@@ -1149,6 +1211,9 @@
     "C-29": "déficit",
     "C-39": "déficit",
     "C-75": "déficit",
+    "S-2382": "avería",
+    "S-5814": "avería",
+    "S-3389": "avería",
     "C-21": "déficit",
     "C-17": "déficit",
     "C-38": "déficit",
@@ -1175,20 +1240,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\n> | S y\nEl | a",
-      "id": 60008,
-      "url": "https://t.me/empresaelectricacienfuegos1/60008",
-      "fecha": "2026-10-29T15:23:27+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "¿Qué es una Vía Libre de Emergencia?\n\n⚠️Es un permiso de trabajo que se establece sobre un área determinada para realizar acciones en las redes eléctricas. \n\n\n👉Las vías libres de emergencia, como su nombre lo indica, no pueden ser programadas, pues se realizan ante averías. \n\n\n📌Para esta reparación ",
-      "id": 60009,
-      "url": "https://t.me/empresaelectricacienfuegos1/60009",
-      "fecha": "2026-10-29T15:25:52+00:00"
-    },
     {
       "id": 60010,
       "url": "https://t.me/empresaelectricacienfuegos1/60010",
@@ -1702,11 +1753,25 @@
       "id": 60062,
       "url": "https://t.me/empresaelectricacienfuegos1/60062",
       "fecha": "2026-10-31T00:54:08+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠️ Se comunica a nuestros clientes que se encuentra restablecido el servicio en las zonas:\n\n\n👉Bombeo Paso Bonito (L-333)\n\n👉Bombeo Jíbaro (L-333)\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas",
+      "id": 60068,
+      "url": "https://t.me/empresaelectricacienfuegos1/60068",
+      "fecha": "2026-10-31T11:06:28+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nee",
+      "id": 60069,
+      "url": "https://t.me/empresaelectricacienfuegos1/60069",
+      "fecha": "2026-10-31T11:09:07+00:00"
     }
   ],
   "lectura": {
-    "texto": 73,
-    "imagenes": 52,
+    "texto": 74,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 10
   },
@@ -2688,7 +2753,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-10-31T07:03:36+00:00",
-  "total_circuitos_afectados": 61,
+  "total_circuitos_afectados": 66,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 5,
   "circuitos_sin_catalogar": [
@@ -2702,7 +2767,10 @@
     "C-89",
     "C-92",
     "C-94",
-    "C-95"
+    "C-95",
+    "S-2382",
+    "S-3389",
+    "S-5814"
   ],
-  "actualizado": "2026-10-31T10:59:20.813703+00:00"
+  "actualizado": "2026-10-31T11:14:29.468682+00:00"
 }
