@@ -6,15 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-01T03:17:06+00:00",
-  "mensajes_leidos": 103,
+  "mensajes_leidos": 102,
   "afectados": {
-    "C-52": [
-      "Paradero de Camarones",
-      "Vía Estrecha",
-      "Espartaco",
-      "La Macana",
-      "Cherepa"
-    ],
     "C-58": [],
     "C-84": [
       "Espartaco (Este",
@@ -98,6 +91,13 @@
       "Hervidero"
     ],
     "C-59": [],
+    "C-52": [
+      "Paradero de Camarones",
+      "Vía Estrecha",
+      "Espartaco",
+      "La Macana",
+      "Cherepa"
+    ],
     "C-6": [
       "Rancho Luna",
       "Pasacaballo",
@@ -933,15 +933,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-52": {
-      "fecha": "2026-11-01T14:05:56+00:00",
-      "mensaje_id": 60109,
-      "url": "https://t.me/empresaelectricacienfuegos1/60109",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
-    },
     "C-58": {
       "fecha": "2026-11-01T14:05:56+00:00",
       "mensaje_id": 60109,
@@ -1067,6 +1058,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
+    },
+    "C-52": {
+      "fecha": "2026-11-01T14:05:56+00:00",
+      "mensaje_id": 60109,
+      "url": "https://t.me/empresaelectricacienfuegos1/60109",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
     },
     "C-6": {
       "fecha": "2026-11-01T14:05:56+00:00",
@@ -2082,7 +2082,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-52": "déficit",
     "C-58": "avería / déficit",
     "C-84": "avería",
     "C-73": "déficit",
@@ -2097,6 +2096,7 @@
     "C-33": "avería",
     "C-38": "déficit",
     "C-59": "déficit",
+    "C-52": "déficit",
     "C-6": "déficit",
     "C-43": "déficit",
     "C-11": "déficit",
@@ -2641,7 +2641,7 @@
     }
   ],
   "lectura": {
-    "texto": 67,
+    "texto": 66,
     "imagenes": 36,
     "pdf": 0,
     "no_leidos": 3
@@ -2847,7 +2847,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60038"
     },
     {
-      "circuito": "C-407",
+      "circuito": "C-408",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-30T12:53:16+00:00",
@@ -2856,7 +2856,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60040"
     },
     {
-      "circuito": "C-408",
+      "circuito": "C-407",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-30T12:53:16+00:00",
@@ -3628,5 +3628,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-11-01T14:34:14.610860+00:00"
+  "actualizado": "2026-11-01T14:49:19.498065+00:00"
 }
