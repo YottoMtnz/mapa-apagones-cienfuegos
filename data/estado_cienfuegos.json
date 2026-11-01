@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-10-31T19:02:00+00:00",
-  "mensajes_leidos": 107,
+  "mensajes_leidos": 106,
   "afectados": {
     "C-52": [
       "Paradero de Camarones",
@@ -56,6 +56,11 @@
       "Ciego Montero",
       "La Amalia",
       "Ceiba Hueca"
+    ],
+    "C-42": [
+      "Viet Nam",
+      "Real Campiña",
+      "Guanito"
     ],
     "C-102": [
       "La Ciruela"
@@ -115,11 +120,6 @@
       "Breñas",
       "Caña Brava",
       "Dolores"
-    ],
-    "C-42": [
-      "Viet Nam",
-      "Real Campiña",
-      "Guanito"
     ],
     "C-73": [
       "Perseverancia",
@@ -766,6 +766,15 @@
       "confianza": 100,
       "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
     },
+    "C-42": {
+      "fecha": "2026-11-01T02:19:02+00:00",
+      "mensaje_id": 60098,
+      "url": "https://t.me/empresaelectricacienfuegos1/60098",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito."
+    },
     "C-102": {
       "fecha": "2026-11-01T02:19:02+00:00",
       "mensaje_id": 60098,
@@ -864,15 +873,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
-    },
-    "C-42": {
-      "fecha": "2026-11-01T02:19:02+00:00",
-      "mensaje_id": 60098,
-      "url": "https://t.me/empresaelectricacienfuegos1/60098",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-42 Viet Nam, Real Campiña, Guanito."
     },
     "C-73": {
       "fecha": "2026-11-01T02:19:02+00:00",
@@ -1563,6 +1563,7 @@
     "C-25": "déficit",
     "C-55": "déficit",
     "C-49": "déficit",
+    "C-42": "déficit",
     "C-102": "déficit",
     "C-101": "déficit",
     "C-103": "déficit",
@@ -1574,7 +1575,6 @@
     "C-57": "déficit",
     "C-8": "déficit",
     "C-35": "déficit",
-    "C-42": "déficit",
     "C-73": "déficit",
     "C-78": "déficit",
     "C-29": "déficit",
@@ -2135,7 +2135,7 @@
     }
   ],
   "lectura": {
-    "texto": 69,
+    "texto": 68,
     "imagenes": 38,
     "pdf": 0,
     "no_leidos": 3
@@ -3135,5 +3135,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-01T02:24:22.753074+00:00"
+  "actualizado": "2026-11-01T02:32:06.420239+00:00"
 }
