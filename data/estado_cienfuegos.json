@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-01T22:01:20+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-01T21:29:16+00:00",
-  "mensajes_leidos": 99,
+  "programado_fecha": "2026-11-01T23:19:50+00:00",
+  "mensajes_leidos": 100,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -264,6 +264,10 @@
     "C-80": [
       "Punta Cotica",
       "Parque José Martí"
+    ],
+    "C-91": [
+      "Buena Vista",
+      "La Esperanza"
     ]
   },
   "confirmados_con_servicio": {
@@ -1310,6 +1314,15 @@
       "confianza": 100,
       "texto": "👉C-19 Tulipán."
     },
+    "C-91": {
+      "fecha": "2026-11-01T23:19:50+00:00",
+      "mensaje_id": 60129,
+      "url": "https://t.me/empresaelectricacienfuegos1/60129",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
     "S-3389": {
       "fecha": "2026-11-01T15:47:08+00:00",
       "mensaje_id": 60112,
@@ -1327,15 +1340,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
-    },
-    "C-91": {
-      "fecha": "2026-11-01T21:20:30+00:00",
-      "mensaje_id": 60124,
-      "url": "https://t.me/empresaelectricacienfuegos1/60124",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-91 Buena Vista, La Esperanza."
     },
     "C-18": {
       "fecha": "2026-11-01T22:01:20+00:00",
@@ -1777,6 +1781,11 @@
       "inicio": null,
       "fin": "2026-11-02T09:29:16+00:00",
       "fecha_ambigua": false
+    },
+    "C-91": {
+      "inicio": null,
+      "fin": "2026-11-02T11:19:50+00:00",
+      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
@@ -1840,13 +1849,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
-      "id": 60043,
-      "url": "https://t.me/empresaelectricacienfuegos1/60043",
-      "fecha": "2026-10-30T12:59:45+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\nGENERACIÓN Bf a. 4\nDEFICIT DE Nine 2\n| ¥ 4 | he\nUNE v |\nees Z Y A",
@@ -2340,11 +2342,18 @@
       "url": "https://t.me/empresaelectricacienfuegos1/60128",
       "fecha": "2026-11-01T22:21:33+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\nGENERACIÓN Bf a. 4\nDEFICIT DE Nine 2\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 60130,
+      "url": "https://t.me/empresaelectricacienfuegos1/60130",
+      "fecha": "2026-11-01T23:20:56+00:00"
     }
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 34,
+    "imagenes": 35,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -3314,7 +3323,7 @@
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-11-01T22:01:20+00:00",
   "total_circuitos_afectados": 52,
-  "total_circuitos_programados": 4,
+  "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 19,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3335,5 +3344,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-01T23:19:25.190023+00:00"
+  "actualizado": "2026-11-01T23:34:32.034154+00:00"
 }
