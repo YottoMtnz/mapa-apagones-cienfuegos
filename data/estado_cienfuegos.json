@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-01T03:17:06+00:00",
-  "mensajes_leidos": 105,
+  "mensajes_leidos": 103,
   "afectados": {
     "C-52": [
       "Paradero de Camarones",
@@ -69,6 +69,11 @@
       "Perseverancia",
       "1ro de Mayo"
     ],
+    "C-42": [
+      "Viet Nam",
+      "Real Campiña",
+      "Guanito"
+    ],
     "C-78": [
       "Plan Arroz",
       "La Paquita",
@@ -76,11 +81,6 @@
       "Batey Santana",
       "Guevara",
       "Aguada (Oeste"
-    ],
-    "C-42": [
-      "Viet Nam",
-      "Real Campiña",
-      "Guanito"
     ],
     "C-102": [
       "La Ciruela"
@@ -141,6 +141,9 @@
       "Caña Brava",
       "Dolores"
     ],
+    "C-90": [
+      "FW1558) La Pollera"
+    ],
     "C-29": [
       "Moncada",
       "Constancia",
@@ -169,9 +172,6 @@
       "San Antón",
       "Quesada",
       "Callejón del Palmar"
-    ],
-    "C-90": [
-      "FW1558) La Pollera"
     ],
     "S-2382": [],
     "S-5814": [],
@@ -812,15 +812,6 @@
       "confianza": 100,
       "texto": "👉C-73 \"Perseverancia, 1ro de Mayo."
     },
-    "C-78": {
-      "fecha": "2026-11-01T04:12:24+00:00",
-      "mensaje_id": 60101,
-      "url": "https://t.me/empresaelectricacienfuegos1/60101",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste)."
-    },
     "C-42": {
       "fecha": "2026-11-01T04:12:24+00:00",
       "mensaje_id": 60101,
@@ -829,6 +820,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-42 Viet Nam, Real Campiña, Guanito."
+    },
+    "C-78": {
+      "fecha": "2026-11-01T04:12:24+00:00",
+      "mensaje_id": 60101,
+      "url": "https://t.me/empresaelectricacienfuegos1/60101",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste)."
     },
     "C-102": {
       "fecha": "2026-11-01T04:12:24+00:00",
@@ -929,6 +929,15 @@
       "confianza": 100,
       "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
+    "C-90": {
+      "fecha": "2026-11-01T04:14:38+00:00",
+      "mensaje_id": 60102,
+      "url": "https://t.me/empresaelectricacienfuegos1/60102",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉FW1558 La Pollera (C-90)"
+    },
     "C-29": {
       "fecha": "2026-11-01T04:12:24+00:00",
       "mensaje_id": 60101,
@@ -964,15 +973,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉S-3389 San Antón, Callejón del Palmar, Quesada(C-33)"
-    },
-    "C-90": {
-      "fecha": "2026-11-01T04:14:38+00:00",
-      "mensaje_id": 60102,
-      "url": "https://t.me/empresaelectricacienfuegos1/60102",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉FW1558 La Pollera (C-90)"
     },
     "S-2382": {
       "fecha": "2026-11-01T04:14:38+00:00",
@@ -1584,8 +1584,8 @@
     "C-55": "déficit",
     "C-49": "déficit",
     "C-73": "déficit",
-    "C-78": "déficit",
     "C-42": "déficit",
+    "C-78": "déficit",
     "C-102": "déficit",
     "C-101": "déficit",
     "C-103": "déficit",
@@ -1597,11 +1597,11 @@
     "C-57": "déficit",
     "C-8": "déficit",
     "C-35": "déficit",
+    "C-90": "avería / déficit",
     "C-29": "déficit",
     "C-39": "déficit",
     "C-75": "déficit",
     "C-33": "déficit / avería",
-    "C-90": "avería / déficit",
     "S-2382": "avería",
     "S-5814": "avería",
     "S-3389": "avería",
@@ -2154,8 +2154,8 @@
     }
   ],
   "lectura": {
-    "texto": 66,
-    "imagenes": 39,
+    "texto": 65,
+    "imagenes": 38,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -3136,5 +3136,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-11-01T10:04:21.636291+00:00"
+  "actualizado": "2026-11-01T10:19:15.449278+00:00"
 }
