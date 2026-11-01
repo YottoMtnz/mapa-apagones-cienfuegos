@@ -16,15 +16,6 @@
       "Cherepa"
     ],
     "C-58": [],
-    "C-84": [
-      "Espartaco (Este",
-      "Maleza",
-      "Dagame",
-      "Paso del Medio",
-      "San Fernando de Camarones",
-      "Jurisdicción",
-      "Manaquita"
-    ],
     "C-36": [
       "Cumanayagua (Sur",
       "La Guasasa",
@@ -174,9 +165,6 @@
     "C-90": [
       "FW1558) La Pollera"
     ],
-    "S-2382": [],
-    "S-5814": [],
-    "S-3389": [],
     "C-21": [
       "Santa Elena",
       "La Candita",
@@ -225,9 +213,6 @@
       "Hondones",
       "La Yuca",
       "Bagazal"
-    ],
-    "C-405": [
-      "Pueblo Griffo Nuevo"
     ],
     "C-92": [],
     "C-62": [],
@@ -746,15 +731,6 @@
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
-    "C-84": {
-      "fecha": "2026-10-31T12:12:43+00:00",
-      "mensaje_id": 60074,
-      "url": "https://t.me/empresaelectricacienfuegos1/60074",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
-    },
     "C-36": {
       "fecha": "2026-10-31T23:24:44+00:00",
       "mensaje_id": 60095,
@@ -1007,33 +983,6 @@
       "confianza": 100,
       "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
-    "S-2382": {
-      "fecha": "2026-10-31T12:12:43+00:00",
-      "mensaje_id": 60074,
-      "url": "https://t.me/empresaelectricacienfuegos1/60074",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
-    "S-5814": {
-      "fecha": "2026-10-31T12:12:43+00:00",
-      "mensaje_id": 60074,
-      "url": "https://t.me/empresaelectricacienfuegos1/60074",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
-    },
-    "S-3389": {
-      "fecha": "2026-10-31T12:12:43+00:00",
-      "mensaje_id": 60074,
-      "url": "https://t.me/empresaelectricacienfuegos1/60074",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-3389 San Antón, Callejón del Palmar, Quesada (C-33)"
-    },
     "C-21": {
       "fecha": "2026-10-31T23:24:44+00:00",
       "mensaje_id": 60095,
@@ -1123,15 +1072,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
-    },
-    "C-405": {
-      "fecha": "2026-10-31T12:12:43+00:00",
-      "mensaje_id": 60074,
-      "url": "https://t.me/empresaelectricacienfuegos1/60074",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-405 Pueblo Griffo Nuevo."
     },
     "C-92": {
       "fecha": "2026-10-31T23:24:44+00:00",
@@ -1696,8 +1636,7 @@
   "tiempos": {},
   "causas": {
     "C-52": "déficit",
-    "C-58": "avería / déficit",
-    "C-84": "avería",
+    "C-58": "déficit",
     "C-36": "déficit",
     "C-31": "déficit",
     "C-88": "déficit",
@@ -1710,7 +1649,7 @@
     "C-102": "déficit",
     "C-101": "déficit",
     "C-103": "déficit",
-    "C-23": "déficit / avería",
+    "C-23": "déficit",
     "C-22": "déficit",
     "C-86": "déficit",
     "C-7": "déficit",
@@ -1724,11 +1663,8 @@
     "C-29": "déficit",
     "C-39": "déficit",
     "C-75": "déficit",
-    "C-33": "déficit / avería",
-    "C-90": "avería / déficit",
-    "S-2382": "avería",
-    "S-5814": "avería",
-    "S-3389": "avería",
+    "C-33": "déficit",
+    "C-90": "déficit",
     "C-21": "déficit",
     "C-17": "déficit",
     "C-38": "déficit",
@@ -1739,7 +1675,6 @@
     "C-44": "déficit",
     "C-56": "déficit",
     "C-63": "déficit",
-    "C-405": "emergencia",
     "C-92": "déficit",
     "C-62": "déficit",
     "C-406": "déficit",
@@ -1748,7 +1683,7 @@
     "C-27": "déficit",
     "C-50": "déficit",
     "C-32": "déficit",
-    "C-69": "emergencia / déficit",
+    "C-69": "déficit",
     "C-82": "déficit",
     "C-85": "déficit",
     "C-53": "déficit",
@@ -3259,7 +3194,7 @@
   ],
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-10-31T23:24:44+00:00",
-  "total_circuitos_afectados": 61,
+  "total_circuitos_afectados": 56,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
@@ -3277,10 +3212,7 @@
     "C-89",
     "C-92",
     "C-94",
-    "C-95",
-    "S-2382",
-    "S-3389",
-    "S-5814"
+    "C-95"
   ],
-  "actualizado": "2026-11-01T00:09:27.405022+00:00"
+  "actualizado": "2026-11-01T00:24:41.075965+00:00"
 }
