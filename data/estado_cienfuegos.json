@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-01T19:36:36+00:00",
+  "reporte_fecha": "2026-11-01T20:04:07+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-01T19:30:31+00:00",
-  "mensajes_leidos": 97,
+  "mensajes_leidos": 98,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -180,6 +180,10 @@
     ],
     "C-56": [
       "Cruces (Norte"
+    ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
     ]
   },
   "programados": {
@@ -811,33 +815,6 @@
         "La Milpa"
       ]
     },
-    "C-80": {
-      "fecha": "2026-11-01T19:36:36+00:00",
-      "mensaje_id": 60120,
-      "url": "https://t.me/empresaelectricacienfuegos1/60120",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-01T17:13:04+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-01T16:23:01+00:00",
-        "mensaje_id": 60114,
-        "url": "https://t.me/empresaelectricacienfuegos1/60114",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-80 Punta Cotica, Parque José Martí."
-      },
-      "lugares": [
-        "Punta Cotica",
-        "Parque José Martí"
-      ]
-    },
     "C-65": {
       "fecha": "2026-11-01T19:36:36+00:00",
       "mensaje_id": 60120,
@@ -1436,6 +1413,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-56 \"Cruces (Norte)."
+    },
+    "C-80": {
+      "fecha": "2026-11-01T20:04:07+00:00",
+      "mensaje_id": 60121,
+      "url": "https://t.me/empresaelectricacienfuegos1/60121",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-80 Punta Cotica, Parque José Martí."
     },
     "C-407": {
       "fecha": "2026-11-01T19:30:31+00:00",
@@ -2069,33 +2055,6 @@
         "La Milpa"
       ]
     },
-    "C-80": {
-      "fecha": "2026-11-01T19:36:36+00:00",
-      "mensaje_id": 60120,
-      "url": "https://t.me/empresaelectricacienfuegos1/60120",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-01T17:13:04+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-01T16:23:01+00:00",
-        "mensaje_id": 60114,
-        "url": "https://t.me/empresaelectricacienfuegos1/60114",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-80 Punta Cotica, Parque José Martí."
-      },
-      "lugares": [
-        "Punta Cotica",
-        "Parque José Martí"
-      ]
-    },
     "C-65": {
       "fecha": "2026-11-01T19:36:36+00:00",
       "mensaje_id": 60120,
@@ -2345,17 +2304,11 @@
     "C-21": "déficit",
     "C-25": "déficit",
     "C-78": "déficit",
-    "C-56": "déficit"
+    "C-56": "déficit",
+    "C-80": "sin precisar"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\n|\n-\nq\nAN\n$\nY\n4%\n~ &\ne?\nG",
-      "id": 60039,
-      "url": "https://t.me/empresaelectricacienfuegos1/60039",
-      "fecha": "2026-10-30T11:14:00+00:00"
-    },
     {
       "motivo": "resumen_historico",
       "texto": "👉🏻En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
@@ -2850,11 +2803,18 @@
       "id": 60111,
       "url": "https://t.me/empresaelectricacienfuegos1/60111",
       "fecha": "2026-11-01T15:35:28+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nmanipulación en las redes eléctricas\n_---\n| ” ie pS IA |",
+      "id": 60121,
+      "url": "https://t.me/empresaelectricacienfuegos1/60121",
+      "fecha": "2026-11-01T20:04:07+00:00"
     }
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 32,
+    "imagenes": 33,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -3812,9 +3772,9 @@
   ],
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-11-01T19:36:36+00:00",
-  "total_circuitos_afectados": 42,
+  "total_circuitos_afectados": 43,
   "total_circuitos_programados": 1,
-  "total_restablecimientos_probables": 31,
+  "total_restablecimientos_probables": 30,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3834,5 +3794,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-01T19:49:21.125451+00:00"
+  "actualizado": "2026-11-01T20:04:19.057986+00:00"
 }
