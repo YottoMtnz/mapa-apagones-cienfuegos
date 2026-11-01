@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-11-01T18:30:21+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-01T16:18:47+00:00",
+  "programado_fecha": "2026-11-01T19:30:31+00:00",
   "mensajes_leidos": 97,
   "afectados": {
     "C-58": [],
@@ -154,7 +154,9 @@
       "La Ciruela"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-407": []
+  },
   "confirmados_con_servicio": {
     "S-3389": {
       "fecha": "2026-11-01T15:47:08+00:00",
@@ -1505,6 +1507,15 @@
       "confianza": 100,
       "texto": "👉C-102  La Ciruela"
     },
+    "C-407": {
+      "fecha": "2026-11-01T19:30:31+00:00",
+      "mensaje_id": 60119,
+      "url": "https://t.me/empresaelectricacienfuegos1/60119",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
+    },
     "S-3389": {
       "fecha": "2026-11-01T15:47:08+00:00",
       "mensaje_id": 60112,
@@ -2491,33 +2502,15 @@
         "Guayabales",
         "Batey Diego. ( PSFV 0-24"
       ]
-    },
-    "C-407": {
-      "fecha": "2026-11-01T18:30:21+00:00",
-      "mensaje_id": 60118,
-      "url": "https://t.me/empresaelectricacienfuegos1/60118",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-01T18:30:21+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-11-01T17:13:04+00:00",
-        "mensaje_id": 60117,
-        "url": "https://t.me/empresaelectricacienfuegos1/60117",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-407  \"Cocaleca, Poligráfico, Pastorita, O'bourke.\""
-      },
-      "lugares": []
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-407": {
+      "inicio": null,
+      "fin": "2026-11-02T07:30:31+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 55.0,
   "hora_inicio": null,
@@ -4023,7 +4016,7 @@
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-11-01T18:30:21+00:00",
   "total_circuitos_afectados": 37,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 36,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -4044,5 +4037,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-01T19:19:20.277354+00:00"
+  "actualizado": "2026-11-01T19:34:31.082981+00:00"
 }
