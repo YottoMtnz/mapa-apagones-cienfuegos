@@ -2,22 +2,13 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-01T16:23:01+00:00",
+  "reporte_fecha": "2026-11-01T16:59:12+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-01T16:18:47+00:00",
-  "mensajes_leidos": 100,
+  "mensajes_leidos": 99,
   "afectados": {
     "C-58": [],
-    "C-84": [
-      "Espartaco (Este",
-      "Maleza",
-      "Dagame",
-      "Paso del Medio",
-      "San Fernando de Camarones",
-      "Jurisdicción",
-      "Manaquita"
-    ],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
@@ -181,6 +172,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "⚠️Se comunica a nuestros clientes que se encuentra restablecido el servicio en en la sección S-3389, las zonas:"
+    },
+    "C-84": {
+      "fecha": "2026-11-01T16:59:12+00:00",
+      "mensaje_id": 60116,
+      "url": "https://t.me/empresaelectricacienfuegos1/60116",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     }
   },
   "restablecimientos_probables": {
@@ -1137,15 +1137,6 @@
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.\""
     },
-    "C-84": {
-      "fecha": "2026-11-01T12:33:29+00:00",
-      "mensaje_id": 60107,
-      "url": "https://t.me/empresaelectricacienfuegos1/60107",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
-    },
     "C-23": {
       "fecha": "2026-11-01T12:33:29+00:00",
       "mensaje_id": 60107,
@@ -1505,6 +1496,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "⚠️Se comunica a nuestros clientes que se encuentra restablecido el servicio en en la sección S-3389, las zonas:"
+    },
+    "C-84": {
+      "fecha": "2026-11-01T16:59:12+00:00",
+      "mensaje_id": 60116,
+      "url": "https://t.me/empresaelectricacienfuegos1/60116",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     },
     "C-18": {
       "fecha": "2026-11-01T16:23:01+00:00",
@@ -2462,7 +2462,6 @@
   "tiempos": {},
   "causas": {
     "C-58": "avería / déficit",
-    "C-84": "avería",
     "C-23": "avería",
     "C-33": "avería",
     "C-59": "déficit",
@@ -2504,6 +2503,13 @@
   },
   "error": null,
   "pendientes_revision": [
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\n|\n-\nq\nAN\n$\nY\n4%\n~ &\ne?\nG",
+      "id": 60039,
+      "url": "https://t.me/empresaelectricacienfuegos1/60039",
+      "fecha": "2026-10-30T11:14:00+00:00"
+    },
     {
       "motivo": "resumen_historico",
       "texto": "👉🏻En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
@@ -2998,17 +3004,10 @@
       "id": 60111,
       "url": "https://t.me/empresaelectricacienfuegos1/60111",
       "fecha": "2026-11-01T15:35:28+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "¿Qué es una Vía Libre de Emergencia?\n\n⚠️Es un permiso de trabajo que se establece sobre un área determinada para realizar acciones en las redes eléctricas. \n\n\n👉Las vías libres de emergencia, como su nombre lo indica, no pueden ser programadas, pues se realizan ante averías. \n\n\n📌Para esta reparación ",
-      "id": 60115,
-      "url": "https://t.me/empresaelectricacienfuegos1/60115",
-      "fecha": "2026-11-01T16:32:36+00:00"
     }
   ],
   "lectura": {
-    "texto": 67,
+    "texto": 66,
     "imagenes": 33,
     "pdf": 0,
     "no_leidos": 2
@@ -3060,15 +3059,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-67",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-30T11:07:37+00:00",
-      "mensaje_id": 60038,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60037",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60038"
-    },
     {
       "circuito": "C-26",
       "tipo": "salida_lista",
@@ -3959,11 +3949,20 @@
       "mensaje_id": 60114,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60110",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60114"
+    },
+    {
+      "circuito": "C-84",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-01T16:59:12+00:00",
+      "mensaje_id": 60116,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60107",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60116"
     }
   ],
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-11-01T16:23:01+00:00",
-  "total_circuitos_afectados": 40,
+  "total_circuitos_afectados": 39,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 34,
   "circuitos_sin_catalogar": [
@@ -3986,5 +3985,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-01T16:49:20.218771+00:00"
+  "actualizado": "2026-11-01T17:04:33.487846+00:00"
 }
