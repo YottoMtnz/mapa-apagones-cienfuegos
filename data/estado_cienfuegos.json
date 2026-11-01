@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-01T15:20:27+00:00",
+  "reporte_fecha": "2026-11-01T15:47:08+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 101,
+  "mensajes_leidos": 103,
   "afectados": {
     "C-58": [],
     "C-84": [
@@ -103,7 +103,6 @@
     ],
     "S-2382": [],
     "S-5814": [],
-    "S-3389": [],
     "C-406": [
       "San Lázaro",
       "Calle 35 de Ave 58 hasta Ave 64",
@@ -200,10 +199,24 @@
     "C-15": [
       "Pepito Tey",
       "Guabairo"
+    ],
+    "C-91": [
+      "Buena Vista",
+      "La Esperanza"
     ]
   },
   "programados": {},
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "S-3389": {
+      "fecha": "2026-11-01T15:47:08+00:00",
+      "mensaje_id": 60112,
+      "url": "https://t.me/empresaelectricacienfuegos1/60112",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠️Se comunica a nuestros clientes que se encuentra restablecido el servicio en en la sección S-3389, las zonas:"
+    }
+  },
   "restablecimientos_probables": {
     "C-18": {
       "fecha": "2026-11-01T15:20:27+00:00",
@@ -567,33 +580,6 @@
         "La Legua",
         "Gavilán",
         "Boca Ambuila"
-      ]
-    },
-    "C-91": {
-      "fecha": "2026-11-01T15:20:27+00:00",
-      "mensaje_id": 60110,
-      "url": "https://t.me/empresaelectricacienfuegos1/60110",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-01T12:43:17+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-01T11:36:47+00:00",
-        "mensaje_id": 60104,
-        "url": "https://t.me/empresaelectricacienfuegos1/60104",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-91 Buena Vista, La Esperanza."
-      },
-      "lugares": [
-        "Buena Vista",
-        "La Esperanza"
       ]
     },
     "C-47": {
@@ -1205,15 +1191,6 @@
       "confianza": 100,
       "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
     },
-    "S-3389": {
-      "fecha": "2026-11-01T12:33:29+00:00",
-      "mensaje_id": 60107,
-      "url": "https://t.me/empresaelectricacienfuegos1/60107",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-3389 San Antón, Callejón del Palmar, Quesada (C-33)"
-    },
     "C-406": {
       "fecha": "2026-11-01T15:20:27+00:00",
       "mensaje_id": 60110,
@@ -1429,6 +1406,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
+    "C-91": {
+      "fecha": "2026-11-01T15:35:28+00:00",
+      "mensaje_id": 60111,
+      "url": "https://t.me/empresaelectricacienfuegos1/60111",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
+    "S-3389": {
+      "fecha": "2026-11-01T15:47:08+00:00",
+      "mensaje_id": 60112,
+      "url": "https://t.me/empresaelectricacienfuegos1/60112",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠️Se comunica a nuestros clientes que se encuentra restablecido el servicio en en la sección S-3389, las zonas:"
     },
     "C-18": {
       "fecha": "2026-11-01T15:20:27+00:00",
@@ -1792,33 +1787,6 @@
         "La Legua",
         "Gavilán",
         "Boca Ambuila"
-      ]
-    },
-    "C-91": {
-      "fecha": "2026-11-01T15:20:27+00:00",
-      "mensaje_id": 60110,
-      "url": "https://t.me/empresaelectricacienfuegos1/60110",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-7 \"Lajas, Las Nuevas, El Salto, Ajuria, Santa Susana,  San Marcos, Chucho Rosa.\"",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-01T12:43:17+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-01T11:36:47+00:00",
-        "mensaje_id": 60104,
-        "url": "https://t.me/empresaelectricacienfuegos1/60104",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-91 Buena Vista, La Esperanza."
-      },
-      "lugares": [
-        "Buena Vista",
-        "La Esperanza"
       ]
     },
     "C-47": {
@@ -2275,7 +2243,6 @@
     "C-90": "avería / déficit",
     "S-2382": "avería",
     "S-5814": "avería",
-    "S-3389": "avería",
     "C-406": "déficit",
     "C-70": "déficit",
     "C-36": "déficit",
@@ -2299,20 +2266,11 @@
     "C-76": "avería",
     "C-67": "déficit",
     "C-407": "déficit",
-    "C-15": "déficit"
+    "C-15": "déficit",
+    "C-91": "emergencia"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_estado_explicito",
-      "texto": "👉C-15 Pepito Tey, Guabairo.",
-      "circuitos": [
-        "C-15"
-      ],
-      "id": 60031,
-      "url": "https://t.me/empresaelectricacienfuegos1/60031",
-      "fecha": "2026-10-29T23:38:54+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos afectados por\nAVERÍA\n|\n-\nq\nAN\n$\nY\n4%\n~ &\ne?\nG",
@@ -2807,11 +2765,18 @@
       "id": 60107,
       "url": "https://t.me/empresaelectricacienfuegos1/60107",
       "fecha": "2026-11-01T12:33:29+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\nEl | a",
+      "id": 60111,
+      "url": "https://t.me/empresaelectricacienfuegos1/60111",
+      "fecha": "2026-11-01T15:35:28+00:00"
     }
   ],
   "lectura": {
-    "texto": 66,
-    "imagenes": 35,
+    "texto": 67,
+    "imagenes": 36,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -2867,15 +2832,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-94",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-30T03:18:47+00:00",
-      "mensaje_id": 60035,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60033",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60035"
-    },
     {
       "circuito": "C-66",
       "tipo": "salida_lista",
@@ -3766,13 +3722,22 @@
       "mensaje_id": 60110,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60109",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60110"
+    },
+    {
+      "circuito": "S-3389",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-01T15:47:08+00:00",
+      "mensaje_id": 60112,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60107",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60112"
     }
   ],
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-11-01T15:20:27+00:00",
   "total_circuitos_afectados": 45,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 30,
+  "total_restablecimientos_probables": 29,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3790,8 +3755,7 @@
     "C-94",
     "C-95",
     "S-2382",
-    "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-11-01T15:34:09.322534+00:00"
+  "actualizado": "2026-11-01T15:49:15.490124+00:00"
 }
