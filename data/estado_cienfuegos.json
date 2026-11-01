@@ -298,11 +298,6 @@
     ]
   },
   "programados": {
-    "C-24": [
-      "Pérez Leyva",
-      "La Redonda",
-      "El Limpio"
-    ],
     "C-19": [
       "Tulipán"
     ],
@@ -1249,15 +1244,6 @@
       "confianza": 100,
       "texto": "👉C-5 Boulevard, Parque Martí"
     },
-    "C-24": {
-      "fecha": "2026-10-31T19:02:00+00:00",
-      "mensaje_id": 60088,
-      "url": "https://t.me/empresaelectricacienfuegos1/60088",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-406 San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
-    },
     "C-19": {
       "fecha": "2026-11-01T03:17:06+00:00",
       "mensaje_id": 60100,
@@ -1399,6 +1385,34 @@
       },
       "lugares": []
     },
+    "C-24": {
+      "fecha": "2026-11-01T04:12:24+00:00",
+      "mensaje_id": 60101,
+      "url": "https://t.me/empresaelectricacienfuegos1/60101",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-31 Horquita, Vista Hermosa, Micropresa, El Manguito, Mercedes, Guanal.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-10-31T13:03:06+00:00",
+      "listas_consecutivas": 16,
+      "aviso_anterior": {
+        "fecha": "2026-10-31T11:17:13+00:00",
+        "mensaje_id": 60070,
+        "url": "https://t.me/empresaelectricacienfuegos1/60070",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-24  Pérez Leyva, La Redonda, El Limpio."
+      },
+      "lugares": [
+        "Pérez Leyva",
+        "La Redonda",
+        "El Limpio"
+      ]
+    },
     "C-30": {
       "fecha": "2026-11-01T04:12:24+00:00",
       "mensaje_id": 60101,
@@ -1526,11 +1540,6 @@
     }
   },
   "horarios": {
-    "C-24": {
-      "inicio": null,
-      "fin": "2026-11-01T07:02:00+00:00",
-      "fecha_ambigua": false
-    },
     "C-19": {
       "inicio": null,
       "fin": "2026-11-01T15:17:06+00:00",
@@ -3106,7 +3115,7 @@
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-11-01T04:12:24+00:00",
   "total_circuitos_afectados": 60,
-  "total_circuitos_programados": 6,
+  "total_circuitos_programados": 5,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3127,5 +3136,5 @@
     "S-3389",
     "S-5814"
   ],
-  "actualizado": "2026-11-01T06:59:26.858225+00:00"
+  "actualizado": "2026-11-01T07:14:14.433254+00:00"
 }
