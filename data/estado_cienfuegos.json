@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-01T21:29:16+00:00",
-  "mensajes_leidos": 98,
+  "mensajes_leidos": 99,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -1842,13 +1842,6 @@
   "pendientes_revision": [
     {
       "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de         2004 MW a las 19:10 horas.",
-      "id": 60042,
-      "url": "https://t.me/empresaelectricacienfuegos1/60042",
-      "fecha": "2026-10-30T12:57:59+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
       "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
       "id": 60043,
       "url": "https://t.me/empresaelectricacienfuegos1/60043",
@@ -2341,13 +2334,19 @@
       "id": 60125,
       "url": "https://t.me/empresaelectricacienfuegos1/60125",
       "fecha": "2026-11-01T21:21:26+00:00"
+    },
+    {
+      "id": 60128,
+      "url": "https://t.me/empresaelectricacienfuegos1/60128",
+      "fecha": "2026-11-01T22:21:33+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 33,
+    "imagenes": 34,
     "pdf": 0,
-    "no_leidos": 2
+    "no_leidos": 3
   },
   "listas_completas": {
     "deficit": {
@@ -3336,5 +3335,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-01T22:19:18.703816+00:00"
+  "actualizado": "2026-11-01T22:34:19.723705+00:00"
 }
