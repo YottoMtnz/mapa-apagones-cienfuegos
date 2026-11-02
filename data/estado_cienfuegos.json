@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-02T13:54:00+00:00",
+  "reporte_fecha": "2026-11-02T15:12:38+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-02T03:24:01+00:00",
-  "mensajes_leidos": 98,
+  "mensajes_leidos": 99,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -278,7 +278,16 @@
       "Batey 2 Hermanos"
     ],
     "C-95": [],
-    "C-59": []
+    "C-59": [],
+    "C-27": [
+      "Barrio Matadero",
+      "Juraguá"
+    ],
+    "C-28": [
+      "CEN",
+      "Castillo de Jagua",
+      "La Loma"
+    ]
   },
   "programados": {
     "C-15": [
@@ -583,61 +592,6 @@
         "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
       },
       "lugares": []
-    },
-    "C-28": {
-      "fecha": "2026-11-02T13:54:00+00:00",
-      "mensaje_id": 60143,
-      "url": "https://t.me/empresaelectricacienfuegos1/60143",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-02T12:01:45+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-02T11:16:53+00:00",
-        "mensaje_id": 60138,
-        "url": "https://t.me/empresaelectricacienfuegos1/60138",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-28 CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)"
-      },
-      "lugares": [
-        "CEN",
-        "Castillo de Jagua",
-        "La Loma"
-      ]
-    },
-    "C-27": {
-      "fecha": "2026-11-02T13:54:00+00:00",
-      "mensaje_id": 60143,
-      "url": "https://t.me/empresaelectricacienfuegos1/60143",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-02T12:01:45+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-02T11:16:53+00:00",
-        "mensaje_id": 60138,
-        "url": "https://t.me/empresaelectricacienfuegos1/60138",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
-      },
-      "lugares": [
-        "Barrio Matadero",
-        "Juraguá"
-      ]
     },
     "C-53": {
       "fecha": "2026-11-02T13:54:00+00:00",
@@ -1235,6 +1189,24 @@
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
     },
+    "C-27": {
+      "fecha": "2026-11-02T15:12:38+00:00",
+      "mensaje_id": 60144,
+      "url": "https://t.me/empresaelectricacienfuegos1/60144",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-27 Barrio Matadero, Juraguá."
+    },
+    "C-28": {
+      "fecha": "2026-11-02T15:12:38+00:00",
+      "mensaje_id": 60144,
+      "url": "https://t.me/empresaelectricacienfuegos1/60144",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-28 CEN, Castillo de Jagua, La Loma."
+    },
     "C-15": {
       "fecha": "2026-11-02T03:24:01+00:00",
       "mensaje_id": 60133,
@@ -1463,61 +1435,6 @@
       },
       "lugares": []
     },
-    "C-28": {
-      "fecha": "2026-11-02T13:54:00+00:00",
-      "mensaje_id": 60143,
-      "url": "https://t.me/empresaelectricacienfuegos1/60143",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-02T12:01:45+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-02T11:16:53+00:00",
-        "mensaje_id": 60138,
-        "url": "https://t.me/empresaelectricacienfuegos1/60138",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-28 CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)"
-      },
-      "lugares": [
-        "CEN",
-        "Castillo de Jagua",
-        "La Loma"
-      ]
-    },
-    "C-27": {
-      "fecha": "2026-11-02T13:54:00+00:00",
-      "mensaje_id": 60143,
-      "url": "https://t.me/empresaelectricacienfuegos1/60143",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-02T12:01:45+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-02T11:16:53+00:00",
-        "mensaje_id": 60138,
-        "url": "https://t.me/empresaelectricacienfuegos1/60138",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
-      },
-      "lugares": [
-        "Barrio Matadero",
-        "Juraguá"
-      ]
-    },
     "C-53": {
       "fecha": "2026-11-02T13:54:00+00:00",
       "mensaje_id": 60143,
@@ -1678,7 +1595,9 @@
     "C-89": "déficit",
     "C-30": "déficit",
     "C-95": "déficit",
-    "C-59": "déficit"
+    "C-59": "déficit",
+    "C-27": "sin precisar",
+    "C-28": "sin precisar"
   },
   "error": null,
   "pendientes_revision": [
@@ -2184,7 +2103,7 @@
   ],
   "lectura": {
     "texto": 66,
-    "imagenes": 32,
+    "imagenes": 33,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -3158,9 +3077,9 @@
   ],
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-11-02T13:54:00+00:00",
-  "total_circuitos_afectados": 57,
+  "total_circuitos_afectados": 59,
   "total_circuitos_programados": 3,
-  "total_restablecimientos_probables": 16,
+  "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-2",
@@ -3178,5 +3097,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-02T14:59:34.041463+00:00"
+  "actualizado": "2026-11-02T15:14:35.603470+00:00"
 }
