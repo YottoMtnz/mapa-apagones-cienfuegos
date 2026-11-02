@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-02T10:15:00+00:00",
+  "reporte_fecha": "2026-11-02T10:36:10+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-02T03:24:01+00:00",
-  "mensajes_leidos": 98,
+  "mensajes_leidos": 99,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -23,6 +23,11 @@
       "Quesada",
       "Callejón del Palmar"
     ],
+    "C-90": [
+      "FW1558) La Pollera"
+    ],
+    "S-2382": [],
+    "S-5814": [],
     "C-406": [
       "San Lázaro",
       "Calle 35 de Ave 58 hasta Ave 64",
@@ -297,9 +302,6 @@
       "El Crucero",
       "Guaos",
       "Naranjito"
-    ],
-    "C-90": [
-      "FW1558) La Pollera"
     ]
   },
   "confirmados_con_servicio": {},
@@ -722,22 +724,22 @@
   "afectaciones_parciales": {},
   "evidencias": {
     "C-58": {
-      "fecha": "2026-11-02T10:15:00+00:00",
-      "mensaje_id": 60136,
-      "url": "https://t.me/empresaelectricacienfuegos1/60136",
+      "fecha": "2026-11-02T10:36:10+00:00",
+      "mensaje_id": 60137,
+      "url": "https://t.me/empresaelectricacienfuegos1/60137",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.\""
+      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
     },
     "C-23": {
-      "fecha": "2026-11-02T10:15:00+00:00",
-      "mensaje_id": 60136,
-      "url": "https://t.me/empresaelectricacienfuegos1/60136",
+      "fecha": "2026-11-02T10:36:10+00:00",
+      "mensaje_id": 60137,
+      "url": "https://t.me/empresaelectricacienfuegos1/60137",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-33": {
       "fecha": "2026-11-02T10:15:00+00:00",
@@ -747,6 +749,33 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+    },
+    "C-90": {
+      "fecha": "2026-11-02T10:36:10+00:00",
+      "mensaje_id": 60137,
+      "url": "https://t.me/empresaelectricacienfuegos1/60137",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉FW1558 La Pollera (C-90)"
+    },
+    "S-2382": {
+      "fecha": "2026-11-02T10:36:10+00:00",
+      "mensaje_id": 60137,
+      "url": "https://t.me/empresaelectricacienfuegos1/60137",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
+    },
+    "S-5814": {
+      "fecha": "2026-11-02T10:36:10+00:00",
+      "mensaje_id": 60137,
+      "url": "https://t.me/empresaelectricacienfuegos1/60137",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
     },
     "C-406": {
       "fecha": "2026-11-02T10:15:00+00:00",
@@ -1243,15 +1272,6 @@
       "confianza": 100,
       "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
     },
-    "C-90": {
-      "fecha": "2026-11-02T03:24:01+00:00",
-      "mensaje_id": 60133,
-      "url": "https://t.me/empresaelectricacienfuegos1/60133",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
-    },
     "C-94": {
       "fecha": "2026-11-02T10:15:00+00:00",
       "mensaje_id": 60136,
@@ -1536,11 +1556,6 @@
       "inicio": null,
       "fin": "2026-11-02T15:24:01+00:00",
       "fecha_ambigua": false
-    },
-    "C-90": {
-      "inicio": null,
-      "fin": "2026-11-02T15:24:01+00:00",
-      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
@@ -1549,9 +1564,12 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-58": "déficit",
-    "C-23": "déficit",
+    "C-58": "avería / déficit",
+    "C-23": "avería / déficit",
     "C-33": "déficit",
+    "C-90": "avería",
+    "S-2382": "avería",
+    "S-5814": "avería",
     "C-406": "déficit",
     "C-92": "déficit",
     "C-28": "déficit",
@@ -1604,13 +1622,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\nGENERACIÓN Bf a. 4\nDEFICIT DE Nine 2\n| ¥ 4 | he\nUNE v |\nees Z Y A",
-      "id": 60044,
-      "url": "https://t.me/empresaelectricacienfuegos1/60044",
-      "fecha": "2026-10-30T14:58:29+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos afectados por\nee",
@@ -2104,11 +2115,18 @@
       "id": 60130,
       "url": "https://t.me/empresaelectricacienfuegos1/60130",
       "fecha": "2026-11-01T23:20:56+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nee",
+      "id": 60137,
+      "url": "https://t.me/empresaelectricacienfuegos1/60137",
+      "fecha": "2026-11-02T10:36:10+00:00"
     }
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 33,
+    "imagenes": 34,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -3081,8 +3099,8 @@
   ],
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-11-02T10:15:00+00:00",
-  "total_circuitos_afectados": 52,
-  "total_circuitos_programados": 7,
+  "total_circuitos_afectados": 55,
+  "total_circuitos_programados": 6,
   "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3096,7 +3114,9 @@
     "C-89",
     "C-92",
     "C-94",
-    "C-95"
+    "C-95",
+    "S-2382",
+    "S-5814"
   ],
-  "actualizado": "2026-11-02T10:29:42.082823+00:00"
+  "actualizado": "2026-11-02T10:44:25.238402+00:00"
 }
