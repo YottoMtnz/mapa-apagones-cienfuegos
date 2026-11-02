@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-02T19:12:15+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-02T16:40:01+00:00",
-  "mensajes_leidos": 103,
+  "programado_fecha": "2026-11-02T19:42:40+00:00",
+  "mensajes_leidos": 104,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -288,7 +288,18 @@
       "Batey Diego. ( PSFV 0-24"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-36": [
+      "Cumanayagua (Sur",
+      "La Guasasa",
+      "Ceibabo",
+      "La Furnia",
+      "Monasterio",
+      "El Concuní"
+    ],
+    "C-407": [],
+    "C-58": []
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-62": {
@@ -1211,6 +1222,24 @@
       "confianza": 100,
       "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)"
     },
+    "C-36": {
+      "fecha": "2026-11-02T19:42:40+00:00",
+      "mensaje_id": 60155,
+      "url": "https://t.me/empresaelectricacienfuegos1/60155",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+    },
+    "C-407": {
+      "fecha": "2026-11-02T19:42:40+00:00",
+      "mensaje_id": 60155,
+      "url": "https://t.me/empresaelectricacienfuegos1/60155",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+    },
     "C-62": {
       "fecha": "2026-11-02T19:12:15+00:00",
       "mensaje_id": 60152,
@@ -1306,61 +1335,6 @@
         "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
       },
       "lugares": []
-    },
-    "C-407": {
-      "fecha": "2026-11-02T19:12:15+00:00",
-      "mensaje_id": 60152,
-      "url": "https://t.me/empresaelectricacienfuegos1/60152",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-55 Cruces (Sur).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-02T13:54:00+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-11-02T12:01:45+00:00",
-        "mensaje_id": 60139,
-        "url": "https://t.me/empresaelectricacienfuegos1/60139",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-407 \"Cocaleca, Poligráfico, Pastorita, O'bourke."
-      },
-      "lugares": []
-    },
-    "C-36": {
-      "fecha": "2026-11-02T19:12:15+00:00",
-      "mensaje_id": 60152,
-      "url": "https://t.me/empresaelectricacienfuegos1/60152",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-55 Cruces (Sur).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-02T16:19:27+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-02T13:54:00+00:00",
-        "mensaje_id": 60143,
-        "url": "https://t.me/empresaelectricacienfuegos1/60143",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
-      },
-      "lugares": [
-        "Cumanayagua (Sur",
-        "La Guasasa",
-        "Ceibabo",
-        "La Furnia",
-        "Monasterio",
-        "El Concuní"
-      ]
     },
     "C-5": {
       "fecha": "2026-11-02T19:12:15+00:00",
@@ -1580,7 +1554,23 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-36": {
+      "inicio": null,
+      "fin": "2026-11-03T07:42:40+00:00",
+      "fecha_ambigua": false
+    },
+    "C-407": {
+      "inicio": null,
+      "fin": "2026-11-03T07:42:40+00:00",
+      "fecha_ambigua": false
+    },
+    "C-58": {
+      "inicio": null,
+      "fin": "2026-11-03T07:42:40+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 55.0,
   "hora_inicio": null,
@@ -2138,7 +2128,7 @@
   ],
   "lectura": {
     "texto": 67,
-    "imagenes": 36,
+    "imagenes": 37,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -3114,7 +3104,7 @@
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-11-02T19:12:15+00:00",
   "total_circuitos_afectados": 61,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3135,5 +3125,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-02T19:29:27.697870+00:00"
+  "actualizado": "2026-11-02T19:44:32.447032+00:00"
 }
