@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-02T15:12:38+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-02T03:24:01+00:00",
-  "mensajes_leidos": 99,
+  "programado_fecha": null,
+  "mensajes_leidos": 98,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -289,23 +289,7 @@
       "La Loma"
     ]
   },
-  "programados": {
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
-    ],
-    "C-26": [
-      "Caonao",
-      "Los Tanques",
-      "La Ceiba",
-      "El Paisíto"
-    ],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
-    ]
-  },
+  "programados": {},
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-94": {
@@ -1207,33 +1191,6 @@
       "confianza": 100,
       "texto": "👉C-28 CEN, Castillo de Jagua, La Loma."
     },
-    "C-15": {
-      "fecha": "2026-11-02T03:24:01+00:00",
-      "mensaje_id": 60133,
-      "url": "https://t.me/empresaelectricacienfuegos1/60133",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
-    },
-    "C-26": {
-      "fecha": "2026-11-02T03:24:01+00:00",
-      "mensaje_id": 60133,
-      "url": "https://t.me/empresaelectricacienfuegos1/60133",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
-    },
-    "C-67": {
-      "fecha": "2026-11-02T03:24:01+00:00",
-      "mensaje_id": 60133,
-      "url": "https://t.me/empresaelectricacienfuegos1/60133",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
-    },
     "C-94": {
       "fecha": "2026-11-02T13:54:00+00:00",
       "mensaje_id": 60143,
@@ -1337,6 +1294,90 @@
         "El Conejito",
         "El Desquite",
         "Venero"
+      ]
+    },
+    "C-26": {
+      "fecha": "2026-11-02T13:54:00+00:00",
+      "mensaje_id": 60143,
+      "url": "https://t.me/empresaelectricacienfuegos1/60143",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-01T23:43:46+00:00",
+      "listas_consecutivas": 8,
+      "aviso_anterior": {
+        "fecha": "2026-11-01T22:01:20+00:00",
+        "mensaje_id": 60127,
+        "url": "https://t.me/empresaelectricacienfuegos1/60127",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
+      },
+      "lugares": [
+        "Caonao",
+        "Los Tanques",
+        "La Ceiba",
+        "El Paisíto"
+      ]
+    },
+    "C-67": {
+      "fecha": "2026-11-02T13:54:00+00:00",
+      "mensaje_id": 60143,
+      "url": "https://t.me/empresaelectricacienfuegos1/60143",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-01T23:43:46+00:00",
+      "listas_consecutivas": 8,
+      "aviso_anterior": {
+        "fecha": "2026-11-01T22:01:20+00:00",
+        "mensaje_id": 60127,
+        "url": "https://t.me/empresaelectricacienfuegos1/60127",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-67 \"El Crucero, Guaos, Naranjito."
+      },
+      "lugares": [
+        "El Crucero",
+        "Guaos",
+        "Naranjito"
+      ]
+    },
+    "C-15": {
+      "fecha": "2026-11-02T13:54:00+00:00",
+      "mensaje_id": 60143,
+      "url": "https://t.me/empresaelectricacienfuegos1/60143",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-02T03:31:12+00:00",
+      "listas_consecutivas": 6,
+      "aviso_anterior": {
+        "fecha": "2026-11-02T01:11:21+00:00",
+        "mensaje_id": 60132,
+        "url": "https://t.me/empresaelectricacienfuegos1/60132",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-15 Pepito Tey, Guabairo."
+      },
+      "lugares": [
+        "Pepito Tey",
+        "Guabairo"
       ]
     },
     "C-17": {
@@ -1516,23 +1557,7 @@
       "lugares": []
     }
   },
-  "horarios": {
-    "C-15": {
-      "inicio": null,
-      "fin": "2026-11-02T15:24:01+00:00",
-      "fecha_ambigua": false
-    },
-    "C-26": {
-      "inicio": null,
-      "fin": "2026-11-02T15:24:01+00:00",
-      "fecha_ambigua": false
-    },
-    "C-67": {
-      "inicio": null,
-      "fin": "2026-11-02T15:24:01+00:00",
-      "fecha_ambigua": false
-    }
-  },
+  "horarios": {},
   "cobertura": "parcial",
   "mw": 55.0,
   "hora_inicio": null,
@@ -2102,7 +2127,7 @@
     }
   ],
   "lectura": {
-    "texto": 66,
+    "texto": 65,
     "imagenes": 33,
     "pdf": 0,
     "no_leidos": 3
@@ -3078,7 +3103,7 @@
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-11-02T13:54:00+00:00",
   "total_circuitos_afectados": 59,
-  "total_circuitos_programados": 3,
+  "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3097,5 +3122,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-02T15:14:35.603470+00:00"
+  "actualizado": "2026-11-02T15:29:31.619816+00:00"
 }
