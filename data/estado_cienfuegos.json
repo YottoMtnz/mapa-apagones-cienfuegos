@@ -9,11 +9,6 @@
   "mensajes_leidos": 98,
   "afectados": {
     "C-58": [],
-    "C-23": [
-      "Turquino",
-      "5 de Septiembre",
-      "Guayabito"
-    ],
     "C-33": [
       "Arimao",
       "Las Moscas",
@@ -32,8 +27,6 @@
     "C-90": [
       "FW1558) La Pollera"
     ],
-    "S-2382": [],
-    "S-5814": [],
     "C-55": [
       "Cruces (Sur"
     ],
@@ -681,15 +674,6 @@
       "confianza": 100,
       "texto": "👉C-58    \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
-    "C-23": {
-      "fecha": "2026-11-02T10:36:10+00:00",
-      "mensaje_id": 60137,
-      "url": "https://t.me/empresaelectricacienfuegos1/60137",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
     "C-33": {
       "fecha": "2026-11-02T21:42:02+00:00",
       "mensaje_id": 60156,
@@ -716,24 +700,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-90    La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
-    },
-    "S-2382": {
-      "fecha": "2026-11-02T10:36:10+00:00",
-      "mensaje_id": 60137,
-      "url": "https://t.me/empresaelectricacienfuegos1/60137",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
-    "S-5814": {
-      "fecha": "2026-11-02T10:36:10+00:00",
-      "mensaje_id": 60137,
-      "url": "https://t.me/empresaelectricacienfuegos1/60137",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
     },
     "C-55": {
       "fecha": "2026-11-02T21:42:02+00:00",
@@ -1602,13 +1568,10 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-58": "avería / déficit",
-    "C-23": "avería",
+    "C-58": "déficit",
     "C-33": "déficit",
     "C-69": "déficit",
-    "C-90": "avería / déficit",
-    "S-2382": "avería",
-    "S-5814": "avería",
+    "C-90": "déficit",
     "C-55": "déficit",
     "C-47": "déficit",
     "C-86": "déficit",
@@ -2983,7 +2946,7 @@
     }
   ],
   "mw_fecha": "2026-11-02T21:42:02+00:00",
-  "total_circuitos_afectados": 59,
+  "total_circuitos_afectados": 56,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
@@ -3001,9 +2964,7 @@
     "C-89",
     "C-92",
     "C-94",
-    "C-95",
-    "S-2382",
-    "S-5814"
+    "C-95"
   ],
-  "actualizado": "2026-11-02T22:24:25.469389+00:00"
+  "actualizado": "2026-11-02T22:39:16.929768+00:00"
 }
