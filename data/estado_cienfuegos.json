@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-02T16:19:27+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 100,
+  "programado_fecha": "2026-11-02T16:40:01+00:00",
+  "mensajes_leidos": 101,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -277,7 +277,10 @@
       "Naranjito"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-18": [],
+    "C-20": []
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-62": {
@@ -1205,6 +1208,24 @@
       "confianza": 100,
       "texto": "👉C-67 \"El Crucero, Guaos, Naranjito."
     },
+    "C-18": {
+      "fecha": "2026-11-02T16:40:01+00:00",
+      "mensaje_id": 60148,
+      "url": "https://t.me/empresaelectricacienfuegos1/60148",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
+    "C-20": {
+      "fecha": "2026-11-02T16:40:01+00:00",
+      "mensaje_id": 60148,
+      "url": "https://t.me/empresaelectricacienfuegos1/60148",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
     "C-62": {
       "fecha": "2026-11-02T16:19:27+00:00",
       "mensaje_id": 60147,
@@ -1606,7 +1627,18 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-18": {
+      "inicio": null,
+      "fin": "2026-11-03T04:40:01+00:00",
+      "fecha_ambigua": false
+    },
+    "C-20": {
+      "inicio": null,
+      "fin": "2026-11-03T04:40:01+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -2167,7 +2199,7 @@
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 35,
+    "imagenes": 36,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -3142,11 +3174,13 @@
   "lectura_incompleta_desde": "2026-10-30T21:15:45+00:00",
   "mw_fecha": "2026-11-02T16:19:27+00:00",
   "total_circuitos_afectados": 58,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-17",
+    "C-18",
     "C-2",
+    "C-20",
     "C-31",
     "C-407",
     "C-408",
@@ -3161,5 +3195,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-02T16:29:21.631719+00:00"
+  "actualizado": "2026-11-02T16:44:18.878820+00:00"
 }
