@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 99,
+  "mensajes_leidos": 100,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -1628,26 +1628,6 @@
   "pendientes_revision": [
     {
       "motivo": "sin_estado_explicito",
-      "texto": "👉C-28 CEN, Castillo de Jagua, La Loma.",
-      "circuitos": [
-        "C-28"
-      ],
-      "id": 60052,
-      "url": "https://t.me/empresaelectricacienfuegos1/60052",
-      "fecha": "2026-10-30T20:39:39+00:00"
-    },
-    {
-      "motivo": "sin_estado_explicito",
-      "texto": "👉C-27 Barrio Matadero, Juraguá.",
-      "circuitos": [
-        "C-27"
-      ],
-      "id": 60052,
-      "url": "https://t.me/empresaelectricacienfuegos1/60052",
-      "fecha": "2026-10-30T20:39:39+00:00"
-    },
-    {
-      "motivo": "sin_estado_explicito",
       "texto": "👉C-50 Palmira (Norte)",
       "circuitos": [
         "C-50"
@@ -2121,11 +2101,25 @@
       "id": 60145,
       "url": "https://t.me/empresaelectricacienfuegos1/60145",
       "fecha": "2026-11-02T15:35:31+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠Se comunica a nuestros clientes que se encuentra en fallo la línea:\n \n\n👉L-1615 Cienfuegos- Cumanayagua.\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉Ofrecemos disculpas por las molestias ocasionadas.",
+      "id": 60146,
+      "url": "https://t.me/empresaelectricacienfuegos1/60146",
+      "fecha": "2026-11-02T15:44:30+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠Se comunica a nuestros clientes que se encuentra en fallo la línea:\n \n\n👉L-1615 Cienfuegos- Cumanayagua.\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉Ofrecemos disculpas por las molestias ocasionadas\nCircuit\n_ enfalla",
+      "id": 60146,
+      "url": "https://t.me/empresaelectricacienfuegos1/60146",
+      "fecha": "2026-11-02T15:44:30+00:00"
     }
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 34,
+    "imagenes": 35,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -3119,5 +3113,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-02T15:44:26.043565+00:00"
+  "actualizado": "2026-11-02T15:59:24.110508+00:00"
 }
