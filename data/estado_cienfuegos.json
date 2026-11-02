@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 98,
+  "mensajes_leidos": 99,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -1628,16 +1628,6 @@
   "pendientes_revision": [
     {
       "motivo": "sin_estado_explicito",
-      "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní.",
-      "circuitos": [
-        "C-36"
-      ],
-      "id": 60052,
-      "url": "https://t.me/empresaelectricacienfuegos1/60052",
-      "fecha": "2026-10-30T20:39:39+00:00"
-    },
-    {
-      "motivo": "sin_estado_explicito",
       "texto": "👉C-28 CEN, Castillo de Jagua, La Loma.",
       "circuitos": [
         "C-28"
@@ -2124,11 +2114,18 @@
       "id": 60142,
       "url": "https://t.me/empresaelectricacienfuegos1/60142",
       "fecha": "2026-11-02T12:06:03+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\nGENERACIÓN Bf a. 4\nDEFICIT DE Nine 2\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 60145,
+      "url": "https://t.me/empresaelectricacienfuegos1/60145",
+      "fecha": "2026-11-02T15:35:31+00:00"
     }
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 33,
+    "imagenes": 34,
     "pdf": 0,
     "no_leidos": 3
   },
@@ -3122,5 +3119,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-02T15:29:31.619816+00:00"
+  "actualizado": "2026-11-02T15:44:26.043565+00:00"
 }
