@@ -6,8 +6,9 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-01T23:19:50+00:00",
-  "mensajes_leidos": 97,
+  "mensajes_leidos": 96,
   "afectados": {
+    "C-92": [],
     "C-58": [],
     "C-23": [
       "Turquino",
@@ -23,7 +24,6 @@
       "Quesada",
       "Callejón del Palmar"
     ],
-    "C-92": [],
     "C-70": [
       "Aguada",
       "Federal"
@@ -623,6 +623,15 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
+    "C-92": {
+      "fecha": "2026-11-02T01:11:21+00:00",
+      "mensaje_id": 60132,
+      "url": "https://t.me/empresaelectricacienfuegos1/60132",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
+    },
     "C-58": {
       "fecha": "2026-11-02T01:11:21+00:00",
       "mensaje_id": 60132,
@@ -649,15 +658,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
-    },
-    "C-92": {
-      "fecha": "2026-11-02T01:11:21+00:00",
-      "mensaje_id": 60132,
-      "url": "https://t.me/empresaelectricacienfuegos1/60132",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
     },
     "C-70": {
       "fecha": "2026-11-02T01:11:21+00:00",
@@ -1450,10 +1450,10 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-92": "déficit",
     "C-58": "déficit",
     "C-23": "déficit",
     "C-33": "déficit",
-    "C-92": "déficit",
     "C-70": "déficit",
     "C-28": "déficit",
     "C-27": "déficit",
@@ -2009,7 +2009,7 @@
     }
   ],
   "lectura": {
-    "texto": 64,
+    "texto": 63,
     "imagenes": 33,
     "pdf": 0,
     "no_leidos": 3
@@ -2118,6 +2118,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60064"
     },
     {
+      "circuito": "C-92",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-10-31T11:17:13+00:00",
+      "mensaje_id": 60070,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60067",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60070"
+    },
+    {
       "circuito": "C-91",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2128,15 +2137,6 @@
     },
     {
       "circuito": "C-405",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-10-31T11:17:13+00:00",
-      "mensaje_id": 60070,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60067",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60070"
-    },
-    {
-      "circuito": "C-92",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-10-31T11:17:13+00:00",
@@ -3001,5 +3001,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-02T03:04:16.064694+00:00"
+  "actualizado": "2026-11-02T03:19:43.942422+00:00"
 }
