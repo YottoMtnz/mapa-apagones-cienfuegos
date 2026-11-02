@@ -6,14 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-02T03:24:01+00:00",
-  "mensajes_leidos": 99,
+  "mensajes_leidos": 98,
   "afectados": {
-    "C-406": [
-      "San Lázaro",
-      "Calle 35 de Ave 58 hasta Ave 64",
-      "Ave 58 de Calle 47 hasta Calle 49",
-      "Calle 47 de Ave 54 hasta Ave 58"
-    ],
     "C-58": [],
     "C-23": [
       "Turquino",
@@ -264,6 +258,12 @@
       "Silverita",
       "Nuevo México"
     ],
+    "C-406": [
+      "San Lázaro",
+      "Calle 35 de Ave 58 hasta Ave 64",
+      "Ave 58 de Calle 47 hasta Calle 49",
+      "Calle 47 de Ave 54 hasta Ave 58"
+    ],
     "C-19": [
       "Tulipán"
     ],
@@ -453,6 +453,59 @@
         "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
       },
       "lugares": []
+    },
+    "C-62": {
+      "fecha": "2026-11-02T12:01:45+00:00",
+      "mensaje_id": 60139,
+      "url": "https://t.me/empresaelectricacienfuegos1/60139",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-01T17:13:04+00:00",
+      "listas_consecutivas": 12,
+      "aviso_anterior": {
+        "fecha": "2026-11-01T16:23:01+00:00",
+        "mensaje_id": 60114,
+        "url": "https://t.me/empresaelectricacienfuegos1/60114",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-62 Barajagua."
+      },
+      "lugares": []
+    },
+    "C-44": {
+      "fecha": "2026-11-02T12:01:45+00:00",
+      "mensaje_id": 60139,
+      "url": "https://t.me/empresaelectricacienfuegos1/60139",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-01T22:01:20+00:00",
+      "listas_consecutivas": 8,
+      "aviso_anterior": {
+        "fecha": "2026-11-01T20:28:43+00:00",
+        "mensaje_id": 60122,
+        "url": "https://t.me/empresaelectricacienfuegos1/60122",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero."
+      },
+      "lugares": [
+        "Los Burros",
+        "El Conejito",
+        "El Desquite",
+        "Venero"
+      ]
     },
     "C-5": {
       "fecha": "2026-11-02T12:01:45+00:00",
@@ -663,6 +716,30 @@
       },
       "lugares": []
     },
+    "C-92": {
+      "fecha": "2026-11-02T12:01:45+00:00",
+      "mensaje_id": 60139,
+      "url": "https://t.me/empresaelectricacienfuegos1/60139",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-02T11:16:53+00:00",
+      "listas_consecutivas": 2,
+      "aviso_anterior": {
+        "fecha": "2026-11-02T10:15:00+00:00",
+        "mensaje_id": 60136,
+        "url": "https://t.me/empresaelectricacienfuegos1/60136",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
+      },
+      "lugares": []
+    },
     "C-43": {
       "fecha": "2026-11-02T12:01:45+00:00",
       "mensaje_id": 60139,
@@ -745,15 +822,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-406": {
-      "fecha": "2026-11-02T12:01:45+00:00",
-      "mensaje_id": 60139,
-      "url": "https://t.me/empresaelectricacienfuegos1/60139",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
-    },
     "C-58": {
       "fecha": "2026-11-02T12:01:45+00:00",
       "mensaje_id": 60139,
@@ -1195,6 +1263,15 @@
       "confianza": 100,
       "texto": "👉C-11 Ariza, Silverita, Nuevo México."
     },
+    "C-406": {
+      "fecha": "2026-11-02T12:01:45+00:00",
+      "mensaje_id": 60139,
+      "url": "https://t.me/empresaelectricacienfuegos1/60139",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
+    },
     "C-19": {
       "fecha": "2026-11-02T12:01:45+00:00",
       "mensaje_id": 60139,
@@ -1427,6 +1504,59 @@
       },
       "lugares": []
     },
+    "C-62": {
+      "fecha": "2026-11-02T12:01:45+00:00",
+      "mensaje_id": 60139,
+      "url": "https://t.me/empresaelectricacienfuegos1/60139",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-01T17:13:04+00:00",
+      "listas_consecutivas": 12,
+      "aviso_anterior": {
+        "fecha": "2026-11-01T16:23:01+00:00",
+        "mensaje_id": 60114,
+        "url": "https://t.me/empresaelectricacienfuegos1/60114",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-62 Barajagua."
+      },
+      "lugares": []
+    },
+    "C-44": {
+      "fecha": "2026-11-02T12:01:45+00:00",
+      "mensaje_id": 60139,
+      "url": "https://t.me/empresaelectricacienfuegos1/60139",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-01T22:01:20+00:00",
+      "listas_consecutivas": 8,
+      "aviso_anterior": {
+        "fecha": "2026-11-01T20:28:43+00:00",
+        "mensaje_id": 60122,
+        "url": "https://t.me/empresaelectricacienfuegos1/60122",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero."
+      },
+      "lugares": [
+        "Los Burros",
+        "El Conejito",
+        "El Desquite",
+        "Venero"
+      ]
+    },
     "C-17": {
       "fecha": "2026-11-02T12:01:45+00:00",
       "mensaje_id": 60139,
@@ -1472,6 +1602,30 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-408  Baldosas,  Cantarrana, La Julia, Pepe Rivas."
+      },
+      "lugares": []
+    },
+    "C-92": {
+      "fecha": "2026-11-02T12:01:45+00:00",
+      "mensaje_id": 60139,
+      "url": "https://t.me/empresaelectricacienfuegos1/60139",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-02T11:16:53+00:00",
+      "listas_consecutivas": 2,
+      "aviso_anterior": {
+        "fecha": "2026-11-02T10:15:00+00:00",
+        "mensaje_id": 60136,
+        "url": "https://t.me/empresaelectricacienfuegos1/60136",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
       },
       "lugares": []
     },
@@ -1593,7 +1747,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-406": "déficit",
     "C-58": "avería / déficit",
     "C-23": "avería / déficit",
     "C-33": "déficit",
@@ -1643,6 +1796,7 @@
     "C-66": "déficit",
     "C-63": "déficit",
     "C-11": "déficit",
+    "C-406": "déficit",
     "C-19": "déficit",
     "C-70": "déficit",
     "C-91": "emergencia"
@@ -2150,7 +2304,7 @@
     }
   ],
   "lectura": {
-    "texto": 66,
+    "texto": 65,
     "imagenes": 33,
     "pdf": 0,
     "no_leidos": 3
@@ -2444,21 +2598,21 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60101"
     },
     {
-      "circuito": "C-92",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-01T10:36:42+00:00",
-      "mensaje_id": 60103,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60101",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60103"
-    },
-    {
       "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T10:36:42+00:00",
       "mensaje_id": 60103,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60102",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60103"
+    },
+    {
+      "circuito": "C-92",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-01T10:36:42+00:00",
+      "mensaje_id": 60103,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60101",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60103"
     },
     {
@@ -2561,15 +2715,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60108"
     },
     {
-      "circuito": "C-44",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-01T14:05:56+00:00",
-      "mensaje_id": 60109,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60108",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60109"
-    },
-    {
       "circuito": "C-47",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2661,6 +2806,15 @@
     },
     {
       "circuito": "C-86",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-01T14:05:56+00:00",
+      "mensaje_id": 60109,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60108",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60109"
+    },
+    {
+      "circuito": "C-44",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T14:05:56+00:00",
@@ -2795,15 +2949,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60116"
     },
     {
-      "circuito": "C-62",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-01T17:13:04+00:00",
-      "mensaje_id": 60117,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60114",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60117"
-    },
-    {
       "circuito": "C-59",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2823,6 +2968,15 @@
     },
     {
       "circuito": "C-6",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-01T17:13:04+00:00",
+      "mensaje_id": 60117,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60114",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60117"
+    },
+    {
+      "circuito": "C-62",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T17:13:04+00:00",
@@ -2939,7 +3093,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60124"
     },
     {
-      "circuito": "C-44",
+      "circuito": "C-43",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T22:01:20+00:00",
@@ -2948,7 +3102,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60127"
     },
     {
-      "circuito": "C-43",
+      "circuito": "C-44",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T22:01:20+00:00",
@@ -3123,7 +3277,7 @@
   "mw_fecha": "2026-11-02T12:01:45+00:00",
   "total_circuitos_afectados": 53,
   "total_circuitos_programados": 6,
-  "total_restablecimientos_probables": 17,
+  "total_restablecimientos_probables": 20,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-2",
@@ -3133,11 +3287,13 @@
     "C-43",
     "C-58",
     "C-59",
+    "C-62",
     "C-89",
+    "C-92",
     "C-94",
     "C-95",
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-02T12:59:17.896584+00:00"
+  "actualizado": "2026-11-02T13:14:28.263592+00:00"
 }
