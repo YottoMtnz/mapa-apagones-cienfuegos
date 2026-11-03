@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-03T17:23:38+00:00",
-  "mensajes_leidos": 90,
+  "mensajes_leidos": 91,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -1744,11 +1744,31 @@
       "id": 60182,
       "url": "https://t.me/empresaelectricacienfuegos1/60182",
       "fecha": "2026-11-03T18:42:17+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "⚠Se comunica a nuestros clientes que a solicitud de las autoridades de la provincia se encuentra protegido el circuito C-20 Punta Gorda, con el fin de garantizar el juego de béisbol en el estadio 5 de Septiembre, por lo que no será posible cumplir con la rotación de los circuitos de la ciudad.",
+      "circuitos": [
+        "C-20"
+      ],
+      "id": 60183,
+      "url": "https://t.me/empresaelectricacienfuegos1/60183",
+      "fecha": "2026-11-03T19:44:05+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "⚠Se comunica a nuestros clientes que a solicitud de las autoridades de la provincia se encuentra protegido el circuito C-20 Punta Gorda, con el fin de garantizar el juego de béisbol en el estadio 5 de Septiembre, por lo que no será posible cumplir con la rotación de los circuitos de la ciudad.",
+      "circuitos": [
+        "C-20"
+      ],
+      "id": 60183,
+      "url": "https://t.me/empresaelectricacienfuegos1/60183",
+      "fecha": "2026-11-03T19:44:05+00:00"
     }
   ],
   "lectura": {
     "texto": 56,
-    "imagenes": 34,
+    "imagenes": 35,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -2751,5 +2771,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-03T19:29:25.656944+00:00"
+  "actualizado": "2026-11-03T19:44:13.637556+00:00"
 }
