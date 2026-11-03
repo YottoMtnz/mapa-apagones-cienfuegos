@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-03T21:43:39+00:00",
+  "reporte_fecha": "2026-11-03T22:22:38+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-03T19:44:23+00:00",
-  "mensajes_leidos": 92,
+  "mensajes_leidos": 93,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -307,10 +307,18 @@
     ],
     "C-17": []
   },
-  "programados": {
-    "C-20": []
+  "programados": {},
+  "confirmados_con_servicio": {
+    "C-20": {
+      "fecha": "2026-11-03T22:22:38+00:00",
+      "mensaje_id": 60192,
+      "url": "https://t.me/empresaelectricacienfuegos1/60192",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉Al continuar con servicio el circuito 20, la rotación prevista a los circuitos de la ciudad se realizará reduciendo a alrededor de 4 horas el tiempo de servicio."
+    }
   },
-  "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-62": {
       "fecha": "2026-11-03T21:43:39+00:00",
@@ -357,30 +365,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
-      },
-      "lugares": []
-    },
-    "C-20": {
-      "fecha": "2026-11-03T21:43:39+00:00",
-      "mensaje_id": 60191,
-      "url": "https://t.me/empresaelectricacienfuegos1/60191",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-55 Cruces (Sur).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-03T13:00:17+00:00",
-      "listas_consecutivas": 10,
-      "aviso_anterior": {
-        "fecha": "2026-11-03T10:44:43+00:00",
-        "mensaje_id": 60166,
-        "url": "https://t.me/empresaelectricacienfuegos1/60166",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-20    Punta Gorda (Hospital Provincial 0-24)"
       },
       "lugares": []
     },
@@ -1158,13 +1142,13 @@
       "texto": "👉C-17 Ave 5 de sept, Distrito Petrolero, Hermanas Giralt"
     },
     "C-20": {
-      "fecha": "2026-11-03T16:58:33+00:00",
-      "mensaje_id": 60177,
-      "url": "https://t.me/empresaelectricacienfuegos1/60177",
+      "fecha": "2026-11-03T22:22:38+00:00",
+      "mensaje_id": 60192,
+      "url": "https://t.me/empresaelectricacienfuegos1/60192",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita"
+      "texto": "👉Al continuar con servicio el circuito 20, la rotación prevista a los circuitos de la ciudad se realizará reduciendo a alrededor de 4 horas el tiempo de servicio."
     },
     "C-62": {
       "fecha": "2026-11-03T21:43:39+00:00",
@@ -1400,13 +1384,7 @@
       "lugares": []
     }
   },
-  "horarios": {
-    "C-20": {
-      "inicio": null,
-      "fin": "2026-11-04T04:58:33+00:00",
-      "fecha_ambigua": false
-    }
-  },
+  "horarios": {},
   "cobertura": "parcial",
   "mw": 80.0,
   "hora_inicio": null,
@@ -1723,11 +1701,22 @@
       "id": 60189,
       "url": "https://t.me/empresaelectricacienfuegos1/60189",
       "fecha": "2026-11-03T21:32:25+00:00"
+    },
+    {
+      "motivo": "estado_ambiguo",
+      "texto": "👉Debido a avería ocurrida en la subestación del Hospital provincial, durante la noche de hoy se mantendrán con servicio los circuitos 17 y 20, como medida preventiva para dar respaldo a este centro vital desde ambos circuitos.",
+      "circuitos": [
+        "C-17",
+        "C-20"
+      ],
+      "id": 60192,
+      "url": "https://t.me/empresaelectricacienfuegos1/60192",
+      "fecha": "2026-11-03T22:22:38+00:00"
     }
   ],
   "lectura": {
     "texto": 57,
-    "imagenes": 35,
+    "imagenes": 36,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -2707,13 +2696,12 @@
   ],
   "mw_fecha": "2026-11-03T21:43:39+00:00",
   "total_circuitos_afectados": 65,
-  "total_circuitos_programados": 1,
-  "total_restablecimientos_probables": 10,
+  "total_circuitos_programados": 0,
+  "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
     "C-2",
-    "C-20",
     "C-31",
     "C-407",
     "C-408",
@@ -2728,5 +2716,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-03T22:14:13.811349+00:00"
+  "actualizado": "2026-11-03T22:34:17.156568+00:00"
 }
