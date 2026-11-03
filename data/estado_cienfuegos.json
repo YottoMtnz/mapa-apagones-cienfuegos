@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-03T15:45:04+00:00",
+  "reporte_fecha": "2026-11-03T15:52:22+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 91,
+  "mensajes_leidos": 92,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -589,13 +589,13 @@
       "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     },
     "C-58": {
-      "fecha": "2026-11-03T10:39:20+00:00",
-      "mensaje_id": 60165,
-      "url": "https://t.me/empresaelectricacienfuegos1/60165",
+      "fecha": "2026-11-03T15:52:22+00:00",
+      "mensaje_id": 60176,
+      "url": "https://t.me/empresaelectricacienfuegos1/60176",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
+      "texto": "👉C-58 Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-90": {
       "fecha": "2026-11-03T15:45:04+00:00",
@@ -1426,7 +1426,7 @@
   "causas": {
     "C-23": "avería / déficit",
     "C-33": "déficit",
-    "C-58": "avería",
+    "C-58": "avería / emergencia",
     "C-90": "avería / déficit",
     "S-2382": "avería",
     "S-5814": "avería",
@@ -1714,11 +1714,18 @@
       "id": 60172,
       "url": "https://t.me/empresaelectricacienfuegos1/60172",
       "fecha": "2026-11-03T14:27:42+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "abet afectados por\nDE EMERGENCIA",
+      "id": 60176,
+      "url": "https://t.me/empresaelectricacienfuegos1/60176",
+      "fecha": "2026-11-03T15:52:22+00:00"
     }
   ],
   "lectura": {
     "texto": 59,
-    "imagenes": 32,
+    "imagenes": 33,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -2722,5 +2729,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-03T15:49:27.163716+00:00"
+  "actualizado": "2026-11-03T16:04:23.994907+00:00"
 }
