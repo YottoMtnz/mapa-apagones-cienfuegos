@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-03T03:28:34+00:00",
+  "reporte_fecha": "2026-11-03T03:42:59+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-02T19:42:40+00:00",
-  "mensajes_leidos": 94,
+  "mensajes_leidos": 95,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -281,6 +281,15 @@
     "C-27": [
       "Barrio Matadero",
       "Juraguá"
+    ],
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
     ]
   },
   "programados": {},
@@ -512,61 +521,6 @@
         "Los Tanques",
         "La Ceiba",
         "El Paisíto"
-      ]
-    },
-    "C-67": {
-      "fecha": "2026-11-03T03:28:34+00:00",
-      "mensaje_id": 60162,
-      "url": "https://t.me/empresaelectricacienfuegos1/60162",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-55 Cruces (Sur).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-02T23:44:38+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-02T21:42:02+00:00",
-        "mensaje_id": 60156,
-        "url": "https://t.me/empresaelectricacienfuegos1/60156",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-67    \"El Crucero, Guaos, Naranjito."
-      },
-      "lugares": [
-        "El Crucero",
-        "Guaos",
-        "Naranjito"
-      ]
-    },
-    "C-15": {
-      "fecha": "2026-11-03T03:28:34+00:00",
-      "mensaje_id": 60162,
-      "url": "https://t.me/empresaelectricacienfuegos1/60162",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-55 Cruces (Sur).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-02T23:44:38+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-02T21:42:02+00:00",
-        "mensaje_id": 60156,
-        "url": "https://t.me/empresaelectricacienfuegos1/60156",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-15    Pepito Tey, Guabairo."
-      },
-      "lugares": [
-        "Pepito Tey",
-        "Guabairo"
       ]
     },
     "C-89": {
@@ -1178,6 +1132,24 @@
       "confianza": 100,
       "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
     },
+    "C-15": {
+      "fecha": "2026-11-03T03:42:59+00:00",
+      "mensaje_id": 60163,
+      "url": "https://t.me/empresaelectricacienfuegos1/60163",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
+    "C-67": {
+      "fecha": "2026-11-03T03:42:59+00:00",
+      "mensaje_id": 60163,
+      "url": "https://t.me/empresaelectricacienfuegos1/60163",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
+    },
     "C-62": {
       "fecha": "2026-11-03T03:28:34+00:00",
       "mensaje_id": 60162,
@@ -1406,61 +1378,6 @@
         "El Paisíto"
       ]
     },
-    "C-67": {
-      "fecha": "2026-11-03T03:28:34+00:00",
-      "mensaje_id": 60162,
-      "url": "https://t.me/empresaelectricacienfuegos1/60162",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-55 Cruces (Sur).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-02T23:44:38+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-02T21:42:02+00:00",
-        "mensaje_id": 60156,
-        "url": "https://t.me/empresaelectricacienfuegos1/60156",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-67    \"El Crucero, Guaos, Naranjito."
-      },
-      "lugares": [
-        "El Crucero",
-        "Guaos",
-        "Naranjito"
-      ]
-    },
-    "C-15": {
-      "fecha": "2026-11-03T03:28:34+00:00",
-      "mensaje_id": 60162,
-      "url": "https://t.me/empresaelectricacienfuegos1/60162",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-55 Cruces (Sur).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-02T23:44:38+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-02T21:42:02+00:00",
-        "mensaje_id": 60156,
-        "url": "https://t.me/empresaelectricacienfuegos1/60156",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-15    Pepito Tey, Guabairo."
-      },
-      "lugares": [
-        "Pepito Tey",
-        "Guabairo"
-      ]
-    },
     "C-89": {
       "fecha": "2026-11-03T03:28:34+00:00",
       "mensaje_id": 60162,
@@ -1626,7 +1543,9 @@
     "C-5": "déficit",
     "C-6": "déficit",
     "C-28": "déficit",
-    "C-27": "déficit"
+    "C-27": "déficit",
+    "C-15": "avería",
+    "C-67": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -1866,11 +1785,18 @@
       "id": 60159,
       "url": "https://t.me/empresaelectricacienfuegos1/60159",
       "fecha": "2026-11-02T23:34:56+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nDISPARO\n-\n-\nA\nde!\nOS\nwR\nre\nmom \\\nIE",
+      "id": 60163,
+      "url": "https://t.me/empresaelectricacienfuegos1/60163",
+      "fecha": "2026-11-03T03:42:59+00:00"
     }
   ],
   "lectura": {
     "texto": 61,
-    "imagenes": 33,
+    "imagenes": 34,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -2846,9 +2772,9 @@
     }
   ],
   "mw_fecha": "2026-11-03T03:28:34+00:00",
-  "total_circuitos_afectados": 56,
+  "total_circuitos_afectados": 58,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 15,
+  "total_restablecimientos_probables": 13,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2866,5 +2792,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-03T03:29:23.898201+00:00"
+  "actualizado": "2026-11-03T03:44:10.900572+00:00"
 }
