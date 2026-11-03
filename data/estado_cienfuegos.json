@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-02T19:42:40+00:00",
-  "mensajes_leidos": 99,
+  "mensajes_leidos": 96,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -1532,10 +1532,10 @@
     "C-75": "déficit",
     "C-84": "déficit",
     "C-50": "déficit",
-    "C-80": "emergencia / déficit",
+    "C-80": "déficit",
     "C-63": "déficit",
     "C-11": "déficit",
-    "C-91": "emergencia / déficit",
+    "C-91": "déficit",
     "C-89": "déficit",
     "C-30": "déficit",
     "C-95": "déficit",
@@ -1565,20 +1565,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\nEl | a",
-      "id": 60060,
-      "url": "https://t.me/empresaelectricacienfuegos1/60060",
-      "fecha": "2026-10-31T00:09:22+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "¿Qué es una Vía Libre de Emergencia?\n\n⚠️Es un permiso de trabajo que se establece sobre un área determinada para realizar acciones en las redes eléctricas.\n\n\n👉Las vías libres de emergencia, como su nombre lo indica, no pueden ser programadas, pues se realizan ante averías.",
-      "id": 60061,
-      "url": "https://t.me/empresaelectricacienfuegos1/60061",
-      "fecha": "2026-10-31T00:14:09+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚠Se comunica a nuestros clientes se encuentra en fallo la línea L-333 Cumanayagua, afectada la zona:\n\n\n👉Bombeo Paso Bonito.\n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉Ofrecemos disculpas por las molestias ocasionadas.",
@@ -1832,8 +1818,8 @@
     }
   ],
   "lectura": {
-    "texto": 64,
-    "imagenes": 35,
+    "texto": 62,
+    "imagenes": 34,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -2829,5 +2815,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-02T23:55:46.465342+00:00"
+  "actualizado": "2026-11-03T00:35:29.494764+00:00"
 }
