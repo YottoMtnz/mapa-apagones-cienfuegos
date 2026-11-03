@@ -6,25 +6,13 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 92,
+  "mensajes_leidos": 89,
   "afectados": {
-    "C-69": [
-      "Junco Sur",
-      "Reparto de los médicos",
-      "Las Minas",
-      "Playa Alegre"
-    ],
-    "C-90": [
-      "FW1558) La Pollera"
-    ],
-    "S-2382": [],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
       "Guayabito"
     ],
-    "S-5814": [],
-    "C-58": [],
     "C-33": [
       "Arimao",
       "Las Moscas",
@@ -34,6 +22,12 @@
       "Quesada",
       "Callejón del Palmar"
     ],
+    "C-58": [],
+    "C-90": [
+      "FW1558) La Pollera"
+    ],
+    "S-2382": [],
+    "S-5814": [],
     "C-55": [
       "Cruces (Sur"
     ],
@@ -286,6 +280,12 @@
     "C-70": [
       "Aguada",
       "Federal"
+    ],
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
     ],
     "C-2": [],
     "C-3": [
@@ -608,14 +608,32 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-69": {
+    "C-23": {
       "fecha": "2026-11-03T10:44:43+00:00",
       "mensaje_id": 60166,
       "url": "https://t.me/empresaelectricacienfuegos1/60166",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-69    Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+      "texto": "👉C-23    Turquino, 5 de Septiembre, Guayabito"
+    },
+    "C-33": {
+      "fecha": "2026-11-03T10:44:43+00:00",
+      "mensaje_id": 60166,
+      "url": "https://t.me/empresaelectricacienfuegos1/60166",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-33    Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+    },
+    "C-58": {
+      "fecha": "2026-11-03T10:44:43+00:00",
+      "mensaje_id": 60166,
+      "url": "https://t.me/empresaelectricacienfuegos1/60166",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-58    \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-90": {
       "fecha": "2026-11-03T10:44:43+00:00",
@@ -635,15 +653,6 @@
       "confianza": 100,
       "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
-    "C-23": {
-      "fecha": "2026-11-03T10:44:43+00:00",
-      "mensaje_id": 60166,
-      "url": "https://t.me/empresaelectricacienfuegos1/60166",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23    Turquino, 5 de Septiembre, Guayabito"
-    },
     "S-5814": {
       "fecha": "2026-11-03T10:39:20+00:00",
       "mensaje_id": 60165,
@@ -652,24 +661,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
-    },
-    "C-58": {
-      "fecha": "2026-11-03T10:44:43+00:00",
-      "mensaje_id": 60166,
-      "url": "https://t.me/empresaelectricacienfuegos1/60166",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58    \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-33": {
-      "fecha": "2026-11-03T10:44:43+00:00",
-      "mensaje_id": 60166,
-      "url": "https://t.me/empresaelectricacienfuegos1/60166",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-33    Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     },
     "C-55": {
       "fecha": "2026-11-03T10:44:43+00:00",
@@ -1121,6 +1112,15 @@
       "confianza": 100,
       "texto": "👉C-70    \"Aguada, Federal."
     },
+    "C-69": {
+      "fecha": "2026-11-03T10:44:43+00:00",
+      "mensaje_id": 60166,
+      "url": "https://t.me/empresaelectricacienfuegos1/60166",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69    Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
     "C-2": {
       "fecha": "2026-11-03T10:44:43+00:00",
       "mensaje_id": 60166,
@@ -1463,13 +1463,12 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-69": "déficit",
+    "C-23": "avería / déficit",
+    "C-33": "déficit",
+    "C-58": "avería / déficit",
     "C-90": "avería / déficit",
     "S-2382": "avería",
-    "C-23": "avería / déficit",
     "S-5814": "avería",
-    "C-58": "avería / déficit",
-    "C-33": "déficit",
     "C-55": "déficit",
     "C-47": "déficit",
     "C-86": "déficit",
@@ -1520,6 +1519,7 @@
     "C-15": "avería",
     "C-67": "avería",
     "C-70": "déficit",
+    "C-69": "déficit",
     "C-2": "déficit",
     "C-3": "déficit",
     "C-406": "déficit",
@@ -1527,27 +1527,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "resumen_historico",
-      "texto": "👉🏻En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
-      "id": 60073,
-      "url": "https://t.me/empresaelectricacienfuegos1/60073",
-      "fecha": "2026-10-31T12:09:20+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de         2039 MW a las 19:20 horas.",
-      "id": 60073,
-      "url": "https://t.me/empresaelectricacienfuegos1/60073",
-      "fecha": "2026-10-31T12:09:20+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
-      "id": 60074,
-      "url": "https://t.me/empresaelectricacienfuegos1/60074",
-      "fecha": "2026-10-31T12:12:43+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\nGENERACIÓN Bf a. 4\nDEFICIT DE Nine 2\n| ¥ 4 | he\nUNE v |\nees Z Y A",
@@ -1759,8 +1738,8 @@
     }
   ],
   "lectura": {
-    "texto": 59,
-    "imagenes": 33,
+    "texto": 57,
+    "imagenes": 32,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -1836,7 +1815,7 @@
   },
   "transiciones": [
     {
-      "circuito": "C-102",
+      "circuito": "C-101",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T14:05:56+00:00",
@@ -1845,7 +1824,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60109"
     },
     {
-      "circuito": "C-101",
+      "circuito": "C-23",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T14:05:56+00:00",
@@ -2340,7 +2319,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60139"
     },
     {
-      "circuito": "C-58",
+      "circuito": "C-53",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-02T13:54:00+00:00",
@@ -2349,7 +2328,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60143"
     },
     {
-      "circuito": "C-53",
+      "circuito": "C-58",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-02T13:54:00+00:00",
@@ -2565,7 +2544,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60157"
     },
     {
-      "circuito": "C-69",
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-02T23:44:38+00:00",
@@ -2574,7 +2553,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60160"
     },
     {
-      "circuito": "C-90",
+      "circuito": "C-69",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-02T23:44:38+00:00",
@@ -2759,5 +2738,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-03T12:04:19.458337+00:00"
+  "actualizado": "2026-11-03T12:19:17.493933+00:00"
 }
