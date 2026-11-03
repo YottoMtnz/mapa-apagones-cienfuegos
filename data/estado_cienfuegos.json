@@ -6,13 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-03T19:44:23+00:00",
-  "mensajes_leidos": 93,
+  "mensajes_leidos": 94,
   "afectados": {
-    "C-23": [
-      "Turquino",
-      "5 de Septiembre",
-      "Guayabito"
-    ],
     "C-33": [
       "Arimao",
       "Las Moscas",
@@ -26,8 +21,6 @@
     "C-90": [
       "FW1558) La Pollera"
     ],
-    "S-2382": [],
-    "S-5814": [],
     "C-55": [
       "Cruces (Sur"
     ],
@@ -556,15 +549,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-23": {
-      "fecha": "2026-11-03T10:39:20+00:00",
-      "mensaje_id": 60165,
-      "url": "https://t.me/empresaelectricacienfuegos1/60165",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
     "C-33": {
       "fecha": "2026-11-03T21:43:39+00:00",
       "mensaje_id": 60191,
@@ -591,24 +575,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
-    },
-    "S-2382": {
-      "fecha": "2026-11-03T10:39:20+00:00",
-      "mensaje_id": 60165,
-      "url": "https://t.me/empresaelectricacienfuegos1/60165",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
-    "S-5814": {
-      "fecha": "2026-11-03T10:39:20+00:00",
-      "mensaje_id": 60165,
-      "url": "https://t.me/empresaelectricacienfuegos1/60165",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-5814 UBPC Viet Nam, Comedor Cañero Magdalena, Maquina de Riego Magdalena, Bombeo Humberto Perez (C-58)"
     },
     "C-55": {
       "fecha": "2026-11-03T21:43:39+00:00",
@@ -1391,12 +1357,9 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-23": "avería",
     "C-33": "déficit",
-    "C-58": "avería / emergencia",
-    "C-90": "avería / déficit",
-    "S-2382": "avería",
-    "S-5814": "avería",
+    "C-58": "emergencia",
+    "C-90": "déficit",
     "C-55": "déficit",
     "C-47": "déficit",
     "C-49": "déficit",
@@ -1712,11 +1675,25 @@
       "id": 60192,
       "url": "https://t.me/empresaelectricacienfuegos1/60192",
       "fecha": "2026-11-03T22:22:38+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠ Se comunica a nuestros clientes que se encuentra en fallo la línea:\n\n\n👉L-1415 Aguada \n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉 Ofrecemos disculpas por las molestias ocasionadas.",
+      "id": 60193,
+      "url": "https://t.me/empresaelectricacienfuegos1/60193",
+      "fecha": "2026-11-03T22:35:25+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠ Se comunica a nuestros clientes que se encuentra en fallo la línea:\n\n\n👉L-1415 Aguada \n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉 Ofrecemos disculpas por las molestias ocasionadas\nLineas\n} go SA |",
+      "id": 60193,
+      "url": "https://t.me/empresaelectricacienfuegos1/60193",
+      "fecha": "2026-11-03T22:35:25+00:00"
     }
   ],
   "lectura": {
     "texto": 57,
-    "imagenes": 36,
+    "imagenes": 37,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -2695,7 +2672,7 @@
     }
   ],
   "mw_fecha": "2026-11-03T21:43:39+00:00",
-  "total_circuitos_afectados": 65,
+  "total_circuitos_afectados": 62,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
@@ -2712,9 +2689,7 @@
     "C-89",
     "C-92",
     "C-94",
-    "C-95",
-    "S-2382",
-    "S-5814"
+    "C-95"
   ],
-  "actualizado": "2026-11-03T22:34:17.156568+00:00"
+  "actualizado": "2026-11-03T22:49:18.657638+00:00"
 }
