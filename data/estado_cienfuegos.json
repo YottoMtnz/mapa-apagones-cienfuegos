@@ -6,8 +6,14 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 96,
+  "mensajes_leidos": 93,
   "afectados": {
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
+    ],
     "C-90": [
       "FW1558) La Pollera"
     ],
@@ -27,12 +33,6 @@
       "San Antón",
       "Quesada",
       "Callejón del Palmar"
-    ],
-    "C-69": [
-      "Junco Sur",
-      "Reparto de los médicos",
-      "Las Minas",
-      "Playa Alegre"
     ],
     "C-55": [
       "Cruces (Sur"
@@ -608,6 +608,15 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
+    "C-69": {
+      "fecha": "2026-11-03T10:44:43+00:00",
+      "mensaje_id": 60166,
+      "url": "https://t.me/empresaelectricacienfuegos1/60166",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69    Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
     "C-90": {
       "fecha": "2026-11-03T10:44:43+00:00",
       "mensaje_id": 60166,
@@ -661,15 +670,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-33    Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
-    },
-    "C-69": {
-      "fecha": "2026-11-03T10:44:43+00:00",
-      "mensaje_id": 60166,
-      "url": "https://t.me/empresaelectricacienfuegos1/60166",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-69    Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
     "C-55": {
       "fecha": "2026-11-03T10:44:43+00:00",
@@ -1463,13 +1463,13 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-69": "déficit",
     "C-90": "avería / déficit",
     "S-2382": "avería",
     "C-23": "avería / déficit",
     "S-5814": "avería",
     "C-58": "avería / déficit",
     "C-33": "déficit",
-    "C-69": "déficit",
     "C-55": "déficit",
     "C-47": "déficit",
     "C-86": "déficit",
@@ -1527,20 +1527,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠️ Se comunica a nuestros clientes que se encuentra restablecido el servicio en las zonas:\n\n\n👉Bombeo Paso Bonito (L-333)\n\n👉Bombeo Jíbaro (L-333)\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas",
-      "id": 60068,
-      "url": "https://t.me/empresaelectricacienfuegos1/60068",
-      "fecha": "2026-10-31T11:06:28+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nee",
-      "id": 60069,
-      "url": "https://t.me/empresaelectricacienfuegos1/60069",
-      "fecha": "2026-10-31T11:09:07+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n1 Union Eléctrica UNE ...\n© 01:23 || En línea la CTE Antonio Guiteras\nSy |\n| UNION ELECTRICA",
@@ -1780,8 +1766,8 @@
     }
   ],
   "lectura": {
-    "texto": 61,
-    "imagenes": 35,
+    "texto": 59,
+    "imagenes": 34,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -1857,7 +1843,7 @@
   },
   "transiciones": [
     {
-      "circuito": "C-101",
+      "circuito": "C-102",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T14:05:56+00:00",
@@ -1866,7 +1852,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60109"
     },
     {
-      "circuito": "C-102",
+      "circuito": "C-101",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T14:05:56+00:00",
@@ -1965,7 +1951,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60112"
     },
     {
-      "circuito": "C-41",
+      "circuito": "C-7",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T16:23:01+00:00",
@@ -1974,7 +1960,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60114"
     },
     {
-      "circuito": "C-7",
+      "circuito": "C-41",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T16:23:01+00:00",
@@ -2199,7 +2185,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60127"
     },
     {
-      "circuito": "C-90",
+      "circuito": "C-69",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T23:43:46+00:00",
@@ -2208,7 +2194,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60131"
     },
     {
-      "circuito": "C-69",
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T23:43:46+00:00",
@@ -2586,7 +2572,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60157"
     },
     {
-      "circuito": "C-90",
+      "circuito": "C-69",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-02T23:44:38+00:00",
@@ -2595,7 +2581,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60160"
     },
     {
-      "circuito": "C-69",
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-02T23:44:38+00:00",
@@ -2780,5 +2766,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-03T11:04:18.513819+00:00"
+  "actualizado": "2026-11-03T11:19:13.794215+00:00"
 }
