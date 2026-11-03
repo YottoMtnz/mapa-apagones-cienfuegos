@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-03T15:52:22+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 90,
+  "programado_fecha": "2026-11-03T16:58:33+00:00",
+  "mensajes_leidos": 89,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -303,7 +303,10 @@
     ],
     "C-95": []
   },
-  "programados": {},
+  "programados": {
+    "C-18": [],
+    "C-20": []
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-62": {
@@ -1155,6 +1158,24 @@
       "confianza": 100,
       "texto": "👉C-95 \"Refinería, Carolina."
     },
+    "C-18": {
+      "fecha": "2026-11-03T16:58:33+00:00",
+      "mensaje_id": 60177,
+      "url": "https://t.me/empresaelectricacienfuegos1/60177",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita"
+    },
+    "C-20": {
+      "fecha": "2026-11-03T16:58:33+00:00",
+      "mensaje_id": 60177,
+      "url": "https://t.me/empresaelectricacienfuegos1/60177",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita"
+    },
     "C-62": {
       "fecha": "2026-11-03T15:45:04+00:00",
       "mensaje_id": 60175,
@@ -1224,54 +1245,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
-      },
-      "lugares": []
-    },
-    "C-20": {
-      "fecha": "2026-11-03T15:45:04+00:00",
-      "mensaje_id": 60175,
-      "url": "https://t.me/empresaelectricacienfuegos1/60175",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-55 Cruces (Sur).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-03T13:00:17+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-11-03T10:44:43+00:00",
-        "mensaje_id": 60166,
-        "url": "https://t.me/empresaelectricacienfuegos1/60166",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-20    Punta Gorda (Hospital Provincial 0-24)"
-      },
-      "lugares": []
-    },
-    "C-18": {
-      "fecha": "2026-11-03T15:45:04+00:00",
-      "mensaje_id": 60175,
-      "url": "https://t.me/empresaelectricacienfuegos1/60175",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-55 Cruces (Sur).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-03T13:00:17+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-11-03T10:44:43+00:00",
-        "mensaje_id": 60166,
-        "url": "https://t.me/empresaelectricacienfuegos1/60166",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-18    Arizona, La Juanita (Hospital de Especialidades 0-24)"
       },
       "lugares": []
     },
@@ -1417,7 +1390,18 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-18": {
+      "inicio": null,
+      "fin": "2026-11-04T04:58:33+00:00",
+      "fecha_ambigua": false
+    },
+    "C-20": {
+      "inicio": null,
+      "fin": "2026-11-04T04:58:33+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -1492,20 +1476,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Líneas afectadas por\nDisparo Automático por Frecuencia\n(DAF)\nMM\nq\nSS Ne\ny\n4%\nel",
-      "id": 60083,
-      "url": "https://t.me/empresaelectricacienfuegos1/60083",
-      "fecha": "2026-10-31T16:55:39+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠Terminología Eléctrica\n\n\n👉Disparo automático por frecuencia (DAF).\n\n\n📌Un disparo por frecuencia o Descarga Automática por Frecuencia, es una protección que posee el sistema eléctrico para cuando la frecuencia llega a valores mínimos permisibles que ponen en peligro la estabilidad de todo el sistema",
-      "id": 60084,
-      "url": "https://t.me/empresaelectricacienfuegos1/60084",
-      "fecha": "2026-10-31T16:56:45+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\nGENERACIÓN Bf a. 4\nDEFICIT DE Nine 2\n| ¥ 4 | he\nUNE v |\nees Z Y A",
@@ -1724,7 +1694,7 @@
     }
   ],
   "lectura": {
-    "texto": 58,
+    "texto": 57,
     "imagenes": 32,
     "pdf": 0,
     "no_leidos": 1
@@ -2708,7 +2678,7 @@
   ],
   "mw_fecha": "2026-11-03T15:45:04+00:00",
   "total_circuitos_afectados": 65,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 10,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2729,5 +2699,5 @@
     "S-2382",
     "S-5814"
   ],
-  "actualizado": "2026-11-03T16:50:34.178120+00:00"
+  "actualizado": "2026-11-03T17:04:32.591643+00:00"
 }
