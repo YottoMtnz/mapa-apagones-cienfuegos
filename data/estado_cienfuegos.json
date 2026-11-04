@@ -6,27 +6,9 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": null,
-  "mensajes_leidos": 96,
+  "mensajes_leidos": 93,
   "afectados": {
-    "C-90": [
-      "FW1558) La Pollera"
-    ],
-    "S-2382": [],
-    "C-23": [
-      "Turquino",
-      "5 de Septiembre",
-      "Guayabito"
-    ],
     "C-58": [],
-    "C-33": [
-      "Arimao",
-      "Las Moscas",
-      "Vegas Viejas",
-      "Santa Martina",
-      "San Antón",
-      "Quesada",
-      "Callejón del Palmar"
-    ],
     "C-55": [
       "Cruces (Sur"
     ],
@@ -40,6 +22,11 @@
       "Ciego Montero",
       "La Amalia",
       "Ceiba Hueca"
+    ],
+    "C-23": [
+      "Turquino",
+      "5 de Septiembre",
+      "Guayabito"
     ],
     "C-8": [
       "El Pino",
@@ -142,6 +129,15 @@
       "Gavilán",
       "Boca Ambuila"
     ],
+    "C-33": [
+      "Arimao",
+      "Las Moscas",
+      "Vegas Viejas",
+      "Santa Martina",
+      "San Antón",
+      "Quesada",
+      "Callejón del Palmar"
+    ],
     "C-84": [
       "Espartaco (Este",
       "Maleza",
@@ -173,6 +169,10 @@
       "Silverita",
       "Nuevo México"
     ],
+    "C-90": [
+      "FW1558) La Pollera"
+    ],
+    "S-2382": [],
     "C-91": [
       "Buena Vista",
       "La Esperanza"
@@ -586,33 +586,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-90": {
-      "fecha": "2026-11-04T11:19:08+00:00",
-      "mensaje_id": 60206,
-      "url": "https://t.me/empresaelectricacienfuegos1/60206",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
-    },
-    "S-2382": {
-      "fecha": "2026-11-04T10:50:28+00:00",
-      "mensaje_id": 60205,
-      "url": "https://t.me/empresaelectricacienfuegos1/60205",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
-    "C-23": {
-      "fecha": "2026-11-04T10:50:28+00:00",
-      "mensaje_id": 60205,
-      "url": "https://t.me/empresaelectricacienfuegos1/60205",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
     "C-58": {
       "fecha": "2026-11-04T11:19:08+00:00",
       "mensaje_id": 60206,
@@ -621,15 +594,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
-    },
-    "C-33": {
-      "fecha": "2026-11-04T11:19:08+00:00",
-      "mensaje_id": 60206,
-      "url": "https://t.me/empresaelectricacienfuegos1/60206",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     },
     "C-55": {
       "fecha": "2026-11-04T11:19:08+00:00",
@@ -657,6 +621,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
+    },
+    "C-23": {
+      "fecha": "2026-11-04T10:50:28+00:00",
+      "mensaje_id": 60205,
+      "url": "https://t.me/empresaelectricacienfuegos1/60205",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-8": {
       "fecha": "2026-11-04T11:19:08+00:00",
@@ -811,6 +784,15 @@
       "confianza": 100,
       "texto": "👉C-75 La Legua, Gavilán, Boca Ambuila."
     },
+    "C-33": {
+      "fecha": "2026-11-04T11:19:08+00:00",
+      "mensaje_id": 60206,
+      "url": "https://t.me/empresaelectricacienfuegos1/60206",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
+    },
     "C-84": {
       "fecha": "2026-11-04T11:19:08+00:00",
       "mensaje_id": 60206,
@@ -855,6 +837,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-11 Ariza, Silverita, Nuevo México."
+    },
+    "C-90": {
+      "fecha": "2026-11-04T11:19:08+00:00",
+      "mensaje_id": 60206,
+      "url": "https://t.me/empresaelectricacienfuegos1/60206",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
+    },
+    "S-2382": {
+      "fecha": "2026-11-04T10:50:28+00:00",
+      "mensaje_id": 60205,
+      "url": "https://t.me/empresaelectricacienfuegos1/60205",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-91": {
       "fecha": "2026-11-04T11:19:08+00:00",
@@ -1418,14 +1418,11 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-90": "avería / déficit",
-    "S-2382": "avería",
-    "C-23": "avería",
     "C-58": "déficit",
-    "C-33": "déficit",
     "C-55": "déficit",
     "C-47": "déficit",
     "C-49": "déficit",
+    "C-23": "avería",
     "C-8": "déficit",
     "C-22": "déficit",
     "C-21": "déficit",
@@ -1443,11 +1440,14 @@
     "C-35": "déficit",
     "C-39": "déficit",
     "C-75": "déficit",
+    "C-33": "déficit",
     "C-84": "déficit",
     "C-50": "déficit",
     "C-80": "déficit",
     "C-63": "déficit",
     "C-11": "déficit",
+    "C-90": "avería / déficit",
+    "S-2382": "avería",
     "C-91": "déficit",
     "C-44": "déficit",
     "C-24": "déficit",
@@ -1480,27 +1480,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "resumen_historico",
-      "texto": "👉En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
-      "id": 60106,
-      "url": "https://t.me/empresaelectricacienfuegos1/60106",
-      "fecha": "2026-11-01T12:29:57+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de 2022 MW a las 19:20 horas, superior a lo planificado por atraso en la entrada de la unidad 6 de la CTE Diez Nuevitas.",
-      "id": 60106,
-      "url": "https://t.me/empresaelectricacienfuegos1/60106",
-      "fecha": "2026-11-01T12:29:57+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
-      "id": 60107,
-      "url": "https://t.me/empresaelectricacienfuegos1/60107",
-      "fecha": "2026-11-01T12:33:29+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\nEl | a",
@@ -1756,7 +1735,7 @@
     }
   ],
   "lectura": {
-    "texto": 59,
+    "texto": 56,
     "imagenes": 37,
     "pdf": 0,
     "no_leidos": 2
@@ -1851,15 +1830,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60127"
     },
     {
-      "circuito": "C-90",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-01T23:43:46+00:00",
-      "mensaje_id": 60131,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60127",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60131"
-    },
-    {
       "circuito": "C-5",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -1888,6 +1858,15 @@
     },
     {
       "circuito": "C-3",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-01T23:43:46+00:00",
+      "mensaje_id": 60131,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60127",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60131"
+    },
+    {
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T23:43:46+00:00",
@@ -2013,7 +1992,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60139"
     },
     {
-      "circuito": "C-58",
+      "circuito": "C-53",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-02T13:54:00+00:00",
@@ -2022,7 +2001,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60143"
     },
     {
-      "circuito": "C-53",
+      "circuito": "C-58",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-02T13:54:00+00:00",
@@ -2148,15 +2127,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60151"
     },
     {
-      "circuito": "C-23",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-02T19:12:15+00:00",
-      "mensaje_id": 60152,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60151",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60152"
-    },
-    {
       "circuito": "C-85",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2167,6 +2137,15 @@
     },
     {
       "circuito": "C-101",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-02T19:12:15+00:00",
+      "mensaje_id": 60152,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60151",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60152"
+    },
+    {
+      "circuito": "C-23",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-02T19:12:15+00:00",
@@ -2238,7 +2217,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60157"
     },
     {
-      "circuito": "C-90",
+      "circuito": "C-69",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-02T23:44:38+00:00",
@@ -2247,7 +2226,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60160"
     },
     {
-      "circuito": "C-69",
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-02T23:44:38+00:00",
@@ -2754,5 +2733,5 @@
     "C-95",
     "S-2382"
   ],
-  "actualizado": "2026-11-04T12:29:10.380330+00:00"
+  "actualizado": "2026-11-04T12:44:32.611765+00:00"
 }
