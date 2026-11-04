@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-04T04:31:29+00:00",
+  "reporte_fecha": "2026-11-04T10:40:48+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-04T00:24:30+00:00",
@@ -232,12 +232,6 @@
       "Barrio Matadero",
       "Juraguá"
     ],
-    "C-69": [
-      "Junco Sur",
-      "Reparto de los médicos",
-      "Las Minas",
-      "Playa Alegre"
-    ],
     "C-59": [],
     "C-18": [],
     "C-36": [
@@ -271,7 +265,17 @@
     "C-408": []
   },
   "programados": {},
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-69": {
+      "fecha": "2026-11-04T10:40:48+00:00",
+      "mensaje_id": 60203,
+      "url": "https://t.me/empresaelectricacienfuegos1/60203",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    }
+  },
   "restablecimientos_probables": {
     "C-62": {
       "fecha": "2026-11-04T04:31:29+00:00",
@@ -1020,15 +1024,6 @@
       "confianza": 100,
       "texto": "👉C-27  Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
     },
-    "C-69": {
-      "fecha": "2026-11-04T04:10:35+00:00",
-      "mensaje_id": 60200,
-      "url": "https://t.me/empresaelectricacienfuegos1/60200",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-    },
     "C-59": {
       "fecha": "2026-11-04T04:31:29+00:00",
       "mensaje_id": 60202,
@@ -1127,6 +1122,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-408               T15,Trébol, 4 Caminos, Universidad"
+    },
+    "C-69": {
+      "fecha": "2026-11-04T10:40:48+00:00",
+      "mensaje_id": 60203,
+      "url": "https://t.me/empresaelectricacienfuegos1/60203",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
     "C-62": {
       "fecha": "2026-11-04T04:31:29+00:00",
@@ -1544,7 +1548,6 @@
     "C-102": "déficit",
     "C-28": "déficit",
     "C-27": "déficit",
-    "C-69": "avería",
     "C-59": "déficit",
     "C-18": "déficit",
     "C-36": "déficit",
@@ -1907,15 +1910,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-406",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-01T20:28:43+00:00",
-      "mensaje_id": 60122,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60120",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60122"
-    },
     {
       "circuito": "C-80",
       "tipo": "restablecido",
@@ -2806,10 +2800,19 @@
       "mensaje_id": 60202,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60199",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60202"
+    },
+    {
+      "circuito": "C-69",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-04T10:40:48+00:00",
+      "mensaje_id": 60203,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60200",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60203"
     }
   ],
   "mw_fecha": "2026-11-04T04:31:29+00:00",
-  "total_circuitos_afectados": 54,
+  "total_circuitos_afectados": 53,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
@@ -2828,5 +2831,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-04T10:04:21.148176+00:00"
+  "actualizado": "2026-11-04T10:49:30.808026+00:00"
 }
