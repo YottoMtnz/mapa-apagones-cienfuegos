@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-04T18:52:12+00:00",
+  "reporte_fecha": "2026-11-04T19:25:21+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-04T18:07:52+00:00",
-  "mensajes_leidos": 98,
+  "mensajes_leidos": 97,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -214,6 +214,13 @@
       "Congojas",
       "La Lolita",
       "Parque Alto"
+    ],
+    "C-35": [
+      "Terraza",
+      "Codicia",
+      "Breñas",
+      "Caña Brava",
+      "Dolores"
     ]
   },
   "programados": {
@@ -236,13 +243,6 @@
       "La Legua",
       "Gavilán",
       "Boca Ambuila"
-    ],
-    "C-35": [
-      "Terraza",
-      "Codicia",
-      "Breñas",
-      "Caña Brava",
-      "Dolores"
     ],
     "C-102": [
       "La Ciruela"
@@ -346,36 +346,6 @@
         "texto": "👉C-408               T15,Trébol, 4 Caminos, Universidad"
       },
       "lugares": []
-    },
-    "C-35": {
-      "fecha": "2026-11-04T18:52:12+00:00",
-      "mensaje_id": 60220,
-      "url": "https://t.me/empresaelectricacienfuegos1/60220",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-04T13:18:11+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-11-04T11:19:08+00:00",
-        "mensaje_id": 60206,
-        "url": "https://t.me/empresaelectricacienfuegos1/60206",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-35 \"Terraza, Codicia, Breñas, Caña Brava, Dolores."
-      },
-      "lugares": [
-        "Terraza",
-        "Codicia",
-        "Breñas",
-        "Caña Brava",
-        "Dolores"
-      ]
     },
     "C-39": {
       "fecha": "2026-11-04T18:52:12+00:00",
@@ -1329,6 +1299,15 @@
       "confianza": 100,
       "texto": "👉C-8  Congojas, La Lolita."
     },
+    "C-35": {
+      "fecha": "2026-11-04T19:25:21+00:00",
+      "mensaje_id": 60221,
+      "url": "https://t.me/empresaelectricacienfuegos1/60221",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
+    },
     "C-33": {
       "fecha": "2026-11-04T17:37:56+00:00",
       "mensaje_id": 60216,
@@ -1348,15 +1327,6 @@
       "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     },
     "C-75": {
-      "fecha": "2026-11-04T17:37:56+00:00",
-      "mensaje_id": 60216,
-      "url": "https://t.me/empresaelectricacienfuegos1/60216",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
-    },
-    "C-35": {
       "fecha": "2026-11-04T17:37:56+00:00",
       "mensaje_id": 60216,
       "url": "https://t.me/empresaelectricacienfuegos1/60216",
@@ -1783,11 +1753,6 @@
       "fin": "2026-11-05T05:37:56+00:00",
       "fecha_ambigua": false
     },
-    "C-35": {
-      "inicio": null,
-      "fin": "2026-11-05T05:37:56+00:00",
-      "fecha_ambigua": false
-    },
     "C-102": {
       "inicio": null,
       "fin": "2026-11-05T05:37:56+00:00",
@@ -1868,7 +1833,8 @@
     "C-52": "déficit",
     "C-21": "déficit",
     "C-22": "déficit",
-    "C-8": "déficit"
+    "C-8": "déficit",
+    "C-35": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2151,13 +2117,19 @@
       "url": "https://t.me/empresaelectricacienfuegos1/60219",
       "fecha": "2026-11-04T18:46:27+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "id": 60221,
+      "url": "https://t.me/empresaelectricacienfuegos1/60221",
+      "fecha": "2026-11-04T19:25:21+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
-    "texto": 57,
+    "texto": 56,
     "imagenes": 41,
     "pdf": 0,
-    "no_leidos": 3
+    "no_leidos": 4
   },
   "listas_completas": {
     "deficit": {
@@ -3121,9 +3093,9 @@
     }
   ],
   "mw_fecha": "2026-11-04T18:52:12+00:00",
-  "total_circuitos_afectados": 49,
-  "total_circuitos_programados": 9,
-  "total_restablecimientos_probables": 22,
+  "total_circuitos_afectados": 50,
+  "total_circuitos_programados": 8,
+  "total_restablecimientos_probables": 21,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3141,5 +3113,5 @@
     "C-95",
     "S-2382"
   ],
-  "actualizado": "2026-11-04T19:19:22.333628+00:00"
+  "actualizado": "2026-11-04T19:36:55.764650+00:00"
 }
