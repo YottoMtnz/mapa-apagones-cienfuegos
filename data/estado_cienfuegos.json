@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-04T22:37:26+00:00",
+  "reporte_fecha": "2026-11-04T23:13:09+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-04T21:13:31+00:00",
-  "mensajes_leidos": 97,
+  "mensajes_leidos": 99,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -187,12 +187,6 @@
     ],
     "C-18": [],
     "C-20": [],
-    "C-49": [
-      "Arriete",
-      "Ciego Montero",
-      "La Amalia",
-      "Ceiba Hueca"
-    ],
     "C-52": [
       "Paradero de Camarones",
       "Vía Estrecha",
@@ -297,7 +291,8 @@
     ],
     "C-66": [
       "Reina (Parque"
-    ]
+    ],
+    "S-4993": []
   },
   "programados": {
     "C-47": [
@@ -306,7 +301,26 @@
       "La Peseta"
     ]
   },
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-49": {
+      "fecha": "2026-11-04T23:04:38+00:00",
+      "mensaje_id": 60230,
+      "url": "https://t.me/empresaelectricacienfuegos1/60230",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠Se comunica a nuestros clientes que se encuentra restablecido el servicio en el circuito C-49 Arriete, Ciego Montero"
+    },
+    "S-3590": {
+      "fecha": "2026-11-04T23:13:09+00:00",
+      "mensaje_id": 60231,
+      "url": "https://t.me/empresaelectricacienfuegos1/60231",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠️Se comunica a nuestros clientes que queda restablecido el servicio en la sección S-3590 Dolores, Caña Brava"
+    }
+  },
   "restablecimientos_probables": {
     "C-92": {
       "fecha": "2026-11-04T22:37:26+00:00",
@@ -975,15 +989,6 @@
       "confianza": 100,
       "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
     },
-    "C-49": {
-      "fecha": "2026-11-04T22:37:26+00:00",
-      "mensaje_id": 60229,
-      "url": "https://t.me/empresaelectricacienfuegos1/60229",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
-    },
     "C-52": {
       "fecha": "2026-11-04T22:37:26+00:00",
       "mensaje_id": 60229,
@@ -1155,6 +1160,15 @@
       "confianza": 100,
       "texto": "👉C-66 Reina (Parque)"
     },
+    "S-4993": {
+      "fecha": "2026-11-04T23:04:38+00:00",
+      "mensaje_id": 60230,
+      "url": "https://t.me/empresaelectricacienfuegos1/60230",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "Se mantiene afectado a partir de la sección S-4993, las zonas:"
+    },
     "C-47": {
       "fecha": "2026-11-04T18:07:52+00:00",
       "mensaje_id": 60218,
@@ -1163,6 +1177,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
+    },
+    "C-49": {
+      "fecha": "2026-11-04T23:04:38+00:00",
+      "mensaje_id": 60230,
+      "url": "https://t.me/empresaelectricacienfuegos1/60230",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠Se comunica a nuestros clientes que se encuentra restablecido el servicio en el circuito C-49 Arriete, Ciego Montero"
+    },
+    "S-3590": {
+      "fecha": "2026-11-04T23:13:09+00:00",
+      "mensaje_id": 60231,
+      "url": "https://t.me/empresaelectricacienfuegos1/60231",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "⚠️Se comunica a nuestros clientes que queda restablecido el servicio en la sección S-3590 Dolores, Caña Brava"
     },
     "C-92": {
       "fecha": "2026-11-04T22:37:26+00:00",
@@ -1478,7 +1510,6 @@
     "C-55": "déficit",
     "C-18": "déficit",
     "C-20": "déficit",
-    "C-49": "avería / déficit",
     "C-52": "déficit",
     "C-21": "déficit",
     "C-22": "déficit",
@@ -1497,7 +1528,8 @@
     "C-25": "déficit",
     "C-19": "déficit",
     "C-65": "déficit",
-    "C-66": "déficit"
+    "C-66": "déficit",
+    "S-4993": "sin precisar"
   },
   "error": null,
   "pendientes_revision": [
@@ -1812,7 +1844,7 @@
     }
   ],
   "lectura": {
-    "texto": 55,
+    "texto": 57,
     "imagenes": 42,
     "pdf": 0,
     "no_leidos": 3
@@ -1889,15 +1921,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-19",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-02T17:32:30+00:00",
-      "mensaje_id": 60151,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60147",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60151"
-    },
     {
       "circuito": "C-85",
       "tipo": "salida_lista",
@@ -2788,6 +2811,15 @@
       "mensaje_id": 60229,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60227",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60229"
+    },
+    {
+      "circuito": "C-49",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-04T23:04:38+00:00",
+      "mensaje_id": 60230,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60229",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60230"
     }
   ],
   "mw_fecha": "2026-11-04T22:37:26+00:00",
@@ -2809,7 +2841,8 @@
     "C-92",
     "C-94",
     "C-95",
-    "S-2382"
+    "S-2382",
+    "S-4993"
   ],
-  "actualizado": "2026-11-04T22:59:38.837627+00:00"
+  "actualizado": "2026-11-04T23:14:51.133168+00:00"
 }
