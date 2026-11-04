@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-04T14:36:27+00:00",
+  "reporte_fecha": "2026-11-04T15:15:31+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-04T13:34:00+00:00",
@@ -187,6 +187,7 @@
       "Cumanayagua",
       "emisora de radio"
     ],
+    "C-17": [],
     "C-66": [
       "Reina (Parque"
     ],
@@ -841,13 +842,13 @@
   "afectaciones_parciales": {},
   "evidencias": {
     "C-58": {
-      "fecha": "2026-11-04T14:36:27+00:00",
-      "mensaje_id": 60209,
-      "url": "https://t.me/empresaelectricacienfuegos1/60209",
+      "fecha": "2026-11-04T15:15:31+00:00",
+      "mensaje_id": 60211,
+      "url": "https://t.me/empresaelectricacienfuegos1/60211",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.\""
+      "texto": "👉C-58 Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena."
     },
     "C-49": {
       "fecha": "2026-11-04T14:36:27+00:00",
@@ -859,13 +860,13 @@
       "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
     },
     "C-23": {
-      "fecha": "2026-11-04T14:36:27+00:00",
-      "mensaje_id": 60209,
-      "url": "https://t.me/empresaelectricacienfuegos1/60209",
+      "fecha": "2026-11-04T15:15:31+00:00",
+      "mensaje_id": 60211,
+      "url": "https://t.me/empresaelectricacienfuegos1/60211",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-25": {
       "fecha": "2026-11-04T14:36:27+00:00",
@@ -994,18 +995,18 @@
       "texto": "👉C-11 Ariza, Silverita, Nuevo México."
     },
     "C-90": {
-      "fecha": "2026-11-04T14:36:27+00:00",
-      "mensaje_id": 60209,
-      "url": "https://t.me/empresaelectricacienfuegos1/60209",
+      "fecha": "2026-11-04T15:15:31+00:00",
+      "mensaje_id": 60211,
+      "url": "https://t.me/empresaelectricacienfuegos1/60211",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
+      "texto": "👉FW1558 La Pollera (C-90)"
     },
     "S-2382": {
-      "fecha": "2026-11-04T10:50:28+00:00",
-      "mensaje_id": 60205,
-      "url": "https://t.me/empresaelectricacienfuegos1/60205",
+      "fecha": "2026-11-04T15:15:31+00:00",
+      "mensaje_id": 60211,
+      "url": "https://t.me/empresaelectricacienfuegos1/60211",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1164,6 +1165,15 @@
       "confianza": 100,
       "texto": "👉C-86 \"Cumanayagua, emisora de radio\""
     },
+    "C-17": {
+      "fecha": "2026-11-04T15:15:31+00:00",
+      "mensaje_id": 60211,
+      "url": "https://t.me/empresaelectricacienfuegos1/60211",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17 Ave 5 de sept, Distrito Petrolero, Hermanas Giralt"
+    },
     "C-66": {
       "fecha": "2026-11-04T14:36:27+00:00",
       "mensaje_id": 60209,
@@ -1246,9 +1256,9 @@
       "texto": "👉C-101 Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
     },
     "C-69": {
-      "fecha": "2026-11-04T14:36:27+00:00",
-      "mensaje_id": 60209,
-      "url": "https://t.me/empresaelectricacienfuegos1/60209",
+      "fecha": "2026-11-04T15:15:31+00:00",
+      "mensaje_id": 60211,
+      "url": "https://t.me/empresaelectricacienfuegos1/60211",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1895,7 +1905,7 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-58": "déficit",
+    "C-58": "emergencia / déficit",
     "C-49": "déficit",
     "C-23": "avería / déficit",
     "C-25": "déficit",
@@ -1931,6 +1941,7 @@
     "C-36": "déficit",
     "C-70": "déficit",
     "C-86": "déficit",
+    "C-17": "avería",
     "C-66": "déficit",
     "C-65": "déficit",
     "C-407": "déficit",
@@ -1940,7 +1951,7 @@
     "C-26": "déficit",
     "C-43": "déficit",
     "C-101": "déficit",
-    "C-69": "déficit",
+    "C-69": "déficit / avería",
     "C-406": "déficit",
     "C-30": "déficit",
     "C-95": "déficit",
@@ -2214,6 +2225,13 @@
       "id": 60210,
       "url": "https://t.me/empresaelectricacienfuegos1/60210",
       "fecha": "2026-11-04T15:13:36+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
+      "id": 60211,
+      "url": "https://t.me/empresaelectricacienfuegos1/60211",
+      "fecha": "2026-11-04T15:15:31+00:00"
     }
   ],
   "lectura": {
@@ -3187,10 +3205,11 @@
     }
   ],
   "mw_fecha": "2026-11-04T14:36:27+00:00",
-  "total_circuitos_afectados": 50,
+  "total_circuitos_afectados": 51,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 22,
   "circuitos_sin_catalogar": [
+    "C-17",
     "C-18",
     "C-2",
     "C-20",
@@ -3207,5 +3226,5 @@
     "C-95",
     "S-2382"
   ],
-  "actualizado": "2026-11-04T15:14:45.926729+00:00"
+  "actualizado": "2026-11-04T15:29:29.149260+00:00"
 }
