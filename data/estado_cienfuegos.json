@@ -228,15 +228,6 @@
       "Barrio Matadero",
       "Juraguá"
     ],
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
-    ],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
-    ],
     "C-69": [
       "Junco Sur",
       "Reparto de los médicos",
@@ -1017,24 +1008,6 @@
       "confianza": 100,
       "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
     },
-    "C-15": {
-      "fecha": "2026-11-03T12:53:48+00:00",
-      "mensaje_id": 60169,
-      "url": "https://t.me/empresaelectricacienfuegos1/60169",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-15 Pepito Tey, Guabairo."
-    },
-    "C-67": {
-      "fecha": "2026-11-03T12:53:48+00:00",
-      "mensaje_id": 60169,
-      "url": "https://t.me/empresaelectricacienfuegos1/60169",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
-    },
     "C-69": {
       "fecha": "2026-11-04T00:27:22+00:00",
       "mensaje_id": 60197,
@@ -1557,10 +1530,8 @@
     "C-85": "déficit",
     "C-103": "déficit",
     "C-102": "déficit",
-    "C-28": "déficit / sin precisar",
-    "C-27": "déficit / sin precisar",
-    "C-15": "avería",
-    "C-67": "avería",
+    "C-28": "déficit",
+    "C-27": "déficit",
     "C-69": "déficit",
     "C-26": "déficit",
     "C-59": "déficit",
@@ -2821,7 +2792,7 @@
     }
   ],
   "mw_fecha": "2026-11-04T00:27:22+00:00",
-  "total_circuitos_afectados": 56,
+  "total_circuitos_afectados": 54,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
@@ -2841,5 +2812,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-04T00:49:41.859376+00:00"
+  "actualizado": "2026-11-04T01:04:19.040817+00:00"
 }
