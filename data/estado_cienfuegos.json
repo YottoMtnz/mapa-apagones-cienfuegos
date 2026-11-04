@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-04T18:07:52+00:00",
-  "mensajes_leidos": 96,
+  "mensajes_leidos": 97,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -1935,11 +1935,33 @@
       "url": "https://t.me/empresaelectricacienfuegos1/60221",
       "fecha": "2026-11-04T19:25:21+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "estado_ambiguo",
+      "texto": "⚠️Se comunica a nuestros clientes que queda restablecido el servicio en el circuito C-35 Codicia y queda en fallo la sección S-3590 que afecta las zonas:",
+      "circuitos": [
+        "C-35",
+        "S-3590"
+      ],
+      "id": 60223,
+      "url": "https://t.me/empresaelectricacienfuegos1/60223",
+      "fecha": "2026-11-04T21:01:45+00:00"
+    },
+    {
+      "motivo": "estado_ambiguo",
+      "texto": "⚠️Se comunica a nuestros clientes que queda restablecido el servicio en el circuito C-35 Codicia y queda en fallo la sección S-3590 que afecta las zonas:",
+      "circuitos": [
+        "C-35",
+        "S-3590"
+      ],
+      "id": 60223,
+      "url": "https://t.me/empresaelectricacienfuegos1/60223",
+      "fecha": "2026-11-04T21:01:45+00:00"
     }
   ],
   "lectura": {
     "texto": 56,
-    "imagenes": 40,
+    "imagenes": 41,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -2930,5 +2952,5 @@
     "C-95",
     "S-2382"
   ],
-  "actualizado": "2026-11-04T20:49:33.541201+00:00"
+  "actualizado": "2026-11-04T21:04:18.217528+00:00"
 }
