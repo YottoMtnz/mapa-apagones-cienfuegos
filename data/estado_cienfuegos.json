@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-04T13:18:11+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 94,
+  "programado_fecha": "2026-11-04T13:34:00+00:00",
+  "mensajes_leidos": 95,
   "afectados": {
     "C-58": [],
     "C-47": [
@@ -237,7 +237,14 @@
     ],
     "C-43": []
   },
-  "programados": {},
+  "programados": {
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
+    ]
+  },
   "confirmados_con_servicio": {
     "C-69": {
       "fecha": "2026-11-04T10:40:48+00:00",
@@ -1285,13 +1292,13 @@
       "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria.(Hospital Aguada Autopista 0-24)\""
     },
     "C-69": {
-      "fecha": "2026-11-04T10:40:48+00:00",
-      "mensaje_id": 60203,
-      "url": "https://t.me/empresaelectricacienfuegos1/60203",
+      "fecha": "2026-11-04T13:34:00+00:00",
+      "mensaje_id": 60208,
+      "url": "https://t.me/empresaelectricacienfuegos1/60208",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+      "texto": "👉C-69  Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
     "C-62": {
       "fecha": "2026-11-04T13:18:11+00:00",
@@ -1866,7 +1873,13 @@
       "lugares": []
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-69": {
+      "inicio": null,
+      "fin": "2026-11-05T01:34:00+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 56.0,
   "hora_inicio": null,
@@ -2183,7 +2196,7 @@
   ],
   "lectura": {
     "texto": 57,
-    "imagenes": 37,
+    "imagenes": 38,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -3153,7 +3166,7 @@
   ],
   "mw_fecha": "2026-11-04T13:18:11+00:00",
   "total_circuitos_afectados": 51,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 21,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -3172,5 +3185,5 @@
     "C-95",
     "S-2382"
   ],
-  "actualizado": "2026-11-04T13:29:23.483763+00:00"
+  "actualizado": "2026-11-04T13:44:18.126642+00:00"
 }
