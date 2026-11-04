@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-04T03:47:02+00:00",
+  "reporte_fecha": "2026-11-04T04:10:35+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-04T00:24:30+00:00",
@@ -1009,9 +1009,9 @@
       "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
     },
     "C-69": {
-      "fecha": "2026-11-04T03:47:02+00:00",
-      "mensaje_id": 60199,
-      "url": "https://t.me/empresaelectricacienfuegos1/60199",
+      "fecha": "2026-11-04T04:10:35+00:00",
+      "mensaje_id": 60200,
+      "url": "https://t.me/empresaelectricacienfuegos1/60200",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1532,7 +1532,7 @@
     "C-102": "déficit",
     "C-28": "déficit",
     "C-27": "déficit",
-    "C-69": "déficit",
+    "C-69": "déficit / avería",
     "C-26": "déficit",
     "C-59": "déficit",
     "C-18": "déficit",
@@ -1548,13 +1548,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nee",
-      "id": 60102,
-      "url": "https://t.me/empresaelectricacienfuegos1/60102",
-      "fecha": "2026-11-01T04:14:38+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos afectados por\nee",
@@ -1815,13 +1808,26 @@
       "id": 60193,
       "url": "https://t.me/empresaelectricacienfuegos1/60193",
       "fecha": "2026-11-03T22:35:25+00:00"
+    },
+    {
+      "id": 60200,
+      "url": "https://t.me/empresaelectricacienfuegos1/60200",
+      "fecha": "2026-11-04T04:10:35+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠ Se comunica a nuestros clientes que se encuentra restablecido el servicio en la línea:\n\n\n👉L-1415 Aguada \n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
+      "id": 60201,
+      "url": "https://t.me/empresaelectricacienfuegos1/60201",
+      "fecha": "2026-11-04T04:23:08+00:00"
     }
   ],
   "lectura": {
     "texto": 57,
     "imagenes": 37,
     "pdf": 0,
-    "no_leidos": 1
+    "no_leidos": 2
   },
   "listas_completas": {
     "deficit": {
@@ -1990,25 +1996,16 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60127"
     },
     {
-      "circuito": "C-69",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-01T23:43:46+00:00",
-      "mensaje_id": 60131,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60127",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60131"
-    },
-    {
-      "circuito": "C-90",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-01T23:43:46+00:00",
-      "mensaje_id": 60131,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60127",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60131"
-    },
-    {
       "circuito": "C-5",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-01T23:43:46+00:00",
+      "mensaje_id": 60131,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60127",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60131"
+    },
+    {
+      "circuito": "C-69",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T23:43:46+00:00",
@@ -2027,6 +2024,15 @@
     },
     {
       "circuito": "C-3",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-01T23:43:46+00:00",
+      "mensaje_id": 60131,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60127",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60131"
+    },
+    {
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-01T23:43:46+00:00",
@@ -2812,5 +2818,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-04T04:09:29.724711+00:00"
+  "actualizado": "2026-11-04T04:24:21.032395+00:00"
 }
