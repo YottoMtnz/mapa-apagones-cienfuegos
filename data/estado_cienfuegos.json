@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-04T17:54:12+00:00",
+  "reporte_fecha": "2026-11-04T18:46:27+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-04T18:07:52+00:00",
-  "mensajes_leidos": 96,
+  "mensajes_leidos": 97,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -211,7 +211,13 @@
       "Cruces (Sur"
     ],
     "C-18": [],
-    "C-20": []
+    "C-20": [],
+    "C-49": [
+      "Arriete",
+      "Ciego Montero",
+      "La Amalia",
+      "Ceiba Hueca"
+    ]
   },
   "programados": {
     "C-33": [
@@ -765,35 +771,6 @@
       "lugares": [
         "Boulevard",
         "Parque Martí"
-      ]
-    },
-    "C-49": {
-      "fecha": "2026-11-04T17:54:12+00:00",
-      "mensaje_id": 60217,
-      "url": "https://t.me/empresaelectricacienfuegos1/60217",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-04T15:52:58+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-04T14:36:27+00:00",
-        "mensaje_id": 60209,
-        "url": "https://t.me/empresaelectricacienfuegos1/60209",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
-      },
-      "lugares": [
-        "Arriete",
-        "Ciego Montero",
-        "La Amalia",
-        "Ceiba Hueca"
       ]
     },
     "C-25": {
@@ -1367,6 +1344,15 @@
       "confianza": 100,
       "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
     },
+    "C-49": {
+      "fecha": "2026-11-04T18:46:27+00:00",
+      "mensaje_id": 60219,
+      "url": "https://t.me/empresaelectricacienfuegos1/60219",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
+    },
     "C-33": {
       "fecha": "2026-11-04T17:37:56+00:00",
       "mensaje_id": 60216,
@@ -1616,35 +1602,6 @@
       },
       "lugares": []
     },
-    "C-49": {
-      "fecha": "2026-11-04T17:54:12+00:00",
-      "mensaje_id": 60217,
-      "url": "https://t.me/empresaelectricacienfuegos1/60217",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-04T15:52:58+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-04T14:36:27+00:00",
-        "mensaje_id": 60209,
-        "url": "https://t.me/empresaelectricacienfuegos1/60209",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
-      },
-      "lugares": [
-        "Arriete",
-        "Ciego Montero",
-        "La Amalia",
-        "Ceiba Hueca"
-      ]
-    },
     "C-25": {
       "fecha": "2026-11-04T17:54:12+00:00",
       "mensaje_id": 60217,
@@ -1871,7 +1828,8 @@
     "C-94": "déficit",
     "C-55": "déficit",
     "C-18": "déficit",
-    "C-20": "déficit"
+    "C-20": "déficit",
+    "C-49": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2148,13 +2106,19 @@
       "id": 60212,
       "url": "https://t.me/empresaelectricacienfuegos1/60212",
       "fecha": "2026-11-04T15:52:51+00:00"
+    },
+    {
+      "id": 60219,
+      "url": "https://t.me/empresaelectricacienfuegos1/60219",
+      "fecha": "2026-11-04T18:46:27+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 56,
-    "imagenes": 40,
+    "imagenes": 41,
     "pdf": 0,
-    "no_leidos": 2
+    "no_leidos": 3
   },
   "listas_completas": {
     "deficit": {
@@ -3118,9 +3082,9 @@
     }
   ],
   "mw_fecha": "2026-11-04T17:54:12+00:00",
-  "total_circuitos_afectados": 48,
+  "total_circuitos_afectados": 49,
   "total_circuitos_programados": 13,
-  "total_restablecimientos_probables": 23,
+  "total_restablecimientos_probables": 22,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3138,5 +3102,5 @@
     "C-95",
     "S-2382"
   ],
-  "actualizado": "2026-11-04T18:34:17.694903+00:00"
+  "actualizado": "2026-11-04T18:49:32.031093+00:00"
 }
