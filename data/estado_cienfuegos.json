@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-04T17:54:12+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-04T17:37:56+00:00",
-  "mensajes_leidos": 96,
+  "programado_fecha": "2026-11-04T18:07:52+00:00",
+  "mensajes_leidos": 97,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -271,6 +271,23 @@
       "Congojas",
       "La Lolita",
       "Parque Alto"
+    ],
+    "C-47": [
+      "Elpidio Gómez",
+      "Altamira",
+      "La Peseta"
+    ],
+    "C-36": [
+      "Cumanayagua (Sur",
+      "La Guasasa",
+      "Ceibabo",
+      "La Furnia",
+      "Monasterio",
+      "El Concuní"
+    ],
+    "C-5": [
+      "Boulevard",
+      "Parque Martí"
     ]
   },
   "confirmados_con_servicio": {},
@@ -1440,6 +1457,33 @@
       "confianza": 100,
       "texto": "👉C-33 Arimao, Las Moscas, Vegas Viejas, Santa Martina, San Antón, Quesada, Callejón del Palmar."
     },
+    "C-47": {
+      "fecha": "2026-11-04T18:07:52+00:00",
+      "mensaje_id": 60218,
+      "url": "https://t.me/empresaelectricacienfuegos1/60218",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
+    },
+    "C-36": {
+      "fecha": "2026-11-04T18:07:52+00:00",
+      "mensaje_id": 60218,
+      "url": "https://t.me/empresaelectricacienfuegos1/60218",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
+    },
+    "C-5": {
+      "fecha": "2026-11-04T18:07:52+00:00",
+      "mensaje_id": 60218,
+      "url": "https://t.me/empresaelectricacienfuegos1/60218",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
+    },
     "C-92": {
       "fecha": "2026-11-04T17:54:12+00:00",
       "mensaje_id": 60217,
@@ -1572,61 +1616,6 @@
       },
       "lugares": []
     },
-    "C-47": {
-      "fecha": "2026-11-04T17:54:12+00:00",
-      "mensaje_id": 60217,
-      "url": "https://t.me/empresaelectricacienfuegos1/60217",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-04T14:36:27+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-11-04T13:18:11+00:00",
-        "mensaje_id": 60207,
-        "url": "https://t.me/empresaelectricacienfuegos1/60207",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
-      },
-      "lugares": [
-        "Elpidio Gómez",
-        "Altamira",
-        "La Peseta"
-      ]
-    },
-    "C-5": {
-      "fecha": "2026-11-04T17:54:12+00:00",
-      "mensaje_id": 60217,
-      "url": "https://t.me/empresaelectricacienfuegos1/60217",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-04T14:36:27+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-11-04T13:18:11+00:00",
-        "mensaje_id": 60207,
-        "url": "https://t.me/empresaelectricacienfuegos1/60207",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-5 Boulevard, Parque Martí"
-      },
-      "lugares": [
-        "Boulevard",
-        "Parque Martí"
-      ]
-    },
     "C-49": {
       "fecha": "2026-11-04T17:54:12+00:00",
       "mensaje_id": 60217,
@@ -1680,37 +1669,6 @@
       },
       "lugares": [
         "Abreus (Pueblo"
-      ]
-    },
-    "C-36": {
-      "fecha": "2026-11-04T17:54:12+00:00",
-      "mensaje_id": 60217,
-      "url": "https://t.me/empresaelectricacienfuegos1/60217",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-04T15:52:58+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-04T14:36:27+00:00",
-        "mensaje_id": 60209,
-        "url": "https://t.me/empresaelectricacienfuegos1/60209",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní. (Prefabricado PSFV 0-15)\""
-      },
-      "lugares": [
-        "Cumanayagua (Sur",
-        "La Guasasa",
-        "Ceibabo",
-        "La Furnia",
-        "Monasterio",
-        "El Concuní"
       ]
     },
     "C-66": {
@@ -1842,6 +1800,21 @@
     "C-8": {
       "inicio": null,
       "fin": "2026-11-05T05:37:56+00:00",
+      "fecha_ambigua": false
+    },
+    "C-47": {
+      "inicio": null,
+      "fin": "2026-11-05T06:07:52+00:00",
+      "fecha_ambigua": false
+    },
+    "C-36": {
+      "inicio": null,
+      "fin": "2026-11-05T06:07:52+00:00",
+      "fecha_ambigua": false
+    },
+    "C-5": {
+      "inicio": null,
+      "fin": "2026-11-05T06:07:52+00:00",
       "fecha_ambigua": false
     }
   },
@@ -2179,7 +2152,7 @@
   ],
   "lectura": {
     "texto": 57,
-    "imagenes": 39,
+    "imagenes": 40,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -3146,7 +3119,7 @@
   ],
   "mw_fecha": "2026-11-04T17:54:12+00:00",
   "total_circuitos_afectados": 48,
-  "total_circuitos_programados": 10,
+  "total_circuitos_programados": 13,
   "total_restablecimientos_probables": 23,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3165,5 +3138,5 @@
     "C-95",
     "S-2382"
   ],
-  "actualizado": "2026-11-04T18:04:21.049662+00:00"
+  "actualizado": "2026-11-04T18:19:19.185813+00:00"
 }
