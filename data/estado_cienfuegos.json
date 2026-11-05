@@ -6,14 +6,18 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-05T09:08:10+00:00",
-  "mensajes_leidos": 103,
+  "mensajes_leidos": 102,
   "afectados": {
-    "C-58": [],
+    "C-90": [
+      "FW1558) La Pollera"
+    ],
+    "S-2382": [],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
       "Guayabito"
     ],
+    "C-58": [],
     "C-78": [
       "Plan Arroz",
       "La Paquita",
@@ -61,10 +65,6 @@
       "Silverita",
       "Nuevo México"
     ],
-    "C-90": [
-      "FW1558) La Pollera"
-    ],
-    "S-2382": [],
     "C-91": [
       "Buena Vista",
       "La Esperanza"
@@ -318,30 +318,6 @@
     }
   },
   "restablecimientos_probables": {
-    "C-92": {
-      "fecha": "2026-11-05T09:06:12+00:00",
-      "mensaje_id": 60242,
-      "url": "https://t.me/empresaelectricacienfuegos1/60242",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-02T11:16:53+00:00",
-      "listas_consecutivas": 44,
-      "aviso_anterior": {
-        "fecha": "2026-11-02T10:15:00+00:00",
-        "mensaje_id": 60136,
-        "url": "https://t.me/empresaelectricacienfuegos1/60136",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
-      },
-      "lugares": []
-    },
     "C-6": {
       "fecha": "2026-11-05T09:06:12+00:00",
       "mensaje_id": 60242,
@@ -559,14 +535,23 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-58": {
+    "C-90": {
       "fecha": "2026-11-05T09:06:12+00:00",
       "mensaje_id": 60242,
       "url": "https://t.me/empresaelectricacienfuegos1/60242",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.\""
+      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
+    },
+    "S-2382": {
+      "fecha": "2026-11-05T04:25:26+00:00",
+      "mensaje_id": 60240,
+      "url": "https://t.me/empresaelectricacienfuegos1/60240",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-23": {
       "fecha": "2026-11-05T09:06:12+00:00",
@@ -576,6 +561,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
+    },
+    "C-58": {
+      "fecha": "2026-11-05T09:06:12+00:00",
+      "mensaje_id": 60242,
+      "url": "https://t.me/empresaelectricacienfuegos1/60242",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.\""
     },
     "C-78": {
       "fecha": "2026-11-05T09:06:12+00:00",
@@ -648,24 +642,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-11 Ariza, Silverita, Nuevo México."
-    },
-    "C-90": {
-      "fecha": "2026-11-05T09:06:12+00:00",
-      "mensaje_id": 60242,
-      "url": "https://t.me/empresaelectricacienfuegos1/60242",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
-    },
-    "S-2382": {
-      "fecha": "2026-11-05T04:25:26+00:00",
-      "mensaje_id": 60240,
-      "url": "https://t.me/empresaelectricacienfuegos1/60240",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-91": {
       "fecha": "2026-11-05T09:06:12+00:00",
@@ -1144,30 +1120,6 @@
       "confianza": 100,
       "texto": "⚠️Se comunica a nuestros clientes que queda restablecido el servicio en la sección S-3590 Dolores, Caña Brava"
     },
-    "C-92": {
-      "fecha": "2026-11-05T09:06:12+00:00",
-      "mensaje_id": 60242,
-      "url": "https://t.me/empresaelectricacienfuegos1/60242",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-02T11:16:53+00:00",
-      "listas_consecutivas": 44,
-      "aviso_anterior": {
-        "fecha": "2026-11-02T10:15:00+00:00",
-        "mensaje_id": 60136,
-        "url": "https://t.me/empresaelectricacienfuegos1/60136",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
-      },
-      "lugares": []
-    },
     "C-6": {
       "fecha": "2026-11-05T09:06:12+00:00",
       "mensaje_id": 60242,
@@ -1395,8 +1347,10 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-58": "déficit",
+    "C-90": "avería / déficit",
+    "S-2382": "avería",
     "C-23": "avería / déficit",
+    "C-58": "déficit",
     "C-78": "déficit",
     "C-56": "déficit",
     "C-73": "déficit",
@@ -1405,8 +1359,6 @@
     "C-50": "déficit",
     "C-63": "déficit",
     "C-11": "déficit",
-    "C-90": "avería / déficit",
-    "S-2382": "avería",
     "C-91": "déficit",
     "C-44": "déficit",
     "C-24": "déficit",
@@ -1796,7 +1748,7 @@
     }
   ],
   "lectura": {
-    "texto": 58,
+    "texto": 57,
     "imagenes": 45,
     "pdf": 0,
     "no_leidos": 4
@@ -1872,7 +1824,7 @@
   },
   "transiciones": [
     {
-      "circuito": "C-90",
+      "circuito": "C-69",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-02T23:44:38+00:00",
@@ -2775,7 +2727,7 @@
   "mw_fecha": "2026-11-05T09:06:12+00:00",
   "total_circuitos_afectados": 60,
   "total_circuitos_programados": 6,
-  "total_restablecimientos_probables": 9,
+  "total_restablecimientos_probables": 8,
   "circuitos_sin_catalogar": [
     "C-18",
     "C-2",
@@ -2787,11 +2739,10 @@
     "C-58",
     "C-59",
     "C-89",
-    "C-92",
     "C-94",
     "C-95",
     "S-2382",
     "S-4993"
   ],
-  "actualizado": "2026-11-05T10:09:16.909272+00:00"
+  "actualizado": "2026-11-05T10:24:21.688169+00:00"
 }
