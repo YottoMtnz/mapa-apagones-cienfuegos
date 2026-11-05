@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-11-05T16:18:46+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-05T16:19:03+00:00",
+  "programado_fecha": "2026-11-05T16:36:20+00:00",
   "mensajes_leidos": 102,
   "afectados": {
     "C-53": [
@@ -194,7 +194,12 @@
     "C-94": []
   },
   "programados": {
-    "C-18": []
+    "C-18": [],
+    "C-6": [
+      "Rancho Luna",
+      "Pasacaballo",
+      "La Milpa"
+    ]
   },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
@@ -1399,32 +1404,13 @@
       "texto": "👉C-18 Arizona, La Juanita."
     },
     "C-6": {
-      "fecha": "2026-11-05T16:18:46+00:00",
-      "mensaje_id": 60254,
-      "url": "https://t.me/empresaelectricacienfuegos1/60254",
+      "fecha": "2026-11-05T16:36:20+00:00",
+      "mensaje_id": 60256,
+      "url": "https://t.me/empresaelectricacienfuegos1/60256",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-53 Potrerillo, El No, Peñasco, Lomitas.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-03T19:54:02+00:00",
-      "listas_consecutivas": 31,
-      "aviso_anterior": {
-        "fecha": "2026-11-03T18:42:16+00:00",
-        "mensaje_id": 60181,
-        "url": "https://t.me/empresaelectricacienfuegos1/60181",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-6 \"Rancho Luna, Pasacaballo, La Milpa."
-      },
-      "lugares": [
-        "Rancho Luna",
-        "Pasacaballo",
-        "La Milpa"
-      ]
+      "texto": "👉C-6 Rancho Luna, Pasacaballo, La Milpa."
     },
     "C-59": {
       "fecha": "2026-11-05T16:18:46+00:00",
@@ -2180,6 +2166,11 @@
     "C-18": {
       "inicio": null,
       "fin": "2026-11-06T04:19:03+00:00",
+      "fecha_ambigua": false
+    },
+    "C-6": {
+      "inicio": null,
+      "fin": "2026-11-06T04:36:20+00:00",
       "fecha_ambigua": false
     }
   },
@@ -3517,7 +3508,7 @@
   ],
   "mw_fecha": "2026-11-05T16:18:46+00:00",
   "total_circuitos_afectados": 43,
-  "total_circuitos_programados": 1,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 29,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -3536,5 +3527,5 @@
     "S-3590",
     "S-4993"
   ],
-  "actualizado": "2026-11-05T16:29:17.282110+00:00"
+  "actualizado": "2026-11-05T16:44:25.025652+00:00"
 }
