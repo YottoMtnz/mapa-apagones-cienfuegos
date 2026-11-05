@@ -289,11 +289,6 @@
     ]
   },
   "programados": {
-    "C-47": [
-      "Elpidio Gómez",
-      "Altamira",
-      "La Peseta"
-    ],
     "C-15": [
       "Pepito Tey",
       "Guabairo"
@@ -1106,15 +1101,6 @@
       "confianza": 100,
       "texto": "👉C-3 Reparto Eléctrico"
     },
-    "C-47": {
-      "fecha": "2026-11-04T18:07:52+00:00",
-      "mensaje_id": 60218,
-      "url": "https://t.me/empresaelectricacienfuegos1/60218",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
-    },
     "C-15": {
       "fecha": "2026-11-05T03:42:35+00:00",
       "mensaje_id": 60239,
@@ -1217,6 +1203,34 @@
         "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
       },
       "lugares": []
+    },
+    "C-47": {
+      "fecha": "2026-11-05T04:25:32+00:00",
+      "mensaje_id": 60241,
+      "url": "https://t.me/empresaelectricacienfuegos1/60241",
+      "medio": "texto",
+      "editado": "2026-11-05T04:30:18+00:00",
+      "confianza": 100,
+      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-04T14:36:27+00:00",
+      "listas_consecutivas": 12,
+      "aviso_anterior": {
+        "fecha": "2026-11-04T13:18:11+00:00",
+        "mensaje_id": 60207,
+        "url": "https://t.me/empresaelectricacienfuegos1/60207",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-47 Elpidio Gómez, Altamira, La Peseta."
+      },
+      "lugares": [
+        "Elpidio Gómez",
+        "Altamira",
+        "La Peseta"
+      ]
     },
     "C-38": {
       "fecha": "2026-11-05T04:25:32+00:00",
@@ -1354,11 +1368,6 @@
     }
   },
   "horarios": {
-    "C-47": {
-      "inicio": null,
-      "fin": "2026-11-05T06:07:52+00:00",
-      "fecha_ambigua": false
-    },
     "C-15": {
       "inicio": null,
       "fin": "2026-11-05T15:42:35+00:00",
@@ -2756,7 +2765,7 @@
   ],
   "mw_fecha": "2026-11-05T04:25:32+00:00",
   "total_circuitos_afectados": 61,
-  "total_circuitos_programados": 3,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -2775,5 +2784,5 @@
     "S-2382",
     "S-4993"
   ],
-  "actualizado": "2026-11-05T06:04:20.412228+00:00"
+  "actualizado": "2026-11-05T06:19:23.402421+00:00"
 }
