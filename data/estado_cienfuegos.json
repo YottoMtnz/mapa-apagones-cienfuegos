@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-05T02:16:38+00:00",
+  "reporte_fecha": "2026-11-05T02:41:25+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-04T21:13:31+00:00",
-  "mensajes_leidos": 99,
+  "mensajes_leidos": 100,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -281,6 +281,10 @@
       "Ciego Montero",
       "La Amalia",
       "Ceiba Hueca"
+    ],
+    "C-30": [
+      "14 de Julio",
+      "Batey 2 Hermanos"
     ]
   },
   "programados": {
@@ -588,33 +592,6 @@
         "Los Tanques",
         "La Ceiba",
         "El Paisíto"
-      ]
-    },
-    "C-30": {
-      "fecha": "2026-11-05T02:16:38+00:00",
-      "mensaje_id": 60236,
-      "url": "https://t.me/empresaelectricacienfuegos1/60236",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-05T00:25:28+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-04T22:37:26+00:00",
-        "mensaje_id": 60229,
-        "url": "https://t.me/empresaelectricacienfuegos1/60229",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
-      },
-      "lugares": [
-        "14 de Julio",
-        "Batey 2 Hermanos"
       ]
     },
     "C-89": {
@@ -1190,6 +1167,15 @@
       "confianza": 100,
       "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
     },
+    "C-30": {
+      "fecha": "2026-11-05T02:41:25+00:00",
+      "mensaje_id": 60237,
+      "url": "https://t.me/empresaelectricacienfuegos1/60237",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
+    },
     "C-47": {
       "fecha": "2026-11-04T18:07:52+00:00",
       "mensaje_id": 60218,
@@ -1468,33 +1454,6 @@
         "El Paisíto"
       ]
     },
-    "C-30": {
-      "fecha": "2026-11-05T02:16:38+00:00",
-      "mensaje_id": 60236,
-      "url": "https://t.me/empresaelectricacienfuegos1/60236",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-05T00:25:28+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-04T22:37:26+00:00",
-        "mensaje_id": 60229,
-        "url": "https://t.me/empresaelectricacienfuegos1/60229",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
-      },
-      "lugares": [
-        "14 de Julio",
-        "Batey 2 Hermanos"
-      ]
-    },
     "C-89": {
       "fecha": "2026-11-05T02:16:38+00:00",
       "mensaje_id": 60236,
@@ -1614,7 +1573,8 @@
     "C-66": "déficit",
     "S-4993": "sin precisar",
     "C-5": "déficit",
-    "C-49": "déficit"
+    "C-49": "déficit",
+    "C-30": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -1939,11 +1899,18 @@
       "id": 60235,
       "url": "https://t.me/empresaelectricacienfuegos1/60235",
       "fecha": "2026-11-05T01:57:31+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nDISPARO\n-\n-\nA\nde!\nOS\nwR\nre\nmom \\\nIE",
+      "id": 60237,
+      "url": "https://t.me/empresaelectricacienfuegos1/60237",
+      "fecha": "2026-11-05T02:41:25+00:00"
     }
   ],
   "lectura": {
     "texto": 57,
-    "imagenes": 42,
+    "imagenes": 43,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -2914,9 +2881,9 @@
     }
   ],
   "mw_fecha": "2026-11-05T02:16:38+00:00",
-  "total_circuitos_afectados": 58,
+  "total_circuitos_afectados": 59,
   "total_circuitos_programados": 1,
-  "total_restablecimientos_probables": 14,
+  "total_restablecimientos_probables": 13,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2935,5 +2902,5 @@
     "S-2382",
     "S-4993"
   ],
-  "actualizado": "2026-11-05T02:29:18.123604+00:00"
+  "actualizado": "2026-11-05T02:44:23.651447+00:00"
 }
