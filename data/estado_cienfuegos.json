@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-04T23:13:09+00:00",
+  "reporte_fecha": "2026-11-05T00:08:12+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-04T21:13:31+00:00",
-  "mensajes_leidos": 96,
+  "mensajes_leidos": 97,
   "afectados": {
     "C-58": [],
     "C-23": [
@@ -936,13 +936,13 @@
       "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
     },
     "C-95": {
-      "fecha": "2026-11-04T22:37:26+00:00",
-      "mensaje_id": 60229,
-      "url": "https://t.me/empresaelectricacienfuegos1/60229",
+      "fecha": "2026-11-05T00:08:12+00:00",
+      "mensaje_id": 60233,
+      "url": "https://t.me/empresaelectricacienfuegos1/60233",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-95 \"Refinería, Carolina."
+      "texto": "👉C-95 Refinería, Carolina."
     },
     "C-89": {
       "fecha": "2026-11-04T22:37:26+00:00",
@@ -1504,7 +1504,7 @@
     "C-69": "avería",
     "C-406": "déficit",
     "C-30": "déficit",
-    "C-95": "déficit",
+    "C-95": "déficit / avería",
     "C-89": "déficit",
     "C-94": "déficit",
     "C-55": "déficit",
@@ -1834,13 +1834,19 @@
       "id": 60228,
       "url": "https://t.me/empresaelectricacienfuegos1/60228",
       "fecha": "2026-11-04T22:26:12+00:00"
+    },
+    {
+      "id": 60233,
+      "url": "https://t.me/empresaelectricacienfuegos1/60233",
+      "fecha": "2026-11-05T00:08:12+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
     }
   ],
   "lectura": {
     "texto": 56,
-    "imagenes": 40,
+    "imagenes": 41,
     "pdf": 0,
-    "no_leidos": 3
+    "no_leidos": 4
   },
   "listas_completas": {
     "deficit": {
@@ -2837,5 +2843,5 @@
     "S-2382",
     "S-4993"
   ],
-  "actualizado": "2026-11-05T00:00:01.227926+00:00"
+  "actualizado": "2026-11-05T00:14:21.585533+00:00"
 }
