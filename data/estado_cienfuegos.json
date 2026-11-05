@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-05T20:40:53+00:00",
+  "reporte_fecha": "2026-11-05T21:32:21+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-05T21:07:43+00:00",
@@ -17,6 +17,11 @@
       "Turquino",
       "5 de Septiembre",
       "Guayabito"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
     ],
     "C-90": [
       "FW1558) La Pollera"
@@ -195,11 +200,6 @@
       "Los Tanques",
       "La Ceiba",
       "El Paisíto"
-    ],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
     ],
     "C-69": [
       "Junco Sur",
@@ -965,6 +965,15 @@
       "confianza": 100,
       "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
     },
+    "C-67": {
+      "fecha": "2026-11-05T21:32:21+00:00",
+      "mensaje_id": 60270,
+      "url": "https://t.me/empresaelectricacienfuegos1/60270",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
+    },
     "C-90": {
       "fecha": "2026-11-05T12:09:15+00:00",
       "mensaje_id": 60251,
@@ -1344,15 +1353,6 @@
       "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
     },
     "C-26": {
-      "fecha": "2026-11-05T21:07:43+00:00",
-      "mensaje_id": 60269,
-      "url": "https://t.me/empresaelectricacienfuegos1/60269",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
-    },
-    "C-67": {
       "fecha": "2026-11-05T21:07:43+00:00",
       "mensaje_id": 60269,
       "url": "https://t.me/empresaelectricacienfuegos1/60269",
@@ -1993,11 +1993,6 @@
       "fin": "2026-11-06T09:07:43+00:00",
       "fecha_ambigua": false
     },
-    "C-67": {
-      "inicio": null,
-      "fin": "2026-11-06T09:07:43+00:00",
-      "fecha_ambigua": false
-    },
     "C-69": {
       "inicio": null,
       "fin": "2026-11-06T09:07:43+00:00",
@@ -2017,6 +2012,7 @@
   "causas": {
     "C-32": "déficit",
     "C-23": "avería / déficit",
+    "C-67": "avería",
     "C-90": "avería",
     "S-2382": "avería",
     "C-406": "déficit",
@@ -2378,11 +2374,18 @@
       "id": 60266,
       "url": "https://t.me/empresaelectricacienfuegos1/60266",
       "fecha": "2026-11-05T20:01:33+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nDISPARO\nA\n-Y\nA\nsu\nAN\nAOS\nwy\n3\nha!\nmom \\\nvi",
+      "id": 60270,
+      "url": "https://t.me/empresaelectricacienfuegos1/60270",
+      "fecha": "2026-11-05T21:32:21+00:00"
     }
   ],
   "lectura": {
-    "texto": 62,
-    "imagenes": 48,
+    "texto": 61,
+    "imagenes": 49,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -3336,8 +3339,8 @@
     }
   ],
   "mw_fecha": "2026-11-05T20:40:53+00:00",
-  "total_circuitos_afectados": 39,
-  "total_circuitos_programados": 9,
+  "total_circuitos_afectados": 40,
+  "total_circuitos_programados": 8,
   "total_restablecimientos_probables": 25,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -3354,5 +3357,5 @@
     "S-3590",
     "S-4993"
   ],
-  "actualizado": "2026-11-05T21:29:10.255194+00:00"
+  "actualizado": "2026-11-05T21:44:23.643313+00:00"
 }
