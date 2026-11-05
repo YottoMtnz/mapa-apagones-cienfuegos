@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-05T20:01:33+00:00",
+  "reporte_fecha": "2026-11-05T20:25:02+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-05T19:39:40+00:00",
-  "mensajes_leidos": 107,
+  "mensajes_leidos": 108,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -22,12 +22,6 @@
       "FW1558) La Pollera"
     ],
     "S-2382": [],
-    "C-69": [
-      "Junco Sur",
-      "Reparto de los médicos",
-      "Las Minas",
-      "Playa Alegre"
-    ],
     "C-406": [
       "San Lázaro",
       "Calle 35 de Ave 58 hasta Ave 64",
@@ -213,6 +207,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
+    },
+    "C-69": {
+      "fecha": "2026-11-05T20:25:02+00:00",
+      "mensaje_id": 60267,
+      "url": "https://t.me/empresaelectricacienfuegos1/60267",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     }
   },
   "restablecimientos_probables": {
@@ -1003,15 +1006,6 @@
       "confianza": 100,
       "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
-    "C-69": {
-      "fecha": "2026-11-05T20:01:33+00:00",
-      "mensaje_id": 60266,
-      "url": "https://t.me/empresaelectricacienfuegos1/60266",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-    },
     "C-406": {
       "fecha": "2026-11-05T19:25:40+00:00",
       "mensaje_id": 60260,
@@ -1344,6 +1338,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉Breñas (C-35)."
+    },
+    "C-69": {
+      "fecha": "2026-11-05T20:25:02+00:00",
+      "mensaje_id": 60267,
+      "url": "https://t.me/empresaelectricacienfuegos1/60267",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
     "C-59": {
       "fecha": "2026-11-05T19:25:40+00:00",
@@ -2092,7 +2095,6 @@
     "C-23": "avería / déficit",
     "C-90": "avería",
     "S-2382": "avería",
-    "C-69": "sin precisar",
     "C-406": "déficit",
     "C-52": "déficit",
     "C-21": "déficit",
@@ -2452,7 +2454,7 @@
     }
   ],
   "lectura": {
-    "texto": 60,
+    "texto": 61,
     "imagenes": 47,
     "pdf": 0,
     "no_leidos": 4
@@ -2502,15 +2504,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-2",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-04T04:31:29+00:00",
-      "mensaje_id": 60202,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60199",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60202"
-    },
     {
       "circuito": "C-3",
       "tipo": "salida_lista",
@@ -3401,10 +3394,19 @@
       "mensaje_id": 60264,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60262",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60264"
+    },
+    {
+      "circuito": "C-69",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-05T20:25:02+00:00",
+      "mensaje_id": 60267,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60266",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60267"
     }
   ],
   "mw_fecha": "2026-11-05T19:25:40+00:00",
-  "total_circuitos_afectados": 37,
+  "total_circuitos_afectados": 36,
   "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 27,
   "circuitos_sin_catalogar": [
@@ -3422,5 +3424,5 @@
     "S-3590",
     "S-4993"
   ],
-  "actualizado": "2026-11-05T20:14:38.250443+00:00"
+  "actualizado": "2026-11-05T20:29:18.756983+00:00"
 }
