@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-05T16:18:46+00:00",
+  "reporte_fecha": "2026-11-05T17:10:44+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-05T16:36:20+00:00",
-  "mensajes_leidos": 101,
+  "mensajes_leidos": 102,
   "afectados": {
     "C-53": [
       "Potrerillo",
@@ -168,10 +168,6 @@
       "La Amalia",
       "Ceiba Hueca"
     ],
-    "C-30": [
-      "14 de Julio",
-      "Batey 2 Hermanos"
-    ],
     "C-3": [
       "Reparto Eléctrico"
     ],
@@ -201,7 +197,17 @@
       "La Milpa"
     ]
   },
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-30": {
+      "fecha": "2026-11-05T17:10:44+00:00",
+      "mensaje_id": 60257,
+      "url": "https://t.me/empresaelectricacienfuegos1/60257",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
+    }
+  },
   "restablecimientos_probables": {
     "C-6": {
       "fecha": "2026-11-05T16:18:46+00:00",
@@ -1313,15 +1319,6 @@
       "confianza": 100,
       "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
     },
-    "C-30": {
-      "fecha": "2026-11-05T12:09:15+00:00",
-      "mensaje_id": 60251,
-      "url": "https://t.me/empresaelectricacienfuegos1/60251",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
-    },
     "C-3": {
       "fecha": "2026-11-05T16:18:46+00:00",
       "mensaje_id": 60254,
@@ -1411,6 +1408,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-6 Rancho Luna, Pasacaballo, La Milpa."
+    },
+    "C-30": {
+      "fecha": "2026-11-05T17:10:44+00:00",
+      "mensaje_id": 60257,
+      "url": "https://t.me/empresaelectricacienfuegos1/60257",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-30 14 de Julio, Batey 2 Hermanos."
     },
     "C-59": {
       "fecha": "2026-11-05T16:18:46+00:00",
@@ -2214,7 +2220,6 @@
     "C-25": "déficit",
     "S-4993": "avería",
     "C-49": "avería",
-    "C-30": "avería",
     "C-3": "déficit",
     "C-66": "déficit",
     "C-80": "déficit",
@@ -2543,7 +2548,7 @@
     }
   ],
   "lectura": {
-    "texto": 57,
+    "texto": 58,
     "imagenes": 44,
     "pdf": 0,
     "no_leidos": 4
@@ -2598,15 +2603,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-15",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-03T19:54:02+00:00",
-      "mensaje_id": 60185,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60181",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60185"
-    },
     {
       "circuito": "C-407",
       "tipo": "salida_lista",
@@ -3497,10 +3493,19 @@
       "mensaje_id": 60254,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60253",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60254"
+    },
+    {
+      "circuito": "C-30",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-05T17:10:44+00:00",
+      "mensaje_id": 60257,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60251",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60257"
     }
   ],
   "mw_fecha": "2026-11-05T16:18:46+00:00",
-  "total_circuitos_afectados": 43,
+  "total_circuitos_afectados": 42,
   "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 29,
   "circuitos_sin_catalogar": [
@@ -3520,5 +3525,5 @@
     "S-3590",
     "S-4993"
   ],
-  "actualizado": "2026-11-05T17:03:25.955815+00:00"
+  "actualizado": "2026-11-05T17:14:27.521176+00:00"
 }
