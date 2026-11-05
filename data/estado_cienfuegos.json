@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-05T19:36:05+00:00",
+  "reporte_fecha": "2026-11-05T20:01:33+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-05T19:39:40+00:00",
-  "mensajes_leidos": 106,
+  "mensajes_leidos": 107,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -22,6 +22,12 @@
       "FW1558) La Pollera"
     ],
     "S-2382": [],
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
+    ],
     "C-406": [
       "San Lázaro",
       "Calle 35 de Ave 58 hasta Ave 64",
@@ -996,6 +1002,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
+    },
+    "C-69": {
+      "fecha": "2026-11-05T20:01:33+00:00",
+      "mensaje_id": 60266,
+      "url": "https://t.me/empresaelectricacienfuegos1/60266",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
     "C-406": {
       "fecha": "2026-11-05T19:25:40+00:00",
@@ -2077,6 +2092,7 @@
     "C-23": "avería / déficit",
     "C-90": "avería",
     "S-2382": "avería",
+    "C-69": "sin precisar",
     "C-406": "déficit",
     "C-52": "déficit",
     "C-21": "déficit",
@@ -2426,11 +2442,18 @@
       "id": 60262,
       "url": "https://t.me/empresaelectricacienfuegos1/60262",
       "fecha": "2026-11-05T19:25:41+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nmanipulación en las redes eléctricas\n22",
+      "id": 60266,
+      "url": "https://t.me/empresaelectricacienfuegos1/60266",
+      "fecha": "2026-11-05T20:01:33+00:00"
     }
   ],
   "lectura": {
     "texto": 60,
-    "imagenes": 46,
+    "imagenes": 47,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -3381,7 +3404,7 @@
     }
   ],
   "mw_fecha": "2026-11-05T19:25:40+00:00",
-  "total_circuitos_afectados": 36,
+  "total_circuitos_afectados": 37,
   "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 27,
   "circuitos_sin_catalogar": [
@@ -3399,5 +3422,5 @@
     "S-3590",
     "S-4993"
   ],
-  "actualizado": "2026-11-05T19:59:22.861995+00:00"
+  "actualizado": "2026-11-05T20:14:38.250443+00:00"
 }
