@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-05T11:23:51+00:00",
+  "reporte_fecha": "2026-11-05T11:27:38+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-05T09:08:10+00:00",
-  "mensajes_leidos": 103,
+  "mensajes_leidos": 104,
   "afectados": {
     "C-78": [
       "Plan Arroz",
@@ -750,13 +750,13 @@
       "texto": "👉C-85 \"Cumanayagua (Centro)."
     },
     "C-23": {
-      "fecha": "2026-11-05T11:23:51+00:00",
-      "mensaje_id": 60247,
-      "url": "https://t.me/empresaelectricacienfuegos1/60247",
+      "fecha": "2026-11-05T11:27:38+00:00",
+      "mensaje_id": 60248,
+      "url": "https://t.me/empresaelectricacienfuegos1/60248",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
+      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
     },
     "C-28": {
       "fecha": "2026-11-05T11:23:51+00:00",
@@ -795,18 +795,18 @@
       "texto": "👉C-67 \"El Crucero, Guaos, Naranjito."
     },
     "C-90": {
-      "fecha": "2026-11-05T11:23:51+00:00",
-      "mensaje_id": 60247,
-      "url": "https://t.me/empresaelectricacienfuegos1/60247",
+      "fecha": "2026-11-05T11:27:38+00:00",
+      "mensaje_id": 60248,
+      "url": "https://t.me/empresaelectricacienfuegos1/60248",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
+      "texto": "👉FW1558 La Pollera (C-90)"
     },
     "S-2382": {
-      "fecha": "2026-11-05T04:25:26+00:00",
-      "mensaje_id": 60240,
-      "url": "https://t.me/empresaelectricacienfuegos1/60240",
+      "fecha": "2026-11-05T11:27:38+00:00",
+      "mensaje_id": 60248,
+      "url": "https://t.me/empresaelectricacienfuegos1/60248",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -849,9 +849,9 @@
       "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58.\""
     },
     "C-95": {
-      "fecha": "2026-11-05T04:25:26+00:00",
-      "mensaje_id": 60240,
-      "url": "https://t.me/empresaelectricacienfuegos1/60240",
+      "fecha": "2026-11-05T11:27:38+00:00",
+      "mensaje_id": 60248,
+      "url": "https://t.me/empresaelectricacienfuegos1/60248",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1002,9 +1002,9 @@
       "texto": "👉C-25 Abreus (Pueblo)."
     },
     "S-4993": {
-      "fecha": "2026-11-05T04:25:26+00:00",
-      "mensaje_id": 60240,
-      "url": "https://t.me/empresaelectricacienfuegos1/60240",
+      "fecha": "2026-11-05T11:27:38+00:00",
+      "mensaje_id": 60248,
+      "url": "https://t.me/empresaelectricacienfuegos1/60248",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1029,9 +1029,9 @@
       "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
     },
     "C-30": {
-      "fecha": "2026-11-05T04:25:26+00:00",
-      "mensaje_id": 60240,
-      "url": "https://t.me/empresaelectricacienfuegos1/60240",
+      "fecha": "2026-11-05T11:27:38+00:00",
+      "mensaje_id": 60248,
+      "url": "https://t.me/empresaelectricacienfuegos1/60248",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1776,11 +1776,18 @@
       "id": 60246,
       "url": "https://t.me/empresaelectricacienfuegos1/60246",
       "fecha": "2026-11-05T11:23:38+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nAVERÍA\n|\n-\nq\nAN\n$\nY\n4%\n~ &\ne?\nG",
+      "id": 60248,
+      "url": "https://t.me/empresaelectricacienfuegos1/60248",
+      "fecha": "2026-11-05T11:27:38+00:00"
     }
   ],
   "lectura": {
     "texto": 58,
-    "imagenes": 45,
+    "imagenes": 46,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -2776,5 +2783,5 @@
     "S-2382",
     "S-4993"
   ],
-  "actualizado": "2026-11-05T11:24:23.689090+00:00"
+  "actualizado": "2026-11-05T11:39:19.784657+00:00"
 }
