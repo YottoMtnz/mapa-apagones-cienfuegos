@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-05T19:25:41+00:00",
+  "reporte_fecha": "2026-11-05T19:36:05+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-05T16:36:20+00:00",
-  "mensajes_leidos": 104,
+  "programado_fecha": "2026-11-05T19:39:40+00:00",
+  "mensajes_leidos": 106,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -165,10 +165,12 @@
       "Porcino",
       "La Caridad",
       "Palmira (Sur"
-    ],
+    ]
+  },
+  "programados": {
+    "C-20": [],
     "C-407": []
   },
-  "programados": {},
   "confirmados_con_servicio": {
     "C-30": {
       "fecha": "2026-11-05T17:10:44+00:00",
@@ -196,6 +198,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉Breñas (C-35)."
+    },
+    "C-407": {
+      "fecha": "2026-11-05T19:36:05+00:00",
+      "mensaje_id": 60264,
+      "url": "https://t.me/empresaelectricacienfuegos1/60264",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-407 Cocaleca, Poligráfico, Pastorita, O'bourke."
     }
   },
   "restablecimientos_probables": {
@@ -1274,10 +1285,19 @@
       "confianza": 100,
       "texto": "👉C-72 Porcino, La Caridad, Palmira (Sur)"
     },
+    "C-20": {
+      "fecha": "2026-11-05T19:32:48+00:00",
+      "mensaje_id": 60263,
+      "url": "https://t.me/empresaelectricacienfuegos1/60263",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-20 Punta Gorda."
+    },
     "C-407": {
-      "fecha": "2026-11-05T19:25:41+00:00",
-      "mensaje_id": 60262,
-      "url": "https://t.me/empresaelectricacienfuegos1/60262",
+      "fecha": "2026-11-05T19:39:40+00:00",
+      "mensaje_id": 60265,
+      "url": "https://t.me/empresaelectricacienfuegos1/60265",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1331,30 +1351,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
-      },
-      "lugares": []
-    },
-    "C-20": {
-      "fecha": "2026-11-05T19:25:40+00:00",
-      "mensaje_id": 60260,
-      "url": "https://t.me/empresaelectricacienfuegos1/60260",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-05T10:31:41+00:00",
-      "listas_consecutivas": 7,
-      "aviso_anterior": {
-        "fecha": "2026-11-05T09:06:12+00:00",
-        "mensaje_id": 60242,
-        "url": "https://t.me/empresaelectricacienfuegos1/60242",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
       },
       "lugares": []
     },
@@ -2059,7 +2055,18 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-20": {
+      "inicio": null,
+      "fin": "2026-11-06T07:32:48+00:00",
+      "fecha_ambigua": false
+    },
+    "C-407": {
+      "inicio": null,
+      "fin": "2026-11-06T07:39:40+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 56.0,
   "hora_inicio": null,
@@ -2101,8 +2108,7 @@
     "C-56": "déficit",
     "C-50": "déficit",
     "C-78": "déficit",
-    "C-72": "déficit",
-    "C-407": "avería"
+    "C-72": "déficit"
   },
   "error": null,
   "pendientes_revision": [
@@ -2423,8 +2429,8 @@
     }
   ],
   "lectura": {
-    "texto": 59,
-    "imagenes": 45,
+    "texto": 60,
+    "imagenes": 46,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -2473,15 +2479,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-406",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-04T04:31:29+00:00",
-      "mensaje_id": 60202,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60199",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60202"
-    },
     {
       "circuito": "C-2",
       "tipo": "salida_lista",
@@ -3372,11 +3369,20 @@
       "mensaje_id": 60261,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60251",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60261"
+    },
+    {
+      "circuito": "C-407",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-05T19:36:05+00:00",
+      "mensaje_id": 60264,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60262",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60264"
     }
   ],
   "mw_fecha": "2026-11-05T19:25:40+00:00",
-  "total_circuitos_afectados": 37,
-  "total_circuitos_programados": 0,
+  "total_circuitos_afectados": 36,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 27,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -3393,5 +3399,5 @@
     "S-3590",
     "S-4993"
   ],
-  "actualizado": "2026-11-05T19:29:24.903155+00:00"
+  "actualizado": "2026-11-05T19:44:22.940894+00:00"
 }
