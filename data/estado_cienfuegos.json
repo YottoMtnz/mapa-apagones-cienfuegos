@@ -65,10 +65,6 @@
       "Silverita",
       "Nuevo México"
     ],
-    "C-90": [
-      "FW1558) La Pollera"
-    ],
-    "S-2382": [],
     "C-91": [
       "Buena Vista",
       "La Esperanza"
@@ -138,7 +134,6 @@
       "Cumanayagua",
       "emisora de radio"
     ],
-    "C-17": [],
     "C-101": [
       "Cartagena",
       "La Modelo",
@@ -147,12 +142,6 @@
       "El Bajío",
       "California",
       "El Salado"
-    ],
-    "C-69": [
-      "Junco Sur",
-      "Reparto de los médicos",
-      "Las Minas",
-      "Playa Alegre"
     ],
     "C-406": [
       "San Lázaro",
@@ -744,24 +733,6 @@
       "confianza": 100,
       "texto": "👉C-11 Ariza, Silverita, Nuevo México."
     },
-    "C-90": {
-      "fecha": "2026-11-04T15:15:31+00:00",
-      "mensaje_id": 60211,
-      "url": "https://t.me/empresaelectricacienfuegos1/60211",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉FW1558 La Pollera (C-90)"
-    },
-    "S-2382": {
-      "fecha": "2026-11-04T15:15:31+00:00",
-      "mensaje_id": 60211,
-      "url": "https://t.me/empresaelectricacienfuegos1/60211",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
     "C-91": {
       "fecha": "2026-11-05T02:16:38+00:00",
       "mensaje_id": 60236,
@@ -897,15 +868,6 @@
       "confianza": 100,
       "texto": "👉C-86 \"Cumanayagua, emisora de radio\""
     },
-    "C-17": {
-      "fecha": "2026-11-04T15:15:31+00:00",
-      "mensaje_id": 60211,
-      "url": "https://t.me/empresaelectricacienfuegos1/60211",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-17 Ave 5 de sept, Distrito Petrolero, Hermanas Giralt"
-    },
     "C-101": {
       "fecha": "2026-11-05T02:16:38+00:00",
       "mensaje_id": 60236,
@@ -914,15 +876,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-101 Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
-    },
-    "C-69": {
-      "fecha": "2026-11-04T15:15:31+00:00",
-      "mensaje_id": 60211,
-      "url": "https://t.me/empresaelectricacienfuegos1/60211",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-69 Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
     "C-406": {
       "fecha": "2026-11-05T02:16:38+00:00",
@@ -1516,8 +1469,8 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-58": "emergencia / déficit",
-    "C-23": "avería / déficit",
+    "C-58": "déficit",
+    "C-23": "déficit",
     "C-78": "déficit",
     "C-56": "déficit",
     "C-73": "déficit",
@@ -1527,8 +1480,6 @@
     "C-80": "déficit",
     "C-63": "déficit",
     "C-11": "déficit",
-    "C-90": "avería",
-    "S-2382": "avería",
     "C-91": "déficit",
     "C-44": "déficit",
     "C-24": "déficit",
@@ -1544,9 +1495,7 @@
     "C-27": "déficit",
     "C-70": "déficit",
     "C-86": "déficit",
-    "C-17": "avería",
     "C-101": "déficit",
-    "C-69": "avería",
     "C-406": "déficit",
     "C-95": "avería",
     "C-55": "déficit",
@@ -2881,11 +2830,10 @@
     }
   ],
   "mw_fecha": "2026-11-05T02:16:38+00:00",
-  "total_circuitos_afectados": 59,
+  "total_circuitos_afectados": 55,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 13,
   "circuitos_sin_catalogar": [
-    "C-17",
     "C-18",
     "C-2",
     "C-20",
@@ -2899,8 +2847,7 @@
     "C-92",
     "C-94",
     "C-95",
-    "S-2382",
     "S-4993"
   ],
-  "actualizado": "2026-11-05T03:04:31.294230+00:00"
+  "actualizado": "2026-11-05T03:19:38.216858+00:00"
 }
