@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-06T02:29:28+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-06T01:33:05+00:00",
-  "mensajes_leidos": 116,
+  "programado_fecha": "2026-11-06T03:18:23+00:00",
+  "mensajes_leidos": 117,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -271,6 +271,28 @@
       "CEN",
       "Castillo de Jagua",
       "La Loma"
+    ],
+    "C-19": [
+      "Tulipán"
+    ],
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
+    ],
+    "C-66": [
+      "Reina (Parque"
+    ],
+    "C-70": [
+      "Aguada",
+      "Federal"
+    ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
+    ],
+    "C-91": [
+      "Buena Vista",
+      "La Esperanza"
     ]
   },
   "confirmados_con_servicio": {
@@ -1200,6 +1222,60 @@
       "confianza": 100,
       "texto": "👉C-27 Barrio Matadero, Juraguá."
     },
+    "C-19": {
+      "fecha": "2026-11-06T03:18:23+00:00",
+      "mensaje_id": 60282,
+      "url": "https://t.me/empresaelectricacienfuegos1/60282",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-65": {
+      "fecha": "2026-11-06T03:18:23+00:00",
+      "mensaje_id": 60282,
+      "url": "https://t.me/empresaelectricacienfuegos1/60282",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-66": {
+      "fecha": "2026-11-06T03:18:23+00:00",
+      "mensaje_id": 60282,
+      "url": "https://t.me/empresaelectricacienfuegos1/60282",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-70": {
+      "fecha": "2026-11-06T03:18:23+00:00",
+      "mensaje_id": 60282,
+      "url": "https://t.me/empresaelectricacienfuegos1/60282",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-80": {
+      "fecha": "2026-11-06T03:18:23+00:00",
+      "mensaje_id": 60282,
+      "url": "https://t.me/empresaelectricacienfuegos1/60282",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-91": {
+      "fecha": "2026-11-06T03:18:23+00:00",
+      "mensaje_id": 60282,
+      "url": "https://t.me/empresaelectricacienfuegos1/60282",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
     "C-30": {
       "fecha": "2026-11-05T17:10:44+00:00",
       "mensaje_id": 60257,
@@ -1361,166 +1437,6 @@
         "Cruces (Sur"
       ]
     },
-    "C-65": {
-      "fecha": "2026-11-06T02:29:28+00:00",
-      "mensaje_id": 60281,
-      "url": "https://t.me/empresaelectricacienfuegos1/60281",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-05T14:56:16+00:00",
-      "listas_consecutivas": 8,
-      "aviso_anterior": {
-        "fecha": "2026-11-05T12:44:27+00:00",
-        "mensaje_id": 60252,
-        "url": "https://t.me/empresaelectricacienfuegos1/60252",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-65 Centro histórico, Reina (Aduana)"
-      },
-      "lugares": [
-        "Centro histórico",
-        "Reina (Aduana"
-      ]
-    },
-    "C-91": {
-      "fecha": "2026-11-06T02:29:28+00:00",
-      "mensaje_id": 60281,
-      "url": "https://t.me/empresaelectricacienfuegos1/60281",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-05T20:40:53+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-11-05T19:25:40+00:00",
-        "mensaje_id": 60260,
-        "url": "https://t.me/empresaelectricacienfuegos1/60260",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-91 Buena Vista, La Esperanza."
-      },
-      "lugares": [
-        "Buena Vista",
-        "La Esperanza"
-      ]
-    },
-    "C-19": {
-      "fecha": "2026-11-06T02:29:28+00:00",
-      "mensaje_id": 60281,
-      "url": "https://t.me/empresaelectricacienfuegos1/60281",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-05T22:15:29+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-05T20:40:53+00:00",
-        "mensaje_id": 60268,
-        "url": "https://t.me/empresaelectricacienfuegos1/60268",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-19 Tulipán"
-      },
-      "lugares": [
-        "Tulipán"
-      ]
-    },
-    "C-70": {
-      "fecha": "2026-11-06T02:29:28+00:00",
-      "mensaje_id": 60281,
-      "url": "https://t.me/empresaelectricacienfuegos1/60281",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-05T22:15:29+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-05T20:40:53+00:00",
-        "mensaje_id": 60268,
-        "url": "https://t.me/empresaelectricacienfuegos1/60268",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-70 \"Aguada, Federal."
-      },
-      "lugares": [
-        "Aguada",
-        "Federal"
-      ]
-    },
-    "C-66": {
-      "fecha": "2026-11-06T02:29:28+00:00",
-      "mensaje_id": 60281,
-      "url": "https://t.me/empresaelectricacienfuegos1/60281",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T00:28:02+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-05T22:15:29+00:00",
-        "mensaje_id": 60276,
-        "url": "https://t.me/empresaelectricacienfuegos1/60276",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-66 Reina (Parque)"
-      },
-      "lugares": [
-        "Reina (Parque"
-      ]
-    },
-    "C-80": {
-      "fecha": "2026-11-06T02:29:28+00:00",
-      "mensaje_id": 60281,
-      "url": "https://t.me/empresaelectricacienfuegos1/60281",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T00:28:02+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-05T22:15:29+00:00",
-        "mensaje_id": 60276,
-        "url": "https://t.me/empresaelectricacienfuegos1/60276",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-80 Punta Cotica, Parque José Martí."
-      },
-      "lugares": [
-        "Punta Cotica",
-        "Parque José Martí"
-      ]
-    },
     "C-6": {
       "fecha": "2026-11-06T02:29:28+00:00",
       "mensaje_id": 60281,
@@ -1598,6 +1514,36 @@
     "C-28": {
       "inicio": null,
       "fin": "2026-11-06T13:33:05+00:00",
+      "fecha_ambigua": false
+    },
+    "C-19": {
+      "inicio": null,
+      "fin": "2026-11-06T15:18:23+00:00",
+      "fecha_ambigua": false
+    },
+    "C-65": {
+      "inicio": null,
+      "fin": "2026-11-06T15:18:23+00:00",
+      "fecha_ambigua": false
+    },
+    "C-66": {
+      "inicio": null,
+      "fin": "2026-11-06T15:18:23+00:00",
+      "fecha_ambigua": false
+    },
+    "C-70": {
+      "inicio": null,
+      "fin": "2026-11-06T15:18:23+00:00",
+      "fecha_ambigua": false
+    },
+    "C-80": {
+      "inicio": null,
+      "fin": "2026-11-06T15:18:23+00:00",
+      "fecha_ambigua": false
+    },
+    "C-91": {
+      "inicio": null,
+      "fin": "2026-11-06T15:18:23+00:00",
       "fecha_ambigua": false
     }
   },
@@ -2034,7 +1980,7 @@
   ],
   "lectura": {
     "texto": 64,
-    "imagenes": 52,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -3004,7 +2950,7 @@
   ],
   "mw_fecha": "2026-11-06T02:29:28+00:00",
   "total_circuitos_afectados": 50,
-  "total_circuitos_programados": 5,
+  "total_circuitos_programados": 11,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -3020,5 +2966,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-11-06T03:09:23.414638+00:00"
+  "actualizado": "2026-11-06T03:24:18.635837+00:00"
 }
