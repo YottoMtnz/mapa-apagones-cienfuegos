@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-06T18:35:22+00:00",
+  "reporte_fecha": "2026-11-06T19:11:39+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-06T16:34:52+00:00",
-  "mensajes_leidos": 123,
+  "mensajes_leidos": 125,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -63,7 +63,6 @@
     "C-25": [
       "Abreus (Pueblo"
     ],
-    "S-4993": [],
     "C-94": [],
     "C-47": [
       "Elpidio Gómez",
@@ -241,7 +240,6 @@
       "Castillo de Jagua",
       "La Loma"
     ],
-    "C-76": [],
     "C-59": [],
     "C-35": [
       "Terraza",
@@ -281,6 +279,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-95 Refinería, Carolina."
+    },
+    "S-4993": {
+      "fecha": "2026-11-06T19:08:46+00:00",
+      "mensaje_id": 60311,
+      "url": "https://t.me/empresaelectricacienfuegos1/60311",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-4993 Batey Amalia, Ceiba Hueca (49)"
+    },
+    "C-76": {
+      "fecha": "2026-11-06T19:11:39+00:00",
+      "mensaje_id": 60312,
+      "url": "https://t.me/empresaelectricacienfuegos1/60312",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
     }
   },
   "restablecimientos_probables": {
@@ -857,15 +873,6 @@
       "confianza": 100,
       "texto": "👉C-25 Abreus (Pueblo)."
     },
-    "S-4993": {
-      "fecha": "2026-11-06T11:06:53+00:00",
-      "mensaje_id": 60289,
-      "url": "https://t.me/empresaelectricacienfuegos1/60289",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-4993 Batey Amalia, Ceiba Hueca (49)"
-    },
     "C-94": {
       "fecha": "2026-11-06T17:41:54+00:00",
       "mensaje_id": 60309,
@@ -1181,15 +1188,6 @@
       "confianza": 100,
       "texto": "👉C-28 CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)"
     },
-    "C-76": {
-      "fecha": "2026-11-06T15:21:25+00:00",
-      "mensaje_id": 60299,
-      "url": "https://t.me/empresaelectricacienfuegos1/60299",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
-    },
     "C-59": {
       "fecha": "2026-11-06T17:41:54+00:00",
       "mensaje_id": 60309,
@@ -1261,6 +1259,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-95 Refinería, Carolina."
+    },
+    "S-4993": {
+      "fecha": "2026-11-06T19:08:46+00:00",
+      "mensaje_id": 60311,
+      "url": "https://t.me/empresaelectricacienfuegos1/60311",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉S-4993 Batey Amalia, Ceiba Hueca (49)"
+    },
+    "C-76": {
+      "fecha": "2026-11-06T19:11:39+00:00",
+      "mensaje_id": 60312,
+      "url": "https://t.me/empresaelectricacienfuegos1/60312",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
     },
     "C-70": {
       "fecha": "2026-11-06T17:41:54+00:00",
@@ -1718,7 +1734,6 @@
     "C-7": "déficit",
     "C-57": "déficit",
     "C-25": "déficit",
-    "S-4993": "avería",
     "C-94": "déficit",
     "C-47": "déficit",
     "C-38": "déficit",
@@ -1754,7 +1769,6 @@
     "C-26": "déficit",
     "C-2": "déficit",
     "C-28": "déficit",
-    "C-76": "emergencia",
     "C-59": "déficit",
     "C-35": "emergencia",
     "C-37": "emergencia",
@@ -2191,7 +2205,7 @@
     }
   ],
   "lectura": {
-    "texto": 68,
+    "texto": 70,
     "imagenes": 55,
     "pdf": 0,
     "no_leidos": 5
@@ -2257,24 +2271,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-3",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-04T22:37:26+00:00",
-      "mensaje_id": 60229,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60227",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60229"
-    },
-    {
-      "circuito": "C-2",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-04T22:37:26+00:00",
-      "mensaje_id": 60229,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60227",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60229"
-    },
     {
       "circuito": "C-69",
       "tipo": "salida_lista",
@@ -3156,10 +3152,28 @@
       "mensaje_id": 60309,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60301",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60309"
+    },
+    {
+      "circuito": "S-4993",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-06T19:08:46+00:00",
+      "mensaje_id": 60311,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60289",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60311"
+    },
+    {
+      "circuito": "C-76",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-06T19:11:39+00:00",
+      "mensaje_id": 60312,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60299",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60312"
     }
   ],
   "mw_fecha": "2026-11-06T17:41:54+00:00",
-  "total_circuitos_afectados": 56,
+  "total_circuitos_afectados": 54,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
@@ -3174,11 +3188,9 @@
     "C-58",
     "C-59",
     "C-62",
-    "C-76",
     "C-92",
     "C-94",
-    "S-2382",
-    "S-4993"
+    "S-2382"
   ],
-  "actualizado": "2026-11-06T18:54:11.675275+00:00"
+  "actualizado": "2026-11-06T19:15:00.521734+00:00"
 }
