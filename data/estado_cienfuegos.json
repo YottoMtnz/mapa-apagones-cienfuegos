@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-06T03:18:23+00:00",
-  "mensajes_leidos": 117,
+  "mensajes_leidos": 118,
   "afectados": {
     "C-90": [
       "FW1558) La Pollera"
@@ -267,13 +267,6 @@
     "C-95": []
   },
   "programados": {
-    "C-2": [],
-    "C-26": [
-      "Caonao",
-      "Los Tanques",
-      "La Ceiba",
-      "El Paisíto"
-    ],
     "C-27": [
       "Barrio Matadero",
       "Juraguá"
@@ -1177,24 +1170,6 @@
       "confianza": 100,
       "texto": "👉C-95 Refinería, Carolina."
     },
-    "C-2": {
-      "fecha": "2026-11-05T21:07:43+00:00",
-      "mensaje_id": 60269,
-      "url": "https://t.me/empresaelectricacienfuegos1/60269",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
-    },
-    "C-26": {
-      "fecha": "2026-11-05T21:07:43+00:00",
-      "mensaje_id": 60269,
-      "url": "https://t.me/empresaelectricacienfuegos1/60269",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
-    },
     "C-27": {
       "fecha": "2026-11-06T01:33:05+00:00",
       "mensaje_id": 60280,
@@ -1349,6 +1324,59 @@
         "Cruces (Sur"
       ]
     },
+    "C-26": {
+      "fecha": "2026-11-06T04:34:08+00:00",
+      "mensaje_id": 60283,
+      "url": "https://t.me/empresaelectricacienfuegos1/60283",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-05T14:56:16+00:00",
+      "listas_consecutivas": 9,
+      "aviso_anterior": {
+        "fecha": "2026-11-05T12:44:27+00:00",
+        "mensaje_id": 60252,
+        "url": "https://t.me/empresaelectricacienfuegos1/60252",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paisíto."
+      },
+      "lugares": [
+        "Caonao",
+        "Los Tanques",
+        "La Ceiba",
+        "El Paisíto"
+      ]
+    },
+    "C-2": {
+      "fecha": "2026-11-06T04:34:08+00:00",
+      "mensaje_id": 60283,
+      "url": "https://t.me/empresaelectricacienfuegos1/60283",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-05T14:56:16+00:00",
+      "listas_consecutivas": 9,
+      "aviso_anterior": {
+        "fecha": "2026-11-05T12:44:27+00:00",
+        "mensaje_id": 60252,
+        "url": "https://t.me/empresaelectricacienfuegos1/60252",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y  Ave 48 desde Calle 47 hasta Calle 49"
+      },
+      "lugares": []
+    },
     "C-6": {
       "fecha": "2026-11-06T04:34:08+00:00",
       "mensaje_id": 60283,
@@ -1427,16 +1455,6 @@
     }
   },
   "horarios": {
-    "C-2": {
-      "inicio": null,
-      "fin": "2026-11-06T09:07:43+00:00",
-      "fecha_ambigua": false
-    },
-    "C-26": {
-      "inicio": null,
-      "fin": "2026-11-06T09:07:43+00:00",
-      "fecha_ambigua": false
-    },
     "C-27": {
       "inicio": null,
       "fin": "2026-11-06T13:33:05+00:00",
@@ -1921,10 +1939,20 @@
       "id": 60285,
       "url": "https://t.me/empresaelectricacienfuegos1/60285",
       "fecha": "2026-11-06T04:35:01+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-95 Refinería, Carolina.",
+      "circuitos": [
+        "C-95"
+      ],
+      "id": 60286,
+      "url": "https://t.me/empresaelectricacienfuegos1/60286",
+      "fecha": "2026-11-06T09:02:52+00:00"
     }
   ],
   "lectura": {
-    "texto": 64,
+    "texto": 65,
     "imagenes": 53,
     "pdf": 0,
     "no_leidos": 5
@@ -2896,7 +2924,7 @@
   ],
   "mw_fecha": "2026-11-06T04:34:08+00:00",
   "total_circuitos_afectados": 55,
-  "total_circuitos_programados": 10,
+  "total_circuitos_programados": 8,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2914,5 +2942,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-06T08:54:22.574716+00:00"
+  "actualizado": "2026-11-06T09:19:21.481575+00:00"
 }
