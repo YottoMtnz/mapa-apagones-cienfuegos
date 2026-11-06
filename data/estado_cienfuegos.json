@@ -6,17 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-06T03:18:23+00:00",
-  "mensajes_leidos": 118,
+  "mensajes_leidos": 117,
   "afectados": {
-    "C-90": [
-      "FW1558) La Pollera"
-    ],
-    "C-23": [
-      "Turquino",
-      "5 de Septiembre",
-      "Guayabito"
-    ],
-    "C-58": [],
     "C-32": [
       "Yaguaramas",
       "Guayabales",
@@ -26,7 +17,16 @@
       "Pepito Tey",
       "Guabairo"
     ],
+    "C-58": [],
     "C-17": [],
+    "C-90": [
+      "FW1558) La Pollera"
+    ],
+    "C-23": [
+      "Turquino",
+      "5 de Septiembre",
+      "Guayabito"
+    ],
     "C-406": [
       "San Lázaro",
       "Calle 35 de Ave 58 hasta Ave 64",
@@ -670,33 +670,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-90": {
-      "fecha": "2026-11-06T04:34:08+00:00",
-      "mensaje_id": 60283,
-      "url": "https://t.me/empresaelectricacienfuegos1/60283",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
-    },
-    "C-23": {
-      "fecha": "2026-11-06T04:34:08+00:00",
-      "mensaje_id": 60283,
-      "url": "https://t.me/empresaelectricacienfuegos1/60283",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
-    },
-    "C-58": {
-      "fecha": "2026-11-06T04:34:08+00:00",
-      "mensaje_id": 60283,
-      "url": "https://t.me/empresaelectricacienfuegos1/60283",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.\""
-    },
     "C-32": {
       "fecha": "2026-11-06T04:34:08+00:00",
       "mensaje_id": 60283,
@@ -715,6 +688,15 @@
       "confianza": 100,
       "texto": "👉C-15 Pepito Tey, Guabairo."
     },
+    "C-58": {
+      "fecha": "2026-11-06T04:34:08+00:00",
+      "mensaje_id": 60283,
+      "url": "https://t.me/empresaelectricacienfuegos1/60283",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.\""
+    },
     "C-17": {
       "fecha": "2026-11-06T04:34:08+00:00",
       "mensaje_id": 60283,
@@ -723,6 +705,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
+    },
+    "C-90": {
+      "fecha": "2026-11-06T04:34:08+00:00",
+      "mensaje_id": 60283,
+      "url": "https://t.me/empresaelectricacienfuegos1/60283",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-90 La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
+    },
+    "C-23": {
+      "fecha": "2026-11-06T04:34:08+00:00",
+      "mensaje_id": 60283,
+      "url": "https://t.me/empresaelectricacienfuegos1/60283",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito"
     },
     "C-406": {
       "fecha": "2026-11-06T04:34:08+00:00",
@@ -1488,12 +1488,12 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-90": "déficit",
-    "C-23": "déficit",
-    "C-58": "déficit",
     "C-32": "déficit",
     "C-15": "déficit",
+    "C-58": "déficit",
     "C-17": "déficit",
+    "C-90": "déficit",
+    "C-23": "déficit",
     "C-406": "déficit",
     "C-52": "déficit",
     "C-21": "déficit",
@@ -1545,13 +1545,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\n|\n-\nq\nAN\n$\nY\n4%\n~ &\ne?\nG",
-      "id": 60165,
-      "url": "https://t.me/empresaelectricacienfuegos1/60165",
-      "fecha": "2026-11-03T10:39:20+00:00"
-    },
     {
       "motivo": "resumen_historico",
       "texto": "👉🏻En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
@@ -1938,7 +1931,7 @@
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 53,
+    "imagenes": 52,
     "pdf": 0,
     "no_leidos": 5
   },
@@ -2286,15 +2279,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60230"
     },
     {
-      "circuito": "C-90",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-05T00:25:28+00:00",
-      "mensaje_id": 60234,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60229",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60234"
-    },
-    {
       "circuito": "C-15",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2305,6 +2289,15 @@
     },
     {
       "circuito": "C-67",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-05T00:25:28+00:00",
+      "mensaje_id": 60234,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60229",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60234"
+    },
+    {
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-05T00:25:28+00:00",
@@ -2664,24 +2657,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60258"
     },
     {
-      "circuito": "C-90",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-05T17:47:30+00:00",
-      "mensaje_id": 60259,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60254",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60259"
-    },
-    {
-      "circuito": "C-58",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-05T17:47:30+00:00",
-      "mensaje_id": 60259,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60254",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60259"
-    },
-    {
       "circuito": "C-53",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2727,7 +2702,25 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60259"
     },
     {
+      "circuito": "C-58",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-05T17:47:30+00:00",
+      "mensaje_id": 60259,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60254",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60259"
+    },
+    {
       "circuito": "C-86",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-05T17:47:30+00:00",
+      "mensaje_id": 60259,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60254",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60259"
+    },
+    {
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-05T17:47:30+00:00",
@@ -2927,5 +2920,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-06T10:29:16.742396+00:00"
+  "actualizado": "2026-11-06T10:44:09.756676+00:00"
 }
