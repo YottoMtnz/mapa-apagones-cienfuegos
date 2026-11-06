@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-06T13:37:33+00:00",
+  "reporte_fecha": "2026-11-06T15:21:25+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-06T11:31:46+00:00",
-  "mensajes_leidos": 122,
+  "mensajes_leidos": 123,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -297,14 +297,10 @@
       "CEN",
       "Castillo de Jagua",
       "La Loma"
-    ]
+    ],
+    "C-76": []
   },
-  "programados": {
-    "C-70": [
-      "Aguada",
-      "Federal"
-    ]
-  },
+  "programados": {},
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-59": {
@@ -1122,14 +1118,14 @@
       "confianza": 100,
       "texto": "👉C-28 CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)"
     },
-    "C-70": {
-      "fecha": "2026-11-06T03:18:23+00:00",
-      "mensaje_id": 60282,
-      "url": "https://t.me/empresaelectricacienfuegos1/60282",
+    "C-76": {
+      "fecha": "2026-11-06T15:21:25+00:00",
+      "mensaje_id": 60299,
+      "url": "https://t.me/empresaelectricacienfuegos1/60299",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-19 Tulipán."
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
     },
     "C-59": {
       "fecha": "2026-11-06T13:37:33+00:00",
@@ -1154,6 +1150,33 @@
         "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
       },
       "lugares": []
+    },
+    "C-70": {
+      "fecha": "2026-11-06T13:37:33+00:00",
+      "mensaje_id": 60298,
+      "url": "https://t.me/empresaelectricacienfuegos1/60298",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-101          Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-05T22:15:29+00:00",
+      "listas_consecutivas": 8,
+      "aviso_anterior": {
+        "fecha": "2026-11-05T20:40:53+00:00",
+        "mensaje_id": 60268,
+        "url": "https://t.me/empresaelectricacienfuegos1/60268",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-70 \"Aguada, Federal."
+      },
+      "lugares": [
+        "Aguada",
+        "Federal"
+      ]
     },
     "C-6": {
       "fecha": "2026-11-06T13:37:33+00:00",
@@ -1341,13 +1364,7 @@
       ]
     }
   },
-  "horarios": {
-    "C-70": {
-      "inicio": null,
-      "fin": "2026-11-06T15:18:23+00:00",
-      "fecha_ambigua": false
-    }
-  },
+  "horarios": {},
   "cobertura": "parcial",
   "mw": 65.0,
   "hora_inicio": null,
@@ -1417,7 +1434,8 @@
     "C-65": "déficit",
     "C-80": "déficit",
     "C-2": "déficit",
-    "C-28": "déficit"
+    "C-28": "déficit",
+    "C-76": "emergencia"
   },
   "error": null,
   "pendientes_revision": [
@@ -1817,11 +1835,25 @@
       "id": 60297,
       "url": "https://t.me/empresaelectricacienfuegos1/60297",
       "fecha": "2026-11-06T13:33:31+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\nEl | a",
+      "id": 60299,
+      "url": "https://t.me/empresaelectricacienfuegos1/60299",
+      "fecha": "2026-11-06T15:21:25+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "¿Qué es una Vía Libre de Emergencia?\n \n⚠️Es un permiso de trabajo que se establece sobre un área determinada para realizar acciones en las redes eléctricas.\n \n\n👉Las vías libres de emergencia, como su nombre lo indica, no pueden ser programadas, pues se realizan ante averías.\n \n\n📌Para esta reparación",
+      "id": 60300,
+      "url": "https://t.me/empresaelectricacienfuegos1/60300",
+      "fecha": "2026-11-06T15:23:09+00:00"
     }
   ],
   "lectura": {
     "texto": 66,
-    "imagenes": 56,
+    "imagenes": 57,
     "pdf": 0,
     "no_leidos": 5
   },
@@ -2798,8 +2830,8 @@
     }
   ],
   "mw_fecha": "2026-11-06T13:37:33+00:00",
-  "total_circuitos_afectados": 64,
-  "total_circuitos_programados": 1,
+  "total_circuitos_afectados": 65,
+  "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 9,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -2811,6 +2843,7 @@
     "C-43",
     "C-58",
     "C-59",
+    "C-76",
     "C-89",
     "C-92",
     "C-94",
@@ -2818,5 +2851,5 @@
     "S-2382",
     "S-4993"
   ],
-  "actualizado": "2026-11-06T15:14:23.640650+00:00"
+  "actualizado": "2026-11-06T15:29:20.184721+00:00"
 }
