@@ -6,14 +6,13 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-06T19:41:22+00:00",
-  "mensajes_leidos": 128,
+  "mensajes_leidos": 124,
   "afectados": {
     "C-32": [
       "Yaguaramas",
       "Guayabales",
       "Batey Diego. ( PSFV 0-24"
     ],
-    "C-17": [],
     "C-58": [],
     "C-90": [
       "FW1558) La Pollera"
@@ -24,6 +23,7 @@
       "5 de Septiembre",
       "Guayabito"
     ],
+    "C-17": [],
     "C-22": [
       "Rodas (Bombeo Agua Rodas 0-12",
       "Rodas"
@@ -719,15 +719,6 @@
       "confianza": 100,
       "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)"
     },
-    "C-17": {
-      "fecha": "2026-11-06T21:16:10+00:00",
-      "mensaje_id": 60319,
-      "url": "https://t.me/empresaelectricacienfuegos1/60319",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
-    },
     "C-58": {
       "fecha": "2026-11-06T21:16:10+00:00",
       "mensaje_id": 60319,
@@ -763,6 +754,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
+    },
+    "C-17": {
+      "fecha": "2026-11-06T21:16:10+00:00",
+      "mensaje_id": 60319,
+      "url": "https://t.me/empresaelectricacienfuegos1/60319",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17 Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
     },
     "C-22": {
       "fecha": "2026-11-06T21:16:10+00:00",
@@ -1680,11 +1680,11 @@
   "tiempos": {},
   "causas": {
     "C-32": "déficit",
-    "C-17": "déficit",
     "C-58": "déficit",
     "C-90": "avería",
     "S-2382": "avería",
     "C-23": "avería",
+    "C-17": "déficit",
     "C-22": "déficit",
     "C-8": "déficit",
     "C-84": "déficit",
@@ -2189,8 +2189,8 @@
     }
   ],
   "lectura": {
-    "texto": 72,
-    "imagenes": 56,
+    "texto": 70,
+    "imagenes": 54,
     "pdf": 0,
     "no_leidos": 5
   },
@@ -3183,5 +3183,5 @@
     "C-95",
     "S-2382"
   ],
-  "actualizado": "2026-11-06T21:24:14.414367+00:00"
+  "actualizado": "2026-11-06T21:43:09.017563+00:00"
 }
