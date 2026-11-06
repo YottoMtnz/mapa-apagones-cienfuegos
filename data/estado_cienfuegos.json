@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-06T00:28:02+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-05T21:07:43+00:00",
-  "mensajes_leidos": 114,
+  "programado_fecha": "2026-11-06T00:31:21+00:00",
+  "mensajes_leidos": 115,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -242,7 +242,8 @@
       "Los Tanques",
       "La Ceiba",
       "El Paisíto"
-    ]
+    ],
+    "C-92": []
   },
   "confirmados_con_servicio": {
     "C-30": {
@@ -1191,6 +1192,15 @@
       "confianza": 100,
       "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
     },
+    "C-92": {
+      "fecha": "2026-11-06T00:31:21+00:00",
+      "mensaje_id": 60279,
+      "url": "https://t.me/empresaelectricacienfuegos1/60279",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-92 Calzada Dolores, San Lázaro."
+    },
     "C-30": {
       "fecha": "2026-11-05T17:10:44+00:00",
       "mensaje_id": 60257,
@@ -1645,6 +1655,11 @@
       "inicio": null,
       "fin": "2026-11-06T09:07:43+00:00",
       "fecha_ambigua": false
+    },
+    "C-92": {
+      "inicio": null,
+      "fin": "2026-11-06T12:31:21+00:00",
+      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
@@ -2077,7 +2092,7 @@
   ],
   "lectura": {
     "texto": 64,
-    "imagenes": 50,
+    "imagenes": 51,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -3044,7 +3059,7 @@
   ],
   "mw_fecha": "2026-11-06T00:28:02+00:00",
   "total_circuitos_afectados": 47,
-  "total_circuitos_programados": 3,
+  "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -3057,7 +3072,8 @@
     "C-58",
     "C-59",
     "C-89",
+    "C-92",
     "C-94"
   ],
-  "actualizado": "2026-11-06T00:29:19.773850+00:00"
+  "actualizado": "2026-11-06T00:44:20.631964+00:00"
 }
