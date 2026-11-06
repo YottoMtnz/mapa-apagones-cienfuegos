@@ -24,10 +24,6 @@
       "Guaos",
       "Naranjito"
     ],
-    "C-90": [
-      "FW1558) La Pollera"
-    ],
-    "S-2382": [],
     "C-406": [
       "San Lázaro",
       "Calle 35 de Ave 58 hasta Ave 64",
@@ -94,13 +90,6 @@
     "C-25": [
       "Abreus (Pueblo"
     ],
-    "S-4993": [],
-    "C-49": [
-      "Arriete",
-      "Ciego Montero",
-      "La Amalia",
-      "Ceiba Hueca"
-    ],
     "C-66": [
       "Reina (Parque"
     ],
@@ -108,7 +97,6 @@
       "Punta Cotica",
       "Parque José Martí"
     ],
-    "S-3590": [],
     "C-89": [],
     "C-94": [],
     "C-6": [
@@ -836,24 +824,6 @@
       "confianza": 100,
       "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     },
-    "C-90": {
-      "fecha": "2026-11-05T12:09:15+00:00",
-      "mensaje_id": 60251,
-      "url": "https://t.me/empresaelectricacienfuegos1/60251",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉FW1558 La Pollera (C-90)"
-    },
-    "S-2382": {
-      "fecha": "2026-11-05T12:09:15+00:00",
-      "mensaje_id": 60251,
-      "url": "https://t.me/empresaelectricacienfuegos1/60251",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-2382 Granja de Alimentos, Bombeo del CAI 5 de Septiembre (C-23)"
-    },
     "C-406": {
       "fecha": "2026-11-05T22:15:29+00:00",
       "mensaje_id": 60276,
@@ -962,24 +932,6 @@
       "confianza": 100,
       "texto": "👉C-25 Abreus (Pueblo)."
     },
-    "S-4993": {
-      "fecha": "2026-11-05T12:09:15+00:00",
-      "mensaje_id": 60251,
-      "url": "https://t.me/empresaelectricacienfuegos1/60251",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-4993 Batey Amalia, Ceiba Hueca (49)"
-    },
-    "C-49": {
-      "fecha": "2026-11-05T12:09:15+00:00",
-      "mensaje_id": 60251,
-      "url": "https://t.me/empresaelectricacienfuegos1/60251",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
-    },
     "C-66": {
       "fecha": "2026-11-05T22:15:29+00:00",
       "mensaje_id": 60276,
@@ -997,15 +949,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-80 Punta Cotica, Parque José Martí."
-    },
-    "S-3590": {
-      "fecha": "2026-11-05T12:09:15+00:00",
-      "mensaje_id": 60251,
-      "url": "https://t.me/empresaelectricacienfuegos1/60251",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉S-3590 Dolores, Caña Brava, Breñas (35)"
     },
     "C-89": {
       "fecha": "2026-11-05T22:15:29+00:00",
@@ -1269,6 +1212,15 @@
       "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
     },
     "C-26": {
+      "fecha": "2026-11-05T21:07:43+00:00",
+      "mensaje_id": 60269,
+      "url": "https://t.me/empresaelectricacienfuegos1/60269",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
+    },
+    "C-90": {
       "fecha": "2026-11-05T21:07:43+00:00",
       "mensaje_id": 60269,
       "url": "https://t.me/empresaelectricacienfuegos1/60269",
@@ -1756,10 +1708,8 @@
   "causas": {
     "C-32": "déficit",
     "C-58": "déficit",
-    "C-23": "avería / déficit",
+    "C-23": "déficit",
     "C-67": "avería",
-    "C-90": "avería",
-    "S-2382": "avería",
     "C-406": "déficit",
     "C-52": "déficit",
     "C-21": "déficit",
@@ -1772,11 +1722,8 @@
     "C-7": "déficit",
     "C-57": "déficit",
     "C-25": "déficit",
-    "S-4993": "avería",
-    "C-49": "avería",
     "C-66": "déficit",
     "C-80": "déficit",
-    "S-3590": "avería",
     "C-89": "déficit",
     "C-94": "déficit",
     "C-6": "déficit",
@@ -3141,7 +3088,7 @@
     }
   ],
   "mw_fecha": "2026-11-05T22:15:29+00:00",
-  "total_circuitos_afectados": 48,
+  "total_circuitos_afectados": 43,
   "total_circuitos_programados": 6,
   "total_restablecimientos_probables": 19,
   "circuitos_sin_catalogar": [
@@ -3155,10 +3102,7 @@
     "C-58",
     "C-59",
     "C-89",
-    "C-94",
-    "S-2382",
-    "S-3590",
-    "S-4993"
+    "C-94"
   ],
-  "actualizado": "2026-11-05T23:59:31.175193+00:00"
+  "actualizado": "2026-11-06T00:14:18.868112+00:00"
 }
