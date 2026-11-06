@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-06T15:56:46+00:00",
+  "reporte_fecha": "2026-11-06T16:05:55+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-06T11:31:46+00:00",
-  "mensajes_leidos": 122,
+  "mensajes_leidos": 123,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -210,7 +210,6 @@
       "Batey 2 Hermanos"
     ],
     "C-89": [],
-    "C-95": [],
     "C-19": [
       "Tulipán"
     ],
@@ -275,7 +274,17 @@
     "C-59": []
   },
   "programados": {},
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-95": {
+      "fecha": "2026-11-06T16:05:55+00:00",
+      "mensaje_id": 60302,
+      "url": "https://t.me/empresaelectricacienfuegos1/60302",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-95 Refinería, Carolina."
+    }
+  },
   "restablecimientos_probables": {
     "C-70": {
       "fecha": "2026-11-06T15:56:46+00:00",
@@ -1058,15 +1067,6 @@
       "confianza": 100,
       "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
     },
-    "C-95": {
-      "fecha": "2026-11-06T15:56:46+00:00",
-      "mensaje_id": 60301,
-      "url": "https://t.me/empresaelectricacienfuegos1/60301",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-95 \"Refinería, Carolina."
-    },
     "C-19": {
       "fecha": "2026-11-06T15:56:46+00:00",
       "mensaje_id": 60301,
@@ -1210,6 +1210,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
+    },
+    "C-95": {
+      "fecha": "2026-11-06T16:05:55+00:00",
+      "mensaje_id": 60302,
+      "url": "https://t.me/empresaelectricacienfuegos1/60302",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-95 Refinería, Carolina."
     },
     "C-70": {
       "fecha": "2026-11-06T15:56:46+00:00",
@@ -1661,7 +1670,6 @@
     "C-11": "avería / déficit",
     "C-30": "avería / déficit",
     "C-89": "avería / déficit",
-    "C-95": "avería / déficit",
     "C-19": "déficit",
     "C-91": "déficit",
     "C-66": "déficit",
@@ -2087,7 +2095,7 @@
     }
   ],
   "lectura": {
-    "texto": 66,
+    "texto": 67,
     "imagenes": 56,
     "pdf": 0,
     "no_leidos": 5
@@ -2161,15 +2169,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-65",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-04T17:54:12+00:00",
-      "mensaje_id": 60217,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60214",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60217"
-    },
     {
       "circuito": "C-80",
       "tipo": "salida_lista",
@@ -3060,10 +3059,19 @@
       "mensaje_id": 60301,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60298",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60301"
+    },
+    {
+      "circuito": "C-95",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-06T16:05:55+00:00",
+      "mensaje_id": 60302,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60301",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60302"
     }
   ],
   "mw_fecha": "2026-11-06T15:56:46+00:00",
-  "total_circuitos_afectados": 59,
+  "total_circuitos_afectados": 58,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
@@ -3080,9 +3088,8 @@
     "C-89",
     "C-92",
     "C-94",
-    "C-95",
     "S-2382",
     "S-4993"
   ],
-  "actualizado": "2026-11-06T15:59:27.971942+00:00"
+  "actualizado": "2026-11-06T16:14:27.003122+00:00"
 }
