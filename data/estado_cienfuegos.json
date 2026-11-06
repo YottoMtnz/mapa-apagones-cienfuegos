@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-06T17:41:54+00:00",
+  "reporte_fecha": "2026-11-06T18:35:22+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-06T16:34:52+00:00",
-  "mensajes_leidos": 124,
+  "mensajes_leidos": 123,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -242,7 +242,32 @@
       "La Loma"
     ],
     "C-76": [],
-    "C-59": []
+    "C-59": [],
+    "C-35": [
+      "Terraza",
+      "Codicia",
+      "Breñas",
+      "Caña Brava",
+      "Dolores"
+    ],
+    "C-37": [
+      "El Tablón",
+      "Los Coquitos",
+      "El Túnel",
+      "Jovero",
+      "El Mamey",
+      "Crucesitas",
+      "El Nicho",
+      "Vegueta"
+    ],
+    "C-62": [],
+    "C-85": [
+      "Cumanayagua (Centro"
+    ],
+    "C-86": [
+      "Cumanayagua",
+      "emisora de radio"
+    ]
   },
   "programados": {
     "C-92": []
@@ -549,59 +574,6 @@
       "lugares": [
         "Boulevard",
         "Parque Martí"
-      ]
-    },
-    "C-85": {
-      "fecha": "2026-11-06T17:41:54+00:00",
-      "mensaje_id": 60309,
-      "url": "https://t.me/empresaelectricacienfuegos1/60309",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-101          Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T15:56:46+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T13:37:33+00:00",
-        "mensaje_id": 60298,
-        "url": "https://t.me/empresaelectricacienfuegos1/60298",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-85 \"Cumanayagua (Centro)."
-      },
-      "lugares": [
-        "Cumanayagua (Centro"
-      ]
-    },
-    "C-86": {
-      "fecha": "2026-11-06T17:41:54+00:00",
-      "mensaje_id": 60309,
-      "url": "https://t.me/empresaelectricacienfuegos1/60309",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-101          Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T15:56:46+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T13:37:33+00:00",
-        "mensaje_id": 60298,
-        "url": "https://t.me/empresaelectricacienfuegos1/60298",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-86 \"Cumanayagua, emisora de radio"
-      },
-      "lugares": [
-        "Cumanayagua",
-        "emisora de radio"
       ]
     },
     "C-406": {
@@ -1227,6 +1199,51 @@
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
     },
+    "C-35": {
+      "fecha": "2026-11-06T18:35:22+00:00",
+      "mensaje_id": 60310,
+      "url": "https://t.me/empresaelectricacienfuegos1/60310",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
+    },
+    "C-37": {
+      "fecha": "2026-11-06T18:35:22+00:00",
+      "mensaje_id": 60310,
+      "url": "https://t.me/empresaelectricacienfuegos1/60310",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
+    },
+    "C-62": {
+      "fecha": "2026-11-06T18:35:22+00:00",
+      "mensaje_id": 60310,
+      "url": "https://t.me/empresaelectricacienfuegos1/60310",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-62 Barajagua."
+    },
+    "C-85": {
+      "fecha": "2026-11-06T18:35:22+00:00",
+      "mensaje_id": 60310,
+      "url": "https://t.me/empresaelectricacienfuegos1/60310",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-85 Cumanayagua (Centro)."
+    },
+    "C-86": {
+      "fecha": "2026-11-06T18:35:22+00:00",
+      "mensaje_id": 60310,
+      "url": "https://t.me/empresaelectricacienfuegos1/60310",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-86 Cumanayagua, emisora de radio."
+    },
     "C-92": {
       "fecha": "2026-11-06T16:34:52+00:00",
       "mensaje_id": 60303,
@@ -1513,59 +1530,6 @@
         "Parque Martí"
       ]
     },
-    "C-85": {
-      "fecha": "2026-11-06T17:41:54+00:00",
-      "mensaje_id": 60309,
-      "url": "https://t.me/empresaelectricacienfuegos1/60309",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-101          Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T15:56:46+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T13:37:33+00:00",
-        "mensaje_id": 60298,
-        "url": "https://t.me/empresaelectricacienfuegos1/60298",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-85 \"Cumanayagua (Centro)."
-      },
-      "lugares": [
-        "Cumanayagua (Centro"
-      ]
-    },
-    "C-86": {
-      "fecha": "2026-11-06T17:41:54+00:00",
-      "mensaje_id": 60309,
-      "url": "https://t.me/empresaelectricacienfuegos1/60309",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-101          Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T15:56:46+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T13:37:33+00:00",
-        "mensaje_id": 60298,
-        "url": "https://t.me/empresaelectricacienfuegos1/60298",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-86 \"Cumanayagua, emisora de radio"
-      },
-      "lugares": [
-        "Cumanayagua",
-        "emisora de radio"
-      ]
-    },
     "C-406": {
       "fecha": "2026-11-06T17:41:54+00:00",
       "mensaje_id": 60309,
@@ -1791,17 +1755,15 @@
     "C-2": "déficit",
     "C-28": "déficit",
     "C-76": "emergencia",
-    "C-59": "déficit"
+    "C-59": "déficit",
+    "C-35": "emergencia",
+    "C-37": "emergencia",
+    "C-62": "emergencia",
+    "C-85": "emergencia",
+    "C-86": "emergencia"
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\nDÉFICIT DE GENERACIÓN el te Y,",
-      "id": 60182,
-      "url": "https://t.me/empresaelectricacienfuegos1/60182",
-      "fecha": "2026-11-03T18:42:17+00:00"
-    },
     {
       "motivo": "sin_estado_explicito",
       "texto": "⚠Se comunica a nuestros clientes que a solicitud de las autoridades de la provincia se encuentra protegido el circuito C-20 Punta Gorda, con el fin de garantizar el juego de béisbol en el estadio 5 de Septiembre, por lo que no será posible cumplir con la rotación de los circuitos de la ciudad.",
@@ -2219,10 +2181,17 @@
       "id": 60307,
       "url": "https://t.me/empresaelectricacienfuegos1/60307",
       "fecha": "2026-11-06T17:16:54+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\nEl | a",
+      "id": 60310,
+      "url": "https://t.me/empresaelectricacienfuegos1/60310",
+      "fecha": "2026-11-06T18:35:22+00:00"
     }
   ],
   "lectura": {
-    "texto": 69,
+    "texto": 68,
     "imagenes": 55,
     "pdf": 0,
     "no_leidos": 5
@@ -3190,9 +3159,9 @@
     }
   ],
   "mw_fecha": "2026-11-06T17:41:54+00:00",
-  "total_circuitos_afectados": 51,
+  "total_circuitos_afectados": 56,
   "total_circuitos_programados": 1,
-  "total_restablecimientos_probables": 19,
+  "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3204,11 +3173,12 @@
     "C-43",
     "C-58",
     "C-59",
+    "C-62",
     "C-76",
     "C-92",
     "C-94",
     "S-2382",
     "S-4993"
   ],
-  "actualizado": "2026-11-06T18:24:18.817235+00:00"
+  "actualizado": "2026-11-06T18:42:54.199422+00:00"
 }
