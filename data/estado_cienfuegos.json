@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-06T19:41:22+00:00",
-  "mensajes_leidos": 125,
+  "mensajes_leidos": 127,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -1721,20 +1721,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nDISPARO\n-\n-\nA\nde!\nOS\nwR\nre\nmom \\\nIE",
-      "id": 60188,
-      "url": "https://t.me/empresaelectricacienfuegos1/60188",
-      "fecha": "2026-11-03T21:31:57+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\nSO MW ie” Q y\nA EN\nDÉFICIT DE GENERACIÓN A AO A",
-      "id": 60189,
-      "url": "https://t.me/empresaelectricacienfuegos1/60189",
-      "fecha": "2026-11-03T21:32:25+00:00"
-    },
-    {
       "motivo": "estado_ambiguo",
       "texto": "👉Debido a avería ocurrida en la subestación del Hospital provincial, durante la noche de hoy se mantendrán con servicio los circuitos 17 y 20, como medida preventiva para dar respaldo a este centro vital desde ambos circuitos.",
       "circuitos": [
@@ -2131,11 +2117,58 @@
       "id": 60315,
       "url": "https://t.me/empresaelectricacienfuegos1/60315",
       "fecha": "2026-11-06T20:50:41+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "⚠️ Se comunica a nuestros clientes que se encuentra restablecido el servicio en las  zonas:\n\n\n👉FW1016 Prado Guaos, Barrio las Minas, Arenera, Almacenes (67)\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
+      "id": 60316,
+      "url": "https://t.me/empresaelectricacienfuegos1/60316",
+      "fecha": "2026-11-06T20:57:32+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-85 Cumanayagua (Centro).",
+      "circuitos": [
+        "C-85"
+      ],
+      "id": 60318,
+      "url": "https://t.me/empresaelectricacienfuegos1/60318",
+      "fecha": "2026-11-06T21:07:00+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-86 Cumanayagua, emisora de radio.",
+      "circuitos": [
+        "C-86"
+      ],
+      "id": 60318,
+      "url": "https://t.me/empresaelectricacienfuegos1/60318",
+      "fecha": "2026-11-06T21:07:00+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-85 Cumanayagua (Centro).",
+      "circuitos": [
+        "C-85"
+      ],
+      "id": 60318,
+      "url": "https://t.me/empresaelectricacienfuegos1/60318",
+      "fecha": "2026-11-06T21:07:00+00:00"
+    },
+    {
+      "motivo": "sin_estado_explicito",
+      "texto": "👉C-86 Cumanayagua, emisora de radio.",
+      "circuitos": [
+        "C-86"
+      ],
+      "id": 60318,
+      "url": "https://t.me/empresaelectricacienfuegos1/60318",
+      "fecha": "2026-11-06T21:07:00+00:00"
     }
   ],
   "lectura": {
-    "texto": 70,
-    "imagenes": 55,
+    "texto": 71,
+    "imagenes": 56,
     "pdf": 0,
     "no_leidos": 5
   },
@@ -3121,5 +3154,5 @@
     "C-94",
     "S-2382"
   ],
-  "actualizado": "2026-11-06T20:54:21.396108+00:00"
+  "actualizado": "2026-11-06T21:09:18.338482+00:00"
 }
