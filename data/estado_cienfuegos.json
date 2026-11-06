@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-06T19:26:28+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-06T16:34:52+00:00",
-  "mensajes_leidos": 126,
+  "programado_fecha": "2026-11-06T19:41:22+00:00",
+  "mensajes_leidos": 124,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -262,7 +262,31 @@
       "Cruces (Sur"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-36": [
+      "Cumanayagua (Sur",
+      "La Guasasa",
+      "Ceibabo",
+      "La Furnia",
+      "Monasterio",
+      "El Concuní"
+    ],
+    "C-5": [
+      "Boulevard",
+      "Parque Martí"
+    ],
+    "C-52": [
+      "Paradero de Camarones",
+      "Vía Estrecha",
+      "Espartaco",
+      "La Macana",
+      "Cherepa"
+    ],
+    "C-70": [
+      "Aguada",
+      "Federal"
+    ]
+  },
   "confirmados_con_servicio": {
     "C-95": {
       "fecha": "2026-11-06T16:05:55+00:00",
@@ -1226,6 +1250,42 @@
       "confianza": 100,
       "texto": "👉C-55 Cruces (Sur)."
     },
+    "C-36": {
+      "fecha": "2026-11-06T19:41:22+00:00",
+      "mensaje_id": 60314,
+      "url": "https://t.me/empresaelectricacienfuegos1/60314",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+    },
+    "C-5": {
+      "fecha": "2026-11-06T19:41:22+00:00",
+      "mensaje_id": 60314,
+      "url": "https://t.me/empresaelectricacienfuegos1/60314",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+    },
+    "C-52": {
+      "fecha": "2026-11-06T19:41:22+00:00",
+      "mensaje_id": 60314,
+      "url": "https://t.me/empresaelectricacienfuegos1/60314",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+    },
+    "C-70": {
+      "fecha": "2026-11-06T19:41:22+00:00",
+      "mensaje_id": 60314,
+      "url": "https://t.me/empresaelectricacienfuegos1/60314",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+    },
     "C-95": {
       "fecha": "2026-11-06T16:05:55+00:00",
       "mensaje_id": 60302,
@@ -1252,33 +1312,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-76 Punta la Cueva, Junco Viejo."
-    },
-    "C-70": {
-      "fecha": "2026-11-06T19:26:28+00:00",
-      "mensaje_id": 60313,
-      "url": "https://t.me/empresaelectricacienfuegos1/60313",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-05T22:15:29+00:00",
-      "listas_consecutivas": 11,
-      "aviso_anterior": {
-        "fecha": "2026-11-05T20:40:53+00:00",
-        "mensaje_id": 60268,
-        "url": "https://t.me/empresaelectricacienfuegos1/60268",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-70 \"Aguada, Federal."
-      },
-      "lugares": [
-        "Aguada",
-        "Federal"
-      ]
     },
     "C-6": {
       "fecha": "2026-11-06T19:26:28+00:00",
@@ -1380,67 +1413,6 @@
       },
       "lugares": []
     },
-    "C-52": {
-      "fecha": "2026-11-06T19:26:28+00:00",
-      "mensaje_id": 60313,
-      "url": "https://t.me/empresaelectricacienfuegos1/60313",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T12:32:40+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T11:36:57+00:00",
-        "mensaje_id": 60291,
-        "url": "https://t.me/empresaelectricacienfuegos1/60291",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-52 Paradero de Camarones, Vía Estrecha, Espartaco, La Macana, Cherepa."
-      },
-      "lugares": [
-        "Paradero de Camarones",
-        "Vía Estrecha",
-        "Espartaco",
-        "La Macana",
-        "Cherepa"
-      ]
-    },
-    "C-36": {
-      "fecha": "2026-11-06T19:26:28+00:00",
-      "mensaje_id": 60313,
-      "url": "https://t.me/empresaelectricacienfuegos1/60313",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T13:37:33+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T12:32:40+00:00",
-        "mensaje_id": 60293,
-        "url": "https://t.me/empresaelectricacienfuegos1/60293",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
-      },
-      "lugares": [
-        "Cumanayagua (Sur",
-        "La Guasasa",
-        "Ceibabo",
-        "La Furnia",
-        "Monasterio",
-        "El Concuní"
-      ]
-    },
     "C-102": {
       "fecha": "2026-11-06T19:26:28+00:00",
       "mensaje_id": 60313,
@@ -1492,33 +1464,6 @@
       "lugares": [
         "Santiago de Cartagena",
         "Lequeito"
-      ]
-    },
-    "C-5": {
-      "fecha": "2026-11-06T19:26:28+00:00",
-      "mensaje_id": 60313,
-      "url": "https://t.me/empresaelectricacienfuegos1/60313",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T15:56:46+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T13:37:33+00:00",
-        "mensaje_id": 60298,
-        "url": "https://t.me/empresaelectricacienfuegos1/60298",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-5  Boulevard, Parque Martí"
-      },
-      "lugares": [
-        "Boulevard",
-        "Parque Martí"
       ]
     },
     "C-406": {
@@ -1689,7 +1634,28 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-36": {
+      "inicio": null,
+      "fin": "2026-11-07T07:41:22+00:00",
+      "fecha_ambigua": false
+    },
+    "C-5": {
+      "inicio": null,
+      "fin": "2026-11-07T07:41:22+00:00",
+      "fecha_ambigua": false
+    },
+    "C-52": {
+      "inicio": null,
+      "fin": "2026-11-07T07:41:22+00:00",
+      "fecha_ambigua": false
+    },
+    "C-70": {
+      "inicio": null,
+      "fin": "2026-11-07T07:41:22+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 60.0,
   "hora_inicio": null,
@@ -1754,26 +1720,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_estado_explicito",
-      "texto": "⚠Se comunica a nuestros clientes que a solicitud de las autoridades de la provincia se encuentra protegido el circuito C-20 Punta Gorda, con el fin de garantizar el juego de béisbol en el estadio 5 de Septiembre, por lo que no será posible cumplir con la rotación de los circuitos de la ciudad.",
-      "circuitos": [
-        "C-20"
-      ],
-      "id": 60183,
-      "url": "https://t.me/empresaelectricacienfuegos1/60183",
-      "fecha": "2026-11-03T19:44:05+00:00"
-    },
-    {
-      "motivo": "sin_estado_explicito",
-      "texto": "⚠Se comunica a nuestros clientes que a solicitud de las autoridades de la provincia se encuentra protegido el circuito C-20 Punta Gorda, con el fin de garantizar el juego de béisbol en el estadio 5 de Septiembre, por lo que no será posible cumplir con la rotación de los circuitos de la ciudad.",
-      "circuitos": [
-        "C-20"
-      ],
-      "id": 60183,
-      "url": "https://t.me/empresaelectricacienfuegos1/60183",
-      "fecha": "2026-11-03T19:44:05+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "Circuitos afectados por\nDISPARO\n-\n-\nA\nde!\nOS\nwR\nre\nmom \\\nIE",
@@ -2181,8 +2127,8 @@
     }
   ],
   "lectura": {
-    "texto": 71,
-    "imagenes": 55,
+    "texto": 70,
+    "imagenes": 54,
     "pdf": 0,
     "no_leidos": 5
   },
@@ -3150,7 +3096,7 @@
   ],
   "mw_fecha": "2026-11-06T19:26:28+00:00",
   "total_circuitos_afectados": 55,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3168,5 +3114,5 @@
     "C-94",
     "S-2382"
   ],
-  "actualizado": "2026-11-06T19:30:48.604696+00:00"
+  "actualizado": "2026-11-06T19:54:13.694253+00:00"
 }
