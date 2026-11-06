@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-06T21:16:10+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-06T19:41:22+00:00",
-  "mensajes_leidos": 124,
+  "programado_fecha": "2026-11-06T21:56:54+00:00",
+  "mensajes_leidos": 125,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -282,7 +282,22 @@
       "El Concuní"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-19": [
+      "Tulipán"
+    ],
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
+    ],
+    "C-66": [
+      "Reina (Parque"
+    ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
+    ]
+  },
   "confirmados_con_servicio": {
     "S-4993": {
       "fecha": "2026-11-06T19:08:46+00:00",
@@ -1250,6 +1265,42 @@
       "confianza": 100,
       "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
     },
+    "C-19": {
+      "fecha": "2026-11-06T21:56:54+00:00",
+      "mensaje_id": 60321,
+      "url": "https://t.me/empresaelectricacienfuegos1/60321",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-65": {
+      "fecha": "2026-11-06T21:56:54+00:00",
+      "mensaje_id": 60321,
+      "url": "https://t.me/empresaelectricacienfuegos1/60321",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-66": {
+      "fecha": "2026-11-06T21:56:54+00:00",
+      "mensaje_id": 60321,
+      "url": "https://t.me/empresaelectricacienfuegos1/60321",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-80": {
+      "fecha": "2026-11-06T21:56:54+00:00",
+      "mensaje_id": 60321,
+      "url": "https://t.me/empresaelectricacienfuegos1/60321",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
     "S-4993": {
       "fecha": "2026-11-06T19:08:46+00:00",
       "mensaje_id": 60311,
@@ -1450,112 +1501,6 @@
         "Calle 47 de Ave 54 hasta Ave 58"
       ]
     },
-    "C-19": {
-      "fecha": "2026-11-06T21:16:10+00:00",
-      "mensaje_id": 60319,
-      "url": "https://t.me/empresaelectricacienfuegos1/60319",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T17:41:54+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T15:56:46+00:00",
-        "mensaje_id": 60301,
-        "url": "https://t.me/empresaelectricacienfuegos1/60301",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-19 Tulipán"
-      },
-      "lugares": [
-        "Tulipán"
-      ]
-    },
-    "C-66": {
-      "fecha": "2026-11-06T21:16:10+00:00",
-      "mensaje_id": 60319,
-      "url": "https://t.me/empresaelectricacienfuegos1/60319",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T17:41:54+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T15:56:46+00:00",
-        "mensaje_id": 60301,
-        "url": "https://t.me/empresaelectricacienfuegos1/60301",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-66 Reina (Parque)"
-      },
-      "lugares": [
-        "Reina (Parque"
-      ]
-    },
-    "C-65": {
-      "fecha": "2026-11-06T21:16:10+00:00",
-      "mensaje_id": 60319,
-      "url": "https://t.me/empresaelectricacienfuegos1/60319",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T17:41:54+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T15:56:46+00:00",
-        "mensaje_id": 60301,
-        "url": "https://t.me/empresaelectricacienfuegos1/60301",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-65 Centro histórico, Reina (Aduana)"
-      },
-      "lugares": [
-        "Centro histórico",
-        "Reina (Aduana"
-      ]
-    },
-    "C-80": {
-      "fecha": "2026-11-06T21:16:10+00:00",
-      "mensaje_id": 60319,
-      "url": "https://t.me/empresaelectricacienfuegos1/60319",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-21 Santa Elena, La Candita, Jabacoa, Batey Nuevo, Las Medidas.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T17:41:54+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T15:56:46+00:00",
-        "mensaje_id": 60301,
-        "url": "https://t.me/empresaelectricacienfuegos1/60301",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-80 Punta Cotica, Parque José Martí."
-      },
-      "lugares": [
-        "Punta Cotica",
-        "Parque José Martí"
-      ]
-    },
     "C-101": {
       "fecha": "2026-11-06T21:16:10+00:00",
       "mensaje_id": 60319,
@@ -1672,7 +1617,28 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-19": {
+      "inicio": null,
+      "fin": "2026-11-07T09:56:54+00:00",
+      "fecha_ambigua": false
+    },
+    "C-65": {
+      "inicio": null,
+      "fin": "2026-11-07T09:56:54+00:00",
+      "fecha_ambigua": false
+    },
+    "C-66": {
+      "inicio": null,
+      "fin": "2026-11-07T09:56:54+00:00",
+      "fecha_ambigua": false
+    },
+    "C-80": {
+      "inicio": null,
+      "fin": "2026-11-07T09:56:54+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 65.0,
   "hora_inicio": null,
@@ -2186,7 +2152,7 @@
   ],
   "lectura": {
     "texto": 69,
-    "imagenes": 55,
+    "imagenes": 56,
     "pdf": 0,
     "no_leidos": 5
   },
@@ -3159,7 +3125,7 @@
   ],
   "mw_fecha": "2026-11-06T21:16:10+00:00",
   "total_circuitos_afectados": 60,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3179,5 +3145,5 @@
     "C-95",
     "S-2382"
   ],
-  "actualizado": "2026-11-06T21:54:11.461429+00:00"
+  "actualizado": "2026-11-06T22:03:57.480527+00:00"
 }
