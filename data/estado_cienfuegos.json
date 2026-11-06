@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-06T12:32:40+00:00",
+  "reporte_fecha": "2026-11-06T13:08:42+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-06T11:31:46+00:00",
-  "mensajes_leidos": 120,
+  "mensajes_leidos": 122,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -265,7 +265,8 @@
     "C-27": [
       "Barrio Matadero",
       "Juraguá"
-    ]
+    ],
+    "C-407": []
   },
   "programados": {
     "C-28": [
@@ -722,30 +723,6 @@
         "Batey Nuevo",
         "Las Medidas"
       ]
-    },
-    "C-407": {
-      "fecha": "2026-11-06T12:32:40+00:00",
-      "mensaje_id": 60293,
-      "url": "https://t.me/empresaelectricacienfuegos1/60293",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T12:32:40+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T11:36:57+00:00",
-        "mensaje_id": 60291,
-        "url": "https://t.me/empresaelectricacienfuegos1/60291",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-407 \"Cocaleca, Poligráfico, Pastorita, O'bourke.\""
-      },
-      "lugares": []
     }
   },
   "afectaciones_parciales": {},
@@ -1003,13 +980,13 @@
       "texto": "👉C-42 Viet Nam, Real Campiña, Guanito."
     },
     "C-67": {
-      "fecha": "2026-11-06T12:32:40+00:00",
-      "mensaje_id": 60293,
-      "url": "https://t.me/empresaelectricacienfuegos1/60293",
+      "fecha": "2026-11-06T13:08:42+00:00",
+      "mensaje_id": 60296,
+      "url": "https://t.me/empresaelectricacienfuegos1/60296",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-67 \"El Crucero, Guaos, Naranjito."
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     },
     "C-73": {
       "fecha": "2026-11-06T12:32:40+00:00",
@@ -1219,9 +1196,9 @@
       "texto": "👉C-66 Reina (Parque)"
     },
     "C-69": {
-      "fecha": "2026-11-06T12:32:40+00:00",
-      "mensaje_id": 60293,
-      "url": "https://t.me/empresaelectricacienfuegos1/60293",
+      "fecha": "2026-11-06T13:08:42+00:00",
+      "mensaje_id": 60296,
+      "url": "https://t.me/empresaelectricacienfuegos1/60296",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1253,6 +1230,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
+    },
+    "C-407": {
+      "fecha": "2026-11-06T13:08:42+00:00",
+      "mensaje_id": 60296,
+      "url": "https://t.me/empresaelectricacienfuegos1/60296",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-407  \"Cocaleca, Poligráfico, Pastorita, O'bourke.\""
     },
     "C-28": {
       "fecha": "2026-11-06T01:33:05+00:00",
@@ -1573,30 +1559,6 @@
         "Batey Nuevo",
         "Las Medidas"
       ]
-    },
-    "C-407": {
-      "fecha": "2026-11-06T12:32:40+00:00",
-      "mensaje_id": 60293,
-      "url": "https://t.me/empresaelectricacienfuegos1/60293",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-23 Turquino, 5 de Septiembre, Guayabito",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T12:32:40+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T11:36:57+00:00",
-        "mensaje_id": 60291,
-        "url": "https://t.me/empresaelectricacienfuegos1/60291",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-407 \"Cocaleca, Poligráfico, Pastorita, O'bourke.\""
-      },
-      "lugares": []
     }
   },
   "horarios": {
@@ -1665,7 +1627,7 @@
     "C-43": "déficit",
     "C-44": "déficit",
     "C-42": "déficit",
-    "C-67": "déficit",
+    "C-67": "avería / déficit",
     "C-73": "déficit",
     "C-36": "déficit",
     "C-63": "déficit",
@@ -1689,10 +1651,11 @@
     "C-19": "déficit",
     "C-91": "déficit",
     "C-66": "déficit",
-    "C-69": "déficit",
+    "C-69": "déficit / avería",
     "C-405": "déficit",
     "C-406": "déficit",
-    "C-27": "déficit"
+    "C-27": "déficit",
+    "C-407": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2071,11 +2034,32 @@
       "id": 60292,
       "url": "https://t.me/empresaelectricacienfuegos1/60292",
       "fecha": "2026-11-06T12:24:49+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "👉🏻En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
+      "id": 60295,
+      "url": "https://t.me/empresaelectricacienfuegos1/60295",
+      "fecha": "2026-11-06T13:07:12+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de 1785 MW a las 18:10 horas.",
+      "id": 60295,
+      "url": "https://t.me/empresaelectricacienfuegos1/60295",
+      "fecha": "2026-11-06T13:07:12+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
+      "id": 60296,
+      "url": "https://t.me/empresaelectricacienfuegos1/60296",
+      "fecha": "2026-11-06T13:08:42+00:00"
     }
   ],
   "lectura": {
-    "texto": 65,
-    "imagenes": 55,
+    "texto": 66,
+    "imagenes": 56,
     "pdf": 0,
     "no_leidos": 5
   },
@@ -3045,9 +3029,9 @@
     }
   ],
   "mw_fecha": "2026-11-06T12:32:40+00:00",
-  "total_circuitos_afectados": 56,
+  "total_circuitos_afectados": 57,
   "total_circuitos_programados": 6,
-  "total_restablecimientos_probables": 17,
+  "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
     "C-18",
     "C-2",
@@ -3065,5 +3049,5 @@
     "S-2382",
     "S-4993"
   ],
-  "actualizado": "2026-11-06T12:59:33.687730+00:00"
+  "actualizado": "2026-11-06T13:14:12.704893+00:00"
 }
