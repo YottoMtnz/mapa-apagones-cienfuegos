@@ -6,16 +6,16 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-06T03:18:23+00:00",
-  "mensajes_leidos": 117,
+  "mensajes_leidos": 116,
   "afectados": {
+    "C-15": [
+      "Pepito Tey",
+      "Guabairo"
+    ],
     "C-32": [
       "Yaguaramas",
       "Guayabales",
       "Batey Diego. ( PSFV 0-24"
-    ],
-    "C-15": [
-      "Pepito Tey",
-      "Guabairo"
     ],
     "C-58": [],
     "C-17": [],
@@ -670,15 +670,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-32": {
-      "fecha": "2026-11-06T04:34:08+00:00",
-      "mensaje_id": 60283,
-      "url": "https://t.me/empresaelectricacienfuegos1/60283",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)"
-    },
     "C-15": {
       "fecha": "2026-11-06T04:34:08+00:00",
       "mensaje_id": 60283,
@@ -687,6 +678,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-15 Pepito Tey, Guabairo."
+    },
+    "C-32": {
+      "fecha": "2026-11-06T04:34:08+00:00",
+      "mensaje_id": 60283,
+      "url": "https://t.me/empresaelectricacienfuegos1/60283",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-32 Yaguaramas, Guayabales, Batey Diego. ( PSFV 0-24)"
     },
     "C-58": {
       "fecha": "2026-11-06T04:34:08+00:00",
@@ -1488,8 +1488,8 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-32": "déficit",
     "C-15": "déficit",
+    "C-32": "déficit",
     "C-58": "déficit",
     "C-17": "déficit",
     "C-90": "déficit",
@@ -1930,7 +1930,7 @@
     }
   ],
   "lectura": {
-    "texto": 65,
+    "texto": 64,
     "imagenes": 52,
     "pdf": 0,
     "no_leidos": 5
@@ -2009,7 +2009,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60207"
     },
     {
-      "circuito": "C-39",
+      "circuito": "C-33",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-04T13:18:11+00:00",
@@ -2027,7 +2027,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60207"
     },
     {
-      "circuito": "C-33",
+      "circuito": "C-39",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-04T13:18:11+00:00",
@@ -2072,7 +2072,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60209"
     },
     {
-      "circuito": "C-103",
+      "circuito": "C-102",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-04T14:36:27+00:00",
@@ -2081,7 +2081,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60209"
     },
     {
-      "circuito": "C-102",
+      "circuito": "C-103",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-04T14:36:27+00:00",
@@ -2189,7 +2189,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60220"
     },
     {
-      "circuito": "C-7",
+      "circuito": "C-41",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-04T18:52:12+00:00",
@@ -2198,7 +2198,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60220"
     },
     {
-      "circuito": "C-41",
+      "circuito": "C-7",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-04T18:52:12+00:00",
@@ -2468,6 +2468,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60252"
     },
     {
+      "circuito": "C-28",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-05T14:56:16+00:00",
+      "mensaje_id": 60253,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60252",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60253"
+    },
+    {
       "circuito": "C-73",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2540,15 +2549,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60253"
     },
     {
-      "circuito": "C-31",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-05T14:56:16+00:00",
-      "mensaje_id": 60253,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60252",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60253"
-    },
-    {
       "circuito": "C-88",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2558,7 +2558,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60253"
     },
     {
-      "circuito": "C-28",
+      "circuito": "C-31",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-05T14:56:16+00:00",
@@ -2657,6 +2657,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60258"
     },
     {
+      "circuito": "C-27",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-05T17:47:30+00:00",
+      "mensaje_id": 60259,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60254",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60259"
+    },
+    {
       "circuito": "C-53",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2685,15 +2694,6 @@
     },
     {
       "circuito": "C-85",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-05T17:47:30+00:00",
-      "mensaje_id": 60259,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60254",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60259"
-    },
-    {
-      "circuito": "C-27",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-05T17:47:30+00:00",
@@ -2920,5 +2920,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-06T10:44:09.756676+00:00"
+  "actualizado": "2026-11-06T10:59:11.218836+00:00"
 }
