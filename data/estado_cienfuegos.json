@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-11-06T00:28:02+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-06T00:31:21+00:00",
+  "programado_fecha": "2026-11-06T01:33:05+00:00",
   "mensajes_leidos": 115,
   "afectados": {
     "C-32": [
@@ -243,7 +243,16 @@
       "La Ceiba",
       "El Paisíto"
     ],
-    "C-92": []
+    "C-92": [],
+    "C-27": [
+      "Barrio Matadero",
+      "Juraguá"
+    ],
+    "C-28": [
+      "CEN",
+      "Castillo de Jagua",
+      "La Loma"
+    ]
   },
   "confirmados_con_servicio": {
     "C-30": {
@@ -1201,6 +1210,24 @@
       "confianza": 100,
       "texto": "👉C-92 Calzada Dolores, San Lázaro."
     },
+    "C-27": {
+      "fecha": "2026-11-06T01:33:05+00:00",
+      "mensaje_id": 60280,
+      "url": "https://t.me/empresaelectricacienfuegos1/60280",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-27 Barrio Matadero, Juraguá."
+    },
+    "C-28": {
+      "fecha": "2026-11-06T01:33:05+00:00",
+      "mensaje_id": 60280,
+      "url": "https://t.me/empresaelectricacienfuegos1/60280",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-27 Barrio Matadero, Juraguá."
+    },
     "C-30": {
       "fecha": "2026-11-05T17:10:44+00:00",
       "mensaje_id": 60257,
@@ -1660,6 +1687,16 @@
       "inicio": null,
       "fin": "2026-11-06T12:31:21+00:00",
       "fecha_ambigua": false
+    },
+    "C-27": {
+      "inicio": null,
+      "fin": "2026-11-06T13:33:05+00:00",
+      "fecha_ambigua": false
+    },
+    "C-28": {
+      "inicio": null,
+      "fin": "2026-11-06T13:33:05+00:00",
+      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
@@ -2091,8 +2128,8 @@
     }
   ],
   "lectura": {
-    "texto": 64,
-    "imagenes": 51,
+    "texto": 63,
+    "imagenes": 52,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -3059,7 +3096,7 @@
   ],
   "mw_fecha": "2026-11-06T00:28:02+00:00",
   "total_circuitos_afectados": 47,
-  "total_circuitos_programados": 4,
+  "total_circuitos_programados": 6,
   "total_restablecimientos_probables": 17,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -3075,5 +3112,5 @@
     "C-92",
     "C-94"
   ],
-  "actualizado": "2026-11-06T01:29:19.709419+00:00"
+  "actualizado": "2026-11-06T01:44:23.036766+00:00"
 }
