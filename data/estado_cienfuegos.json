@@ -1743,17 +1743,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "estado_ambiguo",
-      "texto": "👉Debido a avería ocurrida en la subestación del Hospital provincial, durante la noche de hoy se mantendrán con servicio los circuitos 17 y 20, como medida preventiva para dar respaldo a este centro vital desde ambos circuitos.",
-      "circuitos": [
-        "C-17",
-        "C-20"
-      ],
-      "id": 60192,
-      "url": "https://t.me/empresaelectricacienfuegos1/60192",
-      "fecha": "2026-11-03T22:22:38+00:00"
-    },
-    {
       "motivo": "sin_circuitos_identificables",
       "texto": "⚠ Se comunica a nuestros clientes que se encuentra en fallo la línea:\n\n\n👉L-1415 Aguada \n\n\n📌Se trabaja para restablecer el servicio lo antes posible.\n\n\n👉 Ofrecemos disculpas por las molestias ocasionadas.",
       "id": 60193,
@@ -2186,11 +2175,18 @@
       "id": 60318,
       "url": "https://t.me/empresaelectricacienfuegos1/60318",
       "fecha": "2026-11-06T21:07:00+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n1\n70 MW\nDÉFICIT DE GENERACIÓN |\nee\n4 |]\nUNE\nEMPRESA ELECTRICA\nCIENFUEGOS\na\nge",
+      "id": 60320,
+      "url": "https://t.me/empresaelectricacienfuegos1/60320",
+      "fecha": "2026-11-06T21:53:19+00:00"
     }
   ],
   "lectura": {
-    "texto": 70,
-    "imagenes": 54,
+    "texto": 69,
+    "imagenes": 55,
     "pdf": 0,
     "no_leidos": 5
   },
@@ -2630,6 +2626,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60259"
     },
     {
+      "circuito": "C-58",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-05T17:47:30+00:00",
+      "mensaje_id": 60259,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60254",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60259"
+    },
+    {
       "circuito": "C-85",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2649,15 +2654,6 @@
     },
     {
       "circuito": "C-86",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-05T17:47:30+00:00",
-      "mensaje_id": 60259,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60254",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60259"
-    },
-    {
-      "circuito": "C-58",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-05T17:47:30+00:00",
@@ -3183,5 +3179,5 @@
     "C-95",
     "S-2382"
   ],
-  "actualizado": "2026-11-06T21:43:09.017563+00:00"
+  "actualizado": "2026-11-06T21:54:11.461429+00:00"
 }
