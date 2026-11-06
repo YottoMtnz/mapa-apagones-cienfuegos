@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-06T16:05:55+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-06T11:31:46+00:00",
-  "mensajes_leidos": 123,
+  "programado_fecha": "2026-11-06T16:34:52+00:00",
+  "mensajes_leidos": 124,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -273,7 +273,9 @@
     "C-76": [],
     "C-59": []
   },
-  "programados": {},
+  "programados": {
+    "C-92": []
+  },
   "confirmados_con_servicio": {
     "C-95": {
       "fecha": "2026-11-06T16:05:55+00:00",
@@ -1211,6 +1213,15 @@
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
     },
+    "C-92": {
+      "fecha": "2026-11-06T16:34:52+00:00",
+      "mensaje_id": 60303,
+      "url": "https://t.me/empresaelectricacienfuegos1/60303",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-92 Calzada Dolores, San Lázaro."
+    },
     "C-95": {
       "fecha": "2026-11-06T16:05:55+00:00",
       "mensaje_id": 60302,
@@ -1320,30 +1331,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
-      },
-      "lugares": []
-    },
-    "C-92": {
-      "fecha": "2026-11-06T15:56:46+00:00",
-      "mensaje_id": 60301,
-      "url": "https://t.me/empresaelectricacienfuegos1/60301",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-101          Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T11:00:29+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T04:34:08+00:00",
-        "mensaje_id": 60283,
-        "url": "https://t.me/empresaelectricacienfuegos1/60283",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-92 \"Calzada Dolores, San Lázaro."
       },
       "lugares": []
     },
@@ -1621,7 +1608,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-92": {
+      "inicio": null,
+      "fin": "2026-11-07T04:34:52+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 65.0,
   "hora_inicio": null,
@@ -1667,9 +1660,9 @@
     "C-39": "déficit",
     "C-75": "déficit",
     "C-33": "déficit",
-    "C-11": "avería / déficit",
-    "C-30": "avería / déficit",
-    "C-89": "avería / déficit",
+    "C-11": "déficit",
+    "C-30": "déficit",
+    "C-89": "déficit",
     "C-19": "déficit",
     "C-91": "déficit",
     "C-66": "déficit",
@@ -2096,7 +2089,7 @@
   ],
   "lectura": {
     "texto": 67,
-    "imagenes": 56,
+    "imagenes": 57,
     "pdf": 0,
     "no_leidos": 5
   },
@@ -3072,7 +3065,7 @@
   ],
   "mw_fecha": "2026-11-06T15:56:46+00:00",
   "total_circuitos_afectados": 58,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-18",
@@ -3091,5 +3084,5 @@
     "S-2382",
     "S-4993"
   ],
-  "actualizado": "2026-11-06T16:32:54.522987+00:00"
+  "actualizado": "2026-11-06T16:44:30.370574+00:00"
 }
