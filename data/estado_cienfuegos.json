@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-11-07T19:22:26+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
+  "programado_fecha": "2026-11-07T19:30:25+00:00",
   "mensajes_leidos": 112,
   "afectados": {
     "C-23": [
@@ -220,7 +220,12 @@
       "Cruces (Norte"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-91": [
+      "Buena Vista",
+      "La Esperanza"
+    ]
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-6": {
@@ -1335,6 +1340,15 @@
       "confianza": 100,
       "texto": "👉C-56  Cruces (Norte)."
     },
+    "C-91": {
+      "fecha": "2026-11-07T19:30:25+00:00",
+      "mensaje_id": 60339,
+      "url": "https://t.me/empresaelectricacienfuegos1/60339",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-91 Buena Vista, La Esperanza."
+    },
     "C-6": {
       "fecha": "2026-11-07T19:22:26+00:00",
       "mensaje_id": 60338,
@@ -1458,33 +1472,6 @@
         "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
       },
       "lugares": []
-    },
-    "C-91": {
-      "fecha": "2026-11-07T19:22:26+00:00",
-      "mensaje_id": 60338,
-      "url": "https://t.me/empresaelectricacienfuegos1/60338",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47  Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-07T11:32:02+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-11-07T06:06:54+00:00",
-        "mensaje_id": 60328,
-        "url": "https://t.me/empresaelectricacienfuegos1/60328",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-91 Buena Vista, La Esperanza."
-      },
-      "lugares": [
-        "Buena Vista",
-        "La Esperanza"
-      ]
     },
     "C-84": {
       "fecha": "2026-11-07T19:22:26+00:00",
@@ -2022,7 +2009,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-91": {
+      "inicio": null,
+      "fin": "2026-11-08T07:30:25+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 55.0,
   "hora_inicio": null,
@@ -2079,12 +2072,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "id": 60221,
-      "url": "https://t.me/empresaelectricacienfuegos1/60221",
-      "fecha": "2026-11-04T19:25:21+00:00",
-      "motivo": "OCR_baja_confianza_o_sin_texto"
-    },
     {
       "motivo": "estado_ambiguo",
       "texto": "⚠️Se comunica a nuestros clientes que queda restablecido el servicio en el circuito C-35 Codicia y queda en fallo la sección S-3590 que afecta las zonas:",
@@ -2492,7 +2479,7 @@
     "texto": 63,
     "imagenes": 49,
     "pdf": 0,
-    "no_leidos": 3
+    "no_leidos": 2
   },
   "listas_completas": {
     "deficit": {
@@ -3452,7 +3439,7 @@
   ],
   "mw_fecha": "2026-11-07T19:22:26+00:00",
   "total_circuitos_afectados": 47,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 25,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3471,5 +3458,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-07T19:24:14.579911+00:00"
+  "actualizado": "2026-11-07T19:39:12.826793+00:00"
 }
