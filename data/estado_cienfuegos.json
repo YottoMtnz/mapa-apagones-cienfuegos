@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-07T11:32:02+00:00",
+  "reporte_fecha": "2026-11-07T13:44:13+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-07T03:06:29+00:00",
-  "mensajes_leidos": 115,
+  "mensajes_leidos": 118,
   "afectados": {
     "C-32": [
       "Yaguaramas",
@@ -215,6 +215,24 @@
       "La Loma"
     ],
     "C-59": [],
+    "C-35": [
+      "Terraza",
+      "Codicia",
+      "Breñas",
+      "Caña Brava",
+      "Dolores"
+    ],
+    "C-37": [
+      "El Tablón",
+      "Los Coquitos",
+      "El Túnel",
+      "Jovero",
+      "El Mamey",
+      "Crucesitas",
+      "El Nicho",
+      "Vegueta"
+    ],
+    "C-62": [],
     "C-85": [
       "Cumanayagua (Centro"
     ],
@@ -284,7 +302,8 @@
     "C-80": [
       "Punta Cotica",
       "Parque José Martí"
-    ]
+    ],
+    "C-76": []
   },
   "programados": {},
   "confirmados_con_servicio": {},
@@ -948,23 +967,50 @@
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
     },
-    "C-85": {
-      "fecha": "2026-11-07T11:32:02+00:00",
-      "mensaje_id": 60329,
-      "url": "https://t.me/empresaelectricacienfuegos1/60329",
+    "C-35": {
+      "fecha": "2026-11-07T13:44:13+00:00",
+      "mensaje_id": 60332,
+      "url": "https://t.me/empresaelectricacienfuegos1/60332",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-85 \"Cumanayagua (Centro)."
+      "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
+    },
+    "C-37": {
+      "fecha": "2026-11-07T13:44:13+00:00",
+      "mensaje_id": 60332,
+      "url": "https://t.me/empresaelectricacienfuegos1/60332",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
+    },
+    "C-62": {
+      "fecha": "2026-11-07T13:44:13+00:00",
+      "mensaje_id": 60332,
+      "url": "https://t.me/empresaelectricacienfuegos1/60332",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-62 Barajagua."
+    },
+    "C-85": {
+      "fecha": "2026-11-07T13:44:13+00:00",
+      "mensaje_id": 60332,
+      "url": "https://t.me/empresaelectricacienfuegos1/60332",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-85 Cumanayagua (Centro)."
     },
     "C-86": {
-      "fecha": "2026-11-07T11:32:02+00:00",
-      "mensaje_id": 60329,
-      "url": "https://t.me/empresaelectricacienfuegos1/60329",
+      "fecha": "2026-11-07T13:44:13+00:00",
+      "mensaje_id": 60332,
+      "url": "https://t.me/empresaelectricacienfuegos1/60332",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-86 \"Cumanayagua, emisora de radio"
+      "texto": "👉C-86 Cumanayagua, emisora de radio."
     },
     "C-55": {
       "fecha": "2026-11-07T11:32:02+00:00",
@@ -1091,6 +1137,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-80 Punta Cotica, Parque José Martí."
+    },
+    "C-76": {
+      "fecha": "2026-11-07T13:44:13+00:00",
+      "mensaje_id": 60332,
+      "url": "https://t.me/empresaelectricacienfuegos1/60332",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
     },
     "C-6": {
       "fecha": "2026-11-07T11:32:02+00:00",
@@ -1444,8 +1499,11 @@
     "C-21": "déficit",
     "C-28": "déficit",
     "C-59": "déficit",
-    "C-85": "déficit",
-    "C-86": "déficit",
+    "C-35": "emergencia",
+    "C-37": "emergencia",
+    "C-62": "emergencia",
+    "C-85": "emergencia / déficit",
+    "C-86": "emergencia / déficit",
     "C-55": "déficit",
     "C-52": "déficit",
     "C-5": "déficit",
@@ -1459,7 +1517,8 @@
     "C-3": "déficit",
     "C-15": "déficit",
     "C-19": "déficit",
-    "C-80": "déficit"
+    "C-80": "déficit",
+    "C-76": "emergencia"
   },
   "error": null,
   "pendientes_revision": [
@@ -1876,11 +1935,32 @@
       "id": 60322,
       "url": "https://t.me/empresaelectricacienfuegos1/60322",
       "fecha": "2026-11-06T22:50:23+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "👉🏻En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
+      "id": 60331,
+      "url": "https://t.me/empresaelectricacienfuegos1/60331",
+      "fecha": "2026-11-07T13:43:10+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de         1814 MW a las 19:40 horas.",
+      "id": 60331,
+      "url": "https://t.me/empresaelectricacienfuegos1/60331",
+      "fecha": "2026-11-07T13:43:10+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
+      "id": 60332,
+      "url": "https://t.me/empresaelectricacienfuegos1/60332",
+      "fecha": "2026-11-07T13:44:13+00:00"
     }
   ],
   "lectura": {
-    "texto": 63,
-    "imagenes": 52,
+    "texto": 65,
+    "imagenes": 53,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -2855,7 +2935,7 @@
     }
   ],
   "mw_fecha": "2026-11-07T11:32:02+00:00",
-  "total_circuitos_afectados": 55,
+  "total_circuitos_afectados": 59,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 12,
   "circuitos_sin_catalogar": [
@@ -2867,9 +2947,11 @@
     "C-43",
     "C-58",
     "C-59",
+    "C-62",
+    "C-76",
     "C-92",
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-07T13:34:16.198905+00:00"
+  "actualizado": "2026-11-07T13:49:16.601267+00:00"
 }
