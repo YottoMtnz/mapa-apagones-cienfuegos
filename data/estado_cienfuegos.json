@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-07T21:13:23+00:00",
-  "mensajes_leidos": 111,
+  "mensajes_leidos": 109,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -1841,13 +1841,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n¡SY\nÚ\n08 Mw |\nDEFICIT DE GENERACION\nA\nil\na\n¥\nUNE\nCIENFUEGOS\nEs",
-      "id": 60228,
-      "url": "https://t.me/empresaelectricacienfuegos1/60228",
-      "fecha": "2026-11-04T22:26:12+00:00"
-    },
-    {
       "id": 60233,
       "url": "https://t.me/empresaelectricacienfuegos1/60233",
       "fecha": "2026-11-05T00:08:12+00:00",
@@ -2222,8 +2215,8 @@
     }
   ],
   "lectura": {
-    "texto": 63,
-    "imagenes": 48,
+    "texto": 62,
+    "imagenes": 47,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -2848,15 +2841,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60329"
     },
     {
-      "circuito": "C-32",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-07T14:00:32+00:00",
-      "mensaje_id": 60333,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60329",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60333"
-    },
-    {
       "circuito": "C-22",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2912,6 +2896,15 @@
     },
     {
       "circuito": "C-25",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-07T14:00:32+00:00",
+      "mensaje_id": 60333,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60329",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60333"
+    },
+    {
+      "circuito": "C-32",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-07T14:00:32+00:00",
@@ -3211,5 +3204,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-07T22:22:49.471370+00:00"
+  "actualizado": "2026-11-07T22:39:19.733409+00:00"
 }
