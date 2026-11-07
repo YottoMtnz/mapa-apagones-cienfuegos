@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-07T19:30:25+00:00",
-  "mensajes_leidos": 113,
+  "mensajes_leidos": 112,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -1910,28 +1910,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "estado_ambiguo",
-      "texto": "⚠️Se comunica a nuestros clientes que queda restablecido el servicio en el circuito C-35 Codicia y queda en fallo la sección S-3590 que afecta las zonas:",
-      "circuitos": [
-        "C-35",
-        "S-3590"
-      ],
-      "id": 60223,
-      "url": "https://t.me/empresaelectricacienfuegos1/60223",
-      "fecha": "2026-11-04T21:01:45+00:00"
-    },
-    {
-      "motivo": "estado_ambiguo",
-      "texto": "⚠️Se comunica a nuestros clientes que queda restablecido el servicio en el circuito C-35 Codicia y queda en fallo la sección S-3590 que afecta las zonas:",
-      "circuitos": [
-        "C-35",
-        "S-3590"
-      ],
-      "id": 60223,
-      "url": "https://t.me/empresaelectricacienfuegos1/60223",
-      "fecha": "2026-11-04T21:01:45+00:00"
-    },
-    {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n5 MW ie” Q y\nA EN\nDÉFICIT DE GENERACIÓN A AO A",
       "id": 60224,
@@ -2321,7 +2299,7 @@
   ],
   "lectura": {
     "texto": 63,
-    "imagenes": 50,
+    "imagenes": 49,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -3307,5 +3285,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-07T20:54:25.716220+00:00"
+  "actualizado": "2026-11-07T21:09:25.859239+00:00"
 }
