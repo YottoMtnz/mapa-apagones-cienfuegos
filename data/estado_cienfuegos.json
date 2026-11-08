@@ -8,11 +8,6 @@
   "programado_fecha": "2026-11-08T21:27:52+00:00",
   "mensajes_leidos": 96,
   "afectados": {
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
-    ],
     "C-11": [
       "Ariza",
       "Silverita",
@@ -25,6 +20,11 @@
     "C-89": [],
     "C-90": [
       "FW1558) La Pollera"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
     ],
     "C-69": [
       "Junco Sur",
@@ -1046,15 +1046,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-67": {
-      "fecha": "2026-11-08T20:56:29+00:00",
-      "mensaje_id": 60368,
-      "url": "https://t.me/empresaelectricacienfuegos1/60368",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-67  \"El Crucero, Guaos, Naranjito."
-    },
     "C-11": {
       "fecha": "2026-11-08T20:56:29+00:00",
       "mensaje_id": 60368,
@@ -1090,6 +1081,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-90  La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
+    },
+    "C-67": {
+      "fecha": "2026-11-08T20:56:29+00:00",
+      "mensaje_id": 60368,
+      "url": "https://t.me/empresaelectricacienfuegos1/60368",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67  \"El Crucero, Guaos, Naranjito."
     },
     "C-69": {
       "fecha": "2026-11-08T20:56:29+00:00",
@@ -2173,11 +2173,11 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-67": "déficit",
     "C-11": "déficit",
     "C-30": "déficit",
     "C-89": "déficit",
     "C-90": "déficit",
+    "C-67": "déficit",
     "C-69": "déficit",
     "C-85": "déficit",
     "C-86": "déficit",
@@ -2216,13 +2216,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nDISPARO\nA\n-Y\nA\nsu\nAN\nAOS\nwy\n3\nha!\nmom \\\nvi",
-      "id": 60270,
-      "url": "https://t.me/empresaelectricacienfuegos1/60270",
-      "fecha": "2026-11-05T21:32:21+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n👉Disparo automático por frecuencia (DAF).\n\n\n📌Un disparo por frecuencia o Descarga Automática por Frecuencia, es una protección que posee el sistema eléctrico para cuando la frecuencia llega a valores mínimos permisibles que ponen en peligro la estabilidad de todo el sistema en su conjunto y provoca",
@@ -2547,6 +2540,13 @@
       "id": 60364,
       "url": "https://t.me/empresaelectricacienfuegos1/60364",
       "fecha": "2026-11-08T18:44:37+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\nGENERACIÓN Bf a. 4\nDEFICIT DE Nine 2\n| ¥ 4 | he\nUNE v |\nees Z Y A",
+      "id": 60370,
+      "url": "https://t.me/empresaelectricacienfuegos1/60370",
+      "fecha": "2026-11-08T21:40:22+00:00"
     }
   ],
   "lectura": {
@@ -2862,15 +2862,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60335"
     },
     {
-      "circuito": "C-67",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-07T17:25:11+00:00",
-      "mensaje_id": 60336,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60335",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60336"
-    },
-    {
       "circuito": "C-39",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2899,6 +2890,15 @@
     },
     {
       "circuito": "C-90",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-07T17:25:11+00:00",
+      "mensaje_id": 60336,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60335",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60336"
+    },
+    {
+      "circuito": "C-67",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-07T17:25:11+00:00",
@@ -3159,7 +3159,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60352"
     },
     {
-      "circuito": "C-67",
+      "circuito": "C-90",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-08T10:51:43+00:00",
@@ -3168,7 +3168,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60353"
     },
     {
-      "circuito": "C-90",
+      "circuito": "C-67",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-08T10:51:43+00:00",
@@ -3529,5 +3529,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-08T21:29:24.631534+00:00"
+  "actualizado": "2026-11-08T21:44:21.738342+00:00"
 }
