@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-08T22:40:48+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-08T21:27:52+00:00",
-  "mensajes_leidos": 93,
+  "programado_fecha": "2026-11-08T23:51:47+00:00",
+  "mensajes_leidos": 94,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -255,6 +255,12 @@
     "C-80": [
       "Punta Cotica",
       "Parque José Martí"
+    ],
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
     ]
   },
   "confirmados_con_servicio": {},
@@ -1179,6 +1185,15 @@
       "confianza": 100,
       "texto": "👉C-66 Reina (Parque)"
     },
+    "C-69": {
+      "fecha": "2026-11-08T23:51:47+00:00",
+      "mensaje_id": 60375,
+      "url": "https://t.me/empresaelectricacienfuegos1/60375",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69  Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
+    },
     "C-18": {
       "fecha": "2026-11-08T22:40:48+00:00",
       "mensaje_id": 60374,
@@ -1527,6 +1542,11 @@
     "C-80": {
       "inicio": null,
       "fin": "2026-11-09T09:27:52+00:00",
+      "fecha_ambigua": false
+    },
+    "C-69": {
+      "inicio": null,
+      "fin": "2026-11-09T11:51:47+00:00",
       "fecha_ambigua": false
     }
   },
@@ -1885,7 +1905,7 @@
   ],
   "lectura": {
     "texto": 54,
-    "imagenes": 39,
+    "imagenes": 40,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -2858,7 +2878,7 @@
   ],
   "mw_fecha": "2026-11-08T22:40:48+00:00",
   "total_circuitos_afectados": 53,
-  "total_circuitos_programados": 3,
+  "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2875,5 +2895,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-08T23:44:18.800220+00:00"
+  "actualizado": "2026-11-08T23:59:26.813666+00:00"
 }
