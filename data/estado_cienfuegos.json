@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-08T20:07:25+00:00",
-  "mensajes_leidos": 96,
+  "mensajes_leidos": 95,
   "afectados": {
     "C-67": [
       "El Crucero",
@@ -448,6 +448,33 @@
         "Pueblo Griffo Nuevo"
       ]
     },
+    "C-73": {
+      "fecha": "2026-11-08T20:05:01+00:00",
+      "mensaje_id": 60366,
+      "url": "https://t.me/empresaelectricacienfuegos1/60366",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-11  Ariza, Silverita, Nuevo México.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-08T15:13:40+00:00",
+      "listas_consecutivas": 5,
+      "aviso_anterior": {
+        "fecha": "2026-11-08T13:57:30+00:00",
+        "mensaje_id": 60357,
+        "url": "https://t.me/empresaelectricacienfuegos1/60357",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-73 \"Perseverancia, 1ro de Mayo."
+      },
+      "lugares": [
+        "Perseverancia",
+        "1ro de Mayo"
+      ]
+    },
     "C-42": {
       "fecha": "2026-11-08T20:05:01+00:00",
       "mensaje_id": 60366,
@@ -474,33 +501,6 @@
         "Viet Nam",
         "Real Campiña",
         "Guanito"
-      ]
-    },
-    "C-73": {
-      "fecha": "2026-11-08T20:05:01+00:00",
-      "mensaje_id": 60366,
-      "url": "https://t.me/empresaelectricacienfuegos1/60366",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-08T15:13:40+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-11-08T13:57:30+00:00",
-        "mensaje_id": 60357,
-        "url": "https://t.me/empresaelectricacienfuegos1/60357",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-73 \"Perseverancia, 1ro de Mayo."
-      },
-      "lugares": [
-        "Perseverancia",
-        "1ro de Mayo"
       ]
     },
     "C-36": {
@@ -2656,7 +2656,7 @@
     }
   ],
   "lectura": {
-    "texto": 56,
+    "texto": 55,
     "imagenes": 40,
     "pdf": 0,
     "no_leidos": 1
@@ -3388,7 +3388,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60357"
     },
     {
-      "circuito": "C-42",
+      "circuito": "C-73",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-08T15:13:40+00:00",
@@ -3397,7 +3397,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60359"
     },
     {
-      "circuito": "C-73",
+      "circuito": "C-42",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-08T15:13:40+00:00",
@@ -3632,5 +3632,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-08T20:29:25.069495+00:00"
+  "actualizado": "2026-11-08T20:44:25.217736+00:00"
 }
