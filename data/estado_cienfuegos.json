@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-08T20:56:29+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-08T20:07:25+00:00",
-  "mensajes_leidos": 95,
+  "programado_fecha": "2026-11-08T21:27:52+00:00",
+  "mensajes_leidos": 96,
   "afectados": {
     "C-67": [
       "El Crucero",
@@ -184,6 +184,20 @@
     "C-54": [
       "Batey Mal Tiempo",
       "Loma de Tola"
+    ],
+    "C-66": [
+      "Reina (Parque"
+    ],
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
+    ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
+    ],
+    "C-19": [
+      "Tulipán"
     ]
   },
   "confirmados_con_servicio": {},
@@ -1428,6 +1442,33 @@
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
     },
+    "C-66": {
+      "fecha": "2026-11-08T21:27:52+00:00",
+      "mensaje_id": 60369,
+      "url": "https://t.me/empresaelectricacienfuegos1/60369",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-66 Reina (Parque)"
+    },
+    "C-65": {
+      "fecha": "2026-11-08T21:27:52+00:00",
+      "mensaje_id": 60369,
+      "url": "https://t.me/empresaelectricacienfuegos1/60369",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-66 Reina (Parque)"
+    },
+    "C-80": {
+      "fecha": "2026-11-08T21:27:52+00:00",
+      "mensaje_id": 60369,
+      "url": "https://t.me/empresaelectricacienfuegos1/60369",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-66 Reina (Parque)"
+    },
     "C-6": {
       "fecha": "2026-11-08T20:56:29+00:00",
       "mensaje_id": 60368,
@@ -1688,86 +1729,6 @@
         "San Fernando de Camarones",
         "Jurisdicción",
         "Manaquita"
-      ]
-    },
-    "C-80": {
-      "fecha": "2026-11-08T20:56:29+00:00",
-      "mensaje_id": 60368,
-      "url": "https://t.me/empresaelectricacienfuegos1/60368",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-08T17:35:19+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-11-08T16:22:57+00:00",
-        "mensaje_id": 60361,
-        "url": "https://t.me/empresaelectricacienfuegos1/60361",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-80  Punta Cotica, Parque José Martí."
-      },
-      "lugares": [
-        "Punta Cotica",
-        "Parque José Martí"
-      ]
-    },
-    "C-65": {
-      "fecha": "2026-11-08T20:56:29+00:00",
-      "mensaje_id": 60368,
-      "url": "https://t.me/empresaelectricacienfuegos1/60368",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-08T17:35:19+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-11-08T16:22:57+00:00",
-        "mensaje_id": 60361,
-        "url": "https://t.me/empresaelectricacienfuegos1/60361",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-65  Centro histórico, Reina (Aduana)"
-      },
-      "lugares": [
-        "Centro histórico",
-        "Reina (Aduana"
-      ]
-    },
-    "C-66": {
-      "fecha": "2026-11-08T20:56:29+00:00",
-      "mensaje_id": 60368,
-      "url": "https://t.me/empresaelectricacienfuegos1/60368",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-08T17:35:19+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-11-08T16:22:57+00:00",
-        "mensaje_id": 60361,
-        "url": "https://t.me/empresaelectricacienfuegos1/60361",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-66  Reina (Parque)"
-      },
-      "lugares": [
-        "Reina (Parque"
       ]
     },
     "C-47": {
@@ -2184,6 +2145,26 @@
       "inicio": null,
       "fin": "2026-11-09T08:07:25+00:00",
       "fecha_ambigua": false
+    },
+    "C-66": {
+      "inicio": null,
+      "fin": "2026-11-09T09:27:52+00:00",
+      "fecha_ambigua": false
+    },
+    "C-65": {
+      "inicio": null,
+      "fin": "2026-11-09T09:27:52+00:00",
+      "fecha_ambigua": false
+    },
+    "C-80": {
+      "inicio": null,
+      "fin": "2026-11-09T09:27:52+00:00",
+      "fecha_ambigua": false
+    },
+    "C-19": {
+      "inicio": null,
+      "fin": "2026-11-09T09:27:52+00:00",
+      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
@@ -2570,7 +2551,7 @@
   ],
   "lectura": {
     "texto": 56,
-    "imagenes": 39,
+    "imagenes": 40,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -3531,7 +3512,7 @@
   ],
   "mw_fecha": "2026-11-08T20:56:29+00:00",
   "total_circuitos_afectados": 40,
-  "total_circuitos_programados": 4,
+  "total_circuitos_programados": 8,
   "total_restablecimientos_probables": 30,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3548,5 +3529,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-08T21:14:17.446703+00:00"
+  "actualizado": "2026-11-08T21:29:24.631534+00:00"
 }
