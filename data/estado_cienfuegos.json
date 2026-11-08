@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-08T21:46:35+00:00",
+  "reporte_fecha": "2026-11-08T22:06:33+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-08T21:27:52+00:00",
-  "mensajes_leidos": 94,
+  "mensajes_leidos": 93,
   "afectados": {
     "C-11": [
       "Ariza",
@@ -928,13 +928,13 @@
       "texto": "👉C-90  La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
     "C-67": {
-      "fecha": "2026-11-08T21:46:35+00:00",
-      "mensaje_id": 60371,
-      "url": "https://t.me/empresaelectricacienfuegos1/60371",
+      "fecha": "2026-11-08T22:06:33+00:00",
+      "mensaje_id": 60372,
+      "url": "https://t.me/empresaelectricacienfuegos1/60372",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-67  \"El Crucero, Guaos, Naranjito."
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     },
     "C-69": {
       "fecha": "2026-11-08T21:46:35+00:00",
@@ -1953,7 +1953,7 @@
     "C-30": "déficit",
     "C-89": "déficit",
     "C-90": "déficit",
-    "C-67": "déficit",
+    "C-67": "avería / déficit",
     "C-69": "déficit",
     "C-85": "déficit",
     "C-86": "déficit",
@@ -1998,27 +1998,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠Se comunica a nuestros clientes que se encuentra afectado el servicio por Disparo Automático por Frecuencia (DAF) en la línea:\n\n\n👉L-1890 Juraguá- La Cen.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas.",
-      "id": 60274,
-      "url": "https://t.me/empresaelectricacienfuegos1/60274",
-      "fecha": "2026-11-05T22:00:50+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠Se comunica a nuestros clientes que se encuentra afectado el servicio por Disparo Automático por Frecuencia (DAF) en la línea:\n\n\n👉L-1890 Juraguá- La Cen.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas\nLíneas afectadas por\nDisparo Automático por Frecuencia\nA\nee\nS\nQ\nre\nel",
-      "id": 60274,
-      "url": "https://t.me/empresaelectricacienfuegos1/60274",
-      "fecha": "2026-11-05T22:00:50+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "⚠Se comunica a nuestros clientes que se encuentra restablecido el servicio en la línea:\n\n\n👉L-1890 Juraguá- La Cen.\n\n\n📌Ofrecemos disculpas por las molestias ocasionadas",
-      "id": 60275,
-      "url": "https://t.me/empresaelectricacienfuegos1/60275",
-      "fecha": "2026-11-05T22:07:41+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n1\n70 MW\nDÉFICIT DE GENERACIÓN |\nee\n4 |]\nUNE\nEMPRESA ELECTRICA\nCIENFUEGOS\na\nge",
@@ -2301,10 +2280,17 @@
       "id": 60370,
       "url": "https://t.me/empresaelectricacienfuegos1/60370",
       "fecha": "2026-11-08T21:40:22+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuit\n_ enfalla",
+      "id": 60372,
+      "url": "https://t.me/empresaelectricacienfuegos1/60372",
+      "fecha": "2026-11-08T22:06:33+00:00"
     }
   ],
   "lectura": {
-    "texto": 55,
+    "texto": 54,
     "imagenes": 39,
     "pdf": 0,
     "no_leidos": 1
@@ -3289,5 +3275,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-08T21:59:21.724698+00:00"
+  "actualizado": "2026-11-08T22:14:25.538966+00:00"
 }
