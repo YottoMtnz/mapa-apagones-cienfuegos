@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-08T15:13:40+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": null,
-  "mensajes_leidos": 102,
+  "programado_fecha": "2026-11-08T16:02:49+00:00",
+  "mensajes_leidos": 103,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -240,7 +240,9 @@
       "Juraguá"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-92": []
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-6": {
@@ -1214,6 +1216,15 @@
       "confianza": 100,
       "texto": "👉C-27  Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
     },
+    "C-92": {
+      "fecha": "2026-11-08T16:02:49+00:00",
+      "mensaje_id": 60360,
+      "url": "https://t.me/empresaelectricacienfuegos1/60360",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-92 Calzada Dolores, San Lázaro."
+    },
     "C-6": {
       "fecha": "2026-11-08T15:13:40+00:00",
       "mensaje_id": 60359,
@@ -1514,30 +1525,6 @@
         "Cherepa"
       ]
     },
-    "C-92": {
-      "fecha": "2026-11-08T15:13:40+00:00",
-      "mensaje_id": 60359,
-      "url": "https://t.me/empresaelectricacienfuegos1/60359",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47  Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-08T13:57:30+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-08T11:15:07+00:00",
-        "mensaje_id": 60354,
-        "url": "https://t.me/empresaelectricacienfuegos1/60354",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-92  \"Calzada Dolores, San Lázaro."
-      },
-      "lugares": []
-    },
     "C-59": {
       "fecha": "2026-11-08T15:13:40+00:00",
       "mensaje_id": 60359,
@@ -1733,7 +1720,13 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-92": {
+      "inicio": null,
+      "fin": "2026-11-09T04:02:49+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 68.0,
   "hora_inicio": null,
@@ -2135,7 +2128,7 @@
   ],
   "lectura": {
     "texto": 60,
-    "imagenes": 42,
+    "imagenes": 43,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -3106,7 +3099,7 @@
   ],
   "mw_fecha": "2026-11-08T15:13:40+00:00",
   "total_circuitos_afectados": 50,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 19,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3122,5 +3115,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-08T15:49:18.238280+00:00"
+  "actualizado": "2026-11-08T16:04:26.255383+00:00"
 }
