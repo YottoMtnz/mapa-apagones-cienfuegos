@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-08T21:27:52+00:00",
-  "mensajes_leidos": 93,
+  "mensajes_leidos": 91,
   "afectados": {
     "C-11": [
       "Ariza",
@@ -215,34 +215,6 @@
   },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
-    "C-6": {
-      "fecha": "2026-11-08T21:46:35+00:00",
-      "mensaje_id": 60371,
-      "url": "https://t.me/empresaelectricacienfuegos1/60371",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T00:28:02+00:00",
-      "listas_consecutivas": 38,
-      "aviso_anterior": {
-        "fecha": "2026-11-05T22:15:29+00:00",
-        "mensaje_id": 60276,
-        "url": "https://t.me/empresaelectricacienfuegos1/60276",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-6 \"Rancho Luna, Pasacaballo, La Milpa."
-      },
-      "lugares": [
-        "Rancho Luna",
-        "Pasacaballo",
-        "La Milpa"
-      ]
-    },
     "C-18": {
       "fecha": "2026-11-08T21:46:35+00:00",
       "mensaje_id": 60371,
@@ -1332,34 +1304,6 @@
       "confianza": 100,
       "texto": "👉C-66 Reina (Parque)"
     },
-    "C-6": {
-      "fecha": "2026-11-08T21:46:35+00:00",
-      "mensaje_id": 60371,
-      "url": "https://t.me/empresaelectricacienfuegos1/60371",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T00:28:02+00:00",
-      "listas_consecutivas": 38,
-      "aviso_anterior": {
-        "fecha": "2026-11-05T22:15:29+00:00",
-        "mensaje_id": 60276,
-        "url": "https://t.me/empresaelectricacienfuegos1/60276",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-6 \"Rancho Luna, Pasacaballo, La Milpa."
-      },
-      "lugares": [
-        "Rancho Luna",
-        "Pasacaballo",
-        "La Milpa"
-      ]
-    },
     "C-18": {
       "fecha": "2026-11-08T21:46:35+00:00",
       "mensaje_id": 60371,
@@ -1999,13 +1943,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\n1\n70 MW\nDÉFICIT DE GENERACIÓN |\nee\n4 |]\nUNE\nEMPRESA ELECTRICA\nCIENFUEGOS\na\nge",
-      "id": 60277,
-      "url": "https://t.me/empresaelectricacienfuegos1/60277",
-      "fecha": "2026-11-05T22:15:30+00:00"
-    },
-    {
       "id": 60284,
       "url": "https://t.me/empresaelectricacienfuegos1/60284",
       "fecha": "2026-11-06T04:34:44+00:00",
@@ -2290,8 +2227,8 @@
     }
   ],
   "lectura": {
-    "texto": 54,
-    "imagenes": 39,
+    "texto": 53,
+    "imagenes": 38,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -3259,7 +3196,7 @@
   "mw_fecha": "2026-11-08T21:46:35+00:00",
   "total_circuitos_afectados": 46,
   "total_circuitos_programados": 3,
-  "total_restablecimientos_probables": 24,
+  "total_restablecimientos_probables": 23,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3275,5 +3212,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-08T22:14:25.538966+00:00"
+  "actualizado": "2026-11-08T22:29:22.644298+00:00"
 }
