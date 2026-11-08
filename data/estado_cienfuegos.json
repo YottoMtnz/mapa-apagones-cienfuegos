@@ -89,24 +89,6 @@
       "Castillo de Jagua",
       "La Loma"
     ],
-    "C-35": [
-      "Terraza",
-      "Codicia",
-      "Breñas",
-      "Caña Brava",
-      "Dolores"
-    ],
-    "C-37": [
-      "El Tablón",
-      "Los Coquitos",
-      "El Túnel",
-      "Jovero",
-      "El Mamey",
-      "Crucesitas",
-      "El Nicho",
-      "Vegueta"
-    ],
-    "C-62": [],
     "C-85": [
       "Cumanayagua (Centro"
     ],
@@ -145,7 +127,6 @@
       "California",
       "El Salado"
     ],
-    "C-76": [],
     "C-88": [
       "San Ignacio",
       "Babiney",
@@ -814,33 +795,6 @@
       "confianza": 100,
       "texto": "👉C-28  CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)"
     },
-    "C-35": {
-      "fecha": "2026-11-07T13:44:13+00:00",
-      "mensaje_id": 60332,
-      "url": "https://t.me/empresaelectricacienfuegos1/60332",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
-    },
-    "C-37": {
-      "fecha": "2026-11-07T13:44:13+00:00",
-      "mensaje_id": 60332,
-      "url": "https://t.me/empresaelectricacienfuegos1/60332",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-37 El Tablón, Los Coquitos, El Túnel, Jovero, El Mamey, Crucesitas, El Nicho, Vegueta."
-    },
-    "C-62": {
-      "fecha": "2026-11-07T13:44:13+00:00",
-      "mensaje_id": 60332,
-      "url": "https://t.me/empresaelectricacienfuegos1/60332",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-62 Barajagua."
-    },
     "C-85": {
       "fecha": "2026-11-08T00:16:04+00:00",
       "mensaje_id": 60347,
@@ -903,15 +857,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-101               Cartagena, La Modelo, Santa Rosa, La Piragua, El Bajío, California, El Salado."
-    },
-    "C-76": {
-      "fecha": "2026-11-07T13:44:13+00:00",
-      "mensaje_id": 60332,
-      "url": "https://t.me/empresaelectricacienfuegos1/60332",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-76 Punta la Cueva, Junco Viejo."
     },
     "C-88": {
       "fecha": "2026-11-08T00:16:04+00:00",
@@ -1584,17 +1529,13 @@
     "C-69": "déficit",
     "C-27": "déficit",
     "C-28": "déficit",
-    "C-35": "emergencia",
-    "C-37": "emergencia",
-    "C-62": "emergencia",
-    "C-85": "emergencia / déficit",
-    "C-86": "emergencia / déficit",
+    "C-85": "déficit",
+    "C-86": "déficit",
     "C-52": "déficit",
     "C-36": "déficit",
     "C-103": "déficit",
     "C-102": "déficit",
     "C-101": "déficit",
-    "C-76": "emergencia",
     "C-88": "déficit",
     "C-31": "déficit",
     "C-92": "déficit",
@@ -2982,7 +2923,7 @@
     }
   ],
   "mw_fecha": "2026-11-08T00:16:04+00:00",
-  "total_circuitos_afectados": 59,
+  "total_circuitos_afectados": 55,
   "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
@@ -2995,11 +2936,9 @@
     "C-43",
     "C-58",
     "C-59",
-    "C-62",
-    "C-76",
     "C-92",
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-08T01:32:17.411408+00:00"
+  "actualizado": "2026-11-08T01:44:26.003554+00:00"
 }
