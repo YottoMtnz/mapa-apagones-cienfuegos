@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-08T00:16:04+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-07T21:13:23+00:00",
-  "mensajes_leidos": 108,
+  "programado_fecha": "2026-11-08T01:24:58+00:00",
+  "mensajes_leidos": 109,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -294,7 +294,9 @@
       "Tulipán"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-17": []
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-6": {
@@ -1199,6 +1201,15 @@
       "confianza": 100,
       "texto": "👉C-19  Tulipán"
     },
+    "C-17": {
+      "fecha": "2026-11-08T01:24:58+00:00",
+      "mensaje_id": 60348,
+      "url": "https://t.me/empresaelectricacienfuegos1/60348",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-17 Ave 5 de sept, Distrito Petrolero, Hermanas Giralt"
+    },
     "C-6": {
       "fecha": "2026-11-08T00:16:04+00:00",
       "mensaje_id": 60347,
@@ -1542,33 +1553,15 @@
         "texto": "👉C-95  \"Refinería, Carolina."
       },
       "lugares": []
-    },
-    "C-17": {
-      "fecha": "2026-11-08T00:16:04+00:00",
-      "mensaje_id": 60347,
-      "url": "https://t.me/empresaelectricacienfuegos1/60347",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-47  Elpidio Gómez, Altamira, La Peseta.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-08T00:16:04+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-11-07T22:44:41+00:00",
-        "mensaje_id": 60346,
-        "url": "https://t.me/empresaelectricacienfuegos1/60346",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-17  Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
-      },
-      "lugares": []
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-17": {
+      "inicio": null,
+      "fin": "2026-11-08T13:24:58+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 70.0,
   "hora_inicio": null,
@@ -2014,7 +2007,7 @@
   ],
   "lectura": {
     "texto": 61,
-    "imagenes": 47,
+    "imagenes": 48,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -2990,7 +2983,7 @@
   ],
   "mw_fecha": "2026-11-08T00:16:04+00:00",
   "total_circuitos_afectados": 59,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 1,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3008,5 +3001,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-08T01:24:17.055101+00:00"
+  "actualizado": "2026-11-08T01:32:17.411408+00:00"
 }
