@@ -6,8 +6,11 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-08T03:18:22+00:00",
-  "mensajes_leidos": 105,
+  "mensajes_leidos": 102,
   "afectados": {
+    "C-90": [
+      "FW1558) La Pollera"
+    ],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
@@ -18,9 +21,6 @@
       "Ciego Montero",
       "La Amalia",
       "Ceiba Hueca"
-    ],
-    "C-90": [
-      "FW1558) La Pollera"
     ],
     "C-47": [
       "Elpidio Gómez",
@@ -667,6 +667,15 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
+    "C-90": {
+      "fecha": "2026-11-08T11:15:07+00:00",
+      "mensaje_id": 60354,
+      "url": "https://t.me/empresaelectricacienfuegos1/60354",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-90  La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
+    },
     "C-23": {
       "fecha": "2026-11-08T11:15:07+00:00",
       "mensaje_id": 60354,
@@ -684,15 +693,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-49  Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
-    },
-    "C-90": {
-      "fecha": "2026-11-08T11:15:07+00:00",
-      "mensaje_id": 60354,
-      "url": "https://t.me/empresaelectricacienfuegos1/60354",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-90  La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
     "C-47": {
       "fecha": "2026-11-08T11:15:07+00:00",
@@ -1550,9 +1550,9 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-90": "déficit",
     "C-23": "déficit",
     "C-49": "déficit",
-    "C-90": "déficit",
     "C-47": "déficit",
     "C-42": "déficit",
     "C-73": "déficit",
@@ -1606,20 +1606,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\nGO MW ie” Q y\nA EN\nDÉFICIT DE GENERACIÓN A AO A",
-      "id": 60246,
-      "url": "https://t.me/empresaelectricacienfuegos1/60246",
-      "fecha": "2026-11-05T11:23:38+00:00"
-    },
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Circuitos afectados por\nAVERÍA\n|\n-\nq\nAN\n$\nY\n4%\n~ &\ne?\nG",
-      "id": 60248,
-      "url": "https://t.me/empresaelectricacienfuegos1/60248",
-      "fecha": "2026-11-05T11:27:38+00:00"
-    },
     {
       "motivo": "resumen_historico",
       "texto": "👉🏻En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
@@ -1954,8 +1940,8 @@
     }
   ],
   "lectura": {
-    "texto": 61,
-    "imagenes": 44,
+    "texto": 60,
+    "imagenes": 42,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -2945,5 +2931,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-08T11:19:15.803855+00:00"
+  "actualizado": "2026-11-08T11:34:23.285172+00:00"
 }
