@@ -6,8 +6,11 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-08T03:18:22+00:00",
-  "mensajes_leidos": 109,
+  "mensajes_leidos": 107,
   "afectados": {
+    "C-90": [
+      "FW1558) La Pollera"
+    ],
     "C-23": [
       "Turquino",
       "5 de Septiembre",
@@ -18,9 +21,6 @@
       "Ciego Montero",
       "La Amalia",
       "Ceiba Hueca"
-    ],
-    "C-90": [
-      "FW1558) La Pollera"
     ],
     "C-47": [
       "Elpidio Gómez",
@@ -690,6 +690,15 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
+    "C-90": {
+      "fecha": "2026-11-08T03:16:16+00:00",
+      "mensaje_id": 60350,
+      "url": "https://t.me/empresaelectricacienfuegos1/60350",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-90  La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
+    },
     "C-23": {
       "fecha": "2026-11-08T03:16:16+00:00",
       "mensaje_id": 60350,
@@ -707,15 +716,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-49  Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
-    },
-    "C-90": {
-      "fecha": "2026-11-08T03:16:16+00:00",
-      "mensaje_id": 60350,
-      "url": "https://t.me/empresaelectricacienfuegos1/60350",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-90  La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
     },
     "C-47": {
       "fecha": "2026-11-08T03:16:16+00:00",
@@ -1527,9 +1527,9 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-90": "déficit",
     "C-23": "déficit",
     "C-49": "déficit",
-    "C-90": "déficit",
     "C-47": "déficit",
     "C-42": "déficit",
     "C-67": "déficit",
@@ -1939,8 +1939,8 @@
     }
   ],
   "lectura": {
-    "texto": 62,
-    "imagenes": 47,
+    "texto": 61,
+    "imagenes": 46,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -2013,7 +2013,7 @@
   },
   "transiciones": [
     {
-      "circuito": "C-90",
+      "circuito": "C-406",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-06T11:00:29+00:00",
@@ -2931,5 +2931,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-08T03:29:12.809378+00:00"
+  "actualizado": "2026-11-08T03:44:21.253033+00:00"
 }
