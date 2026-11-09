@@ -2,12 +2,19 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-09T15:47:51+00:00",
+  "reporte_fecha": "2026-11-09T16:03:22+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-09T15:33:06+00:00",
-  "mensajes_leidos": 92,
+  "mensajes_leidos": 91,
   "afectados": {
+    "C-35": [
+      "Terraza",
+      "Codicia",
+      "Breñas",
+      "Caña Brava",
+      "Dolores"
+    ],
     "C-86": [
       "Cumanayagua",
       "emisora de radio"
@@ -170,7 +177,15 @@
       "La Peseta"
     ],
     "C-94": [],
-    "C-89": []
+    "C-89": [],
+    "C-36": [
+      "Cumanayagua (Sur",
+      "La Guasasa",
+      "Ceibabo",
+      "La Furnia",
+      "Monasterio",
+      "El Concuní"
+    ]
   },
   "programados": {
     "C-28": [
@@ -819,37 +834,6 @@
         "Palmira (Sur"
       ]
     },
-    "C-36": {
-      "fecha": "2026-11-09T15:47:51+00:00",
-      "mensaje_id": 60396,
-      "url": "https://t.me/empresaelectricacienfuegos1/60396",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-09T14:30:22+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-09T13:09:51+00:00",
-        "mensaje_id": 60391,
-        "url": "https://t.me/empresaelectricacienfuegos1/60391",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
-      },
-      "lugares": [
-        "Cumanayagua (Sur",
-        "La Guasasa",
-        "Ceibabo",
-        "La Furnia",
-        "Monasterio",
-        "El Concuní"
-      ]
-    },
     "C-84": {
       "fecha": "2026-11-09T15:47:51+00:00",
       "mensaje_id": 60396,
@@ -1048,6 +1032,15 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
+    "C-35": {
+      "fecha": "2026-11-09T16:03:22+00:00",
+      "mensaje_id": 60397,
+      "url": "https://t.me/empresaelectricacienfuegos1/60397",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
+    },
     "C-86": {
       "fecha": "2026-11-09T15:47:51+00:00",
       "mensaje_id": 60396,
@@ -1371,6 +1364,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
+    },
+    "C-36": {
+      "fecha": "2026-11-09T16:03:22+00:00",
+      "mensaje_id": 60397,
+      "url": "https://t.me/empresaelectricacienfuegos1/60397",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
     },
     "C-28": {
       "fecha": "2026-11-09T11:16:19+00:00",
@@ -2011,37 +2013,6 @@
         "Palmira (Sur"
       ]
     },
-    "C-36": {
-      "fecha": "2026-11-09T15:47:51+00:00",
-      "mensaje_id": 60396,
-      "url": "https://t.me/empresaelectricacienfuegos1/60396",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-09T14:30:22+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-09T13:09:51+00:00",
-        "mensaje_id": 60391,
-        "url": "https://t.me/empresaelectricacienfuegos1/60391",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
-      },
-      "lugares": [
-        "Cumanayagua (Sur",
-        "La Guasasa",
-        "Ceibabo",
-        "La Furnia",
-        "Monasterio",
-        "El Concuní"
-      ]
-    },
     "C-84": {
       "fecha": "2026-11-09T15:47:51+00:00",
       "mensaje_id": 60396,
@@ -2266,6 +2237,7 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
+    "C-35": "avería",
     "C-86": "déficit",
     "C-78": "déficit",
     "C-58": "déficit",
@@ -2301,7 +2273,8 @@
     "C-27": "déficit",
     "C-47": "déficit",
     "C-94": "déficit",
-    "C-89": "déficit"
+    "C-89": "déficit",
+    "C-36": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -2553,11 +2526,18 @@
       "id": 60392,
       "url": "https://t.me/empresaelectricacienfuegos1/60392",
       "fecha": "2026-11-09T13:09:53+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\n~ > = | E 4",
+      "id": 60397,
+      "url": "https://t.me/empresaelectricacienfuegos1/60397",
+      "fecha": "2026-11-09T16:03:22+00:00"
     }
   ],
   "lectura": {
-    "texto": 56,
-    "imagenes": 36,
+    "texto": 54,
+    "imagenes": 37,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -3512,9 +3492,9 @@
     }
   ],
   "mw_fecha": "2026-11-09T15:47:51+00:00",
-  "total_circuitos_afectados": 36,
+  "total_circuitos_afectados": 38,
   "total_circuitos_programados": 4,
-  "total_restablecimientos_probables": 31,
+  "total_restablecimientos_probables": 30,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -3530,5 +3510,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T15:54:14.537387+00:00"
+  "actualizado": "2026-11-09T16:09:25.222793+00:00"
 }
