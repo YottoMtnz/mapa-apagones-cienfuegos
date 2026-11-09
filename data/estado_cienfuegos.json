@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-11-09T19:58:00+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-09T19:51:48+00:00",
+  "programado_fecha": "2026-11-09T21:13:44+00:00",
   "mensajes_leidos": 95,
   "afectados": {
     "C-85": [
@@ -233,6 +233,20 @@
       "Calle 35 de Ave 58 hasta Ave 64",
       "Ave 58 de Calle 47 hasta Calle 49",
       "Calle 47 de Ave 54 hasta Ave 58"
+    ],
+    "C-19": [
+      "Tulipán"
+    ],
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
+    ],
+    "C-66": [
+      "Reina (Parque"
+    ],
+    "C-80": [
+      "Punta Cotica",
+      "Parque José Martí"
     ]
   },
   "confirmados_con_servicio": {
@@ -1314,6 +1328,42 @@
       "confianza": 100,
       "texto": "👉C-406 San Lázaro, Calle 39 desde Ave 74 hasta 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta 49, Calle 47 de Ave 54 hasta Ave 58."
     },
+    "C-19": {
+      "fecha": "2026-11-09T21:13:44+00:00",
+      "mensaje_id": 60414,
+      "url": "https://t.me/empresaelectricacienfuegos1/60414",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-65": {
+      "fecha": "2026-11-09T21:13:44+00:00",
+      "mensaje_id": 60414,
+      "url": "https://t.me/empresaelectricacienfuegos1/60414",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-66": {
+      "fecha": "2026-11-09T21:13:44+00:00",
+      "mensaje_id": 60414,
+      "url": "https://t.me/empresaelectricacienfuegos1/60414",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-80": {
+      "fecha": "2026-11-09T21:13:44+00:00",
+      "mensaje_id": 60414,
+      "url": "https://t.me/empresaelectricacienfuegos1/60414",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
     "C-35": {
       "fecha": "2026-11-09T17:37:35+00:00",
       "mensaje_id": 60402,
@@ -1331,15 +1381,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
-    },
-    "C-66": {
-      "fecha": "2026-11-09T19:45:49+00:00",
-      "mensaje_id": 60408,
-      "url": "https://t.me/empresaelectricacienfuegos1/60408",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-66 Reina (Parque)."
     },
     "C-38": {
       "fecha": "2026-11-09T19:58:00+00:00",
@@ -1666,59 +1707,6 @@
         "El Paisíto"
       ]
     },
-    "C-65": {
-      "fecha": "2026-11-09T19:58:00+00:00",
-      "mensaje_id": 60410,
-      "url": "https://t.me/empresaelectricacienfuegos1/60410",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-09T13:09:51+00:00",
-      "listas_consecutivas": 6,
-      "aviso_anterior": {
-        "fecha": "2026-11-09T11:50:56+00:00",
-        "mensaje_id": 60389,
-        "url": "https://t.me/empresaelectricacienfuegos1/60389",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-65  Centro histórico, Reina (Aduana)"
-      },
-      "lugares": [
-        "Centro histórico",
-        "Reina (Aduana"
-      ]
-    },
-    "C-19": {
-      "fecha": "2026-11-09T19:58:00+00:00",
-      "mensaje_id": 60410,
-      "url": "https://t.me/empresaelectricacienfuegos1/60410",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-09T17:11:54+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-09T15:47:51+00:00",
-        "mensaje_id": 60396,
-        "url": "https://t.me/empresaelectricacienfuegos1/60396",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-19 Tulipán"
-      },
-      "lugares": [
-        "Tulipán"
-      ]
-    },
     "C-33": {
       "fecha": "2026-11-09T19:58:00+00:00",
       "mensaje_id": 60410,
@@ -1807,33 +1795,6 @@
         "Cafetal",
         "Faisanera"
       ]
-    },
-    "C-80": {
-      "fecha": "2026-11-09T19:58:00+00:00",
-      "mensaje_id": 60410,
-      "url": "https://t.me/empresaelectricacienfuegos1/60410",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-09T18:41:48+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-09T17:11:54+00:00",
-        "mensaje_id": 60400,
-        "url": "https://t.me/empresaelectricacienfuegos1/60400",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-80 Punta Cotica, Parque José Martí."
-      },
-      "lugares": [
-        "Punta Cotica",
-        "Parque José Martí"
-      ]
     }
   },
   "horarios": {
@@ -1855,6 +1816,26 @@
     "C-406": {
       "inicio": null,
       "fin": "2026-11-10T07:51:48+00:00",
+      "fecha_ambigua": false
+    },
+    "C-19": {
+      "inicio": null,
+      "fin": "2026-11-10T09:13:44+00:00",
+      "fecha_ambigua": false
+    },
+    "C-65": {
+      "inicio": null,
+      "fin": "2026-11-10T09:13:44+00:00",
+      "fecha_ambigua": false
+    },
+    "C-66": {
+      "inicio": null,
+      "fin": "2026-11-10T09:13:44+00:00",
+      "fecha_ambigua": false
+    },
+    "C-80": {
+      "inicio": null,
+      "fin": "2026-11-10T09:13:44+00:00",
       "fecha_ambigua": false
     }
   },
@@ -1914,46 +1895,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_estado_explicito",
-      "texto": "👉C-85 Cumanayagua (Centro).",
-      "circuitos": [
-        "C-85"
-      ],
-      "id": 60318,
-      "url": "https://t.me/empresaelectricacienfuegos1/60318",
-      "fecha": "2026-11-06T21:07:00+00:00"
-    },
-    {
-      "motivo": "sin_estado_explicito",
-      "texto": "👉C-86 Cumanayagua, emisora de radio.",
-      "circuitos": [
-        "C-86"
-      ],
-      "id": 60318,
-      "url": "https://t.me/empresaelectricacienfuegos1/60318",
-      "fecha": "2026-11-06T21:07:00+00:00"
-    },
-    {
-      "motivo": "sin_estado_explicito",
-      "texto": "👉C-85 Cumanayagua (Centro).",
-      "circuitos": [
-        "C-85"
-      ],
-      "id": 60318,
-      "url": "https://t.me/empresaelectricacienfuegos1/60318",
-      "fecha": "2026-11-06T21:07:00+00:00"
-    },
-    {
-      "motivo": "sin_estado_explicito",
-      "texto": "👉C-86 Cumanayagua, emisora de radio.",
-      "circuitos": [
-        "C-86"
-      ],
-      "id": 60318,
-      "url": "https://t.me/empresaelectricacienfuegos1/60318",
-      "fecha": "2026-11-06T21:07:00+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n1\n70 MW\nDÉFICIT DE GENERACIÓN |\nee\n4 |]\nUNE\nEMPRESA ELECTRICA\nCIENFUEGOS\na\nge",
@@ -3140,7 +3081,7 @@
   ],
   "mw_fecha": "2026-11-09T19:58:00+00:00",
   "total_circuitos_afectados": 47,
-  "total_circuitos_programados": 4,
+  "total_circuitos_programados": 8,
   "total_restablecimientos_probables": 21,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3157,5 +3098,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T20:59:22.716191+00:00"
+  "actualizado": "2026-11-09T21:14:29.976014+00:00"
 }
