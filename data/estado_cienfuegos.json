@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-09T18:41:48+00:00",
+  "reporte_fecha": "2026-11-09T19:26:52+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-09T19:13:21+00:00",
@@ -147,16 +147,6 @@
     ],
     "C-94": [],
     "C-89": [],
-    "C-63": [
-      "Juraguá (Oeste",
-      "Las 500",
-      "Calicito",
-      "Bolivia",
-      "Comunidad Alejandro",
-      "Hondones",
-      "La Yuca",
-      "Bagazal"
-    ],
     "C-56": [
       "Cruces (Norte"
     ],
@@ -252,6 +242,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
+    },
+    "C-63": {
+      "fecha": "2026-11-09T19:26:52+00:00",
+      "mensaje_id": 60407,
+      "url": "https://t.me/empresaelectricacienfuegos1/60407",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
     }
   },
   "restablecimientos_probables": {
@@ -1205,15 +1204,6 @@
       "confianza": 100,
       "texto": "👉C-89 Portilla, Venta del Río, La Margarita, San Nicolás."
     },
-    "C-63": {
-      "fecha": "2026-11-09T17:03:31+00:00",
-      "mensaje_id": 60398,
-      "url": "https://t.me/empresaelectricacienfuegos1/60398",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
-    },
     "C-56": {
       "fecha": "2026-11-09T18:41:48+00:00",
       "mensaje_id": 60404,
@@ -1375,6 +1365,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
+    },
+    "C-63": {
+      "fecha": "2026-11-09T19:26:52+00:00",
+      "mensaje_id": 60407,
+      "url": "https://t.me/empresaelectricacienfuegos1/60407",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
     },
     "C-38": {
       "fecha": "2026-11-09T18:41:48+00:00",
@@ -2014,7 +2013,6 @@
     "C-47": "déficit",
     "C-94": "déficit",
     "C-89": "déficit",
-    "C-63": "avería",
     "C-56": "déficit",
     "C-20": "déficit",
     "C-18": "déficit",
@@ -2337,15 +2335,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-91",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-08T04:26:45+00:00",
-      "mensaje_id": 60352,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60350",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60352"
-    },
     {
       "circuito": "C-69",
       "tipo": "salida_lista",
@@ -3236,10 +3225,19 @@
       "mensaje_id": 60404,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60400",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60404"
+    },
+    {
+      "circuito": "C-63",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-09T19:26:52+00:00",
+      "mensaje_id": 60407,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60398",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60407"
     }
   ],
   "mw_fecha": "2026-11-09T18:41:48+00:00",
-  "total_circuitos_afectados": 46,
+  "total_circuitos_afectados": 45,
   "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 24,
   "circuitos_sin_catalogar": [
@@ -3257,5 +3255,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T19:24:23.853543+00:00"
+  "actualizado": "2026-11-09T19:39:20.532530+00:00"
 }
