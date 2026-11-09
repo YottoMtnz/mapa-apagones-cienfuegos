@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-09T10:38:04+00:00",
+  "reporte_fecha": "2026-11-09T10:45:38+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-09T03:44:08+00:00",
-  "mensajes_leidos": 95,
+  "mensajes_leidos": 96,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -15,6 +15,11 @@
     ],
     "C-90": [
       "FW1558) La Pollera"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
     ],
     "C-69": [
       "Junco Sur",
@@ -705,6 +710,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-90  La Josefa, La Colmena, Arroyo Arenas, Lagunilla, Loma Abreus, Lajitas, Loma del Rosario, La Sabana, Pueblo Nuevo, Ciego Alonso."
+    },
+    "C-67": {
+      "fecha": "2026-11-09T10:45:38+00:00",
+      "mensaje_id": 60386,
+      "url": "https://t.me/empresaelectricacienfuegos1/60386",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     },
     "C-69": {
       "fecha": "2026-11-09T10:38:04+00:00",
@@ -1582,6 +1596,7 @@
   "causas": {
     "C-23": "déficit",
     "C-90": "déficit",
+    "C-67": "avería",
     "C-69": "déficit",
     "C-85": "déficit",
     "C-86": "déficit",
@@ -1904,11 +1919,18 @@
       "id": 60384,
       "url": "https://t.me/empresaelectricacienfuegos1/60384",
       "fecha": "2026-11-09T10:38:00+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuit\n_ enfalla",
+      "id": 60386,
+      "url": "https://t.me/empresaelectricacienfuegos1/60386",
+      "fecha": "2026-11-09T10:45:38+00:00"
     }
   ],
   "lectura": {
     "texto": 57,
-    "imagenes": 38,
+    "imagenes": 39,
     "pdf": 0,
     "no_leidos": 0
   },
@@ -2879,7 +2901,7 @@
     }
   ],
   "mw_fecha": "2026-11-09T10:38:04+00:00",
-  "total_circuitos_afectados": 51,
+  "total_circuitos_afectados": 52,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
@@ -2895,5 +2917,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T10:39:16.149863+00:00"
+  "actualizado": "2026-11-09T10:54:09.797703+00:00"
 }
