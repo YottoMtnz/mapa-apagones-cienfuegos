@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-08T23:51:47+00:00",
-  "mensajes_leidos": 94,
+  "mensajes_leidos": 93,
   "afectados": {
     "C-23": [
       "Turquino",
@@ -238,54 +238,6 @@
   "programados": {},
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
-    "C-18": {
-      "fecha": "2026-11-09T01:52:50+00:00",
-      "mensaje_id": 60378,
-      "url": "https://t.me/empresaelectricacienfuegos1/60378",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T04:34:08+00:00",
-      "listas_consecutivas": 40,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T02:29:28+00:00",
-        "mensaje_id": 60281,
-        "url": "https://t.me/empresaelectricacienfuegos1/60281",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
-    "C-20": {
-      "fecha": "2026-11-09T01:52:50+00:00",
-      "mensaje_id": 60378,
-      "url": "https://t.me/empresaelectricacienfuegos1/60378",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T04:34:08+00:00",
-      "listas_consecutivas": 40,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T02:29:28+00:00",
-        "mensaje_id": 60281,
-        "url": "https://t.me/empresaelectricacienfuegos1/60281",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
-      },
-      "lugares": []
-    },
     "C-38": {
       "fecha": "2026-11-09T01:52:50+00:00",
       "mensaje_id": 60378,
@@ -1159,54 +1111,6 @@
       "confianza": 100,
       "texto": "👉C-17  Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
     },
-    "C-18": {
-      "fecha": "2026-11-09T01:52:50+00:00",
-      "mensaje_id": 60378,
-      "url": "https://t.me/empresaelectricacienfuegos1/60378",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T04:34:08+00:00",
-      "listas_consecutivas": 40,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T02:29:28+00:00",
-        "mensaje_id": 60281,
-        "url": "https://t.me/empresaelectricacienfuegos1/60281",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
-    "C-20": {
-      "fecha": "2026-11-09T01:52:50+00:00",
-      "mensaje_id": 60378,
-      "url": "https://t.me/empresaelectricacienfuegos1/60378",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-06T04:34:08+00:00",
-      "listas_consecutivas": 40,
-      "aviso_anterior": {
-        "fecha": "2026-11-06T02:29:28+00:00",
-        "mensaje_id": 60281,
-        "url": "https://t.me/empresaelectricacienfuegos1/60281",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
-      },
-      "lugares": []
-    },
     "C-38": {
       "fecha": "2026-11-09T01:52:50+00:00",
       "mensaje_id": 60378,
@@ -1996,7 +1900,7 @@
     }
   ],
   "lectura": {
-    "texto": 56,
+    "texto": 55,
     "imagenes": 38,
     "pdf": 0,
     "no_leidos": 1
@@ -2966,12 +2870,10 @@
   "mw_fecha": "2026-11-09T01:52:50+00:00",
   "total_circuitos_afectados": 48,
   "total_circuitos_programados": 0,
-  "total_restablecimientos_probables": 18,
+  "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
     "C-17",
-    "C-18",
     "C-2",
-    "C-20",
     "C-31",
     "C-408",
     "C-43",
@@ -2981,5 +2883,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T02:29:24.591810+00:00"
+  "actualizado": "2026-11-09T02:44:18.860836+00:00"
 }
