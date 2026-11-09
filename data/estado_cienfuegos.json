@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-09T22:42:22+00:00",
+  "reporte_fecha": "2026-11-09T22:46:09+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-09T21:13:44+00:00",
@@ -29,11 +29,6 @@
       "El Conejito",
       "El Desquite",
       "Venero"
-    ],
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
     ],
     "C-82": [
       "Balboa",
@@ -268,6 +263,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-66 Reina (Parque)."
+    },
+    "C-67": {
+      "fecha": "2026-11-09T22:46:09+00:00",
+      "mensaje_id": 60419,
+      "url": "https://t.me/empresaelectricacienfuegos1/60419",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     }
   },
   "restablecimientos_probables": {
@@ -892,15 +896,6 @@
       "confianza": 100,
       "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero."
     },
-    "C-67": {
-      "fecha": "2026-11-09T12:23:20+00:00",
-      "mensaje_id": 60390,
-      "url": "https://t.me/empresaelectricacienfuegos1/60390",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
-    },
     "C-82": {
       "fecha": "2026-11-09T22:42:22+00:00",
       "mensaje_id": 60418,
@@ -1332,6 +1327,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
+    },
+    "C-67": {
+      "fecha": "2026-11-09T22:46:09+00:00",
+      "mensaje_id": 60419,
+      "url": "https://t.me/empresaelectricacienfuegos1/60419",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     },
     "C-38": {
       "fecha": "2026-11-09T22:42:22+00:00",
@@ -1858,7 +1862,6 @@
     "C-78": "déficit",
     "C-58": "déficit",
     "C-44": "déficit",
-    "C-67": "avería",
     "C-82": "déficit",
     "C-53": "déficit",
     "C-73": "déficit",
@@ -1904,13 +1907,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\nGENERACIÓN Bf a. 4\nDEFICIT DE Nine 2\n| ¥ 4 | he\nUNE v |\nees Z Y A",
-      "id": 60322,
-      "url": "https://t.me/empresaelectricacienfuegos1/60322",
-      "fecha": "2026-11-06T22:50:23+00:00"
-    },
     {
       "motivo": "resumen_historico",
       "texto": "👉🏻En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
@@ -2128,8 +2124,8 @@
     }
   ],
   "lectura": {
-    "texto": 57,
-    "imagenes": 39,
+    "texto": 58,
+    "imagenes": 38,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -2194,15 +2190,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-90",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-08T10:51:43+00:00",
-      "mensaje_id": 60353,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60352",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60353"
-    },
     {
       "circuito": "C-5",
       "tipo": "salida_lista",
@@ -3093,10 +3080,19 @@
       "mensaje_id": 60418,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60416",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60418"
+    },
+    {
+      "circuito": "C-67",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-09T22:46:09+00:00",
+      "mensaje_id": 60419,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60390",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60419"
     }
   ],
   "mw_fecha": "2026-11-09T22:42:22+00:00",
-  "total_circuitos_afectados": 48,
+  "total_circuitos_afectados": 47,
   "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 21,
   "circuitos_sin_catalogar": [
@@ -3114,5 +3110,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T22:44:29.918416+00:00"
+  "actualizado": "2026-11-09T22:59:37.334048+00:00"
 }
