@@ -6,19 +6,8 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-09T11:16:19+00:00",
-  "mensajes_leidos": 93,
+  "mensajes_leidos": 90,
   "afectados": {
-    "C-67": [
-      "El Crucero",
-      "Guaos",
-      "Naranjito"
-    ],
-    "C-69": [
-      "Junco Sur",
-      "Reparto de los médicos",
-      "Las Minas",
-      "Playa Alegre"
-    ],
     "C-85": [
       "Cumanayagua (Centro"
     ],
@@ -96,6 +85,11 @@
     ],
     "C-55": [
       "Cruces (Sur"
+    ],
+    "C-67": [
+      "El Crucero",
+      "Guaos",
+      "Naranjito"
     ],
     "C-91": [
       "Buena Vista",
@@ -236,6 +230,12 @@
     "C-5": [
       "Boulevard",
       "Parque Martí"
+    ],
+    "C-69": [
+      "Junco Sur",
+      "Reparto de los médicos",
+      "Las Minas",
+      "Playa Alegre"
     ],
     "C-26": [
       "Caonao",
@@ -683,24 +683,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-67": {
-      "fecha": "2026-11-09T12:23:20+00:00",
-      "mensaje_id": 60390,
-      "url": "https://t.me/empresaelectricacienfuegos1/60390",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
-    },
-    "C-69": {
-      "fecha": "2026-11-09T11:50:56+00:00",
-      "mensaje_id": 60389,
-      "url": "https://t.me/empresaelectricacienfuegos1/60389",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-69  Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
-    },
     "C-85": {
       "fecha": "2026-11-09T11:50:56+00:00",
       "mensaje_id": 60389,
@@ -844,6 +826,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-55  Cruces (Sur)."
+    },
+    "C-67": {
+      "fecha": "2026-11-09T12:23:20+00:00",
+      "mensaje_id": 60390,
+      "url": "https://t.me/empresaelectricacienfuegos1/60390",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-67 El Crucero, Guaos, Naranjito."
     },
     "C-91": {
       "fecha": "2026-11-09T11:50:56+00:00",
@@ -1096,6 +1087,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-5    Boulevard, Parque Martí"
+    },
+    "C-69": {
+      "fecha": "2026-11-09T11:50:56+00:00",
+      "mensaje_id": 60389,
+      "url": "https://t.me/empresaelectricacienfuegos1/60389",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-69  Junco Sur, Reparto de los médicos, Las Minas, Playa Alegre."
     },
     "C-26": {
       "fecha": "2026-11-09T11:50:56+00:00",
@@ -1531,8 +1531,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-67": "avería",
-    "C-69": "déficit",
     "C-85": "déficit",
     "C-86": "déficit",
     "C-11": "déficit",
@@ -1549,6 +1547,7 @@
     "C-75": "déficit",
     "C-39": "déficit",
     "C-55": "déficit",
+    "C-67": "avería",
     "C-91": "déficit",
     "C-82": "déficit",
     "C-53": "déficit",
@@ -1577,6 +1576,7 @@
     "C-406": "déficit",
     "C-90": "déficit",
     "C-5": "déficit",
+    "C-69": "déficit",
     "C-26": "déficit",
     "C-15": "déficit",
     "C-65": "déficit",
@@ -1587,27 +1587,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "resumen_historico",
-      "texto": "👉🏻En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
-      "id": 60295,
-      "url": "https://t.me/empresaelectricacienfuegos1/60295",
-      "fecha": "2026-11-06T13:07:12+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de 1785 MW a las 18:10 horas.",
-      "id": 60295,
-      "url": "https://t.me/empresaelectricacienfuegos1/60295",
-      "fecha": "2026-11-06T13:07:12+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
-      "id": 60296,
-      "url": "https://t.me/empresaelectricacienfuegos1/60296",
-      "fecha": "2026-11-06T13:08:42+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\nGENERACIÓN Bf a. 4\nDEFICIT DE Nine 2\n| ¥ 4 | he\nUNE v |\nees Z Y A",
@@ -1866,8 +1845,8 @@
     }
   ],
   "lectura": {
-    "texto": 56,
-    "imagenes": 37,
+    "texto": 54,
+    "imagenes": 36,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -1947,24 +1926,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60335"
     },
     {
-      "circuito": "C-67",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-07T17:25:11+00:00",
-      "mensaje_id": 60336,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60335",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60336"
-    },
-    {
-      "circuito": "C-69",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-07T17:25:11+00:00",
-      "mensaje_id": 60336,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60335",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60336"
-    },
-    {
       "circuito": "C-39",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2019,6 +1980,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60336"
     },
     {
+      "circuito": "C-69",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-07T17:25:11+00:00",
+      "mensaje_id": 60336,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60335",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60336"
+    },
+    {
       "circuito": "C-26",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2029,6 +1999,15 @@
     },
     {
       "circuito": "C-3",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-07T17:25:11+00:00",
+      "mensaje_id": 60336,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60335",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60336"
+    },
+    {
+      "circuito": "C-67",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-07T17:25:11+00:00",
@@ -2208,7 +2187,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60350"
     },
     {
-      "circuito": "C-69",
+      "circuito": "C-91",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-08T04:26:45+00:00",
@@ -2217,7 +2196,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60352"
     },
     {
-      "circuito": "C-91",
+      "circuito": "C-69",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-08T04:26:45+00:00",
@@ -2595,15 +2574,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60368"
     },
     {
-      "circuito": "C-67",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-08T22:40:48+00:00",
-      "mensaje_id": 60374,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60372",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60374"
-    },
-    {
       "circuito": "C-69",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2628,6 +2598,15 @@
       "fecha": "2026-11-08T22:40:48+00:00",
       "mensaje_id": 60374,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60371",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60374"
+    },
+    {
+      "circuito": "C-67",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-08T22:40:48+00:00",
+      "mensaje_id": 60374,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60372",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60374"
     },
     {
@@ -2855,5 +2834,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T12:54:21.983304+00:00"
+  "actualizado": "2026-11-09T13:09:24.600751+00:00"
 }
