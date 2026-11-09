@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-09T11:16:19+00:00",
-  "mensajes_leidos": 95,
+  "mensajes_leidos": 93,
   "afectados": {
     "C-67": [
       "El Crucero",
@@ -1588,13 +1588,6 @@
   "error": null,
   "pendientes_revision": [
     {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "\nGENERACIÓN Bf a. 4\nDEFICIT DE Nine 2\n| ¥ 4 | he\nUNE v |\nees Z Y A",
-      "id": 60292,
-      "url": "https://t.me/empresaelectricacienfuegos1/60292",
-      "fecha": "2026-11-06T12:24:49+00:00"
-    },
-    {
       "motivo": "resumen_historico",
       "texto": "👉🏻En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
       "id": 60295,
@@ -1873,8 +1866,8 @@
     }
   ],
   "lectura": {
-    "texto": 57,
-    "imagenes": 38,
+    "texto": 56,
+    "imagenes": 37,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -1954,6 +1947,24 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60335"
     },
     {
+      "circuito": "C-67",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-07T17:25:11+00:00",
+      "mensaje_id": 60336,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60335",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60336"
+    },
+    {
+      "circuito": "C-69",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-07T17:25:11+00:00",
+      "mensaje_id": 60336,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60335",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60336"
+    },
+    {
       "circuito": "C-39",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -1973,24 +1984,6 @@
     },
     {
       "circuito": "C-33",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-07T17:25:11+00:00",
-      "mensaje_id": 60336,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60335",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60336"
-    },
-    {
-      "circuito": "C-67",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-07T17:25:11+00:00",
-      "mensaje_id": 60336,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60335",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60336"
-    },
-    {
-      "circuito": "C-69",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-07T17:25:11+00:00",
@@ -2179,7 +2172,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60347"
     },
     {
-      "circuito": "C-27",
+      "circuito": "C-28",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-08T01:50:19+00:00",
@@ -2188,7 +2181,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60349"
     },
     {
-      "circuito": "C-28",
+      "circuito": "C-27",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-08T01:50:19+00:00",
@@ -2862,5 +2855,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T12:24:18.989269+00:00"
+  "actualizado": "2026-11-09T12:39:18.359962+00:00"
 }
