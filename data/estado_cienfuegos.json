@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-09T10:45:38+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-09T03:44:08+00:00",
-  "mensajes_leidos": 93,
+  "programado_fecha": "2026-11-09T11:16:19+00:00",
+  "mensajes_leidos": 94,
   "afectados": {
     "C-67": [
       "El Crucero",
@@ -262,7 +262,20 @@
       "Tulipán"
     ]
   },
-  "programados": {},
+  "programados": {
+    "C-27": [
+      "Barrio Matadero",
+      "Juraguá"
+    ],
+    "C-28": [
+      "CEN",
+      "Castillo de Jagua",
+      "La Loma"
+    ],
+    "C-405": [
+      "Pueblo Griffo Nuevo"
+    ]
+  },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-38": {
@@ -1161,6 +1174,33 @@
       "confianza": 100,
       "texto": "👉C-19  Tulipán"
     },
+    "C-27": {
+      "fecha": "2026-11-09T11:16:19+00:00",
+      "mensaje_id": 60387,
+      "url": "https://t.me/empresaelectricacienfuegos1/60387",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-27 Barrio Matadero, Juraguá."
+    },
+    "C-28": {
+      "fecha": "2026-11-09T11:16:19+00:00",
+      "mensaje_id": 60387,
+      "url": "https://t.me/empresaelectricacienfuegos1/60387",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-27 Barrio Matadero, Juraguá."
+    },
+    "C-405": {
+      "fecha": "2026-11-09T11:16:19+00:00",
+      "mensaje_id": 60387,
+      "url": "https://t.me/empresaelectricacienfuegos1/60387",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-27 Barrio Matadero, Juraguá."
+    },
     "C-38": {
       "fecha": "2026-11-09T10:38:04+00:00",
       "mensaje_id": 60385,
@@ -1307,61 +1347,6 @@
       },
       "lugares": []
     },
-    "C-28": {
-      "fecha": "2026-11-09T10:38:04+00:00",
-      "mensaje_id": 60385,
-      "url": "https://t.me/empresaelectricacienfuegos1/60385",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-09T00:00:14+00:00",
-      "listas_consecutivas": 8,
-      "aviso_anterior": {
-        "fecha": "2026-11-08T22:40:48+00:00",
-        "mensaje_id": 60374,
-        "url": "https://t.me/empresaelectricacienfuegos1/60374",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-28  CEN, Castillo de Jagua, La Loma. (Bombeo Agua CEN 0-12)"
-      },
-      "lugares": [
-        "CEN",
-        "Castillo de Jagua",
-        "La Loma"
-      ]
-    },
-    "C-27": {
-      "fecha": "2026-11-09T10:38:04+00:00",
-      "mensaje_id": 60385,
-      "url": "https://t.me/empresaelectricacienfuegos1/60385",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-09T00:00:14+00:00",
-      "listas_consecutivas": 8,
-      "aviso_anterior": {
-        "fecha": "2026-11-08T22:40:48+00:00",
-        "mensaje_id": 60374,
-        "url": "https://t.me/empresaelectricacienfuegos1/60374",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-27  Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
-      },
-      "lugares": [
-        "Barrio Matadero",
-        "Juraguá"
-      ]
-    },
     "C-30": {
       "fecha": "2026-11-09T10:38:04+00:00",
       "mensaje_id": 60385,
@@ -1460,32 +1445,6 @@
         "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
       },
       "lugares": []
-    },
-    "C-405": {
-      "fecha": "2026-11-09T10:38:04+00:00",
-      "mensaje_id": 60385,
-      "url": "https://t.me/empresaelectricacienfuegos1/60385",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-11  Ariza, Silverita, Nuevo México.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-09T04:39:26+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-09T03:40:25+00:00",
-        "mensaje_id": 60380,
-        "url": "https://t.me/empresaelectricacienfuegos1/60380",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-405 \"Pueblo Griffo Nuevo.\""
-      },
-      "lugares": [
-        "Pueblo Griffo Nuevo"
-      ]
     },
     "C-80": {
       "fecha": "2026-11-09T10:38:04+00:00",
@@ -1587,7 +1546,23 @@
       "lugares": []
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-27": {
+      "inicio": null,
+      "fin": "2026-11-09T23:16:19+00:00",
+      "fecha_ambigua": false
+    },
+    "C-28": {
+      "inicio": null,
+      "fin": "2026-11-09T23:16:19+00:00",
+      "fecha_ambigua": false
+    },
+    "C-405": {
+      "inicio": null,
+      "fin": "2026-11-09T23:16:19+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 52.0,
   "hora_inicio": null,
@@ -1923,7 +1898,7 @@
   ],
   "lectura": {
     "texto": 56,
-    "imagenes": 37,
+    "imagenes": 38,
     "pdf": 0,
     "no_leidos": 0
   },
@@ -2895,7 +2870,7 @@
   ],
   "mw_fecha": "2026-11-09T10:38:04+00:00",
   "total_circuitos_afectados": 52,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 16,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2910,5 +2885,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T11:09:18.485957+00:00"
+  "actualizado": "2026-11-09T11:24:26.282865+00:00"
 }
