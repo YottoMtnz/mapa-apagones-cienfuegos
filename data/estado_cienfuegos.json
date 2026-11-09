@@ -2,19 +2,12 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-09T17:11:54+00:00",
+  "reporte_fecha": "2026-11-09T17:37:35+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-09T17:12:52+00:00",
-  "mensajes_leidos": 91,
+  "mensajes_leidos": 92,
   "afectados": {
-    "C-35": [
-      "Terraza",
-      "Codicia",
-      "Breñas",
-      "Caña Brava",
-      "Dolores"
-    ],
     "C-86": [
       "Cumanayagua",
       "emisora de radio"
@@ -216,6 +209,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+    },
+    "C-35": {
+      "fecha": "2026-11-09T17:37:35+00:00",
+      "mensaje_id": 60402,
+      "url": "https://t.me/empresaelectricacienfuegos1/60402",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
     }
   },
   "restablecimientos_probables": {
@@ -1015,15 +1017,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-35": {
-      "fecha": "2026-11-09T16:03:22+00:00",
-      "mensaje_id": 60397,
-      "url": "https://t.me/empresaelectricacienfuegos1/60397",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
-    },
     "C-86": {
       "fecha": "2026-11-09T17:11:54+00:00",
       "mensaje_id": 60400,
@@ -1410,6 +1403,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+    },
+    "C-35": {
+      "fecha": "2026-11-09T17:37:35+00:00",
+      "mensaje_id": 60402,
+      "url": "https://t.me/empresaelectricacienfuegos1/60402",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
     "C-38": {
       "fecha": "2026-11-09T17:11:54+00:00",
@@ -2173,7 +2175,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-35": "avería",
     "C-86": "déficit",
     "C-78": "déficit",
     "C-58": "déficit",
@@ -2453,7 +2454,7 @@
     }
   ],
   "lectura": {
-    "texto": 54,
+    "texto": 55,
     "imagenes": 37,
     "pdf": 0,
     "no_leidos": 1
@@ -2509,15 +2510,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-30",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-07T22:44:41+00:00",
-      "mensaje_id": 60346,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60343",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60346"
-    },
     {
       "circuito": "C-17",
       "tipo": "salida_lista",
@@ -3408,10 +3400,19 @@
       "mensaje_id": 60400,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60396",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60400"
+    },
+    {
+      "circuito": "C-35",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-09T17:37:35+00:00",
+      "mensaje_id": 60402,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60397",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60402"
     }
   ],
   "mw_fecha": "2026-11-09T17:11:54+00:00",
-  "total_circuitos_afectados": 40,
+  "total_circuitos_afectados": 39,
   "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 29,
   "circuitos_sin_catalogar": [
@@ -3429,5 +3430,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T17:24:26.986162+00:00"
+  "actualizado": "2026-11-09T17:39:22.267524+00:00"
 }
