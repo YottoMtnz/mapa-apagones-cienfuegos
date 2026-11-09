@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-09T14:30:22+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-09T15:13:20+00:00",
-  "mensajes_leidos": 90,
+  "programado_fecha": "2026-11-09T15:33:06+00:00",
+  "mensajes_leidos": 91,
   "afectados": {
     "C-85": [
       "Cumanayagua (Centro"
@@ -185,7 +185,12 @@
       "La Loma"
     ],
     "C-18": [],
-    "C-20": []
+    "C-20": [],
+    "C-6": [
+      "Rancho Luna",
+      "Pasacaballo",
+      "La Milpa"
+    ]
   },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
@@ -1392,6 +1397,15 @@
       "confianza": 100,
       "texto": "👉C-18 Arizona, La Juanita."
     },
+    "C-6": {
+      "fecha": "2026-11-09T15:33:06+00:00",
+      "mensaje_id": 60395,
+      "url": "https://t.me/empresaelectricacienfuegos1/60395",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-6 Rancho Luna, Pasacaballo, La Milpa."
+    },
     "C-38": {
       "fecha": "2026-11-09T14:30:22+00:00",
       "mensaje_id": 60393,
@@ -2211,6 +2225,11 @@
       "inicio": null,
       "fin": "2026-11-10T03:13:20+00:00",
       "fecha_ambigua": false
+    },
+    "C-6": {
+      "inicio": null,
+      "fin": "2026-11-10T03:33:06+00:00",
+      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
@@ -2512,7 +2531,7 @@
   ],
   "lectura": {
     "texto": 55,
-    "imagenes": 35,
+    "imagenes": 36,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -3470,7 +3489,7 @@
   ],
   "mw_fecha": "2026-11-09T14:30:22+00:00",
   "total_circuitos_afectados": 38,
-  "total_circuitos_programados": 3,
+  "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 30,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3487,5 +3506,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T15:24:33.518205+00:00"
+  "actualizado": "2026-11-09T15:39:23.390963+00:00"
 }
