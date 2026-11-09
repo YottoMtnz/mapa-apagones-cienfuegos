@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-09T23:19:22+00:00",
+  "reporte_fecha": "2026-11-09T23:56:46+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-09T21:13:44+00:00",
-  "mensajes_leidos": 96,
+  "mensajes_leidos": 99,
   "afectados": {
     "C-85": [
       "Cumanayagua (Centro"
@@ -216,12 +216,6 @@
     ],
     "C-19": [
       "Tulipán"
-    ],
-    "C-26": [
-      "Caonao",
-      "Los Tanques",
-      "La Ceiba",
-      "El Paisíto"
     ]
   },
   "programados": {
@@ -247,15 +241,6 @@
       "confianza": 100,
       "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
-    "C-63": {
-      "fecha": "2026-11-09T19:26:52+00:00",
-      "mensaje_id": 60407,
-      "url": "https://t.me/empresaelectricacienfuegos1/60407",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
-    },
     "C-66": {
       "fecha": "2026-11-09T19:45:49+00:00",
       "mensaje_id": 60408,
@@ -273,6 +258,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-67 El Crucero, Guaos, Naranjito."
+    },
+    "C-26": {
+      "fecha": "2026-11-09T23:53:23+00:00",
+      "mensaje_id": 60422,
+      "url": "https://t.me/empresaelectricacienfuegos1/60422",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paísíto."
+    },
+    "C-63": {
+      "fecha": "2026-11-09T23:56:46+00:00",
+      "mensaje_id": 60423,
+      "url": "https://t.me/empresaelectricacienfuegos1/60423",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
     }
   },
   "restablecimientos_probables": {
@@ -1246,15 +1249,6 @@
       "confianza": 100,
       "texto": "👉C-19 Tulipán"
     },
-    "C-26": {
-      "fecha": "2026-11-09T23:19:22+00:00",
-      "mensaje_id": 60420,
-      "url": "https://t.me/empresaelectricacienfuegos1/60420",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paísíto."
-    },
     "C-65": {
       "fecha": "2026-11-09T21:13:44+00:00",
       "mensaje_id": 60414,
@@ -1291,15 +1285,6 @@
       "confianza": 100,
       "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
     },
-    "C-63": {
-      "fecha": "2026-11-09T19:26:52+00:00",
-      "mensaje_id": 60407,
-      "url": "https://t.me/empresaelectricacienfuegos1/60407",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
-    },
     "C-67": {
       "fecha": "2026-11-09T22:46:09+00:00",
       "mensaje_id": 60419,
@@ -1308,6 +1293,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-67 El Crucero, Guaos, Naranjito."
+    },
+    "C-26": {
+      "fecha": "2026-11-09T23:53:23+00:00",
+      "mensaje_id": 60422,
+      "url": "https://t.me/empresaelectricacienfuegos1/60422",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paísíto."
+    },
+    "C-63": {
+      "fecha": "2026-11-09T23:56:46+00:00",
+      "mensaje_id": 60423,
+      "url": "https://t.me/empresaelectricacienfuegos1/60423",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
     },
     "C-38": {
       "fecha": "2026-11-09T22:42:22+00:00",
@@ -1869,8 +1872,7 @@
     "C-22": "déficit",
     "C-21": "déficit",
     "C-406": "déficit",
-    "C-19": "déficit",
-    "C-26": "avería"
+    "C-19": "déficit"
   },
   "error": null,
   "pendientes_revision": [
@@ -2095,11 +2097,18 @@
       "id": 60420,
       "url": "https://t.me/empresaelectricacienfuegos1/60420",
       "fecha": "2026-11-09T23:19:22+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuitos afectados por\nDISPARO\nA\n-Y\nA\nsu\nAN\nAOS\nwy\n3\nha!\nmom \\\nvi",
+      "id": 60421,
+      "url": "https://t.me/empresaelectricacienfuegos1/60421",
+      "fecha": "2026-11-09T23:50:56+00:00"
     }
   ],
   "lectura": {
-    "texto": 57,
-    "imagenes": 39,
+    "texto": 59,
+    "imagenes": 40,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -2164,24 +2173,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-5",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-08T10:51:43+00:00",
-      "mensaje_id": 60353,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60352",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60353"
-    },
-    {
-      "circuito": "C-408",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-08T10:51:43+00:00",
-      "mensaje_id": 60353,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60352",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60353"
-    },
     {
       "circuito": "C-17",
       "tipo": "salida_lista",
@@ -3063,10 +3054,28 @@
       "mensaje_id": 60419,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60390",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60419"
+    },
+    {
+      "circuito": "C-26",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-09T23:53:23+00:00",
+      "mensaje_id": 60422,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60420",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60422"
+    },
+    {
+      "circuito": "C-63",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-09T23:56:46+00:00",
+      "mensaje_id": 60423,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60421",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60423"
     }
   ],
   "mw_fecha": "2026-11-09T22:42:22+00:00",
-  "total_circuitos_afectados": 48,
+  "total_circuitos_afectados": 47,
   "total_circuitos_programados": 3,
   "total_restablecimientos_probables": 20,
   "circuitos_sin_catalogar": [
@@ -3084,5 +3093,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T23:44:34.579871+00:00"
+  "actualizado": "2026-11-09T23:59:28.432285+00:00"
 }
