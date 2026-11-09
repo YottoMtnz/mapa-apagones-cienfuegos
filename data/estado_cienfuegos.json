@@ -5,8 +5,8 @@
   "reporte_fecha": "2026-11-09T18:41:48+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-09T17:12:52+00:00",
-  "mensajes_leidos": 91,
+  "programado_fecha": "2026-11-09T19:13:21+00:00",
+  "mensajes_leidos": 92,
   "afectados": {
     "C-85": [
       "Cumanayagua (Centro"
@@ -220,6 +220,18 @@
     "C-5": [
       "Boulevard",
       "Parque Martí"
+    ],
+    "C-22": [
+      "Rodas (Bombeo Agua Rodas 0-12",
+      "Rodas"
+    ],
+    "C-36": [
+      "Cumanayagua (Sur",
+      "La Guasasa",
+      "Ceibabo",
+      "La Furnia",
+      "Monasterio",
+      "El Concuní"
     ]
   },
   "confirmados_con_servicio": {
@@ -1337,14 +1349,23 @@
       "confianza": 100,
       "texto": "👉C-5 Boulevard, Parque Martí."
     },
-    "C-36": {
-      "fecha": "2026-11-09T17:07:42+00:00",
-      "mensaje_id": 60399,
-      "url": "https://t.me/empresaelectricacienfuegos1/60399",
+    "C-22": {
+      "fecha": "2026-11-09T19:13:21+00:00",
+      "mensaje_id": 60406,
+      "url": "https://t.me/empresaelectricacienfuegos1/60406",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+      "texto": "👉C-22 \"Rodas."
+    },
+    "C-36": {
+      "fecha": "2026-11-09T19:13:21+00:00",
+      "mensaje_id": 60406,
+      "url": "https://t.me/empresaelectricacienfuegos1/60406",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-22 \"Rodas."
     },
     "C-35": {
       "fecha": "2026-11-09T17:37:35+00:00",
@@ -1543,33 +1564,6 @@
         "Jabacoa",
         "Batey Nuevo",
         "Las Medidas"
-      ]
-    },
-    "C-22": {
-      "fecha": "2026-11-09T18:41:48+00:00",
-      "mensaje_id": 60404,
-      "url": "https://t.me/empresaelectricacienfuegos1/60404",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-09T13:09:51+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-11-09T11:50:56+00:00",
-        "mensaje_id": 60389,
-        "url": "https://t.me/empresaelectricacienfuegos1/60389",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-22  Rodas (Bombeo Agua Rodas 0-12)"
-      },
-      "lugares": [
-        "Rodas (Bombeo Agua Rodas 0-12",
-        "Rodas"
       ]
     },
     "C-55": {
@@ -1970,6 +1964,16 @@
       "inicio": null,
       "fin": "2026-11-10T05:12:52+00:00",
       "fecha_ambigua": false
+    },
+    "C-22": {
+      "inicio": null,
+      "fin": "2026-11-10T07:13:21+00:00",
+      "fecha_ambigua": false
+    },
+    "C-36": {
+      "inicio": null,
+      "fin": "2026-11-10T07:13:21+00:00",
+      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
@@ -2261,11 +2265,18 @@
       "id": 60403,
       "url": "https://t.me/empresaelectricacienfuegos1/60403",
       "fecha": "2026-11-09T18:34:27+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "\n1\n60 MW\nDEFICIT DE GENERACION\nee\n4 |]\nUNE\nEMPRESA ELECTRICA\nCIENFUEGOS\na\nge",
+      "id": 60405,
+      "url": "https://t.me/empresaelectricacienfuegos1/60405",
+      "fecha": "2026-11-09T19:10:45+00:00"
     }
   ],
   "lectura": {
-    "texto": 54,
-    "imagenes": 37,
+    "texto": 53,
+    "imagenes": 39,
     "pdf": 0,
     "no_leidos": 1
   },
@@ -3229,7 +3240,7 @@
   ],
   "mw_fecha": "2026-11-09T18:41:48+00:00",
   "total_circuitos_afectados": 46,
-  "total_circuitos_programados": 2,
+  "total_circuitos_programados": 4,
   "total_restablecimientos_probables": 24,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3246,5 +3257,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T19:09:25.090468+00:00"
+  "actualizado": "2026-11-09T19:24:23.853543+00:00"
 }
