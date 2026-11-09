@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-09T11:50:56+00:00",
+  "reporte_fecha": "2026-11-09T12:23:20+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-09T11:16:19+00:00",
-  "mensajes_leidos": 94,
+  "mensajes_leidos": 95,
   "afectados": {
     "C-67": [
       "El Crucero",
@@ -684,9 +684,9 @@
   "afectaciones_parciales": {},
   "evidencias": {
     "C-67": {
-      "fecha": "2026-11-09T10:45:38+00:00",
-      "mensaje_id": 60386,
-      "url": "https://t.me/empresaelectricacienfuegos1/60386",
+      "fecha": "2026-11-09T12:23:20+00:00",
+      "mensaje_id": 60390,
+      "url": "https://t.me/empresaelectricacienfuegos1/60390",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
@@ -1863,10 +1863,17 @@
       "url": "https://t.me/empresaelectricacienfuegos1/60388",
       "fecha": "2026-11-09T11:50:45+00:00",
       "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
+      "id": 60390,
+      "url": "https://t.me/empresaelectricacienfuegos1/60390",
+      "fecha": "2026-11-09T12:23:20+00:00"
     }
   ],
   "lectura": {
-    "texto": 56,
+    "texto": 57,
     "imagenes": 38,
     "pdf": 0,
     "no_leidos": 1
@@ -2855,5 +2862,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T12:09:23.877300+00:00"
+  "actualizado": "2026-11-09T12:24:18.989269+00:00"
 }
