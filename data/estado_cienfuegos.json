@@ -2,7 +2,7 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-09T17:37:35+00:00",
+  "reporte_fecha": "2026-11-09T18:34:27+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-09T17:12:52+00:00",
@@ -1261,13 +1261,13 @@
       "texto": "👉C-15 Pepito Tey, Guabairo."
     },
     "C-66": {
-      "fecha": "2026-11-09T17:11:54+00:00",
-      "mensaje_id": 60400,
-      "url": "https://t.me/empresaelectricacienfuegos1/60400",
+      "fecha": "2026-11-09T18:34:27+00:00",
+      "mensaje_id": 60403,
+      "url": "https://t.me/empresaelectricacienfuegos1/60403",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-66 Reina (Parque)"
+      "texto": "👉C-66 Reina (Parque)."
     },
     "C-80": {
       "fecha": "2026-11-09T17:11:54+00:00",
@@ -2202,7 +2202,7 @@
     "C-90": "déficit",
     "C-69": "déficit",
     "C-15": "déficit",
-    "C-66": "déficit",
+    "C-66": "déficit / emergencia",
     "C-80": "déficit",
     "C-43": "déficit",
     "C-405": "déficit",
@@ -2217,13 +2217,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "sin_circuitos_identificables",
-      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\nEl | a",
-      "id": 60310,
-      "url": "https://t.me/empresaelectricacienfuegos1/60310",
-      "fecha": "2026-11-06T18:35:22+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\nGENERACIÓN Bf a. 4\nDEFICIT DE Nine 2\n| ¥ 4 | he\nUNE v |\nees Z Y A",
@@ -2451,6 +2444,13 @@
       "id": 60398,
       "url": "https://t.me/empresaelectricacienfuegos1/60398",
       "fecha": "2026-11-09T17:03:31+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Aris afectados por\nDE EMERGENCIA\n| a\nSY\nEl | a",
+      "id": 60403,
+      "url": "https://t.me/empresaelectricacienfuegos1/60403",
+      "fecha": "2026-11-09T18:34:27+00:00"
     }
   ],
   "lectura": {
@@ -3430,5 +3430,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-09T18:09:42.128437+00:00"
+  "actualizado": "2026-11-09T18:39:33.172325+00:00"
 }
