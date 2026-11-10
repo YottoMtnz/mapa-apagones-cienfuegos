@@ -286,9 +286,7 @@
     "C-20": [],
     "C-59": []
   },
-  "programados": {
-    "C-43": []
-  },
+  "programados": {},
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-24": {
@@ -1124,15 +1122,6 @@
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
     },
-    "C-43": {
-      "fecha": "2026-11-10T03:20:47+00:00",
-      "mensaje_id": 60427,
-      "url": "https://t.me/empresaelectricacienfuegos1/60427",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
-    },
     "C-24": {
       "fecha": "2026-11-10T15:15:04+00:00",
       "mensaje_id": 60441,
@@ -1206,6 +1195,30 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-17  Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
+      },
+      "lugares": []
+    },
+    "C-43": {
+      "fecha": "2026-11-10T15:15:04+00:00",
+      "mensaje_id": 60441,
+      "url": "https://t.me/empresaelectricacienfuegos1/60441",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-09T21:27:43+00:00",
+      "listas_consecutivas": 10,
+      "aviso_anterior": {
+        "fecha": "2026-11-09T19:58:00+00:00",
+        "mensaje_id": 60410,
+        "url": "https://t.me/empresaelectricacienfuegos1/60410",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-43 \"Aguada (Pueblo), Autopista, Batey María Victoria."
       },
       "lugares": []
     },
@@ -1400,13 +1413,7 @@
       ]
     }
   },
-  "horarios": {
-    "C-43": {
-      "inicio": null,
-      "fin": "2026-11-10T15:20:47+00:00",
-      "fecha_ambigua": false
-    }
-  },
+  "horarios": {},
   "cobertura": "parcial",
   "mw": 68.0,
   "hora_inicio": null,
@@ -2703,7 +2710,7 @@
   ],
   "mw_fecha": "2026-11-10T15:15:04+00:00",
   "total_circuitos_afectados": 60,
-  "total_circuitos_programados": 1,
+  "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 11,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2720,5 +2727,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-10T15:20:10.633289+00:00"
+  "actualizado": "2026-11-10T15:34:21.016948+00:00"
 }
