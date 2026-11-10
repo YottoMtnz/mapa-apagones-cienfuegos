@@ -5,12 +5,9 @@
   "reporte_fecha": "2026-11-10T13:28:21+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-10T11:25:08+00:00",
-  "mensajes_leidos": 109,
+  "programado_fecha": "2026-11-10T13:35:26+00:00",
+  "mensajes_leidos": 107,
   "afectados": {
-    "C-85": [
-      "Cumanayagua (Centro"
-    ],
     "C-82": [
       "Balboa",
       "La Pedrera",
@@ -111,6 +108,9 @@
       "Ciego Montero",
       "La Amalia",
       "Ceiba Hueca"
+    ],
+    "C-85": [
+      "Cumanayagua (Centro"
     ],
     "C-23": [
       "Turquino",
@@ -276,7 +276,17 @@
     "C-94": []
   },
   "programados": {
-    "C-43": []
+    "C-43": [],
+    "C-20": [],
+    "C-29": [
+      "Moncada",
+      "Constancia",
+      "Rosalía",
+      "Loma del Chivo",
+      "Simpatía",
+      "Charcas",
+      "Guasimal"
+    ]
   },
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
@@ -629,6 +639,33 @@
         "Venero"
       ]
     },
+    "C-86": {
+      "fecha": "2026-11-10T13:14:25+00:00",
+      "mensaje_id": 60437,
+      "url": "https://t.me/empresaelectricacienfuegos1/60437",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-10T13:14:25+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-11-10T11:39:42+00:00",
+        "mensaje_id": 60433,
+        "url": "https://t.me/empresaelectricacienfuegos1/60433",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-86 \"Cumanayagua, emisora de radio\""
+      },
+      "lugares": [
+        "Cumanayagua",
+        "emisora de radio"
+      ]
+    },
     "C-91": {
       "fecha": "2026-11-10T13:14:25+00:00",
       "mensaje_id": 60437,
@@ -659,15 +696,6 @@
   },
   "afectaciones_parciales": {},
   "evidencias": {
-    "C-85": {
-      "fecha": "2026-11-10T13:14:25+00:00",
-      "mensaje_id": 60437,
-      "url": "https://t.me/empresaelectricacienfuegos1/60437",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-85 \"Cumanayagua (Centro)."
-    },
     "C-82": {
       "fecha": "2026-11-10T13:14:25+00:00",
       "mensaje_id": 60437,
@@ -856,6 +884,15 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-49 Arriete, Ciego Montero, La Amalia, Ceiba Hueca."
+    },
+    "C-85": {
+      "fecha": "2026-11-10T13:14:25+00:00",
+      "mensaje_id": 60437,
+      "url": "https://t.me/empresaelectricacienfuegos1/60437",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-85 \"Cumanayagua (Centro)."
     },
     "C-23": {
       "fecha": "2026-11-10T13:14:25+00:00",
@@ -1181,6 +1218,24 @@
       "confianza": 100,
       "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
     },
+    "C-20": {
+      "fecha": "2026-11-10T13:35:26+00:00",
+      "mensaje_id": 60439,
+      "url": "https://t.me/empresaelectricacienfuegos1/60439",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-20 Punta Gorda."
+    },
+    "C-29": {
+      "fecha": "2026-11-10T13:35:26+00:00",
+      "mensaje_id": 60439,
+      "url": "https://t.me/empresaelectricacienfuegos1/60439",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-20 Punta Gorda."
+    },
     "C-38": {
       "fecha": "2026-11-10T13:14:25+00:00",
       "mensaje_id": 60437,
@@ -1342,62 +1397,6 @@
         "La Milpa"
       ]
     },
-    "C-29": {
-      "fecha": "2026-11-10T13:14:25+00:00",
-      "mensaje_id": 60437,
-      "url": "https://t.me/empresaelectricacienfuegos1/60437",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-10T04:53:05+00:00",
-      "listas_consecutivas": 5,
-      "aviso_anterior": {
-        "fecha": "2026-11-10T01:52:06+00:00",
-        "mensaje_id": 60426,
-        "url": "https://t.me/empresaelectricacienfuegos1/60426",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-29 Moncada, Constancia, Rosalía, Loma del Chivo, Simpatía, Charcas, Guasimal."
-      },
-      "lugares": [
-        "Moncada",
-        "Constancia",
-        "Rosalía",
-        "Loma del Chivo",
-        "Simpatía",
-        "Charcas",
-        "Guasimal"
-      ]
-    },
-    "C-20": {
-      "fecha": "2026-11-10T13:14:25+00:00",
-      "mensaje_id": 60437,
-      "url": "https://t.me/empresaelectricacienfuegos1/60437",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-10T10:31:58+00:00",
-      "listas_consecutivas": 3,
-      "aviso_anterior": {
-        "fecha": "2026-11-10T09:06:02+00:00",
-        "mensaje_id": 60430,
-        "url": "https://t.me/empresaelectricacienfuegos1/60430",
-        "medio": "texto",
-        "editado": "2026-11-10T11:27:39+00:00",
-        "confianza": 100,
-        "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
-      },
-      "lugares": []
-    },
     "C-18": {
       "fecha": "2026-11-10T13:14:25+00:00",
       "mensaje_id": 60437,
@@ -1506,6 +1505,33 @@
         "Venero"
       ]
     },
+    "C-86": {
+      "fecha": "2026-11-10T13:14:25+00:00",
+      "mensaje_id": 60437,
+      "url": "https://t.me/empresaelectricacienfuegos1/60437",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-10T13:14:25+00:00",
+      "listas_consecutivas": 1,
+      "aviso_anterior": {
+        "fecha": "2026-11-10T11:39:42+00:00",
+        "mensaje_id": 60433,
+        "url": "https://t.me/empresaelectricacienfuegos1/60433",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-86 \"Cumanayagua, emisora de radio\""
+      },
+      "lugares": [
+        "Cumanayagua",
+        "emisora de radio"
+      ]
+    },
     "C-91": {
       "fecha": "2026-11-10T13:14:25+00:00",
       "mensaje_id": 60437,
@@ -1539,6 +1565,16 @@
       "inicio": null,
       "fin": "2026-11-10T15:20:47+00:00",
       "fecha_ambigua": false
+    },
+    "C-20": {
+      "inicio": null,
+      "fin": "2026-11-11T01:35:26+00:00",
+      "fecha_ambigua": false
+    },
+    "C-29": {
+      "inicio": null,
+      "fin": "2026-11-11T01:35:26+00:00",
+      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
@@ -1547,7 +1583,6 @@
   "cierre": null,
   "tiempos": {},
   "causas": {
-    "C-85": "déficit",
     "C-82": "déficit",
     "C-53": "déficit",
     "C-73": "déficit",
@@ -1569,6 +1604,7 @@
     "C-95": "déficit",
     "C-11": "déficit",
     "C-49": "déficit",
+    "C-85": "déficit",
     "C-23": "déficit",
     "C-103": "déficit",
     "C-102": "déficit",
@@ -1607,27 +1643,6 @@
   },
   "error": null,
   "pendientes_revision": [
-    {
-      "motivo": "resumen_historico",
-      "texto": "👉🏻En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
-      "id": 60331,
-      "url": "https://t.me/empresaelectricacienfuegos1/60331",
-      "fecha": "2026-11-07T13:43:10+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de         1814 MW a las 19:40 horas.",
-      "id": 60331,
-      "url": "https://t.me/empresaelectricacienfuegos1/60331",
-      "fecha": "2026-11-07T13:43:10+00:00"
-    },
-    {
-      "motivo": "resumen_historico",
-      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
-      "id": 60332,
-      "url": "https://t.me/empresaelectricacienfuegos1/60332",
-      "fecha": "2026-11-07T13:44:13+00:00"
-    },
     {
       "motivo": "sin_circuitos_identificables",
       "texto": "\n1\n39 MW\nDÉFICIT DE GENERACIÓN |\nee\n4 |]\nUNE\nEMPRESA ELECTRICA\nCIENFUEGOS\na\nge",
@@ -1871,7 +1886,7 @@
     }
   ],
   "lectura": {
-    "texto": 64,
+    "texto": 62,
     "imagenes": 45,
     "pdf": 0,
     "no_leidos": 4
@@ -2799,15 +2814,6 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60431"
     },
     {
-      "circuito": "C-86",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-10T13:14:25+00:00",
-      "mensaje_id": 60437,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60433",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60437"
-    },
-    {
       "circuito": "C-78",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2835,6 +2841,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60437"
     },
     {
+      "circuito": "C-86",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-10T13:14:25+00:00",
+      "mensaje_id": 60437,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60433",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60437"
+    },
+    {
       "circuito": "C-91",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2846,8 +2861,8 @@
   ],
   "mw_fecha": "2026-11-10T13:14:25+00:00",
   "total_circuitos_afectados": 57,
-  "total_circuitos_programados": 1,
-  "total_restablecimientos_probables": 14,
+  "total_circuitos_programados": 3,
+  "total_restablecimientos_probables": 15,
   "circuitos_sin_catalogar": [
     "C-17",
     "C-18",
@@ -2863,5 +2878,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-10T13:34:58.711027+00:00"
+  "actualizado": "2026-11-10T13:50:07.376077+00:00"
 }
