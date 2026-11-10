@@ -211,10 +211,6 @@
     ]
   },
   "programados": {
-    "C-65": [
-      "Centro histórico",
-      "Reina (Aduana"
-    ],
     "C-408": [],
     "C-2": [],
     "C-15": [
@@ -243,6 +239,10 @@
     "C-43": [],
     "C-19": [
       "Tulipán"
+    ],
+    "C-65": [
+      "Centro histórico",
+      "Reina (Aduana"
     ],
     "C-66": [
       "Reina (Parque"
@@ -1324,15 +1324,6 @@
       "confianza": 100,
       "texto": "👉C-27 Barrio Matadero, Juraguá. (Bombeo Agua CEN 0-12)"
     },
-    "C-65": {
-      "fecha": "2026-11-10T09:05:01+00:00",
-      "mensaje_id": 60429,
-      "url": "https://t.me/empresaelectricacienfuegos1/60429",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-19 Tulipán."
-    },
     "C-408": {
       "fecha": "2026-11-10T01:11:20+00:00",
       "mensaje_id": 60425,
@@ -1406,6 +1397,15 @@
       "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
     },
     "C-19": {
+      "fecha": "2026-11-10T09:05:01+00:00",
+      "mensaje_id": 60429,
+      "url": "https://t.me/empresaelectricacienfuegos1/60429",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-19 Tulipán."
+    },
+    "C-65": {
       "fecha": "2026-11-10T09:05:01+00:00",
       "mensaje_id": 60429,
       "url": "https://t.me/empresaelectricacienfuegos1/60429",
@@ -1849,11 +1849,6 @@
     }
   },
   "horarios": {
-    "C-65": {
-      "inicio": null,
-      "fin": "2026-11-10T21:05:01+00:00",
-      "fecha_ambigua": false
-    },
     "C-408": {
       "inicio": null,
       "fin": "2026-11-10T13:11:20+00:00",
@@ -1895,6 +1890,11 @@
       "fecha_ambigua": false
     },
     "C-19": {
+      "inicio": null,
+      "fin": "2026-11-10T21:05:01+00:00",
+      "fecha_ambigua": false
+    },
+    "C-65": {
       "inicio": null,
       "fin": "2026-11-10T21:05:01+00:00",
       "fecha_ambigua": false
@@ -3172,5 +3172,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-10T09:09:27.740695+00:00"
+  "actualizado": "2026-11-10T09:24:33.726383+00:00"
 }
