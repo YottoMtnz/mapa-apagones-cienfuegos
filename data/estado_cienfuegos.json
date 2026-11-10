@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-11-10T15:48:19+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-10T13:35:26+00:00",
+  "programado_fecha": "2026-11-10T16:11:32+00:00",
   "mensajes_leidos": 108,
   "afectados": {
     "C-82": [
@@ -284,7 +284,61 @@
     "C-20": [],
     "C-59": []
   },
-  "programados": {},
+  "programados": {
+    "C-18": [],
+    "C-24": [
+      "Pérez Leyva",
+      "La Redonda",
+      "El Limpio"
+    ],
+    "C-35": [
+      "Terraza",
+      "Codicia",
+      "Breñas",
+      "Caña Brava",
+      "Dolores"
+    ],
+    "C-36": [
+      "Cumanayagua (Sur",
+      "La Guasasa",
+      "Ceibabo",
+      "La Furnia",
+      "Monasterio",
+      "El Concuní"
+    ],
+    "C-38": [
+      "El Abra",
+      "Crespo",
+      "Quiñones",
+      "La Parra",
+      "El Granizo",
+      "El Jíbaro",
+      "La Jutía",
+      "Hervidero"
+    ],
+    "C-44": [
+      "Los Burros",
+      "El Conejito",
+      "El Desquite",
+      "Venero"
+    ],
+    "C-59": [],
+    "C-6": [
+      "Rancho Luna",
+      "Pasacaballo",
+      "La Milpa"
+    ],
+    "C-63": [
+      "Juraguá (Oeste",
+      "Las 500",
+      "Calicito",
+      "Bolivia",
+      "Comunidad Alejandro",
+      "Hondones",
+      "La Yuca",
+      "Bagazal"
+    ]
+  },
   "confirmados_con_servicio": {
     "C-408": {
       "fecha": "2026-11-10T15:48:19+00:00",
@@ -1121,6 +1175,51 @@
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
     },
+    "C-18": {
+      "fecha": "2026-11-10T16:11:32+00:00",
+      "mensaje_id": 60443,
+      "url": "https://t.me/empresaelectricacienfuegos1/60443",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
+    "C-24": {
+      "fecha": "2026-11-10T16:11:32+00:00",
+      "mensaje_id": 60443,
+      "url": "https://t.me/empresaelectricacienfuegos1/60443",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
+    "C-38": {
+      "fecha": "2026-11-10T16:11:32+00:00",
+      "mensaje_id": 60443,
+      "url": "https://t.me/empresaelectricacienfuegos1/60443",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
+    "C-44": {
+      "fecha": "2026-11-10T16:11:32+00:00",
+      "mensaje_id": 60443,
+      "url": "https://t.me/empresaelectricacienfuegos1/60443",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
+    "C-6": {
+      "fecha": "2026-11-10T16:11:32+00:00",
+      "mensaje_id": 60443,
+      "url": "https://t.me/empresaelectricacienfuegos1/60443",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-18 Arizona, La Juanita."
+    },
     "C-408": {
       "fecha": "2026-11-10T15:48:19+00:00",
       "mensaje_id": 60442,
@@ -1138,34 +1237,6 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
-    },
-    "C-24": {
-      "fecha": "2026-11-10T15:15:04+00:00",
-      "mensaje_id": 60441,
-      "url": "https://t.me/empresaelectricacienfuegos1/60441",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-08T20:05:01+00:00",
-      "listas_consecutivas": 29,
-      "aviso_anterior": {
-        "fecha": "2026-11-08T18:41:34+00:00",
-        "mensaje_id": 60363,
-        "url": "https://t.me/empresaelectricacienfuegos1/60363",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-24  Pérez Leyva, La Redonda, El Limpio."
-      },
-      "lugares": [
-        "Pérez Leyva",
-        "La Redonda",
-        "El Limpio"
-      ]
     },
     "C-92": {
       "fecha": "2026-11-10T15:15:04+00:00",
@@ -1239,58 +1310,6 @@
       },
       "lugares": []
     },
-    "C-6": {
-      "fecha": "2026-11-10T15:15:04+00:00",
-      "mensaje_id": 60441,
-      "url": "https://t.me/empresaelectricacienfuegos1/60441",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-10T00:19:40+00:00",
-      "listas_consecutivas": 8,
-      "aviso_anterior": {
-        "fecha": "2026-11-09T22:42:22+00:00",
-        "mensaje_id": 60418,
-        "url": "https://t.me/empresaelectricacienfuegos1/60418",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-6  \"Rancho Luna, Pasacaballo, La Milpa."
-      },
-      "lugares": [
-        "Rancho Luna",
-        "Pasacaballo",
-        "La Milpa"
-      ]
-    },
-    "C-18": {
-      "fecha": "2026-11-10T15:15:04+00:00",
-      "mensaje_id": 60441,
-      "url": "https://t.me/empresaelectricacienfuegos1/60441",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-10T10:31:58+00:00",
-      "listas_consecutivas": 4,
-      "aviso_anterior": {
-        "fecha": "2026-11-10T09:06:02+00:00",
-        "mensaje_id": 60430,
-        "url": "https://t.me/empresaelectricacienfuegos1/60430",
-        "medio": "texto",
-        "editado": "2026-11-10T11:27:39+00:00",
-        "confianza": 100,
-        "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
-      },
-      "lugares": []
-    },
     "C-78": {
       "fecha": "2026-11-10T15:15:04+00:00",
       "mensaje_id": 60441,
@@ -1345,35 +1364,6 @@
         "texto": "👉C-58 \"Antonio Sánchez, Cocodrilo, Pinalito, Las Guásimas, Pozo Cercado, Magdalena.\""
       },
       "lugares": []
-    },
-    "C-44": {
-      "fecha": "2026-11-10T15:15:04+00:00",
-      "mensaje_id": 60441,
-      "url": "https://t.me/empresaelectricacienfuegos1/60441",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-82 Balboa, La Pedrera, El Tropezón.",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-10T13:14:25+00:00",
-      "listas_consecutivas": 2,
-      "aviso_anterior": {
-        "fecha": "2026-11-10T11:39:42+00:00",
-        "mensaje_id": 60433,
-        "url": "https://t.me/empresaelectricacienfuegos1/60433",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-44 Los Burros, El Conejito, El Desquite, Venero."
-      },
-      "lugares": [
-        "Los Burros",
-        "El Conejito",
-        "El Desquite",
-        "Venero"
-      ]
     },
     "C-86": {
       "fecha": "2026-11-10T15:15:04+00:00",
@@ -1430,7 +1420,53 @@
       ]
     }
   },
-  "horarios": {},
+  "horarios": {
+    "C-18": {
+      "inicio": null,
+      "fin": "2026-11-11T04:11:32+00:00",
+      "fecha_ambigua": false
+    },
+    "C-24": {
+      "inicio": null,
+      "fin": "2026-11-11T04:11:32+00:00",
+      "fecha_ambigua": false
+    },
+    "C-35": {
+      "inicio": null,
+      "fin": "2026-11-11T04:11:32+00:00",
+      "fecha_ambigua": false
+    },
+    "C-36": {
+      "inicio": null,
+      "fin": "2026-11-11T04:11:32+00:00",
+      "fecha_ambigua": false
+    },
+    "C-38": {
+      "inicio": null,
+      "fin": "2026-11-11T04:11:32+00:00",
+      "fecha_ambigua": false
+    },
+    "C-44": {
+      "inicio": null,
+      "fin": "2026-11-11T04:11:32+00:00",
+      "fecha_ambigua": false
+    },
+    "C-59": {
+      "inicio": null,
+      "fin": "2026-11-11T04:11:32+00:00",
+      "fecha_ambigua": false
+    },
+    "C-6": {
+      "inicio": null,
+      "fin": "2026-11-11T04:11:32+00:00",
+      "fecha_ambigua": false
+    },
+    "C-63": {
+      "inicio": null,
+      "fin": "2026-11-11T04:11:32+00:00",
+      "fecha_ambigua": false
+    }
+  },
   "cobertura": "parcial",
   "mw": 68.0,
   "hora_inicio": null,
@@ -1748,8 +1784,8 @@
     }
   ],
   "lectura": {
-    "texto": 62,
-    "imagenes": 46,
+    "texto": 61,
+    "imagenes": 47,
     "pdf": 0,
     "no_leidos": 4
   },
@@ -2725,7 +2761,7 @@
   ],
   "mw_fecha": "2026-11-10T15:15:04+00:00",
   "total_circuitos_afectados": 58,
-  "total_circuitos_programados": 0,
+  "total_circuitos_programados": 9,
   "total_restablecimientos_probables": 11,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2740,5 +2776,5 @@
     "C-92",
     "C-95"
   ],
-  "actualizado": "2026-11-10T16:04:21.999399+00:00"
+  "actualizado": "2026-11-10T16:19:17.069218+00:00"
 }
