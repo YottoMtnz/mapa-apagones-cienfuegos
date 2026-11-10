@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-10T15:15:04+00:00",
+  "reporte_fecha": "2026-11-10T15:48:19+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-10T13:35:26+00:00",
-  "mensajes_leidos": 107,
+  "mensajes_leidos": 108,
   "afectados": {
     "C-82": [
       "Balboa",
@@ -272,8 +272,6 @@
       "Ave 58 de Calle 47 hasta Calle 49",
       "Calle 47 de Ave 54 hasta Ave 58"
     ],
-    "C-408": [],
-    "C-94": [],
     "C-29": [
       "Moncada",
       "Constancia",
@@ -287,7 +285,26 @@
     "C-59": []
   },
   "programados": {},
-  "confirmados_con_servicio": {},
+  "confirmados_con_servicio": {
+    "C-408": {
+      "fecha": "2026-11-10T15:48:19+00:00",
+      "mensaje_id": 60442,
+      "url": "https://t.me/empresaelectricacienfuegos1/60442",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-408 Cantarrana, La Julia, Pepe Rivas."
+    },
+    "C-94": {
+      "fecha": "2026-11-10T15:48:19+00:00",
+      "mensaje_id": 60442,
+      "url": "https://t.me/empresaelectricacienfuegos1/60442",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
+    }
+  },
   "restablecimientos_probables": {
     "C-24": {
       "fecha": "2026-11-10T15:15:04+00:00",
@@ -1077,24 +1094,6 @@
       "confianza": 100,
       "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58."
     },
-    "C-408": {
-      "fecha": "2026-11-10T13:28:21+00:00",
-      "mensaje_id": 60438,
-      "url": "https://t.me/empresaelectricacienfuegos1/60438",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-408 Cantarrana, La Julia, Pepe Rivas."
-    },
-    "C-94": {
-      "fecha": "2026-11-10T13:28:21+00:00",
-      "mensaje_id": 60438,
-      "url": "https://t.me/empresaelectricacienfuegos1/60438",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
-    },
     "C-29": {
       "fecha": "2026-11-10T15:15:04+00:00",
       "mensaje_id": 60441,
@@ -1121,6 +1120,24 @@
       "editado": null,
       "confianza": 100,
       "texto": "👉C-59 Marta Abreus, Jova, Tumba Saco."
+    },
+    "C-408": {
+      "fecha": "2026-11-10T15:48:19+00:00",
+      "mensaje_id": 60442,
+      "url": "https://t.me/empresaelectricacienfuegos1/60442",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-408 Cantarrana, La Julia, Pepe Rivas."
+    },
+    "C-94": {
+      "fecha": "2026-11-10T15:48:19+00:00",
+      "mensaje_id": 60442,
+      "url": "https://t.me/empresaelectricacienfuegos1/60442",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-94 Petrocasas, Psiquiátrico, Las Tecas, Paraíso, El Piojo, Trujillo."
     },
     "C-24": {
       "fecha": "2026-11-10T15:15:04+00:00",
@@ -1475,8 +1492,6 @@
     "C-65": "déficit",
     "C-89": "déficit",
     "C-406": "déficit",
-    "C-408": "avería",
-    "C-94": "avería",
     "C-29": "déficit",
     "C-20": "déficit",
     "C-59": "déficit"
@@ -1733,7 +1748,7 @@
     }
   ],
   "lectura": {
-    "texto": 61,
+    "texto": 62,
     "imagenes": 46,
     "pdf": 0,
     "no_leidos": 4
@@ -1807,24 +1822,6 @@
     }
   },
   "transiciones": [
-    {
-      "circuito": "C-66",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-08T17:35:19+00:00",
-      "mensaje_id": 60362,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60361",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60362"
-    },
-    {
-      "circuito": "C-47",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-08T18:41:34+00:00",
-      "mensaje_id": 60363,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60362",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60363"
-    },
     {
       "circuito": "C-57",
       "tipo": "salida_lista",
@@ -2706,10 +2703,28 @@
       "mensaje_id": 60441,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60437",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60441"
+    },
+    {
+      "circuito": "C-408",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-10T15:48:19+00:00",
+      "mensaje_id": 60442,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60438",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60442"
+    },
+    {
+      "circuito": "C-94",
+      "tipo": "restablecido",
+      "alcance": "general",
+      "fecha": "2026-11-10T15:48:19+00:00",
+      "mensaje_id": 60442,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60438",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60442"
     }
   ],
   "mw_fecha": "2026-11-10T15:15:04+00:00",
-  "total_circuitos_afectados": 60,
+  "total_circuitos_afectados": 58,
   "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 11,
   "circuitos_sin_catalogar": [
@@ -2718,14 +2733,12 @@
     "C-2",
     "C-20",
     "C-31",
-    "C-408",
     "C-43",
     "C-58",
     "C-59",
     "C-89",
     "C-92",
-    "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-10T15:34:21.016948+00:00"
+  "actualizado": "2026-11-10T15:49:21.701103+00:00"
 }
