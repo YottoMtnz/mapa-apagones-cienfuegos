@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-11-10T10:31:58+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-10T09:05:01+00:00",
+  "programado_fecha": "2026-11-10T11:25:08+00:00",
   "mensajes_leidos": 103,
   "afectados": {
     "C-85": [
@@ -262,6 +262,12 @@
     "C-65": [
       "Centro histórico",
       "Reina (Aduana"
+    ],
+    "C-406": [
+      "San Lázaro",
+      "Calle 35 de Ave 58 hasta Ave 64",
+      "Ave 58 de Calle 47 hasta Calle 49",
+      "Calle 47 de Ave 54 hasta Ave 58"
     ]
   },
   "confirmados_con_servicio": {
@@ -711,6 +717,35 @@
         "Guasimal"
       ]
     },
+    "C-406": {
+      "fecha": "2026-11-10T10:31:58+00:00",
+      "mensaje_id": 60431,
+      "url": "https://t.me/empresaelectricacienfuegos1/60431",
+      "medio": "texto",
+      "editado": "2026-11-10T10:59:20+00:00",
+      "confianza": 100,
+      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
+      "tipo": "inferido",
+      "motivo": "ausente_en_lista_completa",
+      "alcance": "deficit",
+      "primera_salida": "2026-11-10T09:06:02+00:00",
+      "listas_consecutivas": 2,
+      "aviso_anterior": {
+        "fecha": "2026-11-10T04:53:05+00:00",
+        "mensaje_id": 60428,
+        "url": "https://t.me/empresaelectricacienfuegos1/60428",
+        "medio": "texto",
+        "editado": null,
+        "confianza": 100,
+        "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58.\""
+      },
+      "lugares": [
+        "San Lázaro",
+        "Calle 35 de Ave 58 hasta Ave 64",
+        "Ave 58 de Calle 47 hasta Calle 49",
+        "Calle 47 de Ave 54 hasta Ave 58"
+      ]
+    },
     "C-20": {
       "fecha": "2026-11-10T10:31:58+00:00",
       "mensaje_id": 60431,
@@ -729,7 +764,7 @@
         "mensaje_id": 60430,
         "url": "https://t.me/empresaelectricacienfuegos1/60430",
         "medio": "texto",
-        "editado": null,
+        "editado": "2026-11-10T11:27:39+00:00",
         "confianza": 100,
         "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
       },
@@ -753,40 +788,11 @@
         "mensaje_id": 60430,
         "url": "https://t.me/empresaelectricacienfuegos1/60430",
         "medio": "texto",
-        "editado": null,
+        "editado": "2026-11-10T11:27:39+00:00",
         "confianza": 100,
         "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
       },
       "lugares": []
-    },
-    "C-406": {
-      "fecha": "2026-11-10T10:31:58+00:00",
-      "mensaje_id": 60431,
-      "url": "https://t.me/empresaelectricacienfuegos1/60431",
-      "medio": "texto",
-      "editado": "2026-11-10T10:59:20+00:00",
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-10T10:31:58+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-11-10T09:06:02+00:00",
-        "mensaje_id": 60430,
-        "url": "https://t.me/empresaelectricacienfuegos1/60430",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58.\""
-      },
-      "lugares": [
-        "San Lázaro",
-        "Calle 35 de Ave 58 hasta Ave 64",
-        "Ave 58 de Calle 47 hasta Calle 49",
-        "Calle 47 de Ave 54 hasta Ave 58"
-      ]
     }
   },
   "afectaciones_parciales": {},
@@ -1295,6 +1301,15 @@
       "confianza": 100,
       "texto": "👉C-19 Tulipán."
     },
+    "C-406": {
+      "fecha": "2026-11-10T11:25:08+00:00",
+      "mensaje_id": 60432,
+      "url": "https://t.me/empresaelectricacienfuegos1/60432",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-406 San Lázaro, Calle 39 desde Ave 74 hasta 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta 49, Calle 47 de Ave 54 hasta Ave 58."
+    },
     "C-63": {
       "fecha": "2026-11-09T23:56:46+00:00",
       "mensaje_id": 60423,
@@ -1621,7 +1636,7 @@
         "mensaje_id": 60430,
         "url": "https://t.me/empresaelectricacienfuegos1/60430",
         "medio": "texto",
-        "editado": null,
+        "editado": "2026-11-10T11:27:39+00:00",
         "confianza": 100,
         "texto": "👉C-20 Punta Gorda (Hospital Provincial 0-24)"
       },
@@ -1645,40 +1660,11 @@
         "mensaje_id": 60430,
         "url": "https://t.me/empresaelectricacienfuegos1/60430",
         "medio": "texto",
-        "editado": null,
+        "editado": "2026-11-10T11:27:39+00:00",
         "confianza": 100,
         "texto": "👉C-18 Arizona, La Juanita (Hospital de Especialidades 0-24)"
       },
       "lugares": []
-    },
-    "C-406": {
-      "fecha": "2026-11-10T10:31:58+00:00",
-      "mensaje_id": 60431,
-      "url": "https://t.me/empresaelectricacienfuegos1/60431",
-      "medio": "texto",
-      "editado": "2026-11-10T10:59:20+00:00",
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-10T10:31:58+00:00",
-      "listas_consecutivas": 1,
-      "aviso_anterior": {
-        "fecha": "2026-11-10T09:06:02+00:00",
-        "mensaje_id": 60430,
-        "url": "https://t.me/empresaelectricacienfuegos1/60430",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-406 \"San Lázaro, Calle 39 desde Ave 74 hasta Ave 48, Calle 35 de Ave 58 hasta Ave 64, Ave 58 de Calle 47 hasta Calle 49, Calle 47 de Ave 54 hasta Ave 58.\""
-      },
-      "lugares": [
-        "San Lázaro",
-        "Calle 35 de Ave 58 hasta Ave 64",
-        "Ave 58 de Calle 47 hasta Calle 49",
-        "Calle 47 de Ave 54 hasta Ave 58"
-      ]
     }
   },
   "horarios": {
@@ -1710,6 +1696,11 @@
     "C-65": {
       "inicio": null,
       "fin": "2026-11-10T21:05:01+00:00",
+      "fecha_ambigua": false
+    },
+    "C-406": {
+      "inicio": null,
+      "fin": "2026-11-10T23:25:08+00:00",
       "fecha_ambigua": false
     }
   },
@@ -2003,8 +1994,8 @@
     }
   ],
   "lectura": {
-    "texto": 61,
-    "imagenes": 42,
+    "texto": 60,
+    "imagenes": 43,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -2199,16 +2190,7 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60366"
     },
     {
-      "circuito": "C-23",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-08T20:05:01+00:00",
-      "mensaje_id": 60366,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60363",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60366"
-    },
-    {
-      "circuito": "C-103",
+      "circuito": "C-101",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-08T20:05:01+00:00",
@@ -2226,7 +2208,16 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60366"
     },
     {
-      "circuito": "C-101",
+      "circuito": "C-103",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-08T20:05:01+00:00",
+      "mensaje_id": 60366,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60363",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60366"
+    },
+    {
+      "circuito": "C-23",
       "tipo": "salida_lista",
       "alcance": "deficit",
       "fecha": "2026-11-08T20:05:01+00:00",
@@ -2946,6 +2937,15 @@
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60428"
     },
     {
+      "circuito": "C-406",
+      "tipo": "salida_lista",
+      "alcance": "deficit",
+      "fecha": "2026-11-10T09:06:02+00:00",
+      "mensaje_id": 60430,
+      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60428",
+      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60430"
+    },
+    {
       "circuito": "C-20",
       "tipo": "salida_lista",
       "alcance": "deficit",
@@ -2962,20 +2962,11 @@
       "mensaje_id": 60431,
       "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60430",
       "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60431"
-    },
-    {
-      "circuito": "C-406",
-      "tipo": "salida_lista",
-      "alcance": "deficit",
-      "fecha": "2026-11-10T10:31:58+00:00",
-      "mensaje_id": 60431,
-      "aviso_anterior": "https://t.me/empresaelectricacienfuegos1/60430",
-      "aviso_actual": "https://t.me/empresaelectricacienfuegos1/60431"
     }
   ],
   "mw_fecha": "2026-11-10T10:31:58+00:00",
   "total_circuitos_afectados": 50,
-  "total_circuitos_programados": 6,
+  "total_circuitos_programados": 7,
   "total_restablecimientos_probables": 19,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2992,5 +2983,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-10T11:19:23.197462+00:00"
+  "actualizado": "2026-11-10T11:35:02.633810+00:00"
 }
