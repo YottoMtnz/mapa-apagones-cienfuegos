@@ -5,7 +5,7 @@
   "reporte_fecha": "2026-11-10T00:19:40+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
-  "programado_fecha": "2026-11-09T21:13:44+00:00",
+  "programado_fecha": "2026-11-10T01:11:20+00:00",
   "mensajes_leidos": 100,
   "afectados": {
     "C-85": [
@@ -216,7 +216,8 @@
     "C-65": [
       "Centro histórico",
       "Reina (Aduana"
-    ]
+    ],
+    "C-408": []
   },
   "confirmados_con_servicio": {
     "C-35": {
@@ -1310,6 +1311,15 @@
       "confianza": 100,
       "texto": "👉C-19 Tulipán."
     },
+    "C-408": {
+      "fecha": "2026-11-10T01:11:20+00:00",
+      "mensaje_id": 60425,
+      "url": "https://t.me/empresaelectricacienfuegos1/60425",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-408 Baldosas, T15, Trébol, 4 Caminos, Universidad, Cantarrana, La Julia, Pepe Rivas."
+    },
     "C-35": {
       "fecha": "2026-11-09T17:37:35+00:00",
       "mensaje_id": 60402,
@@ -1480,30 +1490,6 @@
         "editado": null,
         "confianza": 100,
         "texto": "👉C-17  Ave 5 de septiembre, Distrito Petrolero, Hermanas Giralt. (Hospital Provincial y pediatrico 0-24)"
-      },
-      "lugares": []
-    },
-    "C-408": {
-      "fecha": "2026-11-10T00:19:40+00:00",
-      "mensaje_id": 60424,
-      "url": "https://t.me/empresaelectricacienfuegos1/60424",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-78 Plan Arroz, La Paquita, Galeón, Batey Santana, Guevara, Aguada (Oeste).",
-      "tipo": "inferido",
-      "motivo": "ausente_en_lista_completa",
-      "alcance": "deficit",
-      "primera_salida": "2026-11-09T10:38:04+00:00",
-      "listas_consecutivas": 11,
-      "aviso_anterior": {
-        "fecha": "2026-11-09T09:58:00+00:00",
-        "mensaje_id": 60383,
-        "url": "https://t.me/empresaelectricacienfuegos1/60383",
-        "medio": "texto",
-        "editado": null,
-        "confianza": 100,
-        "texto": "👉C-408 Baldosas,  Cantarrana, La Julia, Pepe Rivas."
       },
       "lugares": []
     },
@@ -1970,6 +1956,11 @@
       "inicio": null,
       "fin": "2026-11-10T09:13:44+00:00",
       "fecha_ambigua": false
+    },
+    "C-408": {
+      "inicio": null,
+      "fin": "2026-11-10T13:11:20+00:00",
+      "fecha_ambigua": false
     }
   },
   "cobertura": "parcial",
@@ -2256,8 +2247,8 @@
     }
   ],
   "lectura": {
-    "texto": 60,
-    "imagenes": 40,
+    "texto": 59,
+    "imagenes": 41,
     "pdf": 0,
     "no_leidos": 2
   },
@@ -3222,7 +3213,7 @@
   ],
   "mw_fecha": "2026-11-10T00:19:40+00:00",
   "total_circuitos_afectados": 44,
-  "total_circuitos_programados": 1,
+  "total_circuitos_programados": 2,
   "total_restablecimientos_probables": 24,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -3239,5 +3230,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-10T00:59:18.643745+00:00"
+  "actualizado": "2026-11-10T01:15:55.179097+00:00"
 }
