@@ -6,7 +6,7 @@
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-10T11:25:08+00:00",
-  "mensajes_leidos": 104,
+  "mensajes_leidos": 106,
   "afectados": {
     "C-85": [
       "Cumanayagua (Centro"
@@ -1963,13 +1963,33 @@
       "id": 60421,
       "url": "https://t.me/empresaelectricacienfuegos1/60421",
       "fecha": "2026-11-09T23:50:56+00:00"
+    },
+    {
+      "id": 60434,
+      "url": "https://t.me/empresaelectricacienfuegos1/60434",
+      "fecha": "2026-11-10T12:33:39+00:00",
+      "motivo": "OCR_baja_confianza_o_sin_texto"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "⚠️En el día de ayer se afectó el servicio por déficit de capacidad durante las 24 horas y se mantuvo la afectación durante todo el horario de la madrugada",
+      "id": 60435,
+      "url": "https://t.me/empresaelectricacienfuegos1/60435",
+      "fecha": "2026-11-10T12:33:50+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "La máxima afectación por déficit de capacidad de generación en el día de ayer fue de 1764         MW a las 18:50 horas.",
+      "id": 60435,
+      "url": "https://t.me/empresaelectricacienfuegos1/60435",
+      "fecha": "2026-11-10T12:33:50+00:00"
     }
   ],
   "lectura": {
-    "texto": 61,
-    "imagenes": 43,
+    "texto": 62,
+    "imagenes": 44,
     "pdf": 0,
-    "no_leidos": 2
+    "no_leidos": 3
   },
   "listas_completas": {
     "deficit": {
@@ -2955,5 +2975,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-10T12:22:02.230688+00:00"
+  "actualizado": "2026-11-10T12:34:39.191151+00:00"
 }
