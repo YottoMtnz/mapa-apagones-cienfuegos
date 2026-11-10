@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-10T11:39:42+00:00",
+  "reporte_fecha": "2026-11-10T12:45:28+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-10T11:25:08+00:00",
-  "mensajes_leidos": 106,
+  "mensajes_leidos": 107,
   "afectados": {
     "C-85": [
       "Cumanayagua (Centro"
@@ -242,17 +242,34 @@
     ],
     "C-66": [
       "Reina (Parque"
-    ]
-  },
-  "programados": {
-    "C-408": [],
-    "C-2": [],
+    ],
+    "C-35": [
+      "Terraza",
+      "Codicia",
+      "Breñas",
+      "Caña Brava",
+      "Dolores"
+    ],
+    "C-63": [
+      "Juraguá (Oeste",
+      "Las 500",
+      "Calicito",
+      "Bolivia",
+      "Comunidad Alejandro",
+      "Hondones",
+      "La Yuca",
+      "Bagazal"
+    ],
     "C-26": [
       "Caonao",
       "Los Tanques",
       "La Ceiba",
       "El Paisíto"
-    ],
+    ]
+  },
+  "programados": {
+    "C-408": [],
+    "C-2": [],
     "C-28": [
       "CEN",
       "Castillo de Jagua",
@@ -1076,13 +1093,13 @@
       "texto": "👉C-50 \"Palmira (Norte)."
     },
     "C-36": {
-      "fecha": "2026-11-10T11:39:42+00:00",
-      "mensaje_id": 60433,
-      "url": "https://t.me/empresaelectricacienfuegos1/60433",
+      "fecha": "2026-11-10T12:45:28+00:00",
+      "mensaje_id": 60436,
+      "url": "https://t.me/empresaelectricacienfuegos1/60436",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-36 \"Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
+      "texto": "👉C-36 Cumanayagua (Sur), La Guasasa, Ceibabo, La Furnia, Monasterio, El Concuní."
     },
     "C-70": {
       "fecha": "2026-11-10T11:39:42+00:00",
@@ -1220,13 +1237,40 @@
       "texto": "👉C-19 Tulipán"
     },
     "C-66": {
-      "fecha": "2026-11-10T11:39:42+00:00",
-      "mensaje_id": 60433,
-      "url": "https://t.me/empresaelectricacienfuegos1/60433",
+      "fecha": "2026-11-10T12:45:28+00:00",
+      "mensaje_id": 60436,
+      "url": "https://t.me/empresaelectricacienfuegos1/60436",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-66 Reina (Parque)"
+      "texto": "👉C-66 Reina (Parque)."
+    },
+    "C-35": {
+      "fecha": "2026-11-10T12:45:28+00:00",
+      "mensaje_id": 60436,
+      "url": "https://t.me/empresaelectricacienfuegos1/60436",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-35 Terraza, Codicia, Breñas, Caña Brava, Dolores."
+    },
+    "C-63": {
+      "fecha": "2026-11-10T12:45:28+00:00",
+      "mensaje_id": 60436,
+      "url": "https://t.me/empresaelectricacienfuegos1/60436",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-63 Juraguá (Oeste), Las 500, Calicito, Bolivia, Comunidad Alejandro, Hondones, La Yuca, Bagazal."
+    },
+    "C-26": {
+      "fecha": "2026-11-10T12:45:28+00:00",
+      "mensaje_id": 60436,
+      "url": "https://t.me/empresaelectricacienfuegos1/60436",
+      "medio": "texto",
+      "editado": null,
+      "confianza": 100,
+      "texto": "👉C-26 Caonao, Los Tanques, La Ceiba, El Paísíto."
     },
     "C-408": {
       "fecha": "2026-11-10T01:11:20+00:00",
@@ -1238,15 +1282,6 @@
       "texto": "👉C-408 Baldosas, T15, Trébol, 4 Caminos, Universidad, Cantarrana, La Julia, Pepe Rivas."
     },
     "C-2": {
-      "fecha": "2026-11-10T03:20:47+00:00",
-      "mensaje_id": 60427,
-      "url": "https://t.me/empresaelectricacienfuegos1/60427",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-2 Calle 47 desde Ave 42 hasta Ave 54 y Ave 48 Calle desde 37 hasta Calle 49."
-    },
-    "C-26": {
       "fecha": "2026-11-10T03:20:47+00:00",
       "mensaje_id": 60427,
       "url": "https://t.me/empresaelectricacienfuegos1/60427",
@@ -1650,11 +1685,6 @@
       "fin": "2026-11-10T15:20:47+00:00",
       "fecha_ambigua": false
     },
-    "C-26": {
-      "inicio": null,
-      "fin": "2026-11-10T15:20:47+00:00",
-      "fecha_ambigua": false
-    },
     "C-28": {
       "inicio": null,
       "fin": "2026-11-10T15:20:47+00:00",
@@ -1715,7 +1745,7 @@
     "C-5": "déficit",
     "C-72": "déficit",
     "C-50": "déficit",
-    "C-36": "déficit",
+    "C-36": "déficit / avería",
     "C-70": "déficit",
     "C-22": "déficit",
     "C-21": "déficit",
@@ -1731,7 +1761,10 @@
     "C-75": "déficit",
     "C-33": "déficit",
     "C-19": "déficit",
-    "C-66": "déficit"
+    "C-66": "déficit / emergencia",
+    "C-35": "avería",
+    "C-63": "avería",
+    "C-26": "avería"
   },
   "error": null,
   "pendientes_revision": [
@@ -1983,10 +2016,17 @@
       "id": 60435,
       "url": "https://t.me/empresaelectricacienfuegos1/60435",
       "fecha": "2026-11-10T12:33:50+00:00"
+    },
+    {
+      "motivo": "resumen_historico",
+      "texto": "En el día de ayer en nuestra provincia se afectó el servicio por déficit de capacidad de generación durante las 24 horas",
+      "id": 60436,
+      "url": "https://t.me/empresaelectricacienfuegos1/60436",
+      "fecha": "2026-11-10T12:45:28+00:00"
     }
   ],
   "lectura": {
-    "texto": 62,
+    "texto": 63,
     "imagenes": 44,
     "pdf": 0,
     "no_leidos": 3
@@ -2957,8 +2997,8 @@
     }
   ],
   "mw_fecha": "2026-11-10T11:39:42+00:00",
-  "total_circuitos_afectados": 50,
-  "total_circuitos_programados": 7,
+  "total_circuitos_afectados": 53,
+  "total_circuitos_programados": 6,
   "total_restablecimientos_probables": 19,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2975,5 +3015,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-10T12:34:39.191151+00:00"
+  "actualizado": "2026-11-10T12:49:21.397660+00:00"
 }
