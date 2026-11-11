@@ -2,11 +2,11 @@
   "schema": 4,
   "estado_datos": "ok",
   "fuente_afectados": true,
-  "reporte_fecha": "2026-11-11T13:18:12+00:00",
+  "reporte_fecha": "2026-11-11T13:39:33+00:00",
   "reporte_vencido": false,
   "sin_afectaciones": false,
   "programado_fecha": "2026-11-11T10:05:58+00:00",
-  "mensajes_leidos": 111,
+  "mensajes_leidos": 112,
   "afectados": {
     "C-73": [
       "Perseverancia",
@@ -718,13 +718,13 @@
       "texto": "👉C-47  Elpidio Gómez, Altamira, La Peseta."
     },
     "C-84": {
-      "fecha": "2026-11-11T13:18:12+00:00",
-      "mensaje_id": 60469,
-      "url": "https://t.me/empresaelectricacienfuegos1/60469",
+      "fecha": "2026-11-11T13:39:33+00:00",
+      "mensaje_id": 60470,
+      "url": "https://t.me/empresaelectricacienfuegos1/60470",
       "medio": "texto",
       "editado": null,
       "confianza": 100,
-      "texto": "👉C-84  \"Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
+      "texto": "👉C-84 Espartaco (Este), Maleza, Dagame, Paso del Medio, San Fernando de Camarones, Jurisdicción, Manaquita."
     },
     "C-49": {
       "fecha": "2026-11-11T13:18:12+00:00",
@@ -1601,7 +1601,7 @@
     "C-73": "déficit",
     "C-42": "déficit",
     "C-47": "déficit",
-    "C-84": "déficit",
+    "C-84": "déficit / avería",
     "C-49": "déficit",
     "C-23": "déficit",
     "C-103": "déficit",
@@ -1901,11 +1901,18 @@
       "id": 60467,
       "url": "https://t.me/empresaelectricacienfuegos1/60467",
       "fecha": "2026-11-11T12:51:15+00:00"
+    },
+    {
+      "motivo": "sin_circuitos_identificables",
+      "texto": "Circuit\n_ enfalla",
+      "id": 60470,
+      "url": "https://t.me/empresaelectricacienfuegos1/60470",
+      "fecha": "2026-11-11T13:39:33+00:00"
     }
   ],
   "lectura": {
     "texto": 65,
-    "imagenes": 46,
+    "imagenes": 47,
     "pdf": 0,
     "no_leidos": 5
   },
@@ -2895,5 +2902,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-11T13:29:19.949507+00:00"
+  "actualizado": "2026-11-11T13:44:21.038914+00:00"
 }
