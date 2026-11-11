@@ -276,25 +276,7 @@
       "Federal"
     ]
   },
-  "programados": {
-    "C-35": [
-      "Terraza",
-      "Codicia",
-      "Breñas",
-      "Caña Brava",
-      "Dolores"
-    ],
-    "C-38": [
-      "El Abra",
-      "Crespo",
-      "Quiñones",
-      "La Parra",
-      "El Granizo",
-      "El Jíbaro",
-      "La Jutía",
-      "Hervidero"
-    ]
-  },
+  "programados": {},
   "confirmados_con_servicio": {},
   "restablecimientos_probables": {
     "C-92": {
@@ -1154,24 +1136,6 @@
       "confianza": 100,
       "texto": "👉C-70 Aguada Federal."
     },
-    "C-35": {
-      "fecha": "2026-11-10T16:11:32+00:00",
-      "mensaje_id": 60443,
-      "url": "https://t.me/empresaelectricacienfuegos1/60443",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita."
-    },
-    "C-38": {
-      "fecha": "2026-11-10T16:11:32+00:00",
-      "mensaje_id": 60443,
-      "url": "https://t.me/empresaelectricacienfuegos1/60443",
-      "medio": "texto",
-      "editado": null,
-      "confianza": 100,
-      "texto": "👉C-18 Arizona, La Juanita."
-    },
     "C-92": {
       "fecha": "2026-11-11T03:29:08+00:00",
       "mensaje_id": 60459,
@@ -1532,18 +1496,7 @@
       ]
     }
   },
-  "horarios": {
-    "C-35": {
-      "inicio": null,
-      "fin": "2026-11-11T04:11:32+00:00",
-      "fecha_ambigua": false
-    },
-    "C-38": {
-      "inicio": null,
-      "fin": "2026-11-11T04:11:32+00:00",
-      "fecha_ambigua": false
-    }
-  },
+  "horarios": {},
   "cobertura": "parcial",
   "mw": 65.0,
   "hora_inicio": null,
@@ -2827,7 +2780,7 @@
   ],
   "mw_fecha": "2026-11-11T03:29:08+00:00",
   "total_circuitos_afectados": 55,
-  "total_circuitos_programados": 2,
+  "total_circuitos_programados": 0,
   "total_restablecimientos_probables": 14,
   "circuitos_sin_catalogar": [
     "C-17",
@@ -2844,5 +2797,5 @@
     "C-94",
     "C-95"
   ],
-  "actualizado": "2026-11-11T04:09:25.108753+00:00"
+  "actualizado": "2026-11-11T04:24:32.221059+00:00"
 }
