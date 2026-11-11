@@ -1,510 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
-<title>Cienfuegos · Mapa de apagones</title>
-<meta name="theme-color" content="#0b1418">
-<meta name="description" content="Estado reportado de los circuitos eléctricos de Cienfuegos, con fuentes y horarios.">
-<link rel="stylesheet" href="assets/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="assets/MarkerCluster.css">
-<link rel="stylesheet" href="assets/MarkerCluster.Default.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa de Apagones Cienfuegos — Proyecto cerrado</title>
+<meta name="description" content="El Mapa de Apagones Cienfuegos ha cerrado. Gracias a todos los que lo usaron.">
 <style>
+  :root{
+    --fondo:#070914; --panel:rgba(255,255,255,.045); --borde:rgba(94,234,212,.22);
+    --teal:#2dd4bf; --teal2:#5eead4; --txt:#e8f0ee; --tenue:#9db4ae;
+  }
   *{margin:0;padding:0;box-sizing:border-box}
-  :root{--bg:#0b0f1a;--panel:rgba(13,18,32,.94);--borde:#2dd4bf2e;--teal:#5eead4;--rojo:#f87171;--naranja:#fbbf24;--verde:#4ade80;--gris:#9aa4b8;--gris2:#6b7280}
-  body{font-family:-apple-system,'Segoe UI',Roboto,system-ui,sans-serif;background:var(--bg);color:#e8ecf4}
-  #map{height:100vh;width:100%;background:#0b0f1a}
-  .panel{position:fixed;top:12px;left:12px;z-index:1000;background:var(--panel);border:1px solid var(--borde);border-radius:16px;padding:16px;max-width:340px;max-height:calc(100vh - 24px);overflow-y:auto;backdrop-filter:blur(10px);box-shadow:0 8px 32px rgba(0,0,0,.4)}
-  .panel h1{font-size:19px;color:var(--teal);margin-bottom:2px}
-  .panel .sub{font-size:12px;color:var(--gris);margin-bottom:12px}
-  .provsel{width:100%;margin-bottom:12px;background:#141b2e;color:#e8ecf4;border:1px solid #2dd4bf44;border-radius:10px;padding:10px;font-size:14px;cursor:pointer}
-  .tabs{display:flex;gap:6px;margin-bottom:12px}
-  .tab{flex:1;text-align:center;padding:8px 4px;border-radius:10px;font-size:12px;font-weight:600;cursor:pointer;background:#141b2e;color:var(--gris);border:1px solid transparent}
-  .tab.activo{color:#0b0f1a}
-  .tab[data-tab="ahora"].activo{background:var(--rojo)}
-  .tab[data-tab="programados"].activo{background:var(--naranja)}
-  .tab[data-tab="todos"].activo{background:var(--teal)}
-  .stats{display:flex;gap:8px;margin-bottom:10px}
-  .stat{flex:1;background:#141b2e;border-radius:12px;padding:10px 6px;text-align:center;border:1px solid #ffffff08;cursor:pointer;user-select:none}
-  .stat:active{background:#1e293b}
-  #tourBar{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);z-index:1001;background:#0f172a;border:1px solid #2dd4bf;border-radius:12px;padding:8px 12px;display:none;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(0,0,0,.5)}
-  #tourBar button{background:#2dd4bf;color:#0b0f1a;border:none;border-radius:8px;width:36px;height:36px;font-size:18px;font-weight:bold;cursor:pointer}
-  #tourBar button.salir{background:#ef4444;color:#fff}
-  #tourInfo{color:#e2e8f0;font-size:14px;white-space:nowrap}
-  .stat b{font-size:22px;display:block;line-height:1.2}
-  .stat span{font-size:10px;color:var(--gris);text-transform:uppercase;letter-spacing:.5px}
-  .stat.red b{color:var(--rojo)}.stat.orange b{color:var(--naranja)}.stat.green b{color:var(--verde)}.stat.gray b{color:var(--gris)}
-  .leyenda{display:flex;gap:10px;margin-bottom:10px;font-size:11px;color:var(--gris);flex-wrap:wrap}
-  .leyenda i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px}
-  .updated{font-size:11px;color:var(--gris2);line-height:1.5}
-  .aviso{display:none;font-size:11.5px;line-height:1.45;border-radius:10px;padding:8px 10px;margin-bottom:10px;background:#3b2a05;color:#fcd34d;border:1px solid #fbbf2455}
-  .aviso.rojo{background:#3b0d0d;color:#fca5a5;border-color:#f8717155}
-  details.sinub{margin:8px 0;background:#141b2e;border-radius:10px;padding:8px 10px;font-size:12px}
-  details.sinub summary{cursor:pointer;color:var(--gris)}
-  details.sinub ul{list-style:none;margin-top:6px;max-height:160px;overflow-y:auto}
-  details.sinub li{padding:3px 0;border-bottom:1px solid #ffffff0d;display:flex;gap:6px;align-items:center}
-  details.sinub li i{width:9px;height:9px;border-radius:50%;flex:none}
-  .credits{font-size:11px;color:var(--gris2);margin-top:10px;padding-top:10px;border-top:1px solid #ffffff10}
-  .credits a{color:var(--teal);text-decoration:none}
-  .dot{border-radius:50%;border:2px solid #fff3;box-shadow:0 0 8px rgba(0,0,0,.5)}
-  .dot.red{background:#ef4444}.dot.orange{background:#f59e0b}.dot.green{background:#22c55e}.dot.gray{background:#6b7280;opacity:.55}
-  .parpadeo .dot.red{animation:blink 1.2s infinite}
-  .parpadeo .dot.orange{animation:blink 2.2s infinite}
-  .dot.dudoso{border:2px dashed #fde68a;opacity:.7}
-  .dot.corregido{outline:2px solid #38bdf8}
-  @keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.8)}}
-  .leaflet-popup-content{font-size:13px;line-height:1.6;min-width:180px}
-  .badge{display:inline-block;padding:2px 8px;border-radius:20px;font-size:11px;font-weight:700;color:#0b0f1a;margin-bottom:4px}
-  .badge.red{background:var(--rojo)}.badge.orange{background:var(--naranja)}.badge.green{background:var(--verde)}.badge.gray{background:#9ca3af}
-  .pbtn{background:#1e293b;color:#fff;border-radius:8px;padding:6px 12px;font-size:12px;margin:6px 6px 0 0;cursor:pointer;border:1px solid #38bdf8}
-  .pbtn.ok{border-color:#22c55e}
-  #btnUbic{position:fixed;top:12px;right:12px;z-index:1001;width:44px;height:44px;border-radius:12px;border:1px solid #2dd4bf;background:#0f172a;color:#5eead4;font-size:22px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.5)}
-  #btnRefresh{position:fixed;top:12px;right:64px;z-index:1001;width:44px;height:44px;border-radius:12px;border:1px solid #2dd4bf;background:#0f172a;color:#5eead4;font-size:22px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.5)}
-  @media(max-width:600px){.panel{max-width:calc(100vw - 24px);padding:12px}.panel h1{font-size:16px}.stat b{font-size:18px}}
-
-  :root{--bg:#0b1418;--panel:#101e24f5;--borde:#ffffff16;--teal:#8de4d0;--gris:#a8b7bd;--gris2:#9daeb5}
-  body{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
-  .leaflet-tile-pane{filter:saturate(.65) brightness(.82)}
-  .panel{top:24px;left:24px;width:358px;max-width:358px;max-height:calc(100dvh - 48px);border-radius:22px;padding:22px;box-shadow:0 20px 70px #0006}
-  .brand{display:flex;align-items:center;gap:9px;font-size:9px;letter-spacing:1.7px;color:#afc5c9;margin-bottom:22px;font-weight:700}
-  .brand-icon{display:grid;place-items:center;background:#9cebd6;color:#0c2625;border-radius:9px;width:30px;height:30px;font-size:26px;line-height:1}
-  .region-tag{margin-left:auto;border:1px solid #ffffff24;padding:4px 6px;border-radius:5px;font-size:9px}
-  .panel h1{font-size:38px;letter-spacing:-1.8px;color:#f1f7f8;font-weight:650;margin-bottom:6px}.title-dot{color:#87e4c8}
-  .panel .sub{font-size:12px;margin-bottom:18px;color:#b2c0c6}
-  .statusline{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
-  #estadoPill{font-size:10px;color:#a4e6d3;padding:6px 10px;background:#7ce1c410;border:1px solid #7ce1c430;border-radius:20px}
-  #plegar{background:transparent;color:#c4d9dc;border:1px solid #ffffff30;width:30px;height:28px;border-radius:8px;cursor:pointer;font-size:20px}
-  .searchbox{display:flex;align-items:center;gap:10px;border:1px solid #ffffff20;background:#ffffff06;border-radius:11px;padding:0 12px;margin-bottom:14px}.searchbox span{font-size:24px;color:#a4babd}
-  .searchbox input{width:100%;padding:12px 0;background:transparent;color:#edf9fa;border:0;outline:0;font-size:12px}.searchbox:focus-within{border-color:#8de4d0}
-  .tabs{padding:4px;background:#071216a0;border-radius:11px;gap:3px;margin-bottom:20px}.tab{border:0;padding:9px 4px;background:transparent;color:#b8c4c9;font-size:11px}
-  .tab.activo{box-shadow:0 2px 8px #0002}.section-label{display:flex;justify-content:space-between;letter-spacing:1.5px;font-size:9px;color:#a6b9bd;margin-bottom:10px}
-  .stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px}.stat{text-align:left;padding:14px;background:#ffffff04;border:1px solid #ffffff0f;transition:background .2s}.stat:hover{background:#ffffff0a}.stat b{font-size:29px;font-weight:600;margin-bottom:5px}.stat span{font-size:9px;letter-spacing:1px}
-  .leyenda{padding-top:12px;border-top:1px solid #ffffff10;font-size:10px;gap:8px 12px}.leyenda i{width:7px;height:7px}
-  .aviso{font-size:11px;padding:11px 12px;background:#4237215c;color:#f1d7a1;border-color:#d3ab5929}
-  .data-foot{padding:10px 0}.updated{font-size:10px;line-height:1.8}.map-note{font-size:10px;color:#9eb0b6;line-height:1.6;padding-top:8px}
-  .credits{font-size:10px;margin-top:14px}.leaflet-popup-content-wrapper{border-radius:15px;background:#12252b;color:#e5f1f3;box-shadow:0 14px 35px #0004}.leaflet-popup-tip{background:#12252b}.leaflet-popup-content{margin:17px;font-size:12px;max-width:270px}.leaflet-popup-content a{color:#9cebd6}
-  #btnUbic,#btnRefresh{top:24px;background:#102329;color:#a2edd9;border:1px solid #ffffff30;border-radius:13px;box-shadow:0 7px 20px #0003}#btnUbic{right:24px}#btnRefresh{right:78px}
-  #mapLabel{position:fixed;top:28px;left:410px;z-index:800;background:#102329ec;border:1px solid #ffffff20;border-radius:11px;padding:13px 17px;font-size:11px;font-weight:700;letter-spacing:2px;box-shadow:0 8px 24px #0002}#mapLabel span{display:block;margin-top:5px;font-size:8px;color:#a8bfc4;letter-spacing:1.5px;font-weight:400}
-  #mapToast{display:none;position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#102329;color:#e5f2ee;border:1px solid #83d9c0;padding:12px 18px;border-radius:12px;z-index:2000;max-width:90vw;font-size:12px}
-  .dot{border:2px solid #fff;box-shadow:0 0 0 4px #12252b44,0 2px 6px #0005}.dot.gray{opacity:.9;background:#84969f}.dot.dudoso{border-color:#fde68a}
-  #revision li{display:block;font-size:10px;padding:7px 0}#revision a{color:#9cebd6}.pbtn{padding:8px;font-size:11px;background:#203c42;border:1px solid #7baba750}
-  button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #9debd6;outline-offset:3px}
-  @media(prefers-reduced-motion:reduce){.parpadeo .dot{animation:none!important}*{scroll-behavior:auto!important}}
-  .stat.teal{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;border:1px dashed #5eead466}.stat.teal b{color:#5eead4;margin:0}.stat.teal span{max-width:170px;line-height:1.5;text-align:right}.dot.teal{background:#0f766e;border:2px dashed #99f6e4}.badge.teal{background:#99f6e4;color:#083d38}.inferencia{margin-top:6px;color:#a4ebdc;line-height:1.5;font-size:11px}
-  @media(max-width:700px){.panel{top:auto;bottom:12px;left:12px;width:calc(100vw - 24px);max-width:none;max-height:52dvh;padding:15px 17px;border-radius:20px}.brand{display:none}.panel h1{font-size:25px;letter-spacing:-.9px;margin-bottom:3px}.panel .sub{font-size:10px;margin-bottom:9px}.statusline{margin-bottom:10px}.searchbox{margin-bottom:10px}.tabs{margin-bottom:12px}.stats{grid-template-columns:repeat(4,1fr);gap:5px}.stat{padding:10px 5px;text-align:center}.stat b{font-size:23px}.stat span{font-size:7px;letter-spacing:0}.section-label{margin-bottom:7px}.credits{font-size:9px;margin-top:8px;padding-top:8px}#mapLabel{left:12px;top:12px;padding:10px 12px;font-size:9px}#btnUbic,#btnRefresh{top:12px}#btnUbic{right:12px}#btnRefresh{right:64px}.leaflet-bottom.leaflet-right{bottom:54dvh}#tourBar{bottom:auto;top:72px;gap:6px;padding:6px 8px}#tourInfo{font-size:11px}#mapToast{bottom:54dvh}.panel.plegado{max-height:none}.panel.plegado .credits{display:none}.panel.plegado .sub{display:none}}
-
+  html,body{height:100%}
+  body{
+    background:
+      radial-gradient(900px 500px at 85% -10%, rgba(45,212,191,.14), transparent 60%),
+      radial-gradient(700px 420px at -10% 110%, rgba(45,212,191,.08), transparent 60%),
+      var(--fondo);
+    color:var(--txt);
+    font-family:"Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+    min-height:100vh; display:flex; flex-direction:column; align-items:center;
+    padding:22px 18px 34px;
+  }
+  .lang{margin-left:auto; display:flex; gap:6px}
+  .lang button{
+    background:transparent; color:var(--tenue); border:1px solid var(--borde);
+    border-radius:999px; padding:6px 14px; font-size:.85rem; cursor:pointer;
+  }
+  .lang button.on{color:#06251f; background:var(--teal); border-color:var(--teal); font-weight:700}
+  main{
+    margin:auto; width:100%; max-width:620px; text-align:center;
+    background:var(--panel); border:1px solid var(--borde); border-radius:26px;
+    padding:44px 34px 38px; backdrop-filter:blur(6px);
+    box-shadow:0 24px 60px rgba(0,0,0,.45);
+  }
+  .bombilla{width:104px;height:104px;margin:0 auto 8px;display:block}
+  .bombilla .halo{fill:rgba(45,212,191,.10)}
+  .bombilla .vidrio{fill:none;stroke:#3d4a47;stroke-width:3.4;stroke-linejoin:round}
+  .bombilla .filamento{fill:none;stroke:#3d4a47;stroke-width:3;stroke-linecap:round}
+  .bombilla .casquillo{fill:#54655f}
+  h1{font-size:1.65rem; line-height:1.25; font-weight:800; margin:14px 0 4px}
+  h1 .marca{color:var(--teal2)}
+  .cierre{
+    display:inline-block; margin:14px 0 6px; padding:7px 18px; border-radius:999px;
+    border:1px solid var(--borde); color:var(--teal2); font-weight:700;
+    letter-spacing:.14em; text-transform:uppercase; font-size:.8rem;
+  }
+  p{color:var(--tenue); font-size:1.02rem; line-height:1.65; margin:12px auto; max-width:48ch}
+  p b{color:var(--txt)}
+  .gracias{color:var(--txt); font-size:1.08rem}
+  footer{margin-top:26px; color:#63756f; font-size:.85rem; text-align:center}
+  footer b{color:var(--tenue)}
+  @media (max-width:480px){ main{padding:34px 22px 30px} h1{font-size:1.4rem} }
 </style>
 </head>
 <body>
-<div id="map"></div>
-<div class="panel" id="panelPrincipal">
-  <div class="brand"><span class="brand-icon">ϟ</span><span>OBSERVATORIO ELÉCTRICO</span><span class="region-tag">CFG</span></div>
-  <h1>Cienfuegos<span class="title-dot">.</span></h1>
-  <div class="sub">Tu provincia, con información más clara.</div>
-  <div class="statusline"><span id="estadoPill">Consultando avisos</span><button id="plegar" aria-expanded="true" aria-label="Ocultar o mostrar detalles">−</button></div>
-  <div id="contenidoPanel">
-  <label class="searchbox"><span>⌕</span><input id="buscar" type="search" placeholder="Buscar localidad o circuito" aria-label="Buscar localidad o circuito"></label>
-  <select class="provsel" id="provSel" style="display:none"></select>
-  <div class="tabs">
-    <button class="tab activo" data-tab="todos">Todos</button>
-    <button class="tab" data-tab="ahora">Sin servicio</button>
-    <button class="tab" data-tab="programados">Programados</button>
+  <div class="lang" role="group" aria-label="Idioma / Language">
+    <button id="btnEs" class="on" type="button">ES</button>
+    <button id="btnEn" type="button">EN</button>
   </div>
-  <div class="aviso" id="aviso"></div>
-  <div class="section-label">CIRCUITOS REPORTADOS <span id="totalCatalogo"></span></div>
-  <div class="stats">
-    <button class="stat red" title="Recorrer circuitos sin servicio"><b id="cAfect">–</b><span>Sin servicio</span></button>
-    <button class="stat orange" title="Recorrer programados"><b id="cProg">–</b><span>Programados</span></button>
-    <button class="stat green" title="Recorrer restablecidos"><b id="cOk">–</b><span>Restablecidos</span></button>
-    <button class="stat gray" title="Recorrer sin confirmar"><b id="cDesc">–</b><span>Sin confirmar</span></button>
-    <button class="stat teal" title="Salieron de una lista completa; no se confirmó oficialmente la reposición"><b id="cProb">–</b><span>Restablecimiento probable</span></button>
-  </div>
-  <div class="updated" id="mwLine" style="display:none">⚡ <b id="mwVal"></b> MW afectados</div>
-  <div class="leyenda">
-    <span><i style="background:#ef4444"></i>Sin servicio</span>
-    <span><i style="background:#f59e0b"></i>Programado</span>
-    <span><i style="background:#22c55e"></i>Con servicio</span>
-    <span><i style="background:#0f766e;border:1px dashed #99f6e4"></i>Restablecimiento probable</span>
-    <span><i style="background:#6b7280"></i>Sin datos</span>
-  </div>
-  <details class="sinub" id="sinub" style="display:none">
-    <summary id="sinubTitulo"></summary>
-    <ul id="sinubLista"></ul>
-  </details>
-  <div class="data-foot"><div class="updated" id="upd">Cargando…</div><div class="updated" id="reporteHora"></div></div>
-  
-  <div class="map-note">Verde: reposición confirmada. Turquesa: salió de una lista completa, sin confirmación directa. Gris: sin información suficiente. Cada punto representa una localidad, no cada vivienda.</div>
-  </div>
-  <div class="credits">Desarrollado por <a href="https://github.com/YottoMtnz" target="_blank" rel="noopener">Fraudy Martinez Madruga</a></div>
-</div>
-<div id="mapLabel">CIENFUEGOS <span>ESTADO REPORTADO</span></div>
-<div id="mapToast" role="status" aria-live="polite"></div>
-<button id="btnUbic" title="Mi ubicación" aria-label="Mi ubicación">◎</button>
-<button id="btnRefresh" title="Actualizar" aria-label="Actualizar">↻</button>
-<div id="tourBar">
-  <button id="tourPrev" title="Anterior">‹</button>
-  <span id="tourInfo">1 de 18</span>
-  <button id="tourNext" title="Siguiente">›</button>
-  <button id="tourSalir" class="salir" title="Salir">✕</button>
-</div>
 
-<script src="assets/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="assets/leaflet.markercluster.js"></script>
-<script src="config.js"></script>
+  <main>
+    <svg class="bombilla" viewBox="0 0 120 120" aria-hidden="true">
+      <circle class="halo" cx="60" cy="52" r="46"></circle>
+      <path class="vidrio" d="M60 16c-15.7 0-27 11.6-27 26.2 0 9.3 4.6 15.4 9.4 20.9 3 3.4 5.1 6 5.6 9.9h24c.5-3.9 2.6-6.5 5.6-9.9 4.8-5.5 9.4-11.6 9.4-20.9C87 27.6 75.7 16 60 16z"></path>
+      <path class="filamento" d="M50 62l7-14 6 10 7-14"></path>
+      <rect class="casquillo" x="47" y="86" width="26" height="6" rx="2"></rect>
+      <rect class="casquillo" x="49" y="95" width="22" height="6" rx="2"></rect>
+      <path class="casquillo" d="M53 104h14l-3.2 7a4.4 4.4 0 0 1-7.6 0z"></path>
+    </svg>
+
+    <h1><span data-es>Mapa de Apagones</span><span data-en hidden>Blackout Map</span> <span class="marca">Cienfuegos</span></h1>
+
+    <div class="cierre"><span data-es>Proyecto cerrado</span><span data-en hidden>Project closed</span></div>
+
+    <p data-es>Este proyecto <b>ha sido abandonado</b>. Los problemas técnicos y la falta de información por parte de Cuba hicieron imposible mantener el mapa actualizado con datos confiables.</p>
+    <p data-en hidden>This project <b>has been discontinued</b>. Technical problems and the lack of information from Cuba made it impossible to keep the map updated with reliable data.</p>
+
+    <p data-es>La aplicación y esta página dejan de actualizarse desde hoy. Gracias por haberlo usado y por cada reporte que ayudó a los demás.</p>
+    <p data-en hidden>The app and this page will no longer be updated as of today. Thank you for using it, and for every report that helped others.</p>
+
+    <p class="gracias" data-es>Gracias por acompañarnos. 🕯️</p>
+    <p class="gracias" data-en hidden>Thank you for being part of it. 🕯️</p>
+  </main>
+
+  <footer>
+    <span data-es>Un proyecto de</span><span data-en hidden>A project by</span> <b>Fraudy Martinez Madruga</b>
+  </footer>
+
 <script>
-const REPO_URL = "https://github.com/YottoMtnz/mapa-apagones-cienfuegos";
-const PROVINCIAS = {
-  "cienfuegos":      {nombre:"Cienfuegos",       centro:[22.15,-80.45], activa:true},
-};
-const MAX_MONITOR_ATRASADO_H = 3;      // si 'actualizado' es más viejo, avisar
-const MAX_PINES_PARPADEO = 120;        // por encima, sin animación (batería en móvil)
-
-// Modo recorrido: tocar un contador para ver los puntos uno por uno
-let tour = {activo:false, lista:[], idx:0, categoria:''};
-const TOUR_COLOR = {afect:'red', prog:'orange', ok:'green', prob:'teal', desc:'gray'};
-function iniciarTour(cat){
-  // Recolectar marcadores de esa categoría
-  filtroActual='todos';document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('activo',x.dataset.tab==='todos'));renderizar();
-  const lista = [];
-  for(const ck in marcadores){
-    const mk = marcadores[ck];
-    if(mk._m && mk._m.color === TOUR_COLOR[cat]) lista.push(mk);
+  var es = document.querySelectorAll("[data-es]"), en = document.querySelectorAll("[data-en]");
+  var bEs = document.getElementById("btnEs"), bEn = document.getElementById("btnEn");
+  function idioma(l){
+    var showEs = l !== "en";
+    es.forEach(function(e){ e.hidden = !showEs; });
+    en.forEach(function(e){ e.hidden = showEs; });
+    bEs.classList.toggle("on", showEs); bEn.classList.toggle("on", !showEs);
+    document.documentElement.lang = showEs ? "es" : "en";
+    try{ localStorage.setItem("mapa-idioma", showEs ? "es" : "en"); }catch(e){}
   }
-  if(!lista.length){ alert('No hay puntos en esta categoría'); return; }
-  tour = {activo:true, lista, idx:0, categoria:cat};
-  $('tourBar').style.display = 'flex';
-  mostrarTour();
-}
-function mostrarTour(){
-  const mk = tour.lista[tour.idx];
-  if(!mk) return;
-  const {lat, lng} = mk._m;
-  map.setView([lat, lng], 13, {animate:true});
-  layerGroup.zoomToShowLayer(mk,()=>mk.openPopup());
-  const nombres = {afect:'sin servicio', prog:'programados', ok:'con servicio', prob:'probables', desc:'sin datos'};
-  $('tourInfo').textContent = `${tour.idx+1} de ${tour.lista.length} ${nombres[tour.categoria]||''}`;
-}
-function tourSiguiente(){ if(!tour.activo) return; tour.idx = (tour.idx+1) % tour.lista.length; mostrarTour(); }
-function tourAnterior(){ if(!tour.activo) return; tour.idx = (tour.idx-1+tour.lista.length) % tour.lista.length; mostrarTour(); }
-function tourSalir(){ tour.activo = false; const b=$('tourBar'); if(b) b.style.display = 'none'; try{ map.closePopup(); }catch(e){} }
-
-// Escapa HTML: todo texto de datos pasa por aquí antes de ir a innerHTML.
-const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-
-const LIMITES_CFG=[[21.75,-80.95],[22.55,-79.95]];
-const map = L.map('map',{zoomControl:false,minZoom:9,maxBounds:LIMITES_CFG,maxBoundsViscosity:1}).setView([22.15,-80.45], 10);
-L.control.zoom({position:'bottomright'}).addTo(map);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap', maxZoom:19}).addTo(map);
-const layerGroup = L.markerClusterGroup({maxClusterRadius:40, spiderfyOnMaxZoom:true}).addTo(map);
-
-let limiteReal=null;
-function dentroProvincia(lat,lng){
- if(!limiteReal)return lat>=21.75&&lat<=22.55&&lng>=-80.95&&lng<=-79.95;
- const ring=(r)=>{let c=false;for(let i=0,j=r.length-1;i<r.length;j=i++){const a=r[i],b=r[j];if((a[1]>lat)!==(b[1]>lat)&&lng<(b[0]-a[0])*(lat-a[1])/(b[1]-a[1])+a[0])c=!c;}return c;};
- const ps=limiteReal.type==='MultiPolygon'?limiteReal.coordinates:[limiteReal.coordinates];return ps.some(p=>ring(p[0])&&!p.slice(1).some(ring));
-}
-fetch('data/limite_cienfuegos.geojson').then(r=>{if(!r.ok)throw Error();return r.json();}).then(g=>{limiteReal=g.geometry;L.geoJSON(g,{interactive:false,style:{color:'#227c72',weight:2,fillOpacity:.025,dashArray:'6 5'}}).addTo(map);if(datosCache.circ)renderizar();}).catch(()=>avisoBreve('No se pudo cargar el límite provincial.'));
-let filtroActual='todos', provActual='cienfuegos', datosCache={}, marcadores={}, reqId=0, moviendo=false;
-const $ = id => document.getElementById(id);
-const sel = $('provSel');
-for(const [id,p] of Object.entries(PROVINCIAS)){
-  const o=document.createElement('option');
-  o.value=id; o.textContent=p.nombre+(p.activa?'':' (próximamente)');
-  sel.appendChild(o);
-}
-sel.value='cienfuegos';
-sel.addEventListener('change',()=>cargar(sel.value,true));
-
-function volar(centro,zoom){
-  moviendo=true;
-  map.once('moveend',()=>setTimeout(()=>{moviendo=false},60));
-  setTimeout(()=>{moviendo=false},2500);         // por si flyTo no emite moveend
-  map.flyTo(centro,zoom,{duration:1});
-}
-const distancia=(la1,lo1,la2,lo2)=>{const R=6371,r=Math.PI/180,a=Math.sin((la2-la1)*r/2)**2+Math.cos(la1*r)*Math.cos(la2*r)*Math.sin((lo2-lo1)*r/2)**2;return 2*R*Math.asin(Math.sqrt(a))};
-function provinciaCercana(lat,lng,soloActivas){
-  let mejor=null,md=1e9;
-  for(const [id,p] of Object.entries(PROVINCIAS)){
-    if(soloActivas&&!p.activa) continue;
-    const d=distancia(lat,lng,p.centro[0],p.centro[1]); if(d<md){md=d;mejor=id}
-  }
-  return {id:mejor,d:md};
-}
-
-// Alcance fijo: Cienfuegos. No se cambia de provincia por arrastrar el mapa.
-let busqueda='';
-$('buscar').addEventListener('input',e=>{busqueda=e.target.value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();renderizar();});
-$('plegar').addEventListener('click',()=>{const hidden=$('contenidoPanel').hidden=!$('contenidoPanel').hidden;$('plegar').textContent=hidden?'+':'−';$('plegar').setAttribute('aria-expanded',String(!hidden));$('panelPrincipal').classList.toggle('plegado',hidden);});
-function avisoBreve(texto){$('mapToast').textContent=texto;$('mapToast').style.display='block';clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>$('mapToast').style.display='none',5000);}
-function fechaCuba(value){return value?new Date(value).toLocaleString('es-CU',{timeZone:'America/Havana',dateStyle:'short',timeStyle:'short'}):'—';}
-function enlaceFuente(url){return typeof url==='string'&&/^https:\/\/t\.me\/empresaelectricacienfuegos1\/\d+$/.test(url)?url:null;}
-document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
-  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('activo'));
-  t.classList.add('activo'); filtroActual=t.dataset.tab; renderizar();
-}));
-
-async function getJSON(url){const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),15000);try{const r=await fetch(url+'?v='+Date.now(),{cache:'no-store',signal:ctrl.signal});if(!r.ok)throw new Error(r.status);return await r.json();}finally{clearTimeout(timer);}}
-
-async function cargar(prov,mover=true){
-  const mi=++reqId;                 // descarta respuestas viejas si el usuario cambió de provincia
-  provActual=prov; marcadores={};
-  tourSalir();  // Salir del modo recorrido al cambiar de provincia
-  const p=PROVINCIAS[prov];
-  $('upd').textContent='Cargando…';
-  try{
-    const [circ,est]=await Promise.all([
-      getJSON(`data/circuitos_${prov}.json`),
-      getJSON(`data/estado_${prov}.json`).catch(()=>null)
-    ]);
-    if(mi!==reqId) return;
-    datosCache={circ:(circ.circuitos||{}), est:est||{afectados:{},programados:{},estado_datos:'sin_reporte_reciente'}};
-    renderizar();
-  }catch(e){
-    if(mi!==reqId) return;
-    if(datosCache.circ){datosCache.est={...datosCache.est,estado_datos:'error'};renderizar();}else{layerGroup.clearLayers();['cAfect','cProg','cOk','cDesc'].forEach(i=>$(i).textContent='–');}
-    $('upd').textContent='No se pudieron actualizar los datos. Reintenta con ↻.';
-    $('estadoPill').textContent='Conexión interrumpida';
-  }
-  if(mover) volar(p.centro,10);
-}
-
-function estadoDe(id,est,datosOk){
-  const prueba=(est.evidencias||{})[id]||(est.confirmados_con_servicio||{})[id]||(est.restablecimientos_probables||{})[id];
-  const fecha=prueba?.fecha||est.reporte_fecha;
-  const sinBloqueo=est.schema>=4||!(est.lectura_incompleta_desde&&Date.parse(est.lectura_incompleta_desde)>Date.parse(fecha));
-  const reciente=sinBloqueo&&fecha&&Date.now()-Date.parse(fecha)<12*36e5&&Date.parse(fecha)<=Date.now()+5*60000;
-  if(datosOk&&reciente&&Object.hasOwn(est.afectados||{},id)) return 'afect';
-  const plan=(est.horarios||{})[id];
-  const fin=plan?.fin?Date.parse(plan.fin):Date.parse(est.programado_fecha)+12*36e5;
-  if(est.estado_datos!=='error'&&Object.hasOwn(est.programados||{},id)&&fin>Date.now()) return 'prog';
-  if(datosOk&&reciente&&Object.hasOwn(est.confirmados_con_servicio||{},id)) return 'ok';
-  if(datosOk&&reciente&&Object.hasOwn(est.restablecimientos_probables||{},id)) return 'prob';
-  return 'desc';
-}
-
-const COLOR={afect:'red',prog:'orange',ok:'green',prob:'teal',desc:'gray'};
-const BADGE={afect:'<span class="badge red">SIN SERVICIO</span>',prog:'<span class="badge orange">PROGRAMADO</span>',
-             ok:'<span class="badge green">CON SERVICIO</span>',prob:'<span class="badge teal">RESTABLECIMIENTO PROBABLE</span>',desc:'<span class="badge gray">SIN CONFIRMAR</span>'};
-
-function leerCorreccion(ck){ try{const s=localStorage.getItem(ck); return s?JSON.parse(s):null}catch(e){return null} }
-function guardarCorreccion(ck,v){ try{localStorage.setItem(ck,JSON.stringify(v));return true}catch(e){return false} }
-
-function renderizar(){
-  if(tour.activo)tourSalir();
-  layerGroup.clearLayers(); marcadores={};
-  const {circ={},est={}}=datosCache;
-  const ids=[...new Set([...Object.keys(circ),...Object.keys(est.afectados||{}),...Object.keys(est.programados||{}),...Object.keys(est.restablecimientos_probables||{}),...Object.keys(est.confirmados_con_servicio||{}),...Object.keys(est.afectaciones_parciales||{})])];
-  $('totalCatalogo').textContent=ids.length+' circuitos';
-  const f=est.actualizado?new Date(est.actualizado):null;
-
-  // Avisos de fiabilidad de datos (nunca pintar verde sin respaldo)
-  const av=$('aviso'); av.style.display='none'; av.classList.remove('rojo');
-  const monitorReciente=f&&Date.now()-f.getTime()<MAX_MONITOR_ATRASADO_H*36e5;
-  const datosOk = est.estado_datos==='ok'&&monitorReciente;
-  let msg='';
-  if(est.estado_datos==='sin_fuente') msg='Esta provincia no publica listas de circuitos afectados: no se puede saber si hay servicio.';
-  else if(est.estado_datos==='error') msg='Error al leer la fuente oficial; se muestran los últimos datos conocidos.';
-  else if(est.reporte_vencido) msg='El último reporte oficial es antiguo (más de 12 h). No se muestra como actual.';
-  else if(!datosOk) msg='No hay información reciente suficiente para confirmar el servicio.';
-  else if(est.cobertura!=='provincial') msg='Las listas completas retiran los cortes anteriores de la misma causa. Turquesa indica reposición probable; verde requiere confirmación oficial.';
-  if(est.lectura?.no_leidos) msg+=' Hay publicaciones pendientes de lectura.';
-  $('estadoPill').textContent=datosOk?'Avisos recientes disponibles':'Servicio pendiente de confirmar';
-  $('reporteHora').textContent='Último aviso: '+fechaCuba(est.reporte_fecha)+' · hora de Cuba';
-
-  if(f && (Date.now()-f.getTime())/36e5 > MAX_MONITOR_ATRASADO_H){ msg=(msg?msg+' ':'')+'Además, el monitor lleva horas sin actualizarse.'; av.classList.add('rojo'); }
-  if(msg){ av.textContent=msg; av.style.display='block'; }
-
-  if(!ids.length){
-    ['cAfect','cProg','cOk','cDesc','cProb'].forEach(i=>$(i).textContent='–');
-    $('sinub').style.display='none';
-    $('upd').textContent='Esta provincia aún no tiene circuitos catalogados.';
-    $('mwLine').style.display='none';
-    return;
-  }
-
-  let n={afect:0,prog:0,ok:0,prob:0,desc:0}, pines=0; const sinUbicar=[]; const jobs=[];
-  for(const id of ids){
-    const c=circ[id]||{lugares:[],puntos:[],ubicado:false}, st=estadoDe(id,est,datosOk);
-    n[st]++;
-    const buscable=[id,...(c.lugares||[])].join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-    if(busqueda&&!buscable.includes(busqueda)) continue;
-    if(filtroActual==='ahora' && st!=='afect') continue;
-    if(filtroActual==='programados' && st!=='prog') continue;
-    if(!c.ubicado || !(c.puntos||[]).length){
-      sinUbicar.push({id,st,zonas:(est.afectados&&est.afectados[id])||(est.programados&&est.programados[id])||[]});
-      continue;
-    }
-    if((c.lugares_sin_ubicar||[]).length)sinUbicar.push({id,st,zonas:c.lugares_sin_ubicar});
-    // Un circuito se cuenta una vez aunque abarque varias localidades.
-    for(const pt of c.puntos){if(Number.isFinite(pt.lat)&&Number.isFinite(pt.lng)&&dentroProvincia(pt.lat,pt.lng))jobs.push({id,c,st,pt});}
-  }
-  if(!jobs.length&&busqueda)avisoBreve('No hay puntos ubicados que coincidan con la búsqueda.');
-  const parpadeo = jobs.length<=MAX_PINES_PARPADEO;
-  $('map').classList.toggle('parpadeo',parpadeo);
-
-  for(const {id,c,st,pt} of jobs){
-    const ck=`corr2_${provActual}_${id}_${pt.lugar}`;
-    const rawCorr=leerCorreccion(ck);
-    const corr=rawCorr&&Number.isFinite(rawCorr.lat)&&Number.isFinite(rawCorr.lng)&&dentroProvincia(rawCorr.lat,rawCorr.lng)?rawCorr:null;
-    const lat=corr?corr.lat:pt.lat, lng=corr?corr.lng:pt.lng;
-    const dudoso=!!pt.dudoso && !corr;
-    const icon=L.divIcon({className:'',iconSize:[18,18],
-      html:`<div class="dot ${COLOR[st]}${dudoso?' dudoso':''}${corr?' corregido':''}" style="width:18px;height:18px"></div>`});
-    const mk=L.marker([lat,lng],{icon}).addTo(layerGroup);
-    mk._m={ck,id,lugar:pt.lugar,prov:provActual,lat,lng,color:COLOR[st]};
-    marcadores[ck]=mk;
-    const zonas=(st==='afect'?est.afectados[id]:st==='prog'?est.programados[id]:null)||[];
-    let extra='';
-    if(st==='afect'){
-      const t=(est.tiempos||{})[id], causa=(est.causas||{})[id];
-      if(t) extra+=`<br>⏱️ <b>${esc(t)}</b> sin servicio`;
-      if(causa) extra+=`<br>🔧 Causa: ${esc(causa)}`;
-      // Servicios críticos en [corchetes]: 💧 bombeo, 🏨 hoteles, etc.
-      const servicios = (Array.isArray(zonas)?zonas:[]).filter(z=>z.startsWith('[')&&z.endsWith(']'));
-      for(const s of servicios){
-        const txt = esc(s.slice(1,-1));
-        const icono = /bombeo|agua/i.test(txt) ? '💧' : /hotel/i.test(txt) ? '🏨' : /hospital/i.test(txt) ? '🏥' : '⚠️';
-        extra += `<br>${icono} <b>${txt}</b>`;
-      }
-    }
-    const prueba=(est.evidencias||{})[id]||(est.confirmados_con_servicio||{})[id]||(est.restablecimientos_probables||{})[id];
-    if(st==='prob'){
-      extra+='<div class="inferencia">Ya no aparece en una lista completa de '+esc(prueba?.alcance==='averia'?'averías':'déficit')+'. Es una deducción; no confirma que todas las viviendas tengan corriente.</div>';
-
-    }
-    for(const seccion of est.afectaciones_parciales?.[id]||[]){
-      extra+=`<br><small>Avería de sección ${esc(seccion.seccion)}: ${esc((seccion.lugares||[]).join(', '))}. ${seccion.vigente?'No representa todo el circuito.':'Aviso antiguo, pendiente de confirmación.'}</small>`;
-
-    }
-    if(prueba){extra+=`<br><small>Aviso: ${esc(fechaCuba(prueba.fecha))}</small>`;if(prueba.medio==='imagenes'||prueba.medio==='pdf')extra+='<br><small>Lectura de imagen o documento</small>';}
-    const horario=(est.horarios||{})[id];if(st==='prog'&&horario){extra+=`<br>Previsto: ${esc(fechaCuba(horario.inicio))}<br>Hasta: ${esc(fechaCuba(horario.fin))}`;}
-    const nota = corr ? '<br><i style="color:#38bdf8">✏️ Corregido por ti</i>'
-      : dudoso ? '<br><i style="color:#f59e0b">⚠️ Ubicación por confirmar</i>'
-      : pt.precision==='ciudad' ? '<br><i style="color:#9aa4b8">📍 Ubicación a nivel de pueblo/ciudad</i>' : '';
-    const repBadge = badgeReporte(id, st);
-    mk.bindPopup(
-      `${BADGE[st]}<br><b style="font-size:15px">${esc(pt.lugar || `Circuito ${id}`)}</b><br><small>Circuito ${esc(id)}</small>` +
-      nota + extra + repBadge +
-      `<br><button class="pbtn" data-act="mover" data-ck="${esc(ck)}">Mover punto</button><button class="pbtn" data-act="reportar" data-ck="${esc(ck)}">Enviar corrección</button>`+(REPORT_API?`<br><button class="pbtn" data-reportar="${esc(id)}" data-lugar="${esc(pt.lugar||'')}">Reportar servicio</button>`:''));
-    mk.on('dragend',()=>onDragEnd(mk));
-    pines++;
-  }
-
-  $('cAfect').textContent=String(n.afect); $('cProg').textContent=String(n.prog); $('cOk').textContent=String(n.ok); $('cDesc').textContent=String(n.desc);
-  $('cProb').textContent=String(n.prob);
-  if(datosOk&&est.mw!=null){ $('mwVal').textContent=est.mw; $('mwLine').style.display='block'; } else $('mwLine').style.display='none';
-
-  const sb=$('sinub');
-  if(sinUbicar.length){
-    sb.style.display='block';
-    $('sinubTitulo').textContent=`${sinUbicar.length} circuito(s) con localidades por ubicar`;
-    const ul=$('sinubLista'); ul.textContent='';
-    for(const s of sinUbicar){
-      const li=document.createElement('li');
-      const i=document.createElement('i'); i.style.background={afect:'#ef4444',prog:'#f59e0b',ok:'#22c55e',prob:'#5eead4',desc:'#6b7280'}[s.st];
-      li.appendChild(i);
-      li.appendChild(document.createTextNode(s.id+(s.st==='afect'?' — SIN SERVICIO':s.st==='prog'?' — programado':s.st==='prob'?' — restablecimiento probable':'')+(s.zonas.length?' ('+s.zonas.join(', ')+')':'')));
-      ul.appendChild(li);
-    }
-  } else sb.style.display='none';
-
-  const partes=[];
-  partes.push('Actualizado: '+fechaCuba(est.actualizado));
-  if(est.hora_inicio) partes.push('Desde: '+est.hora_inicio);
-  if(est.cierre) partes.push('Cierre: '+est.cierre);
-  $('upd').textContent=partes.join(' | ');
-  // Si hay búsqueda activa con resultados, mover el mapa al primero
-  if(busqueda && jobs.length){
-    const primero = jobs[0];
-    if(primero && primero.pt && Number.isFinite(primero.pt.lat)){
-      try{ map.setView([primero.pt.lat, primero.pt.lng], 13, {animate:true}); }catch(e){}
-    }
-  }
-}
-
-// Un solo manejador para los botones de los popups (sin onclick inline)
-document.addEventListener('click',e=>{
-  const b=e.target.closest('button[data-act]'); if(!b) return;
-  const mk=marcadores[b.dataset.ck]; if(!mk) return;
-  if(b.dataset.act==='mover'){
-    map.closePopup();
-    if(layerGroup.getVisibleParent && layerGroup.getVisibleParent(mk)!==mk){ map.setView(mk.getLatLng(),16); setTimeout(()=>activarDrag(mk),700); }
-    else activarDrag(mk);
-  } else reportar(mk);
-});
-function activarDrag(mk){ mk.dragging.enable(); mk.setOpacity(.6); alert('Arrastra el punto a la ubicación correcta y suéltalo.'); }
-function onDragEnd(mk){
-  mk.dragging.disable(); mk.setOpacity(1);
-  const ll=mk.getLatLng(), m=mk._m;
-  if(confirm(`¿Seguro que "${m.lugar||m.id}" está aquí?\n\nSe guardará solo en tu dispositivo.`)){
-    if(!dentroProvincia(ll.lat,ll.lng)){mk.setLatLng([m.lat,m.lng]);avisoBreve('La corrección debe quedar en el área de Cienfuegos.');return;}
-    if(!guardarCorreccion(m.ck,{lat:+ll.lat.toFixed(5),lng:+ll.lng.toFixed(5)})){mk.setLatLng([m.lat,m.lng]);avisoBreve('No se pudo guardar en este dispositivo.');return;}
-    m.lat=ll.lat;m.lng=ll.lng;
-    mk.setIcon(L.divIcon({className:'',iconSize:[18,18],html:`<div class="dot ${m.color} corregido" style="width:18px;height:18px"></div>`}));
-    alert('Guardado en tu dispositivo. Usa "📤 Reportar" para enviarlo a revisión.');
-  } else mk.setLatLng([m.lat,m.lng]);
-}
-// Reporte: abre un Issue de GitHub prellenado (no requiere formulario externo)
-function reportar(mk){
-  const m=mk._m, c=leerCorreccion(m.ck);
-  if(!c){ alert('Primero usa "✏️ Mover punto" y colócalo en la ubicación correcta.'); return; }
-  const titulo=`Corrección de ubicación: ${m.prov} / ${m.id} / ${m.lugar}`;
-  const cuerpo=`provincia: ${m.prov}\ncircuito: ${m.id}\nlugar: ${m.lugar}\nlat: ${c.lat}\nlng: ${c.lng}\n\n(Opcional: fuente o referencia de la ubicación correcta)`;
-  const url=`${REPO_URL}/issues/new?labels=ubicacion&title=${encodeURIComponent(titulo)}&body=${encodeURIComponent(cuerpo)}`;
-  if(confirm('Se abrirá GitHub para enviar tu corrección a revisión. ¿Continuar?')) window.open(url,'_blank','noopener');
-}
-
-// Geolocalización
-let miPos=null;
-const userIcon=L.divIcon({className:'',html:'<div style="width:20px;height:20px;border-radius:50%;background:#3b82f6;border:3px solid #fff;box-shadow:0 0 10px #3b82f6"></div>',iconSize:[20,20]});
-function irAMiPos(){
-  if(miPos){if(!dentroProvincia(miPos[0],miPos[1])){avisoBreve('Tu ubicación está fuera del área de Cienfuegos.');return;}volar(miPos,12);}
-  else if(navigator.geolocation) navigator.geolocation.getCurrentPosition(p=>{miPos=[p.coords.latitude,p.coords.longitude];irAMiPos()},()=>avisoBreve('No se pudo obtener tu ubicación.'),{timeout:10000});
-}
-$('btnUbic').addEventListener('click',irAMiPos);
-$('btnRefresh').addEventListener('click',()=>cargar('cienfuegos',false));
-
-// Recorrido: tocar un contador para ver los puntos uno por uno
-document.querySelector('.stat.red').addEventListener('click',()=>iniciarTour('afect'));
-document.querySelector('.stat.orange').addEventListener('click',()=>iniciarTour('prog'));
-document.querySelector('.stat.green').addEventListener('click',()=>iniciarTour('ok'));
-document.querySelector('.stat.teal').addEventListener('click',()=>iniciarTour('prob'));
-document.querySelector('.stat.gray').addEventListener('click',()=>iniciarTour('desc'));
-$('tourNext').addEventListener('click',tourSiguiente);
-$('tourPrev').addEventListener('click',tourAnterior);
-$('tourSalir').addEventListener('click',tourSalir);
-
-cargar('cienfuegos',false);
-volar([22.15,-80.45],10);
-setInterval(()=>cargar(sel.value,false),5*60*1000);
-
-// Los reportes comunitarios usan un servidor opcional, sin credenciales en el navegador.
-const REPORT_API = window.MAPA_CONFIG?.reportApi || '';
-let reportesCache = [];
-function badgeReporte(id){
- const rs=reportesCache.filter(r=>r.provincia==='cienfuegos'&&r.circuito_id===id&&Date.now()-r.timestamp<7200000);
- const on=rs.filter(r=>r.tipo==='on').length,off=rs.filter(r=>r.tipo==='off').length;
- return rs.length?`<br><small>Comunidad (sin verificar): ${on} con luz · ${off} sin luz</small>`:'';
-}
-async function cargarReportes(){
- if(!REPORT_API)return;
- try{const r=await fetch(REPORT_API.replace(/\/$/,'')+'/reportes',{signal:AbortSignal.timeout(10000)});if(!r.ok)return;const j=await r.json();reportesCache=Array.isArray(j.reportes)?j.reportes:[];renderizar();}catch(e){}
-}
-const dialog=document.createElement('dialog');dialog.style.cssText='margin:auto;border:1px solid #7cc8b0;border-radius:18px;padding:24px;background:#102329;color:#edf7f5;max-width:90vw';
-document.body.appendChild(dialog);
-document.addEventListener('click',e=>{
- const b=e.target.closest('[data-reportar]');if(!b||!REPORT_API)return;
- dialog.replaceChildren();const p=document.createElement('p');p.textContent='¿Hay electricidad en '+(b.dataset.lugar||b.dataset.reportar)+'?';dialog.appendChild(p);
- for(const [label,tipo] of [['Sí hay','on'],['No hay','off'],['Cancelar',null]]){const btn=document.createElement('button');btn.className='pbtn';btn.textContent=label;dialog.appendChild(btn);btn.addEventListener('click',async()=>{
-  if(!tipo){dialog.close();return;}dialog.querySelectorAll('button').forEach(x=>x.disabled=true);
-  try{const r=await fetch(REPORT_API.replace(/\/$/,'')+'/reporte',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({provincia:'cienfuegos',circuito_id:b.dataset.reportar,lugar:b.dataset.lugar,tipo}),signal:AbortSignal.timeout(12000)});const j=await r.json();if(!r.ok||!j.ok)throw new Error(j.error||'No se pudo enviar');dialog.close();avisoBreve('Reporte recibido. Se mostrará como información de la comunidad.');cargarReportes();}catch(err){dialog.close();avisoBreve(err.message);}
- });}dialog.showModal();
-});
-if(REPORT_API){cargarReportes();setInterval(cargarReportes,120000);}
-
+  bEs.addEventListener("click", function(){ idioma("es"); });
+  bEn.addEventListener("click", function(){ idioma("en"); });
+  var guardado = null;
+  try{ guardado = localStorage.getItem("mapa-idioma"); }catch(e){}
+  if (guardado === "en" || (!guardado && (navigator.language || "").indexOf("en") === 0)) idioma("en");
 </script>
 </body>
 </html>
